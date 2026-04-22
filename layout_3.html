@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОСМОНАВИГАТОР // TERMINAL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --g:   #00ff41;
+            --gd:  rgba(0,255,65,0.35);
+            --gm:  rgba(0,255,65,0.6);
+            --amb: #ffb700;
+            --red: #ff3333;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background: #000;
+            color: var(--g);
+            font-family: 'Share Tech Mono', 'Courier New', monospace;
+            font-size: 12px;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* ── CRT scanlines ── */
+        body::before {
+            content: '';
+            position: fixed; inset: 0;
+            background: repeating-linear-gradient(0deg,
+                transparent, transparent 2px,
+                rgba(0,0,0,0.07) 2px, rgba(0,0,0,0.07) 4px);
+            pointer-events: none; z-index: 9998;
+        }
+        /* ── CRT vignette ── */
+        body::after {
+            content: '';
+            position: fixed; inset: 0;
+            background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.55) 100%);
+            pointer-events: none; z-index: 9997;
+        }
+
+        /* ── Scrollbar ── */
+        ::-webkit-scrollbar { width: 3px; }
+        ::-webkit-scrollbar-track { background: #000; }
+        ::-webkit-scrollbar-thumb { background: var(--gd); }
+
+        /* ── Glow utilities ── */
+        .glow    { text-shadow: 0 0 6px var(--g), 0 0 14px rgba(0,255,65,.3); }
+        .glow-sm { text-shadow: 0 0 5px var(--g); }
+        .glow-a  { text-shadow: 0 0 6px var(--amb); }
+        .glow-r  { text-shadow: 0 0 6px var(--red); }
+
+        /* ── Animations ── */
+        @keyframes blink     { 0%,100%{opacity:1}  50%{opacity:0}   }
+        @keyframes blink-s   { 0%,100%{opacity:1}  50%{opacity:.25} }
+        @keyframes pulse-dot { 0%,100%{box-shadow:0 0 4px var(--g)} 50%{box-shadow:0 0 14px var(--g),0 0 28px rgba(0,255,65,.3)} }
+        @keyframes flicker   { 0%,91%,100%{opacity:1} 92%{opacity:.9} 95%{opacity:.95} 98%{opacity:.87} }
+        @keyframes scanmap   { 0%{top:-4px} 100%{top:100%} }
+
+        .blink   { animation: blink   1s   step-end    infinite; }
+        .blink-s { animation: blink-s 2.2s ease-in-out infinite; }
+        .pulse   { animation: pulse-dot 2s  ease-in-out infinite; }
+        .flicker { animation: flicker 12s  ease-in-out infinite; }
+        .scanmap { animation: scanmap 3.5s linear       infinite; }
+
+        /* ── Borders ── */
+        .tb   { border: 1px solid var(--gm); }
+        .tb-d { border: 1px solid var(--gd); }
+
+        /* ── Column structure ── */
+        .col-head {
+            padding: 7px 12px;
+            border-bottom: 1px solid var(--gm);
+            background: rgba(0,255,65,.04);
+            font-size: 11px;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+        .col-scroll {
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: var(--gd) transparent;
+        }
+
+        /* ── Badges ── */
+        .b-go  { color:var(--g);   border:1px solid var(--g); }
+        .b-hld { color:var(--amb); border:1px solid var(--amb); }
+        .b-scr { color:var(--red); border:1px solid var(--red); }
+        .lv1   { color:var(--g);   border:1px solid var(--gd); }
+        .lv2   { color:#88ff88;    border:1px solid rgba(136,255,136,.3); }
+        .lvt   { color:var(--amb); border:1px solid rgba(255,183,0,.4); }
+        .lvx   { color:var(--g);   border:1px solid var(--g); background:rgba(0,255,65,.08); }
+        .inc   { color:var(--red); border:1px solid rgba(255,51,51,.4); }
+
+        /* ── Hover states ── */
+        .l-card:hover { background: rgba(0,255,65,.04); }
+        .n-row:hover  { background: rgba(0,255,65,.035); }
+
+        /* ── Corner brackets ── */
+        .bracket::before,
+        .bracket::after {
+            content: '';
+            position: absolute;
+            width: 8px; height: 8px;
+        }
+        .bracket::before { top: 0; left: 0; border-top: 1px solid var(--g); border-left: 1px solid var(--g); }
+        .bracket::after  { bottom: 0; right: 0; border-bottom: 1px solid var(--g); border-right: 1px solid var(--g); }
+
+        /* ── Data grid cell ── */
+        .dc { padding: 5px 10px; border-right:1px solid rgba(0,255,65,.12); border-bottom:1px solid rgba(0,255,65,.12); }
+        .dc:last-child { border-right:none; }
+        .dc-label { color:var(--gd); font-size:10px; }
+        .dc-val   { font-weight:bold; letter-spacing:.05em; }
+    </style>
+</head>
+
+<body class="flicker">
+
+<!-- ═══════════════════════ HEADER ═══════════════════════ -->
+<header style="height:38px; display:flex; align-items:center; padding:0 14px; gap:10px;
+               border-bottom:1px solid var(--gm); background:rgba(0,255,65,.03);">
+    <span class="glow" style="font-size:14px; letter-spacing:.18em;">// КОСМОНАВИГАТОР</span>
+    <span style="color:var(--gd); font-size:11px;">SYSTEM TERMINAL v3.0</span>
+
+    <div style="display:flex; align-items:center; gap:8px; margin-left:auto; font-size:11px;">
+        <span class="pulse" style="display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--g);"></span>
+        <span style="color:var(--gd);">SYS: ONLINE</span>
+        <span style="color:var(--gd);">|</span>
+        <span class="blink-s" style="color:var(--amb);">▲</span>
+        <span style="color:var(--gd);">МКС: NOMINAL</span>
+        <span style="color:var(--gd);">|</span>
+        <span class="glow-sm" id="clk" style="letter-spacing:.08em;">23.04.2026 // 09:41:07 UTC</span>
+        <span class="blink">█</span>
+    </div>
+</header>
+
+<!-- ═══════════════════════ THREE COLUMNS ═══════════════════════ -->
+<div style="display:flex; height:calc(100vh - 38px);">
+
+<!-- ═══════ LEFT: LAUNCH MONITOR ═══════ -->
+<div style="width:278px; flex-shrink:0; display:flex; flex-direction:column;
+            border-right:1px solid rgba(0,255,65,.25);">
+
+    <div class="col-head" style="display:flex; align-items:center; justify-content:space-between;">
+        <span class="glow-sm">[ ЗАПУСКИ // МОНИТОРИНГ ]</span>
+        <span class="blink">●</span>
+    </div>
+
+    <!-- Next launch bar -->
+    <div style="padding:10px 12px; border-bottom:1px solid rgba(0,255,65,.18); background:rgba(0,255,65,.025);">
+        <div style="display:flex; justify-content:space-between; font-size:10px; color:var(--gd); margin-bottom:6px;">
+            <span>СЛЕД. ЗАПУСК:</span>
+            <span class="glow" style="font-size:10px;">CREW-12</span>
+        </div>
+        <div style="display:flex; justify-content:center; gap:4px; align-items:baseline;">
+            <div style="text-align:center;">
+                <div class="glow" style="font-size:22px; font-weight:bold; line-height:1;" id="ld">02</div>
+                <div style="color:var(--gd); font-size:9px;">ДН</div>
+            </div>
+            <div class="glow" style="font-size:20px; padding-bottom:10px;">:</div>
+            <div style="text-align:center;">
+                <div class="glow" style="font-size:22px; font-weight:bold; line-height:1;" id="lh">21</div>
+                <div style="color:var(--gd); font-size:9px;">ЧС</div>
+            </div>
+            <div class="glow" style="font-size:20px; padding-bottom:10px;">:</div>
+            <div style="text-align:center;">
+                <div class="glow" style="font-size:22px; font-weight:bold; line-height:1;" id="lm">43</div>
+                <div style="color:var(--gd); font-size:9px;">МН</div>
+            </div>
+            <div class="glow" style="font-size:20px; padding-bottom:10px;">:</div>
+            <div style="text-align:center;">
+                <div class="glow" style="font-size:22px; font-weight:bold; line-height:1;" id="ls">07</div>
+                <div style="color:var(--gd); font-size:9px;">СК</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Launch list -->
+    <div class="col-scroll" style="flex:1; padding:8px 0;">
+
+        <!-- Card 1 — GO -->
+        <div class="l-card" style="margin:0 8px 6px; padding:10px; border-left:2px solid var(--g);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span class="glow-sm" style="font-weight:bold; letter-spacing:.1em; font-size:12px;">CREW-12</span>
+                <span class="b-go" style="font-size:10px; padding:1px 6px; font-weight:bold;">[ GO ]</span>
+            </div>
+            <div style="display:grid; grid-template-columns:60px 1fr; gap:3px; font-size:11px;">
+                <span style="color:var(--gd);">НОСИТЕЛЬ</span><span>FALCON 9 / DRAGON</span>
+                <span style="color:var(--gd);">СТАРТ</span><span>LC-39A / KSC, FL</span>
+                <span style="color:var(--gd);">ЦЕЛЬ</span><span>МКС / РОТАЦИЯ</span>
+                <span style="color:var(--gd);">ЭКИПАЖ</span><span>4 ASTRONAUT</span>
+                <span style="color:var(--gd);">Т−МИНУС</span><span class="glow-sm" id="ldt">02d 21h 43m 07s</span>
+            </div>
+            <div style="margin-top:7px;">
+                <span class="lv1" style="font-size:10px; padding:1px 6px; font-weight:bold;">[LVL:1] 5–7 КЛ</span>
+            </div>
+        </div>
+
+        <!-- Card 2 — HOLD -->
+        <div class="l-card" style="margin:0 8px 6px; padding:10px; border-left:2px solid rgba(255,183,0,.7);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span class="glow-a" style="font-weight:bold; letter-spacing:.1em; font-size:12px;">ARIANE 6 F04</span>
+                <span class="b-hld" style="font-size:10px; padding:1px 6px; font-weight:bold;">[ HOLD ]</span>
+            </div>
+            <div style="display:grid; grid-template-columns:60px 1fr; gap:3px; font-size:11px;">
+                <span style="color:var(--gd);">НОСИТЕЛЬ</span><span>ARIANE 62</span>
+                <span style="color:var(--gd);">СТАРТ</span><span>ELA-4 / KOUROU</span>
+                <span style="color:var(--gd);">ПОЛЕЗН.</span><span>2× TELESAT LEO</span>
+                <span style="color:var(--gd);">Т−МИНУС</span><span style="color:var(--amb);">08d 14h 20m 00s</span>
+                <span style="color:var(--gd);">ПРИЧИНА</span><span class="blink-s" style="color:var(--amb);">WEATHER HOLD</span>
+            </div>
+            <div style="margin-top:7px;">
+                <span class="lvx" style="font-size:10px; padding:1px 6px; font-weight:bold;">[LVL:X] ПРОФИ</span>
+            </div>
+        </div>
+
+        <!-- Card 3 — GO -->
+        <div class="l-card" style="margin:0 8px 6px; padding:10px; border-left:2px solid var(--gd);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span class="glow-sm" style="font-weight:bold; letter-spacing:.1em; font-size:12px;">STARLINER OFT-3</span>
+                <span class="b-go" style="font-size:10px; padding:1px 6px; font-weight:bold;">[ GO ]</span>
+            </div>
+            <div style="display:grid; grid-template-columns:60px 1fr; gap:3px; font-size:11px;">
+                <span style="color:var(--gd);">НОСИТЕЛЬ</span><span>ATLAS V N22</span>
+                <span style="color:var(--gd);">СТАРТ</span><span>SLC-41 / CCSFS</span>
+                <span style="color:var(--gd);">ЦЕЛЬ</span><span>МКС / DEMO</span>
+                <span style="color:var(--gd);">Т−МИНУС</span><span>15d 08h 00m 00s</span>
+            </div>
+            <div style="margin-top:7px;">
+                <span class="lv2" style="font-size:10px; padding:1px 6px; font-weight:bold;">[LVL:2] 8–9 КЛ</span>
+            </div>
+        </div>
+
+        <!-- Card 4 — GO -->
+        <div class="l-card" style="margin:0 8px 6px; padding:10px; border-left:2px solid var(--gd);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span class="glow-sm" style="font-weight:bold; letter-spacing:.1em; font-size:12px;">PROGRESS MS-29</span>
+                <span class="b-go" style="font-size:10px; padding:1px 6px; font-weight:bold;">[ GO ]</span>
+            </div>
+            <div style="display:grid; grid-template-columns:60px 1fr; gap:3px; font-size:11px;">
+                <span style="color:var(--gd);">НОСИТЕЛЬ</span><span>СОЮЗ-2.1А</span>
+                <span style="color:var(--gd);">СТАРТ</span><span>БАЙКОНУР / 1/5</span>
+                <span style="color:var(--gd);">ГРУЗ</span><span>CARGO → МКС</span>
+                <span style="color:var(--gd);">Т−МИНУС</span><span>22d 03h 45m 00s</span>
+            </div>
+            <div style="margin-top:7px;">
+                <span class="lv1" style="font-size:10px; padding:1px 6px; font-weight:bold;">[LVL:1] 5–7 КЛ</span>
+            </div>
+        </div>
+
+        <!-- Card 5 — SCRUB -->
+        <div class="l-card" style="margin:0 8px 6px; padding:10px; border-left:2px solid rgba(255,51,51,.5); opacity:.65;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <span style="color:var(--red); font-weight:bold; letter-spacing:.1em; font-size:12px;">VEGA-C VV24</span>
+                <span class="b-scr" style="font-size:10px; padding:1px 6px; font-weight:bold;">[ SCRUB ]</span>
+            </div>
+            <div style="display:grid; grid-template-columns:60px 1fr; gap:3px; font-size:11px; color:var(--gd);">
+                <span>НОСИТЕЛЬ</span><span>VEGA-C</span>
+                <span>ПРИЧИНА</span><span class="blink-s" style="color:var(--red);">TECH ANOMALY</span>
+                <span>СТАТУС</span><span style="color:var(--red);">RESCHEDULED TBD</span>
+            </div>
+        </div>
+
+        <div style="padding:8px 12px 4px; color:var(--gd); font-size:10px; border-top:1px dashed rgba(0,255,65,.15); margin-top:4px;">
+            &gt;&gt; SRC: THESPACEDEVS.COM<br>
+            &gt;&gt; UPD: 23.04.2026 09:41 UTC<span class="blink"> █</span>
+        </div>
+    </div>
+</div>
+
+
+<!-- ═══════ CENTER: DATA STREAM ═══════ -->
+<div style="flex:1; display:flex; flex-direction:column; border-right:1px solid rgba(0,255,65,.25);">
+
+    <div class="col-head" style="display:flex; align-items:center; justify-content:space-between;">
+        <span class="glow-sm">[ ПОТОК ДАННЫХ // DATA STREAM ]</span>
+        <span class="blink-s" style="color:var(--amb); font-size:11px;">▼ INCOMING</span>
+    </div>
+
+    <!-- Filter bar -->
+    <div style="display:flex; align-items:center; gap:6px; padding:6px 12px;
+                border-bottom:1px solid rgba(0,255,65,.12); background:rgba(0,255,65,.015); font-size:11px;">
+        <span style="color:var(--gd);">FILTER:</span>
+        <button style="padding:1px 8px; border:1px solid var(--g); color:var(--g); background:rgba(0,255,65,.08); cursor:pointer;">ALL</button>
+        <button style="padding:1px 8px; border:1px solid var(--gd); color:var(--gd); background:none; cursor:pointer;">ЛУНА</button>
+        <button style="padding:1px 8px; border:1px solid var(--gd); color:var(--gd); background:none; cursor:pointer;">МАРС</button>
+        <button style="padding:1px 8px; border:1px solid var(--gd); color:var(--gd); background:none; cursor:pointer;">МКС</button>
+        <button style="padding:1px 8px; border:1px solid var(--gd); color:var(--gd); background:none; cursor:pointer;">УЧИТ.</button>
+        <span style="margin-left:auto; color:var(--gd);">PKT: <span class="glow-sm" id="pkts">1847</span></span>
+    </div>
+
+    <!-- News entries -->
+    <div class="col-scroll" style="flex:1; padding:0 12px;">
+
+        <!-- Entry 1 -->
+        <div class="n-row" style="padding:11px 4px; border-bottom:1px solid rgba(0,255,65,.1);">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:5px; font-size:10px; color:var(--gd); flex-wrap:wrap;">
+                <span class="glow-sm">23.04.2026 // 09:38:22Z</span>
+                <span>|</span><span style="color:var(--g);">[NASA]</span>
+                <span>|</span><span class="lv1" style="padding:0 5px; font-size:10px;">[LVL:1] 5–7 КЛ</span>
+                <span class="blink-s" style="margin-left:auto;">●</span>
+            </div>
+            <p class="glow-sm" style="font-weight:bold; font-size:12px; line-height:1.4; margin-bottom:5px;">
+                &gt;&gt; ARTEMIS-III: ЭКИПАЖ ЛУННОЙ ВЫСАДКИ ОФИЦИАЛЬНО НАЗНАЧЕН
+            </p>
+            <p style="color:rgba(0,255,65,.7); font-size:11px; line-height:1.6; margin-bottom:5px;">
+                Четыре астронавта совершат первую высадку на Южный полюс Луны. Старт — Q4 2026.
+                Посадочный модуль: Starship HLS. Впервые на Луну ступит женщина-астронавт.
+            </p>
+            <div style="display:flex; gap:12px; font-size:10px; color:var(--gd);">
+                <span>SRC: NASA-HQ/PRESSREL</span><span>|</span>
+                <span>#MOON #ARTEMIS #CREW</span>
+                <span style="margin-left:auto; color:var(--g);">READ &gt;&gt;</span>
+            </div>
+        </div>
+
+        <!-- Entry 2 -->
+        <div class="n-row" style="padding:11px 4px; border-bottom:1px solid rgba(0,255,65,.1);">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:5px; font-size:10px; color:var(--gd); flex-wrap:wrap;">
+                <span>23.04.2026 // 08:15:04Z</span>
+                <span>|</span><span style="color:var(--g);">[ESA]</span>
+                <span>|</span><span class="lvx" style="padding:0 5px; font-size:10px;">[LVL:X] ПРОФИ</span>
+            </div>
+            <p class="glow-sm" style="font-weight:bold; font-size:12px; line-height:1.4; margin-bottom:5px;">
+                &gt;&gt; ESPRIT MODULE QUAL TEST COMPLETE — GATEWAY READY
+            </p>
+            <p style="color:rgba(0,255,65,.7); font-size:11px; line-height:1.6; margin-bottom:5px;">
+                Европейский модуль заправки для Gateway прошёл финальные квалификационные испытания в ESTEC.
+                ΔMASS: 4200 кг. PROPELLANT: 1800 кг MMH/NTO. Запуск: Q3 2027.
+            </p>
+            <div style="display:flex; gap:12px; font-size:10px; color:var(--gd);">
+                <span>SRC: ESA-ESTEC/TN-2026-047</span><span>|</span>
+                <span>#GATEWAY #MOON #HW</span>
+                <span style="margin-left:auto; color:var(--g);">READ &gt;&gt;</span>
+            </div>
+        </div>
+
+        <!-- Entry 3 — Teacher -->
+        <div class="n-row" style="padding:11px 4px; border-bottom:1px solid rgba(0,255,65,.1);">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:5px; font-size:10px; color:var(--gd); flex-wrap:wrap;">
+                <span>22.04.2026 // 22:07:51Z</span>
+                <span>|</span><span style="color:var(--amb);">[РОСКОСМОС]</span>
+                <span>|</span><span class="lvt" style="padding:0 5px; font-size:10px;">[LVL:T] УЧИТЕЛЬ</span>
+            </div>
+            <p class="glow-sm" style="font-weight:bold; font-size:12px; line-height:1.4; margin-bottom:5px;">
+                &gt;&gt; МЕТОД. ПОСОБИЕ «ЛУНА: ОТ МИФА К НАУКЕ» — ДОСТУПНО ДЛЯ СКАЧИВАНИЯ
+            </p>
+            <p style="color:rgba(0,255,65,.7); font-size:11px; line-height:1.6; margin-bottom:5px;">
+                Комплект для 8–10 кл. по ФГОС. Разработка: МГУ + МГПУ. Состав: презентации×12, задания×30, тесты×8.
+            </p>
+            <div style="display:flex; gap:12px; font-size:10px; color:var(--gd);">
+                <span>SRC: ROSCOSMOS/EDU-2026</span><span>|</span>
+                <span>#TEACHER #EDU #MOON</span>
+                <span style="margin-left:auto; color:var(--g);">DOWNLOAD &gt;&gt;</span>
+            </div>
+        </div>
+
+        <!-- Entry 4 -->
+        <div class="n-row" style="padding:11px 4px; border-bottom:1px solid rgba(0,255,65,.1);">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:5px; font-size:10px; color:var(--gd); flex-wrap:wrap;">
+                <span>22.04.2026 // 17:34:11Z</span>
+                <span>|</span><span style="color:var(--g);">[NASA/LRO]</span>
+                <span>|</span><span class="lv1" style="padding:0 5px; font-size:10px;">[LVL:1] 5–7 КЛ</span>
+            </div>
+            <p class="glow-sm" style="font-weight:bold; font-size:12px; line-height:1.4; margin-bottom:5px;">
+                &gt;&gt; ПОДТВЕРЖДЕНО: H₂O-ICE DEPOSIT У КР. ШЕКЛТОН // LRO DATA
+            </p>
+            <p style="color:rgba(0,255,65,.7); font-size:11px; line-height:1.6; margin-bottom:5px;">
+                LRO зафиксировал новые залежи льда в PSR-кратерах Южного полюса. Объём: ~600 млн т.
+                Достаточно для снабжения базы на 10+ лет.
+            </p>
+            <div style="display:flex; gap:12px; font-size:10px; color:var(--gd);">
+                <span>SRC: NASA-GSFC/LRO-2026-041</span><span>|</span>
+                <span>#MOON #WATER #LRO</span>
+                <span style="margin-left:auto; color:var(--g);">READ &gt;&gt;</span>
+            </div>
+        </div>
+
+        <!-- Entry 5 — Incident -->
+        <div class="n-row" style="padding:11px 4px 11px 8px; border-bottom:1px solid rgba(0,255,65,.1); border-left:2px solid var(--red);">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:5px; font-size:10px; color:var(--gd); flex-wrap:wrap;">
+                <span>20.04.2026 // 03:14:17Z</span>
+                <span>|</span><span style="color:var(--red);">[ALERT]</span>
+                <span>|</span><span class="inc" style="padding:0 5px; font-size:10px;">[ИНЦИДЕНТ]</span>
+            </div>
+            <p class="glow-r" style="font-weight:bold; font-size:12px; line-height:1.4; margin-bottom:5px; color:var(--red);">
+                &gt;&gt; МКС: МИКРОМЕТЕОРИТ ПОВРЕДИЛ ПАНЕЛЬ P4-3B // ВКД-86 ВЫПОЛНЕН
+            </p>
+            <p style="color:rgba(255,100,100,.7); font-size:11px; line-height:1.6; margin-bottom:5px;">
+                Пробоина ~3 cm². Потеря мощности: 2.1 кВт (3.4%). ВКД-86: 5ч 12мин.
+                Ремонт выполнен. STATUS: NOMINAL.
+            </p>
+            <div style="display:flex; gap:12px; font-size:10px; color:rgba(255,100,100,.45);">
+                <span>SRC: NASA-ISS/OPS-2026-083</span><span>|</span>
+                <span>#ISS #EVA #INCIDENT</span>
+                <span style="margin-left:auto; color:var(--red);">READ &gt;&gt;</span>
+            </div>
+        </div>
+
+        <!-- Entry 6 -->
+        <div class="n-row" style="padding:11px 4px; border-bottom:1px solid rgba(0,255,65,.1);">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:5px; font-size:10px; color:var(--gd); flex-wrap:wrap;">
+                <span>21.04.2026 // 11:20:05Z</span>
+                <span>|</span><span style="color:var(--g);">[JWST]</span>
+                <span>|</span><span class="lv2" style="padding:0 5px; font-size:10px;">[LVL:2] 8–9 КЛ</span>
+            </div>
+            <p class="glow-sm" style="font-weight:bold; font-size:12px; line-height:1.4; margin-bottom:5px;">
+                &gt;&gt; JWST: H₂O ПАРЫ ОБНАРУЖЕНЫ В АТМОСФЕРЕ TRAPPIST-1E
+            </p>
+            <p style="color:rgba(0,255,65,.7); font-size:11px; line-height:1.6; margin-bottom:5px;">
+                Первое прямое подтверждение водяного пара на экзопланете в обитаемой зоне.
+                Dist: 39.5 св. лет. T: ~285K. Orbit: 6.1 сут.
+            </p>
+            <div style="display:flex; gap:12px; font-size:10px; color:var(--gd);">
+                <span>SRC: STScI/JWST-T1E-2026</span><span>|</span>
+                <span>#EXOPLANET #WATER #JWST</span>
+                <span style="margin-left:auto; color:var(--g);">READ &gt;&gt;</span>
+            </div>
+        </div>
+
+        <!-- Entry 7 -->
+        <div class="n-row" style="padding:11px 4px; border-bottom:1px solid rgba(0,255,65,.1);">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:5px; font-size:10px; color:var(--gd); flex-wrap:wrap;">
+                <span>21.04.2026 // 14:52:38Z</span>
+                <span>|</span><span style="color:var(--g);">[ESA]</span>
+                <span>|</span><span class="lvx" style="padding:0 5px; font-size:10px;">[LVL:X] ПРОФИ</span>
+            </div>
+            <p class="glow-sm" style="font-weight:bold; font-size:12px; line-height:1.4; margin-bottom:5px;">
+                &gt;&gt; ION THRUSTER XR-4: ТЯГА ↑ 3× ЗА СЧЁТ ПЛАЗМЕННОГО РЕЗОНАНСА
+            </p>
+            <p style="color:rgba(0,255,65,.7); font-size:11px; line-height:1.6; margin-bottom:5px;">
+                ISP: 8400s. THRUST: 280mN. Применение: межпланетные миссии и HAL orbit.
+                Сертификация ESA запланирована на Q2 2027.
+            </p>
+            <div style="display:flex; gap:12px; font-size:10px; color:var(--gd);">
+                <span>SRC: ESA-ESTEC/ION-2026</span><span>|</span>
+                <span>#PROPULSION #ION #PLASMA</span>
+                <span style="margin-left:auto; color:var(--g);">READ &gt;&gt;</span>
+            </div>
+        </div>
+
+        <!-- Entry 8 — Teacher -->
+        <div class="n-row" style="padding:11px 4px;">
+            <div style="display:flex; align-items:center; gap:6px; margin-bottom:5px; font-size:10px; color:var(--gd); flex-wrap:wrap;">
+                <span>19.04.2026 // 18:00:00Z</span>
+                <span>|</span><span style="color:var(--amb);">[РОСКОСМОС]</span>
+                <span>|</span><span class="lvt" style="padding:0 5px; font-size:10px;">[LVL:T] УЧИТЕЛЬ</span>
+            </div>
+            <p class="glow-sm" style="font-weight:bold; font-size:12px; line-height:1.4; margin-bottom:5px;">
+                &gt;&gt; КОНКУРС «ЛУННАЯ БАЗА БУДУЩЕГО» — СТАРТ ПРИЁМА РАБОТ
+            </p>
+            <p style="color:rgba(0,255,65,.7); font-size:11px; line-height:1.6; margin-bottom:5px;">
+                Всероссийский конкурс 5–11 кл. Форматы: схема / макет / 3D-модель.
+                Главный приз: поездка в ЦПК. DEADLINE: 01.06.2026 // 23:59 MSK.
+            </p>
+            <div style="display:flex; gap:12px; font-size:10px; color:var(--gd);">
+                <span>SRC: ROSCOSMOS/CONTEST-2026</span><span>|</span>
+                <span>#TEACHER #CONTEST #MOON</span>
+                <span style="margin-left:auto; color:var(--g);">REGISTER &gt;&gt;</span>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- ═══════ RIGHT: ISS STATUS ═══════ -->
+<div style="width:278px; flex-shrink:0; display:flex; flex-direction:column;">
+
+    <div class="col-head" style="display:flex; align-items:center; justify-content:space-between;">
+        <span class="glow-sm">[ МКС // ТЕЛЕМЕТРИЯ ]</span>
+        <span class="blink-s" style="color:var(--amb); font-size:10px;">◉ LIVE</span>
+    </div>
+
+    <!-- World map -->
+    <div style="position:relative; margin:8px 10px 6px; border:1px solid rgba(0,255,65,.4);
+                height:148px; overflow:hidden; background:#000; flex-shrink:0;">
+        <!-- Corner brackets -->
+        <div style="position:absolute; top:0; left:0;  width:7px; height:7px; border-top:1px solid var(--g); border-left:1px solid var(--g);"></div>
+        <div style="position:absolute; top:0; right:0; width:7px; height:7px; border-top:1px solid var(--g); border-right:1px solid var(--g);"></div>
+        <div style="position:absolute; bottom:0; left:0;  width:7px; height:7px; border-bottom:1px solid var(--g); border-left:1px solid var(--g);"></div>
+        <div style="position:absolute; bottom:0; right:0; width:7px; height:7px; border-bottom:1px solid var(--g); border-right:1px solid var(--g);"></div>
+        <!-- Scan line -->
+        <div class="scanmap" style="position:absolute; left:0; right:0; height:2px;
+             background:linear-gradient(to right, transparent, rgba(0,255,65,.35), transparent);"></div>
+
+        <svg id="worldmap" viewBox="0 0 360 180" xmlns="http://www.w3.org/2000/svg"
+             style="width:100%; height:100%; display:block;">
+            <rect width="360" height="180" fill="#000"/>
+            <!-- Grid -->
+            <g stroke="rgba(0,255,65,.09)" stroke-width="0.5">
+                <line x1="0" y1="30" x2="360" y2="30"/><line x1="0" y1="60" x2="360" y2="60"/>
+                <line x1="0" y1="120" x2="360" y2="120"/><line x1="0" y1="150" x2="360" y2="150"/>
+                <line x1="60" y1="0" x2="60" y2="180"/><line x1="120" y1="0" x2="120" y2="180"/>
+                <line x1="180" y1="0" x2="180" y2="180"/><line x1="240" y1="0" x2="240" y2="180"/>
+                <line x1="300" y1="0" x2="300" y2="180"/>
+            </g>
+            <!-- Equator -->
+            <line x1="0" y1="90" x2="360" y2="90" stroke="rgba(0,255,65,.28)" stroke-width="0.7"/>
+            <!-- ISS orbital sine wave (inclination ~51.6°) -->
+            <path d="M 0,90 C 45,90 45,141.6 90,141.6 S 135,90 180,90 C 225,90 225,38.4 270,38.4 S 315,90 360,90"
+                  fill="none" stroke="rgba(0,255,65,.22)" stroke-width="0.9" stroke-dasharray="5,4"/>
+            <!-- Continents -->
+            <g fill="rgba(0,255,65,.2)" stroke="rgba(0,255,65,.55)" stroke-width="0.65" stroke-linejoin="round">
+                <!-- N. America -->
+                <polygon points="22,20 55,16 82,21 100,31 108,43 102,56 89,65 70,75 46,78 26,68 15,52 14,36"/>
+                <!-- C. America -->
+                <polygon points="88,76 100,73 110,80 97,88 84,86"/>
+                <!-- S. America -->
+                <polygon points="87,88 112,83 129,89 140,106 137,129 121,149 98,151 80,136 74,113 79,96"/>
+                <!-- Greenland -->
+                <polygon points="138,8 164,5 168,18 158,26 140,25"/>
+                <!-- Europe -->
+                <polygon points="163,26 180,20 198,23 205,31 199,43 186,51 173,53 161,46 156,35 159,27"/>
+                <!-- Africa -->
+                <polygon points="160,53 182,46 213,51 225,65 226,91 218,120 199,141 177,149 156,137 148,113 147,84 154,63"/>
+                <!-- Middle East -->
+                <polygon points="200,43 221,41 229,51 223,61 205,63 197,53"/>
+                <!-- Russia/N.Asia -->
+                <polygon points="170,17 222,11 286,8 341,13 351,21 345,33 320,37 286,33 248,35 216,39 199,31 176,20"/>
+                <!-- S/SE Asia -->
+                <polygon points="204,43 246,35 283,31 319,35 333,47 331,63 310,73 279,77 247,73 222,63 207,51"/>
+                <!-- India -->
+                <polygon points="228,53 249,47 261,57 259,73 244,85 227,81 217,67 221,56"/>
+                <!-- SE Asia islands -->
+                <polygon points="280,79 309,74 323,77 325,89 308,95 282,93"/>
+                <!-- Japan -->
+                <polygon points="317,37 326,33 332,39 329,47 319,47"/>
+                <!-- Australia -->
+                <polygon points="291,101 321,97 337,105 341,123 332,137 309,143 289,133 279,117 283,107"/>
+                <!-- Antarctica -->
+                <polygon points="0,165 90,158 180,156 270,158 360,163 360,180 0,180"/>
+            </g>
+            <!-- ISS marker -->
+            <circle id="id" cx="203" cy="58" r="3.5" fill="#00ff41">
+                <animate attributeName="r" values="3.5;5.5;3.5" dur="1.3s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="1;0.5;1" dur="1.3s" repeatCount="indefinite"/>
+            </circle>
+            <circle id="ir" cx="203" cy="58" r="9" fill="none" stroke="#00ff41" stroke-width="0.7" opacity="0.35"/>
+            <text id="it" x="209" y="54" fill="#00ff41" font-size="7" font-family="monospace" font-weight="bold">МКС</text>
+        </svg>
+    </div>
+
+    <!-- Telemetry grid -->
+    <div style="margin:0 10px 8px; border:1px solid rgba(0,255,65,.3); flex-shrink:0;">
+        <div style="padding:5px 10px; border-bottom:1px solid rgba(0,255,65,.18); font-size:10px; color:var(--gd);">
+            // ТЕЛЕМЕТРИЯ // LIVE
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr;">
+            <div class="dc"><div class="dc-label">ШИРОТА</div><div class="dc-val glow-sm" id="ilat">48.2°N</div></div>
+            <div class="dc" style="border-right:none;"><div class="dc-label">ДОЛГОТА</div><div class="dc-val glow-sm" id="ilon">23.7°E</div></div>
+            <div class="dc"><div class="dc-label">ВЫСОТА</div><div class="dc-val glow-sm">418 КМ</div></div>
+            <div class="dc" style="border-right:none;"><div class="dc-label">СКОРОСТЬ</div><div class="dc-val glow-sm">7.66 КМ/С</div></div>
+            <div class="dc"><div class="dc-label">ЭКИПАЖ</div><div class="dc-val glow-sm">7 ЧЕЛ.</div></div>
+            <div class="dc" style="border-right:none;"><div class="dc-label">ВИТОК №</div><div class="dc-val glow-sm">52744</div></div>
+            <div class="dc" style="border-bottom:none;"><div class="dc-label">НАКЛОН</div><div class="dc-val glow-sm">51.64°</div></div>
+            <div class="dc" style="border-right:none; border-bottom:none;"><div class="dc-label">ПЕРИОД</div><div class="dc-val glow-sm">92.8 МИН</div></div>
+        </div>
+    </div>
+
+    <!-- APOD -->
+    <div style="margin:0 10px 8px; border:1px solid rgba(0,255,65,.3); display:flex; flex-direction:column; flex:1; overflow:hidden;">
+        <div style="padding:5px 10px; border-bottom:1px solid rgba(0,255,65,.18); font-size:10px; color:var(--gd); flex-shrink:0;">
+            // NASA APOD // 23.04.2026
+        </div>
+
+        <!-- Simulated image -->
+        <div style="position:relative; height:90px; flex-shrink:0; overflow:hidden;
+                    background: radial-gradient(ellipse at 38% 55%, rgba(0,40,100,.9), #000 65%),
+                                radial-gradient(ellipse at 72% 35%, rgba(80,0,80,.5), transparent 50%);">
+            <!-- stars -->
+            <div style="position:absolute; inset:0;
+                 background-image: radial-gradient(1px 1px at 8% 20%, rgba(255,255,255,.85), transparent),
+                                   radial-gradient(1px 1px at 25% 65%, rgba(255,255,255,.7), transparent),
+                                   radial-gradient(2px 2px at 55% 35%, rgba(255,255,200,.9), transparent),
+                                   radial-gradient(1px 1px at 78% 15%, rgba(255,255,255,.6), transparent),
+                                   radial-gradient(1px 1px at 88% 72%, rgba(200,200,255,.8), transparent),
+                                   radial-gradient(1px 1px at 45% 80%, rgba(255,200,150,.6), transparent),
+                                   radial-gradient(18px 14px at 38% 55%, rgba(100,140,255,.25), transparent),
+                                   radial-gradient(10px 12px at 62% 42%, rgba(200,80,40,.2), transparent);"></div>
+            <!-- scanlines -->
+            <div style="position:absolute; inset:0;
+                 background: repeating-linear-gradient(0deg, transparent, transparent 2px,
+                             rgba(0,0,0,.1) 2px, rgba(0,0,0,.1) 4px); pointer-events:none;"></div>
+            <!-- crosshair -->
+            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); opacity:.25;">
+                <div style="width:18px; height:1px; background:var(--g);"></div>
+                <div style="width:1px; height:18px; background:var(--g); margin:-9px auto 0;"></div>
+            </div>
+            <!-- label -->
+            <div style="position:absolute; bottom:4px; left:6px; font-size:9px; color:rgba(0,255,65,.55);">
+                [ NEBULA M42 // NIRCam // SIM ]
+            </div>
+        </div>
+
+        <!-- APOD meta -->
+        <div style="padding:8px 10px; flex:1; overflow:hidden;">
+            <p class="glow-sm" style="font-weight:bold; font-size:11px; line-height:1.4; margin-bottom:5px;">
+                &gt;&gt; ТУМАННОСТЬ ОРИОНА — JWST NIRCam+MIRI
+            </p>
+            <p style="color:rgba(0,255,65,.65); font-size:10px; line-height:1.55; margin-bottom:6px;">
+                Инфракрасный снимок M42 в диапазоне 2.1–4.7 мкм. Видны протопланетные диски PPDs вокруг молодых звёзд Т Тельца.
+            </p>
+            <p style="color:var(--gd); font-size:10px;">
+                CREDIT: NASA/ESA/CSA JWST<br>
+                DIST: 1344 СВ. ЛЕТ
+            </p>
+        </div>
+    </div>
+
+</div><!-- /right -->
+
+</div><!-- /columns -->
+
+<script>
+// ── Clock ──
+(function tick() {
+    const n = new Date(), p = x => String(x).padStart(2,'0');
+    document.getElementById('clk').textContent =
+        `${p(n.getUTCDate())}.${p(n.getUTCMonth()+1)}.${n.getUTCFullYear()} // ${p(n.getUTCHours())}:${p(n.getUTCMinutes())}:${p(n.getUTCSeconds())} UTC`;
+    setTimeout(tick, 1000);
+})();
+
+// ── Countdown ──
+const T0 = new Date('2026-04-25T03:17:00Z');
+const P  = n => String(n).padStart(2,'0');
+(function cd() {
+    const d = T0 - Date.now();
+    if (d > 0) {
+        const dd = Math.floor(d/86400000),
+              hh = Math.floor((d%86400000)/3600000),
+              mm = Math.floor((d%3600000)/60000),
+              ss = Math.floor((d%60000)/1000);
+        document.getElementById('ld').textContent  = P(dd);
+        document.getElementById('lh').textContent  = P(hh);
+        document.getElementById('lm').textContent  = P(mm);
+        document.getElementById('ls').textContent  = P(ss);
+        document.getElementById('ldt').textContent = `${P(dd)}d ${P(hh)}h ${P(mm)}m ${P(ss)}s`;
+    }
+    setTimeout(cd, 1000);
+})();
+
+// ── Packet counter ──
+let pk = 1847;
+document.getElementById('pkts').textContent = pk;
+setInterval(() => {
+    pk += Math.floor(Math.random()*4) + 1;
+    document.getElementById('pkts').textContent = pk;
+}, 1800);
+
+// ── ISS simulation ──
+let lon = 23.7;
+(function iss() {
+    lon = (lon + 0.9) % 360;
+    const adjLon = lon > 180 ? lon - 360 : lon;
+    const lat = 51.6 * Math.sin(lon * Math.PI / 180);
+    // SVG coords
+    const sx = lon, sy = 90 - lat;
+    const dot = document.getElementById('id');
+    const rng = document.getElementById('ir');
+    const txt = document.getElementById('it');
+    if (dot) { dot.setAttribute('cx', sx); dot.setAttribute('cy', sy); }
+    if (rng) { rng.setAttribute('cx', sx); rng.setAttribute('cy', sy); }
+    if (txt) { txt.setAttribute('x', sx+5); txt.setAttribute('y', sy-3); }
+    // Text
+    const ld = lat >= 0 ? 'N' : 'S', ll = adjLon >= 0 ? 'E' : 'W';
+    document.getElementById('ilat').textContent = Math.abs(lat).toFixed(1)+'°'+ld;
+    document.getElementById('ilon').textContent = Math.abs(adjLon).toFixed(1)+'°'+ll;
+    setTimeout(iss, 4000);
+})();
+</script>
+</body>
+</html>

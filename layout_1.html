@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космонавигатор — Новости</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-blue':   '#00d4ff',
+                        'neon-purple': '#a855f7',
+                        'neon-teal':   '#22d3a5',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: #07090f;
+            background-image:
+                radial-gradient(ellipse at 15% 55%, rgba(168, 85, 247, 0.18) 0%, transparent 55%),
+                radial-gradient(ellipse at 80% 15%, rgba(0, 212, 255, 0.12) 0%, transparent 45%),
+                radial-gradient(ellipse at 55% 85%, rgba(34, 211, 165, 0.08) 0%, transparent 40%);
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-strong {
+            background: rgba(255, 255, 255, 0.07);
+            backdrop-filter: blur(22px);
+            -webkit-backdrop-filter: blur(22px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .glow-blue  { box-shadow: 0 0 24px rgba(0, 212, 255, 0.12),  inset 0 0 24px rgba(0, 212, 255, 0.04); }
+        .glow-purple{ box-shadow: 0 0 24px rgba(168, 85, 247, 0.12), inset 0 0 24px rgba(168, 85, 247, 0.04); }
+
+        .border-blue  { border-color: rgba(0, 212, 255, 0.35) !important; }
+        .border-purple{ border-color: rgba(168, 85, 247, 0.35) !important; }
+
+        .neon-blue  { color: #00d4ff; text-shadow: 0 0 12px rgba(0, 212, 255, 0.55); }
+        .neon-purple{ color: #a855f7; text-shadow: 0 0 12px rgba(168, 85, 247, 0.55); }
+
+        .card-hover { transition: transform .28s ease, box-shadow .28s ease; }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 22px 44px rgba(0, 212, 255, 0.14);
+        }
+
+        .tag-novice  { background: rgba(34,211,165,.18); color:#22d3a5; border:1px solid rgba(34,211,165,.3); }
+        .tag-teacher { background: rgba(0,212,255,.18);  color:#00d4ff; border:1px solid rgba(0,212,255,.3); }
+        .tag-pro     { background: rgba(168,85,247,.18); color:#a855f7; border:1px solid rgba(168,85,247,.3); }
+        .tag-accident{ background: rgba(255,107,43,.18); color:#ff6b2b; border:1px solid rgba(255,107,43,.3); }
+
+        nav a { transition: color .2s, text-shadow .2s; }
+        nav a:hover { color:#00d4ff; text-shadow: 0 0 8px rgba(0,212,255,.6); }
+
+        @keyframes cd-pulse { 0%,100%{opacity:1} 50%{opacity:.65} }
+        .cd-num { animation: cd-pulse 1s ease-in-out infinite; }
+
+        #stars { position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:0; }
+    </style>
+</head>
+<body class="min-h-screen text-white" style="font-family: ui-sans-serif, system-ui, sans-serif;">
+
+<canvas id="stars"></canvas>
+
+<!-- ═══════════════════════════════════ HEADER ═══════════════════════════════════ -->
+<header class="glass sticky top-0 z-50" style="border-width:0 0 1px 0; border-color:rgba(0,212,255,.2);">
+    <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between gap-4">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-3 shrink-0">
+            <div class="w-8 h-8 rounded-full flex items-center justify-center shrink-0"
+                 style="background:radial-gradient(circle at 35% 35%, #00d4ff, #a855f7);">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2a1 1 0 0 1 .894.553l2.5 5h5.106a1 1 0 0 1 .708 1.707l-4 4 1.618 5.658a1 1 0 0 1-1.47 1.13L12 17.202l-5.356 2.846a1 1 0 0 1-1.47-1.13l1.618-5.658-4-4A1 1 0 0 1 3.5 7.553H8.606l2.5-5A1 1 0 0 1 12 2z"/>
+                </svg>
+            </div>
+            <span class="text-base font-extrabold tracking-widest neon-blue">КОСМОНАВИГАТОР</span>
+        </div>
+
+        <!-- Nav -->
+        <nav class="hidden md:flex items-center gap-7 text-sm font-medium">
+            <a href="#" class="text-white">Главная</a>
+            <a href="#" class="text-white/55">Запуски</a>
+            <a href="#" class="text-white/55">Экспликаторы</a>
+            <a href="#" class="text-white/55">Мастерская</a>
+            <a href="#" class="text-white/55">Приложения</a>
+        </nav>
+
+        <!-- ISS live pill -->
+        <div class="flex items-center gap-2 text-xs shrink-0">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+            <span class="text-white/50 hidden sm:inline">МКС:</span>
+            <span class="font-mono neon-blue">48.2°N / 23.7°E</span>
+        </div>
+    </div>
+</header>
+
+<!-- ═══════════════════════════════════ MAIN ═══════════════════════════════════ -->
+<main class="relative z-10 max-w-7xl mx-auto px-6 py-8">
+
+    <!-- ────── HERO ────── -->
+    <section class="mb-8">
+        <div class="glass-strong rounded-2xl overflow-hidden border-blue glow-blue relative" style="min-height:390px;">
+            <!-- bg -->
+            <div class="absolute inset-0" style="background:linear-gradient(135deg,#080d1a 0%,#120822 60%,#080d1a 100%);">
+                <div class="absolute inset-0 opacity-50"
+                     style="background:radial-gradient(ellipse at 25% 55%, rgba(0,212,255,.28) 0%, transparent 55%),
+                                      radial-gradient(ellipse at 72% 28%, rgba(168,85,247,.28) 0%, transparent 50%);"></div>
+                <div class="absolute inset-0 opacity-25"
+                     style="background-image:radial-gradient(1px 1px at 8% 18%, #fff, transparent),
+                                             radial-gradient(1px 1px at 22% 72%, #fff, transparent),
+                                             radial-gradient(1px 1px at 45% 12%, #fff, transparent),
+                                             radial-gradient(1px 1px at 65% 65%, #fff, transparent),
+                                             radial-gradient(2px 2px at 78% 30%, #fff, transparent),
+                                             radial-gradient(1px 1px at 90% 80%, #fff, transparent),
+                                             radial-gradient(1px 1px at 55% 88%, #fff, transparent);"></div>
+            </div>
+
+            <div class="relative flex flex-col justify-end h-full p-8 md:p-10" style="min-height:390px;">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-4 w-fit"
+                      style="background:rgba(0,212,255,.15); color:#00d4ff; border:1px solid rgba(0,212,255,.35);">
+                    ★ Главная новость дня
+                </span>
+
+                <h1 class="text-2xl md:text-4xl font-extrabold leading-tight mb-3"
+                    style="max-width:680px; text-shadow:0 2px 24px rgba(0,0,0,.9);">
+                    Artemis III: NASA утвердило дату высадки астронавтов на Луну — миссия стартует в 2026 году
+                </h1>
+
+                <p class="text-white/65 text-sm md:text-base leading-relaxed mb-6" style="max-width:580px;">
+                    Агентство подтвердило, что экипаж из четырёх человек совершит первую высадку на лунную поверхность за последние 50 лет. В состав миссии впервые войдёт женщина-астронавт.
+                </p>
+
+                <div class="flex items-center flex-wrap gap-3">
+                    <span class="tag-pro text-xs px-3 py-1 rounded-full font-semibold">Профессионал</span>
+                    <span class="text-white/35 text-sm">23 апреля 2026</span>
+                    <span class="text-white/25">•</span>
+                    <span class="text-white/35 text-sm">NASA</span>
+                    <a href="#" class="ml-auto px-5 py-2 rounded-xl text-sm font-bold transition-all hover:scale-105 hover:brightness-110"
+                       style="background:linear-gradient(135deg,#00d4ff,#a855f7); color:#07090f;">
+                        Читать →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ────── NEWS GRID + SIDEBAR ────── -->
+    <div class="flex gap-6 items-start">
+
+        <!-- ── NEWS GRID ── -->
+        <section class="flex-1 min-w-0">
+            <div class="flex items-center justify-between mb-5 flex-wrap gap-3">
+                <h2 class="text-base font-bold text-white/90 uppercase tracking-wider">Последние новости</h2>
+                <div class="flex gap-2">
+                    <button class="glass border-blue px-3 py-1 rounded-lg text-xs font-semibold neon-blue">Все</button>
+                    <button class="px-3 py-1 rounded-lg text-xs text-white/45 hover:text-white/80 transition-colors">Новичок</button>
+                    <button class="px-3 py-1 rounded-lg text-xs text-white/45 hover:text-white/80 transition-colors">Учитель</button>
+                    <button class="px-3 py-1 rounded-lg text-xs text-white/45 hover:text-white/80 transition-colors">Профи</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <!-- Card 1 -->
+                <article class="glass rounded-xl overflow-hidden card-hover border-blue cursor-pointer">
+                    <div class="h-36 relative flex items-center justify-center"
+                         style="background:linear-gradient(135deg,#091d2f,#0d2a42);">
+                        <span class="text-5xl opacity-55 select-none">🚀</span>
+                        <div class="absolute inset-0" style="background:radial-gradient(ellipse at center, rgba(0,212,255,.18), transparent 70%);"></div>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="tag-novice text-xs px-2 py-0.5 rounded-full font-medium">Новичок</span>
+                            <span class="text-white/30 text-xs">20 апр</span>
+                        </div>
+                        <h3 class="text-sm font-semibold leading-snug text-white/90 mb-2">
+                            SpaceX Starship совершил успешный орбитальный полёт и вернулся на стартовый стол
+                        </h3>
+                        <p class="text-white/45 text-xs leading-relaxed">
+                            Ракета-носитель нового поколения выполнила полный профиль миссии, подтвердив готовность к лунным перелётам.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="glass rounded-xl overflow-hidden card-hover border-purple cursor-pointer">
+                    <div class="h-36 relative flex items-center justify-center"
+                         style="background:linear-gradient(135deg,#150a2a,#251240);">
+                        <span class="text-5xl opacity-55 select-none">🌌</span>
+                        <div class="absolute inset-0" style="background:radial-gradient(ellipse at center, rgba(168,85,247,.18), transparent 70%);"></div>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="tag-teacher text-xs px-2 py-0.5 rounded-full font-medium">Учителям</span>
+                            <span class="text-white/30 text-xs">19 апр</span>
+                        </div>
+                        <h3 class="text-sm font-semibold leading-snug text-white/90 mb-2">
+                            Новый урок по астрофизике: как объяснить детям тёмную материю
+                        </h3>
+                        <p class="text-white/45 text-xs leading-relaxed">
+                            Методическое пособие с интерактивными заданиями для школьников 7–9 классов, разработанное совместно с МГУ.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="glass rounded-xl overflow-hidden card-hover border-blue cursor-pointer">
+                    <div class="h-36 relative flex items-center justify-center"
+                         style="background:linear-gradient(135deg,#091f18,#0d2e22);">
+                        <span class="text-5xl opacity-55 select-none">🛰️</span>
+                        <div class="absolute inset-0" style="background:radial-gradient(ellipse at center, rgba(34,211,165,.18), transparent 70%);"></div>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="tag-pro text-xs px-2 py-0.5 rounded-full font-medium">Профессионал</span>
+                            <span class="text-white/30 text-xs">18 апр</span>
+                        </div>
+                        <h3 class="text-sm font-semibold leading-snug text-white/90 mb-2">
+                            Ионный двигатель нового поколения: тяга увеличена в 3 раза за счёт плазменного резонанса
+                        </h3>
+                        <p class="text-white/45 text-xs leading-relaxed">
+                            Инженеры ESA представили прорывную технологию ионной тяги с рекордными показателями удельного импульса.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="glass rounded-xl overflow-hidden card-hover border-purple cursor-pointer">
+                    <div class="h-36 relative flex items-center justify-center"
+                         style="background:linear-gradient(135deg,#240e08,#3a1a0a);">
+                        <span class="text-5xl opacity-55 select-none">⚠️</span>
+                        <div class="absolute inset-0" style="background:radial-gradient(ellipse at center, rgba(255,107,43,.18), transparent 70%);"></div>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="tag-accident text-xs px-2 py-0.5 rounded-full font-medium">Происшествие</span>
+                            <span class="text-white/30 text-xs">17 апр</span>
+                        </div>
+                        <h3 class="text-sm font-semibold leading-snug text-white/90 mb-2">
+                            Микрометеорит повредил солнечную панель МКС: космонавты вышли в открытый космос
+                        </h3>
+                        <p class="text-white/45 text-xs leading-relaxed">
+                            Экипаж станции успешно устранил повреждение в ходе незапланированного ВКД продолжительностью 5 часов.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Card 5 -->
+                <article class="glass rounded-xl overflow-hidden card-hover border-blue cursor-pointer">
+                    <div class="h-36 relative flex items-center justify-center"
+                         style="background:linear-gradient(135deg,#091a24,#0d2634);">
+                        <span class="text-5xl opacity-55 select-none">🔭</span>
+                        <div class="absolute inset-0" style="background:radial-gradient(ellipse at center, rgba(0,212,255,.14), transparent 70%);"></div>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="tag-novice text-xs px-2 py-0.5 rounded-full font-medium">Новичок</span>
+                            <span class="text-white/30 text-xs">16 апр</span>
+                        </div>
+                        <h3 class="text-sm font-semibold leading-snug text-white/90 mb-2">
+                            Телескоп Джеймс Уэбб сфотографировал атмосферу экзопланеты с признаками воды
+                        </h3>
+                        <p class="text-white/45 text-xs leading-relaxed">
+                            Новые данные подтверждают наличие водяного пара в атмосфере планеты в системе TRAPPIST-1e.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Card 6 -->
+                <article class="glass rounded-xl overflow-hidden card-hover border-purple cursor-pointer">
+                    <div class="h-36 relative flex items-center justify-center"
+                         style="background:linear-gradient(135deg,#150a2a,#091824);">
+                        <span class="text-5xl opacity-55 select-none">🌍</span>
+                        <div class="absolute inset-0" style="background:radial-gradient(ellipse at center, rgba(168,85,247,.14), transparent 70%);"></div>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="tag-teacher text-xs px-2 py-0.5 rounded-full font-medium">Учителям</span>
+                            <span class="text-white/30 text-xs">15 апр</span>
+                        </div>
+                        <h3 class="text-sm font-semibold leading-snug text-white/90 mb-2">
+                            Проект «Космическая школа»: конкурс рисунков для учеников начальных классов
+                        </h3>
+                        <p class="text-white/45 text-xs leading-relaxed">
+                            Роскосмос объявил всероссийский конкурс детского творчества на тему освоения космоса. Приём работ до 1 июня.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Load more -->
+            <div class="flex justify-center mt-6">
+                <button class="glass border-blue px-8 py-2.5 rounded-xl text-sm text-white/55 hover:text-white/90 transition-colors">
+                    Загрузить ещё →
+                </button>
+            </div>
+        </section>
+
+        <!-- ── SIDEBAR ── -->
+        <aside class="w-72 shrink-0 hidden lg:block">
+
+            <!-- Countdown -->
+            <div class="glass-strong rounded-2xl p-5 border-purple glow-purple mb-4" style="position:sticky; top:68px;">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="text-xl">🚀</span>
+                    <h3 class="text-xs font-extrabold text-white/80 uppercase tracking-widest">Ближайший запуск</h3>
+                </div>
+
+                <div class="mb-4">
+                    <p class="text-xs text-white/35 uppercase tracking-wider mb-1">Миссия</p>
+                    <p class="font-extrabold text-base neon-purple">SpaceX Crew-12</p>
+                    <p class="text-xs text-white/45 mt-0.5">МКС — ротация экипажа</p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="text-xs text-white/35 uppercase tracking-wider mb-1">Дата старта</p>
+                    <p class="text-white/75 text-sm font-semibold">25 апреля 2026, 03:17 UTC</p>
+                    <p class="text-white/35 text-xs mt-0.5">KSC, Флорида</p>
+                </div>
+
+                <!-- Timer -->
+                <div class="rounded-xl p-4 mb-4"
+                     style="background:rgba(168,85,247,.1); border:1px solid rgba(168,85,247,.25);">
+                    <p class="text-xs text-white/35 text-center mb-3 uppercase tracking-widest">До старта</p>
+                    <div class="grid grid-cols-4 gap-1 text-center">
+                        <div>
+                            <div class="cd-num text-2xl font-extrabold font-mono neon-purple" id="cd-d">02</div>
+                            <div class="text-xs text-white/28 mt-1">дней</div>
+                        </div>
+                        <div>
+                            <div class="cd-num text-2xl font-extrabold font-mono neon-blue" id="cd-h">21</div>
+                            <div class="text-xs text-white/28 mt-1">часов</div>
+                        </div>
+                        <div>
+                            <div class="cd-num text-2xl font-extrabold font-mono neon-purple" id="cd-m">43</div>
+                            <div class="text-xs text-white/28 mt-1">минут</div>
+                        </div>
+                        <div>
+                            <div class="cd-num text-2xl font-extrabold font-mono neon-blue" id="cd-s">07</div>
+                            <div class="text-xs text-white/28 mt-1">сек</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle -->
+                <div class="flex items-center gap-3 p-3 rounded-xl mb-4"
+                     style="background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.06);">
+                    <div class="w-10 h-10 rounded-lg flex items-center justify-center text-2xl shrink-0"
+                         style="background:rgba(0,212,255,.1);">🛸</div>
+                    <div>
+                        <p class="text-xs font-semibold text-white/80">Falcon 9 / Dragon</p>
+                        <p class="text-xs text-white/38">4 астронавта на борту</p>
+                    </div>
+                </div>
+
+                <a href="#" class="flex items-center justify-center w-full py-2.5 rounded-xl text-xs font-bold transition-all hover:brightness-115"
+                   style="background:linear-gradient(135deg, rgba(168,85,247,.3), rgba(0,212,255,.3)); border:1px solid rgba(168,85,247,.4); color:#e0cfff;">
+                    Все запуски →
+                </a>
+            </div>
+
+            <!-- ISS stats -->
+            <div class="glass rounded-xl p-4 border-blue">
+                <h4 class="text-xs font-extrabold text-white/35 uppercase tracking-widest mb-3">МКС сейчас</h4>
+                <div class="space-y-2.5">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs text-white/45">Высота орбиты</span>
+                        <span class="text-xs font-mono neon-blue">418 км</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs text-white/45">Скорость</span>
+                        <span class="text-xs font-mono neon-blue">7.66 км/с</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs text-white/45">Экипаж</span>
+                        <span class="text-xs font-mono neon-purple">7 человек</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs text-white/45">Витков в сутки</span>
+                        <span class="text-xs font-mono neon-blue">~15.5</span>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+    </div>
+</main>
+
+<!-- ═══════════════════════════════════ FOOTER ═══════════════════════════════════ -->
+<footer class="relative z-10 mt-12 py-6" style="border-top:1px solid rgba(255,255,255,.05);">
+    <div class="max-w-7xl mx-auto px-6 flex flex-wrap items-center justify-between gap-2 text-xs text-white/25">
+        <span>© 2026 Космонавигатор — Образовательный портал</span>
+        <span>Данные: NASA · ESA · SpaceX · Роскосмос</span>
+    </div>
+</footer>
+
+<script>
+// ── Starfield canvas ──
+(function () {
+    const c   = document.getElementById('stars');
+    const ctx = c.getContext('2d');
+    let W, H;
+
+    function resize() {
+        W = c.width  = window.innerWidth;
+        H = c.height = window.innerHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    const stars = Array.from({ length: 220 }, () => ({
+        x:  Math.random(),
+        y:  Math.random(),
+        r:  Math.random() * 1.4 + 0.15,
+        a:  Math.random() * 0.7 + 0.15,
+        sp: Math.random() * 0.00025 + 0.00006,
+        ph: Math.random() * Math.PI * 2,
+    }));
+
+    function frame() {
+        ctx.clearRect(0, 0, W, H);
+        const t = Date.now();
+        stars.forEach(s => {
+            const a = s.a + Math.sin(t * s.sp + s.ph) * 0.3;
+            ctx.beginPath();
+            ctx.arc(s.x * W, s.y * H, s.r, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(255,255,255,${Math.max(0.04, Math.min(0.95, a))})`;
+            ctx.fill();
+        });
+        requestAnimationFrame(frame);
+    }
+    frame();
+})();
+
+// ── Countdown ──
+(function () {
+    const target = new Date('2026-04-25T03:17:00Z');
+    const pad = n => String(n).padStart(2, '0');
+
+    function tick() {
+        const diff = target - Date.now();
+        if (diff <= 0) {
+            ['cd-d','cd-h','cd-m','cd-s'].forEach(id => document.getElementById(id).textContent = '00');
+            return;
+        }
+        document.getElementById('cd-d').textContent = pad(Math.floor(diff / 86400000));
+        document.getElementById('cd-h').textContent = pad(Math.floor((diff % 86400000) / 3600000));
+        document.getElementById('cd-m').textContent = pad(Math.floor((diff % 3600000)  / 60000));
+        document.getElementById('cd-s').textContent = pad(Math.floor((diff % 60000)    / 1000));
+    }
+    tick();
+    setInterval(tick, 1000);
+})();
+</script>
+</body>
+</html>

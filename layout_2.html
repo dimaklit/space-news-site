@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космонавигатор — Новости</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy:       '#0d1f3c',
+                        'navy-mid': '#1e3a6e',
+                        mars:       '#e05a1a',
+                        'mars-50':  '#fef3ec',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; }
+
+        /* ── Sidebar ── */
+        .sidebar {
+            width: 256px;
+            position: fixed;
+            top: 0; left: 0;
+            height: 100vh;
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: #e2e8f0 transparent;
+        }
+        .sidebar::-webkit-scrollbar { width: 3px; }
+        .sidebar::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 2px; }
+
+        .content { margin-left: 256px; }
+
+        /* ── Nav items ── */
+        .nav-link {
+            display: flex; align-items: center; gap: 10px;
+            padding: 8px 12px; border-radius: 6px;
+            font-size: 0.875rem; font-weight: 500;
+            color: #475569;
+            transition: color .15s, background .15s, padding-left .15s;
+            cursor: pointer; text-decoration: none;
+        }
+        .nav-link:hover { color: #e05a1a; background: #fef3ec; padding-left: 16px; }
+        .nav-link.active {
+            color: #e05a1a; background: #fef3ec;
+            border-left: 3px solid #e05a1a;
+            border-radius: 0 6px 6px 0;
+        }
+
+        /* ── Search ── */
+        .search-input {
+            width: 100%; padding: 13px 16px 13px 48px;
+            font-size: 0.95rem; border-radius: 8px;
+            border: 1.5px solid #e2e8f0; background: #f8fafc;
+            transition: border-color .2s, background .2s, box-shadow .2s;
+            outline: none;
+        }
+        .search-input:focus {
+            background: #fff;
+            border-color: #0d1f3c;
+            box-shadow: 0 0 0 3px rgba(13, 31, 60, 0.07);
+        }
+        .search-input::placeholder { color: #94a3b8; }
+
+        /* ── News items ── */
+        .news-item { transition: background .15s; border-radius: 8px; cursor: pointer; }
+        .news-item:hover { background: #f8fafc; }
+        .news-item:hover .news-title { color: #e05a1a !important; }
+
+        /* ── Difficulty badges ── */
+        .b-57  { background:#e8f4fd; color:#1a6fa8; border:1px solid #bde0f5; }
+        .b-89  { background:#eef2fb; color:#1e3a6e; border:1px solid #c0ceee; }
+        .b-10  { background:#f0ebfa; color:#6b21a8; border:1px solid #d4b8f0; }
+        .b-tch { background:#fef3ec; color:#e05a1a; border:1px solid #f5c8a0; }
+        .b-pro { background:#f0ebfa; color:#6b21a8; border:1px solid #d4b8f0; }
+        .b-inc { background:#fef2f2; color:#b91c1c; border:1px solid #fca5a5; }
+
+        /* ── Featured badge ── */
+        .featured-pill {
+            background: #fef3ec; color: #e05a1a;
+            border: 1px solid #f5c8a0;
+            font-size: 0.7rem; font-weight: 700;
+            padding: 2px 8px; border-radius: 20px;
+        }
+
+        /* ── Checkbox accent ── */
+        input[type=checkbox] { accent-color: #e05a1a; }
+
+        /* ── Pagination ── */
+        .page-btn {
+            width: 32px; height: 32px; border-radius: 6px; display: flex;
+            align-items: center; justify-content: center;
+            font-size: 0.8125rem; font-weight: 500;
+            cursor: pointer; transition: background .15s;
+        }
+        .page-btn:hover { background: #f1f5f9; }
+        .page-btn.active { background: #0d1f3c; color: white; }
+
+        /* ── Section heading rule ── */
+        .section-rule { border-bottom: 2px solid #0d1f3c; padding-bottom: 10px; }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+<!-- ════════════════════════ SIDEBAR ════════════════════════ -->
+<aside class="sidebar bg-white border-r border-gray-100">
+
+    <!-- Logo -->
+    <div class="px-5 py-5 border-b border-gray-100">
+        <a href="#" class="flex items-center gap-2.5">
+            <div class="w-7 h-7 rounded flex items-center justify-center shrink-0"
+                 style="background:#0d1f3c;">
+                <!-- orbit icon -->
+                <svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="white" stroke-width="1.8">
+                    <circle cx="12" cy="12" r="3" fill="white" stroke="none"/>
+                    <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(-30 12 12)"/>
+                    <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(30 12 12)"/>
+                </svg>
+            </div>
+            <span class="text-sm font-extrabold tracking-wider" style="color:#0d1f3c;">КОСМОНАВИГАТОР</span>
+        </a>
+    </div>
+
+    <div class="px-4 py-5 space-y-6">
+
+        <!-- Категории -->
+        <div>
+            <p class="text-xs font-bold text-gray-400 uppercase tracking-widest px-2 mb-2">Категории</p>
+            <nav class="space-y-0.5">
+                <a href="#" class="nav-link active">
+                    <span>🌙</span><span>Луна</span>
+                    <span class="ml-auto text-xs font-semibold px-1.5 py-0.5 rounded-full"
+                          style="background:#fef3ec; color:#e05a1a;">12</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>🔴</span><span>Марс</span>
+                    <span class="ml-auto text-xs text-gray-300 font-medium">8</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>🚀</span><span>Ракеты и запуски</span>
+                    <span class="ml-auto text-xs text-gray-300 font-medium">15</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>🛰️</span><span>МКС и орбита</span>
+                    <span class="ml-auto text-xs text-gray-300 font-medium">9</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>🌌</span><span>Дальний космос</span>
+                    <span class="ml-auto text-xs text-gray-300 font-medium">11</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <span>📖</span><span>Учителям</span>
+                    <span class="ml-auto text-xs text-gray-300 font-medium">6</span>
+                </a>
+            </nav>
+        </div>
+
+        <!-- Уровень сложности -->
+        <div>
+            <p class="text-xs font-bold text-gray-400 uppercase tracking-widest px-2 mb-2">Уровень</p>
+            <div class="space-y-1">
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors">
+                    <input type="checkbox" checked class="rounded border-gray-300">
+                    <span class="b-57 text-xs px-2 py-0.5 rounded font-semibold">Ученик 5–7 класс</span>
+                </label>
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors">
+                    <input type="checkbox" checked class="rounded border-gray-300">
+                    <span class="b-89 text-xs px-2 py-0.5 rounded font-semibold">Ученик 8–9 класс</span>
+                </label>
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors">
+                    <input type="checkbox" checked class="rounded border-gray-300">
+                    <span class="b-10 text-xs px-2 py-0.5 rounded font-semibold">Ученик 10–11 класс</span>
+                </label>
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors">
+                    <input type="checkbox" checked class="rounded border-gray-300">
+                    <span class="b-tch text-xs px-2 py-0.5 rounded font-semibold">Учителям</span>
+                </label>
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors">
+                    <input type="checkbox" class="rounded border-gray-300">
+                    <span class="b-pro text-xs px-2 py-0.5 rounded font-semibold">Профи</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Источник -->
+        <div>
+            <p class="text-xs font-bold text-gray-400 uppercase tracking-widest px-2 mb-2">Источник</p>
+            <div class="space-y-1">
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors text-sm text-gray-600">
+                    <input type="checkbox" checked class="rounded border-gray-300">NASA
+                </label>
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors text-sm text-gray-600">
+                    <input type="checkbox" checked class="rounded border-gray-300">ESA
+                </label>
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors text-sm text-gray-600">
+                    <input type="checkbox" checked class="rounded border-gray-300">Роскосмос
+                </label>
+                <label class="flex items-center gap-2.5 px-3 py-1.5 rounded cursor-pointer hover:bg-gray-50 transition-colors text-sm text-gray-600">
+                    <input type="checkbox" class="rounded border-gray-300">SpaceX
+                </label>
+            </div>
+        </div>
+
+        <!-- Ближайший запуск -->
+        <div class="rounded-lg p-4" style="background:#f8fafc; border:1px solid #e9eef5;">
+            <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Ближайший запуск</p>
+            <p class="text-sm font-bold" style="color:#0d1f3c;">SpaceX Crew-12</p>
+            <p class="text-xs text-gray-500 mt-0.5 mb-3">МКС — ротация экипажа</p>
+            <div class="grid grid-cols-4 gap-1 text-center">
+                <div>
+                    <div class="text-lg font-black" style="color:#0d1f3c;" id="sb-d">02</div>
+                    <div class="text-xs text-gray-400">дн</div>
+                </div>
+                <div>
+                    <div class="text-lg font-black" style="color:#0d1f3c;" id="sb-h">21</div>
+                    <div class="text-xs text-gray-400">ч</div>
+                </div>
+                <div>
+                    <div class="text-lg font-black" style="color:#e05a1a;" id="sb-m">43</div>
+                    <div class="text-xs text-gray-400">мин</div>
+                </div>
+                <div>
+                    <div class="text-lg font-black" style="color:#e05a1a;" id="sb-s">07</div>
+                    <div class="text-xs text-gray-400">с</div>
+                </div>
+            </div>
+            <a href="#" class="mt-3 flex items-center justify-center w-full py-2 rounded text-xs font-semibold transition-all hover:brightness-110 text-white"
+               style="background:#e05a1a;">Все запуски →</a>
+        </div>
+
+    </div>
+
+    <!-- Sidebar footer -->
+    <div class="px-5 py-4 border-t border-gray-100 mt-auto">
+        <p class="text-xs text-gray-400">Обновлено: 23 апр 2026, 09:41</p>
+    </div>
+</aside>
+
+
+<!-- ════════════════════════ MAIN CONTENT ════════════════════════ -->
+<div class="content min-h-screen flex flex-col">
+
+    <!-- ── Sticky top bar ── -->
+    <div class="sticky top-0 bg-white z-30 border-b border-gray-100">
+
+        <!-- SEARCH BAR — prominent -->
+        <div class="px-8 pt-5 pb-4"
+             style="border-bottom: 1px solid #f1f5f9; background: linear-gradient(to bottom, #ffffff, #fafbfc);">
+            <div class="flex items-center gap-3">
+                <!-- Search field -->
+                <div class="flex-1 relative">
+                    <div class="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400" viewBox="0 0 24 24"
+                             fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                        </svg>
+                    </div>
+                    <input type="text" class="search-input"
+                           placeholder="Поиск по новостям, темам, источникам...">
+                </div>
+
+                <!-- Sort -->
+                <select class="text-sm border border-gray-200 rounded-lg px-3 py-3 bg-white text-gray-600
+                               focus:outline-none focus:border-gray-400 cursor-pointer shrink-0">
+                    <option>Новые сначала</option>
+                    <option>Старые сначала</option>
+                    <option>По популярности</option>
+                </select>
+
+                <!-- CTA -->
+                <button class="px-6 py-3 rounded-lg text-sm font-bold text-white shrink-0 transition-all hover:brightness-110 active:scale-95"
+                        style="background:#e05a1a;">
+                    Найти
+                </button>
+            </div>
+
+            <!-- Quick filters -->
+            <div class="flex items-center gap-2 mt-3 flex-wrap">
+                <span class="text-xs text-gray-400 mr-1">Быстрый фильтр:</span>
+                <button class="text-xs px-3 py-1 rounded-full font-medium transition-colors text-white"
+                        style="background:#0d1f3c;">Все</button>
+                <button class="text-xs px-3 py-1 rounded-full font-medium border border-gray-200 text-gray-500 hover:border-gray-400 transition-colors">Сегодня</button>
+                <button class="text-xs px-3 py-1 rounded-full font-medium border border-gray-200 text-gray-500 hover:border-gray-400 transition-colors">За неделю</button>
+                <button class="text-xs px-3 py-1 rounded-full font-medium border border-gray-200 text-gray-500 hover:border-gray-400 transition-colors">🌙 Луна</button>
+                <button class="text-xs px-3 py-1 rounded-full font-medium border border-gray-200 text-gray-500 hover:border-gray-400 transition-colors">🔴 Марс</button>
+                <button class="text-xs px-3 py-1 rounded-full font-medium border border-gray-200 text-gray-500 hover:border-gray-400 transition-colors">🚀 Запуски</button>
+            </div>
+        </div>
+
+        <!-- Breadcrumb -->
+        <div class="px-8 py-2.5 flex items-center justify-between">
+            <div class="flex items-center gap-2 text-sm">
+                <a href="#" class="text-gray-400 hover:text-gray-600 transition-colors">Все разделы</a>
+                <span class="text-gray-200">/</span>
+                <span class="font-semibold" style="color:#0d1f3c;">🌙 Луна</span>
+            </div>
+            <span class="text-xs text-gray-400">12 материалов</span>
+        </div>
+    </div>
+
+    <!-- ── News feed ── -->
+    <div class="px-8 py-7 flex-1">
+
+        <!-- Section heading -->
+        <div class="section-rule mb-6 flex items-end justify-between">
+            <div>
+                <h1 class="text-2xl font-extrabold" style="color:#0d1f3c;">Луна</h1>
+                <p class="text-sm text-gray-400 mt-1">Исследования, миссии и открытия лунной программы</p>
+            </div>
+            <div class="flex gap-1.5 pb-1">
+                <button class="text-xs px-3 py-1.5 rounded border border-gray-200 text-gray-500 hover:border-navy transition-colors">Список</button>
+                <button class="text-xs px-3 py-1.5 rounded border text-white transition-colors font-semibold"
+                        style="background:#0d1f3c; border-color:#0d1f3c;">Плитка</button>
+            </div>
+        </div>
+
+        <!-- Items -->
+        <div class="space-y-0 divide-y divide-gray-100">
+
+            <!-- ── Item 1 (featured) ── -->
+            <div class="news-item py-5 px-3 -mx-3">
+                <div class="flex items-start gap-4">
+                    <span class="text-3xl font-black select-none shrink-0 mt-0.5"
+                          style="color:#e8ecf4; min-width:2rem; text-align:center;">1</span>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 flex-wrap mb-2">
+                            <span class="b-57 text-xs px-2.5 py-0.5 rounded font-semibold">Ученик 5–7 класс</span>
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">NASA</span>
+                            <span class="text-gray-200 text-sm">·</span>
+                            <span class="text-xs text-gray-400">23 апреля 2026</span>
+                            <span class="featured-pill ml-1">⭐ Главная новость</span>
+                        </div>
+                        <h2 class="news-title text-base font-bold leading-snug mb-2 transition-colors"
+                            style="color:#0d1f3c;">
+                            Artemis III: NASA официально назначило экипаж первой лунной высадки — в состав войдут два американских астронавта
+                        </h2>
+                        <p class="text-sm text-gray-500 leading-relaxed line-clamp-2 mb-3">
+                            Агентство объявило имена четырёх членов экипажа, которые совершат исторический полёт к Южному полюсу Луны. Впервые в истории на поверхность Луны ступит женщина-астронавт.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-sm font-bold hover:underline transition-colors"
+                               style="color:#e05a1a;">Читать материал →</a>
+                            <span class="text-xs text-gray-400">5 мин чтения</span>
+                            <button class="ml-auto text-xs text-gray-400 hover:text-gray-700 transition-colors px-2 py-1 rounded border border-transparent hover:border-gray-200">
+                                Сохранить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Item 2 ── -->
+            <div class="news-item py-4 px-3 -mx-3">
+                <div class="flex items-start gap-4">
+                    <span class="text-xl font-black select-none shrink-0 mt-0.5"
+                          style="color:#e8ecf4; min-width:2rem; text-align:center;">2</span>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 flex-wrap mb-1.5">
+                            <span class="b-89 text-xs px-2.5 py-0.5 rounded font-semibold">Ученик 8–9 класс</span>
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">ESA</span>
+                            <span class="text-gray-200 text-sm">·</span>
+                            <span class="text-xs text-gray-400">22 апреля 2026</span>
+                        </div>
+                        <h3 class="news-title text-sm font-bold leading-snug mb-1.5 transition-colors"
+                            style="color:#0d1f3c;">
+                            Европейский модуль ESPRIT прошёл финальные испытания: готовность к стыковке с лунной станцией Gateway подтверждена
+                        </h3>
+                        <p class="text-xs text-gray-500 leading-relaxed line-clamp-2 mb-2">
+                            Модуль обеспечит топливом и связью лунную орбитальную станцию. Запуск запланирован на III квартал 2027 года.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-xs font-bold hover:underline" style="color:#e05a1a;">Читать →</a>
+                            <span class="text-xs text-gray-400">3 мин чтения</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Item 3 ── -->
+            <div class="news-item py-4 px-3 -mx-3">
+                <div class="flex items-start gap-4">
+                    <span class="text-xl font-black select-none shrink-0 mt-0.5"
+                          style="color:#e8ecf4; min-width:2rem; text-align:center;">3</span>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 flex-wrap mb-1.5">
+                            <span class="b-tch text-xs px-2.5 py-0.5 rounded font-semibold">Учителям</span>
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Роскосмос</span>
+                            <span class="text-gray-200 text-sm">·</span>
+                            <span class="text-xs text-gray-400">21 апреля 2026</span>
+                        </div>
+                        <h3 class="news-title text-sm font-bold leading-snug mb-1.5 transition-colors"
+                            style="color:#0d1f3c;">
+                            Методическое пособие «Луна: от мифа к науке» — бесплатный учебный комплект для уроков астрономии в 8–10 классах
+                        </h3>
+                        <p class="text-xs text-gray-500 leading-relaxed line-clamp-2 mb-2">
+                            Комплект включает презентации, задания и тесты. Разработан совместно с педагогами МГУ и МГПУ по ФГОС.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-xs font-bold hover:underline" style="color:#e05a1a;">Скачать пособие →</a>
+                            <span class="text-xs text-gray-400">PDF, 12 стр.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Item 4 ── -->
+            <div class="news-item py-4 px-3 -mx-3">
+                <div class="flex items-start gap-4">
+                    <span class="text-xl font-black select-none shrink-0 mt-0.5"
+                          style="color:#e8ecf4; min-width:2rem; text-align:center;">4</span>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 flex-wrap mb-1.5">
+                            <span class="b-57 text-xs px-2.5 py-0.5 rounded font-semibold">Ученик 5–7 класс</span>
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">NASA</span>
+                            <span class="text-gray-200 text-sm">·</span>
+                            <span class="text-xs text-gray-400">20 апреля 2026</span>
+                        </div>
+                        <h3 class="news-title text-sm font-bold leading-snug mb-1.5 transition-colors"
+                            style="color:#0d1f3c;">
+                            Вода подо льдом: НАСА подтвердило новые залежи водяного льда у кратера Шеклтон на Южном полюсе Луны
+                        </h3>
+                        <p class="text-xs text-gray-500 leading-relaxed line-clamp-2 mb-2">
+                            Данные орбитального зонда LRO показали: запасов льда может хватить для снабжения будущей лунной базы водой на многие годы.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-xs font-bold hover:underline" style="color:#e05a1a;">Читать →</a>
+                            <span class="text-xs text-gray-400">4 мин чтения</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Item 5 ── -->
+            <div class="news-item py-4 px-3 -mx-3">
+                <div class="flex items-start gap-4">
+                    <span class="text-xl font-black select-none shrink-0 mt-0.5"
+                          style="color:#e8ecf4; min-width:2rem; text-align:center;">5</span>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 flex-wrap mb-1.5">
+                            <span class="b-pro text-xs px-2.5 py-0.5 rounded font-semibold">Профи</span>
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">ESA</span>
+                            <span class="text-gray-200 text-sm">·</span>
+                            <span class="text-xs text-gray-400">19 апреля 2026</span>
+                        </div>
+                        <h3 class="news-title text-sm font-bold leading-snug mb-1.5 transition-colors"
+                            style="color:#0d1f3c;">
+                            Реголит как строительный материал: ESA опубликовало отчёт по технологии 3D-печати лунных конструкций из грунта
+                        </h3>
+                        <p class="text-xs text-gray-500 leading-relaxed line-clamp-2 mb-2">
+                            Технология позволяет создавать несущие конструкции из измельчённого лунного грунта без доставки материалов с Земли. Прочность на сжатие — до 40 МПа.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-xs font-bold hover:underline" style="color:#e05a1a;">Читать отчёт →</a>
+                            <span class="text-xs text-gray-400">8 мин чтения</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Item 6 ── -->
+            <div class="news-item py-4 px-3 -mx-3">
+                <div class="flex items-start gap-4">
+                    <span class="text-xl font-black select-none shrink-0 mt-0.5"
+                          style="color:#e8ecf4; min-width:2rem; text-align:center;">6</span>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 flex-wrap mb-1.5">
+                            <span class="b-89 text-xs px-2.5 py-0.5 rounded font-semibold">Ученик 8–9 класс</span>
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">SpaceX</span>
+                            <span class="text-gray-200 text-sm">·</span>
+                            <span class="text-xs text-gray-400">18 апреля 2026</span>
+                        </div>
+                        <h3 class="news-title text-sm font-bold leading-snug mb-1.5 transition-colors"
+                            style="color:#0d1f3c;">
+                            Starship HLS прошёл огневые испытания двигателей Raptor в конфигурации лунного посадочного модуля
+                        </h3>
+                        <p class="text-xs text-gray-500 leading-relaxed line-clamp-2 mb-2">
+                            Тест подтвердил работоспособность системы в условиях, имитирующих лунную гравитацию. Готовность к лётным испытаниям — высокая.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-xs font-bold hover:underline" style="color:#e05a1a;">Читать →</a>
+                            <span class="text-xs text-gray-400">4 мин чтения</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Item 7 ── -->
+            <div class="news-item py-4 px-3 -mx-3">
+                <div class="flex items-start gap-4">
+                    <span class="text-xl font-black select-none shrink-0 mt-0.5"
+                          style="color:#e8ecf4; min-width:2rem; text-align:center;">7</span>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 flex-wrap mb-1.5">
+                            <span class="b-57 text-xs px-2.5 py-0.5 rounded font-semibold">Ученик 5–7 класс</span>
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Роскосмос</span>
+                            <span class="text-gray-200 text-sm">·</span>
+                            <span class="text-xs text-gray-400">17 апреля 2026</span>
+                        </div>
+                        <h3 class="news-title text-sm font-bold leading-snug mb-1.5 transition-colors"
+                            style="color:#0d1f3c;">
+                            «Луноход-3»: Россия анонсировала программу исследований лунной поверхности с помощью нового ровера
+                        </h3>
+                        <p class="text-xs text-gray-500 leading-relaxed line-clamp-2 mb-2">
+                            Ровер планируется оснастить буровой установкой и спектрометрами. Запуск — ориентировочно 2028 год.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-xs font-bold hover:underline" style="color:#e05a1a;">Читать →</a>
+                            <span class="text-xs text-gray-400">3 мин чтения</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Item 8 ── -->
+            <div class="news-item py-4 px-3 -mx-3">
+                <div class="flex items-start gap-4">
+                    <span class="text-xl font-black select-none shrink-0 mt-0.5"
+                          style="color:#e8ecf4; min-width:2rem; text-align:center;">8</span>
+                    <div class="flex-1 min-w-0">
+                        <div class="flex items-center gap-2 flex-wrap mb-1.5">
+                            <span class="b-tch text-xs px-2.5 py-0.5 rounded font-semibold">Учителям</span>
+                            <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Роскосмос</span>
+                            <span class="text-gray-200 text-sm">·</span>
+                            <span class="text-xs text-gray-400">16 апреля 2026</span>
+                        </div>
+                        <h3 class="news-title text-sm font-bold leading-snug mb-1.5 transition-colors"
+                            style="color:#0d1f3c;">
+                            Конкурс «Лунная база будущего» для учеников 5–11 классов: приём заявок открыт до 1 июня 2026
+                        </h3>
+                        <p class="text-xs text-gray-500 leading-relaxed line-clamp-2 mb-2">
+                            Учащиеся представляют проект в формате схемы, макета или 3D-модели. Главный приз — поездка в Центр подготовки космонавтов им. Гагарина.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-xs font-bold hover:underline" style="color:#e05a1a;">Подать заявку →</a>
+                            <span class="text-xs text-gray-400">Дедлайн: 1 июня</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pagination -->
+        <div class="flex items-center justify-between mt-8 pt-6 border-t border-gray-100">
+            <button disabled
+                    class="flex items-center gap-2 text-sm text-gray-300 px-4 py-2 rounded-lg cursor-not-allowed">
+                ← Предыдущая
+            </button>
+            <div class="flex items-center gap-1">
+                <div class="page-btn active">1</div>
+                <div class="page-btn">2</div>
+                <div class="page-btn">3</div>
+                <span class="text-gray-300 px-1 text-sm">…</span>
+                <div class="page-btn">8</div>
+            </div>
+            <button class="flex items-center gap-2 text-sm font-bold px-4 py-2 rounded-lg hover:bg-orange-50 transition-colors"
+                    style="color:#e05a1a;">
+                Следующая →
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="px-8 py-5 border-t border-gray-100 flex items-center justify-between text-xs text-gray-400">
+        <span>© 2026 Космонавигатор — Образовательный портал</span>
+        <span>Данные: NASA · ESA · SpaceX · Роскосмос</span>
+    </footer>
+</div>
+
+<script>
+(function () {
+    const target = new Date('2026-04-25T03:17:00Z');
+    const pad = n => String(n).padStart(2, '0');
+    function tick() {
+        const d = target - Date.now();
+        if (d <= 0) return;
+        document.getElementById('sb-d').textContent = pad(Math.floor(d / 86400000));
+        document.getElementById('sb-h').textContent = pad(Math.floor((d % 86400000) / 3600000));
+        document.getElementById('sb-m').textContent = pad(Math.floor((d % 3600000)  / 60000));
+        document.getElementById('sb-s').textContent = pad(Math.floor((d % 60000)    / 1000));
+    }
+    tick();
+    setInterval(tick, 1000);
+})();
+</script>
+</body>
+</html>
