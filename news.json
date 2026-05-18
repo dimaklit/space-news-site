@@ -1,30 +1,42 @@
 [
   {
     "id": 1,
+    "date": "Mon, 18 May 2026 21:28:32 +0000",
+    "link": "https://www.nasa.gov/centers-and-facilities/johnson/johnson-photographers-honored-for-award-winning-portraits/",
+    "difficulty": "novice",
+    "title_en": "Johnson Photographers Honored for Award-Winning Portraits ",
+    "summary_en": "Three photographers at NASA’s Johnson Space Center who inspire the world through visual storytelling earned top honors in the portrait category at the 2025 NASA Imagery Experts Program Annual Awards.&#160; “Congratulations to all three on this impressive achievement and for capturing such breathtaking imagery,” said Johnson Director Vanessa Wyche. “Their work represents the collaboration, precision, [&#8230;]",
+    "title_ru": "Фотографы Johnson удостоены наград за портреты, отмеченные наградами ",
+    "summary_ru": "Трое фотографов из Космического центра имени Джонсона НАСА, которые вдохновляют мир визуальными повествованиями, получили высшие награды в категории портретов на ежегодной премии NASA Imagery Experts Program 2025.  «Поздравляем всех троих с этим впечатляющим достижением и с созданием таких захватывающих дух изображений», — сказала директор Johnson Ванесса Уич. «Их работа представляет собой сотрудничество, точность, […]",
+    "title_he": "צלמי ג'ונסון זכו בכבוד על דיוקנאות זוכי פרסים ",
+    "summary_he": "שלושה צלמים במרכז החלל ג'ונסון של נאס\"א, המעניקים השראה לעולם באמצעות סיפור חזותי, זכו בהצטיינות מובילה בקטגוריית הפורטרטים בפרסים השנתיים של תוכנית מומחי התמונות של נאס\"א לשנת 2025.  \"כל הכבוד לשלושתם על ההישג המרשים הזה ועל לכידת תמונות עוצרות נשימה כל כך\", אמרה מנהלת ג'ונסון ונסה וויצ'ה. \"העבודה שלהם מייצגת את שיתוף הפעולה, הדיוק, […]"
+  },
+  {
+    "id": 2,
     "date": "Mon, 18 May 2026 17:09:43 +0000",
     "link": "https://science.nasa.gov/missions/maven/nasas-maven-makes-1st-discovery-of-atmospheric-effect-at-mars/",
     "difficulty": "novice",
     "title_en": "NASA’s MAVEN Makes 1st Discovery of Atmospheric Effect at Mars",
     "summary_en": "In December 2023, scientists looking at Mars data stumbled across something completely unexpected — observations of an atmospheric effect never before seen in the Red Planet’s atmosphere. Using instruments aboard NASA’s MAVEN (Mars Atmosphere and Volatile Evolution) mission, scientists identified a phenomenon known to occur in Earth’s magnetosphere, where charged particles are squeezed like toothpaste […]",
     "title_ru": "MAVEN НАСА впервые обнаружил атмосферный эффект на Марсе",
-    "summary_ru": "В декабре 2023 года учёные, изучающие данные Марса, наткнулись на нечто совершенно неожиданное — наблюдения за атмосферным эффектом, никогда ранее не наблюдавшимся в атмосфере Красной планеты. Используя инструменты миссии НАСА MAVEN (Марсианская атмосфера и нестабильная эволюция), ученые выявили явление, которое, как известно, происходит в магнитосфере Земли, где заряженные частицы сжимаются, как зубная паста […]",
+    "summary_ru": "В декабре 2023 года учёные, изучающие данные Марса, наткнулись на нечто совершенно неожиданное — наблюдения за атмосферным эффектом, никогда ранее не наблюдавшимся в атмосфере Красной планеты. Используя инструменты на борту миссии НАСА MAVEN (Марсианская атмосфера и нестабильная эволюция), ученые выявили явление, которое, как известно, происходит в магнитосфере Земли, где заряженные частицы сжимаются, как зубная паста […]",
     "title_he": "MAVEN של נאס\"א מגלה את האפקט האטמוספרי הראשון במאדים",
     "summary_he": "בדצמבר 2023, מדענים שהסתכלו על נתוני מאדים נתקלו במשהו בלתי צפוי לחלוטין - תצפיות על אפקט אטמוספרי שלא נראה קודם לכן באטמוספירה של הכוכב האדום. באמצעות מכשירים על סיפון משימת MAVEN (אטמוספירת מאדים ואבולוציה נדיפה) של נאס\"א, זיהו מדענים תופעה ידועה כמתרחשת במגנטוספירה של כדור הארץ, שבה חלקיקים טעונים נלחצים כמו משחת שיניים […]"
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "Mon, 18 May 2026 17:00:17 +0000",
     "link": "https://www.nasa.gov/news-release/nasa-selects-next-class-of-space-health-postdoctoral-fellows/",
     "difficulty": "pro",
     "title_en": "NASA Selects Next Class of Space Health Postdoctoral Fellows",
     "summary_en": "The NASA-funded Translational Research Institute for Space Health (TRISH) has selected two early‑career scientists for its next class of postdoctoral fellows. The new fellows will begin their projects in May, focusing on space food systems and astronaut eye health. The TRISH Postdoctoral Fellowship Program supports independent research that advances biomedical, behavioral, and technological approaches relevant [&#8230;]",
     "title_ru": "НАСА выбирает следующий класс постдокторантов космического здравоохранения",
-    "summary_ru": "Финансируемый НАСА Институт трансляционных исследований космического здоровья (TRISH) выбрал двух молодых ученых для своего следующего класса постдокторантов. Новые ученые начнут свои проекты в мае, сосредоточив внимание на системах космического питания и здоровье глаз космонавтов. Программа постдокторских стипендий TRISH поддерживает независимые исследования, которые продвигают биомедицинские, поведенческие и технологические подходы, имеющие отношение к […]",
+    "summary_ru": "Финансируемый НАСА Институт трансляционных исследований космического здоровья (TRISH) выбрал двух молодых ученых для своего следующего класса постдокторантов. Новые ученые начнут свои проекты в мае, сосредоточив внимание на системах космического питания и здоровье глаз космонавтов. Программа постдокторских стипендий TRISH поддерживает независимые исследования, которые продвигают биомедицинские, поведенческие и технологические подходы, соответствующие […]",
     "title_he": "נאס\"א בוחרת במעמד הבא של פוסט-דוקטורנטים לבריאות החלל",
-    "summary_he": "המכון למחקר מתורגם לבריאות החלל (TRISH) במימון נאס\"א בחר בשני מדענים בתחילת הקריירה למעמד הבא של פוסט-דוקטורנטים. העמיתים החדשים יתחילו בפרויקטים שלהם במאי, ויתמקדו במערכות מזון בחלל ובריאות עיניים של אסטרונאוט. תכנית המלגות לפוסט-דוקטורט של TRISH תומכת במחקר עצמאי המקדם גישות ביו-רפואיות, התנהגותיות וטכנולוגיות רלוונטיות […]"
+    "summary_he": "המכון למחקר מתורגם לבריאות החלל (TRISH) במימון נאס\"א בחר בשני מדענים בתחילת הקריירה למעמד הבא של פוסט-דוקטורנטים. העמיתים החדשים יתחילו בפרויקטים שלהם במאי, תוך התמקדות במערכות מזון בחלל ובריאות עיניים של אסטרונאוט. תכנית המלגות לפוסט-דוקטורט של TRISH תומכת במחקר עצמאי המקדם גישות ביו-רפואיות, התנהגותיות וטכנולוגיות רלוונטיות […]"
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "Mon, 18 May 2026 15:31:45 +0000",
     "link": "https://www.nasa.gov/image-article/beacon-of-light/",
     "difficulty": "pro",
@@ -36,7 +48,7 @@
     "summary_he": "לבה של הגלקסיה M77 זורח בבהירות בתמונה זו של 7 במאי 2026 מטלסקופ החלל ג'יימס ווב של נאס\"א. הזוהר העז נובע מכך שגז נמשך על ידי כוח המשיכה החזק של החור השחור המרכזי למסלול הדוק ומהיר סביבו. תנועת הגז גורמת לו להתחמם, […]"
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "Fri, 15 May 2026 22:52:14 +0000",
     "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
     "difficulty": "novice",
@@ -44,35 +56,35 @@
     "summary_en": "The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6:05 p.m. EDT Friday on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The SpaceX spacecraft, loaded with nearly 6,500 pounds [&#8230;]",
     "title_ru": "Наука НАСА, запуск груза в рамках 34-й миссии SpaceX по пополнению запасов на станцию",
     "summary_ru": "34-я коммерческая миссия SpaceX по снабжению по контракту с НАСА направляется на Международную космическую станцию ​​для проведения новых научных экспериментов после старта в 18:05. Пятница по восточному времени на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал во Флориде. Космический корабль SpaceX, загруженный почти 6500 фунтами […]",
-    "title_he": "מדע, שיגור מטען של נאס\"א במשימת אספקת אספקה ​​34 של SpaceX לתחנה",
+    "title_he": "מדע של נאס\"א, שיגור מטענים במשימת אספקת אספקה ​​34 של SpaceX לתחנה",
     "summary_he": "משימת האספקה ​​המסחרית ה-34 של SpaceX בחוזה עם נאס\"א מובילה לתחנת החלל הבינלאומית עם ניסויים מדעיים חדשים לאחר שהמרימה בשעה 18:05. EDT ביום שישי על רקטת פלקון 9 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל בפלורידה. חללית SpaceX, עמוסה בכמעט 6,500 פאונד […]"
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "Fri, 15 May 2026 14:45:52 +0000",
     "link": "https://www.nasa.gov/image-article/curiosity-shakes-loose-a-pesky-rock/",
     "difficulty": "novice",
     "title_en": "Curiosity Shakes Loose a Pesky Rock",
     "summary_en": "After NASA’s Curiosity Mars rover drilled a sample from this rock on April 25, 2026, it withdrew its robotic arm and pulled the entire rock off the surface with it. Engineers spent several days repositioning the arm and vibrating the drill to try and get the rock loose. When it finally detached on May 1, [&#8230;]",
     "title_ru": "Любопытство расшатывает надоедливый камень",
-    "summary_ru": "После того, как марсоход НАСА «Кьюриосити» 25 апреля 2026 года пробурил образец из этой породы, он убрал свою роботизированную руку и стащил с ее помощью всю породу с поверхности. Инженеры потратили несколько дней, меняя положение рычага и вибрируя бур, чтобы попытаться освободить породу. Когда 1 мая он наконец отделился, […]",
+    "summary_ru": "После того, как марсоход НАСА «Кьюриосити» 25 апреля 2026 года пробурил образец из этой породы, он убрал свою роботизированную руку и стащил с ее помощью весь камень с поверхности. Инженеры потратили несколько дней, меняя положение рычага и вибрируя бур, чтобы попытаться освободить породу. Когда 1 мая он наконец отделился, […]",
     "title_he": "Curiosity Shakes Lose a Pesky Rock",
     "summary_he": "לאחר שהרובר Curiosity Mars של נאס\"א קדח דגימה מסלע זה ב-25 באפריל 2026, הוא משך את זרועו הרובוטית ומשך איתה את כל הסלע מעל פני השטח. מהנדסים בילו מספר ימים במיקום מחדש של הזרוע והרטטת המקדחה כדי לנסות לשחרר את הסלע. כשהיא ניתקה לבסוף ב-1 במאי, […]"
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "Fri, 15 May 2026 12:01:37 +0000",
     "link": "https://science.nasa.gov/missions/hubble/hubble-sights-galaxy-in-transition/",
     "difficulty": "novice",
     "title_en": "Hubble Sights Galaxy in Transition",
     "summary_en": "This NASA Hubble Space Telescope image reveals an enigmatic galaxy with a bright center and a face that hints at spiral structure, yet it holds no obvious spiral arms. Reddish-brown clumps and filaments of dust partially obscure the galaxy’s full face, while red, blue, and orange light from distant galaxies shines through its diffuse outer […]",
     "title_ru": "Хаббл увидел галактику в переходном периоде",
-    "summary_ru": "На этом изображении, сделанном космическим телескопом Хаббла НАСА, видна загадочная галактика с ярким центром и лицом, намекающим на спиральную структуру, но не имеющим явных спиральных рукавов. Красновато-коричневые комки и нити пыли частично закрывают лицо галактики целиком, а красный, синий и оранжевый свет от далеких галактик сияет сквозь ее рассеянный внешний […]",
+    "summary_ru": "На этом изображении, сделанном космическим телескопом Хаббл НАСА, видна загадочная галактика с ярким центром и лицом, намекающим на спиральную структуру, но не имеющим явных спиральных рукавов. Красновато-коричневые комки и нити пыли частично закрывают лицо галактики целиком, а красный, синий и оранжевый свет от далеких галактик сияет сквозь ее рассеянный внешний […]",
     "title_he": "Hubble Sights Galaxy in Transition",
     "summary_he": "תמונה זו של טלסקופ החלל האבל של נאס\"א חושפת גלקסיה אניגמטית עם מרכז בהיר ופנים המרמזים על מבנה ספירלה, אך אין לה זרועות ספירליות ברורות. גושים חומים אדמדמים וחוטי אבק מסתירים חלקית את פניה המלאה של הגלקסיה, בעוד אור אדום, כחול וכתום מגלקסיות רחוקות זורח מבעד לחלק החיצוני המפוזר שלה […]"
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "Fri, 15 May 2026 04:00:00 +0000",
     "link": "https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/",
     "difficulty": "novice",
@@ -84,7 +96,7 @@
     "summary_he": "ניתוח שנערך לאחרונה חשף היכן התעצם האור המלאכותי בלילה, וכן היכן הוא פחת."
   },
   {
-    "id": 8,
+    "id": 9,
     "date": "Thu, 14 May 2026 20:53:24 +0000",
     "link": "https://www.nasa.gov/directorates/esdmd/nasa-draws-on-industry-for-mars-telecommunications-network/",
     "difficulty": "pro",
@@ -96,7 +108,7 @@
     "summary_he": "ביום חמישי, נאס\"א פרסמה בקשה להצעה (RFP), המבקשת שיתוף פעולה בתעשייה עבור רשת הטלקומוניקציה של מאדים. יש צורך בתקשורת אמינה ברוחב פס גבוה כדי להעביר נתונים מדעיים, תמונות בחדות גבוהה ומידע קריטי במהלך משימות על מאדים. הרשת תשתמש במסלולי טלקומוניקציה של מאדים בעלי ביצועים גבוהים בכוכב האדום כדי לתמוך בחקירה עתידית של פני השטח, המסלולים והאנושיים. […]"
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "Thu, 14 May 2026 16:32:09 +0000",
     "link": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/cryogenic-fluid-management-cfm/nasa-industry-prepare-cryogenic-fuel-technology-demo/",
     "difficulty": "pro",
@@ -104,19 +116,7 @@
     "summary_en": "NASA is collaborating with Eta Space of Rockledge, Florida, on an in‑orbit technology demonstration to advance a key capability for future deep space missions. The Liquid Oxygen Flight Demonstration, or LOXSAT, will test cryogenic fluid management technologies necessary for creating in-space propellant depots, essentially gas stations in space, that could support long-term exploration. During a [&#8230;]",
     "title_ru": "НАСА и промышленность готовят демонстрацию технологии криогенного топлива",
     "summary_ru": "НАСА сотрудничает с компанией Eta Space из Рокледжа, Флорида, в демонстрации на орбите технологий, призванных расширить ключевые возможности будущих миссий в дальний космос. Демонстрационный полет жидкого кислорода, или LOXSAT, проверит технологии управления криогенными жидкостями, необходимые для создания космических складов топлива, по сути, заправочных станций в космосе, которые могут поддерживать долгосрочные исследования. Во время […]",
-    "title_he": "נאס\"א, התעשייה מכינים הדגמה של טכנולוגיית דלק קריוגני",
+    "title_he": "נאס\"א, התעשייה מכינים הדגמת טכנולוגיית דלק קריוגני",
     "summary_he": "נאס\"א משתפת פעולה עם Eta Space מרוקלדג', פלורידה, בהדגמת טכנולוגיה במסלול כדי לקדם יכולת מפתח למשימות עתידיות בחלל עמוק. הדגמת טיסת חמצן נוזלי, או LOXSAT, תבדוק טכנולוגיות ניהול נוזל קריוגני הנחוצות ליצירת מחסני הנעה בחלל, בעצם תחנות דלק בחלל, שיכולות לתמוך בחקירה ארוכת טווח. במהלך […]"
-  },
-  {
-    "id": 10,
-    "date": "Thu, 14 May 2026 14:55:08 +0000",
-    "link": "https://www.nasa.gov/image-article/fresh-food-delivery-for-space-station/",
-    "difficulty": "novice",
-    "title_en": "Fresh Food Delivery for Space Station",
-    "summary_en": "NASA astronauts Jack Hathaway (bottom left), Jessica Meir (middle left), and Chris Williams (bottom right), and ESA (European Space Agency) astronaut Sophie Adenot (top right) have some fun with food and microgravity in this April 19, 2026, photo. Northrop Grumman’s Cygnus XL cargo spacecraft delivered a shipment of fresh food, including oranges, apples, onions, and [&#8230;]",
-    "title_ru": "Доставка свежих продуктов на космическую станцию",
-    "summary_ru": "Астронавты НАСА Джек Хэтэуэй (внизу слева), Джессика Меир (в центре слева) и Крис Уильямс (внизу справа), а также астронавт ЕКА (Европейского космического агентства) Софи Адено (вверху справа) немного развлекаются с едой и микрогравитацией на этой фотографии, сделанной 19 апреля 2026 года. Грузовой космический корабль Cygnus XL компании Northrop Grumman доставил партию свежих продуктов, включая апельсины, яблоки, лук и […]",
-    "title_he": "משלוח מזון טרי לתחנת החלל",
-    "summary_he": "האסטרונאוטים של נאס\"א ג'ק האת'ווי (למטה משמאל), ג'סיקה מאיר (אמצע שמאל), וכריס וויליאמס (מימין למטה), ואסטרונאוטית ESA (סוכנות החלל האירופית) סופי אדנוט (מימין למעלה) נהנים קצת עם אוכל ומיקרו-כבידה בתמונה זו של 19 באפריל 2026. חללית המטען Cygnus XL של Northrop Grumman סיפקה משלוח של מזון טרי, כולל תפוזים, תפוחים, בצל, ו- […]"
   }
 ]
