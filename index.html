@@ -1,886 +1,221 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" dir="ltr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Космонавигатор</title>
-  <style>
-    :root {
-      --bg:        #060b14;
-      --surface:   #0d1520;
-      --surface2:  #111f30;
-      --border:    #1a3350;
-      --teal:      #00d4ff;
-      --purple:    #a855f7;
-      --orange:    #ff6b2b;
-      --green:     #22d3a5;
-      --text:      #e8f0fe;
-      --muted:     #5a7a9a;
-      --font: 'Segoe UI', system-ui, sans-serif;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: var(--font);
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
-
-    /* ── STARS BG ── */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image:
-        radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,.6) 0%, transparent 100%),
-        radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,.4) 0%, transparent 100%),
-        radial-gradient(1px 1px at 55% 15%, rgba(255,255,255,.5) 0%, transparent 100%),
-        radial-gradient(1px 1px at 70% 80%, rgba(255,255,255,.3) 0%, transparent 100%),
-        radial-gradient(1px 1px at 85% 40%, rgba(255,255,255,.5) 0%, transparent 100%),
-        radial-gradient(1px 1px at 92% 70%, rgba(255,255,255,.4) 0%, transparent 100%),
-        radial-gradient(1px 1px at 18% 85%, rgba(255,255,255,.3) 0%, transparent 100%),
-        radial-gradient(1px 1px at 45% 50%, rgba(255,255,255,.4) 0%, transparent 100%),
-        radial-gradient(1px 1px at 65% 35%, rgba(255,255,255,.5) 0%, transparent 100%),
-        radial-gradient(1px 1px at 78% 55%, rgba(255,255,255,.3) 0%, transparent 100%);
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* ── HEADER ── */
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(6,11,20,.9);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-      padding: 0 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 60px;
-    }
-
-    .logo {
-      font-size: 1.2rem;
-      font-weight: 700;
-      letter-spacing: .04em;
-      background: linear-gradient(90deg, var(--teal), var(--purple));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      white-space: nowrap;
-    }
-
-    nav {
-      display: flex;
-      gap: .25rem;
-      overflow-x: auto;
-      scrollbar-width: none;
-    }
-    nav::-webkit-scrollbar { display: none; }
-
-    nav button {
-      background: none;
-      border: none;
-      color: var(--muted);
-      font-size: .82rem;
-      padding: .4rem .8rem;
-      border-radius: 6px;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: color .2s, background .2s;
-      font-family: var(--font);
-    }
-    nav button:hover { color: var(--text); background: var(--surface2); }
-    nav button.active { color: var(--teal); background: rgba(0,212,255,.08); }
-
-    /* ── MAIN ── */
-    main {
-      position: relative;
-      z-index: 1;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem 4rem;
-    }
-
-    .section { display: none; }
-    .section.active { display: block; }
-
-    /* ── HERO ── */
-    .hero {
-      text-align: center;
-      padding: 3rem 1rem 2rem;
-    }
-    .hero h1 {
-      font-size: clamp(2rem, 5vw, 3.5rem);
-      font-weight: 800;
-      letter-spacing: -.01em;
-      line-height: 1.15;
-      background: linear-gradient(135deg, var(--teal) 0%, var(--purple) 50%, var(--orange) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .hero p {
-      margin: 1rem auto 0;
-      max-width: 560px;
-      color: var(--muted);
-      font-size: 1rem;
-      line-height: 1.6;
-    }
-
-    /* ── ISS TRACKER ── */
-    .iss-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 1.5rem 2rem;
-      margin: 2rem 0;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 1.5rem;
-      align-items: center;
-    }
-    .iss-card h2 {
-      font-size: .75rem;
-      text-transform: uppercase;
-      letter-spacing: .12em;
-      color: var(--teal);
-      margin-bottom: .6rem;
-    }
-    .iss-data {
-      display: flex;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
-    .iss-stat label {
-      display: block;
-      font-size: .7rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      margin-bottom: .2rem;
-    }
-    .iss-stat span {
-      font-size: 1.3rem;
-      font-weight: 700;
-      font-variant-numeric: tabular-nums;
-      color: var(--text);
-    }
-    .iss-dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 8px var(--green);
-      animation: pulse 2s ease-in-out infinite;
-      display: inline-block;
-      margin-right: .5rem;
-      vertical-align: middle;
-    }
-    @keyframes pulse {
-      0%,100% { opacity: 1; transform: scale(1); }
-      50%      { opacity: .5; transform: scale(.7); }
-    }
-
-    /* ── GLOBE ── */
-    .iss-globe {
-      width: 140px;
-      height: 70px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--surface2);
-      position: relative;
-      overflow: hidden;
-      flex-shrink: 0;
-    }
-    .globe-grid {
-      position: absolute;
-      inset: 0;
-      background-image:
-        repeating-linear-gradient(90deg, rgba(0,212,255,.06) 0 1px, transparent 1px 20%),
-        repeating-linear-gradient(180deg, rgba(0,212,255,.06) 0 1px, transparent 1px 33.3%);
-    }
-    #iss-marker {
-      position: absolute;
-      width: 10px;
-      height: 10px;
-      margin: -5px;
-      transition: left .5s, top .5s;
-    }
-    #iss-marker::before {
-      content: '🛸';
-      font-size: 14px;
-      line-height: 1;
-    }
-
-    /* ── SECTION TITLE ── */
-    .sec-title {
-      font-size: 1.5rem;
-      font-weight: 700;
-      margin-bottom: 1.5rem;
-      display: flex;
-      align-items: center;
-      gap: .6rem;
-    }
-    .sec-title span { color: var(--teal); }
-
-    /* ── CARDS GRID ── */
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1.25rem;
-    }
-
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      transition: transform .2s, border-color .2s, box-shadow .2s;
-      cursor: default;
-    }
-    .card:hover {
-      transform: translateY(-3px);
-      border-color: rgba(0,212,255,.35);
-      box-shadow: 0 8px 32px rgba(0,212,255,.08);
-    }
-
-    .card-img {
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-      background: var(--surface2);
-    }
-    .card-img-ph {
-      width: 100%;
-      height: 160px;
-      background: linear-gradient(135deg, #0d1b4b, #1a0a3b);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2.5rem;
-    }
-
-    .card-body {
-      padding: 1rem 1.1rem 1.2rem;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: .5rem;
-    }
-
-    .card-meta {
-      display: flex;
-      align-items: center;
-      gap: .5rem;
-      flex-wrap: wrap;
-    }
-
-    /* ── TAGS ── */
-    .tag {
-      font-size: .68rem;
-      font-weight: 600;
-      padding: .2rem .55rem;
-      border-radius: 4px;
-      text-transform: uppercase;
-      letter-spacing: .06em;
-    }
-    .tag-novice  { background: rgba(34,211,165,.12); color: var(--green); border: 1px solid rgba(34,211,165,.25); }
-    .tag-pro     { background: rgba(168,85,247,.12);  color: var(--purple); border: 1px solid rgba(168,85,247,.25); }
-    .tag-teacher { background: rgba(255,107,43,.12);  color: var(--orange); border: 1px solid rgba(255,107,43,.25); }
-    .tag-accident{ background: rgba(239,68,68,.12);   color: #f87171;       border: 1px solid rgba(239,68,68,.25); }
-
-    .card-date { font-size: .72rem; color: var(--muted); }
-
-    .card-title {
-      font-size: .95rem;
-      font-weight: 600;
-      line-height: 1.4;
-      color: var(--text);
-    }
-    .card-summary {
-      font-size: .82rem;
-      color: var(--muted);
-      line-height: 1.6;
-      flex: 1;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .card-link {
-      align-self: flex-start;
-      margin-top: .5rem;
-      font-size: .78rem;
-      color: var(--teal);
-      text-decoration: none;
-      border-bottom: 1px solid rgba(0,212,255,.3);
-      transition: border-color .2s;
-    }
-    .card-link:hover { border-color: var(--teal); }
-
-    /* ── LAUNCHES ── */
-    .launch-list { display: flex; flex-direction: column; gap: .85rem; }
-
-    .launch-item {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1rem 1.3rem;
-      display: grid;
-      grid-template-columns: auto 1fr auto;
-      gap: 1rem;
-      align-items: center;
-      transition: border-color .2s;
-    }
-    .launch-item:hover { border-color: rgba(168,85,247,.35); }
-
-    .launch-status {
-      width: 42px;
-      height: 42px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.2rem;
-      flex-shrink: 0;
-    }
-    .launch-status.go  { background: rgba(34,211,165,.12); border: 1px solid rgba(34,211,165,.3); }
-    .launch-status.tbd { background: rgba(255,107,43,.12);  border: 1px solid rgba(255,107,43,.3); }
-
-    .launch-info h3 { font-size: .9rem; font-weight: 600; color: var(--text); }
-    .launch-info p  { font-size: .78rem; color: var(--muted); margin-top: .15rem; }
-
-    .launch-countdown {
-      text-align: right;
-      flex-shrink: 0;
-    }
-    .launch-countdown .cd-label {
-      font-size: .65rem;
-      text-transform: uppercase;
-      letter-spacing: .1em;
-      color: var(--muted);
-    }
-    .launch-countdown .cd-time {
-      font-size: .95rem;
-      font-weight: 700;
-      font-variant-numeric: tabular-nums;
-      color: var(--purple);
-    }
-
-    /* ── EXPLAINER CARDS ── */
-    .explainer-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.4rem;
-      display: flex;
-      gap: 1rem;
-      align-items: flex-start;
-      transition: border-color .2s, transform .2s;
-    }
-    .explainer-card:hover {
-      border-color: rgba(168,85,247,.35);
-      transform: translateX(4px);
-    }
-    .explainer-icon {
-      font-size: 2rem;
-      flex-shrink: 0;
-      width: 52px;
-      height: 52px;
-      background: var(--surface2);
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .explainer-body h3 { font-size: .95rem; font-weight: 600; margin-bottom: .3rem; }
-    .explainer-body p  { font-size: .82rem; color: var(--muted); line-height: 1.6; }
-
-    /* ── WORKSHOP ── */
-    .workshop-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1.25rem;
-    }
-    .workshop-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.4rem;
-      transition: border-color .2s, transform .2s;
-    }
-    .workshop-card:hover {
-      border-color: rgba(255,107,43,.35);
-      transform: translateY(-3px);
-    }
-    .workshop-card .icon { font-size: 2rem; margin-bottom: .7rem; }
-    .workshop-card h3 { font-size: .95rem; font-weight: 600; margin-bottom: .4rem; }
-    .workshop-card p  { font-size: .82rem; color: var(--muted); line-height: 1.6; }
-    .workshop-card .wc-tag {
-      display: inline-block;
-      margin-top: .8rem;
-      font-size: .68rem;
-      padding: .15rem .5rem;
-      border-radius: 4px;
-      background: rgba(255,107,43,.1);
-      color: var(--orange);
-      border: 1px solid rgba(255,107,43,.2);
-    }
-
-    /* ── APPS ── */
-    .apps-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 1.25rem;
-    }
-    .app-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.2rem;
-      display: flex;
-      gap: 1rem;
-      align-items: center;
-      transition: border-color .2s, transform .2s;
-    }
-    .app-card:hover { border-color: rgba(0,212,255,.35); transform: translateY(-2px); }
-    .app-icon {
-      font-size: 2rem;
-      width: 54px;
-      height: 54px;
-      background: var(--surface2);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-    .app-body h3 { font-size: .9rem; font-weight: 600; }
-    .app-body p  { font-size: .78rem; color: var(--muted); margin-top: .2rem; line-height: 1.5; }
-    .app-platforms {
-      display: flex;
-      gap: .3rem;
-      margin-top: .5rem;
-    }
-    .app-platform {
-      font-size: .65rem;
-      padding: .1rem .4rem;
-      border-radius: 3px;
-      background: var(--surface2);
-      color: var(--muted);
-    }
-
-    /* ── LOADING / EMPTY ── */
-    .loading {
-      text-align: center;
-      padding: 3rem;
-      color: var(--muted);
-      font-size: .9rem;
-    }
-    .loading::after {
-      content: '';
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      border: 2px solid var(--border);
-      border-top-color: var(--teal);
-      border-radius: 50%;
-      animation: spin .8s linear infinite;
-      margin-left: .6rem;
-      vertical-align: middle;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-
-    /* ── FILTER BAR ── */
-    .filter-bar {
-      display: flex;
-      gap: .5rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.25rem;
-    }
-    .filter-btn {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-size: .78rem;
-      padding: .35rem .85rem;
-      border-radius: 20px;
-      cursor: pointer;
-      transition: all .2s;
-      font-family: var(--font);
-    }
-    .filter-btn:hover { color: var(--text); border-color: var(--teal); }
-    .filter-btn.active { background: rgba(0,212,255,.1); color: var(--teal); border-color: var(--teal); }
-
-    /* ── DIVIDER ── */
-    .divider {
-      height: 1px;
-      background: linear-gradient(90deg, transparent, var(--border), transparent);
-      margin: 2rem 0;
-    }
-
-    @media (max-width: 600px) {
-      .iss-card { grid-template-columns: 1fr; }
-      .iss-globe { display: none; }
-      .launch-item { grid-template-columns: auto 1fr; }
-      .launch-countdown { grid-column: 2; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космонавигатор / Cosmonavigator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .glass {
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        body {
+            background: radial-gradient(circle at 50% 50%, #0f172a 0%, #020617 100%);
+            min-height: 100vh;
+            color: #f8fafc;
+        }
+        /* Стили для RTL (иврит) */
+        html[dir="rtl"] .rtl-flip {
+            transform: scaleX(-1);
+        }
+    </style>
 </head>
 <body>
 
-<header>
-  <div class="logo">✦ Космонавигатор</div>
-  <nav id="nav">
-    <button class="active" data-sec="home">Главная</button>
-    <button data-sec="news">Новости</button>
-    <button data-sec="launches">Пуски</button>
-    <button data-sec="explainers">Матчасть</button>
-    <button data-sec="workshop">Мастерская</button>
-    <button data-sec="apps">Приложения</button>
-  </nav>
-</header>
-
-<main>
-
-  <!-- ══ ГЛАВНАЯ ══ -->
-  <section id="home" class="section active">
-    <div class="hero">
-      <h1>Навигатор по<br>современной космонавтике</h1>
-      <p>Место, где учитель за 5 минут найдёт материал для урока, а школьник — вдохновится на выбор профессии.</p>
-    </div>
-
-    <!-- ISS Tracker -->
-    <div class="iss-card">
-      <div>
-        <h2><span class="iss-dot"></span>МКС — прямо сейчас</h2>
-        <div class="iss-data">
-          <div class="iss-stat">
-            <label>Широта</label>
-            <span id="iss-lat">—</span>
-          </div>
-          <div class="iss-stat">
-            <label>Долгота</label>
-            <span id="iss-lon">—</span>
-          </div>
-          <div class="iss-stat">
-            <label>Высота</label>
-            <span id="iss-alt">—</span>
-          </div>
-          <div class="iss-stat">
-            <label>Скорость</label>
-            <span id="iss-vel">—</span>
-          </div>
+    <header class="glass sticky top-0 z-50 px-6 py-4 flex flex-wrap justify-between items-center gap-4">
+        <div class="flex items-center gap-3">
+            <span class="text-2xl text-teal-400 font-bold">🚀 <span id="txt-logo">Космонавигатор</span></span>
+            <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-500/10 text-green-400 border border-green-500/20">
+                <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> ISS Live
+            </span>
         </div>
-      </div>
-      <div class="iss-globe" title="Позиция МКС">
-        <div class="globe-grid"></div>
-        <div id="iss-marker">🛸</div>
-      </div>
-    </div>
 
-    <div class="divider"></div>
+        <nav class="flex gap-2 sm:gap-4 overflow-x-auto">
+            <button onclick="switchTab('home')" data-sec="home" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition bg-teal-500/20 text-teal-300 border border-teal-500/30" id="btn-home">Главная</button>
+            <button onclick="switchTab('news')" data-sec="news" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition hover:bg-white/5" id="btn-news">Новости</button>
+            <button onclick="switchTab('launches')" data-sec="launches" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition hover:bg-white/5" id="btn-launches">Пуски</button>
+        </nav>
 
-    <!-- Latest news preview -->
-    <div class="sec-title">Последние <span>новости</span></div>
-    <div id="home-news" class="cards-grid"><div class="loading">Загружаем новости</div></div>
-  </section>
-
-  <!-- ══ НОВОСТИ ══ -->
-  <section id="news" class="section">
-    <div class="sec-title">Оперативные <span>новости</span></div>
-    <div class="filter-bar">
-      <button class="filter-btn active" data-filter="all">Все</button>
-      <button class="filter-btn" data-filter="novice">Новичок</button>
-      <button class="filter-btn" data-filter="pro">Профи</button>
-      <button class="filter-btn" data-filter="teacher">Методичка</button>
-      <button class="filter-btn" data-filter="accident">Разбор аварий</button>
-    </div>
-    <div id="news-grid" class="cards-grid"><div class="loading">Загружаем новости</div></div>
-  </section>
-
-  <!-- ══ ПУСКИ ══ -->
-  <section id="launches" class="section">
-    <div class="sec-title">Календарь <span>пусков</span></div>
-    <div id="launch-list" class="launch-list"><div class="loading">Получаем расписание</div></div>
-  </section>
-
-  <!-- ══ МАТЧАСТЬ ══ -->
-  <section id="explainers" class="section">
-    <div class="sec-title">Разбор <span>матчасти</span></div>
-    <p style="color:var(--muted);font-size:.88rem;margin-bottom:1.5rem">Сложные технологии — простыми словами. Выбери уровень:</p>
-    <div class="filter-bar">
-      <button class="filter-btn active" data-efilter="all">Все</button>
-      <button class="filter-btn" data-efilter="novice">Новичок</button>
-      <button class="filter-btn" data-efilter="pro">Профи</button>
-    </div>
-    <div id="explainers-list" style="display:flex;flex-direction:column;gap:.85rem"></div>
-  </section>
-
-  <!-- ══ МАСТЕРСКАЯ ══ -->
-  <section id="workshop" class="section">
-    <div class="sec-title">Проектная <span>мастерская</span></div>
-    <p style="color:var(--muted);font-size:.88rem;margin-bottom:1.5rem">Готовые методички, идеи для школьных проектов и опытов.</p>
-    <div id="workshop-grid" class="workshop-grid"></div>
-  </section>
-
-  <!-- ══ ПРИЛОЖЕНИЯ ══ -->
-  <section id="apps" class="section">
-    <div class="sec-title">Космос в <span>кармане</span></div>
-    <p style="color:var(--muted);font-size:.88rem;margin-bottom:1.5rem">Лучшие приложения для наблюдения за МКС, звёздами и планетами.</p>
-    <div id="apps-grid" class="apps-grid"></div>
-  </section>
-
-</main>
-
-<script>
-/* ───────────────── NAV ───────────────── */
-const navBtns = document.querySelectorAll('nav button');
-const sections = document.querySelectorAll('.section');
-
-navBtns.forEach(btn => btn.addEventListener('click', () => {
-  const id = btn.dataset.sec;
-  navBtns.forEach(b => b.classList.remove('active'));
-  sections.forEach(s => s.classList.remove('active'));
-  btn.classList.add('active');
-  document.getElementById(id).classList.add('active');
-}));
-
-/* ───────────────── ISS ───────────────── */
-async function updateISS() {
-  try {
-    const r = await fetch('https://api.wheretheiss.at/v1/satellites/25544');
-    const d = await r.json();
-    document.getElementById('iss-lat').textContent = d.latitude.toFixed(2) + '°';
-    document.getElementById('iss-lon').textContent = d.longitude.toFixed(2) + '°';
-    document.getElementById('iss-alt').textContent = d.altitude.toFixed(0) + ' км';
-    document.getElementById('iss-vel').textContent = (d.velocity / 3.6).toFixed(0) + ' м/с';
-
-    const marker = document.getElementById('iss-marker');
-    const globe  = marker.parentElement;
-    const x = ((d.longitude + 180) / 360) * globe.offsetWidth;
-    const y = ((90 - d.latitude) / 180) * globe.offsetHeight;
-    marker.style.left = x + 'px';
-    marker.style.top  = y + 'px';
-  } catch {}
-}
-updateISS();
-setInterval(updateISS, 5000);
-
-/* ───────────────── NEWS ───────────────── */
-function levelTag(title, summary) {
-  const t = (title + ' ' + summary).toLowerCase();
-  if (/авар|катастроф|крушен|взрыв|fail|crash|explod/.test(t)) return 'accident';
-  if (/двигател|топлив|тяга|орбит|траектор|термодинам|ионн|плазм/.test(t)) return 'pro';
-  if (/урок|методич|учит|класс|школ|задан|проект/.test(t)) return 'teacher';
-  return 'novice';
-}
-
-const tagLabel = { novice:'Новичок', pro:'Профи', teacher:'Методичка', accident:'Авария' };
-const tagClass = { novice:'tag-novice', pro:'tag-pro', teacher:'tag-teacher', accident:'tag-accident' };
-
-function stripHtml(s) { return s.replace(/<[^>]*>/g,''); }
-function esc(s) {
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-
-function buildCard(a) {
-  const lvl = levelTag(a.title, a.summary);
-  const img = a.image
-    ? `<img class="card-img" src="${a.image}" alt="" loading="lazy" onerror="this.style.display='none'">`
-    : `<div class="card-img-ph">🚀</div>`;
-  return `
-    <article class="card" data-level="${lvl}">
-      ${img}
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="tag ${tagClass[lvl]}">${tagLabel[lvl]}</span>
-          <span class="card-date">${a.published}</span>
+        <div class="flex bg-white/5 p-1 rounded-lg border border-white/10 text-xs">
+            <button onclick="setLanguage('en')" id="lang-en" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400">EN</button>
+            <button onclick="setLanguage('ru')" id="lang-ru" class="px-2.5 py-1.5 rounded-md font-semibold transition bg-teal-500 text-slate-900">РУС</button>
+            <button onclick="setLanguage('he')" id="lang-he" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400">עבר</button>
         </div>
-        <h2 class="card-title">${esc(a.title)}</h2>
-        <p class="card-summary">${esc(stripHtml(a.summary))}</p>
-        ${a.link ? `<a class="card-link" href="${a.link}" target="_blank" rel="noopener">Читать →</a>` : ''}
-      </div>
-    </article>`;
-}
+    </header>
 
-let allArticles = [];
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        
+        <section id="sec-home" class="space-y-8">
+            <div class="glass rounded-2xl p-8 text-center space-y-4 border border-teal-500/20">
+                <h1 class="text-4xl sm:text-5xl font-black bg-gradient-to-r from-teal-400 to-purple-400 bg-clip-text text-transparent" id="txt-hero-title">Твой гид в мире космонавтики</h1>
+                <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base" id="txt-hero-desc">Агрегатор знаний и новостей для школьников, студентов, учителей и популяризаторов космоса.</p>
+            </div>
 
-async function loadNews() {
-  try {
-    const r = await fetch('news.json');
-    if (!r.ok) throw new Error();
-    const d = await r.json();
-    allArticles = d.articles;
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="glass rounded-xl p-6 space-y-4">
+                    <h3 class="text-lg font-bold text-purple-400" id="txt-iss-title">🛰️ Мониторинг МКС</h3>
+                    <div class="text-sm space-y-2 text-slate-300">
+                        <p><span id="txt-iss-lat">Широта:</span> <span id="iss-lat" class="font-mono text-teal-400">0.00</span></p>
+                        <p><span id="txt-iss-lon">Долгота:</span> <span id="iss-lon" class="font-mono text-teal-400">0.00</span></p>
+                        <p><span id="txt-iss-vel">Скорость:</span> <span id="iss-vel" class="font-mono text-teal-400">0</span> км/ч</p>
+                    </div>
+                </div>
+                <div class="glass rounded-xl p-6 flex flex-col justify-between">
+                    <h3 class="text-lg font-bold text-orange-400" id="txt-next-launch">🚀 Следующий старт</h3>
+                    <div id="launch-timer" class="text-3xl font-black text-center text-slate-100 my-4 font-mono">--:--:--</div>
+                    <div id="launch-name" class="text-xs text-center text-slate-400">Загрузка данных миссии...</div>
+                </div>
+            </div>
+        </section>
 
-    document.getElementById('home-news').innerHTML =
-      allArticles.slice(0, 3).map(buildCard).join('');
+        <section id="sec-news" class="hidden space-y-6">
+            <h2 class="text-2xl font-bold border-b border-white/10 pb-2" id="txt-news-head">Лента космических новостей</h2>
+            <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                </div>
+        </section>
 
-    renderNewsGrid('all');
-  } catch {
-    ['home-news','news-grid'].forEach(id => {
-      document.getElementById(id).innerHTML =
-        '<p style="color:var(--muted);padding:2rem">Запусти <code>python scraper.py</code> и обнови страницу.</p>';
-    });
-  }
-}
+        <section id="sec-launches" class="hidden space-y-6">
+            <h2 class="text-2xl font-bold border-b border-white/10 pb-2" id="txt-launches-head">Расписание предстоящих запусков</h2>
+            <div id="launches-container" class="space-y-4">
+                </div>
+        </section>
 
-function renderNewsGrid(filter) {
-  const list = filter === 'all'
-    ? allArticles
-    : allArticles.filter(a => levelTag(a.title, a.summary) === filter);
-  document.getElementById('news-grid').innerHTML =
-    list.length ? list.map(buildCard).join('') :
-    '<p style="color:var(--muted);padding:2rem">Нет статей в этой категории.</p>';
-}
+    </main>
 
-document.querySelectorAll('[data-filter]').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    renderNewsGrid(btn.dataset.filter);
-  });
-});
+    <script>
+        // СЛОВАРЬ МУЛЬТИЯЗЫЧНОСТИ ИНТЕРФЕЙСА
+        const i18n = {
+            en: {
+                logo: "Cosmonavigator", home: "Home", news: "News", launches: "Launches",
+                title: "Your Guide to Space Exploration", desc: "Knowledge and news aggregator for students, teachers, and space enthusiasts.",
+                issTitle: "🛰️ ISS Live Tracking", lat: "Latitude:", lon: "Longitude:", vel: "Velocity:",
+                nextL: "🚀 Next Launch Countdown", newsHead: "Space News Feed", launchHead: "Upcoming Space Launches",
+                loading: "Loading telemetry...", speedUnit: "km/h"
+            },
+            ru: {
+                logo: "Космонавигатор", home: "Главная", news: "Новости", launches: "Пуски",
+                title: "Твой гид в мире космонавтики", desc: "Агрегатор знаний и новостей для школьников, студентов, учителей и популяризаторов космоса.",
+                issTitle: "🛰️ Мониторинг МКС", lat: "Широта:", lon: "Долгота:", vel: "Скорость:",
+                nextL: "🚀 Следующий старт", newsHead: "Лента космических новостей", launchHead: "Расписание предстоящих запусков",
+                loading: "Загрузка данных...", speedUnit: "км/ч"
+            },
+            he: {
+                logo: "קוסמונביגטור", home: "בית", news: "חדשות", launches: "שיגורים",
+                title: "המדריך שלך לחקר החלל", desc: "מרכז מידע וחדשות לתלמידים, סטודנטים, מורים וחובבי חלל.",
+                issTitle: "🛰️ מעקב חי אחר תחנת החלל", lat: "קו רוחב:", lon: "קו אורך:", vel: "מהירות:",
+                nextL: "🚀 הספירה לאחור לשיגור הבא", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
+                loading: "טוען נתונים...", speedUnit: "קמ\"ש"
+            }
+        };
 
-loadNews();
+        let currentLang = 'ru';
 
-/* ───────────────── LAUNCHES ───────────────── */
-function fmtCountdown(netMs) {
-  if (netMs <= 0) return 'Уже запущен';
-  const s = Math.floor(netMs / 1000);
-  const d = Math.floor(s / 86400);
-  const h = Math.floor((s % 86400) / 3600);
-  const m = Math.floor((s % 3600) / 60);
-  if (d > 0) return `${d}д ${h}ч ${m}м`;
-  return `${h}ч ${m}м ${s % 60}с`;
-}
+        function setLanguage(lang) {
+            currentLang = lang;
+            const html = document.documentElement;
+            
+            // Настройка RTL для иврита
+            if(lang === 'he') {
+                html.setAttribute('dir', 'rtl');
+                html.setAttribute('lang', 'he');
+            } else {
+                html.setAttribute('dir', 'ltr');
+                html.setAttribute('lang', lang);
+            }
 
-let launches = [];
+            // Подсветка кнопок языков
+            ['en', 'ru', 'he'].forEach(l => {
+                const btn = document.getElementById(`lang-${l}`);
+                if(l === lang) {
+                    btn.className = "px-2.5 py-1.5 rounded-md font-semibold transition bg-teal-500 text-slate-900";
+                } else {
+                    btn.className = "px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400 text-slate-400";
+                }
+            });
 
-async function loadLaunches() {
-  try {
-    const url = 'https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=10&format=json';
-    const r = await fetch(url);
-    const d = await r.json();
-    launches = d.results;
-    renderLaunches();
-    setInterval(renderLaunches, 30000);
-  } catch {
-    document.getElementById('launch-list').innerHTML =
-      '<p style="color:var(--muted);padding:2rem">Не удалось загрузить расписание. Проверьте соединение.</p>';
-  }
-}
+            // Перевод элементов интерфейса
+            document.getElementById('txt-logo').innerText = i18n[lang].logo;
+            document.getElementById('btn-home').innerText = i18n[lang].home;
+            document.getElementById('btn-news').innerText = i18n[lang].news;
+            document.getElementById('btn-launches').innerText = i18n[lang].launches;
+            document.getElementById('txt-hero-title').innerText = i18n[lang].title;
+            document.getElementById('txt-hero-desc').innerText = i18n[lang].desc;
+            document.getElementById('txt-iss-title').innerText = i18n[lang].issTitle;
+            document.getElementById('txt-iss-lat').innerText = i18n[lang].lat;
+            document.getElementById('txt-iss-lon').innerText = i18n[lang].lon;
+            document.getElementById('txt-iss-vel').innerText = i18n[lang].vel;
+            document.getElementById('txt-next-launch').innerText = i18n[lang].nextL;
+            document.getElementById('txt-news-head').innerText = i18n[lang].newsHead;
+            document.getElementById('txt-launches-head').innerText = i18n[lang].launchHead;
 
-function renderLaunches() {
-  const now = Date.now();
-  document.getElementById('launch-list').innerHTML = launches.map(l => {
-    const net = new Date(l.net).getTime();
-    const tbd = l.status?.abbrev === 'TBD' || l.status?.abbrev === 'TBC';
-    const icon = tbd ? '⏳' : '🚀';
-    const cls  = tbd ? 'tbd' : 'go';
-    const cd   = tbd ? 'Дата уточняется' : fmtCountdown(net - now);
-    const rocket = l.rocket?.configuration?.name || '—';
-    const pad    = l.pad?.name || '';
-    return `
-      <div class="launch-item">
-        <div class="launch-status ${cls}">${icon}</div>
-        <div class="launch-info">
-          <h3>${esc(l.name)}</h3>
-          <p>${rocket}${pad ? ' · ' + esc(pad) : ''}</p>
-        </div>
-        <div class="launch-countdown">
-          <div class="cd-label">До старта</div>
-          <div class="cd-time">${cd}</div>
-        </div>
-      </div>`;
-  }).join('');
-}
+            // Перерисовываем новости под новый язык
+            renderNews();
+        }
 
-loadLaunches();
+        function switchTab(tabId) {
+            ['home', 'news', 'launches'].forEach(id => {
+                document.getElementById(`sec-${id}`).classList.add('hidden');
+                document.querySelector(`[data-sec="${id}"]`).className = "nav-btn px-4 py-2 rounded-lg text-sm font-medium transition hover:bg-white/5 text-slate-300";
+            });
+            document.getElementById(`sec-${tabId}`).classList.remove('hidden');
+            document.querySelector(`[data-sec="${tabId}"]`).className = "nav-btn px-4 py-2 rounded-lg text-sm font-medium transition bg-teal-500/20 text-teal-300 border border-teal-500/30";
+        }
 
-/* ───────────────── EXPLAINERS (static) ───────────────── */
-const explainers = [
-  { icon:'🔥', level:'novice', title:'Почему ракеты летят вверх?', body:'Реактивное движение: газы вырываются вниз — ракета летит вверх. Третий закон Ньютона в действии.' },
-  { icon:'🛰️', level:'novice', title:'Что такое орбита?', body:'Орбита — это путь, по которому объект летит вокруг Земли, постоянно "падая" мимо горизонта.' },
-  { icon:'⚡', level:'pro',    title:'Ионные двигатели', body:'Разгоняют ионы до огромных скоростей электрическим полем. Тяга мала, но работают месяцами — идеальны для дальних миссий.' },
-  { icon:'🌡️', level:'pro',   title:'Тепловой щит при возвращении', body:'При входе в атмосферу корабль разогревается до 1650°C. Абляционный материал сгорает, унося тепло с собой.' },
-  { icon:'🔭', level:'novice', title:'Как работает телескоп Джеймс Уэбб?', body:'Зеркало 6,5 м собирает инфракрасный свет из 13 млрд световых лет — туда, куда Хаббл не видел.' },
-  { icon:'🧲', level:'pro',   title:'Радиационные пояса Ван Аллена', body:'Зоны заряженных частиц вокруг Земли. Опасны для электроники и экипажа — именно поэтому МКС летит ниже.' },
-];
+        // ТЕЛЕМЕТРИЯ МКС
+        async function updateISS() {
+            try {
+                const res = await fetch('https://api.wheretheiss.at/v1/satellites/25544');
+                const data = await res.json();
+                document.getElementById('iss-lat').innerText = data.latitude.toFixed(4);
+                document.getElementById('iss-lon').innerText = data.longitude.toFixed(4);
+                document.getElementById('iss-vel').innerText = Math.round(data.velocity).toLocaleString();
+            } catch(e) { console.log("ISS error", e); }
+        }
+        setInterval(updateISS, 5000);
+        updateISS();
 
-function renderExplainers(filter) {
-  const list = filter === 'all' ? explainers : explainers.filter(e => e.level === filter);
-  document.getElementById('explainers-list').innerHTML = list.map(e => `
-    <div class="explainer-card" data-level="${e.level}">
-      <div class="explainer-icon">${e.icon}</div>
-      <div class="explainer-body">
-        <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.3rem">
-          <h3>${e.title}</h3>
-          <span class="tag ${tagClass[e.level]}">${tagLabel[e.level]}</span>
-        </div>
-        <p>${e.body}</p>
-      </div>
-    </div>`).join('');
-}
-renderExplainers('all');
+        // ЗАГРУЗКА И ОТРЕНДЕРИНГ НОВОСТЕЙ С АВТОСМЕНОЙ ЯЗЫКА
+        let globalNews = [];
+        async function loadNews() {
+            try {
+                const res = await fetch('news.json');
+                globalNews = await res.json();
+                renderNews();
+            } catch(e) {
+                document.getElementById('news-container').innerHTML = "<p class='text-red-400'>Сначала запустите scraper.py на сервере для генерации news.json</p>";
+            }
+        }
 
-document.querySelectorAll('[data-efilter]').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('[data-efilter]').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    renderExplainers(btn.dataset.efilter);
-  });
-});
+        function renderNews() {
+            const container = document.getElementById('news-container');
+            if(!globalNews.length) return;
 
-/* ───────────────── WORKSHOP (static) ───────────────── */
-const workshop = [
-  { icon:'🌡️', title:'Атмосфера в бутылке', body:'Опыт с перепадом давления в пластиковой бутылке — модель формирования облаков. Возраст: 10+', tag:'Опыт' },
-  { icon:'🚀', title:'Спроектируй ракету из бумаги', body:'Методичка с расчётами центра масс и центра давления. Запуск с водяным насосом.', tag:'Проект' },
-  { icon:'🌍', title:'Орбитальная механика на шарах', body:'Симуляция гравитации с помощью натянутого лайкры и стальных шаров. Урок на 45 минут.', tag:'Урок' },
-  { icon:'📡', title:'Поймай сигнал МКС', body:'Инструкция по приёму SSTV-изображений с МКС на RTL-SDR приёмник. Для кружков.', tag:'Кружок' },
-  { icon:'🔭', title:'Ночь астрономии', body:'Готовый сценарий школьного мероприятия: наблюдение, викторина, фото через телескоп.', tag:'Мероприятие' },
-  { icon:'🛸', title:'Марсианская колония', body:'Ролевая игра: команды проектируют базу на Марсе с реальными ограничениями по ресурсам.', tag:'Игра' },
-];
+            container.innerHTML = globalNews.map(item => {
+                // Выбираем нужное поле в зависимости от текущего языка сайта
+                const title = item[`title_${currentLang}`] || item.title_en;
+                const summary = item[`summary_${currentLang}`] || item.summary_en;
 
-document.getElementById('workshop-grid').innerHTML = workshop.map(w => `
-  <div class="workshop-card">
-    <div class="icon">${w.icon}</div>
-    <h3>${w.title}</h3>
-    <p>${w.body}</p>
-    <span class="wc-tag">${w.tag}</span>
-  </div>`).join('');
-
-/* ───────────────── APPS (static) ───────────────── */
-const apps = [
-  { icon:'🛰️', name:'ISS Detector',     desc:'Оповещения о пролёте МКС над вашим городом. Точность до минуты.',              platforms:['Android','iOS'] },
-  { icon:'⭐',  name:'Star Walk 2',      desc:'Наведи на небо — узнай название звезды. Дополненная реальность.',               platforms:['Android','iOS'] },
-  { icon:'🌙',  name:'SkySafari',        desc:'Планетарий в кармане. Поиск планет, комет и спутников в реальном времени.',     platforms:['Android','iOS'] },
-  { icon:'🔭',  name:'Stellarium',       desc:'Открытый планетарий. Симуляция неба для любой точки Земли и любой даты.',       platforms:['Android','iOS','Web'] },
-  { icon:'🚀',  name:'SpaceX App',       desc:'Прямые трансляции пусков, новости и данные о миссиях от SpaceX.',               platforms:['Android','iOS'] },
-  { icon:'📡',  name:'NASA App',         desc:'Фото дня, новости, трансляции и данные о текущих миссиях NASA.',                platforms:['Android','iOS'] },
-  { icon:'☄️',  name:'Heavens-Above',    desc:'Пролёты спутников, МКС и Starlink над любой точкой планеты.',                   platforms:['Web','Android'] },
-  { icon:'🌌',  name:'Universe Today',   desc:'Агрегатор космических новостей с удобным интерфейсом и подкастами.',            platforms:['Web'] },
-];
-
-document.getElementById('apps-grid').innerHTML = apps.map(a => `
-  <div class="app-card">
-    <div class="app-icon">${a.icon}</div>
-    <div class="app-body">
-      <h3>${a.name}</h3>
-      <p>${a.desc}</p>
-      <div class="app-platforms">${a.platforms.map(p=>`<span class="app-platform">${p}</span>`).join('')}</div>
-    </div>
-  </div>`).join('');
-</script>
+                return `
+                    <div class="glass rounded-xl p-6 space-y-3 flex flex-col justify-between border border-white/5">
+                        <div class="space-y-2">
+                            <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">
+                                ${item.difficulty.toUpperCase()}
+                            </span>
+                            <h3 class="text-lg font-bold text-slate-100">${title}</h3>
+                            <p class="text-sm text-slate-400 line-clamp-3">${summary}</p>
+                        </div>
+                        <div class="pt-4 flex justify-between items-center text-xs text-slate-500">
+                            <span>${item.date.split(' ').slice(0,4).join(' ')}</span>
+                            <a href="${item.link}" target="_blank" class="text-teal-400 hover:underline">NASA →</a>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        loadNews();
+    </script>
 </body>
 </html>

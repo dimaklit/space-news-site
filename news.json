@@ -1,76 +1,122 @@
-{
-  "source": "NASA",
-  "fetched_at": "2026-04-20 22:06 UTC",
-  "articles": [
-    {
-      "title": "NASA Rolls Out Artemis III Moon Rocket Core Stage",
-      "link": "https://www.nasa.gov/news-release/nasa-rolls-out-artemis-iii-moon-rocket-core-stage/",
-      "summary": "Following the recent successful test flight of NASA’s Artemis II mission around the Moon, NASA rolled out the core stage, or the largest section, of the agency’s SLS (Space Launch System) rocket that will launch the crewed Artemis III mission in 2027. The stage departed from the agency’s Michoud Assembly Facility in New Orleans on [&#8230;]",
-      "published": "2026-04-20 20:31 UTC",
-      "image": ""
-    },
-    {
-      "title": "NASA Invites Media to SpaceX’s 34th Resupply Launch to Space Station",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-34th-resupply-launch-to-space-station/",
-      "summary": "Media accreditation is open for the next U.S. launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. This launch is the 34th SpaceX Commercial Resupply Services mission to the orbital laboratory for NASA and will lift off on the company’s Falcon 9 rocket. NASA and SpaceX are targeting no earlier [&#8230;]",
-      "published": "2026-04-20 18:02 UTC",
-      "image": ""
-    },
-    {
-      "title": "NASA Welcomes Latvia as Newest Artemis Accords Signatory",
-      "link": "https://www.nasa.gov/news-release/nasa-welcomes-latvia-as-newest-artemis-accords-signatory/",
-      "summary": "The Republic of&#160;Latvia&#160;signed the Artemis Accords&#160;Monday&#160;during a ceremony&#160;hosted by NASA&#160;at the agency’s headquarters in Washington,&#160;becoming the&#160;62nd&#160;nation to commit to responsible space exploration for all humanity.&#160; “We are proud to welcome Latvia to the Artemis Accords,” said NASA Administrator Jared Isaacman. “Each new signatory strengthens a coalition committed to&#160;the&#160;transparent and&#160;peaceful exploration of space.&#160;The accords are the [&#8230;]",
-      "published": "2026-04-20 16:01 UTC",
-      "image": ""
-    },
-    {
-      "title": "Wheels Up for X-59",
-      "link": "https://www.nasa.gov/image-article/wheels-up-for-x-59/",
-      "summary": "NASA’s X-59 quiet supersonic research aircraft flies over the Mojave Desert in California in this April 14, 2026, image. The transition to flying with wheels up is a key milestone and an important step in the experimental aircraft&#8217;s test campaign. The X-59 has made its highest and fastest flights so far, expanding its operational range [&#8230;]",
-      "published": "2026-04-20 15:57 UTC",
-      "image": ""
-    },
-    {
-      "title": "Widely Attended Gatherings (WAGs) Determinations",
-      "link": "https://www.nasa.gov/organizations/nasa-ethics-advice-for-widely-attended-gatherings-wags/",
-      "summary": "2026 Space Policy Institute 4.29.26.pdf Planetary Society APLU and AAU 4.21.26.pdf 41st Space Symposium-suppl 04.13-16.26 Space Symposium 2026 Events 4.13-16.26 2026 NSCFL Space Heroes and Legends Award Banquet 4.18.26 Newport News State of the City Event 4.13.26 Space Policy Institute Event 4.6.26 SpaceX Networking Reception 3.24.26 Maryland Space Business Roundtable (MSBR) 3.26.26 SIA_27th Annual Leadership [&#8230;]",
-      "published": "2026-04-20 14:35 UTC",
-      "image": ""
-    },
-    {
-      "title": "NASA’s Hubble Dazzles With Young Stars in Trifid Nebula",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-dazzles-with-young-stars-in-trifid-nebula/",
-      "summary": "This shimmering region of star-formation, a close-up of the Trifid Nebula about 5,000 light-years from Earth, was captured in intricate detail by NASA’s Hubble Space Telescope. The colors in Hubble’s visible light image, which marks the 36th anniversary of the mission’s launch on April 24, are reminiscent of an underwater scene filled with fine-grained sediments fluttering through the ocean’s depths.",
-      "published": "2026-04-20 14:01 UTC",
-      "image": ""
-    },
-    {
-      "title": "Thailand’s Krabi Coast",
-      "link": "https://science.nasa.gov/earth/earth-observatory/thailands-krabi-coast/",
-      "summary": "The coastal province features striking tropical karst landscapes and sandy beaches alongside a mix of natural land cover and developed areas.",
-      "published": "2026-04-20 04:00 UTC",
-      "image": ""
-    },
-    {
-      "title": "CSDA Quality Assessment Report Evaluates Satellogic NewSat Data",
-      "link": "https://science.nasa.gov/uncategorized/csda-quality-assessment-report-evaluates-satellogic-newsat-data/",
-      "summary": "The report adds to the growing documentation on commercial data’s contributions to Earth science research and applications.",
-      "published": "2026-04-17 21:21 UTC",
-      "image": ""
-    },
-    {
-      "title": "Webinar 4/29: NASA CSDA Program Vendor Focus- MDA Space",
-      "link": "https://science.nasa.gov/science-research/earth-science/webinar-4-29-nasa-csda-program-vendor-focus-mda-space/",
-      "summary": "Join us April 29 at 2:00 p.m. EDT to learn more about CSDA program vendor MDA Space.",
-      "published": "2026-04-17 20:33 UTC",
-      "image": ""
-    },
-    {
-      "title": "NASA Artemis II Human Research Data Methodology Challenge",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-artemis-ii-human-research-data-methodology-challenge/",
-      "summary": "NASA’s Human Research Program (HRP) uses research to develop methods to protect the health and performance of astronauts in space. In support of NASA’s goals for long-term missions on the surface of the Moon and human exploration of Mars, HRP is using ground research facilities, the International Space Station, and analog environments to monitor human health in deep space.  NASA’s&#160;Artemis II&#160;mission&#160;was&#160;the first [&#8230;]",
-      "published": "2026-04-17 18:41 UTC",
-      "image": ""
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "date": "Mon, 18 May 2026 17:09:43 +0000",
+    "link": "https://science.nasa.gov/missions/maven/nasas-maven-makes-1st-discovery-of-atmospheric-effect-at-mars/",
+    "difficulty": "novice",
+    "title_en": "NASA’s MAVEN Makes 1st Discovery of Atmospheric Effect at Mars",
+    "summary_en": "In December 2023, scientists looking at Mars data stumbled across something completely unexpected — observations of an atmospheric effect never before seen in the Red Planet’s atmosphere. Using instruments aboard NASA’s MAVEN (Mars Atmosphere and Volatile Evolution) mission, scientists identified a phenomenon known to occur in Earth’s magnetosphere, where charged particles are squeezed like toothpaste […]",
+    "title_ru": "MAVEN НАСА сделал первое открытие атмосферного эффекта на Марсе",
+    "summary_ru": "В декабре 2023 года ученые, изучающие данные о Марсе, наткнулись на нечто совершенно неожиданное — наблюдения атмосферного эффекта, никогда ранее не наблюдавшегося в атмосфере Красной планеты. Используя инструменты на борту миссии НАСА MAVEN (Mars Atmosphere and Volatile Evolution), ученые определили явление, которое, как известно, происходит в магнитосфере Земли, где заряженные частицы сжимаются, как зубная паста [...]",
+    "title_he": "מייבן של נאס\"א מגלה לראשונה את ההשפעה האטמוספירית במאדים",
+    "summary_he": "בדצמבר 2023, מדענים שהסתכלו על נתוני מאדים נתקלו במשהו בלתי צפוי לחלוטין — תצפיות על אפקט אטמוספרי שמעולם לא נראה קודם לכן באטמוספירה של כוכב הלכת האדום. באמצעות מכשירים על משימת MAVEN (אטמוספירת מאדים ואבולוציה נדיפה), מדענים זיהו תופעה הידועה להתרחש במגנטוספירה של כדור הארץ, שם חלקיקים טעונים נסחטים כמו משחת שיניים [...]"
+  },
+  {
+    "id": 2,
+    "date": "Mon, 18 May 2026 17:00:17 +0000",
+    "link": "https://www.nasa.gov/news-release/nasa-selects-next-class-of-space-health-postdoctoral-fellows/",
+    "difficulty": "pro",
+    "title_en": "NASA Selects Next Class of Space Health Postdoctoral Fellows",
+    "summary_en": "The NASA-funded Translational Research Institute for Space Health (TRISH) has selected two early‑career scientists for its next class of postdoctoral fellows. The new fellows will begin their projects in May, focusing on space food systems and astronaut eye health. The TRISH Postdoctoral Fellowship Program supports independent research that advances biomedical, behavioral, and technological approaches relevant [&#8230;]",
+    "title_ru": "НАСА выбирает следующий класс постдокторских стипендиатов по космическому здравоохранению",
+    "summary_ru": "Финансируемый НАСА Институт трансляционных исследований космического здоровья (TRISH) выбрал двух молодых ученых для своего следующего класса докторантов. Новые стипендиаты начнут свои проекты в мае, уделяя особое внимание космическим системам питания и здоровью глаз астронавтов. Программа стипендий TRISH Postdoctoral Fellowship поддерживает независимые исследования, которые продвигают биомедицинские, поведенческие и технологические подходы, соответствующие [...]",
+    "title_he": "נאס\"א בוחרת את המחלקה הבאה של עמיתי פוסט - דוקטורט בתחום בריאות החלל",
+    "summary_he": "מכון המחקר לתרגום לבריאות החלל (TRISH) במימון נאס\"א בחר שני מדענים בתחילת הקריירה שלהם עבור המחזור הבא של עמיתי הפוסט - דוקטורט שלהם. העמיתים החדשים יתחילו את הפרויקטים שלהם בחודש מאי, תוך התמקדות במערכות מזון בחלל ובריאות העין של האסטרונאוט. תוכנית מלגות טריש לפוסט - דוקטורט תומכת במחקר עצמאי המקדם גישות ביו - רפואיות, התנהגותיות וטכנולוגיות רלוונטיות [...]"
+  },
+  {
+    "id": 3,
+    "date": "Mon, 18 May 2026 15:31:45 +0000",
+    "link": "https://www.nasa.gov/image-article/beacon-of-light/",
+    "difficulty": "pro",
+    "title_en": "Beacon of Light",
+    "summary_en": "The heart of galaxy M77 shines brightly in this May 7, 2026, image from NASA&#8217;s James Webb Space Telescope. The intense glow is due to gas being pulled by the strong gravity of the central black hole into a tight and rapid orbit around it. The motion of the gas causes it to heat up, [&#8230;]",
+    "title_ru": "Маяк света",
+    "summary_ru": "Сердце галактики M77 ярко сияет на этом изображении от космического телескопа Джеймса Уэбба НАСА 7 мая 2026 года. Интенсивное свечение обусловлено тем, что газ вытягивается сильной гравитацией центральной черной дыры на плотную и быструю орбиту вокруг нее. Движение газа заставляет его нагреваться, […]",
+    "title_he": "מגדלור של אור",
+    "summary_he": "ליבה של הגלקסיה M77 זורח ב -7 במאי 2026, תמונה מטלסקופ החלל ג'יימס ווב של נאס\"א. הזוהר העז נובע מכך שהגז נמשך על ידי הכבידה החזקה של החור השחור המרכזי למסלול הדוק ומהיר סביבו. תנועת הגז גורמת לו להתחמם, [...]"
+  },
+  {
+    "id": 4,
+    "date": "Fri, 15 May 2026 22:52:14 +0000",
+    "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "difficulty": "novice",
+    "title_en": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
+    "summary_en": "The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6:05 p.m. EDT Friday on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The SpaceX spacecraft, loaded with nearly 6,500 pounds [&#8230;]",
+    "title_ru": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
+    "summary_ru": "34-я коммерческая миссия SpaceX по пополнению запасов по контракту с НАСА направляется на Международную космическую станцию с новыми научными экспериментами после взлета в 18:05 по восточному поясному времени в пятницу на ракете Falcon 9 из космического стартового комплекса 40 на мысе Канаверал в штате Флорида. Космический корабль SpaceX, нагруженный почти 6 500 фунтами […]",
+    "title_he": "NASA Science, Cargo Launch במשימת האספקה מחדש ה -34 של SpaceX לתחנה",
+    "summary_he": "משימת האספקה המסחרית ה -34 של SpaceX תחת חוזה עם נאס\"א בדרכה לתחנת החלל הבינלאומית עם ניסויים מדעיים חדשים לאחר ההמראה ביום שישי בשעה 18:05 EDT על טיל פלקון 9 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל בפלורידה. החללית SpaceX, עמוסה בכמעט 6,500 פאונד [...]"
+  },
+  {
+    "id": 5,
+    "date": "Fri, 15 May 2026 14:45:52 +0000",
+    "link": "https://www.nasa.gov/image-article/curiosity-shakes-loose-a-pesky-rock/",
+    "difficulty": "novice",
+    "title_en": "Curiosity Shakes Loose a Pesky Rock",
+    "summary_en": "After NASA’s Curiosity Mars rover drilled a sample from this rock on April 25, 2026, it withdrew its robotic arm and pulled the entire rock off the surface with it. Engineers spent several days repositioning the arm and vibrating the drill to try and get the rock loose. When it finally detached on May 1, [&#8230;]",
+    "title_ru": "Любопытство расшатывает надоедливый камень",
+    "summary_ru": "После того, как 25 апреля 2026 года марсоход НАСА Curiosity пробурил образец из этой породы, он вытащил свою роботизированную руку и вытащил всю скалу с поверхности. Инженеры потратили несколько дней, перемещая рычаг и вибрируя сверло, чтобы попытаться освободить камень. Когда он окончательно отсоединился 1 мая, […]",
+    "title_he": "סקרנות נופלת על סלע מציק",
+    "summary_he": "לאחר שהרובר קיוריוסיטי מאדים של נאס\"א קדח דגימה מהסלע הזה ב -25 באפריל 2026, הוא הסיג את זרועו הרובוטית והוציא איתה את הסלע כולו מפני השטח. המהנדסים העבירו מספר ימים במיקום מחדש של הזרוע וברעידת המקדח כדי לנסות לשחרר את הסלע. כשהיא סוף סוף נותקה ב -1 במאי, [...]"
+  },
+  {
+    "id": 6,
+    "date": "Fri, 15 May 2026 12:01:37 +0000",
+    "link": "https://science.nasa.gov/missions/hubble/hubble-sights-galaxy-in-transition/",
+    "difficulty": "novice",
+    "title_en": "Hubble Sights Galaxy in Transition",
+    "summary_en": "This NASA Hubble Space Telescope image reveals an enigmatic galaxy with a bright center and a face that hints at spiral structure, yet it holds no obvious spiral arms. Reddish-brown clumps and filaments of dust partially obscure the galaxy’s full face, while red, blue, and orange light from distant galaxies shines through its diffuse outer […]",
+    "title_ru": "Галактика «Хаббл» в переходном периоде",
+    "summary_ru": "Это изображение космического телескопа НАСА «Хаббл» показывает загадочную галактику с ярким центром и лицом, которое намекает на спиральную структуру, но не содержит очевидных спиральных рукавов. Красновато-коричневые сгустки и нити пыли частично скрывают полное лицо галактики, в то время как красный, синий и оранжевый свет от далеких галактик сияет через ее рассеянную внешнюю […]",
+    "title_he": "גלקסיית מראות האבל במעבר",
+    "summary_he": "תמונה זו של טלסקופ החלל האבל של נאס\"א חושפת גלקסיה מסתורית עם מרכז בהיר ופנים הרומזות על מבנה ספירלי, אך אין לה זרועות ספירליות ברורות. גושים אדמדמים - חומים וחוטי אבק מטשטשים חלקית את הפנים המלאות של הגלקסיה, בעוד שאור אדום, כחול וכתום מגלקסיות רחוקות מאיר דרך הגלקסיה החיצונית המפוזרת שלה [...]"
+  },
+  {
+    "id": 7,
+    "date": "Fri, 15 May 2026 04:00:00 +0000",
+    "link": "https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/",
+    "difficulty": "novice",
+    "title_en": "Picturing Earth in a New Light",
+    "summary_en": "A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished.",
+    "title_ru": "Представление Земли в новом свете",
+    "summary_ru": "Недавний анализ показал, где искусственное освещение ночью усилилось, а где уменьшилось.",
+    "title_he": "לדמיין את כדור הארץ באור חדש",
+    "summary_he": "ניתוח שנערך לאחרונה גילה היכן האור המלאכותי בלילה התעצם, כמו גם היכן הוא פחת."
+  },
+  {
+    "id": 8,
+    "date": "Thu, 14 May 2026 20:53:24 +0000",
+    "link": "https://www.nasa.gov/directorates/esdmd/nasa-draws-on-industry-for-mars-telecommunications-network/",
+    "difficulty": "pro",
+    "title_en": "NASA Draws on Industry for Mars Telecommunications Network",
+    "summary_en": "On Thursday, NASA issued a Request for Proposal (RFP), seeking industry collaboration for the Mars Telecommunications Network. Reliable, high bandwidth communications is necessary to relay science data, high-definition imagery, and critical information during Mars missions. The network will use high-performance Mars telecommunications orbiters at the Red Planet to support future surface, orbital, and human exploration. [&#8230;]",
+    "title_ru": "НАСА использует промышленность для телекоммуникационной сети Mars",
+    "summary_ru": "В четверг НАСА выпустило запрос на предложение (RFP), стремясь к отраслевому сотрудничеству для телекоммуникационной сети Mars. Надежная связь с высокой пропускной способностью необходима для передачи научных данных, изображений высокой четкости и важной информации во время миссий на Марс. Сеть будет использовать высокопроизводительные телекоммуникационные орбитальные аппараты Mars на Красной планете для поддержки будущих исследований поверхности, орбиты и человека. [...]",
+    "title_he": "נאס\"א משתמשת ב - Industry for Mars Telecommunications Network",
+    "summary_he": "ביום חמישי פרסמה נאס\"א בקשה להצעה (RFP), המבקשת שיתוף פעולה בתעשייה עבור רשת התקשורת של מאדים. תקשורת אמינה ברוחב פס גבוה נחוצה כדי להעביר נתוני מדע, תמונות בחדות גבוהה ומידע קריטי במהלך משימות מאדים. הרשת תשתמש במסלולי טלקומוניקציה עתירי ביצועים במאדים בכוכב הלכת האדום כדי לתמוך בחקר עתידי של פני השטח, המסלול והאדם. [...]"
+  },
+  {
+    "id": 9,
+    "date": "Thu, 14 May 2026 16:32:09 +0000",
+    "link": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/cryogenic-fluid-management-cfm/nasa-industry-prepare-cryogenic-fuel-technology-demo/",
+    "difficulty": "pro",
+    "title_en": "NASA, Industry Prepare Cryogenic Fuel Technology Demo",
+    "summary_en": "NASA is collaborating with Eta Space of Rockledge, Florida, on an in‑orbit technology demonstration to advance a key capability for future deep space missions. The Liquid Oxygen Flight Demonstration, or LOXSAT, will test cryogenic fluid management technologies necessary for creating in-space propellant depots, essentially gas stations in space, that could support long-term exploration. During a [&#8230;]",
+    "title_ru": "НАСА, промышленность готовят демонстрацию технологии криогенного топлива",
+    "summary_ru": "НАСА сотрудничает с Eta Space из Рокледжа, штат Флорида, в демонстрации технологии на орбите для продвижения ключевой возможности для будущих миссий в дальний космос. Демонстрация полета жидкого кислорода, или LOXSAT, проверит технологии управления криогенной жидкостью, необходимые для создания складов топлива в космосе, в основном заправочных станций в космосе, которые могли бы поддерживать долгосрочные исследования. Во время […]",
+    "title_he": "נאס\"א, תעשיית הכנת הדגמה של טכנולוגיית דלק קריוגנית",
+    "summary_he": "נאס\"א משתפת פעולה עם Eta Space של Rockledge, פלורידה, בהדגמה טכנולוגית במסלול כדי לקדם יכולת מרכזית למשימות חלל עמוק עתידיות. הדגמת טיסת החמצן הנוזלי, או LOXSAT, תבדוק טכנולוגיות לניהול נוזלים קריוגניים הנחוצות ליצירת מחסני דלק בחלל, בעיקר תחנות דלק בחלל, שיכולות לתמוך בחקירה ארוכת טווח. במהלך […]"
+  },
+  {
+    "id": 10,
+    "date": "Thu, 14 May 2026 14:55:08 +0000",
+    "link": "https://www.nasa.gov/image-article/fresh-food-delivery-for-space-station/",
+    "difficulty": "novice",
+    "title_en": "Fresh Food Delivery for Space Station",
+    "summary_en": "NASA astronauts Jack Hathaway (bottom left), Jessica Meir (middle left), and Chris Williams (bottom right), and ESA (European Space Agency) astronaut Sophie Adenot (top right) have some fun with food and microgravity in this April 19, 2026, photo. Northrop Grumman’s Cygnus XL cargo spacecraft delivered a shipment of fresh food, including oranges, apples, onions, and [&#8230;]",
+    "title_ru": "Доставка свежей еды на космическую станцию",
+    "summary_ru": "Астронавты НАСА Джек Хэтэуэй (внизу слева), Джессика Меир (в центре слева), Крис Уильямс (внизу справа) и астронавт ЕКА (Европейское космическое агентство) Софи Аденот (вверху справа) развлекаются с едой и микрогравитацией 19 апреля 2026 года, фото. Грузовой космический корабль Northrop Grumman Cygnus XL доставил партию свежих продуктов, включая апельсины, яблоки, лук и [...]",
+    "title_he": "משלוחי אוכל טרי לתחנת החלל",
+    "summary_he": "האסטרונאוטים של נאס\"א ג'ק האת'וויי (משמאל למטה), ג'סיקה מאיר (משמאל לאמצע) וכריס וויליאמס (מימין למטה) והאסטרונאוטית של סוכנות החלל האירופית סופי אדנוט (מימין למעלה) נהנים ממזון ומיקרוגרביטציה בתמונה זו מ -19 באפריל 2026. חללית המטען Cygnus XL של נורת'רופ גראמן סיפקה משלוח של מזון טרי, כולל תפוזים, תפוחים, בצל, […]"
+  }
+]
