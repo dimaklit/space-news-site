@@ -6,23 +6,22 @@ import re
 import time
 
 RSS_URL = "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+LAUNCHES_URL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=5"
 
 def translate_text(text, target_lang):
     if not text:
         return ""
     try:
-        # Используем бесплатное API MyMemory (ограничение до 1000 слов в день, для анонсов хватит)
-        url = f"https://api.mymemory.translated.net/get?q={urllib.parse.quote(text)}&langpair=en|{target_lang}"
+        # Безлимитный Google Translate API
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl={target_lang}&dt=t&q={urllib.parse.quote(text)}"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=10) as response:
             data = json.loads(response.read().decode('utf-8'))
-            translated = data.get('responseData', {}).get('translatedText', '')
-            if translated:
-                # Декодируем HTML-сущности, если они вернулись
-                return urllib.parse.unquote(translated)
+            translated_parts = [part[0] for part in data[0] if part[0]]
+            return "".join(translated_parts)
     except Exception as e:
         print(f"Ошибка перевода на {target_lang}: {e}")
-    return text # Если упало, возвращаем оригинал
+    return text
 
 def get_difficulty(title, summary):
     text = f"{title} {summary}".lower()
@@ -34,8 +33,36 @@ def get_difficulty(title, summary):
         return "teacher"
     return "novice"
 
+def fetch_launches():
+    print("Сбор расписания космических пусков...")
+    try:
+        req = urllib.request.Request(LAUNCHES_URL, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=15) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            launches = []
+            for item in data.get('results', []):
+                name_en = item.get('name', 'Unknown Mission')
+                launches.append({
+                    "name_en": name_en,
+                    "name_ru": translate_text(name_en, "ru"),
+                    "name_he": translate_text(name_en, "he"),
+                    "window_start": item.get('window_start'),
+                    "rocket": item.get('rocket', {}).get('configuration', {}).get('full_name', ''),
+                    "pad": item.get('pad', {}).get('name', ''),
+                    "location": item.get('pad', {}).get('location', {}).get('name', '')
+                })
+                time.sleep(1)
+            
+            with open("launches.json", "w", encoding="utf-8") as f:
+                json.dump(launches, f, ensure_ascii=False, indent=2)
+            print("Расписание пусков успешно сохранено в launches.json")
+    except Exception as e:
+        print(f"Ошибка сбора пусков: {e}")
+        with open("launches.json", "w", encoding="utf-8") as f:
+            json.dump([], f)
+
 def main():
-    print("Запуск сборщика новостей из NASA...")
+    print("Запуск сборщика данных для портала AstroTrack...")
     try:
         req = urllib.request.Request(RSS_URL, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req) as response:
@@ -46,8 +73,6 @@ def main():
 
     root = ET.fromstring(xml_data)
     articles = []
-    
-    # Берем первые 10 новостей, чтобы не перегружать бесплатный лимит перевода
     items = root.findall('.//item')[:10]
     
     for idx, item in enumerate(items):
@@ -56,16 +81,12 @@ def main():
         link = item.find('link').text if item.find('link') is not None else ""
         pub_date = item.find('pubDate').text if item.find('pubDate') is not None else ""
         
-        # Очищаем описание от HTML тегов, если они есть
         summary_en = re.sub('<[^<]+?>', '', summary_en).strip()
-        
         print(f"[{idx+1}/{len(items)}] Перевод новости: {title_en[:30]}...")
         
-        # Переводим
         title_ru = translate_text(title_en, "ru")
         summary_ru = translate_text(summary_en, "ru")
-        
-        time.sleep(1) # Пауза, чтобы API не заблокировало
+        time.sleep(1)
         
         title_he = translate_text(title_en, "he")
         summary_he = translate_text(summary_en, "he")
@@ -88,7 +109,9 @@ def main():
 
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(articles, f, ensure_ascii=False, indent=2)
-    print("Успешно! Файл news.json обновлен.")
+    print("Лента новостей успешно сохранена в news.json")
+    
+    fetch_launches()
 
 if __name__ == "__main__":
     main()

@@ -2,9 +2,7 @@ name: Auto Update Space News
 
 on:
   schedule:
-    # Запуск каждые 6 часов (в формате Cron)
     - cron: '0 */6 * * *'
-  # Позволяет также запускать скрипт вручную кнопкой на GitHub
   workflow_dispatch:
 
 jobs:
@@ -26,5 +24,5 @@ jobs:
       run: |
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
-        git add news.json
+        git add news.json launches.json
         git diff-index --quiet HEAD || (git commit -m "Auto-update news data" && git push)

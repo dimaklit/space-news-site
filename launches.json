@@ -1,0 +1,47 @@
+[
+  {
+    "name_en": "Vega-C | Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
+    "name_ru": "Вега-С | Солнечный ветер Магнитосфера Ионосфера Link Explorer (SMILE)",
+    "name_he": "Vega-C | רוח שמש מגנטוספירה Ionosphere Link Explorer (SMILE)",
+    "window_start": "2026-05-19T03:52:00Z",
+    "rocket": "Vega-C",
+    "pad": "Ariane Launch Area 1 (ELV)",
+    "location": "Guiana Space Centre, French Guiana"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 17-42",
+    "name_ru": "Сокол 9 Блок 5 | Группа Старлинк 17-42",
+    "name_he": "פלקון 9 בלוק 5 | קבוצת סטארלינק 17-42",
+    "window_start": "2026-05-20T02:11:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Starship | Flight 12",
+    "name_ru": "Звездолет | Рейс 12",
+    "name_he": "ספינת כוכבים | טיסה 12",
+    "window_start": "2026-05-20T22:30:00Z",
+    "rocket": "Starship V3",
+    "pad": "Orbital Launch Pad 2",
+    "location": "SpaceX Starbase, TX, USA"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 10-31",
+    "name_ru": "Сокол 9 Блок 5 | Группа Старлинк 10-31",
+    "name_he": "פלקון 9 בלוק 5 | קבוצת סטארלינק 10-31",
+    "window_start": "2026-05-21T09:26:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 40",
+    "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Electron | Viva La StriX (StriX Launch 9)",
+    "name_ru": "Электрон | Viva La StriX (StriX Launch 9)",
+    "name_he": "אלקטרון | Viva La StriX (השקה של StriX 9)",
+    "window_start": "2026-05-22T09:30:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  }
+]

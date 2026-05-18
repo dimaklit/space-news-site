@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Космонавигатор / Cosmonavigator</title>
+    <title>AstroTrack</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
         .glass {
@@ -17,17 +17,16 @@
             min-height: 100vh;
             color: #f8fafc;
         }
-        /* Стили для RTL (иврит) */
-        html[dir="rtl"] .rtl-flip {
-            transform: scaleX(-1);
-        }
     </style>
 </head>
 <body>
 
     <header class="glass sticky top-0 z-50 px-6 py-4 flex flex-wrap justify-between items-center gap-4">
         <div class="flex items-center gap-3">
-            <span class="text-2xl text-teal-400 font-bold">🚀 <span id="txt-logo">Космонавигатор</span></span>
+            <div class="flex items-baseline gap-1.5">
+                <span class="text-2xl text-teal-400 font-bold">🚀 <span id="txt-logo">AstroTrack</span></span>
+                <span class="text-[10px] font-mono text-slate-500 font-bold tracking-wider">v1.1.0</span>
+            </div>
             <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-500/10 text-green-400 border border-green-500/20">
                 <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> ISS Live
             </span>
@@ -73,51 +72,53 @@
 
         <section id="sec-news" class="hidden space-y-6">
             <h2 class="text-2xl font-bold border-b border-white/10 pb-2" id="txt-news-head">Лента космических новостей</h2>
-            <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                </div>
+            <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
         </section>
 
         <section id="sec-launches" class="hidden space-y-6">
             <h2 class="text-2xl font-bold border-b border-white/10 pb-2" id="txt-launches-head">Расписание предстоящих запусков</h2>
-            <div id="launches-container" class="space-y-4">
-                </div>
+            <div id="launches-container" class="space-y-4"></div>
         </section>
 
     </main>
 
     <script>
-        // СЛОВАРЬ МУЛЬТИЯЗЫЧНОСТИ ИНТЕРФЕЙСА
         const i18n = {
             en: {
-                logo: "Cosmonavigator", home: "Home", news: "News", launches: "Launches",
+                home: "Home", news: "News", launches: "Launches",
                 title: "Your Guide to Space Exploration", desc: "Knowledge and news aggregator for students, teachers, and space enthusiasts.",
                 issTitle: "🛰️ ISS Live Tracking", lat: "Latitude:", lon: "Longitude:", vel: "Velocity:",
                 nextL: "🚀 Next Launch Countdown", newsHead: "Space News Feed", launchHead: "Upcoming Space Launches",
-                loading: "Loading telemetry...", speedUnit: "km/h"
+                loading: "Loading telemetry...", speedUnit: "km/h", noLaunches: "No launch data available. Run scraper.py.",
+                rocket: "Rocket:", pad: "Pad:", location: "Location:"
             },
             ru: {
-                logo: "Космонавигатор", home: "Главная", news: "Новости", launches: "Пуски",
+                home: "Главная", news: "Новости", launches: "Пуски",
                 title: "Твой гид в мире космонавтики", desc: "Агрегатор знаний и новостей для школьников, студентов, учителей и популяризаторов космоса.",
                 issTitle: "🛰️ Мониторинг МКС", lat: "Широта:", lon: "Долгота:", vel: "Скорость:",
                 nextL: "🚀 Следующий старт", newsHead: "Лента космических новостей", launchHead: "Расписание предстоящих запусков",
-                loading: "Загрузка данных...", speedUnit: "км/ч"
+                loading: "Загрузка данных...", speedUnit: "км/ч", noLaunches: "Данные о пусках недоступны. Запустите scraper.py.",
+                rocket: "Ракета:", pad: "Площадка:", location: "Космодром:"
             },
             he: {
-                logo: "קוסמונביגטור", home: "בית", news: "חדשות", launches: "שיגורים",
+                home: "בית", news: "חדשות", launches: "שיגורים",
                 title: "המדריך שלך לחקר החלל", desc: "מרכז מידע וחדשות לתלמידים, סטודנטים, מורים וחובבי חלל.",
                 issTitle: "🛰️ מעקב חי אחר תחנת החלל", lat: "קו רוחב:", lon: "קו אורך:", vel: "מהירות:",
-                nextL: "🚀 הספירה לאחור לשיגור הבא", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
-                loading: "טוען נתונים...", speedUnit: "קמ\"ש"
+                nextL: "🚀 הספירה לאחור לשיגור הבา", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
+                loading: "טוען נתונים...", speedUnit: "קמ\"ш", noLaunches: "אין נתוני שיגור זמינים. הפעל את scraper.py.",
+                rocket: "משגר:", pad: "כן שיגור:", location: "אתר שיגור:"
             }
         };
 
         let currentLang = 'ru';
+        let globalNews = [];
+        let globalLaunches = [];
+        let timerInterval = null;
 
         function setLanguage(lang) {
             currentLang = lang;
             const html = document.documentElement;
             
-            // Настройка RTL для иврита
             if(lang === 'he') {
                 html.setAttribute('dir', 'rtl');
                 html.setAttribute('lang', 'he');
@@ -126,7 +127,6 @@
                 html.setAttribute('lang', lang);
             }
 
-            // Подсветка кнопок языков
             ['en', 'ru', 'he'].forEach(l => {
                 const btn = document.getElementById(`lang-${l}`);
                 if(l === lang) {
@@ -136,8 +136,7 @@
                 }
             });
 
-            // Перевод элементов интерфейса
-            document.getElementById('txt-logo').innerText = i18n[lang].logo;
+            document.getElementById('txt-logo').innerText = "AstroTrack";
             document.getElementById('btn-home').innerText = i18n[lang].home;
             document.getElementById('btn-news').innerText = i18n[lang].news;
             document.getElementById('btn-launches').innerText = i18n[lang].launches;
@@ -151,8 +150,9 @@
             document.getElementById('txt-news-head').innerText = i18n[lang].newsHead;
             document.getElementById('txt-launches-head').innerText = i18n[lang].launchHead;
 
-            // Перерисовываем новости под новый язык
             renderNews();
+            renderLaunches();
+            updateTimerDisplay();
         }
 
         function switchTab(tabId) {
@@ -164,7 +164,6 @@
             document.querySelector(`[data-sec="${tabId}"]`).className = "nav-btn px-4 py-2 rounded-lg text-sm font-medium transition bg-teal-500/20 text-teal-300 border border-teal-500/30";
         }
 
-        // ТЕЛЕМЕТРИЯ МКС
         async function updateISS() {
             try {
                 const res = await fetch('https://api.wheretheiss.at/v1/satellites/25544');
@@ -177,15 +176,21 @@
         setInterval(updateISS, 5000);
         updateISS();
 
-        // ЗАГРУЗКА И ОТРЕНДЕРИНГ НОВОСТЕЙ С АВТОСМЕНОЙ ЯЗЫКА
-        let globalNews = [];
-        async function loadNews() {
+        async function initData() {
             try {
-                const res = await fetch('news.json');
-                globalNews = await res.json();
+                const newsRes = await fetch('news.json');
+                globalNews = await newsRes.json();
                 renderNews();
-            } catch(e) {
-                document.getElementById('news-container').innerHTML = "<p class='text-red-400'>Сначала запустите scraper.py на сервере для генерации news.json</p>";
+            } catch(e) { console.log("News data empty", e); }
+
+            try {
+                const launchRes = await fetch('launches.json');
+                globalLaunches = await launchRes.json();
+                renderLaunches();
+                startLaunchTimer();
+            } catch(e) { 
+                console.log("Launches data empty", e);
+                document.getElementById('launches-container').innerHTML = `<p class='text-orange-400 text-sm'>${i18n[currentLang].noLaunches}</p>`;
             }
         }
 
@@ -194,7 +199,6 @@
             if(!globalNews.length) return;
 
             container.innerHTML = globalNews.map(item => {
-                // Выбираем нужное поле в зависимости от текущего языка сайта
                 const title = item[`title_${currentLang}`] || item.title_en;
                 const summary = item[`summary_${currentLang}`] || item.summary_en;
 
@@ -215,7 +219,61 @@
                 `;
             }).join('');
         }
-        loadNews();
+
+        function renderLaunches() {
+            const container = document.getElementById('launches-container');
+            if(!globalLaunches.length) return;
+
+            container.innerHTML = globalLaunches.map(item => {
+                const name = item[`name_${currentLang}`] || item.name_en;
+                const dateStr = new Date(item.window_start).toLocaleString(currentLang === 'he' ? 'he-IL' : currentLang === 'ru' ? 'ru-RU' : 'en-US');
+
+                return `
+                    <div class="glass rounded-xl p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border border-white/5">
+                        <div class="space-y-1">
+                            <h3 class="text-base font-bold text-slate-100">${name}</h3>
+                            <p class="text-xs text-slate-400">📅 ${dateStr}</p>
+                            <p class="text-xs text-slate-400">🚀 <span class="text-slate-300">${i18n[currentLang].rocket}</span> ${item.rocket}</p>
+                            <p class="text-xs text-slate-500">📍 <span class="text-slate-400">${i18n[currentLang].location}</span> ${item.location}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function startLaunchTimer() {
+            if (timerInterval) clearInterval(timerInterval);
+            if (!globalLaunches.length) return;
+            timerInterval = setInterval(updateTimerDisplay, 1000);
+            updateTimerDisplay();
+        }
+
+        function updateTimerDisplay() {
+            const timerEl = document.getElementById('launch-timer');
+            const nameEl = document.getElementById('launch-name');
+            if (!globalLaunches.length) return;
+
+            const nextLaunch = globalLaunches[0];
+            nameEl.innerText = nextLaunch[`name_${currentLang}`] || nextLaunch.name_en;
+
+            const diff = new Date(nextLaunch.window_start) - new Date();
+            if (diff <= 0) {
+                timerEl.innerText = "LAUNCHING 🚀";
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const secs = Math.floor((diff % (1000 * 60)) / 1000);
+
+            let timeStr = "";
+            if (days > 0) timeStr += `${days}d `;
+            timeStr += `${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+            timerEl.innerText = timeStr;
+        }
+
+        initData();
     </script>
 </body>
 </html>
