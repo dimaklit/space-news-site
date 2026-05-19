@@ -49,8 +49,8 @@
     "difficulty": "novice",
     "title_en": "Curiosity Blog, Sols 4893-4899: Drilling at Campo Marte and a Visit From the Psyche Spacecraft",
     "summary_en": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, May 15, 2026 After freeing the rover’s arm from the “Atacama” block, we are ready to drill again! The new drill target will represent the same geologic stratum as Atacama, which is the layere...",
-    "title_ru": "Блог Curiosity, 4893-4899 сол.: Бурение на Кампо-Марте и визит космического корабля «Психика»",
-    "summary_ru": "Написано Люси Лим, планетологом Центра космических полетов имени Годдарда НАСА. Дата планирования на Земле: пятница, 15 мая 2026 г. После освобождения руки марсохода от блока «Атакама» мы готовы снова бурить! Новая цель бурения будет представлять тот же геологический пласт, что и Атакама, который является пластом...",
+    "title_ru": "Блог Curiosity, 4893-4899 сол.: Бурение на Кампо-Марте и визит космического корабля «Психея»",
+    "summary_ru": "Написано Люси Лим, планетологом Центра космических полетов имени Годдарда НАСА. Дата планирования Земли: пятница, 15 мая 2026 г. После освобождения руки марсохода от блока «Атакама» мы готовы снова бурить! Новая цель бурения будет представлять тот же геологический пласт, что и Атакама, который является пластом...",
     "title_he": "בלוג Curiosity, Sols 4893-4899: קידוח בקמפו מרטה וביקור של חללית הפסיכה",
     "summary_he": "נכתב על ידי לוסי לים, מדענית פלנטרית במרכז טיסות החלל של נאס\"א גודארד תאריך תכנון כדור הארץ: יום שישי, 15 במאי, 2026 לאחר שחרור זרועו של הרובר מבלוק \"אטקמה\", אנחנו מוכנים לקדוח שוב! יעד הקידוח החדש ייצג את אותה שכבה גיאולוגית כמו אטקמה, שהיא השכבה...",
     "id": 4
@@ -78,7 +78,7 @@
     "title_en": "NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station",
     "summary_en": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
     "title_ru": "НАСА и SpaceX запускают миссию Dragon с 6500 фунтами научных материалов и материалов на космическую станцию",
-    "summary_ru": "Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05. Восточное время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции.",
+    "summary_ru": "Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05. восточноевропейское время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции.",
     "title_he": "נאס\"א, SpaceX שיגור משימת דרקון עם 6,500 פאונד של מדע ואספקה ​​לתחנת החלל",
     "summary_he": "הסרת משימת האספקה ​​מחדש, על גבי רקטת פלקון 9 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 18:05. EDT (2205 UTC). דרקון המטען עמוס ב-6,500 פאונד של מדע ואספקה ​​לתחנת החלל.",
     "id": 6
@@ -92,8 +92,8 @@
     "title_en": "ULA confirms successful solid rocket booster test as Vulcan anomaly investigation continues",
     "summary_en": "The static fire test was conducted by Northrop Grumman, the manufacturer of the GEM 63XL solid rocket booster that can be used to help power United Launch Alliance’s Vulcan rockets. An in-flight anomaly was observed on one of those back in mid-February.",
     "title_ru": "ULA подтверждает успешное испытание твердотопливного ракетного ускорителя, поскольку расследование аномалии Вулкана продолжается",
-    "summary_ru": "Статическое огневое испытание было проведено компанией Northrop Grumman, производителем твердотопливного ракетного ускорителя GEM 63XL, который может использоваться для питания ракет Vulcan компании United Launch Alliance. Аномалия в полете была замечена на одном из них еще в середине февраля.",
-    "title_he": "ULA מאשרת ניסוי מוצלח של מאיץ רקטות מוצק כאשר חקירת חריגות וולקן נמשכת",
+    "summary_ru": "Статические огневые испытания были проведены компанией Northrop Grumman, производителем твердотопливного ракетного ускорителя GEM 63XL, который может использоваться для питания ракет Vulcan компании United Launch Alliance. Аномалия в полете была замечена на одном из них еще в середине февраля.",
+    "title_he": "ULA מאשרת ניסוי מוצלח של מאיץ רקטות מוצק כאשר חקירת החריגות של וולקן נמשכת",
     "summary_he": "בדיקת האש הסטטית בוצעה על ידי Northrop Grumman, יצרנית מאיץ הרקטות המוצק GEM 63XL שיכול לשמש כדי לסייע בהנעת רקטות Vulcan של United Launch Alliance. אנומליה בטיסה נצפתה באחד מאלה באמצע פברואר.",
     "id": 7
   },
