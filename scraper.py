@@ -6,6 +6,7 @@ import json
 import re
 import time
 import os
+import http.client
 from datetime import datetime
 
 # Настройка источников новостей
@@ -18,12 +19,11 @@ NEWS_SOURCES = [
 
 LAUNCHES_URL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=5"
 
-# Получаем API ключ из переменных окружения GitHub GitHub
+# Получаем API ключ из переменных окружения GitHub
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 def ask_gemini_ai(title, summary):
-    """Отправляет новость в Gemini Flash через http.client для обхода ошибок urllib"""
-    # Очищаем ключ от возможных случайных пробелов или переносов строк
+    """Отправляет новость в Gemini Flash через http.client для перевода и детской адаптации"""
     clean_key = GEMINI_API_KEY.strip() if GEMINI_API_KEY else ""
     
     if not clean_key:
@@ -48,9 +48,6 @@ You must return a raw JSON object with exactly these keys (do not include markdo
 }}
 """
     
-    import http.client
-    
-    # Разбиваем запрос на хост и путь, чтобы http.client отработал без сбоев
     host = "generativelanguage.googleapis.com"
     path = f"/v1beta/models/gemini-1.5-flash:generateContent?key={clean_key}"
     
@@ -83,7 +80,9 @@ You must return a raw JSON object with exactly these keys (do not include markdo
             
     except Exception as e:
         print(f"Ошибка обращения к Gemini API через http.client: {e}")
-        return Nonedef parse_rfc2822_date(date_str):
+        return None
+
+def parse_rfc2822_date(date_str):
     try:
         date_str = date_str.split(', ')[1] if ', ' in date_str else date_str
         date_clean = re.sub(r'\s[A-Z]{3,4}$|\s\+[0-9]{4}$', '', date_str)
@@ -149,8 +148,8 @@ def main():
                 # Запрос к нейросети
                 ai_data = ask_gemini_ai(title_en, summary_en)
                 
-                # Делаем паузу в 3 секунды, чтобы не превысить лимит 15 запросов в минуту (Free Tier)
-                time.sleep(3.0)
+                # Делаем паузу в 4.5 секунды для обхода лимитов бесплатного API
+                time.sleep(4.5)
                 
                 if ai_data:
                     article = {
@@ -170,7 +169,6 @@ def main():
                         "summary_he_kids": ai_data.get("summary_he_kids", summary_en)
                     }
                 else:
-                    # Резервный вариант, если API упал
                     article = {
                         "source": source['name'],
                         "date_parsed": parse_rfc2822_date(pub_date).isoformat(),
