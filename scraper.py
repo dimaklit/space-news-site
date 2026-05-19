@@ -12,7 +12,8 @@ from datetime import datetime
 # Настройка источников новостей
 NEWS_SOURCES = [
     {"name": "NASA", "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss"},
-    {"name": "SpaceX", "url": "https://blogs.nasa.gov/spacex/feed/"},
+    # ЗАМЕНИЛИ СТАРЫЙ БЛОГ NASA НА СВЕЖИЙ И СТАБИЛЬНЫЙ ФИД SPACEX
+    {"name": "SpaceX", "url": "https://spaceflightnow.com/category/falcon-9/feed/"}, 
     {"name": "ESA", "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News"},
     {"name": "Spaceflight Now", "url": "https://spaceflightnow.com/feed/"}
 ]
