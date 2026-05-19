@@ -5,7 +5,10 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
-# Даем явные права серверу на запись изменений в репозиторий
+# Убираем предупреждение депрекации, принудительно включая Node.js 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
 permissions:
   contents: write
 
@@ -16,7 +19,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0 # Скачиваем полную историю, чтобы избежать ошибки 128
+        fetch-depth: 0
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -31,17 +34,11 @@ jobs:
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
         
-        # Индексируем файлы данных
         git add news.json launches.json
         
-        # Проверяем, есть ли реальные изменения в данных
         if ! git diff-index --quiet HEAD; then
           git commit -m "Auto-update news and launch data [skip ci]"
-          
-          # Забираем твои ручные правки с сайта, чтобы не было конфликта истории
           git pull --rebase origin main
-          
-          # Выталкиваем обновленные JSON-файлы на сайт
           git push origin main
         else
           echo "No changes in space data detected. Skipping push."
