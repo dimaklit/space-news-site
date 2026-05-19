@@ -97,7 +97,7 @@ def main():
         try:
             root = ET.fromstring(xml_data)
             # Retrieve 3 recent news articles from each source
-            items = root.findall('.//item')[:3]
+            items = root.findall('.//item')[:10]
             
             for item in items:
                 title_en = item.find('title').text if item.find('title') is not None else ""
