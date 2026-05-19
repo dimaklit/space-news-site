@@ -1,6 +1,23 @@
 [
   {
     "source": "NASA",
+    "date_parsed": "2026-05-19T19:49:33",
+    "date_display": "Tue, 19 May 2026 19:49:33 +0000",
+    "link": "https://www.nasa.gov/missions/psyche-mission/nasas-psyche-mission-aces-mars-flyby-targets-metal-rich-asteroid/",
+    "title_en": "NASA’s Psyche Mission Aces Mars Flyby, Targets Metal-Rich Asteroid",
+    "summary_en": "NASA’s Psyche spacecraft completed its close approach of Mars on May 15, coming within 2,864 miles (4,609 kilometers) of the planet’s surface. This flyby used a gravity assist from Mars to provide a critical boost in speed and to adjust the spacecraft’s orbital plane without using any onboard propellant, sending it on its way toward [&#8230;]",
+    "title_ru": "NASA’s Psyche Mission Aces Mars Flyby, Targets Metal-Rich Asteroid",
+    "summary_ru": "NASA’s Psyche spacecraft completed its close approach of Mars on May 15, coming within 2,864 miles (4,609 kilometers) of the planet’s surface. This flyby used a gravity assist from Mars to provide a critical boost in speed and to adjust the spacecraft’s orbital plane without using any onboard propellant, sending it on its way toward [&#8230;]",
+    "title_ru_kids": "NASA’s Psyche Mission Aces Mars Flyby, Targets Metal-Rich Asteroid",
+    "summary_ru_kids": "NASA’s Psyche spacecraft completed its close approach of Mars on May 15, coming within 2,864 miles (4,609 kilometers) of the planet’s surface. This flyby used a gravity assist from Mars to provide a critical boost in speed and to adjust the spacecraft’s orbital plane without using any onboard propellant, sending it on its way toward [&#8230;]",
+    "title_he": "NASA’s Psyche Mission Aces Mars Flyby, Targets Metal-Rich Asteroid",
+    "summary_he": "NASA’s Psyche spacecraft completed its close approach of Mars on May 15, coming within 2,864 miles (4,609 kilometers) of the planet’s surface. This flyby used a gravity assist from Mars to provide a critical boost in speed and to adjust the spacecraft’s orbital plane without using any onboard propellant, sending it on its way toward [&#8230;]",
+    "title_he_kids": "NASA’s Psyche Mission Aces Mars Flyby, Targets Metal-Rich Asteroid",
+    "summary_he_kids": "NASA’s Psyche spacecraft completed its close approach of Mars on May 15, coming within 2,864 miles (4,609 kilometers) of the planet’s surface. This flyby used a gravity assist from Mars to provide a critical boost in speed and to adjust the spacecraft’s orbital plane without using any onboard propellant, sending it on its way toward [&#8230;]",
+    "id": 1
+  },
+  {
+    "source": "NASA",
     "date_parsed": "2026-05-19T17:07:23",
     "date_display": "Tue, 19 May 2026 17:07:23 +0000",
     "link": "https://www.nasa.gov/image-article/moon-venus-conjunction/",
@@ -14,7 +31,7 @@
     "summary_he": "The Moon and Venus, center, are seen in conjunction above the Washington Monument, Monday, May 18, 2026, as viewed from the Mary W. Jackson NASA Headquarters Building in Washington. The Moon and Venus look close together because they line up from our point of view on Earth. In reality, they are separated by millions of [&#8230;]",
     "title_he_kids": "Moon-Venus Conjunction",
     "summary_he_kids": "The Moon and Venus, center, are seen in conjunction above the Washington Monument, Monday, May 18, 2026, as viewed from the Mary W. Jackson NASA Headquarters Building in Washington. The Moon and Venus look close together because they line up from our point of view on Earth. In reality, they are separated by millions of [&#8230;]",
-    "id": 1
+    "id": 2
   },
   {
     "source": "NASA",
@@ -31,23 +48,6 @@
     "summary_he": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and [&#8230;]",
     "title_he_kids": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
     "summary_he_kids": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and [&#8230;]",
-    "id": 2
-  },
-  {
-    "source": "NASA",
-    "date_parsed": "2026-05-19T13:05:00",
-    "date_display": "Tue, 19 May 2026 13:05:00 +0000",
-    "link": "https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
-    "title_en": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
-    "summary_en": "NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone – more than scientists can analyze alone. As Shock Detectives, you’ll help sort the chaotic from peaceful regions of the data, giving researchers a crucial set of clues.",
-    "title_ru": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
-    "summary_ru": "NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone – more than scientists can analyze alone. As Shock Detectives, you’ll help sort the chaotic from peaceful regions of the data, giving researchers a crucial set of clues.",
-    "title_ru_kids": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
-    "summary_ru_kids": "NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone – more than scientists can analyze alone. As Shock Detectives, you’ll help sort the chaotic from peaceful regions of the data, giving researchers a crucial set of clues.",
-    "title_he": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
-    "summary_he": "NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone – more than scientists can analyze alone. As Shock Detectives, you’ll help sort the chaotic from peaceful regions of the data, giving researchers a crucial set of clues.",
-    "title_he_kids": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
-    "summary_he_kids": "NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone – more than scientists can analyze alone. As Shock Detectives, you’ll help sort the chaotic from peaceful regions of the data, giving researchers a crucial set of clues.",
     "id": 3
   },
   {
