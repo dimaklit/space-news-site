@@ -33,15 +33,15 @@
         </div>
 
         <nav class="flex gap-2 sm:gap-4 overflow-x-auto">
-            <button onclick="switchTab('home')" data-sec="home" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition bg-teal-500/20 text-teal-300 border border-teal-500/30" id="btn-home">Главная</button>
-            <button onclick="switchTab('news')" data-sec="news" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition hover:bg-white/5" id="btn-news">Новости</button>
-            <button onclick="switchTab('launches')" data-sec="launches" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition hover:bg-white/5" id="btn-launches">Пуски</button>
+            <button onclick="switchTab('home')" data-sec="home" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition bg-teal-500/20 text-teal-300 border border-teal-500/30" id="btn-home">Home</button>
+            <button onclick="switchTab('news')" data-sec="news" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition hover:bg-white/5 text-slate-300" id="btn-news">News</button>
+            <button onclick="switchTab('launches')" data-sec="launches" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition hover:bg-white/5 text-slate-300" id="btn-launches">Launches</button>
         </nav>
 
         <div class="flex bg-white/5 p-1 rounded-lg border border-white/10 text-xs">
-            <button onclick="setLanguage('en')" id="lang-en" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400">EN</button>
-            <button onclick="setLanguage('ru')" id="lang-ru" class="px-2.5 py-1.5 rounded-md font-semibold transition bg-teal-500 text-slate-900">РУС</button>
-            <button onclick="setLanguage('he')" id="lang-he" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400">עבר</button>
+            <button onclick="setLanguage('en')" id="lang-en" class="px-2.5 py-1.5 rounded-md font-semibold transition bg-teal-500 text-slate-900">EN</button>
+            <button onclick="setLanguage('ru')" id="lang-ru" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400 text-slate-400">РУС</button>
+            <button onclick="setLanguage('he')" id="lang-he" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400 text-slate-400">עבר</button>
         </div>
     </header>
 
@@ -49,34 +49,34 @@
         
         <section id="sec-home" class="space-y-8">
             <div class="glass rounded-2xl p-8 text-center space-y-4 border border-teal-500/20">
-                <h1 class="text-4xl sm:text-5xl font-black bg-gradient-to-r from-teal-400 to-purple-400 bg-clip-text text-transparent" id="txt-hero-title">Твой гид в мире космонавтики</h1>
-                <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base" id="txt-hero-desc">Агрегатор знаний и новостей для школьников, студентов, учителей и популяризаторов космоса.</p>
+                <h1 class="text-4xl sm:text-5xl font-black bg-gradient-to-r from-teal-400 to-purple-400 bg-clip-text text-transparent" id="txt-hero-title">Your Guide to Space Exploration</h1>
+                <p class="text-slate-400 max-w-2xl mx-auto text-sm sm:text-base" id="txt-hero-desc">Knowledge and news aggregator for students, teachers, and space enthusiasts.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="glass rounded-xl p-6 space-y-4">
-                    <h3 class="text-lg font-bold text-purple-400" id="txt-iss-title">🛰️ Мониторинг МКС</h3>
+                    <h3 class="text-lg font-bold text-purple-400" id="txt-iss-title">🛰️ ISS Live Tracking</h3>
                     <div class="text-sm space-y-2 text-slate-300">
-                        <p><span id="txt-iss-lat">Широта:</span> <span id="iss-lat" class="font-mono text-teal-400">0.00</span></p>
-                        <p><span id="txt-iss-lon">Долгота:</span> <span id="iss-lon" class="font-mono text-teal-400">0.00</span></p>
-                        <p><span id="txt-iss-vel">Скорость:</span> <span id="iss-vel" class="font-mono text-teal-400">0</span> км/ч</p>
+                        <p><span id="txt-iss-lat">Latitude:</span> <span id="iss-lat" class="font-mono text-teal-400">0.00</span></p>
+                        <p><span id="txt-iss-lon">Longitude:</span> <span id="iss-lon" class="font-mono text-teal-400">0.00</span></p>
+                        <p><span id="txt-iss-vel">Velocity:</span> <span id="iss-vel" class="font-mono text-teal-400">0</span> km/h</p>
                     </div>
                 </div>
                 <div class="glass rounded-xl p-6 flex flex-col justify-between">
-                    <h3 class="text-lg font-bold text-orange-400" id="txt-next-launch">🚀 Следующий старт</h3>
+                    <h3 class="text-lg font-bold text-orange-400" id="txt-next-launch">🚀 Next Launch Countdown</h3>
                     <div id="launch-timer" class="text-3xl font-black text-center text-slate-100 my-4 font-mono">--:--:--</div>
-                    <div id="launch-name" class="text-xs text-center text-slate-400">Загрузка данных миссии...</div>
+                    <div id="launch-name" class="text-xs text-center text-slate-400">Loading mission data...</div>
                 </div>
             </div>
         </section>
 
         <section id="sec-news" class="hidden space-y-6">
-            <h2 class="text-2xl font-bold border-b border-white/10 pb-2" id="txt-news-head">Лента космических новостей</h2>
+            <h2 class="text-2xl font-bold border-b border-white/10 pb-2" id="txt-news-head">Space News Feed</h2>
             <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
         </section>
 
         <section id="sec-launches" class="hidden space-y-6">
-            <h2 class="text-2xl font-bold border-b border-white/10 pb-2" id="txt-launches-head">Расписание предстоящих запусков</h2>
+            <h2 class="text-2xl font-bold border-b border-white/10 pb-2" id="txt-launches-head">Upcoming Space Launches</h2>
             <div id="launches-container" class="space-y-4"></div>
         </section>
 
@@ -89,7 +89,7 @@
                 title: "Your Guide to Space Exploration", desc: "Knowledge and news aggregator for students, teachers, and space enthusiasts.",
                 issTitle: "🛰️ ISS Live Tracking", lat: "Latitude:", lon: "Longitude:", vel: "Velocity:",
                 nextL: "🚀 Next Launch Countdown", newsHead: "Space News Feed", launchHead: "Upcoming Space Launches",
-                loading: "Loading telemetry...", speedUnit: "km/h", noLaunches: "No launch data available. Run scraper.py.",
+                loading: "Loading telemetry...", speedUnit: "km/h", noLaunches: "No launch data available. Trigger GitHub Action scraper.",
                 rocket: "Rocket:", pad: "Pad:", location: "Location:"
             },
             ru: {
@@ -97,19 +97,20 @@
                 title: "Твой гид в мире космонавтики", desc: "Агрегатор знаний и новостей для школьников, студентов, учителей и популяризаторов космоса.",
                 issTitle: "🛰️ Мониторинг МКС", lat: "Широта:", lon: "Долгота:", vel: "Скорость:",
                 nextL: "🚀 Следующий старт", newsHead: "Лента космических новостей", launchHead: "Расписание предстоящих запусков",
-                loading: "Загрузка данных...", speedUnit: "км/ч", noLaunches: "Данные о пусках недоступны. Запустите scraper.py.",
+                loading: "Загрузка данных...", speedUnit: "км/ч", noLaunches: "Данные о пусках недоступны. Запустите скрипт автоматизации.",
                 rocket: "Ракета:", pad: "Площадка:", location: "Космодром:"
             },
             he: {
                 home: "בית", news: "חדשות", launches: "שיגורים",
-                title: "המדריך שלך לחקר החלל", desc: "מרכז מידע וחדשות לתלמידים, סטודנטים, מורים וחובבי חלל.",
+                title: "המדריך שלך לחקר החלל", desc: "מרכז מידע и חדשות לתלמידים, סטודנטים, מורים וחובבי חלל.",
                 issTitle: "🛰️ מעקב חי אחר תחנת החלל", lat: "קו רוחב:", lon: "קו אורך:", vel: "מהירות:",
-                nextL: "🚀 הספירה לאחור לשיגור הבา", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
-                loading: "טוען נתונים...", speedUnit: "קמ\"ш", noLaunches: "אין נתוני שיגור זמינים. הפעל את scraper.py.",
+                nextL: "🚀 הספירה לאחור לשיгור הבא", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
+                loading: "טוען נתונים...", speedUnit: "קמ\"ש", noLaunches: "אין נתוני שיגור זמינים. הפעל את הסקריפט.",
                 rocket: "משגר:", pad: "כן שיגור:", location: "אתר שיגור:"
             }
         };
 
+        // ДЕФОЛТНЫЙ ЯЗЫК ТЕПЕРЬ АНГЛИЙСКИЙ (EN)
         let currentLang = 'en';
         let globalNews = [];
         let globalLaunches = [];
@@ -201,19 +202,34 @@
             container.innerHTML = globalNews.map(item => {
                 const title = item[`title_${currentLang}`] || item.title_en;
                 const summary = item[`summary_${currentLang}`] || item.summary_en;
+                
+                // Динамические стили для плашек источников
+                let sourceColor = 'bg-orange-500/10 text-orange-400 border-orange-500/20';
+                if (item.source === 'NASA') {
+                    sourceColor = 'bg-blue-500/10 text-blue-400 border-blue-500/20';
+                } else if (item.source === 'ESA') {
+                    sourceColor = 'bg-green-500/10 text-green-400 border-green-500/20';
+                } else if (item.source === 'SpaceX') {
+                    sourceColor = 'bg-slate-400/10 text-slate-300 border-slate-400/30 font-mono';
+                }
 
                 return `
                     <div class="glass rounded-xl p-6 space-y-3 flex flex-col justify-between border border-white/5">
                         <div class="space-y-2">
-                            <span class="text-xs font-bold px-2.5 py-1 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">
-                                ${item.difficulty.toUpperCase()}
-                            </span>
+                            <div class="flex justify-between items-center flex-wrap gap-2">
+                                <span class="text-[10px] uppercase font-black px-2 py-0.5 rounded border ${sourceColor}">
+                                    ${item.source}
+                                </span>
+                                <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">
+                                    ${item.difficulty.toUpperCase()}
+                                </span>
+                            </div>
                             <h3 class="text-lg font-bold text-slate-100">${title}</h3>
                             <p class="text-sm text-slate-400 line-clamp-3">${summary}</p>
                         </div>
                         <div class="pt-4 flex justify-between items-center text-xs text-slate-500">
-                            <span>${item.date.split(' ').slice(0,4).join(' ')}</span>
-                            <a href="${item.link}" target="_blank" class="text-teal-400 hover:underline">NASA →</a>
+                            <span>${item.date_display ? item.date_display.split(' ').slice(0,4).join(' ') : ''}</span>
+                            <a href="${item.link}" target="_blank" class="text-teal-400 hover:underline">Source →</a>
                         </div>
                     </div>
                 `;
@@ -273,6 +289,8 @@
             timerEl.innerText = timeStr;
         }
 
+        // Инициализация дефолтных настроек
+        setLanguage('en');
         initData();
     </script>
 </body>
