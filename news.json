@@ -1,6 +1,23 @@
 [
   {
     "source": "NASA",
+    "date_parsed": "2026-05-19T15:00:00",
+    "date_display": "Tue, 19 May 2026 15:00:00 +0000",
+    "link": "https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "title_en": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "summary_en": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and [&#8230;]",
+    "title_ru": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "summary_ru": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and [&#8230;]",
+    "title_ru_kids": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "summary_ru_kids": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and [&#8230;]",
+    "title_he": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "summary_he": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and [&#8230;]",
+    "title_he_kids": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "summary_he_kids": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and [&#8230;]",
+    "id": 1
+  },
+  {
+    "source": "NASA",
     "date_parsed": "2026-05-19T13:05:00",
     "date_display": "Tue, 19 May 2026 13:05:00 +0000",
     "link": "https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
@@ -14,7 +31,7 @@
     "summary_he": "NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone – more than scientists can analyze alone. As Shock Detectives, you’ll help sort the chaotic from peaceful regions of the data, giving researchers a crucial set of clues.",
     "title_he_kids": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
     "summary_he_kids": "NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone – more than scientists can analyze alone. As Shock Detectives, you’ll help sort the chaotic from peaceful regions of the data, giving researchers a crucial set of clues.",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -31,7 +48,7 @@
     "summary_he": "Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs 210 tonnes on the launch pad and the rocket used three solid-propellant-powered stages to take Smile to orbit before th...",
     "title_he_kids": "Smile launch highlights",
     "summary_he_kids": "Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs 210 tonnes on the launch pad and the rocket used three solid-propellant-powered stages to take Smile to orbit before th...",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -48,7 +65,7 @@
     "summary_he": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026. The launch marks the beginning of an ambitious mission to better understand solar storms, geomagnetic storms, and the science of space weather.",
     "title_he_kids": "Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind",
     "summary_he_kids": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026. The launch marks the beginning of an ambitious mission to better understand solar storms, geomagnetic storms, and the science of space weather.",
-    "id": 3
+    "id": 4
   },
   {
     "source": "NASA",
@@ -65,23 +82,6 @@
     "summary_he": "The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys and is still farmed today.",
     "title_he_kids": "Farming in Ancient Lake Agassiz",
     "summary_he_kids": "The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys and is still farmed today.",
-    "id": 4
-  },
-  {
-    "source": "NASA",
-    "date_parsed": "2026-05-19T00:33:45",
-    "date_display": "Tue, 19 May 2026 00:33:45 +0000",
-    "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4893-4899-drilling-at-campo-marte-and-a-visit-from-the-psyche-spacecraft/",
-    "title_en": "Curiosity Blog, Sols 4893-4899: Drilling at Campo Marte and a Visit From the Psyche Spacecraft",
-    "summary_en": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, May 15, 2026 After freeing the rover’s arm from the “Atacama” block, we are ready to drill again! The new drill target will represent the same geologic stratum as Atacama, which is the layered sulfate unit above the boxwork […]",
-    "title_ru": "Curiosity Blog, Sols 4893-4899: Drilling at Campo Marte and a Visit From the Psyche Spacecraft",
-    "summary_ru": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, May 15, 2026 After freeing the rover’s arm from the “Atacama” block, we are ready to drill again! The new drill target will represent the same geologic stratum as Atacama, which is the layered sulfate unit above the boxwork […]",
-    "title_ru_kids": "Curiosity Blog, Sols 4893-4899: Drilling at Campo Marte and a Visit From the Psyche Spacecraft",
-    "summary_ru_kids": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, May 15, 2026 After freeing the rover’s arm from the “Atacama” block, we are ready to drill again! The new drill target will represent the same geologic stratum as Atacama, which is the layered sulfate unit above the boxwork […]",
-    "title_he": "Curiosity Blog, Sols 4893-4899: Drilling at Campo Marte and a Visit From the Psyche Spacecraft",
-    "summary_he": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, May 15, 2026 After freeing the rover’s arm from the “Atacama” block, we are ready to drill again! The new drill target will represent the same geologic stratum as Atacama, which is the layered sulfate unit above the boxwork […]",
-    "title_he_kids": "Curiosity Blog, Sols 4893-4899: Drilling at Campo Marte and a Visit From the Psyche Spacecraft",
-    "summary_he_kids": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, May 15, 2026 After freeing the rover’s arm from the “Atacama” block, we are ready to drill again! The new drill target will represent the same geologic stratum as Atacama, which is the layered sulfate unit above the boxwork […]",
     "id": 5
   },
   {
