@@ -25,7 +25,7 @@
         <div class="flex items-center gap-3">
             <div class="flex items-baseline gap-1.5">
                 <span class="text-2xl text-teal-400 font-bold">🚀 <span id="txt-logo">AstroTrack</span></span>
-                <span class="text-[10px] font-mono text-slate-500 font-bold tracking-wider">v1.1.0</span>
+                <span class="text-[10px] font-mono text-slate-500 font-bold tracking-wider">v1.2.0</span>
             </div>
             <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-500/10 text-green-400 border border-green-500/20">
                 <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> ISS Live
@@ -38,10 +38,21 @@
             <button onclick="switchTab('launches')" data-sec="launches" class="nav-btn px-4 py-2 rounded-lg text-sm font-medium transition hover:bg-white/5 text-slate-300" id="btn-launches">Launches</button>
         </nav>
 
-        <div class="flex bg-white/5 p-1 rounded-lg border border-white/10 text-xs">
-            <button onclick="setLanguage('en')" id="lang-en" class="px-2.5 py-1.5 rounded-md font-semibold transition bg-teal-500 text-slate-900">EN</button>
-            <button onclick="setLanguage('ru')" id="lang-ru" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400 text-slate-400">РУС</button>
-            <button onclick="setLanguage('he')" id="lang-he" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400 text-slate-400">עבר</button>
+        <div class="flex items-center gap-4 flex-wrap">
+            <div class="flex bg-white/5 p-1 rounded-lg border border-white/10 text-xs">
+                <button onclick="setAudience('regular')" id="aud-regular" class="px-3 py-1.5 rounded-md font-semibold transition bg-teal-500 text-slate-900 flex items-center gap-1">
+                    👁️ <span id="lbl-regular">Regular</span>
+                </button>
+                <button onclick="setAudience('kids')" id="aud-kids" class="px-3 py-1.5 rounded-md font-semibold transition text-slate-400 hover:text-teal-400 flex items-center gap-1">
+                    🎒 <span id="lbl-kids">Kids</span>
+                </button>
+            </div>
+
+            <div class="flex bg-white/5 p-1 rounded-lg border border-white/10 text-xs">
+                <button onclick="setLanguage('en')" id="lang-en" class="px-2.5 py-1.5 rounded-md font-semibold transition bg-teal-500 text-slate-900">EN</button>
+                <button onclick="setLanguage('ru')" id="lang-ru" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400 text-slate-400">РУС</button>
+                <button onclick="setLanguage('he')" id="lang-he" class="px-2.5 py-1.5 rounded-md font-semibold transition hover:text-teal-400 text-slate-400">עבר</button>
+            </div>
         </div>
     </header>
 
@@ -87,31 +98,37 @@
             en: {
                 home: "Home", news: "News", launches: "Launches",
                 title: "Your Guide to Space Exploration", desc: "Knowledge and news aggregator for students, teachers, and space enthusiasts.",
+                titleKids: "🚀 Space Adventures Hub!", descKids: "Super cool universe news and spaceship tracking made fun for future astronauts! ✨",
                 issTitle: "🛰️ ISS Live Tracking", lat: "Latitude:", lon: "Longitude:", vel: "Velocity:",
                 nextL: "🚀 Next Launch Countdown", newsHead: "Space News Feed", launchHead: "Upcoming Space Launches",
-                loading: "Loading telemetry...", speedUnit: "km/h", noLaunches: "No launch data available. Trigger GitHub Action scraper.",
-                rocket: "Rocket:", pad: "Pad:", location: "Location:"
+                loading: "Loading telemetry...", speedUnit: "km/h", noLaunches: "No launch data available. Run the automation scraper.",
+                rocket: "Rocket:", pad: "Pad:", location: "Location:",
+                lblRegular: "Regular", lblKids: "Kids"
             },
             ru: {
                 home: "Главная", news: "Новости", launches: "Пуски",
                 title: "Твой гид в мире космонавтики", desc: "Агрегатор знаний и новостей для школьников, студентов, учителей и популяризаторов космоса.",
+                titleKids: "🚀 Космические Приключения!", descKids: "Классные истории про вселенную, планеты и настоящие ракеты для будущих космонавтов! ✨",
                 issTitle: "🛰️ Мониторинг МКС", lat: "Широта:", lon: "Долгота:", vel: "Скорость:",
                 nextL: "🚀 Следующий старт", newsHead: "Лента космических новостей", launchHead: "Расписание предстоящих запусков",
                 loading: "Загрузка данных...", speedUnit: "км/ч", noLaunches: "Данные о пусках недоступны. Запустите скрипт автоматизации.",
-                rocket: "Ракета:", pad: "Площадка:", location: "Космодром:"
+                rocket: "Ракета:", pad: "Площадка:", location: "Космодром:",
+                lblRegular: "Обычный", lblKids: "Детский"
             },
             he: {
                 home: "בית", news: "חדשות", launches: "שיגורים",
-                title: "המדריך שלך לחקר החלל", desc: "מרכז מידע и חדשות לתלמידים, סטודנטים, מורים וחובבי חלל.",
+                title: "המדריך שלך לחקר החлל", desc: "מרכז מידע וחדשות לתלמידים, סטודנטים, מורים וחובבי חלל.",
+                titleKids: "🚀 הרפתקאות בחלל!", descKids: "סיפורים מגניבים על מערכת השמש וחלליות אמיתיות לאסטרונאוטים לעתיד! ✨",
                 issTitle: "🛰️ מעקב חי אחר תחנת החלל", lat: "קו רוחב:", lon: "קו אורך:", vel: "מהירות:",
-                nextL: "🚀 הספירה לאחור לשיгור הבא", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
-                loading: "טוען נתונים...", speedUnit: "קמ\"ש", noLaunches: "אין נתוני שיגור זמינים. הפעל את הסקריפט.",
-                rocket: "משגר:", pad: "כן שיגור:", location: "אתר שיגור:"
+                nextL: "🚀 הספيرة לאחור לשיгור הבא", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
+                loading: "טוען נתונים...", speedUnit: "קמ\"ш", noLaunches: "אין נתוני שיגור זמינים. הפעל את הסקриפט.",
+                rocket: "משגר:", pad: "כן שיгור:", location: "אתр שיгור:",
+                lblRegular: "רגיל", lblKids: "ילדים"
             }
         };
 
-        // ДЕФОЛТНЫЙ ЯЗЫК ТЕПЕРЬ АНГЛИЙСКИЙ (EN)
         let currentLang = 'en';
+        let currentAudience = 'regular'; // Режим по умолчанию: regular или kids
         let globalNews = [];
         let globalLaunches = [];
         let timerInterval = null;
@@ -137,12 +154,44 @@
                 }
             });
 
+            updateUILabels();
+            renderNews();
+            renderLaunches();
+            updateTimerDisplay();
+        }
+
+        function setAudience(audience) {
+            currentAudience = audience;
+            
+            ['regular', 'kids'].forEach(aud => {
+                const btn = document.getElementById(`aud-${aud}`);
+                if(aud === audience) {
+                    btn.className = "px-3 py-1.5 rounded-md font-semibold transition bg-teal-500 text-slate-900 flex items-center gap-1";
+                } else {
+                    btn.className = "px-3 py-1.5 rounded-md font-semibold transition text-slate-400 hover:text-teal-400 flex items-center gap-1";
+                }
+            });
+
+            updateUILabels();
+            renderNews();
+        }
+
+        function updateUILabels() {
+            const lang = currentLang;
             document.getElementById('txt-logo').innerText = "AstroTrack";
             document.getElementById('btn-home').innerText = i18n[lang].home;
             document.getElementById('btn-news').innerText = i18n[lang].news;
             document.getElementById('btn-launches').innerText = i18n[lang].launches;
-            document.getElementById('txt-hero-title').innerText = i18n[lang].title;
-            document.getElementById('txt-hero-desc').innerText = i18n[lang].desc;
+            
+            // Динамический заголовок главного экрана в зависимости от детского/взрослого режима
+            if (currentAudience === 'kids') {
+                document.getElementById('txt-hero-title').innerText = i18n[lang].titleKids;
+                document.getElementById('txt-hero-desc').innerText = i18n[lang].descKids;
+            } else {
+                document.getElementById('txt-hero-title').innerText = i18n[lang].title;
+                document.getElementById('txt-hero-desc').innerText = i18n[lang].desc;
+            }
+
             document.getElementById('txt-iss-title').innerText = i18n[lang].issTitle;
             document.getElementById('txt-iss-lat').innerText = i18n[lang].lat;
             document.getElementById('txt-iss-lon').innerText = i18n[lang].lon;
@@ -150,10 +199,9 @@
             document.getElementById('txt-next-launch').innerText = i18n[lang].nextL;
             document.getElementById('txt-news-head').innerText = i18n[lang].newsHead;
             document.getElementById('txt-launches-head').innerText = i18n[lang].launchHead;
-
-            renderNews();
-            renderLaunches();
-            updateTimerDisplay();
+            
+            document.getElementById('lbl-regular').innerText = i18n[lang].lblRegular;
+            document.getElementById('lbl-kids').innerText = i18n[lang].lblKids;
         }
 
         function switchTab(tabId) {
@@ -200,10 +248,21 @@
             if(!globalNews.length) return;
 
             container.innerHTML = globalNews.map(item => {
-                const title = item[`title_${currentLang}`] || item.title_en;
-                const summary = item[`summary_${currentLang}`] || item.summary_en;
+                // ВЫБОР ТЕКСТА: Если выбран режим kids, берем адаптированные поля ИИ
+                let title = item.title_en;
+                let summary = item.summary_en;
+
+                if (currentLang === 'ru') {
+                    title = currentAudience === 'kids' ? (item.title_ru_kids || item.title_ru) : item.title_ru;
+                    summary = currentAudience === 'kids' ? (item.summary_ru_kids || item.summary_ru) : item.summary_ru;
+                } else if (currentLang === 'he') {
+                    title = currentAudience === 'kids' ? (item.title_he_kids || item.title_he) : item.title_he;
+                    summary = currentAudience === 'kids' ? (item.summary_he_kids || item.summary_he) : item.summary_he;
+                } else if (currentLang === 'en' && currentAudience === 'kids') {
+                    // Для английского детского режима используем русские/ивритские наработки или оставляем оригинал
+                    title = "🚀 " + item.title_en;
+                }
                 
-                // Динамические стили для плашек источников
                 let sourceColor = 'bg-orange-500/10 text-orange-400 border-orange-500/20';
                 if (item.source === 'NASA') {
                     sourceColor = 'bg-blue-500/10 text-blue-400 border-blue-500/20';
@@ -221,11 +280,11 @@
                                     ${item.source}
                                 </span>
                                 <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">
-                                    ${item.difficulty.toUpperCase()}
+                                    ${currentAudience === 'kids' ? '👶 KIDS' : '🧠 REGULAR'}
                                 </span>
                             </div>
                             <h3 class="text-lg font-bold text-slate-100">${title}</h3>
-                            <p class="text-sm text-slate-400 line-clamp-3">${summary}</p>
+                            <p class="text-sm text-slate-400 leading-relaxed">${summary}</p>
                         </div>
                         <div class="pt-4 flex justify-between items-center text-xs text-slate-500">
                             <span>${item.date_display ? item.date_display.split(' ').slice(0,4).join(' ') : ''}</span>
@@ -241,7 +300,7 @@
             if(!globalLaunches.length) return;
 
             container.innerHTML = globalLaunches.map(item => {
-                const name = item[`name_${currentLang}`] || item.name_en;
+                const name = item.name_en;
                 const dateStr = new Date(item.window_start).toLocaleString(currentLang === 'he' ? 'he-IL' : currentLang === 'ru' ? 'ru-RU' : 'en-US');
 
                 return `
@@ -270,7 +329,7 @@
             if (!globalLaunches.length) return;
 
             const nextLaunch = globalLaunches[0];
-            nameEl.innerText = nextLaunch[`name_${currentLang}`] || nextLaunch.name_en;
+            nameEl.innerText = nextLaunch.name_en;
 
             const diff = new Date(nextLaunch.window_start) - new Date();
             if (diff <= 0) {
@@ -289,9 +348,8 @@
             timerEl.innerText = timeStr;
         }
 
-        // Инициализация дефолтных настроек
+        // Инициализация стартовых настроек
         setLanguage('en');
-        initData();
     </script>
 </body>
 </html>
