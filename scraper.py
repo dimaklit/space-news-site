@@ -22,7 +22,7 @@ LAUNCHES_URL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=5"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 def ask_gemini_ai(title, summary):
-    """Отправляет новость в Gemini 3.1 Flash-Lite для перевода и детской адаптации"""
+    """Отправляет новость в Gemini Flash для перевода и детской адаптации"""
     if not GEMINI_API_KEY:
         print("Предупреждение: API ключ GEMINI_API_KEY не найден. Возвращаем базовый текст.")
         return None
@@ -46,7 +46,9 @@ You must return a raw JSON object with exactly these keys (do not include markdo
 }}
 """
     
-    url = f"[https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=](https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=){GEMINI_API_KEY}"
+    # Строка URL без лишних символов и скобок
+    url = f"[https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=](https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=){GEMINI_API_KEY}"
+    
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
