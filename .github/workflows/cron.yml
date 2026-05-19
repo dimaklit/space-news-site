@@ -5,7 +5,6 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
-# Убираем предупреждение депрекации, принудительно включая Node.js 24
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
@@ -27,6 +26,9 @@ jobs:
         python-version: '3.10'
 
     - name: Run scraper
+      # Вот здесь мы явно передаем секретный ключ из настроек GitHub в Python
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: python scraper.py
 
     - name: Commit and Push changes
