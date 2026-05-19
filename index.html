@@ -117,18 +117,18 @@
             },
             he: {
                 home: "בית", news: "חדשות", launches: "שיגורים",
-                title: "המדריך שלך לחקר החлל", desc: "מרכז מידע וחדשות לתלמידים, סטודנטים, מורים וחובבי חלל.",
-                titleKids: "🚀 הרפתקאות בחלל!", descKids: "סיפורים מגניבים על מערכת השמש וחלליות אמיתיות לאסטרונאוטים לעתיד! ✨",
+                title: "המדריך שלך לחקר החלל", desc: "מרכז מידע וחדשות לתלמידים, סטודנטים, מורים וחובבי חלל.",
+                titleKids: "🚀 הרפתקאות בחלל!", descKids: "סיפורים מגניבים על מערכת השמש וחלליות אמิตות לאסטרונאוטים לעתיד! ✨",
                 issTitle: "🛰️ מעקב חי אחר תחנת החלל", lat: "קו רוחב:", lon: "קו אורך:", vel: "מהירות:",
-                nextL: "🚀 הספيرة לאחור לשיгור הבא", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
-                loading: "טוען נתונים...", speedUnit: "קמ\"ш", noLaunches: "אין נתוני שיגור זמינים. הפעל את הסקриפט.",
-                rocket: "משגר:", pad: "כן שיгור:", location: "אתр שיгור:",
+                nextL: "🚀 הספירה לאחור לשיגור הבא", newsHead: "פיד חדשות חלל", launchHead: "לוח שיגורים קרוב",
+                loading: "טוען נתונים...", speedUnit: "קמ\"ש", noLaunches: "אין נתוני שיגור זמינים. הפעל את הסקриפט.",
+                rocket: "משגר:", pad: "כן שיגור:", location: "אתר שיגור:",
                 lblRegular: "רגיל", lblKids: "ילדים"
             }
         };
 
         let currentLang = 'en';
-        let currentAudience = 'regular'; // Режим по умолчанию: regular или kids
+        let currentAudience = 'regular';
         let globalNews = [];
         let globalLaunches = [];
         let timerInterval = null;
@@ -183,7 +183,6 @@
             document.getElementById('btn-news').innerText = i18n[lang].news;
             document.getElementById('btn-launches').innerText = i18n[lang].launches;
             
-            // Динамический заголовок главного экрана в зависимости от детского/взрослого режима
             if (currentAudience === 'kids') {
                 document.getElementById('txt-hero-title').innerText = i18n[lang].titleKids;
                 document.getElementById('txt-hero-desc').innerText = i18n[lang].descKids;
@@ -245,22 +244,24 @@
 
         function renderNews() {
             const container = document.getElementById('news-container');
-            if(!globalNews.length) return;
+            if(!globalNews.length) {
+                container.innerHTML = "<p class='text-slate-400 text-sm'>No news articles found.</p>";
+                return;
+            }
 
             container.innerHTML = globalNews.map(item => {
-                // ВЫБОР ТЕКСТА: Если выбран режим kids, берем адаптированные поля ИИ
-                let title = item.title_en;
-                let summary = item.summary_en;
+                // ИСПРАВЛЕНИЕ: Универсальный выбор дефолтных полей (title_en или title)
+                let title = item.title_en || item.title || "No Title";
+                let summary = item.summary_en || item.summary || "No Description";
 
                 if (currentLang === 'ru') {
-                    title = currentAudience === 'kids' ? (item.title_ru_kids || item.title_ru) : item.title_ru;
-                    summary = currentAudience === 'kids' ? (item.summary_ru_kids || item.summary_ru) : item.summary_ru;
+                    title = currentAudience === 'kids' ? (item.title_ru_kids || item.title_ru || title) : (item.title_ru || title);
+                    summary = currentAudience === 'kids' ? (item.summary_ru_kids || item.summary_ru || summary) : (item.summary_ru || summary);
                 } else if (currentLang === 'he') {
-                    title = currentAudience === 'kids' ? (item.title_he_kids || item.title_he) : item.title_he;
-                    summary = currentAudience === 'kids' ? (item.summary_he_kids || item.summary_he) : item.summary_he;
+                    title = currentAudience === 'kids' ? (item.title_he_kids || item.title_he || title) : (item.title_he || title);
+                    summary = currentAudience === 'kids' ? (item.summary_he_kids || item.summary_he || summary) : (item.summary_he || summary);
                 } else if (currentLang === 'en' && currentAudience === 'kids') {
-                    // Для английского детского режима используем русские/ивритские наработки или оставляем оригинал
-                    title = "🚀 " + item.title_en;
+                    title = "🚀 " + title;
                 }
                 
                 let sourceColor = 'bg-orange-500/10 text-orange-400 border-orange-500/20';
@@ -277,7 +278,7 @@
                         <div class="space-y-2">
                             <div class="flex justify-between items-center flex-wrap gap-2">
                                 <span class="text-[10px] uppercase font-black px-2 py-0.5 rounded border ${sourceColor}">
-                                    ${item.source}
+                                    ${item.source || 'UNKNOWN'}
                                 </span>
                                 <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">
                                     ${currentAudience === 'kids' ? '👶 KIDS' : '🧠 REGULAR'}
@@ -288,7 +289,7 @@
                         </div>
                         <div class="pt-4 flex justify-between items-center text-xs text-slate-500">
                             <span>${item.date_display ? item.date_display.split(' ').slice(0,4).join(' ') : ''}</span>
-                            <a href="${item.link}" target="_blank" class="text-teal-400 hover:underline">Source →</a>
+                            <a href="${item.link || '#'}" target="_blank" class="text-teal-400 hover:underline">Source →</a>
                         </div>
                     </div>
                 `;
@@ -300,7 +301,7 @@
             if(!globalLaunches.length) return;
 
             container.innerHTML = globalLaunches.map(item => {
-                const name = item.name_en;
+                const name = item.name_en || "Space Mission";
                 const dateStr = new Date(item.window_start).toLocaleString(currentLang === 'he' ? 'he-IL' : currentLang === 'ru' ? 'ru-RU' : 'en-US');
 
                 return `
@@ -308,8 +309,8 @@
                         <div class="space-y-1">
                             <h3 class="text-base font-bold text-slate-100">${name}</h3>
                             <p class="text-xs text-slate-400">📅 ${dateStr}</p>
-                            <p class="text-xs text-slate-400">🚀 <span class="text-slate-300">${i18n[currentLang].rocket}</span> ${item.rocket}</p>
-                            <p class="text-xs text-slate-500">📍 <span class="text-slate-400">${i18n[currentLang].location}</span> ${item.location}</p>
+                            <p class="text-xs text-slate-400">🚀 <span class="text-slate-300">${i18n[currentLang].rocket}</span> ${item.rocket || 'N/A'}</p>
+                            <p class="text-xs text-slate-500">📍 <span class="text-slate-400">${i18n[currentLang].location}</span> ${item.location || 'N/A'}</p>
                         </div>
                     </div>
                 `;
@@ -329,7 +330,7 @@
             if (!globalLaunches.length) return;
 
             const nextLaunch = globalLaunches[0];
-            nameEl.innerText = nextLaunch.name_en;
+            nameEl.innerText = nextLaunch.name_en || "Mission";
 
             const diff = new Date(nextLaunch.window_start) - new Date();
             if (diff <= 0) {
@@ -348,8 +349,9 @@
             timerEl.innerText = timeStr;
         }
 
-        // Инициализация стартовых настроек
+        // Инициализация
         setLanguage('en');
+        initData();
     </script>
 </body>
 </html>
