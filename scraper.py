@@ -22,12 +22,14 @@ LAUNCHES_URL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=5"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
 def ask_gemini_ai(title, summary):
-    """Отправляет новость в Gemini Flash для перевода и детской адаптации"""
-    if not GEMINI_API_KEY:
+    """Отправляет новость в Gemini Flash через http.client для обхода ошибок urllib"""
+    # Очищаем ключ от возможных случайных пробелов или переносов строк
+    clean_key = GEMINI_API_KEY.strip() if GEMINI_API_KEY else ""
+    
+    if not clean_key:
         print("Предупреждение: API ключ GEMINI_API_KEY не найден. Возвращаем базовый текст.")
         return None
 
-    # Формируем строгий промт, требующий чистый JSON на выходе
     prompt = f"""
 You are an expert space journalist and STEM educator. Translate and adapt the following space news article.
 Title: {title}
@@ -35,10 +37,10 @@ Summary: {summary}
 
 You must return a raw JSON object with exactly these keys (do not include markdown block ticks ```json or any prose):
 {{
-  "title_ru": "Точный профессиональный перевод заголовка на русский",
-  "summary_ru": "Точный профессиональный перевод описания на русский для взрослой аудитории",
-  "title_ru_kids": "Упрощенный, увлекательный заголовок на русском для детей 8-12 лет (можно со смайликами)",
-  "summary_ru_kids": "Адаптированный пересказ новости на русском для детей простыми словами. Объясни сложные термины метафорами, добавь научно-популярный игровой тон и уместные эмодзи.",
+  "title_ru": "Точный перевод заголовка на русский",
+  "summary_ru": "Точный перевод описания на русский для взрослой аудитории",
+  "title_ru_kids": "Упрощенный заголовок на русском для детей 8-12 лет с эмодзи",
+  "summary_ru_kids": "Адаптированный пересказ новости на русском для детей простыми словами с эмодзи",
   "title_he": "Точный перевод заголовка на иврит",
   "summary_he": "Точный перевод описания на иврит для взрослых",
   "title_he_kids": "Адаптированный заголовок на иврите для детей",
@@ -46,8 +48,11 @@ You must return a raw JSON object with exactly these keys (do not include markdo
 }}
 """
     
-    # Строка URL без лишних символов и скобок
-    url = f"[https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=](https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=){GEMINI_API_KEY}"
+    import http.client
+    
+    # Разбиваем запрос на хост и путь, чтобы http.client отработал без сбоев
+    host = "generativelanguage.googleapis.com"
+    path = f"/v1beta/models/gemini-1.5-flash:generateContent?key={clean_key}"
     
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
@@ -58,19 +63,27 @@ You must return a raw JSON object with exactly these keys (do not include markdo
     }
     
     try:
-        req = urllib.request.Request(url, method="POST")
-        req.add_header("Content-Type", "application/json")
+        conn = http.client.HTTPSConnection(host, timeout=15)
         data_bytes = json.dumps(payload).encode("utf-8")
         
-        with urllib.request.urlopen(req, data=data_bytes, timeout=15) as response:
-            res_json = json.loads(response.read().decode("utf-8"))
+        headers = {"Content-Type": "application/json"}
+        conn.request("POST", path, body=data_bytes, headers=headers)
+        
+        response = conn.getresponse()
+        raw_data = response.read().decode("utf-8")
+        conn.close()
+        
+        if response.status == 200:
+            res_json = json.loads(raw_data)
             text_response = res_json['candidates'][0]['content']['parts'][0]['text']
             return json.loads(text_response.strip())
+        else:
+            print(f"Gemini API вернул статус {response.status}: {raw_data[:200]}")
+            return None
+            
     except Exception as e:
-        print(f"Ошибка обращения к Gemini API: {e}")
-        return None
-
-def parse_rfc2822_date(date_str):
+        print(f"Ошибка обращения к Gemini API через http.client: {e}")
+        return Nonedef parse_rfc2822_date(date_str):
     try:
         date_str = date_str.split(', ')[1] if ', ' in date_str else date_str
         date_clean = re.sub(r'\s[A-Z]{3,4}$|\s\+[0-9]{4}$', '', date_str)
