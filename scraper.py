@@ -1,4 +1,4 @@
-# AstroTrack AI Backend Scraper - v1.2.0 (2026)
+# AstroTrack AI Advanced Scraper - v1.3.0 (2026)
 import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.parse
@@ -9,35 +9,43 @@ import os
 import http.client
 from datetime import datetime
 
-# Настройка источников новостей
+# Настройка стабильных источников новостей
 NEWS_SOURCES = [
     {"name": "NASA", "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss"},
-    # ЗАМЕНИЛИ СТАРЫЙ БЛОГ NASA НА СВЕЖИЙ И СТАБИЛЬНЫЙ ФИД SPACEX
     {"name": "SpaceX", "url": "https://spaceflightnow.com/category/falcon-9/feed/"}, 
     {"name": "ESA", "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News"},
     {"name": "Spaceflight Now", "url": "https://spaceflightnow.com/feed/"}
 ]
 
 LAUNCHES_URL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=5"
-
-# Получаем API ключ из переменных окружения GitHub
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-def ask_gemini_ai(title, summary):
-    """Отправляет новость в Gemini Flash через http.client для перевода и детской адаптации"""
+def process_batch_with_gemini(batch_items):
+    """Отправляет пачку из нескольких новостей в Gemini одним запросом для обхода лимитов 15 RPM"""
     clean_key = GEMINI_API_KEY.strip() if GEMINI_API_KEY else ""
-    
     if not clean_key:
-        print("Предупреждение: API ключ GEMINI_API_KEY не найден. Возвращаем базовый текст.")
+        print("Предупреждение: API ключ GEMINI_API_KEY не найден.")
         return None
 
-    prompt = f"""
-You are an expert space journalist and STEM educator. Translate and adapt the following space news article.
-Title: {title}
-Summary: {summary}
+    # Формируем компактный список для ИИ
+    input_list = []
+    for item in batch_items:
+        input_list.append({
+            "id": item["id"],
+            "title": item["title_en"],
+            "summary": item["summary_en"]
+        })
 
-You must return a raw JSON object with exactly these keys (do not include markdown block ticks ```json or any prose):
+    prompt = f"""
+You are an expert space journalist and STEM educator. Translate and adapt the following list of space news articles.
+For each article in the list, provide translations and adaptations.
+
+Input list:
+{json.dumps(input_list, ensure_ascii=False)}
+
+You must return a raw JSON array of objects (do not include markdown block ticks ```json or any prose). Each object must have exactly these keys:
 {{
+  "id": (match the ID from input),
   "title_ru": "Точный перевод заголовка на русский",
   "summary_ru": "Точный перевод описания на русский для взрослой аудитории",
   "title_ru_kids": "Упрощенный заголовок на русском для детей 8-12 лет с эмодзи",
@@ -51,7 +59,6 @@ You must return a raw JSON object with exactly these keys (do not include markdo
     
     host = "generativelanguage.googleapis.com"
     path = f"/v1beta/models/gemini-2.5-flash:generateContent?key={clean_key}"
-    
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -61,9 +68,8 @@ You must return a raw JSON object with exactly these keys (do not include markdo
     }
     
     try:
-        conn = http.client.HTTPSConnection(host, timeout=15)
+        conn = http.client.HTTPSConnection(host, timeout=30)
         data_bytes = json.dumps(payload).encode("utf-8")
-        
         headers = {"Content-Type": "application/json"}
         conn.request("POST", path, body=data_bytes, headers=headers)
         
@@ -78,9 +84,8 @@ You must return a raw JSON object with exactly these keys (do not include markdo
         else:
             print(f"Gemini API вернул статус {response.status}: {raw_data[:200]}")
             return None
-            
     except Exception as e:
-        print(f"Ошибка обращения к Gemini API через http.client: {e}")
+        print(f"Ошибка обращения к Gemini API в батче: {e}")
         return None
 
 def parse_rfc2822_date(date_str):
@@ -106,7 +111,6 @@ def fetch_launches():
                     "pad": item.get('pad', {}).get('name', ''),
                     "location": item.get('pad', {}).get('location', {}).get('name', '')
                 })
-            
             with open("launches.json", "w", encoding="utf-8") as f:
                 json.dump(launches, f, ensure_ascii=False, indent=2)
             print("Расписание пусков сохранено.")
@@ -116,11 +120,13 @@ def fetch_launches():
             json.dump([], f)
 
 def main():
-    print("=== Запуск ИИ-сборщика AstroTrack Core v1.2.0 ===")
-    all_articles = []
+    print("=== Запуск ИИ-Батч-Сборщика AstroTrack v1.3.0 ===")
+    raw_articles = []
+    global_id = 1
 
+    # Шаг 1: Собираем все сырые новости со всех лент
     for source in NEWS_SOURCES:
-        print(f"\nСкачиваем ленту {source['name']}...")
+        print(f"Скачиваем ленту {source['name']}...")
         try:
             req = urllib.request.Request(source['url'], headers={'User-Agent': 'Mozilla/5.0'})
             with urllib.request.urlopen(req, timeout=10) as response:
@@ -131,8 +137,8 @@ def main():
 
         try:
             root = ET.fromstring(xml_data)
-            # Берем по 3 свежие новости из каждого источника
-            items = root.findall('.//item')[:3]
+            # ТЕПЕРЬ БЕРЕМ ПО 10 СВЕЖИХ НОВОСТЕЙ
+            items = root.findall('.//item')[:10]
             
             for item in items:
                 title_en = item.find('title').text if item.find('title') is not None else ""
@@ -141,61 +147,70 @@ def main():
                 pub_date = item.find('pubDate').text if item.find('pubDate') is not None else ""
                 
                 summary_en = re.sub('<[^<]+?>', '', summary_en).strip()
-                if len(summary_en) > 400:
-                    summary_en = summary_en[:397] + "..."
+                if len(summary_en) > 350:
+                    summary_en = summary_en[:347] + "..."
 
-                print(f" -> Обработка через ИИ Gemini: {title_en[:40]}...")
-                
-                # Запрос к нейросети
-                ai_data = ask_gemini_ai(title_en, summary_en)
-                
-                # Делаем паузу в 4.5 секунды для обхода лимитов бесплатного API
-                time.sleep(4.5)
-                
-                if ai_data:
-                    article = {
-                        "source": source['name'],
-                        "date_parsed": parse_rfc2822_date(pub_date).isoformat(),
-                        "date_display": pub_date,
-                        "link": link,
-                        "title_en": title_en,
-                        "summary_en": summary_en,
-                        "title_ru": ai_data.get("title_ru", title_en),
-                        "summary_ru": ai_data.get("summary_ru", summary_en),
-                        "title_ru_kids": ai_data.get("title_ru_kids", title_en),
-                        "summary_ru_kids": ai_data.get("summary_ru_kids", summary_en),
-                        "title_he": ai_data.get("title_he", title_en),
-                        "summary_he": ai_data.get("summary_he", summary_en),
-                        "title_he_kids": ai_data.get("title_he_kids", title_en),
-                        "summary_he_kids": ai_data.get("summary_he_kids", summary_en)
-                    }
-                else:
-                    article = {
-                        "source": source['name'],
-                        "date_parsed": parse_rfc2822_date(pub_date).isoformat(),
-                        "date_display": pub_date,
-                        "link": link,
-                        "title_en": title_en, "summary_en": summary_en,
-                        "title_ru": title_en, "summary_ru": summary_en,
-                        "title_ru_kids": title_en, "summary_ru_kids": summary_en,
-                        "title_he": title_en, "summary_he": summary_en,
-                        "title_he_kids": title_en, "summary_he_kids": summary_en
-                    }
-                
-                all_articles.append(article)
-                
+                raw_articles.append({
+                    "id": global_id,
+                    "source": source['name'],
+                    "date_parsed": parse_rfc2822_date(pub_date).isoformat(),
+                    "date_display": pub_date,
+                    "link": link,
+                    "title_en": title_en,
+                    "summary_en": summary_en
+                })
+                global_id += 1
         except Exception as parse_err:
             print(f"Ошибка парсинга XML для {source['name']}: {parse_err}")
 
-    # Сортировка по времени
-    all_articles.sort(key=lambda x: x['date_parsed'], reverse=True)
+    print(f"\nВсего собрано {len(raw_articles)} новостей. Начинаем ИИ-обработку пачками...")
 
-    for idx, article in enumerate(all_articles):
-        article["id"] = idx + 1
+    # Шаг 2: Делим массив новостей на батчи по 4 штуки и отправляем в Gemini
+    final_articles = []
+    batch_size = 4
+    
+    for i in range(0, len(raw_articles), batch_size):
+        batch = raw_articles[i:i + batch_size]
+        print(f" -> Отправка в Gemini пачки новостей с ID {batch[0]['id']} по {batch[-1]['id']}...")
+        
+        ai_responses = process_batch_with_gemini(batch)
+        
+        # Безопасная пауза между пачками (всего 10-12 запросов, лимит RPM никогда не сработает)
+        time.sleep(6.0)
+
+        # Сопоставляем ответы ИИ с метаданными новостей
+        for raw_item in batch:
+            ai_data = None
+            if ai_responses and isinstance(ai_responses, list):
+                ai_data = next((res for res in ai_responses if res.get("id") == raw_item["id"]), None)
+            
+            if ai_data:
+                raw_item.update({
+                    "title_ru": ai_data.get("title_ru", raw_item["title_en"]),
+                    "summary_ru": ai_data.get("summary_ru", raw_item["summary_en"]),
+                    "title_ru_kids": ai_data.get("title_ru_kids", raw_item["title_en"]),
+                    "summary_ru_kids": ai_data.get("summary_ru_kids", raw_item["summary_en"]),
+                    "title_he": ai_data.get("title_he", raw_item["title_en"]),
+                    "summary_he": ai_data.get("summary_he", raw_item["summary_en"]),
+                    "title_he_kids": ai_data.get("title_he_kids", raw_item["title_en"]),
+                    "summary_he_kids": ai_data.get("summary_he_kids", raw_item["summary_en"])
+                })
+            else:
+                # Если пачка упала — пишем заглушку
+                raw_item.update({
+                    "title_ru": raw_item["title_en"], "summary_ru": raw_item["summary_en"],
+                    "title_ru_kids": raw_item["title_en"], "summary_ru_kids": raw_item["summary_en"],
+                    "title_he": raw_item["title_en"], "summary_he": raw_item["summary_en"],
+                    "title_he_kids": raw_item["title_en"], "summary_he_kids": raw_item["summary_en"]
+                })
+            final_articles.append(raw_item)
+
+    # Сортировка по свежести
+    final_articles.sort(key=lambda x: x['date_parsed'], reverse=True)
 
     with open("news.json", "w", encoding="utf-8") as f:
-        json.dump(all_articles, f, ensure_ascii=False, indent=2)
-    print(f"\nУспешно сохранено {len(all_articles)} ИИ-новостей в news.json")
+        json.dump(final_articles, f, ensure_ascii=False, indent=2)
+    print(f"\nУспешно сохранено {len(final_articles)} новостей в news.json!")
     
     fetch_launches()
 
