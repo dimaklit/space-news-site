@@ -49,7 +49,7 @@ You must return a raw JSON object with exactly these keys (do not include markdo
 """
     
     host = "generativelanguage.googleapis.com"
-    path = f"/v1beta/models/gemini-1.5-flash:generateContent?key={clean_key}"
+    path = f"/v1beta/models/gemini-2.5-flash:generateContent?key={clean_key}"
     
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
