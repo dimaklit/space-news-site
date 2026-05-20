@@ -1,37 +1,20 @@
 [
   {
-    "source": "NASA",
-    "date_parsed": "2026-05-20T04:00:00",
-    "date_display": "Wed, 20 May 2026 04:00:00 +0000",
-    "link": "https://science.nasa.gov/earth/earth-observatory/fire-chars-santa-rosa-island/",
-    "title_en": "Fire Chars Santa Rosa Island",
-    "summary_en": "The blaze spread across the southern side of the second-largest island in California’s Channel Islands National Park.",
-    "title_ru": "Fire Chars Santa Rosa Island",
-    "summary_ru": "The blaze spread across the southern side of the second-largest island in California’s Channel Islands National Park.",
-    "title_ru_kids": "Fire Chars Santa Rosa Island",
-    "summary_ru_kids": "The blaze spread across the southern side of the second-largest island in California’s Channel Islands National Park.",
-    "title_he": "Fire Chars Santa Rosa Island",
-    "summary_he": "The blaze spread across the southern side of the second-largest island in California’s Channel Islands National Park.",
-    "title_he_kids": "Fire Chars Santa Rosa Island",
-    "summary_he_kids": "The blaze spread across the southern side of the second-largest island in California’s Channel Islands National Park.",
-    "id": 1
-  },
-  {
     "source": "SpaceX",
     "date_parsed": "2026-05-20T00:28:12",
     "date_display": "Wed, 20 May 2026 00:28:12 +0000",
     "link": "https://spaceflightnow.com/2026/05/20/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-launch-from-vandenberg-sfb/",
     "title_en": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket launch from Vandenberg SFB",
     "summary_en": "SpaceX’s 45th Starlink mission of the year will see the company add another 24 broadband internet satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:46 p.m. PDT (10:46 p.m. EDT / 0246 UTC).",
-    "title_ru": "SpaceX запускает 24 спутника Starlink на ракете Falcon 9 со стартовой площадки Ванденберг",
-    "summary_ru": "В рамках 45-й миссии Starlink в этом году компания SpaceX выведет на низкую околоземную орбиту еще 24 спутника для широкополосного доступа в интернет. Запуск с площадки 4E на базе космических сил Ванденберг состоялся в 19:46 по тихоокеанскому времени (22:46 по восточному времени / 02:46 UTC).",
-    "title_ru_kids": "Ракета SpaceX Falcon 9 отправила 24 спутника Starlink в космос! 🚀✨",
-    "summary_ru_kids": "Представь, что SpaceX — это космическая транспортная компания, а ракета Falcon 9 — это их большой автобус! 🚌 В этот раз она отвезла 24 маленьких спутника Starlink прямо на орбиту Земли. Эти спутники как маленькие звёздочки, которые помогают нам иметь быстрый интернет по всему миру! 🌐 Запуск был с базы Ванденберг, когда у нас уже было темно. 🌌",
-    "title_he": "SpaceX שיגרה 24 לווייני Starlink על גבי רקטת פלקון 9 מבסיס כוח החלל ונדנברג",
-    "summary_he": "במסגרת משימת Starlink ה-45 של SpaceX השנה, החברה הוסיפה 24 לווייני אינטרנט בפס רחב נוספים למסלול לווייני נמוך סביב כדור הארץ. השיגור מכן השיגור 4E בבסיס כוח החלל ונדנברג התרחש בשעה 19:46 שעון האוקיינוס השקט (22:46 שעון החוף המזרחי / 02:46 UTC).",
-    "title_he_kids": "וואו! רקטת פלקון 9 של SpaceX שלחה 24 לווייני Starlink לחלל! 🚀✨",
-    "summary_he_kids": "תארו לעצמכם ש-SpaceX היא כמו חברת אוטובוסים לחלל! 🚌 הפעם, הרקטה הגדולה שלהם, פלקון 9, לקחה 24 לוויינים קטנים בשם Starlink ושלחה אותם למסלול סביב כדור הארץ. 🌍 הלוויינים האלה הם כמו כוכבים קטנים שעוזרים לנו לקבל אינטרנט מהיר בכל העולם! 🌐 השיגור היה מבסיס מיוחד, כשכבר היה חושך בחוץ. 🌌",
-    "id": 2
+    "title_ru": "SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с базы космических сил Ванденберг",
+    "summary_ru": "В рамках 45-й миссии Starlink в этом году компания SpaceX добавила еще 24 спутника широкополосного интернета на низкую околоземную орбиту. Запуск с площадки 4E на базе космических сил Ванденберг состоялся в 19:46 по тихоокеанскому времени (22:46 по восточному времени / 02:46 UTC).",
+    "title_ru_kids": "Ура! Ракета SpaceX запустила 24 спутника Starlink для супер-интернета! 🚀✨",
+    "summary_ru_kids": "Представь, что SpaceX — это большая космическая компания, которая строит ракеты и спутники. 🚀 В этот раз они отправили в космос 24 маленьких спутника, как будто это маленькие помощники, которые будут летать вокруг Земли. 🌍🛰️ Эти спутники называются Starlink, и их работа — раздавать быстрый интернет по всему миру, чтобы ты мог смотреть мультики или играть в игры без тормозов! 🎮🍿 Это был уже 45-й такой запуск в этом году! Ракета стартовала с особой площадки в Калифорнии, когда у нас было уже глубокая ночь. ✨",
+    "title_he": "SpaceX שיגרה 24 לווייני סטארלינק בשיגור רקטת פלקון 9 מבסיס כוח החלל ונדנברג",
+    "summary_he": "במשימת הסטארלינק ה-45 של השנה, SpaceX הוסיפה 24 לווייני אינטרנט בפס רחב נוספים למסלול לווייני נמוך סביב כדור הארץ. השיגור מכן השיגור 4E בבסיס כוח החלל ונדנברג התרחש בשעה 19:46 שעון האוקיינוס השקט (22:46 שעון החוף המזרחי / 02:46 UTC).",
+    "title_he_kids": "התרגשות בחלל! 🚀 SpaceX שיגרה 24 לווייני אינטרנט חדשים! ✨",
+    "summary_he_kids": "תארו לעצמכם שחברת SpaceX היא כמו קוסם חלל גדול! 🧙‍♂️✨ הפעם, הם שלחו 24 לוויינים קטנים, כמו כוכבים נוצצים, לטוס סביב כדור הארץ. 🌍🛰️ הלוויינים האלה נקראים סטארלינק, והם כמו שליחים מהירים שמביאים לנו אינטרנט סופר-מהיר לכל מקום, כדי שנוכל לראות סרטונים ולשחק משחקים בלי שום הפרעה! 🎮🍿 זה היה כבר השיגור ה-45 שלהם השנה! הטיל המריא ממקום מיוחד בקליפורניה, כשהיה שם ערב מאוחר. 🌌",
+    "id": 1
   },
   {
     "source": "Spaceflight Now",
@@ -48,41 +31,7 @@
     "summary_he": "SpaceX’s 45th Starlink mission of the year will see the company add another 24 broadband internet satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:46 p.m. PDT (10:46 p.m. EDT / 0246 UTC).",
     "title_he_kids": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket launch from Vandenberg SFB",
     "summary_he_kids": "SpaceX’s 45th Starlink mission of the year will see the company add another 24 broadband internet satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:46 p.m. PDT (10:46 p.m. EDT / 0246 UTC).",
-    "id": 3
-  },
-  {
-    "source": "NASA",
-    "date_parsed": "2026-05-19T20:47:13",
-    "date_display": "Tue, 19 May 2026 20:47:13 +0000",
-    "link": "https://science.nasa.gov/photojournal/nasas-psyche-mission-images-mars-huygens-crater/",
-    "title_en": "NASA’s Psyche Mission Images Mars’ Huygens Crater",
-    "summary_en": "Description Captured by the multispectral imager instrument on NASA’s Psyche mission, this is an enhanced-color view of the large double-ring crater Huygens (upper right; about 290 miles, or 470 kilometers, in diameter) and the surrounding heavily cratered southern highlands n...",
-    "title_ru": "Миссия НАСА «Психея» запечатлела кратер Гюйгенс на Марсе",
-    "summary_ru": "Это изображение, полученное с помощью мультиспектрального прибора для съемки на борту миссии НАСА «Психея», представляет собой вид с улучшенной цветопередачей большого двойного кольцевого кратера Гюйгенс (вверху справа; около 290 миль, или 470 километров, в диаметре) и окружающих его сильно кратерированных южных высокогорий.",
-    "title_ru_kids": "Вау! 🤩 Космический корабль НАСА «Психея» сфотографировал гигантскую яму на Марсе!",
-    "summary_ru_kids": "Представь, космический корабль НАСА «Психея» (он как супер-фотоаппарат в космосе! 📸) пролетал мимо Марса и сделал потрясающий снимок. На этой фотографии, где цвета стали ярче, мы видим огромную «чашу» или «кольцо» на Марсе – это кратер Гюйгенс! 🤩 Он такой большой, что в него поместилось бы несколько больших городов (около 470 километров в ширину!). А вокруг него – целая «страна» с множеством других «дырочек» и «ям», как будто кто-то очень давно бросал туда камни. Это южные горы Марса! 🚀",
-    "title_he": "משימת פסיכה של נאס\"א צילמה את מכתש הויגנס במאדים",
-    "summary_he": "תיאור: תמונה זו, שצולמה על ידי מכשיר ההדמיה הרב-ספקטרלי במשימת פסיכה של נאס\"א, מציגה תצוגה בצבע משופר של מכתש הויגנס הגדול בעל הטבעת הכפולה (למעלה מימין; בקוטר של כ-290 מייל, או 470 קילומטרים) ושל הרמות הדרומיות הסמוכות המלאות במכתשים רבים.",
-    "title_he_kids": "היי מאדים! 👋 החללית 'פסיכה' של נאס\"א צילמה תמונה מגניבה של בור ענק!",
-    "summary_he_kids": "תארו לעצמכם, החללית של נאס\"א ששמה 'פסיכה' (היא כמו מצלמת-על בחלל! 📸) עברה ליד מאדים וצילמה תמונה מהממת! בתמונה הזו, שבה הצבעים נראים עוד יותר יפים, אנחנו רואים 'קערה' ענקית או 'טבעת' על מאדים – קוראים לה מכתש הויגנס! 🤩 היא כל כך גדולה, שאפשר להכניס לתוכה כמה ערים גדולות (בערך 470 קילומטרים רוחב!). ומסביבה – יש עוד המון 'חורים' ו'בורות' קטנים, כאילו מישהו זרק לשם אבנים לפני המון המון זמן. אלה ההרים הדרומיים של מאדים! 🚀",
-    "id": 4
-  },
-  {
-    "source": "NASA",
-    "date_parsed": "2026-05-19T20:43:20",
-    "date_display": "Tue, 19 May 2026 20:43:20 +0000",
-    "link": "https://science.nasa.gov/photojournal/nasas-psyche-mission-spies-mars-wind-blown-craters-during-close-approach/",
-    "title_en": "NASA’s Psyche Mission Spies Mars’ Wind-Blown Craters During Close Approach",
-    "summary_en": "Description This view of the Martian surface, captured by NASA’s Psyche spacecraft on May 15, 2026, shows streaks that have formed due to wind blowing over impact craters in the Syrtis Major region. The image scale is nearly 1,200 feet (360 meters) per pixel. The wind streaks ...",
-    "title_ru": "Миссия NASA «Психея» запечатлела выветренные кратеры Марса во время сближения",
-    "summary_ru": "Этот вид марсианской поверхности, запечатленный космическим аппаратом NASA «Психея» 15 мая 2026 года, демонстрирует полосы, образовавшиеся из-за ветра, дующего над ударными кратерами в регионе Большой Сырт. Масштаб изображения составляет почти 1200 футов (360 метров) на пиксель. Эти ветровые полосы являются свидетельством активной ветровой эрозии и указывают на направление преобладающих ветров.",
-    "title_ru_kids": "Космический корабль NASA «Психея» заглянул на Марс и увидел, как ветер рисует узоры на кратерах! 🌬️🎨",
-    "summary_ru_kids": "Представьте, что Марс — это огромная песочница, а ветер — невидимый художник! 🎨 Космический корабль NASA «Психея» 15 мая 2026 года сделал крутую фотку, на которой видно, как ветер на Марсе дует над большими дырками (кратерами) и оставляет за собой длинные полоски, как будто рисует! 🌬️ Эти полоски показывают, куда дует марсианский ветерок. Каждая точка на этой фотке — это как целых 360 метров на Марсе! Это как если бы вы видели целый город в одном пикселе! 🏙️",
-    "title_he": "משימת פסיכה של נאס\"א צופה במכתשי מאדים שנחצבו ברוח במהלך התקרבות קרובה",
-    "summary_he": "תמונה זו של פני השטח של מאדים, שצולמה על ידי החללית פסיכה של נאס\"א ב-15 במאי 2026, מציגה פסים שנוצרו כתוצאה מרוח הנושבת מעל מכתשי פגיעה באזור סירטיס מייג'ור. קנה המידה של התמונה הוא כמעט 1,200 רגל (360 מטרים) לפיקסל. פסי רוח אלה מעידים על שחיקת רוח פעילה ומצביעים על כיוון הרוחות השוררות.",
-    "title_he_kids": "החללית פסיכה של נאס\"א הצליחה לראות איך הרוח מציירת על מאדים! 🌬️🎨",
-    "summary_he_kids": "תארו לעצמכם שמאדים הוא כמו ארגז חול ענק, והרוח היא אמן בלתי נראה! 🎨 החללית פסיכה של נאס\"א צילמה תמונה מגניבה ב-15 במאי 2026, שמראה איך הרוח במאדים נושבת מעל בורות גדולים (מכתשים) ומשאירה אחריה פסים ארוכים, כאילו היא מציירת! 🌬️ הפסים האלה מראים לנו לאן הרוח המאדימית נושבת. כל נקודה בתמונה הזו היא כמו 360 מטרים שלמים על מאדים! זה כמו לראות עיר שלמה בפיקסל אחד! 🏙️",
-    "id": 5
+    "id": 2
   },
   {
     "source": "ESA",
@@ -91,15 +40,15 @@
     "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/05/Smile_launch_highlights",
     "title_en": "Smile launch highlights",
     "summary_en": "Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs...",
-    "title_ru": "Основные моменты запуска Smile",
-    "summary_ru": "Видео: 00:04:00. Спутник Smile Европейского космического агентства (ESA) был запущен на борту ракеты Vega-C с Европейского космодрома во Французской Гвиане. Ракета стартовала 19 мая 2026 года в 04:52 по британскому летнему времени (BST) / 05:52 по центральноевропейскому летнему времени (CEST) (00:52 по местному времени). Smile отправился в космос на рейсе Vega-C VV29. Ракета Vega-C высотой 35 метров весит...",
-    "title_ru_kids": "Улыбка летит в космос! 🚀✨",
-    "summary_ru_kids": "Представьте, что в космос отправилась настоящая «Улыбка»! 😄 Это спутник Smile от Европейского космического агентства (ESA), который полетел на большой ракете Vega-C. 🚀 Она стартовала с космодрома во Французской Гвиане 19 мая 2026 года рано утром, когда многие еще спали. Smile — это как космический исследователь, который отправился в свое путешествие на ракете Vega-C, полет VV29. Эта ракета такая высокая, как 10-этажный дом (35 метров)! ✨",
-    "title_he": "דגשים משיגור Smile",
-    "summary_he": "וידאו: 00:04:00. הלוויין Smile של סוכנות החלל האירופית (ESA) שוגר על גבי רקטת Vega-C מנמל החלל האירופי בגיאנה הצרפתית. הרקטה המריאה ב-19 במאי 2026 בשעה 04:52 לפי שעון הקיץ הבריטי (BST) / 05:52 לפי שעון הקיץ של מרכז אירופה (CEST) (00:52 לפי השעון המקומי). Smile טס לחלל בטיסת Vega-C VV29. בגובה 35 מטרים, רקטת Vega-C שוקלת...",
-    "title_he_kids": "הלוויין Smile טס לחלל! 🚀😊",
-    "summary_he_kids": "תארו לעצמכם ש\"חיוך\" אמיתי טס לחלל! 😄 זהו הלוויין Smile של סוכנות החלל האירופית (ESA), שטס על גבי רקטה גדולה בשם Vega-C. 🚀 היא המריאה מנמל חלל בגיאנה הצרפתית ב-19 במאי 2026, מוקדם בבוקר, כשרובם עוד ישנו. Smile הוא כמו חוקר חלל שיצא למסע שלו בטיסת Vega-C VV29. הרקטה הזו גבוהה כמו בניין בן 10 קומות (35 מטרים)! ✨",
-    "id": 6
+    "title_ru": "Smile launch highlights",
+    "summary_ru": "Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs...",
+    "title_ru_kids": "Smile launch highlights",
+    "summary_ru_kids": "Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs...",
+    "title_he": "Smile launch highlights",
+    "summary_he": "Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs...",
+    "title_he_kids": "Smile launch highlights",
+    "summary_he_kids": "Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs...",
+    "id": 3
   },
   {
     "source": "ESA",
@@ -116,7 +65,7 @@
     "summary_he": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026. The launch marks the beginning of an ambitious mission to better understand solar storms, geomagnetic storms, and the scienc...",
     "title_he_kids": "Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind",
     "summary_he_kids": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026. The launch marks the beginning of an ambitious mission to better understand solar storms, geomagnetic storms, and the scienc...",
-    "id": 7
+    "id": 4
   },
   {
     "source": "SpaceX",
@@ -125,15 +74,15 @@
     "link": "https://spaceflightnow.com/2026/05/15/live-coverage-spacex-makes-another-attempt-to-launch-space-station-cargo-mission/",
     "title_en": "NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station",
     "summary_en": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
-    "title_ru": "NASA и SpaceX запустили миссию Dragon с 6500 фунтами науки и припасов на космическую станцию",
-    "summary_ru": "Запуск миссии по пополнению запасов на ракете Falcon 9 со стартового комплекса 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточному дневному времени (22:05 UTC). Грузовой корабль Dragon загружен 6500 фунтами научного оборудования и припасов для космической станции.",
-    "title_ru_kids": "Ура! Космический грузовик Dragon летит к МКС с кучей подарков и научных штук! 🚀🎁🔬",
-    "summary_ru_kids": "Представь, что это как огромный космический почтальон! 📮 Ракета Falcon 9, как мощный конь, отправила корабль Dragon с мыса Канаверал. Он везет 6500 фунтов (это как вес двух маленьких слонят! 🐘🐘) всяких крутых научных приборов и еды для космонавтов на Международной космической станции. Запуск был в 18:05 по американскому времени. Скоро космонавты получат свои посылки! 🎉",
-    "title_he": "NASA ו-SpaceX משגרות משימת דרגון עם 6,500 פאונד של מדע ואספקה לתחנת החלל",
-    "summary_he": "שיגור משימת האספקה, על גבי רקטת פלקון 9 ממתחם השיגור 40 בתחנת כוח החלל קייפ קנוורל, מתוכנן לשעה 18:05 שעון קיץ מזרחי (22:05 UTC). הדרגון המטען עמוס ב-6,500 פאונד של ציוד מדעי ואספקה לתחנת החלל.",
-    "title_he_kids": "איזה כיף! חללית דרגון טסה לתחנת החלל עם המון מדע וציוד! 🚀🔬✨",
-    "summary_he_kids": "תארו לעצמכם שזה כמו שליח חלל ענק! 📮 רקטת פלקון 9, כמו סוס חזק, שיגרה את חללית הדרגון מקייפ קנוורל. היא נושאת 6,500 פאונד (זה כמו משקל של שני פילים קטנים! 🐘🐘) של מכשירים מדעיים מגניבים ואוכל לאסטרונאוטים בתחנת החלל הבינלאומית. השיגור היה בשעה 18:05 לפי שעון ארה\"ב. בקרוב האסטרונאוטים יקבלו את החבילות שלהם! 🎉",
-    "id": 8
+    "title_ru": "NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station",
+    "summary_ru": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
+    "title_ru_kids": "NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station",
+    "summary_ru_kids": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
+    "title_he": "NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station",
+    "summary_he": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
+    "title_he_kids": "NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station",
+    "summary_he_kids": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -150,7 +99,7 @@
     "summary_he": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
     "title_he_kids": "NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station",
     "summary_he_kids": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
-    "id": 9
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -167,7 +116,7 @@
     "summary_he": "The static fire test was conducted by Northrop Grumman, the manufacturer of the GEM 63XL solid rocket booster that can be used to help power United Launch Alliance’s Vulcan rockets. An in-flight anomaly was observed on one of those back in mid-February.",
     "title_he_kids": "ULA confirms successful solid rocket booster test as Vulcan anomaly investigation continues",
     "summary_he_kids": "The static fire test was conducted by Northrop Grumman, the manufacturer of the GEM 63XL solid rocket booster that can be used to help power United Launch Alliance’s Vulcan rockets. An in-flight anomaly was observed on one of those back in mid-February.",
-    "id": 10
+    "id": 7
   },
   {
     "source": "SpaceX",
@@ -176,15 +125,15 @@
     "link": "https://spaceflightnow.com/2026/05/12/live-coverage-nasa-spacex-to-launch-34th-cargo-dragon-mission-to-the-space-station/",
     "title_en": "For a second time, poor weather scrubs Cargo Dragon mission launch to the space station",
     "summary_en": "SpaceX’s 34th mission as part of the Commercial Resupply Services 2 contract with NASA will deliver 6,500 pounds of science and supplies to the International Space Station. Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Station is scheduled for Friday...",
-    "title_ru": "Запуск грузового корабля Dragon к МКС отложен во второй раз из-за плохой погоды",
-    "summary_ru": "34-я миссия SpaceX в рамках контракта Commercial Resupply Services 2 (CRS-2) с NASA доставит 6500 фунтов (около 2950 кг) научного оборудования и припасов на Международную космическую станцию (МКС). Запуск ракеты Falcon 9 с пусковой площадки 40 на космодроме на мысе Канаверал был запланирован на пятницу...",
-    "title_ru_kids": "Опять дождь! 🌧️ Запуск космического грузовика Dragon к МКС снова отложен! 🚀",
-    "summary_ru_kids": "Космический корабль Dragon от компании SpaceX, как большой почтальон, должен был отвезти на Международную космическую станцию (это такой большой дом в космосе! 🏠) 6500 фунтов (это как 3000 кг!) важных вещей: еду, воду, инструменты и даже новые игрушки для учёных (научные приборы). 📦 Но ракета Falcon 9, которая должна была его запустить с площадки на мысе Канаверал, не смогла взлететь в пятницу из-за плохой погоды. 🌧️ Придётся подождать ещё немного, пока солнышко выглянет! ☀️",
-    "title_he": "בפעם השנייה: מזג אוויר גרוע דחה את שיגור משימת מטען דרגון לתחנת החלל",
-    "summary_he": "המשימה ה-34 של SpaceX במסגרת חוזה שירותי אספקה מסחריים 2 (CRS-2) עם נאס\"א תספק 6,500 פאונד (כ-2,950 ק\"ג) של ציוד מדעי ואספקה לתחנת החלל הבינלאומית. השיגור של רקטת פלקון 9 מכן השיגור 40 בתחנת חיל החלל קייפ קנוורל מתוכנן ליום שישי...",
-    "title_he_kids": "שוב גשם! 🌧️ שיגור משאית החלל דרגון לתחנת החלל נדחה בפעם השנייה! 🚀",
-    "summary_he_kids": "החללית דרגון של חברת SpaceX, שהיא כמו משאית דואר ענקית, הייתה אמורה להביא לתחנת החלל הבינלאומית (שהיא כמו בית גדול בחלל! 🏠) 6,500 פאונד (זה המון, כמו משקל של פיל קטן! 🐘) של דברים חשובים: אוכל, מים, כלים וגם צעצועים חדשים למדענים (מכשירי מחקר). 📦 אבל רקטת הפלקון 9, שהייתה אמורה לשגר אותה מכן השיגור בקייפ קנוורל, לא יכלה להמריא ביום שישי בגלל מזג אוויר רע. 🌧️ נצטרך לחכות עוד קצת עד שהשמש תצא! ☀️",
-    "id": 11
+    "title_ru": "Во второй раз плохая погода отменила запуск миссии Cargo Dragon к космической станции",
+    "summary_ru": "34-я миссия SpaceX в рамках контракта Commercial Resupply Services 2 с NASA доставит 6500 фунтов (около 2950 кг) научного оборудования и припасов на Международную космическую станцию. Запуск ракеты Falcon 9 со стартовой площадки 40 на космодроме на мысе Канаверал запланирован на пятницу...",
+    "title_ru_kids": "Опять плохая погода! 🌧️ Космический грузовик Dragon не смог полететь на станцию! 🚀",
+    "summary_ru_kids": "Представь, что космический грузовик Dragon 🐉, как большой почтальон, должен был отвезти на Международную космическую станцию (это такой космический дом для космонавтов 🧑‍🚀) целых 6500 фунтов (это как 3000 пачек сахара!) важных вещей: еду, воду и разные научные игрушки для экспериментов. Но погода испортилась, и ракета Falcon 9 🚀, которая должна была его запустить, пока осталась на земле. Запуск перенесли на пятницу. Надеемся, что в этот раз погода будет хорошей! ☀️",
+    "title_he": "בפעם השנייה, מזג אוויר גרוע ביטל את שיגור משימת Cargo Dragon לתחנת החלל",
+    "summary_he": "המשימה ה-34 של SpaceX במסגרת חוזה Commercial Resupply Services 2 עם נאס\"א תספק 6,500 ליברות (כ-2,950 ק\"ג) של ציוד מדעי ואספקה לתחנת החלל הבינלאומית. שיגור רקטת פלקון 9 מכן השיגור 40 בתחנת חיל החלל קייפ קנוורל מתוכנן ליום שישי...",
+    "title_he_kids": "אוי לא! 🌧️ מזג אוויר רע שוב ביטל את שיגור דרגון לחלל! 🚀",
+    "summary_he_kids": "תארו לעצמכם שחללית דרגון 🐉, שהיא כמו משאית חלל גדולה, הייתה אמורה להביא לתחנת החלל הבינלאומית (זה כמו בית גדול בחלל לקוסמונאוטים 🧑‍🚀) המון דברים חשובים: אוכל, מים וצעצועים מדעיים לניסויים – בערך 6,500 ליברות (כמעט 3,000 קילו!). אבל מזג האוויר היה ממש גרוע, אז הטיל פלקון 9 🚀 לא יכול היה להמריא. השיגור נדחה ליום שישי. נקווה שבפעם הבאה השמש תזרח! ☀️",
+    "id": 8
   },
   {
     "source": "ESA",
@@ -194,13 +143,13 @@
     "title_en": "εpsilon",
     "summary_en": "εpsilon",
     "title_ru": "Эпсилон",
-    "summary_ru": "Эта новость посвящена Эпсилону, важному элементу в контексте космических исследований.",
-    "title_ru_kids": "Что такое Эпсилон в космосе? ✨",
-    "summary_ru_kids": "Представьте, что в огромном космосе есть что-то, что называется Эпсилон! Это может быть имя звезды, ракеты или даже какой-то очень важной космической загадки, которую ученые пытаются разгадать. 🚀🌟",
+    "summary_ru": "Эпсилон (Epsilon) — это японская твердотопливная ракета-носитель, разработанная для запуска небольших научных спутников.",
+    "title_ru_kids": "Японская ракета Эпсилон: Маленький герой космоса! 🚀✨",
+    "summary_ru_kids": "Представь, что у Японии есть своя космическая машинка, которая называется Эпсилон! 🚀 Она не очень большая, но очень сильная и помогает отправлять в космос маленькие спутники, которые как умные глазки следят за нашей Землей или изучают звезды. ✨🛰️",
     "title_he": "אפסילון",
-    "summary_he": "ידיעה זו עוסקת באפסילון, מרכיב חשוב בהקשר של חקר החלל.",
-    "title_he_kids": "מה זה אפסילון בחלל? ✨",
-    "summary_he_kids": "תארו לעצמכם שביקום העצום יש משהו שנקרא אפסילון! זה יכול להיות שם של כוכב, טיל או אפילו חידה חללית חשובה מאוד שמדענים מנסים לפתור. 🚀🌟",
-    "id": 12
+    "summary_he": "אפסילון (Epsilon) היא משגר לוויינים יפני המשתמש בדלק מוצק, שתוכנן לשיגור לוויינים מדעיים קטנים.",
+    "title_he_kids": "טיל אפסילון היפני: גיבור החלל הקטן! 🚀✨",
+    "summary_he_kids": "תארו לעצמכם שליפן יש מכונית חלל משלה שנקראת אפסילון! 🚀 היא לא גדולה במיוחד, אבל היא חזקה מאוד ועוזרת לשלוח לחלל לוויינים קטנים, שהם כמו עיניים חכמות שצופות בכדור הארץ שלנו או חוקרות כוכבים. ✨🛰️",
+    "id": 9
   }
 ]
