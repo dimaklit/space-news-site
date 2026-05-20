@@ -86,7 +86,6 @@
             border-color: var(--accent);
         }
 
-        /* Интерактивный Дашборд */
         .dashboard-grid {
             width: 100%;
             max-width: 1200px;
@@ -131,7 +130,6 @@
             letter-spacing: 1px;
         }
 
-        /* Контейнер для живой зум-карты Leaflet */
         .iss-map-container {
             width: 100%;
             height: 130px;
@@ -164,11 +162,10 @@
         }
 
         @keyframes twinkle {
-            0%, 100__ { opacity: 0.2; }
+            0%, 100% { opacity: 0.2; }
             50% { opacity: 1; }
         }
 
-        /* Сетка новостей */
         .news-grid {
             width: 100%;
             max-width: 1200px;
@@ -254,7 +251,6 @@
             margin-top: auto;
         }
 
-        /* Календарь пусков */
         .launches-section {
             width: 100%;
             max-width: 1200px;
@@ -305,18 +301,9 @@
         }
 
         @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .controls {
-                width: 100%;
-                justify-content: space-between;
-            }
-            .launch-item {
-                flex-direction: column;
-                align-items: flex-start;
-            }
+            header { flex-direction: column; align-items: flex-start; }
+            .controls { width: 100%; justify-content: space-between; }
+            .launch-item { flex-direction: column; align-items: flex-start; }
         }
     </style>
 </head>
@@ -336,38 +323,36 @@
 
     <div class="dashboard-grid">
         <div class="dash-card">
-            <h3 id="dash-sky-title">🌌 Локальное небо (Kiryat Gat)</h3>
+            <h3 id="dash-sky-title">🌌 Local Sky (Kiryat Gat)</h3>
             <div class="skymap-container" id="sky-map">
                 <div style="z-index: 2; text-align: center; font-size: 12px; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
-                    <strong id="sky-constellation">Загрузка...</strong><br>
-                    <span style="font-size: 10px; color: #2cb67d;">Текущий сектор наблюдения</span>
+                    <strong id="sky-constellation">Telemetry link...</strong><br>
+                    <span style="font-size: 10px; color: #2cb67d;">Current tracking sector</span>
                 </div>
             </div>
         </div>
 
         <div class="dash-card">
-            <h3 id="dash-alert-title">🚨 Сигналы космодрома</h3>
-            <div id="launch-alert-status" style="font-size: 12px; color: #2cb67d; font-weight: 600;">Связь установлена</div>
+            <h3 id="dash-alert-title">🚨 Spaceport Alerts</h3>
+            <div id="launch-alert-status" style="font-size: 12px; color: #2cb67d; font-weight: 600;">Link established</div>
             <div class="launch-timer" id="countdown-timer">T-MINUS --:--:--</div>
-            <div style="font-size: 11px; color: rgba(255,255,255,0.5); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" id="next-mission-name">Миссия: Поиск...</div>
+            <div style="font-size: 11px; color: rgba(255,255,255,0.5); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" id="next-mission-name">Mission: Searching...</div>
         </div>
 
         <div class="dash-card">
-            <h3 id="dash-iss-title">🛰️ Орбита МКС (ISS Tracker)</h3>
+            <h3 id="dash-iss-title">🛰️ ISS Orbit Tracker</h3>
             <div style="font-size: 12px; margin-bottom: 2px;">
-                Позиция: <span id="iss-coords" style="color:#7f5af0; font-family: monospace; font-weight: bold;">Синхронизация...</span>
+                Position: <span id="iss-coords" style="color:#7f5af0; font-family: monospace; font-weight: bold;">Syncing...</span>
             </div>
             <div class="iss-map-container" id="iss-map"></div>
         </div>
     </div>
 
-    <main class="news-grid" id="news-container">
-        </main>
+    <main class="news-grid" id="news-container"></main>
 
     <section class="launches-section">
         <h2 class="launches-title" id="launches-heading">Upcoming Space Launches</h2>
-        <div class="launch-list" id="launches-container">
-            </div>
+        <div class="launch-list" id="launches-container"></div>
     </section>
 
     <script>
@@ -375,55 +360,49 @@
         let currentMode = 'regular';
         let newsData = [];
         let launchData = [];
-        
         let issMap = null;
         let issMarker = null;
 
         const translations = {
-            en: { title: "AstroTrack", regular: "Regular Mode", kids: "Kids Edition 🚀", dashSky: "🌌 Local Sky (Kiryat Gat)", dashAlert: "🚨 Spaceport Alerts", dashIss: "🛰️ ISS Orbit Tracker", launches: "Upcoming Space Launches" },
-            ru: { title: "AstroTrack", regular: "Обычный режим", kids: "Детский режим 🚀", dashSky: "🌌 Небо над Кирьят-Гатом", dashAlert: "🚨 Сигналы космодрома", dashIss: "🛰️ Наблюдение за МКС", launches: "Ближайшие космические пуски" },
-            he: { title: "AstroTrack", regular: "מצב רגיל", kids: "גרסת ילדים 🚀", dashSky: "🌌 שמי קריית גת", dashAlert: "🚨 התראות נמל חלל", dashIss: "🛰️ מעקב תחנת החלל הבינלאומית", launches: "שיגורי חלל קרובים" }
+            en: { title: "AstroTrack", regular: "Regular Mode", kids: "Kids Edition 🚀", dashSky: "🌌 Local Sky (Kiryat Gat)", dashAlert: "🚨 Spaceport Alerts", dashIss: "🛰️ ISS Orbit Tracker", launches: "Upcoming Space Launches", waiting: "Calculating location...", telemetry: "Link established" },
+            ru: { title: "AstroTrack", regular: "Обычный режим", kids: "Детский режим 🚀", dashSky: "🌌 Небо над Кирьят-Гатом", dashAlert: "🚨 Сигналы космодрома", dashIss: "🛰️ Наблюдение за МКС", launches: "Ближайшие космические пуски", waiting: "Вычисление позиции...", telemetry: "Связь установлена" },
+            he: { title: "AstroTrack", regular: "מצב רגיל", kids: "גרסת ילדים 🚀", dashSky: "🌌 שמי קריית גת", dashAlert: "🚨 התראות נמל חלל", dashIss: "🛰️ מעקב תחנת החלל הבינלאומית", launches: "שיגורי חלל קרובים", waiting: "מחשב מיקום...", telemetry: "חיבור תקין" }
         };
 
         async function init() {
             try {
+                // ИСПРАВЛЕНИЕ ПОРЯДКА: Сначала жестко выставляем дефолтные языковые строки английского интерфейса
                 updateInterfaceTexts();
                 initSkyMap();
 
-                // Принудительно создаем контейнер локации под координатами, чтобы не было сдвигов верстки
                 const coordsEl = document.getElementById('iss-coords');
-                let locationEl = document.createElement('div');
-                locationEl.id = 'iss-location-text';
-                locationEl.style.fontSize = '12px';
-                locationEl.style.marginTop = '2px';
-                locationEl.style.color = '#2cb67d';
-                locationEl.style.fontWeight = '500';
-                locationEl.style.whiteSpace = 'nowrap';
-                locationEl.style.overflow = 'hidden';
-                locationEl.style.textOverflow = 'ellipsis';
-                locationEl.innerHTML = '🌍 Локация: <span style="color:#aaa;">Вычисление...</span>';
-                coordsEl.parentElement.appendChild(locationEl);
+                let locationEl = document.getElementById('iss-location-text');
+                if(!locationEl) {
+                    locationEl = document.createElement('div');
+                    locationEl.id = 'iss-location-text';
+                    locationEl.style.fontSize = '12px';
+                    locationEl.style.marginTop = '2px';
+                    locationEl.style.color = '#2cb67d';
+                    locationEl.style.fontWeight = '500';
+                    locationEl.style.whiteSpace = 'nowrap';
+                    locationEl.style.overflow = 'hidden';
+                    locationEl.style.textOverflow = 'ellipsis';
+                    coordsEl.parentElement.appendChild(locationEl);
+                }
+                locationEl.innerHTML = `🌍 Location: <span style="color:#aaa;">${translations[currentLang].waiting}</span>`;
 
-                // Запуск карты МКС
                 trackISS();
 
-                // Загрузка пусков
-                try {
-                    const launchResponse = await fetch('launches.json?t=' + Date.now());
-                    launchData = await launchResponse.json();
-                    initLaunchTimer();
-                    renderLaunches();
-                } catch(e) {
-                    document.getElementById('countdown-timer').innerText = "T-MINUS 02:44:12";
-                    document.getElementById('next-mission-name').innerText = "Falcon 9 | Starlink v10-31";
-                }
+                const launchResponse = await fetch('launches.json?t=' + Date.now());
+                launchData = await launchResponse.json();
+                initLaunchTimer();
+                renderLaunches();
 
-                // Загрузка новостей
                 const newsResponse = await fetch('news.json?t=' + Date.now());
                 newsData = await newsResponse.json();
                 renderNews();
             } catch (err) {
-                console.error("Критическая ошибка инициализации приложения: ", err);
+                console.error("Critical core error: ", err);
             }
         }
 
@@ -444,8 +423,9 @@
                     title = currentMode === 'kids' ? article.title_he_kids : article.title_he;
                     summary = currentMode === 'kids' ? article.summary_he_kids : article.summary_he;
                 } else if (currentLang === 'en' && currentMode === 'kids') {
-                    title = `🚀 Space News: ${article.title_en} ✨`;
-                    summary = `🌟 Hey future astronaut! Check this out: ${article.summary_en} 🛰️🔭`;
+                    // ИСПРАВЛЕНИЕ: Читаем полностью готовые, разнообразные детские тексты с бэкенда!
+                    title = article.title_en_kids;
+                    summary = article.summary_en_kids;
                 }
 
                 let emoji = "🌌";
@@ -480,12 +460,10 @@
         function renderLaunches() {
             const container = document.getElementById('launches-container');
             container.innerHTML = '';
-
             if (!launchData || launchData.length === 0) {
                 container.innerHTML = '<div class="launch-item">No upcoming launches available</div>';
                 return;
             }
-
             launchData.forEach(launch => {
                 const date = new Date(launch.window_start).toLocaleString(currentLang === 'en' ? 'en-US' : currentLang === 'ru' ? 'ru-RU' : 'he-IL');
                 const item = document.createElement('div');
@@ -577,31 +555,20 @@
             }, 1000);
         }
 
-        // === ЖИВОЙ ТРЕКЕР МКС С ЗУМ-КАРТОЙ LEAFLET ===
         function trackISS() {
             const coordsEl = document.getElementById('iss-coords');
             const locationEl = document.getElementById('iss-location-text');
 
             if (!issMap) {
-                // Инициализируем карту в минималистичном темном Sci-Fi стиле CartoDB
-                issMap = L.map('iss-map', {
-                    zoomControl: false,
-                    attributionControl: false
-                }).setView([31.6067, 34.7718], 3); // Исходная точка над Израилем
-
-                L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-                    maxZoom: 9,
-                    minZoom: 2
-                }).addTo(issMap);
-
-                // Создаем кастомный маркер-эмодзи МКС
+                issMap = L.map('iss-map', { zoomControl: false, attributionControl: false }).setView([31.6067, 34.7718], 3);
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom: 9, minZoom: 2 }).addTo(issMap);
+                
                 const issIcon = L.divIcon({
-                    html: '<div style="font-size: 24px; filter: drop-shadow(0 0 6px #7f5af0); cursor: pointer;">🛰️</div>',
+                    html: '<div style="font-size: 24px; filter: drop-shadow(0 0 6px #7f5af0);">🛰️</div>',
                     iconSize: [30, 30],
                     iconAnchor: [15, 15],
                     className: 'custom-iss-icon'
                 });
-
                 issMarker = L.marker([31.6067, 34.7718], { icon: issIcon }).addTo(issMap);
             }
 
@@ -611,43 +578,39 @@
                     .then(data => {
                         const lat = parseFloat(data.latitude);
                         const lng = parseFloat(data.longitude);
-                        
                         coordsEl.innerText = `${lat.toFixed(4)}°, ${lng.toFixed(4)}°`;
 
-                        // Перемещаем маркер и плавно фокусируем карту по центру МКС
                         const newLatLng = new L.LatLng(lat, lng);
                         issMarker.setLatLng(newLatLng);
                         issMap.panTo(newLatLng, { animate: true, duration: 1.5 });
 
-                        // Интеллектуальное обратное геокодирование зоны пролета
                         fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&zoom=4&addressdetails=0`, {
                             headers: { 'User-Agent': 'AstroTrackSpaceDashboard/1.0' }
                         })
                         .then(geoRes => geoRes.json())
                         .then(geoData => {
+                            let prefix = currentLang === 'ru' ? '🌍 Локация: ' : currentLang === 'he' ? '🌍 מיקום: ' : '🌍 Location: ';
                             if (geoData && geoData.display_name) {
-                                // Вырезаем только первые два ключевых тега локации для компактности
                                 const cleanLoc = geoData.display_name.split(',').slice(0, 2).join(',');
-                                locationEl.innerHTML = `🌍 Локация: <span style="color:#fff;">${cleanLoc}</span>`;
+                                locationEl.innerHTML = `${prefix}<span style="color:#fff;">${cleanLoc}</span>`;
                             } else {
-                                locationEl.innerHTML = `🌍 Локация: <span style="color:#94a1b2;">Открытый океан</span>`;
+                                let ocean = currentLang === 'ru' ? 'Открытый океан' : currentLang === 'he' ? 'אוקיינוס פתוח' : 'Open Ocean';
+                                locationEl.innerHTML = `${prefix}<span style="color:#94a1b2;">${ocean}</span>`;
                             }
                         })
                         .catch(() => {
-                            locationEl.innerHTML = `🌍 Локация: <span style="color:#94a1b2;">Над акваторией океана</span>`;
+                            let ocean = currentLang === 'ru' ? 'Открытый океан' : currentLang === 'he' ? 'אוקיינוס פתוח' : 'Open Ocean';
+                            locationEl.innerHTML = `🌍 Location: <span style="color:#94a1b2;">${ocean}</span>`;
                         });
                     })
                     .catch(() => {
-                        // Страховочный математический трек при сбое сети
                         const time = Date.now() * 0.00005;
                         const mockLat = Math.sin(time) * 51.6;
                         const mockLng = ((time * 40) % 360) - 180;
                         coordsEl.innerText = `${mockLat.toFixed(4)}°, ${mockLng.toFixed(4)}°`;
-                        
                         const demoLatLng = new L.LatLng(mockLat, mockLng);
                         issMarker.setLatLng(demoLatLng);
                         issMap.panTo(demoLatLng);
-                        locationEl.innerHTML = `🌍 Локация: <span style="color:#666;">Автономный расчет...</span>`;
                     });
             }
             updatePosition();
@@ -660,6 +623,10 @@
             document.body.setAttribute('dir', lang === 'he' ? 'rtl' : 'ltr');
             updateInterfaceTexts();
             initSkyMap();
+            
+            const locationEl = document.getElementById('iss-location-text');
+            if(locationEl) locationEl.innerHTML = `🌍 Location: <span style="color:#aaa;">${translations[currentLang].waiting}</span>`;
+            
             renderNews();
             renderLaunches();
         }
@@ -679,6 +646,9 @@
             document.getElementById('dash-alert-title').textContent = t.dashAlert;
             document.getElementById('dash-iss-title').textContent = t.dashIss;
             document.getElementById('launches-heading').textContent = t.launches;
+            
+            const alertStatus = document.getElementById('launch-alert-status');
+            if(alertStatus) alertStatus.textContent = t.telemetry;
         }
 
         window.onload = init;
