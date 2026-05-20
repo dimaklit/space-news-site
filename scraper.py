@@ -1,4 +1,4 @@
-# AstroTrack Perfect AI Multi-Lang Scraper - v2.0.0 (2026)
+# AstroTrack Ultimate Resilient AI Scraper - v2.1.0 (2026)
 import xml.etree.ElementTree as ET
 import urllib.request
 import json
@@ -19,8 +19,8 @@ NEWS_SOURCES = [
 LAUNCHES_URL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=5"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-def ask_gemini_for_single_article(title, summary):
-    """Переводит одну статью на русский и иврит (оба режима) за один точечный запрос"""
+def ask_gemini_with_retry(title, summary, max_retries=3):
+    """Запрашивает перевод у ИИ с автоматическим повтором при ошибках 429, 503 или таймаутах"""
     clean_key = GEMINI_API_KEY.strip() if GEMINI_API_KEY else ""
     if not clean_key:
         return None
@@ -48,26 +48,32 @@ You must return a raw JSON object (NO markdown ticks, NO prose). Keys:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}
     }
-    
-    try:
-        conn = http.client.HTTPSConnection(host, timeout=20)
-        data_bytes = json.dumps(payload).encode("utf-8")
-        headers = {"Content-Type": "application/json"}
-        conn.request("POST", path, body=data_bytes, headers=headers)
-        
-        response = conn.getresponse()
-        raw_data = response.read().decode("utf-8")
-        conn.close()
-        
-        if response.status == 200:
-            res_json = json.loads(raw_data)
-            return json.loads(res_json['candidates'][0]['content']['parts'][0]['text'].strip())
-        else:
-            print(f"   [!] Ошибка API {response.status}")
-            return None
-    except Exception as e:
-        print(f"   [!] Ошибка сети: {e}")
-        return None
+    data_bytes = json.dumps(payload).encode("utf-8")
+
+    for attempt in range(max_retries):
+        try:
+            conn = http.client.HTTPSConnection(host, timeout=25)
+            headers = {"Content-Type": "application/json"}
+            conn.request("POST", path, body=data_bytes, headers=headers)
+            
+            response = conn.getresponse()
+            raw_data = response.read().decode("utf-8")
+            conn.close()
+            
+            if response.status == 200:
+                res_json = json.loads(raw_data)
+                return json.loads(res_json['candidates'][0]['content']['parts'][0]['text'].strip())
+            elif response.status in [429, 503]:
+                print(f"   [!] API вернул статус {response.status}. Попытка {attempt+1}/{max_retries}. Ожидаем 20 секунд...")
+                time.sleep(20.0)
+            else:
+                print(f"   [!] Ошибка API {response.status}. Повтор через 5 секунд...")
+                time.sleep(5.0)
+        except Exception as e:
+            print(f"   [!] Сбой соединения ({e}). Попытка {attempt+1}/{max_retries}. Ожидаем 15 секунд...")
+            time.sleep(15.0)
+            
+    return None
 
 def parse_rfc2822_date(date_str):
     try:
@@ -78,10 +84,10 @@ def parse_rfc2822_date(date_str):
         return datetime.now()
 
 def main():
-    print("=== Запуск Финального ИИ-Сборщика AstroTrack v2.0.0 ===")
+    print("=== Запуск Сверхнадежного ИИ-Сборщика AstroTrack v2.1.0 ===")
     raw_articles = []
 
-    # Собираем строго по 3 свежие новости
+    # Скачиваем по 3 главные новости
     for source in NEWS_SOURCES:
         print(f"Скачиваем ленту {source['name']}...")
         try:
@@ -90,7 +96,7 @@ def main():
                 xml_data = response.read()
             
             root = ET.fromstring(xml_data)
-            items = root.findall('.//item')[:3] # Ограничение до 3 главных статей
+            items = root.findall('.//item')[:3]
             
             for item in items:
                 title_en = item.find('title').text if item.find('title') is not None else ""
@@ -109,18 +115,19 @@ def main():
                     "title_en": title_en, "summary_en": summary_en
                 })
         except Exception as e:
-            print(f"Ошибка при работе с источником {source['name']}: {e}")
+            print(f"Ошибка источника {source['name']}: {e}")
 
-    print(f"\nСобрано {len(raw_articles)} главных новостей. Начинаем чистый ИИ-перевод...")
+    print(f"\nСобрано {len(raw_articles)} главных новостей. Начинаем бронебойный ИИ-перевод...")
 
     final_articles = []
     for idx, raw_item in enumerate(raw_articles):
         print(f" -> [{idx+1}/{len(raw_articles)}] Перевод через ИИ: {raw_item['title_en'][:40]}...")
         
-        ai_data = ask_gemini_for_single_article(raw_item['title_en'], raw_item['summary_en'])
+        # Запускаем функцию с автоповтором внутри
+        ai_data = ask_gemini_with_retry(raw_item['title_en'], raw_item['summary_en'])
         
-        # Небольшая пауза для вежливости к API
-        time.sleep(3.5)
+        # Базовая вежливая пауза между успешными статьями
+        time.sleep(4.5)
         
         if ai_data:
             raw_item.update({
@@ -134,6 +141,7 @@ def main():
                 "summary_he_kids": ai_data.get("summary_he_kids", raw_item["summary_en"])
             })
         else:
+            # Жесткий fallback, если все 3 попытки сгорели
             raw_item.update({
                 "title_ru": raw_item["title_en"], "summary_ru": raw_item["summary_en"],
                 "title_ru_kids": raw_item["title_en"], "summary_ru_kids": raw_item["summary_en"],
