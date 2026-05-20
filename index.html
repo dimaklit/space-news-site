@@ -512,6 +512,23 @@
         // === 1. ЛОГИКА МЕРЦАЮЩЕГО НЕБА ===
         function initSkyMap() {
             const map = document.getElementById('sky-map');
+            
+            // Очищаем старые звезды, если они были, но сохраняем контейнер для текста
+            const stars = map.querySelectorAll('.star');
+            stars.forEach(s => s.remove());
+        
             const constellations = {
                 en: ["Orion Sector", "Ursa Major Sector", "Cassiopeia Quadrant", "Cygnus Star System"],
-                ru:
+                ru: ["Сектор Ориона", "Большая Медведица", "Созвездие Кассиопеи", "Система Лебедя"],
+                he: ["קבוצת אוריון", "הדובה הגדולה", "קבוצת קסיופאה", "מערכת ברבור"]
+            };
+            
+            const hour = new Date().getHours();
+            const currentList = constellations[currentLang] || constellations['en'];
+            
+            // ИСПРАВЛЕНИЕ: Жестко обновляем текст созвездия
+            document.getElementById('sky-constellation').innerText = currentList[hour % currentList.length];
+        
+            // Дальше твой старый код генерации звезд...
+            for (let i = 0; i < 35; i++) {
+                // ... оставляем без изменений
