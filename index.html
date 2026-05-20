@@ -513,9 +513,9 @@
         function initSkyMap() {
             const map = document.getElementById('sky-map');
             
-            // Очищаем старые звезды, если они были, но сохраняем контейнер для текста
-            const stars = map.querySelectorAll('.star');
-            stars.forEach(s => s.remove());
+            // Очищаем старые звезды, если они были, чтобы они не накапливались при переключении языков
+            const oldStars = map.querySelectorAll('.star');
+            oldStars.forEach(s => s.remove());
         
             const constellations = {
                 en: ["Orion Sector", "Ursa Major Sector", "Cassiopeia Quadrant", "Cygnus Star System"],
@@ -526,9 +526,18 @@
             const hour = new Date().getHours();
             const currentList = constellations[currentLang] || constellations['en'];
             
-            // ИСПРАВЛЕНИЕ: Жестко обновляем текст созвездия
+            // Жестко обновляем текст созвездия под выбранный язык
             document.getElementById('sky-constellation').innerText = currentList[hour % currentList.length];
         
-            // Дальше твой старый код генерации звезд...
+            // Генерируем новые мерцающие звезды
             for (let i = 0; i < 35; i++) {
-                // ... оставляем без изменений
+                const star = document.createElement('div');
+                star.className = 'star';
+                star.style.width = Math.random() * 2.5 + 'px';
+                star.style.height = star.style.width;
+                star.style.top = Math.random() * 100 + '%';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.animationDelay = Math.random() * 2 + 's';
+                map.appendChild(star);
+            }
+        }
