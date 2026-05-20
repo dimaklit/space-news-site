@@ -86,6 +86,7 @@
             border-color: var(--accent);
         }
 
+        /* Интерактивный Космический Дашборд */
         .dashboard-grid {
             width: 100%;
             max-width: 1200px;
@@ -130,6 +131,7 @@
             letter-spacing: 1px;
         }
 
+        /* Окно живой зум-карты Leaflet */
         .iss-map-container {
             width: 100%;
             height: 130px;
@@ -166,6 +168,7 @@
             50% { opacity: 1; }
         }
 
+        /* Минималистичная сетка новостей с эмодзи */
         .news-grid {
             width: 100%;
             max-width: 1200px;
@@ -251,6 +254,7 @@
             margin-top: auto;
         }
 
+        /* Календарь пусков */
         .launches-section {
             width: 100%;
             max-width: 1200px;
@@ -348,11 +352,13 @@
         </div>
     </div>
 
-    <main class="news-grid" id="news-container"></main>
+    <main class="news-grid" id="news-container">
+        </main>
 
     <section class="launches-section">
         <h2 class="launches-title" id="launches-heading">Upcoming Space Launches</h2>
-        <div class="launch-list" id="launches-container"></div>
+        <div class="launch-list" id="launches-container">
+            </div>
     </section>
 
     <script>
@@ -371,7 +377,7 @@
 
         async function init() {
             try {
-                // ИСПРАВЛЕНИЕ ПОРЯДКА: Сначала жестко выставляем дефолтные языковые строки английского интерфейса
+                // ПРИНУДИТЕЛЬНОЕ ИСПРАВЛЕНИЕ: Сразу жестко выставляем английский интерфейс, блокируя русский кэш
                 updateInterfaceTexts();
                 initSkyMap();
 
@@ -393,16 +399,18 @@
 
                 trackISS();
 
+                // Загрузка расписания пусков
                 const launchResponse = await fetch('launches.json?t=' + Date.now());
                 launchData = await launchResponse.json();
                 initLaunchTimer();
                 renderLaunches();
 
+                // Загрузка новостей
                 const newsResponse = await fetch('news.json?t=' + Date.now());
                 newsData = await newsResponse.json();
                 renderNews();
             } catch (err) {
-                console.error("Critical core error: ", err);
+                console.error("Critical boot core error: ", err);
             }
         }
 
@@ -416,16 +424,17 @@
                 let title = article.title_en;
                 let summary = article.summary_en;
 
+                // УМНАЯ ЗАЩИТА ОТ UNDEFINED: Если бэкенд на GitHub Actions запаздывает, 
+                // фронтенд собирает динамические строки сам, исключая поломку интерфейса!
                 if (currentLang === 'ru') {
-                    title = currentMode === 'kids' ? article.title_ru_kids : article.title_ru;
-                    summary = currentMode === 'kids' ? article.summary_ru_kids : article.summary_ru;
+                    title = currentMode === 'kids' ? (article.title_ru_kids || `🚀 ${article.title_ru} ✨`) : article.title_ru;
+                    summary = currentMode === 'kids' ? (article.summary_ru_kids || `🌟 Смотри, что в космосе: ${article.summary_ru} 🪐 Telescope`) : article.summary_ru;
                 } else if (currentLang === 'he') {
-                    title = currentMode === 'kids' ? article.title_he_kids : article.title_he;
-                    summary = currentMode === 'kids' ? article.summary_he_kids : article.summary_he;
+                    title = currentMode === 'kids' ? (article.title_he_kids || `🚀 ${article.title_he} ✨`) : article.title_he;
+                    summary = currentMode === 'kids' ? (article.summary_he_kids || `🌟 תראו מה קרה בחלל: ${article.summary_he} 🪐`) : article.summary_he;
                 } else if (currentLang === 'en' && currentMode === 'kids') {
-                    // ИСПРАВЛЕНИЕ: Читаем полностью готовые, разнообразные детские тексты с бэкенда!
-                    title = article.title_en_kids;
-                    summary = article.summary_en_kids;
+                    title = article.title_en_kids || `🚀 Space News: ${article.title_en} ✨`;
+                    summary = article.summary_en_kids || `🌟 Hey future astronaut! Check this out: ${article.summary_en} 🛰️🔭`;
                 }
 
                 let emoji = "🌌";
@@ -584,6 +593,7 @@
                         issMarker.setLatLng(newLatLng);
                         issMap.panTo(newLatLng, { animate: true, duration: 1.5 });
 
+                        // Определение точной зоны пролета
                         fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&zoom=4&addressdetails=0`, {
                             headers: { 'User-Agent': 'AstroTrackSpaceDashboard/1.0' }
                         })
