@@ -127,22 +127,28 @@
             letter-spacing: 1px;
         }
 
+        /* Исправленная карта МКС с бронебойным фоном без блокировок */
         .iss-map-container {
             width: 100%;
             height: 120px;
-            background: #0d0d1a url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Earthmap360x180_compac.jpg') center/cover;
+            background-color: #0b0b16;
+            background-image: url('https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=60&w=400&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
             border-radius: 8px;
             position: relative;
             margin-top: auto;
             border: 1px solid rgba(255,255,255,0.05);
+            overflow: hidden;
         }
 
         #iss-marker {
             position: absolute;
-            font-size: 20px;
+            font-size: 22px;
             transition: all 4.5s linear;
             transform: translate(-50%, -50%);
             z-index: 5;
+            filter: drop-shadow(0 0 8px #7f5af0);
         }
 
         .skymap-container {
@@ -256,6 +262,56 @@
             margin-top: auto;
         }
 
+        /* Возвращенная и улучшенная секция календаря пусков */
+        .launches-section {
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        .launches-title {
+            font-size: 22px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--accent);
+            padding-left: 10px;
+        }
+
+        body[dir="rtl"] .launches-title {
+            border-left: none;
+            border-right: 4px solid var(--accent);
+            padding-left: 0;
+            padding-right: 10px;
+        }
+
+        .launch-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .launch-item {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 15px 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .launch-name {
+            font-weight: 600;
+            color: #2cb67d;
+        }
+
+        .launch-details {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
         @media (max-width: 768px) {
             header {
                 flex-direction: column;
@@ -264,6 +320,10 @@
             .controls {
                 width: 100%;
                 justify-content: space-between;
+            }
+            .launch-item {
+                flex-direction: column;
+                align-items: flex-start;
             }
         }
     </style>
@@ -316,28 +376,40 @@
     <main class="news-grid" id="news-container">
         </main>
 
+    <section class="launches-section">
+        <h2 class="launches-title" id="launches-heading">Upcoming Space Launches</h2>
+        <div class="launch-list" id="launches-container">
+            </div>
+    </section>
+
     <script>
         let currentLang = 'en';
         let currentMode = 'regular';
         let newsData = [];
+        let launchData = [];
 
         const translations = {
-            en: { title: "AstroTrack", regular: "Regular Mode", kids: "Kids Edition 🚀", dashSky: "🌌 Local Sky (Kiryat Gat)", dashAlert: "🚨 Spaceport Alerts", dashIss: "🛰️ ISS Orbit Tracker" },
-            ru: { title: "AstroTrack", regular: "Обычный режим", kids: "Детский режим 🚀", dashSky: "🌌 Небо над Кирьят-Гатом", dashAlert: "🚨 Сигналы космодрома", dashIss: "🛰️ Наблюдение за МКС" },
-            he: { title: "AstroTrack", regular: "מצב רגיל", kids: "גרסת ילדים 🚀", dashSky: "🌌 שמי קריית גת", dashAlert: "🚨 התראות נמל חלל", dashIss: "🛰️ מעקב תחנת החלל הבינלאומית" }
+            en: { title: "AstroTrack", regular: "Regular Mode", kids: "Kids Edition 🚀", dashSky: "🌌 Local Sky (Kiryat Gat)", dashAlert: "🚨 Spaceport Alerts", dashIss: "🛰️ ISS Orbit Tracker", launches: "Upcoming Space Launches" },
+            ru: { title: "AstroTrack", regular: "Обычный режим", kids: "Детский режим 🚀", dashSky: "🌌 Небо над Кирьят-Гатом", dashAlert: "🚨 Сигналы космодрома", dashIss: "🛰️ Наблюдение за МКС", launches: "Ближайшие космические пуски" },
+            he: { title: "AstroTrack", regular: "מצב רגיל", kids: "גרסת ילדים 🚀", dashSky: "🌌 שמי קריית גת", dashAlert: "🚨 התראות נמל חלל", dashIss: "🛰️ מעקב תחנת החלל הבינלאומית", launches: "שיגורי חלל קרובים" }
         };
 
         async function init() {
             try {
-                // Инициализация виджетов на фронтенде
                 initSkyMap();
+                
+                // Загрузка пусков и запуск таймера
+                const launchResponse = await fetch('launches.json?t=' + Date.now());
+                launchData = await launchResponse.json();
                 initLaunchTimer();
+                renderLaunches();
+
+                // Загрузка МКС
                 trackISS();
 
                 // Загрузка новостей
                 const newsResponse = await fetch('news.json?t=' + Date.now());
                 newsData = await newsResponse.json();
-                
                 renderNews();
             } catch (err) {
                 console.error("Ошибка инициализации приложения: ", err);
@@ -363,7 +435,6 @@
                     summary = `🌟 Hey future astronaut! Check this out: ${article.summary_en} 🛰️🔭`;
                 }
 
-                // Умный минималистичный подбор эмодзи
                 let emoji = "🌌";
                 const titleLower = article.title_en.toLowerCase();
 
@@ -407,165 +478,34 @@
             });
         }
 
+        // РЕНДЕР СЕКЦИИ ПУСКОВ
+        function renderLaunches() {
+            const container = document.getElementById('launches-container');
+            container.innerHTML = '';
+
+            if (!launchData || launchData.length === 0) {
+                container.innerHTML = '<div class="launch-item">No upcoming launches found</div>';
+                return;
+            }
+
+            launchData.forEach(launch => {
+                const date = new Date(launch.window_start).toLocaleString(currentLang === 'en' ? 'en-US' : currentLang === 'ru' ? 'ru-RU' : 'he-IL');
+                const item = document.createElement('div');
+                item.className = 'launch-item';
+                item.innerHTML = `
+                    <div>
+                        <div class="launch-name">${launch.name_en}</div>
+                        <div class="launch-details">${launch.rocket} | ${launch.location}</div>
+                    </div>
+                    <div style="font-weight: bold; color: #7f5af0;">${date}</div>
+                `;
+                container.appendChild(item);
+            });
+        }
+
         // === 1. ЛОГИКА МЕРЦАЮЩЕГО НЕБА ===
         function initSkyMap() {
             const map = document.getElementById('sky-map');
             const constellations = {
                 en: ["Orion Sector", "Ursa Major Sector", "Cassiopeia Quadrant", "Cygnus Star System"],
-                ru: ["Сектор Ориона", "Большая Медведица", "Созвездие Кассиопеи", "Система Лебедя"],
-                he: ["קבוצת אוריון", "הדובה הגדולה", "קבוצת קסיופאה", "מערכת ברבור"]
-            };
-            
-            const hour = new Date().getHours();
-            const currentList = constellations[currentLang] || constellations['en'];
-            document.getElementById('sky-constellation').innerText = currentList[hour % currentList.length];
-
-            for (let i = 0; i < 35; i++) {
-                const star = document.createElement('div');
-                star.className = 'star';
-                star.style.width = Math.random() * 2.5 + 'px';
-                star.style.height = star.style.width;
-                star.style.top = Math.random() * 100 + '%';
-                star.style.left = Math.random() * 100 + '%';
-                star.style.animationDelay = Math.random() * 2 + 's';
-                map.appendChild(star);
-            }
-        }
-
-        // === 2. ОБРАТНЫЙ ОТСЧЕТ И СИРЕНА ПУСКОВ ===
-        let audioContext = null;
-        function playLaunchSiren() {
-            try {
-                if (!audioContext) audioContext = new (window.AudioContext || window.webkitAudioContext)();
-                const osc = audioContext.createOscillator();
-                const gain = audioContext.createGain();
-                osc.type = 'sawtooth';
-                osc.frequency.setValueAtTime(160, audioContext.currentTime);
-                osc.frequency.linearRampToValueAtTime(320, audioContext.currentTime + 1.2);
-                gain.gain.setValueAtTime(0.08, audioContext.currentTime);
-                gain.gain.linearRampToValueAtTime(0, audioContext.currentTime + 1.5);
-                osc.connect(gain);
-                gain.connect(audioContext.destination);
-                osc.start(); osc.stop(audioContext.currentTime + 1.5);
-            } catch(e) { console.log("Аудио заблокировано политикой браузера"); }
-        }
-
-        function initLaunchTimer() {
-            fetch('launches.json')
-                .then(res => res.json())
-                .then(launches => {
-                    if (!launches || launches.length === 0) {
-                        document.getElementById('countdown-timer').innerText = "OFFLINE";
-                        return;
-                    }
-                    const nextLaunch = launches[0];
-                    document.getElementById('next-mission-name').innerText = `${nextLaunch.name_en} (${nextLaunch.rocket})`;
-                    
-                    const launchDate = new Date(nextLaunch.window_start).getTime();
-
-                    setInterval(() => {
-                        const now = new Date().getTime();
-                        const diff = launchDate - now;
-
-                        if (diff <= 0) {
-                            document.getElementById('countdown-timer').innerText = "LAUNCH 🚀";
-                            document.getElementById('launch-alert-status').innerText = currentLang === 'ru' ? "⚠️ СТАРТ СОСТОЯЛСЯ!" : currentLang === 'he' ? "⚠️ השיגור החל!" : "⚠️ LIFT OFF!";
-                            document.getElementById('launch-alert-status').style.color = "#ff5555";
-                            return;
-                        }
-
-                        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-                        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-                        document.getElementById('countdown-timer').innerText = 
-                            `T-MINUS ${String(hours).padStart(2,'0')}:${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
-
-                        if (hours === 0 && minutes === 10 && seconds === 0) {
-                            document.getElementById('launch-alert-status').innerText = currentLang === 'ru' ? "🚨 10 МИНУТ ДО СТАРТА!" : currentLang === 'he' ? "🚨 10 דקות לשיגור!" : "🚨 10 MINUTES TO LAUNCH!";
-                            document.getElementById('launch-alert-status').style.color = "#ffb86c";
-                            playLaunchSiren();
-                        }
-                    }, 1000);
-                }).catch(() => {
-                    document.getElementById('countdown-timer').innerText = "T-MINUS --:--:--";
-                });
-        }
-
-        // === 3. ЖИВОЙ ТРЕКЕР КООРДИНАТ МКС ===
-        function trackISS() {
-            const coordsEl = document.getElementById('iss-coords');
-            const marker = document.getElementById('iss-marker');
-
-            function updatePosition() {
-                fetch('https://api.wheretheiss.at/v1/satellites/25544')
-                    .then(res => res.json())
-                    .then(data => {
-                        const lat = parseFloat(data.latitude);
-                        const lng = parseFloat(data.longitude);
-                        coordsEl.innerText = `${lat.toFixed(4)}°, ${lng.toFixed(4)}°`;
-
-                        const x = ((lng + 180) / 360) * 100;
-                        const y = ((90 - lat) / 180) * 100;
-                        marker.style.left = `${x}%`;
-                        marker.style.top = `${y}%`;
-                    })
-                    .catch(() => {
-                        // Резервный расчет траектории при сбое API
-                        const time = Date.now() * 0.00008;
-                        const mockLat = Math.sin(time) * 51.6;
-                        const mockLng = ((time * 45) % 360) - 180;
-                        coordsEl.innerText = `${mockLat.toFixed(4)}°, ${mockLng.toFixed(4)}°`;
-                        marker.style.left = `${((mockLng + 180) / 360) * 100}%`;
-                        marker.style.top = `${((90 - mockLat) / 180) * 100}%`;
-                    });
-            }
-
-            updatePosition();
-            setInterval(updatePosition, 5000);
-        }
-
-        function changeLanguage(lang) {
-            currentLang = lang;
-            document.documentElement.lang = lang;
-            
-            if (lang === 'he') {
-                document.body.setAttribute('dir', 'rtl');
-            } else {
-                document.body.removeAttribute('dir');
-            }
-
-            updateInterfaceTexts();
-            const oldStars = document.querySelectorAll('.star');
-            oldStars.forEach(s => s.remove());
-            initSkyMap();
-            renderNews();
-        }
-
-        function toggleMode() {
-            currentMode = currentMode === 'regular' ? 'kids' : 'regular';
-            const btn = document.getElementById('mode-btn');
-            
-            if (currentMode === 'kids') {
-                btn.classList.add('active');
-            } else {
-                btn.classList.remove('active');
-            }
-            
-            updateInterfaceTexts();
-            renderNews();
-        }
-
-        function updateInterfaceTexts() {
-            const t = translations[currentLang];
-            document.getElementById('site-title').textContent = t.title;
-            document.getElementById('mode-btn').textContent = currentMode === 'regular' ? t.regular : t.kids;
-            document.getElementById('dash-sky-title').textContent = t.dashSky;
-            document.getElementById('dash-alert-title').textContent = t.dashAlert;
-            document.getElementById('dash-iss-title').textContent = t.dashIss;
-        }
-
-        window.onload = init;
-    </script>
-</body>
-</html>
+                ru:
