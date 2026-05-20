@@ -305,15 +305,27 @@ function renderNews() {
             summary = `🌟 Hey future astronaut! Check this out: ${article.summary_en} 🛰️🔭`;
         }
 
+        // ДИНАМИЧЕСКИЙ ГЕНЕРАТОР ПРОМТОВ: Очищаем английский заголовок от спецсимволов и цифр,
+        // чтобы ИИ сфокусировался на сути миссии и нарисовал идеальный арт
+        let cleanPrompt = article.title_en
+            .replace(/[0-9]/g, '') 
+            .replace(/launches|satellites|mission|scraped|coverage|live/gi, '')
+            .trim();
+        
+        // Формируем финальный стилизованный ИИ-промт для Stable Diffusion
+        let aiPromptEncoded = encodeURIComponent(`${cleanPrompt}, sci-fi digital illustration, cinematic lighting, epic cosmic background, vibrant space art, highly detailed, masterpieces, artstation style`);
+        
+        // Сверхстабильный URL генерации, который обрабатывается браузером как обычная картинка
+        let dynamicAiImage = `https://image.pollinations.ai/prompt/${aiPromptEncoded}`;
+
         const card = document.createElement('a');
         card.className = 'news-card';
         card.href = article.link;
         card.target = '_blank';
 
-        // Чистый, стандартный вывод ссылки на картинку из news.json без модификаций
         card.innerHTML = `
             <div class="news-img-wrapper">
-                <img class="news-img" src="${article.image}" alt="Space News">
+                <img class="news-img" src="${dynamicAiImage}" alt="AstroTrack AI Illustration" loading="lazy">
             </div>
             <div class="news-content">
                 <div class="news-source">${article.source}</div>
