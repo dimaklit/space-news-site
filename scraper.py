@@ -1,4 +1,4 @@
-# AstroTrack Dynamic Kids Content Scraper - v11.0.0 (2026)
+# AstroTrack Perfect Global Kids Scraper - v12.0.0 (2026)
 import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.parse
@@ -29,66 +29,85 @@ def web_translate(text, target_lang):
     except:
         return text
 
-def build_dynamic_kids_content(title_translated, summary_translated, source, lang):
-    """Локальный генератор: создает живой, разнообразный детский контент без повторов"""
-    title_lower = title_translated.lower()
+def build_dynamic_kids_content(title, summary, source, lang):
+    """Полностью динамический интернациональный генератор детского режима"""
+    t_lower = title.lower()
     
-    # 1. Варианты динамических вступлений по источникам и темам
-    intro_ru = "🌟 Смотри, что произошло!"
-    intro_he = "🌟 תראו מה קרה!"
-    
-    if source == "SpaceX":
-        intro_ru = "⚡ Команда Илона Маска снова зажигает!"
-        intro_he = "⚡ הצוות של אילון מאסק שוב מפציץ!"
-    elif source == "ESA":
-        intro_ru = "🇪🇺 Европейские ученые отправили секретное донесение!"
-        intro_he = "🇪🇺 המדענים מאירופה שלחו דיווח מרתק!"
-    elif "марс" in title_lower or "mars" in title_lower:
-        intro_ru = "🔴 Новости с Красной Планеты!"
-        intro_he = "🔴 חדשות מרעישות מכוכב המאדים!"
-    elif "спутник" in title_lower or "satellite" in title_lower or "starlink" in title_lower:
-        intro_ru = "🛰️ Внимание, на связи космический радар!"
-        intro_he = "🛰️ שימו לב, מכשיר הלוויין מעדכן!"
+    # Конфигурация вступлений (Заменили проблемный флаг EU на стабильный эмодзи)
+    intros = {
+        "ru": {
+            "SpaceX": "⚡ Команда Илона Маска снова зажигает!",
+            "ESA": "✨🔬 Европейские ученые отправили секретное донесение!",
+            "mars": "🔴 Новости с Красной Планеты!",
+            "sat": "🛰️ Внимание, на связи космический радар!",
+            "def": "🌟 Смотри, что произошло!"
+        },
+        "he": {
+            "SpaceX": "⚡ הצוות של אילון מאסק שוב מפציץ!",
+            "ESA": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!",
+            "mars": "🔴 חדשות מרעישות מכוכב המאדים!",
+            "sat": "🛰️ שימו לב, מכשיר הלוויין מעדכן!",
+            "def": "🌟 תראו מה קרה!"
+        },
+        "en": {
+            "SpaceX": "⚡ Elon Musk's team strikes again!",
+            "ESA": "✨🔬 European scientists just sent an amazing report!",
+            "mars": "🔴 Fresh updates from the Red Planet!",
+            "sat": "🛰️ Space radar intercept successfully decoded!",
+            "def": "🌟 Check out this cosmic event!"
+        }
+    }
 
-    # 2. Варианты интерактивных концовок-вопросов по контексту
-    outro_ru = "🪐 Как тебе такое путешествие?"
-    outro_he = "🪐 מה דעתך על המסע הזה?"
-    
-    if "запуск" in title_lower or "ракета" in title_lower or "falcon" in title_lower or "launch" in title_lower:
-        outro_ru = "🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром такого экипажа? ☄️"
-        outro_he = "🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️"
-    elif "земл" in title_lower or "earth" in title_lower or "фото" in title_lower:
-        outro_ru = "🌍 Наша планета из иллюминатора выглядит просто волшебно. Поделись этой красотой с друзьями! 📸"
-        outro_he = "🌍 כדור הארץ נראה פשוט קסום מהחלון של החללית. תראה איזה יופי! 📸"
-    elif "солн" in title_lower or "solar" in title_lower:
-        outro_ru = "☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля работают на полную мощность! 🛡️"
-        outro_he = "☀️ וואו, השמש ממש לוהטת היום! מגיני החללית עובדים בעוצמה מלאה! 🛡️"
+    # Конфигурация концовок
+    outros = {
+        "ru": {
+            "launch": "🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️",
+            "earth": "🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸",
+            "sun": "☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️",
+            "def": "🪐 Как тебе такое космическое путешествие?"
+        },
+        "he": {
+            "launch": "🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️",
+            "earth": "🌍 כדור הארץ נראה פשוט קסום מהחלל. תראה איזה יופי! 📸",
+            "sun": "☀️ וואו, השמש ממש לוהטת היום! מגיני החללית עובדים בעוצמה מלאה! 🛡️",
+            "def": "🪐 מה דעתך על המסע הזה?"
+        },
+        "en": {
+            "launch": "🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️",
+            "earth": "🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸",
+            "sun": "☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️",
+            "def": "🪐 What do you think about this awesome space journey?"
+        }
+    }
 
-    # Добавляем игровой элемент (забавный факт-клик для ребенка) в зависимости от хэша
-    hash_val = int(hashlib.md5(title_translated.encode('utf-8')).hexdigest(), 16)
-    fun_facts_ru = [
-        " Слово 'космос' на древнегреческом означает 'порядок'!",
-        " Кстати, в космосе абсолютная, полная тишина!",
-        " Знаешь ли ты, что скафандр космонавта весит как большой пес?"
-    ]
-    fun_facts_he = [
-        " המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-        " דרך אגב, בחלל יש שקט מוחלט לחלוטיн!",
-        " הידעת שחליפת חלל שוקלת כמו כלב ענקי?"
-    ]
-    
-    extra_fact_ru = fun_facts_ru[hash_val % len(fun_facts_ru)]
-    extra_fact_he = fun_facts_he[hash_val % len(fun_facts_he)]
+    # Факты-клики
+    facts = {
+        "ru": [" Космос на древнегреческом означает 'порядок'!", " В космосе абсолютная, полная тишина!", " Скафандр весит как большой пес!"],
+        "he": [" המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!", " דרך אгב, בחלל יש שקט מוחלט לחלוטין!", " חליפת חלל שוקלת כמו כלב ענקי!"],
+        "en": [" 'Cosmos' in ancient Greek actually means 'order'!", " Fun fact: space is completely, absolutely silent!", " A real space suit weighs as much as a huge dog!"]
+    }
 
-    # Собираем финальные строки
-    if lang == "ru":
-        kids_title = f"🚀 {title_translated} ✨"
-        kids_summary = f"{intro_ru} {summary_translated} {outro_ru}{extra_fact_ru}"
-    else: # иврит
-        kids_title = f"🚀 {title_translated} ✨"
-        kids_summary = f"{intro_he} {summary_translated} {outro_he}{extra_fact_he}"
-        
-    return kids_title, kids_summary
+    # Выбираем ветку языка
+    ln = lang if lang in intros else "en"
+    
+    # Определяем категорию вступления
+    if source == "SpaceX": intro = intros[ln]["SpaceX"]
+    elif source == "Esa" or source == "ESA": intro = intros[ln]["ESA"]
+    elif "марс" in t_lower or "mars" in t_lower: intro = intros[ln]["mars"]
+    elif "спутник" in t_lower or "satell" in t_lower or "starlink" in t_lower: intro = intros[ln]["sat"]
+    else: intro = intros[ln]["def"]
+
+    # Определяем категорию концовки
+    if "запуск" in t_lower or "ракета" in t_lower or "launch" in t_lower or "falcon" in t_lower: outro = outros[ln]["launch"]
+    elif "земл" in t_lower or "earth" in t_lower or "фото" in t_lower or "view" in t_lower: outro = outros[ln]["earth"]
+    elif "солн" in t_lower or "sun" in t_lower or "solar" in t_lower: outro = outros[ln]["sun"]
+    else: outro = outros[ln]["def"]
+
+    # Вычисляем уникальный факт по хэшу строки
+    hash_val = int(hashlib.md5(title.encode('utf-8')).hexdigest(), 16)
+    fact = facts[ln][hash_val % len(facts[ln])]
+
+    return f"🚀 {title} ✨", f"{intro} {summary} {outro}{fact}"
 
 def parse_rfc2822_date(date_str):
     try:
@@ -99,7 +118,7 @@ def parse_rfc2822_date(date_str):
         return datetime.now()
 
 def main():
-    print("=== Запуск Генератора Динамического Детского Контента AstroTrack v11.0.0 ===")
+    print("=== Запуск Исправленного Робота Космического Контента v12.0.0 ===")
     raw_articles = []
 
     for source in NEWS_SOURCES:
@@ -131,28 +150,26 @@ def main():
         except Exception as e:
             print(f" Ошибка источника {source['name']}: {e}")
 
-    print(f"\nСобрано {len(raw_articles)} новостей. Запуск перевода и адаптации контента...")
-
     final_articles = []
     for idx, raw_item in enumerate(raw_articles):
-        print(f" -> [{idx+1}/{len(raw_articles)}] Сборка: {raw_item['title_en'][:40]}...")
-        
-        # Базовые переводы
+        # Переводы
         title_ru = web_translate(raw_item['title_en'], 'ru')
         summary_ru = web_translate(raw_item['summary_en'], 'ru')
         title_he = web_translate(raw_item['title_en'], 'he')
         summary_he = web_translate(raw_item['summary_en'], 'he')
         
-        # Генерируем по-настоящему динамические детские версии (УНИКАЛЬНЫЕ ДЛЯ КАЖДОЙ СТАТЬИ)
+        # Сборка уникального Kids Mode на трех языках
         title_ru_kids, summary_ru_kids = build_dynamic_kids_content(title_ru, summary_ru, raw_item['source'], 'ru')
         title_he_kids, summary_he_kids = build_dynamic_kids_content(title_he, summary_he, raw_item['source'], 'he')
+        title_en_kids, summary_en_kids = build_dynamic_kids_content(raw_item['title_en'], raw_item['summary_en'], raw_item['source'], 'en')
 
         raw_item.update({
-            "image": "", # Изображения теперь полностью на стороне фронтенда через минималистичные эмодзи
+            "image": "",
             "title_ru": title_ru, "summary_ru": summary_ru,
             "title_ru_kids": title_ru_kids, "summary_ru_kids": summary_ru_kids,
             "title_he": title_he, "summary_he": summary_he,
-            "title_he_kids": title_he_kids, "summary_he_kids": summary_he_kids
+            "title_he_kids": title_he_kids, "summary_he_kids": summary_he_kids,
+            "title_en_kids": title_en_kids, "summary_en_kids": summary_en_kids
         })
         final_articles.append(raw_item)
 
@@ -162,9 +179,8 @@ def main():
 
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(final_articles, f, ensure_ascii=False, indent=2)
-    print(f"\nУспешно сохранено {len(final_articles)} динамических детских историй в news.json!")
+    print("\nnews.json успешно обновлен!")
 
-    # Сбор пусков
     try:
         req = urllib.request.Request(LAUNCHES_URL, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=15) as resp:
