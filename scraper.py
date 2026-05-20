@@ -16,24 +16,23 @@ NEWS_SOURCES = [
 
 LAUNCHES_URL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=5"
 
-# Тематическая медиатека качественных Sci-Fi иллюстраций и фото высокого разрешения
+# Тематическая медиатека качественных Sci-Fi иллюстраций (Бронебойные ссылки без блокировок на ПК)
 SPACE_GALLERY = {
-    "starlink": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?q=80&w=600&auto=format&fit=crop", # Запуск поезда спутников
-    "falcon": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?q=80&w=600&auto=format&fit=crop", # Тяжелая ракета на старте
-    "dragon": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=600&auto=format&fit=crop", # Корабль на орбите земли
-    "mars": "https://images.unsplash.com/photo-1612892483236-42d68a57623d?q=80&w=600&auto=format&fit=crop", # Красная планета Марс
-    "moon": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?q=80&w=600&auto=format&fit=crop", # Крупный план Луны и кратеров
-    "earth": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=600&auto=format&fit=crop", # Вид на Землю из иллюминатора
-    "sun": "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=600&auto=format&fit=crop", # Солнечная корона, вспышки
-    "satellite": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop", # Высокотехнологичный спутник
-    "astronaut": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=600&auto=format&fit=crop", # Выход в открытый космос
-    "rocket": "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=600&auto=format&fit=crop", # Огненный след уходящей ракеты
-    # Набор абстрактных красивых фонов для хэширования (если совпадений нет)
+    "starlink": "https://picsum.photos/id/967/600/400", # Орбитальный поезд спутников / космос
+    "falcon": "https://picsum.photos/id/1053/600/400", # Ракета / техника
+    "dragon": "https://picsum.photos/id/903/600/400", # Космический корабль / вид Земли
+    "mars": "https://picsum.photos/id/1016/600/400", # Красный ландшафт / планета
+    "moon": "https://picsum.photos/id/1042/600/400", # Звездное небо и лунный свет
+    "earth": "https://picsum.photos/id/1023/600/400", # Облака / вид сверху
+    "sun": "https://picsum.photos/id/894/600/400", # Яркий космический свет / горизонт
+    "satellite": "https://picsum.photos/id/961/600/400", # Научное оборудование / орбита
+    "astronaut": "https://picsum.photos/id/984/600/400", # Горы и ночные звезды
+    "rocket": "https://picsum.photos/id/1050/600/400", # Старт космического корабля
     "abstract": [
-        "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=600&auto=format&fit=crop", # Розовая туманность
-        "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=600&auto=format&fit=crop", # Спутник над ночной Землей
-        "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=600&auto=format&fit=crop", # Звездная пыль и галактика
-        "https://images.unsplash.com/photo-1538370965046-79c0d6907d47?q=80&w=600&auto=format&fit=crop"  # Млечный путь и телескоп
+        "https://picsum.photos/id/907/600/400",
+        "https://picsum.photos/id/931/600/400",
+        "https://picsum.photos/id/952/600/400",
+        "https://picsum.photos/id/962/600/400"
     ]
 }
 
