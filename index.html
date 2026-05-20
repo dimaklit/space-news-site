@@ -129,16 +129,12 @@
 
         .iss-map-container {
             width: 100%;
-            height: 120px;
-            background-color: #0b0b16;
-            background-image: url('https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=60&w=400&auto=format&fit=crop');
-            background-size: cover;
-            background-position: center;
+            height: 140px;
             border-radius: 8px;
-            position: relative;
             margin-top: auto;
             border: 1px solid rgba(255,255,255,0.05);
             overflow: hidden;
+            z-index: 1;
         }
 
         #iss-marker {
@@ -326,6 +322,10 @@
             }
         }
     </style>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
 </head>
 <body>
 
@@ -364,9 +364,7 @@
             <div style="font-size: 12px; margin-bottom: 5px;">
                 Позиция: <span id="iss-coords" style="color:#7f5af0; font-family: monospace; font-weight: bold;">Синхронизация...</span>
             </div>
-            <div class="iss-map-container">
-                <div id="iss-marker">🛰️</div>
-            </div>
+            <div class="iss-map-container" id="iss-map"></div>
         </div>
     </div>
 
@@ -573,35 +571,98 @@
             }, 1000);
         }
 
-        function trackISS() {
-            const coordsEl = document.getElementById('iss-coords');
-            const marker = document.getElementById('iss-marker');
+        let issMap = null;
+let issMarker = null;
 
-            function updatePosition() {
-                fetch('https://api.wheretheiss.at/v1/satellites/25544')
-                    .then(res => res.json())
-                    .then(data => {
-                        const lat = parseFloat(data.latitude);
-                        const lng = parseFloat(data.longitude);
-                        coordsEl.innerText = `${lat.toFixed(4)}°, ${lng.toFixed(4)}°`;
+function trackISS() {
+    const coordsEl = document.getElementById('iss-coords');
+    
+    // Создаем контейнер для текста локации под координатами, если его нет
+    let locationEl = document.getElementById('iss-location-text');
+    if (!locationEl) {
+        locationEl = document.createElement('div');
+        locationEl.id = 'iss-location-text';
+        locationEl.style.fontSize = '12px';
+        locationEl.style.marginTop = '2px';
+        locationEl.style.color = '#2cb67d';
+        locationEl.style.fontWeight = '500';
+        coordsEl.parentElement.appendChild(locationEl);
+    }
 
-                        const x = ((lng + 180) / 360) * 100;
-                        const y = ((90 - lat) / 180) * 100;
-                        marker.style.left = `${x}%`;
-                        marker.style.top = `${y}%`;
-                    })
-                    .catch(() => {
-                        const time = Date.now() * 0.00008;
-                        const mockLat = Math.sin(time) * 51.6;
-                        const mockLng = ((time * 45) % 360) - 180;
-                        coordsEl.innerText = `${mockLat.toFixed(4)}°, ${mockLng.toFixed(4)}°`;
-                        marker.style.left = `${((mockLng + 180) / 360) * 100}%`;
-                        marker.style.top = `${((90 - mockLat) / 180) * 100}%`;
-                    });
-            }
-            updatePosition();
-            setInterval(updatePosition, 5000);
-        }
+    // Инициализируем живую карту Leaflet, если она еще не создана
+    if (!issMap) {
+        // Уровень зума выставлен на 3 (оптимально, чтобы видеть и границы стран, и масштаб)
+        issMap = L.map('iss-map', {
+            zoomControl: false,
+            attributionControl: false
+        }).setView([31.6067, 34.7718], 3);
+
+        // Подключаем стильную темную футуристичную тему картографии от CartoDB
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            maxZoom: 10,
+            minZoom: 2
+        }).addTo(issMap);
+
+        // Создаем кастомную неоновую иконку спутника вместо стандартной капли
+        const issIcon = L.divIcon({
+            html: '<div style="font-size: 24px; filter: drop-shadow(0 0 6px #7f5af0);">🛰️</div>',
+            iconSize: [30, 30],
+            iconAnchor: [15, 15],
+            className: 'custom-iss-icon'
+        });
+
+        issMarker = L.marker([31.6067, 34.7718], { icon: issIcon }).addTo(issMap);
+    }
+
+    function updatePosition() {
+        fetch('https://api.wheretheiss.at/v1/satellites/25544')
+            .then(res => res.json())
+            .then(data => {
+                const lat = parseFloat(data.latitude);
+                const lng = parseFloat(data.longitude);
+
+                // Обновляем текстовые координаты
+                coordsEl.innerText = `${lat.toFixed(4)}°, ${lng.toFixed(4)}°`;
+
+                // Плавно перемещаем маркер МКС и центрируем карту с зумом на станцию
+                const newLatLng = new L.LatLng(lat, lng);
+                issMarker.setLatLng(newLatLng);
+                issMap.panTo(newLatLng, { animate: true, duration: 1.5 });
+
+                // Обратное геокодирование для определения точного региона/страны под МКС
+                fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&zoom=4&addressdetails=0`, {
+                    headers: { 'User-Agent': 'AstroTrackSpaceDashboard/1.0' }
+                })
+                .then(geoRes => geoRes.json())
+                .then(geoData => {
+                    if (geoData && geoData.display_name) {
+                        locationEl.innerHTML = `🌍 Локация: <span style="color:#fff;">${geoData.display_name.split(',').slice(0,2).join(',')}</span>`;
+                    } else {
+                        locationEl.innerHTML = `🌍 Локация: <span style="color:#94a1b2;">Открытый океан</span>`;
+                    }
+                })
+                .catch(() => {
+                    locationEl.innerHTML = `🌍 Локация: <span style="color:#94a1b2;">Над облаками океана</span>`;
+                });
+            })
+            .catch(() => {
+                // Страховочный демо-режим плавного смещения, если упал шлюз
+                const time = Date.now() * 0.00005;
+                const mockLat = Math.sin(time) * 45;
+                const mockLng = ((time * 30) % 360) - 180;
+                
+                coordsEl.innerText = `${mockLat.toFixed(4)}°, ${mockLng.toFixed(4)}°`;
+                const demoLatLng = new L.LatLng(mockLat, mockLng);
+                issMarker.setLatLng(demoLatLng);
+                issMap.panTo(demoLatLng);
+                locationEl.innerHTML = `🌍 Локация: <span style="color:#666;">Сканирование орбиты...</span>`;
+            });
+    }
+
+    updatePosition();
+    // Обновляем зум-карту каждые 5 секунд
+    setInterval(updatePosition, 5000);
+}
 
         function changeLanguage(lang) {
             currentLang = lang;
