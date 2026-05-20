@@ -1,15 +1,13 @@
-# AstroTrack Unique AI Illustration Scraper - v4.0.0 (2026)
+# AstroTrack Ultimate Resilient Scraper & Illustrator - v5.0.0 (2026)
 import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.parse
 import json
 import re
-import time
-import os
-import http.client
+import hashlib
 from datetime import datetime
 
-# Источники новостей
+# Источники новостей - возвращаем полную ленту по 8 статей!
 NEWS_SOURCES = [
     {"name": "SpaceX", "url": "https://spaceflightnow.com/category/falcon-9/feed/"}, 
     {"name": "ESA", "url": "https://www.esa.int/rssfeed/Our_Activities/Space_News"},
@@ -17,10 +15,27 @@ NEWS_SOURCES = [
 ]
 
 LAUNCHES_URL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=5"
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-# Космическая заглушка, если генерация упадет
-DEFAULT_IMAGE = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop"
+# Тематическая медиатека качественных Sci-Fi иллюстраций и фото высокого разрешения
+SPACE_GALLERY = {
+    "starlink": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?q=80&w=600&auto=format&fit=crop", # Запуск поезда спутников
+    "falcon": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?q=80&w=600&auto=format&fit=crop", # Тяжелая ракета на старте
+    "dragon": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=600&auto=format&fit=crop", # Корабль на орбите земли
+    "mars": "https://images.unsplash.com/photo-1612892483236-42d68a57623d?q=80&w=600&auto=format&fit=crop", # Красная планета Марс
+    "moon": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?q=80&w=600&auto=format&fit=crop", # Крупный план Луны и кратеров
+    "earth": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?q=80&w=600&auto=format&fit=crop", # Вид на Землю из иллюминатора
+    "sun": "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=600&auto=format&fit=crop", # Солнечная корона, вспышки
+    "satellite": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600&auto=format&fit=crop", # Высокотехнологичный спутник
+    "astronaut": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=600&auto=format&fit=crop", # Выход в открытый космос
+    "rocket": "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=600&auto=format&fit=crop", # Огненный след уходящей ракеты
+    # Набор абстрактных красивых фонов для хэширования (если совпадений нет)
+    "abstract": [
+        "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=600&auto=format&fit=crop", # Розовая туманность
+        "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=600&auto=format&fit=crop", # Спутник над ночной Землей
+        "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=600&auto=format&fit=crop", # Звездная пыль и галактика
+        "https://images.unsplash.com/photo-1538370965046-79c0d6907d47?q=80&w=600&auto=format&fit=crop"  # Млечный путь и телескоп
+    ]
+}
 
 def web_translate(text, target_lang):
     if not text.strip():
@@ -36,74 +51,36 @@ def web_translate(text, target_lang):
     except:
         return text
 
-def ask_gemini_for_image_prompt(title, summary):
-    """Использует Gemini для генерации короткого английского промта для рисования"""
-    clean_key = GEMINI_API_KEY.strip() if GEMINI_API_KEY else ""
-    if not clean_key:
-        return None
-
-    # Промт для Gemini: сделай короткое, стилизованное описание для рисования
-    prompt = f"""
-Create a short, detailed, stylised artistic image generation prompt in English based on this space news:
-Title: {title}
-Summary: {summary}
-
-Style: Sci-fi digital illustration, vibrant colors, cinematic lighting, epic composition.
-
-Return only the prompt text, no quotes, no markdown, no prose. Be descriptive. Max 30 words.
-"""
-    host = "generativelanguage.googleapis.com"
-    path = f"/v1beta/models/gemini-2.5-flash:generateContent?key={clean_key}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.5}
-    }
+def assign_smart_illustration(title):
+    """Анализирует текст и выбирает лучшую тематическую иллюстрацию из базы"""
+    title_lower = title.lower()
     
-    try:
-        conn = http.client.HTTPSConnection(host, timeout=20)
-        data_bytes = json.dumps(payload).encode("utf-8")
-        headers = {"Content-Type": "application/json"}
-        conn.request("POST", path, body=data_bytes, headers=headers)
+    # Ищем ключевые слова в заголовке
+    if "starlink" in title_lower:
+        return SPACE_GALLERY["starlink"]
+    if "falcon" in title_lower:
+        return SPACE_GALLERY["falcon"]
+    if "dragon" in title_lower or "crew" in title_lower:
+        return SPACE_GALLERY["dragon"]
+    if "mars" in title_lower:
+        return SPACE_GALLERY["mars"]
+    if "moon" in title_lower or "lunar" in title_lower:
+        return SPACE_GALLERY["moon"]
+    if "earth" in title_lower or "climate" in title_lower:
+        return SPACE_GALLERY["earth"]
+    if "sun" in title_lower or "solar" in title_lower or "smile" in title_lower:
+        return SPACE_GALLERY["sun"]
+    if "satellite" in title_lower or "orbit" in title_lower:
+        return SPACE_GALLERY["satellite"]
+    if "astronaut" in title_lower or "iss" in title_lower or "station" in title_lower:
+        return SPACE_GALLERY["astronaut"]
+    if "rocket" in title_lower or "launch" in title_lower or "lift" in title_lower or "ula" in title_lower:
+        return SPACE_GALLERY["rocket"]
         
-        response = conn.getresponse()
-        raw_data = response.read().decode("utf-8")
-        conn.close()
-        
-        if response.status == 200:
-            res_json = json.loads(raw_data)
-            text_response = res_json['candidates'][0]['content']['parts'][0]['text']
-            return text_response.strip()
-        else:
-            print(f"   [!] Gemini API Error {response.status} during prompt generation")
-            return None
-    except Exception as e:
-        print(f"   [!] Gemini Prompt Network Error: {e}")
-        return None
-
-def generate_unique_illustration(ai_prompt):
-    """Использует бесплатный провайдер Stable Diffusion для генерации уникальной картинки"""
-    if not ai_prompt:
-        return DEFAULT_IMAGE
-    
-    # Стилизуем промт под единый арт-стиль
-    stylized_prompt = f"{ai_prompt}. sci-fi art, digital illustration, vibrant, cosmic, highly detailed, sharp focus, artstation."
-    
-    try:
-        # Используем бесплатный провайдер (пример: Pollinations, работает без ключа на Гитхабе)
-        # Он отдает готовую картинку по URL
-        encoded_prompt = urllib.parse.quote(stylized_prompt)
-        image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}"
-        
-        # Pollinations отдает URL сразу, но картинка генерируется при первом запросе.
-        # Чтобы GitHub Pages закэшировал картинку, мы её просто "трогаем"
-        req = urllib.request.Request(image_url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=30) as response:
-            pass # Просто убедились, что запрос прошел
-            
-        return image_url
-    except Exception as e:
-        print(f"   [!] Ошибка генерации иллюстрации: {e}")
-        return DEFAULT_IMAGE
+    # Если совпадений нет, берем одну из абстрактных картинок на основе хэша заголовка
+    hash_object = hashlib.md5(title.encode('utf-8'))
+    hash_index = int(hash_object.hexdigest(), 16) % len(SPACE_GALLERY["abstract"])
+    return SPACE_GALLERY["abstract"][hash_index]
 
 def generate_kids_version(title, summary, lang):
     if lang == "ru":
@@ -123,10 +100,9 @@ def parse_rfc2822_date(date_str):
         return datetime.now()
 
 def main():
-    print("=== Запуск ИИ-Иллюстратора AstroTrack v4.0.0 ===")
+    print("=== Запуск Сверхнадежного Иллюстратора AstroTrack v5.0.0 ===")
     raw_articles = []
 
-    # Собираем строго по 3 свежие новости, чтобы генерация не заняла вечность
     for source in NEWS_SOURCES:
         print(f"Скачиваем ленту {source['name']}...")
         try:
@@ -135,7 +111,7 @@ def main():
                 xml_data = response.read()
             
             root = ET.fromstring(xml_data)
-            items = root.findall('.//item')[:3] # По 3 штуки!
+            items = root.findall('.//item')[:8]
             
             for item in items:
                 title_en = item.find('title').text if item.find('title') is not None else ""
@@ -153,22 +129,19 @@ def main():
                     "date_display": pub_date, "link": link,
                     "title_en": title_en, "summary_en": summary_en
                 })
-        except:
-            continue
+        except Exception as e:
+            print(f" Ошибка источника {source['name']}: {e}")
 
-    print(f"\nСобрано {len(raw_articles)} новостей. Запуск ИИ-Иллюстрирования (это займет время)...")
+    print(f"\nСобрано {len(raw_articles)} новостей. Привязка умных иллюстраций и перевод...")
 
     final_articles = []
     for idx, raw_item in enumerate(raw_articles):
-        print(f" -> [{idx+1}/{len(raw_articles)}] Обработка и генерация арта: {raw_item['title_en'][:40]}...")
+        print(f" -> [{idx+1}/{len(raw_articles)}] Обработка: {raw_item['title_en'][:40]}...")
         
-        # Шаг 1: Gemini делает стилизованный промт для рисования
-        ai_drawing_prompt = ask_gemini_for_image_prompt(raw_item['title_en'], raw_item['summary_en'])
+        # Шаг 1: Автоматический умный подбор тематического арта (БЕЗ API И БЕЗ ЛИМИТОВ)
+        image_url = assign_smart_illustration(raw_item['title_en'])
         
-        # Шаг 2: Бесплатный ИИ рисует уникальную иллюстрацию
-        image_url = generate_unique_illustration(ai_drawing_prompt)
-        
-        # Шаг 3: Веб-перевод (наш быстрый и стабильный метод)
+        # Шаг 2: Моментальный и безотказный перевод
         title_ru = web_translate(raw_item['title_en'], 'ru')
         summary_ru = web_translate(raw_item['summary_en'], 'ru')
         title_he = web_translate(raw_item['title_en'], 'he')
@@ -178,16 +151,13 @@ def main():
         title_he_kids, summary_he_kids = generate_kids_version(title_he, summary_he, 'he')
 
         raw_item.update({
-            "image": image_url, # Новое поле с уникальным URL картинки!
+            "image": image_url, 
             "title_ru": title_ru, "summary_ru": summary_ru,
             "title_ru_kids": title_ru_kids, "summary_ru_kids": summary_ru_kids,
             "title_he": title_he, "summary_he": summary_he,
             "title_he_kids": title_he_kids, "summary_he_kids": summary_he_kids
         })
         final_articles.append(raw_item)
-        
-        # Пауза для стабильности
-        time.sleep(12.0)
 
     final_articles.sort(key=lambda x: x['date_parsed'], reverse=True)
     for idx, article in enumerate(final_articles):
@@ -195,7 +165,7 @@ def main():
 
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(final_articles, f, ensure_ascii=False, indent=2)
-    print(f"\nУспешно сохранено {len(final_articles)} новостей с уникальным ИИ-артом!")
+    print(f"\nУспешно сохранено {len(final_articles)} новостей с умными Sci-Fi артами!")
 
     # Сбор пусков
     try:
