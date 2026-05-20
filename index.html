@@ -396,18 +396,24 @@
 
         async function init() {
             try {
+                // 1. Сразу выставляем правильные тексты интерфейса по умолчанию
+                updateInterfaceTexts();
                 initSkyMap();
-                
-                // Загрузка пусков и запуск таймера
+        
+                // 2. Ставим МКС на дефолтную рабочую точку, пока ждем ответ от сервера
+                document.getElementById('iss-coords').innerText = "51.6428°, -105.1241°";
+                const marker = document.getElementById('iss-marker');
+                marker.style.left = "30%";
+                marker.style.top = "40%";
+                trackISS();
+        
+                // 3. Загружаем пуски с уникальным ключом, чтобы обойти кэш
                 const launchResponse = await fetch('launches.json?t=' + Date.now());
                 launchData = await launchResponse.json();
                 initLaunchTimer();
                 renderLaunches();
-
-                // Загрузка МКС
-                trackISS();
-
-                // Загрузка новостей
+        
+                // 4. Загружаем новостную ленту
                 const newsResponse = await fetch('news.json?t=' + Date.now());
                 newsData = await newsResponse.json();
                 renderNews();
