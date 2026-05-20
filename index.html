@@ -290,7 +290,7 @@ function renderNews() {
     const container = document.getElementById('news-container');
     container.innerHTML = '';
 
-    newsData.forEach(article => {
+    newsData.forEach((article, idx) => {
         let title = article.title_en;
         let summary = article.summary_en;
 
@@ -305,27 +305,35 @@ function renderNews() {
             summary = `🌟 Hey future astronaut! Check this out: ${article.summary_en} 🛰️🔭`;
         }
 
-        // ДИНАМИЧЕСКИЙ ГЕНЕРАТОР ПРОМТОВ: Очищаем английский заголовок от спецсимволов и цифр,
-        // чтобы ИИ сфокусировался на сути миссии и нарисовал идеальный арт
-        let cleanPrompt = article.title_en
-            .replace(/[0-9]/g, '') 
-            .replace(/launches|satellites|mission|scraped|coverage|live/gi, '')
-            .trim();
+        // Математическое вычисление углов и цветов для создания уникального Sci-Fi паттерна
+        let charCodeSum = 0;
+        for (let i = 0; i < article.title_en.length; i++) {
+            charCodeSum += article.title_en.charCodeAt(i);
+        }
         
-        // Формируем финальный стилизованный ИИ-промт для Stable Diffusion
-        let aiPromptEncoded = encodeURIComponent(`${cleanPrompt}, sci-fi digital illustration, cinematic lighting, epic cosmic background, vibrant space art, highly detailed, masterpieces, artstation style`);
-        
-        // Сверхстабильный URL генерации, который обрабатывается браузером как обычная картинка
-        let dynamicAiImage = `https://image.pollinations.ai/prompt/${aiPromptEncoded}`;
+        // Генерируем уникальные градусы и оттенки для неоновых космических орбит
+        const angle1 = (charCodeSum % 360);
+        const angle2 = ((charCodeSum * 7) % 360);
+        const hue1 = (charCodeSum % 60) + 240; // Сине-фиолетовый спектр
+        const hue2 = ((charCodeSum * 3) % 40) + 140; // Зелено-бирюзовый спектр космических радаров
 
         const card = document.createElement('a');
         card.className = 'news-card';
         card.href = article.link;
         card.target = '_blank';
 
+        // Вместо внешней картинки вставляем сгенерированный CSS-арт космической орбиты миссии
         card.innerHTML = `
-            <div class="news-img-wrapper">
-                <img class="news-img" src="${dynamicAiImage}" alt="AstroTrack AI Illustration" loading="lazy">
+            <div class="news-img-wrapper" style="background: radial-gradient(circle at center, hsl(${hue1}, 70%, 15%) 0%, #05050b 80%); display: flex; align-items: center; justify-content: center; position: relative;">
+                
+                <div style="position: absolute; width: 120px; height: 120px; border: 1px dashed rgba(255,255,255,0.15); border-radius: 50%; transform: rotate(${angle1}deg);"></div>
+                <div style="position: absolute; width: 80px; height: 40px; border: 2px solid hsl(${hue2}, 80%, 50%); border-radius: 50%; transform: rotate(${angle2}deg); opacity: 0.6; box-shadow: 0 0 15px hsl(${hue2}, 80%, 50%);"></div>
+                
+                <div style="position: absolute; width: 8px; height: 8px; background: #fff; border-radius: 50%; box-shadow: 0 0 10px #fff; transform: translate(${(charCodeSum % 40) - 20}px, ${(charCodeSum % 30) - 15}px);"></div>
+                
+                <div style="position: absolute; bottom: 8px; left: 12px; font-family: monospace; font-size: 9px; color: rgba(255,255,255,0.3); letter-spacing: 1px;">
+                    SYS.LOC_ID #${(charCodeSum % 899) + 100} // ORBIT_OK
+                </div>
             </div>
             <div class="news-content">
                 <div class="news-source">${article.source}</div>
