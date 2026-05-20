@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Vega-C | Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
-    "window_start": "2026-05-19T03:52:00Z",
-    "rocket": "Vega-C",
-    "pad": "Ariane Launch Area 1 (ELV)",
-    "location": "Guiana Space Centre, French Guiana"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 17-42",
     "window_start": "2026-05-20T02:11:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Electron",
     "pad": "Unknown Pad",
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 17-37",
+    "window_start": "2026-05-23T14:00:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   }
 ]
