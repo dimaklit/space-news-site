@@ -82,7 +82,95 @@
             border-color: var(--accent);
         }
 
-        /* Адаптивная сетка для карточек новостей */
+        /* Интерактивный Космический Дашборд */
+        .dashboard-grid {
+            width: 100%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 35px;
+        }
+
+        .dash-card {
+            background: #141424;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 220px;
+        }
+
+        .dash-card h3 {
+            margin-top: 0;
+            font-size: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .launch-timer {
+            font-size: 26px;
+            font-family: monospace;
+            color: #7f5af0;
+            font-weight: bold;
+            margin: 10px 0;
+            letter-spacing: 1px;
+        }
+
+        .iss-map-container {
+            width: 100%;
+            height: 120px;
+            background: #0d0d1a url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Earthmap360x180_compac.jpg') center/cover;
+            border-radius: 8px;
+            position: relative;
+            margin-top: auto;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        #iss-marker {
+            position: absolute;
+            font-size: 20px;
+            transition: all 4.5s linear;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+        }
+
+        .skymap-container {
+            width: 100%;
+            height: 120px;
+            border-radius: 8px;
+            background: radial-gradient(circle at center, #161630 0%, #05050b 100%);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: auto;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .star {
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            animation: twinkle 2s infinite ease-in-out;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.2; }
+            50% { opacity: 1; }
+        }
+
+        /* Минималистичная сетка новостей с эмодзи */
         .news-grid {
             width: 100%;
             max-width: 1200px;
@@ -109,25 +197,24 @@
             border-color: var(--accent);
         }
 
-        /* Стилизация картинок из медиатеки скрапера */
         .news-img-wrapper {
-            width: 100%;
-            height: 190px;
-            overflow: hidden;
-            background-color: #05050a;
+            background-color: #16162a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 140px;
+            border-bottom: 1px solid var(--border-color);
             position: relative;
         }
 
-        .news-img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-            transition: transform 0.5s ease;
+        .news-emoji {
+            font-size: 56px;
+            filter: drop-shadow(0 0 10px rgba(255,255,255,0.08));
+            transition: transform 0.3s ease;
         }
 
-        .news-card:hover .news-img {
-            transform: scale(1.04);
+        .news-card:hover .news-emoji {
+            transform: scale(1.1) rotate(5deg);
         }
 
         .news-content {
@@ -169,56 +256,7 @@
             margin-top: auto;
         }
 
-        /* Расписание пусков */
-        .launches-section {
-            width: 100%;
-            max-width: 1200px;
-            margin-top: 20px;
-        }
-
-        .launches-title {
-            font-size: 22px;
-            margin-bottom: 20px;
-            border-left: 4px solid var(--accent);
-            padding-left: 10px;
-        }
-
-        body[dir="rtl"] .launches-title {
-            border-left: none;
-            border-right: 4px solid var(--accent);
-            padding-left: 0;
-            padding-right: 10px;
-        }
-
-        .launch-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .launch-item {
-            background-color: var(--card-bg);
-            border: 1px solid var(--border-color);
-            padding: 15px 20px;
-            border-radius: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .launch-name {
-            font-weight: 600;
-            color: #2cb67d;
-        }
-
-        .launch-details {
-            font-size: 14px;
-            color: var(--text-muted);
-        }
-
-        @media (max-width: 600px) {
+        @media (max-width: 768px) {
             header {
                 flex-direction: column;
                 align-items: flex-start;
@@ -226,10 +264,6 @@
             .controls {
                 width: 100%;
                 justify-content: space-between;
-            }
-            .launch-item {
-                flex-direction: column;
-                align-items: flex-start;
             }
         }
     </style>
@@ -248,137 +282,253 @@
         </div>
     </header>
 
+    <div class="dashboard-grid">
+        
+        <div class="dash-card">
+            <h3 id="dash-sky-title">🌌 Локальное небо (Kiryat Gat)</h3>
+            <div class="skymap-container" id="sky-map">
+                <div style="z-index: 2; text-align: center; font-size: 12px; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
+                    <strong id="sky-constellation">Загрузка созвездий...</strong><br>
+                    <span style="font-size: 10px; color: #2cb67d;">Текущий сектор наблюдения</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="dash-card">
+            <h3 id="dash-alert-title">🚨 Сигналы космодрома</h3>
+            <div id="launch-alert-status" style="font-size: 12px; color: #2cb67d; font-weight: 600;">Ожидание телеметрии пусков...</div>
+            <div class="launch-timer" id="countdown-timer">T-MINUS 00:00:00</div>
+            <div style="font-size: 11px; color: rgba(255,255,255,0.5); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" id="next-mission-name">Миссия: Ожидание...</div>
+        </div>
+
+        <div class="dash-card">
+            <h3 id="dash-iss-title">🛰️ Орбита МКС (ISS Tracker)</h3>
+            <div style="font-size: 12px; margin-bottom: 5px;">
+                Позиция: <span id="iss-coords" style="color:#7f5af0; font-family: monospace; font-weight: bold;">0.0000°, 0.0000°</span>
+            </div>
+            <div class="iss-map-container">
+                <div id="iss-marker">🛰️</div>
+            </div>
+        </div>
+
+    </div>
+
     <main class="news-grid" id="news-container">
         </main>
 
-    <section class="launches-section">
-        <h2 class="launches-title" id="launches-heading">Upcoming Space Launches</h2>
-        <div class="launch-list" id="launches-container">
-            </div>
-    </section>
-
     <script>
         let currentLang = 'en';
-        let currentMode = 'regular'; // regular или kids
+        let currentMode = 'regular';
         let newsData = [];
 
-        // Тексты интерфейса для локализации
         const translations = {
-            en: { title: "AstroTrack", regular: "Regular Mode", kids: "Kids Edition 🚀", launches: "Upcoming Space Launches" },
-            ru: { title: "AstroTrack", regular: "Обычный режим", kids: "Детский режим 🚀", launches: "Ближайшие космические пуски" },
-            he: { title: "AstroTrack", regular: "מצב רגיל", kids: "גרסת ילדים 🚀", launches: "שיגורי חלל קרובים" }
+            en: { title: "AstroTrack", regular: "Regular Mode", kids: "Kids Edition 🚀", dashSky: "🌌 Local Sky (Kiryat Gat)", dashAlert: "🚨 Spaceport Alerts", dashIss: "🛰️ ISS Orbit Tracker" },
+            ru: { title: "AstroTrack", regular: "Обычный режим", kids: "Детский режим 🚀", dashSky: "🌌 Небо над Кирьят-Гатом", dashAlert: "🚨 Сигналы космодрома", dashIss: "🛰️ Наблюдение за МКС" },
+            he: { title: "AstroTrack", regular: "מצב רגיל", kids: "גרסת ילדים 🚀", dashSky: "🌌 שמי קריית גת", dashAlert: "🚨 התראות נמל חלל", dashIss: "🛰️ מעקב תחנת החלל הבינלאומית" }
         };
 
         async function init() {
             try {
-                // Загружаем новости
+                // Инициализация виджетов на фронтенде
+                initSkyMap();
+                initLaunchTimer();
+                trackISS();
+
+                // Загрузка новостей
                 const newsResponse = await fetch('news.json?t=' + Date.now());
                 newsData = await newsResponse.json();
                 
-                // Загружаем пуски
-                const launchResponse = await fetch('launches.json?t=' + Date.now());
-                const launchData = await launchResponse.json();
-                
                 renderNews();
-                renderLaunches(launchData);
             } catch (err) {
-                console.error("Ошибка инициализации данных: ", err);
+                console.error("Ошибка инициализации приложения: ", err);
             }
         }
 
-function renderNews() {
-    const container = document.getElementById('news-container');
-    container.innerHTML = '';
-
-    newsData.forEach(article => {
-        let title = article.title_en;
-        let summary = article.summary_en;
-
-        if (currentLang === 'ru') {
-            title = currentMode === 'kids' ? article.title_ru_kids : article.title_ru;
-            summary = currentMode === 'kids' ? article.summary_ru_kids : article.summary_ru;
-        } else if (currentLang === 'he') {
-            title = currentMode === 'kids' ? article.title_he_kids : article.title_he;
-            summary = currentMode === 'kids' ? article.summary_he_kids : article.summary_he;
-        } else if (currentLang === 'en' && currentMode === 'kids') {
-            title = `🚀 Space News: ${article.title_en} ✨`;
-            summary = `🌟 Hey future astronaut! Check this out: ${article.summary_en} 🛰️🔭`;
-        }
-
-        // УМНЫЙ ПОДБОР ЭМОДЗИ: Анализируем заголовок и выбираем один главный символ
-        let emoji = "🌌"; // Дефолтный символ (глубокий космос)
-        const titleLower = article.title_en.toLowerCase();
-
-        if (titleLower.includes("starlink") || titleLower.includes("satellite")) {
-            emoji = "🛰️"; // Спутники
-        } else if (titleLower.includes("falcon") || titleLower.includes("launch") || titleLower.includes("rocket") || titleLower.includes("ula")) {
-            emoji = "🚀"; // Ракеты и запуски
-        } else if (titleLower.includes("dragon") || titleLower.includes("crew") || titleLower.includes("cargo") || titleLower.includes("spaceship")) {
-            emoji = "🛸"; // Корабли и капсулы
-        } else if (titleLower.includes("mars")) {
-            emoji = "🔴"; // Марс (Красная планета)
-        } else if (titleLower.includes("moon") || titleLower.includes("lunar")) {
-            emoji = "🌙"; // Луна
-        } else if (titleLower.includes("sun") || titleLower.includes("solar") || titleLower.includes("smile")) {
-            emoji = "☀️"; // Солнце
-        } else if (titleLower.includes("earth") || titleLower.includes("images") || titleLower.includes("view")) {
-            emoji = "🌍"; // Земля / Фото планеты
-        } else if (titleLower.includes("telescope") || titleLower.includes("hubble") || titleLower.includes("webb") || titleLower.includes("rescue")) {
-            emoji = "🔭"; // Телескопы и открытия
-        } else if (titleLower.includes("astronaut") || titleLower.includes("iss") || titleLower.includes("station")) {
-            emoji = "👨‍🚀"; // Астронавты / МКС
-        }
-
-        const card = document.createElement('a');
-        card.className = 'news-card';
-        card.href = article.link;
-        card.target = '_blank';
-
-        // Минималистичный блок: мягкий темный фон и один крупный эмодзи по центру
-        card.innerHTML = `
-            <div class="news-img-wrapper" style="background-color: #16162a; display: flex; align-items: center; justify-content: center; height: 140px; border-bottom: 1px solid var(--border-color);">
-                <div style="font-size: 56px; filter: drop-shadow(0 0 10px rgba(255,255,255,0.1));">${emoji}</div>
-            </div>
-            <div class="news-content">
-                <div class="news-source">${article.source}</div>
-                <div class="news-title">${title}</div>
-                <div class="news-summary">${summary}</div>
-                <div class="news-date">${article.date_display}</div>
-            </div>
-        `;
-        container.appendChild(card);
-    });
-}
-        
-        function renderLaunches(launches) {
-            const container = document.getElementById('launches-container');
+        function renderNews() {
+            const container = document.getElementById('news-container');
             container.innerHTML = '';
 
-            if(!launches || launches.length === 0) {
-                container.innerHTML = '<div class="launch-item">No upcoming launches found</div>';
-                return;
+            newsData.forEach(article => {
+                let title = article.title_en;
+                let summary = article.summary_en;
+
+                if (currentLang === 'ru') {
+                    title = currentMode === 'kids' ? article.title_ru_kids : article.title_ru;
+                    summary = currentMode === 'kids' ? article.summary_ru_kids : article.summary_ru;
+                } else if (currentLang === 'he') {
+                    title = currentMode === 'kids' ? article.title_he_kids : article.title_he;
+                    summary = currentMode === 'kids' ? article.summary_he_kids : article.summary_he;
+                } else if (currentLang === 'en' && currentMode === 'kids') {
+                    title = `🚀 Space News: ${article.title_en} ✨`;
+                    summary = `🌟 Hey future astronaut! Check this out: ${article.summary_en} 🛰️🔭`;
+                }
+
+                // Умный минималистичный подбор эмодзи
+                let emoji = "🌌";
+                const titleLower = article.title_en.toLowerCase();
+
+                if (titleLower.includes("starlink") || titleLower.includes("satellite")) {
+                    emoji = "🛰️";
+                } else if (titleLower.includes("falcon") || titleLower.includes("launch") || titleLower.includes("rocket") || titleLower.includes("ula") || titleLower.includes("neutron")) {
+                    emoji = "🚀";
+                } else if (titleLower.includes("dragon") || titleLower.includes("crew") || titleLower.includes("cargo") || titleLower.includes("spaceship")) {
+                    emoji = "🛸";
+                } else if (titleLower.includes("mars") || titleLower.includes("martian")) {
+                    emoji = "🔴";
+                } else if (titleLower.includes("moon") || titleLower.includes("lunar")) {
+                    emoji = "🌙";
+                } else if (titleLower.includes("sun") || titleLower.includes("solar") || titleLower.includes("smile")) {
+                    emoji = "☀️";
+                } else if (titleLower.includes("earth") || titleLower.includes("images") || titleLower.includes("view") || titleLower.includes("quito")) {
+                    emoji = "🌍";
+                } else if (titleLower.includes("telescope") || titleLower.includes("hubble") || titleLower.includes("webb") || titleLower.includes("rescue")) {
+                    emoji = "🔭";
+                } else if (titleLower.includes("astronaut") || titleLower.includes("iss") || titleLower.includes("station")) {
+                    emoji = "👨‍🚀";
+                }
+
+                const card = document.createElement('a');
+                card.className = 'news-card';
+                card.href = article.link;
+                card.target = '_blank';
+
+                card.innerHTML = `
+                    <div class="news-img-wrapper">
+                        <div class="news-emoji">${emoji}</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-source">${article.source}</div>
+                        <div class="news-title">${title}</div>
+                        <div class="news-summary">${summary}</div>
+                        <div class="news-date">${article.date_display}</div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // === 1. ЛОГИКА МЕРЦАЮЩЕГО НЕБА ===
+        function initSkyMap() {
+            const map = document.getElementById('sky-map');
+            const constellations = {
+                en: ["Orion Sector", "Ursa Major Sector", "Cassiopeia Quadrant", "Cygnus Star System"],
+                ru: ["Сектор Ориона", "Большая Медведица", "Созвездие Кассиопеи", "Система Лебедя"],
+                he: ["קבוצת אוריון", "הדובה הגדולה", "קבוצת קסיופאה", "מערכת ברבור"]
+            };
+            
+            const hour = new Date().getHours();
+            const currentList = constellations[currentLang] || constellations['en'];
+            document.getElementById('sky-constellation').innerText = currentList[hour % currentList.length];
+
+            for (let i = 0; i < 35; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                star.style.width = Math.random() * 2.5 + 'px';
+                star.style.height = star.style.width;
+                star.style.top = Math.random() * 100 + '%';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.animationDelay = Math.random() * 2 + 's';
+                map.appendChild(star);
+            }
+        }
+
+        // === 2. ОБРАТНЫЙ ОТСЧЕТ И СИРЕНА ПУСКОВ ===
+        let audioContext = null;
+        function playLaunchSiren() {
+            try {
+                if (!audioContext) audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                const osc = audioContext.createOscillator();
+                const gain = audioContext.createGain();
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(160, audioContext.currentTime);
+                osc.frequency.linearRampToValueAtTime(320, audioContext.currentTime + 1.2);
+                gain.gain.setValueAtTime(0.08, audioContext.currentTime);
+                gain.gain.linearRampToValueAtTime(0, audioContext.currentTime + 1.5);
+                osc.connect(gain);
+                gain.connect(audioContext.destination);
+                osc.start(); osc.stop(audioContext.currentTime + 1.5);
+            } catch(e) { console.log("Аудио заблокировано политикой браузера"); }
+        }
+
+        function initLaunchTimer() {
+            fetch('launches.json')
+                .then(res => res.json())
+                .then(launches => {
+                    if (!launches || launches.length === 0) {
+                        document.getElementById('countdown-timer').innerText = "OFFLINE";
+                        return;
+                    }
+                    const nextLaunch = launches[0];
+                    document.getElementById('next-mission-name').innerText = `${nextLaunch.name_en} (${nextLaunch.rocket})`;
+                    
+                    const launchDate = new Date(nextLaunch.window_start).getTime();
+
+                    setInterval(() => {
+                        const now = new Date().getTime();
+                        const diff = launchDate - now;
+
+                        if (diff <= 0) {
+                            document.getElementById('countdown-timer').innerText = "LAUNCH 🚀";
+                            document.getElementById('launch-alert-status').innerText = currentLang === 'ru' ? "⚠️ СТАРТ СОСТОЯЛСЯ!" : currentLang === 'he' ? "⚠️ השיגור החל!" : "⚠️ LIFT OFF!";
+                            document.getElementById('launch-alert-status').style.color = "#ff5555";
+                            return;
+                        }
+
+                        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                        document.getElementById('countdown-timer').innerText = 
+                            `T-MINUS ${String(hours).padStart(2,'0')}:${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
+
+                        if (hours === 0 && minutes === 10 && seconds === 0) {
+                            document.getElementById('launch-alert-status').innerText = currentLang === 'ru' ? "🚨 10 МИНУТ ДО СТАРТА!" : currentLang === 'he' ? "🚨 10 דקות לשיגור!" : "🚨 10 MINUTES TO LAUNCH!";
+                            document.getElementById('launch-alert-status').style.color = "#ffb86c";
+                            playLaunchSiren();
+                        }
+                    }, 1000);
+                }).catch(() => {
+                    document.getElementById('countdown-timer').innerText = "T-MINUS --:--:--";
+                });
+        }
+
+        // === 3. ЖИВОЙ ТРЕКЕР КООРДИНАТ МКС ===
+        function trackISS() {
+            const coordsEl = document.getElementById('iss-coords');
+            const marker = document.getElementById('iss-marker');
+
+            function updatePosition() {
+                fetch('https://api.wheretheiss.at/v1/satellites/25544')
+                    .then(res => res.json())
+                    .then(data => {
+                        const lat = parseFloat(data.latitude);
+                        const lng = parseFloat(data.longitude);
+                        coordsEl.innerText = `${lat.toFixed(4)}°, ${lng.toFixed(4)}°`;
+
+                        const x = ((lng + 180) / 360) * 100;
+                        const y = ((90 - lat) / 180) * 100;
+                        marker.style.left = `${x}%`;
+                        marker.style.top = `${y}%`;
+                    })
+                    .catch(() => {
+                        // Резервный расчет траектории при сбое API
+                        const time = Date.now() * 0.00008;
+                        const mockLat = Math.sin(time) * 51.6;
+                        const mockLng = ((time * 45) % 360) - 180;
+                        coordsEl.innerText = `${mockLat.toFixed(4)}°, ${mockLng.toFixed(4)}°`;
+                        marker.style.left = `${((mockLng + 180) / 360) * 100}%`;
+                        marker.style.top = `${((90 - mockLat) / 180) * 100}%`;
+                    });
             }
 
-            launches.forEach(launch => {
-                const date = new Date(launch.window_start).toLocaleString(currentLang === 'en' ? 'en-US' : currentLang === 'ru' ? 'ru-RU' : 'he-IL');
-                const item = document.createElement('div');
-                item.className = 'launch-item';
-                item.innerHTML = `
-                    <div>
-                        <div class="launch-name">${launch.name_en}</div>
-                        <div class="launch-details">${launch.rocket} | ${launch.location}</div>
-                    </div>
-                    <div style="font-weight: bold; color: #7f5af0;">${date}</div>
-                `;
-                container.appendChild(item);
-            });
+            updatePosition();
+            setInterval(updatePosition, 5000);
         }
 
         function changeLanguage(lang) {
             currentLang = lang;
             document.documentElement.lang = lang;
             
-            // Переключаем направление чтения для иврита
             if (lang === 'he') {
                 document.body.setAttribute('dir', 'rtl');
             } else {
@@ -386,6 +536,9 @@ function renderNews() {
             }
 
             updateInterfaceTexts();
+            const oldStars = document.querySelectorAll('.star');
+            oldStars.forEach(s => s.remove());
+            initSkyMap();
             renderNews();
         }
 
@@ -407,10 +560,11 @@ function renderNews() {
             const t = translations[currentLang];
             document.getElementById('site-title').textContent = t.title;
             document.getElementById('mode-btn').textContent = currentMode === 'regular' ? t.regular : t.kids;
-            document.getElementById('launches-heading').textContent = t.launches;
+            document.getElementById('dash-sky-title').textContent = t.dashSky;
+            document.getElementById('dash-alert-title').textContent = t.dashAlert;
+            document.getElementById('dash-iss-title').textContent = t.dashIss;
         }
 
-        // Запуск при загрузке страницы
         window.onload = init;
     </script>
 </body>
