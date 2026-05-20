@@ -1,4 +1,4 @@
-# AstroTrack Clean Rollback Scraper - v9.0.0 (2026)
+# AstroTrack Clean Data Core - v11.0.0 (2026)
 import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.parse
@@ -37,7 +37,7 @@ def parse_rfc2822_date(date_str):
         return datetime.now()
 
 def main():
-    print("=== Полный откат и запуск очищенного скрапера v9.0.0 ===")
+    print("=== Запуск Сборщика Ядра Данных AstroTrack v11.0.0 ===")
     raw_articles = []
 
     for source in NEWS_SOURCES:
@@ -69,14 +69,10 @@ def main():
         except Exception as e:
             print(f" Ошибка источника {source['name']}: {e}")
 
-    print(f"\nСобрано {len(raw_articles)} новостей. Генерация чистой базы данных...")
+    print(f"\nСобрано {len(raw_articles)} новостей. Запуск перевода...")
 
     final_articles = []
     for idx, raw_item in enumerate(raw_articles):
-        # Простая, бронебойная ссылка на красивый абстрактный SVG-градиент. 
-        # Она весит 0 байт, генерируется самим браузером и РАБОТАЕТ НА ЛЮБОМ ПК И МОБИЛЬНОМ без интернета.
-        image_url = f"https://dummyimage.com/600x400/11111e/7f5af0.png&text=AstroTrack+Space+News"
-        
         title_ru = web_translate(raw_item['title_en'], 'ru')
         summary_ru = web_translate(raw_item['summary_en'], 'ru')
         title_he = web_translate(raw_item['title_en'], 'he')
@@ -88,7 +84,6 @@ def main():
         summary_he_kids = f"🌟 שלום! תראה מה קרה בחלל: {summary_he} 🪐🔭"
 
         raw_item.update({
-            "image": image_url, 
             "title_ru": title_ru, "summary_ru": summary_ru,
             "title_ru_kids": title_ru_kids, "summary_ru_kids": summary_ru_kids,
             "title_he": title_he, "summary_he": summary_he,
@@ -102,9 +97,8 @@ def main():
 
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(final_articles, f, ensure_ascii=False, indent=2)
-    print(f"\nБаза news.json успешно пересобрана в исходном чистом формате!")
+    print(f"\nБаза успешно обновлена!")
 
-    # Сбор пусков
     try:
         req = urllib.request.Request(LAUNCHES_URL, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=15) as resp:
