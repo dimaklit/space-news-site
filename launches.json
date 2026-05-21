@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 17-42",
-    "window_start": "2026-05-20T02:11:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Starship | Flight 12",
     "window_start": "2026-05-20T22:30:00Z",
     "rocket": "Starship V3",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 10-47",
+    "window_start": "2026-05-25T11:41:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 40",
+    "location": "Cape Canaveral SFS, FL, USA"
   }
 ]
