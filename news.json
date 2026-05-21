@@ -1,5 +1,25 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-05-20T17:30:00",
+    "date_display": "Wed, 20 May 2026 17:30:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/05/Inflight_call_with_ESA_astronaut_Sophie_Adenot",
+    "title_en": "Inflight call with ESA astronaut Sophie Adenot",
+    "summary_en": "Video: \n\t\t\t00:21:10\n\t\t\t\tOn 20 May, ESA astronaut Sophie Adenot conducted an in-flight call with selected media representatives live aboard the International Space Station. During the discussion, Sophie shared insights into life and research in orbit, including scientific exper...",
+    "image": "",
+    "title_ru": "Беседа с астронавтом Европейского космического агентства Софи Адено",
+    "summary_ru": "Видео: \n\t\t\t00:21:10\n\t\t\t\t20 мая астронавт ЕКА Софи Адено провела разговор с избранными представителями СМИ прямо на борту Международной космической станции. В ходе дискуссии Софи поделилась информацией о жизни и исследованиях на орбите, в том числе научным опытом...",
+    "title_ru_kids": "🚀 Беседа с астронавтом Европейского космического агентства Софи Адено ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:21:10\n\t\t\t\t20 мая астронавт ЕКА Софи Адено провела разговор с избранными представителями СМИ прямо на борту Международной космической станции. В ходе дискуссии Софи поделилась информацией о жизни и исследованиях на орбите, в том числе научным опытом... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "שיחת טיסה עם האסטרונאוטית של ESA סופי אדנוט",
+    "summary_he": "וידאו: \n\t\t\t00:21:10\n\t\t\t\tב-20 במאי, אסטרונאוטית ESA סופי אדנוט ערכה שיחת טיסה עם נציגי תקשורת נבחרים בשידור חי על סיפון תחנת החלל הבינלאומית. במהלך הדיון, סופי שיתפה תובנות על חיים ומחקר במסלול, כולל ניסיון מדעי...",
+    "title_he_kids": "🚀 שיחת טיסה עם האסטרונאוטית של ESA סופי אדנוט ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:21:10\n\t\t\t\tב-20 במאי, אסטרונאוטית ESA סופי אדנוט ערכה שיחת טיסה עם נציגי תקשורת נבחרים בשידור חי על סיפון תחנת החלל הבינלאומית. במהלך הדיון, סופי שיתפה תובנות על חיים ומחקר במסלול, כולל ניסיון מדעי... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Inflight call with ESA astronaut Sophie Adenot ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:21:10\n\t\t\t\tOn 20 May, ESA astronaut Sophie Adenot conducted an in-flight call with selected media representatives live aboard the International Space Station. During the discussion, Sophie shared insights into life and research in orbit, including scientific exper... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
     "source": "SpaceX",
     "date_parsed": "2026-05-20T15:42:11",
     "date_display": "Wed, 20 May 2026 15:42:11 +0000",
@@ -17,7 +37,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-31 תהיה השיגור ה-58 של Falcon 9 עד כה בשנת 2026. הרמה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון שייפתח ב-5:26 בבוקר EDT (0926 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-31 mission will be the 58th Falcon 9 launch so far in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a window that opens at 5:26 a.m. EDT (0926 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 10-31 תהיה השיגור ה-58 של Falcon 9 עד כה בשנת 2026. הרמה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון שייפתח ב-5:26 בבוקר EDT (0926 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 10-31 mission will be the 58th Falcon 9 launch so far in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a window that opens at 5:26 a.m. EDT (0926 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית מרחיבה את הצי ההולך וגדל שלה של משימות צופי צופי כדור הארץ עם בחירה של שני לוויינים חדשים: Hibidis ו-SOVA-S. משימות אלה, שנבחרו מתוך ארבעה מושגים מתחרים אחרונים, יתמודדו עם מדעיים שונים מאוד אך דוחקים באותה מידה... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Greenlight for next two ESA Scout missions ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency is expanding its growing fleet of Earth-observing science Scout missions with the selection of two new satellites: Hibidis and SOVA-S.Chosen from four final competing concepts, these missions will tackle very different but equally pressing scientific ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "SpaceX",
@@ -77,7 +97,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink ה-45 של SpaceX השנה הביאה את החברה להוסיף עוד 24 לווייני אינטרנט בפס רחב למסלול נמוך של כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 19:46. PDT (22:46 EDT / 0246 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket launch from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! SpaceX’s 45th Starlink mission of the year saw the company add another 24 broadband internet satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:46 p.m. PDT (10:46 p.m. EDT / 0246 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink ה-45 של SpaceX השנה הביאה את החברה להוסיף עוד 24 לווייני אינטרנט בפס רחב למסלול נמוך של כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 19:46. PDT (22:46 EDT / 0246 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket launch from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! SpaceX’s 45th Starlink mission of the year saw the company add another 24 broadband internet satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:46 p.m. PDT (10:46 p.m. EDT / 0246 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:04:00\n\t\t\t\tלוויין Smile של ESA שוגר על סיפון רקטת Vega-C מנמל החלל של אירופה בגיאנה הצרפתית. הרקטה התרוממת בשעה 04:52 BST / 05:52 CEST (00:52 שעון מקומי) ב-19 במאי 2026. סמייל טס לחלל בטיסת Vega-C VV29. בגובה 35 מ', וגה-C שוקל... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Smile launch highlights ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! החללית Smile התרוממה על רקטת Vega-C מנמל החלל של אירופה בגיאנה הצרפתית בשעה 04:52 BST / 05:52 CEST (00:52 שעון מקומי) ב-19 במאי 2026. השיגור מסמן את תחילתה של משימה שאפתנית להבנה טובה יותר של סופות שמש, סערות גיאומגנטיות ומדעי... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026. The launch marks the beginning of an ambitious mission to better understand solar storms, geomagnetic storms, and the scienc... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "SpaceX",
@@ -148,16 +168,16 @@
     "summary_en": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
     "image": "",
     "title_ru": "НАСА и SpaceX запускают миссию Dragon с 6500 фунтами научных материалов и материалов на космическую станцию",
-    "summary_ru": "Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточноевропейскому времени. восточноевропейское время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции.",
+    "summary_ru": "Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточноевропейскому времени. Восточное время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции.",
     "title_ru_kids": "🚀 НАСА и SpaceX запускают миссию Dragon с 6500 фунтами научных материалов и материалов на космическую станцию ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточноевропейскому времени. восточноевропейское время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточноевропейскому времени. Восточное время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "נאס\"א, SpaceX שיגור משימת דרקון עם 6,500 פאונד של מדע ואספקה ​​לתחנת החלל",
     "summary_he": "הסרת משימת האספקה ​​מחדש, על גבי רקטת פלקון 9 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 18:05. EDT (2205 UTC). דרקון המטען עמוס ב-6,500 פאונד של מדע ואספקה ​​לתחנת החלל.",
     "title_he_kids": "🚀 נאס\"א, SpaceX שיגור משימת דרקון עם 6,500 פאונד של מדע ואספקה ​​לתחנת החלל ✨",
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הסרת משימת האספקה ​​מחדש, על גבי רקטת פלקון 9 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 18:05. EDT (2205 UTC). דרקון המטען עמוס ב-6,500 פאונד של מדע ואספקה ​​לתחנת החלל. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -168,35 +188,15 @@
     "summary_en": "Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station.",
     "image": "",
     "title_ru": "НАСА и SpaceX запускают миссию Dragon с 6500 фунтами научных материалов и материалов на космическую станцию",
-    "summary_ru": "Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточноевропейскому времени. восточноевропейское время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции.",
+    "summary_ru": "Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточноевропейскому времени. Восточное время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции.",
     "title_ru_kids": "🚀 НАСА и SpaceX запускают миссию Dragon с 6500 фунтами научных материалов и материалов на космическую станцию ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточноевропейскому времени. восточноевропейское время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Старт миссии по снабжению на ракете Falcon 9 с космодрома 40 на станции космических сил на мысе Канаверал запланирован на 18:05 по восточноевропейскому времени. Восточное время (22:05 UTC). Грузовой Дракон загружен 6500 фунтами научных материалов и материалов для космической станции. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "נאס\"א, SpaceX שיגור משימת דרקון עם 6,500 פאונד של מדע ואספקה ​​לתחנת החלל",
     "summary_he": "הסרת משימת האספקה ​​מחדש, על גבי רקטת פלקון 9 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 18:05. EDT (2205 UTC). דרקון המטען עמוס ב-6,500 פאונד של מדע ואספקה ​​לתחנת החלל.",
     "title_he_kids": "🚀 נאס\"א, SpaceX שיגור משימת דרקון עם 6,500 פאונד של מדע ואספקה ​​לתחנת החלל ✨",
     "summary_he_kids": "🌟 תראו מה קרה! הסרת משימת האספקה ​​מחדש, על גבי רקטת פלקון 9 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 18:05. EDT (2205 UTC). דרקון המטען עמוס ב-6,500 פאונד של מדע ואספקה ​​לתחנת החלל. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA, SpaceX launch Dragon mission with 6,500 pounds of science and supplies to the space station ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Liftoff of the resupply mission, atop a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for 6:05 p.m. EDT (2205 UTC). The Cargo Dragon is loaded with 6,500 pounds of science and supplies for the space station. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 9
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-05-15T16:00:00",
-    "date_display": "Fri, 15 May 2026 16:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/05/Preparing_Smile_for_space",
-    "title_en": "Preparing Smile for space",
-    "summary_en": "Video: \n\t\t\t00:04:42\n\t\t\t\tBefore Smile can begin studying how Earth responds to the streams of particles and bursts of radiation from the Sun, the spacecraft had to complete an extraordinary journey here on Earth.Follow the mission through its final launch preparations at Europe...",
-    "image": "",
-    "title_ru": "Готовим Смайл к космосу",
-    "summary_ru": "Видео: \n\t\t\t00:04:42\n\t\t\t\tПрежде чем Смайл сможет приступить к изучению того, как Земля реагирует на потоки частиц и всплески солнечной радиации, космическому кораблю пришлось совершить необычное путешествие здесь, на Земле. Проследите за миссией через ее заключительную подготовку к запуску в Европе...",
-    "title_ru_kids": "🚀 Готовим Смайл к космосу ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:04:42\n\t\t\t\tПрежде чем Смайл сможет приступить к изучению того, как Земля реагирует на потоки частиц и всплески солнечной радиации, космическому кораблю пришлось совершить необычное путешествие здесь, на Земле. Проследите за миссией через ее заключительную подготовку к запуску в Европе... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "הכנת סמייל לחלל",
-    "summary_he": "וידאו: \n\t\t\t00:04:42\n\t\t\t\tלפני שסמייל יוכל להתחיל ללמוד כיצד כדור הארץ מגיב לזרמי החלקיקים והתפרצויות הקרינה מהשמש, החללית הייתה צריכה להשלים מסע יוצא דופן כאן על כדור הארץ.",
-    "title_he_kids": "🚀 הכנת סמייל לחלל ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:04:42\n\t\t\t\tלפני שסמייל יוכל להתחיל ללמוד כיצד כדור הארץ מגיב לזרמי החלקיקים והתפרצויות הקרינה מהשמש, החללית הייתה צריכה להשלים מסע יוצא דופן כאן על כדור הארץ. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Preparing Smile for space ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:04:42\n\t\t\t\tBefore Smile can begin studying how Earth responds to the streams of particles and bursts of radiation from the Sun, the spacecraft had to complete an extraordinary journey here on Earth.Follow the mission through its final launch preparations at Europe... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 10
   },
   {
