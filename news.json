@@ -60,6 +60,26 @@
     "id": 3
   },
   {
+    "source": "ESA",
+    "date_parsed": "2026-05-21T14:54:00",
+    "date_display": "Thu, 21 May 2026 14:54:00 +0200",
+    "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_astronaut_reserve_completes_training_programme",
+    "title_en": "ESA astronaut reserve completes training programme",
+    "summary_en": "ESA’s astronaut reserve members have completed their Astronaut Reserve Training (ART) programme, marking a key milestone in Europe’s human spaceflight ambitions.",
+    "image": "",
+    "title_ru": "Резерв астронавтов ЕКА завершает программу подготовки",
+    "summary_ru": "Члены резерва астронавтов ЕКА завершили программу подготовки резерва астронавтов (ART), что стало ключевой вехой в амбициях Европы по пилотируемым космическим полетам.",
+    "title_ru_kids": "🚀 Резерв астронавтов ЕКА завершает программу подготовки ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Члены резерва астронавтов ЕКА завершили программу подготовки резерва астронавтов (ART), что стало ключевой вехой в амбициях Европы по пилотируемым космическим полетам. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "עתודת אסטרונאוטים של ESA משלימה תוכנית אימונים",
+    "summary_he": "חברי עתודת האסטרונאוטים של ESA סיימו את תוכנית ההכשרה שלהם לאסטרונאוט מילואים (ART), המציינת אבן דרך מרכזית בשאיפות הטיסות האנושיות לחלל באירופה.",
+    "title_he_kids": "🚀 עתודת אסטרונאוטים של ESA משלימה תוכנית אימונים ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חברי עתודת האסטרונאוטים של ESA סיימו את תוכנית ההכשרה שלהם לאסטרונאוט מילואים (ART), המציינת אבן דרך מרכזית בשאיפות הטיסות האנושיות לחלל באירופה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 ESA astronaut reserve completes training programme ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA’s astronaut reserve members have completed their Astronaut Reserve Training (ART) programme, marking a key milestone in Europe’s human spaceflight ambitions. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 4
+  },
+  {
     "source": "Spaceflight Now",
     "date_parsed": "2026-05-21T13:13:17",
     "date_display": "Thu, 21 May 2026 13:13:17 +0000",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה תראה את הבכורה של מספר שדרוגים לרכב השיגור, כולל מנועים שעוצבו מחדש. הרמה מ-Pad 2 בסטארבייס, טקסס, מתוכננת במהלך חלון שייפתח ב-17:30. CDT (6:30 בערב EDT / 2230 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX scrubs first launch attempt of its Starship Version 3 rocket ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission will see the debut of several upgrades to the launch vehicle, including redesigned engines. Liftoff from Pad 2 at Starbase, Texas, is scheduled during a window that opens at 5:30 p.m. CDT (6:30 p.m. EDT / 2230 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:21:10\n\t\t\t\tב-20 במאי, אסטרונאוטית ESA סופי אדנוט ערכה שיחת טיסה עם נציגי תקשורת נבחרים בשידור חי על סיפון תחנת החלל הבינלאומית. במהלך הדיון, סופי שיתפה תובנות על חיים ומחקר במסלול, כולל ניסיון מדעי... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Inflight call with ESA astronaut Sophie Adenot ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:21:10\n\t\t\t\tOn 20 May, ESA astronaut Sophie Adenot conducted an in-flight call with selected media representatives live aboard the International Space Station. During the discussion, Sophie shared insights into life and research in orbit, including scientific exper... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -117,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-31 הייתה השיגור ה-58 של Falcon 9 עד כה בשנת 2026. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל אירעה בשעה 6:04 בבוקר EDT (1004 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX’s sunrise Starlink launch adds 29 satellites to low Earth orbit megaconstellation ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-31 mission was the 58th Falcon 9 launch so far in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 6:04 a.m. EDT (1004 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +157,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 10-31 הייתה השיגור ה-58 של Falcon 9 עד כה בשנת 2026. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל אירעה בשעה 6:04 בבוקר EDT (1004 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX’s sunrise Starlink launch adds 29 satellites to low Earth orbit megaconstellation ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 10-31 mission was the 58th Falcon 9 launch so far in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 6:04 a.m. EDT (1004 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית מרחיבה את הצי ההולך וגדל שלה של משימות צופי צופי כדור הארץ עם בחירה של שני לוויינים חדשים: Hibidis ו-SOVA-S. משימות אלה, שנבחרו מתוך ארבעה מושגים מתחרים אחרונים, יתמודדו עם מדעיים שונים מאוד אך דוחקים באותה מידה... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Greenlight for next two ESA Scout missions ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency is expanding its growing fleet of Earth-observing science Scout missions with the selection of two new satellites: Hibidis and SOVA-S.Chosen from four final competing concepts, these missions will tackle very different but equally pressing scientific ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "SpaceX",
@@ -177,7 +197,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink ה-45 של SpaceX השנה הביאה את החברה להוסיף עוד 24 לווייני אינטרנט בפס רחב למסלול נמוך של כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 19:46. PDT (22:46 EDT / 0246 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket launch from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! SpaceX’s 45th Starlink mission of the year saw the company add another 24 broadband internet satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:46 p.m. PDT (10:46 p.m. EDT / 0246 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -197,7 +217,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink ה-45 של SpaceX השנה הביאה את החברה להוסיף עוד 24 לווייני אינטרנט בפס רחב למסלול נמוך של כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 19:46. PDT (22:46 EDT / 0246 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket launch from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! SpaceX’s 45th Starlink mission of the year saw the company add another 24 broadband internet satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:46 p.m. PDT (10:46 p.m. EDT / 0246 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "ESA",
@@ -217,26 +237,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:04:00\n\t\t\t\tלוויין Smile של ESA שוגר על סיפון רקטת Vega-C מנמל החלל של אירופה בגיאנה הצרפתית. הרקטה התרוממת בשעה 04:52 BST / 05:52 CEST (00:52 שעון מקומי) ב-19 במאי 2026. סמייל טס לחלל בטיסת Vega-C VV29. בגובה 35 מ', וגה-C שוקל... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Smile launch highlights ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:04:00\n\t\t\t\tESA’s Smile satellite launched aboard a Vega-C rocket from Europe’s Spaceport in French Guiana. The rocket lifted off on at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026.Smile flew to space on Vega-C flight VV29. At 35 m tall, a Vega-C weighs... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-05-19T07:00:00",
-    "date_display": "Tue, 19 May 2026 07:00:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_the_solar_wind",
-    "title_en": "Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind",
-    "summary_en": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026. The launch marks the beginning of an ambitious mission to better understand solar storms, geomagnetic storms, and the scienc...",
-    "image": "",
-    "title_ru": "Smile отправляется на поиски невидимого щита Земли от солнечного ветра",
-    "summary_ru": "Космический корабль Smile стартовал на ракете Vega-C с европейского космодрома во Французской Гвиане в 04:52 BST / 05:52 CEST (00:52 по местному времени) 19 мая 2026 года. Запуск знаменует собой начало амбициозной миссии по лучшему пониманию солнечных бурь, геомагнитных бурь и научных исследований.",
-    "title_ru_kids": "🚀 Smile отправляется на поиски невидимого щита Земли от солнечного ветра ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Космический корабль Smile стартовал на ракете Vega-C с европейского космодрома во Французской Гвиане в 04:52 BST / 05:52 CEST (00:52 по местному времени) 19 мая 2026 года. Запуск знаменует собой начало амбициозной миссии по лучшему пониманию солнечных бурь, геомагнитных бурь и научных исследований. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
-    "title_he": "החיוך מתרומם במסע לחשוף את המגן הבלתי נראה של כדור הארץ נגד רוח השמש",
-    "summary_he": "החללית Smile התרוממה על רקטת Vega-C מנמל החלל של אירופה בגיאנה הצרפתית בשעה 04:52 BST / 05:52 CEST (00:52 שעון מקומי) ב-19 במאי 2026. השיגור מסמן את תחילתה של משימה שאפתנית להבנה טובה יותר של סופות שמש, סערות גיאומגנטיות ומדעי...",
-    "title_he_kids": "🚀 החיוך מתרומם במסע לחשוף את המגן הבלתי נראה של כדור הארץ נגד רוח השמש ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! החללית Smile התרוממה על רקטת Vega-C מנמל החלל של אירופה בגיאנה הצרפתית בשעה 04:52 BST / 05:52 CEST (00:52 שעון מקומי) ב-19 במאי 2026. השיגור מסמן את תחילתה של משימה שאפתנית להבנה טובה יותר של סופות שמש, סערות גיאומגנטיות ומדעי... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04:52 BST / 05:52 CEST (00:52 local time) on 19 May 2026. The launch marks the beginning of an ambitious mission to better understand solar storms, geomagnetic storms, and the scienc... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
     "id": 12
   },
   {
