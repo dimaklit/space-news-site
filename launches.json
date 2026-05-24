@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 17-37",
-    "window_start": "2026-05-23T14:00:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 10-47",
     "window_start": "2026-05-25T11:41:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Atlas V 551",
     "pad": "Space Launch Complex 41",
     "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "GSLV Mk II | GISAT-1A (EOS-05)",
+    "window_start": "2026-05-31T00:00:00Z",
+    "rocket": "GSLV Mk. II",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "location": "Satish Dhawan Space Centre, India"
   }
 ]
