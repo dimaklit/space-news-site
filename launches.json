@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 2F/G | Shenzhou 23",
-    "window_start": "2026-05-24T14:58:00Z",
-    "rocket": "Long March 2F/G",
-    "pad": "Launch Area 91 (SLS-1 / 921)",
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 10-47",
     "window_start": "2026-05-25T11:41:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -32,6 +25,13 @@
     "window_start": "2026-05-29T11:52:00Z",
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 40",
+    "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Atlas V 551 | Amazon Leo (LA-07)",
+    "window_start": "2026-05-29T23:33:00Z",
+    "rocket": "Atlas V 551",
+    "pad": "Space Launch Complex 41",
     "location": "Cape Canaveral SFS, FL, USA"
   }
 ]
