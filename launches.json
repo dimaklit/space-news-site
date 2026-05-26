@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 10-47",
-    "window_start": "2026-05-25T11:41:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 17-37",
     "window_start": "2026-05-26T14:00:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Atlas V 551",
     "pad": "Space Launch Complex 41",
     "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 17-41",
+    "window_start": "2026-05-30T14:00:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   }
 ]
