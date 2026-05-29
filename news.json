@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-05-29T15:10:00",
+    "date_display": "Fri, 29 May 2026 15:10:00 +0200",
+    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_25-29_May_2026",
+    "title_en": "Week in images: 25-29 May 2026",
+    "summary_en": "Week in images: 25-29 May 2026\n\tDiscover our week through the lens",
+    "image": "",
+    "title_ru": "Неделя в изображениях: 25–29 мая 2026 г.",
+    "summary_ru": "Неделя в изображениях: 25–29 мая 2026 г.\n\tОткройте для себя нашу неделю через призму",
+    "title_ru_kids": "🚀 Неделя в изображениях: 25–29 мая 2026 г. ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 25–29 мая 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "Week in images: 25-29 May 2026",
+    "summary_he": "שבוע בתמונות: 25-29 במאי 2026\n\tגלה את השבוע שלנו דרך העדשה",
+    "title_he_kids": "🚀 Week in images: 25-29 May 2026 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 25-29 במאי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Week in images: 25-29 May 2026 ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 25-29 May 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-05-29T10:00:00",
     "date_display": "Fri, 29 May 2026 10:00:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Images/2026/05/Earth_from_Space_Batagaika_Crater",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו של Copernicus Sentinel-2 מציגה את מכתש Batagaika בסיביר. זהו מכתש הפרמפרוסט הגדול ביותר בעולם, הנגרם מהמסת הפרמפרוסט וידוע גם כ'מגה-שפל'. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Earth from Space: Batagaika Crater ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis Copernicus Sentinel-2 image features the Batagaika Crater in Siberia. This is the biggest permafrost crater in the world, caused by melting permafrost and also known as a ‘mega-slump’. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הפיצוץ אירע בשעה 21:00. EDT (0100 UTC) במהלך ניסוי אש סטטי של הרקטה במתחם השיגור 36 בתחנת כוח החלל קייפ קנוורל. Blue Origin הייתה אמורה להשיק משימה עבור Amazon Leo כבר ב-4 ביוני. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Blue Origin’s New Glenn rocket explodes during prelaunch testing at Cape Canaveral ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The explosion happened at 9 p.m. EDT (0100 UTC) during a static fire test of the rocket at Launch Complex 36 at Cape Canaveral Space Force Station. Blue Origin was slated to launch a mission for Amazon Leo as soon as June 4. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "SpaceX",
@@ -45,19 +65,19 @@
     "date_display": "Fri, 29 May 2026 00:33:17 +0000",
     "link": "https://spaceflightnow.com/2026/05/29/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-14/",
     "title_en": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
-    "summary_en": "The Starlink 10-53 mission will be the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:57 a.m. EDT (1257 UTC).",
+    "summary_en": "The Starlink 10-53 mission was the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station 8:57 a.m. EDT (1257 UTC).",
     "image": "",
     "title_ru": "Прямая трансляция: SpaceX запустит 29 спутников Starlink на ракете Falcon 9 с мыса Канаверал",
-    "summary_ru": "Миссия Starlink 10-53 станет 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:57 утра по восточному времени (12:57 UTC).",
+    "summary_ru": "Миссия Starlink 10-53 стала 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал в 8:57 утра по восточному времени (12:57 UTC).",
     "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит 29 спутников Starlink на ракете Falcon 9 с мыса Канаверал ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 10-53 станет 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:57 утра по восточному времени (12:57 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 10-53 стала 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал в 8:57 утра по восточному времени (12:57 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "סיקור חי: SpaceX תשגר 29 לווייני Starlink על רקטת פלקון 9 מקייפ קנוורל",
-    "summary_he": "משימת Starlink 10-53 תהיה המשימה ה-49 שתוקדש להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 8:57 בבוקר EDT (1257 UTC).",
+    "summary_he": "משימת Starlink 10-53 הייתה המשימה ה-49 שהוקדשה להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. התרפה משטח 40 בתחנת כוח החלל קייפ קנוורל 8:57 בבוקר EDT (1257 UTC).",
     "title_he_kids": "🚀 סיקור חי: SpaceX תשגר 29 לווייני Starlink על רקטת פלקון 9 מקייפ קנוורל ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-53 תהיה המשימה ה-49 שתוקדש להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 8:57 בבוקר EDT (1257 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-53 הייתה המשימה ה-49 שהוקדשה להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. התרפה משטח 40 בתחנת כוח החלל קייפ קנוורל 8:57 בבוקר EDT (1257 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral ✨",
-    "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-53 mission will be the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:57 a.m. EDT (1257 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-53 mission was the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station 8:57 a.m. EDT (1257 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -65,19 +85,19 @@
     "date_display": "Fri, 29 May 2026 00:33:17 +0000",
     "link": "https://spaceflightnow.com/2026/05/29/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-14/",
     "title_en": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
-    "summary_en": "The Starlink 10-53 mission will be the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:57 a.m. EDT (1257 UTC).",
+    "summary_en": "The Starlink 10-53 mission was the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station 8:57 a.m. EDT (1257 UTC).",
     "image": "",
     "title_ru": "Прямая трансляция: SpaceX запустит 29 спутников Starlink на ракете Falcon 9 с мыса Канаверал",
-    "summary_ru": "Миссия Starlink 10-53 станет 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:57 утра по восточному времени (12:57 UTC).",
+    "summary_ru": "Миссия Starlink 10-53 стала 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал в 8:57 утра по восточному времени (12:57 UTC).",
     "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит 29 спутников Starlink на ракете Falcon 9 с мыса Канаверал ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Миссия Starlink 10-53 станет 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:57 утра по восточному времени (12:57 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Миссия Starlink 10-53 стала 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал в 8:57 утра по восточному времени (12:57 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "סיקור חי: SpaceX תשגר 29 לווייני Starlink על רקטת פלקון 9 מקייפ קנוורל",
-    "summary_he": "משימת Starlink 10-53 תהיה המשימה ה-49 שתוקדש להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 8:57 בבוקר EDT (1257 UTC).",
+    "summary_he": "משימת Starlink 10-53 הייתה המשימה ה-49 שהוקדשה להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. התרפה משטח 40 בתחנת כוח החלל קייפ קנוורל 8:57 בבוקר EDT (1257 UTC).",
     "title_he_kids": "🚀 סיקור חי: SpaceX תשגר 29 לווייני Starlink על רקטת פלקון 9 מקייפ קנוורל ✨",
-    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 10-53 תהיה המשימה ה-49 שתוקדש להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 8:57 בבוקר EDT (1257 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 10-53 הייתה המשימה ה-49 שהוקדשה להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. התרפה משטח 40 בתחנת כוח החלל קייפ קנוורל 8:57 בבוקר EDT (1257 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral ✨",
-    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 10-53 mission will be the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:57 a.m. EDT (1257 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 10-53 mission was the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station 8:57 a.m. EDT (1257 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tהלוויין Meteosat דור שלישי-Imager2 מפליג מצרפת לגיאנה הצרפתית 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 MTG-I2 embarks on journey to Europe’s Spaceport ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThe Meteosat Third Generation-Imager2 satellite sets sail from France to French Guiana 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מינהל התעופה הפדרלי קיבל את הקביעה לאחר ניתוח תוצאות טיסת ספינת הכוכבים 12, שהתקיימה ביום שישי, 22 במאי. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 FAA requires SpaceX-led mishap investigation before resumption of Starship launches ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Federal Aviation Administration made the determination after analyzing the results of Starship Flight 12, which took place on Friday, May 22. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! באמצעות ההדמיה והכוח הספקטרוסקופי חסר התקדים של טלסקופ החלל ג'יימס ווב של נאס\"א/ESA/CSA, חוקרים מיפו את התנועה וההרכב של גז המקיף חור שחור במרכז Abell2744-QSO1, גלקסיה זעירה במרחק של יותר מ-13 מיליארד שנות אור. המיל... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Webb reveals black hole that formed before its galaxy ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Using the unprecedented imaging and spectroscopic power of the NASA/ESA/CSA James Webb Space Telescope, researchers have mapped the motion and composition of gas orbiting a black hole in the centre of Abell2744-QSO1, a tiny galaxy more than 13 billion light-years away. The res... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -157,7 +177,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! החזון של נאס\"א לבסיס ירח רחב ידיים יכסה \"מאות קילומטרים רבועים\" כדי לכסות את המוני האתרים השונים שהסוכנות רוצה לחקור. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 NASA outlines nearly $1 billion investment into initial Moon Base missions ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA’s vision for a sprawling Moon Base will cover “hundreds of square miles” to cover the multitudes of various sites that the agency wants to explore. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -177,7 +197,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מסיבת העיתונאים ביום שלישי, אמורה להתחיל בשעה 14:00. EDT (1800 UTC), הוא העדכון הגדול הראשון של נאס\"א מאז חשף המנהל ג'ארד אייזקמן את הפרויקט בסוף מרץ. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Preview: NASA updates progress towards established a Moon Base, Artemis 3 mission ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The press conference on Tuesday, scheduled to begin at 2 p.m. EDT (1800 UTC), is the first major update from NASA since Administrator Jared Isaacman unveiled the project in late March. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "SpaceX",
@@ -197,7 +217,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-37 טסה על הרקטה ה-60 של פלקון 9 ששוגרה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 7:50 בבוקר PDT (10:50 בבוקר EDT / 1450 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-37 mission flew on the 60th Falcon 9 rocket launched in 2026. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:50 a.m. PDT (10:50 a.m. EDT / 1450 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -217,7 +237,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-37 טסה על הרקטה ה-60 של פלקון 9 ששוגרה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 7:50 בבוקר PDT (10:50 בבוקר EDT / 1450 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-37 mission flew on the 60th Falcon 9 rocket launched in 2026. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:50 a.m. PDT (10:50 a.m. EDT / 1450 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "SpaceX",
@@ -237,7 +257,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה הייתה טיסת המסלול ה-60 של SpaceX בשנה, כולל שיגור אחד של Falcon Heavy ו-59 טיסות פלקון 9. הסרת משימת Starlink 10-47 ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 7:48 בבוקר EDT (1148 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 29 Starlink satellites on Memorial Day ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission was SpaceX’s 60th orbital flight of the year, including one Falcon Heavy launch and 59 Falcon 9 flights. Liftoff of the Starlink 10-47 mission from pad 40 at Cape Canaveral Space Force Station happened at 7:48 a.m. EDT (1148 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "Spaceflight Now",
@@ -257,7 +277,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! המשימה הייתה טיסת המסלול ה-60 של SpaceX בשנה, כולל שיגור אחד של Falcon Heavy ו-59 טיסות פלקון 9. הסרת משימת Starlink 10-47 ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 7:48 בבוקר EDT (1148 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 29 Starlink satellites on Memorial Day ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The mission was SpaceX’s 60th orbital flight of the year, including one Falcon Heavy launch and 59 Falcon 9 flights. Liftoff of the Starlink 10-47 mission from pad 40 at Cape Canaveral Space Force Station happened at 7:48 a.m. EDT (1148 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 13
+    "id": 14
   },
   {
     "source": "Spaceflight Now",
@@ -277,7 +297,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! השלב העליון של ספינת הכוכבים צויד בשישה מנועי רפטור מהדור השלישי ואחד משלושה אופטימלי לפעולה בוואקום כיבוי מוקדם במהלך הטיפוס לחלל. מחשב הטיסה החזיק את חמשת המנועים האחרים פועלים זמן רב יותר מהמתוכנן המקורי כדי לפצות על... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Musk praises “epic” Super Heavy-Starship launch ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starship upper stage was equipped with six third-generation Raptor engines and one of three optimized for operating in vacuum shut down early during the climb to space. The flight computer kept the other five engines running longer than originally planned to make up for th... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 14
+    "id": 15
   },
   {
     "source": "ESA",
@@ -297,7 +317,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! השקת משימת 4DSpace-Daedalus בנורבגיה היא ההצלחה האחרונה שנתמכת על ידי Prodex, תוכנית של סוכנות החלל האירופית (ESA) המאפשרת למכוני מחקר מיומנים ביותר להשתתף בפעילויות ומשימות של מדעי החלל האירופיים. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA’s Prodex programme brings scientific research to space ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The launch of the&nbsp;4DSpace-Daedalus&nbsp;mission in Norway is the latest success supported by Prodex, a European Space Agency (ESA) programme which enables highly skilled research institutes to partake in European space science activities and missions. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 15
+    "id": 16
   },
   {
     "source": "ESA",
@@ -317,7 +337,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מנכ\"ל ESA, יוסף אשבאכר, השתתף במהדורה ה-21 של פורום GLOBSEC, שהתקיים בין ה-21 ל-23 במאי בפראג, צ'כיה, תחת הנושא 'הטרנספורמציה המערכתית הגלובלית'. הכינוס ברמה הגבוהה הפגיש מנהיגים פוליטיים, נציגי תעשייה ו... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA at GLOBSEC 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA Director General Josef Aschbacher participated in the 21st edition of the GLOBSEC Forum, held from 21 to 23 May in Prague, Czechia, under the theme ‘The Global Systemic Transformation.’ The high‑level gathering brought together political leaders, industry representatives a... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 16
+    "id": 17
   },
   {
     "source": "ESA",
@@ -337,26 +357,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 18-22 במאי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Week in images: 18-22 May 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 18-22 May 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 17
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-05-21T15:00:00",
-    "date_display": "Thu, 21 May 2026 15:00:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Insights_into_Earth_s_molten_outer_core_from_space",
-    "title_en": "Insights into Earth’s molten outer core from space",
-    "summary_en": "The liquid iron in Earth’s outer core doesn’t always behave as expected. When it changed direction in an unexplained way, ESA satellites provided data on the direction of flow, helping scientists gain better insight into the dynamics at the centre of our planet.",
-    "image": "",
-    "title_ru": "Взгляд на расплавленное внешнее ядро ​​Земли из космоса",
-    "summary_ru": "Жидкое железо во внешнем ядре Земли не всегда ведет себя так, как ожидалось. Когда он необъяснимым образом изменил направление, спутники ЕКА предоставили данные о направлении потока, помогая ученым лучше понять динамику в центре нашей планеты.",
-    "title_ru_kids": "🚀 Взгляд на расплавленное внешнее ядро ​​Земли из космоса ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Жидкое железо во внешнем ядре Земли не всегда ведет себя так, как ожидалось. Когда он необъяснимым образом изменил направление, спутники ЕКА предоставили данные о направлении потока, помогая ученым лучше понять динамику в центре нашей планеты. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
-    "title_he": "תובנות על הליבה החיצונית המותכת של כדור הארץ מהחלל",
-    "summary_he": "הברזל הנוזלי בליבה החיצונית של כדור הארץ לא תמיד מתנהג כמצופה. כאשר הוא שינה כיוון בצורה בלתי מוסברת, לווייני ESA סיפקו נתונים על כיוון הזרימה, ועזרו למדענים לקבל תובנה טובה יותר לגבי הדינמיקה במרכז הפלנטה שלנו.",
-    "title_he_kids": "🚀 תובנות על הליבה החיצונית המותכת של כדור הארץ מהחלל ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הברזל הנוזלי בליבה החיצונית של כדור הארץ לא תמיד מתנהג כמצופה. כאשר הוא שינה כיוון בצורה בלתי מוסברת, לווייני ESA סיפקו נתונים על כיוון הזרימה, ועזרו למדענים לקבל תובנה טובה יותר לגבי הדינמיקה במרכז הפלנטה שלנו. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Insights into Earth’s molten outer core from space ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The liquid iron in Earth’s outer core doesn’t always behave as expected. When it changed direction in an unexplained way, ESA satellites provided data on the direction of flow, helping scientists gain better insight into the dynamics at the centre of our planet. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
     "id": 18
   },
   {
