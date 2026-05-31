@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 17-41",
-    "window_start": "2026-05-30T14:00:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "South Korean ADD Solid-Fuel SLV | Demo Flight",
     "window_start": "2026-06-01T05:00:00Z",
     "rocket": "South Korean ADD Solid-Fuel SLV",
@@ -33,5 +26,12 @@
     "rocket": "GSLV Mk. II",
     "pad": "Satish Dhawan Space Centre Second Launch Pad",
     "location": "Satish Dhawan Space Centre, India"
+  },
+  {
+    "name_en": "H3-30 | H3-30 Test Flight",
+    "window_start": "2026-06-10T00:53:59Z",
+    "rocket": "H3-30",
+    "pad": "Yoshinobu Launch Complex LP-2",
+    "location": "Tanegashima Space Center, Japan"
   }
 ]
