@@ -86,7 +86,6 @@
             border-color: var(--accent);
         }
 
-        /* Интерактивный Космический Дашборд */
         .dashboard-grid {
             width: 100%;
             max-width: 1200px;
@@ -131,7 +130,6 @@
             letter-spacing: 1px;
         }
 
-        /* Окно живой зум-карты Leaflet */
         .iss-map-container {
             width: 100%;
             height: 130px;
@@ -168,7 +166,6 @@
             50% { opacity: 1; }
         }
 
-        /* Минималистичная сетка новостей с эмодзи */
         .news-grid {
             width: 100%;
             max-width: 1200px;
@@ -254,7 +251,6 @@
             margin-top: auto;
         }
 
-        /* Календарь пусков */
         .launches-section {
             width: 100%;
             max-width: 1200px;
@@ -352,13 +348,11 @@
         </div>
     </div>
 
-    <main class="news-grid" id="news-container">
-        </main>
+    <main class="news-grid" id="news-container"></main>
 
     <section class="launches-section">
         <h2 class="launches-title" id="launches-heading">Upcoming Space Launches</h2>
-        <div class="launch-list" id="launches-container">
-            </div>
+        <div class="launch-list" id="launches-container"></div>
     </section>
 
     <script>
@@ -377,7 +371,6 @@
 
         async function init() {
             try {
-                // ПРИНУДИТЕЛЬНОЕ ИСПРАВЛЕНИЕ: Сразу жестко выставляем английский интерфейс, блокируя русский кэш
                 updateInterfaceTexts();
                 initSkyMap();
 
@@ -399,13 +392,11 @@
 
                 trackISS();
 
-                // Загрузка расписания пусков
                 const launchResponse = await fetch('launches.json?t=' + Date.now());
                 launchData = await launchResponse.json();
                 initLaunchTimer();
                 renderLaunches();
 
-                // Загрузка новостей
                 const newsResponse = await fetch('news.json?t=' + Date.now());
                 newsData = await newsResponse.json();
                 renderNews();
@@ -424,8 +415,6 @@
                 let title = article.title_en;
                 let summary = article.summary_en;
 
-                // УМНАЯ ЗАЩИТА ОТ UNDEFINED: Если бэкенд на GitHub Actions запаздывает, 
-                // фронтенд собирает динамические строки сам, исключая поломку интерфейса!
                 if (currentLang === 'ru') {
                     title = currentMode === 'kids' ? (article.title_ru_kids || `🚀 ${article.title_ru} ✨`) : article.title_ru;
                     summary = currentMode === 'kids' ? (article.summary_ru_kids || `🌟 Смотри, что в космосе: ${article.summary_ru} 🪐 Telescope`) : article.summary_ru;
@@ -581,7 +570,7 @@
                 issMarker = L.marker([31.6067, 34.7718], { icon: issIcon }).addTo(issMap);
             }
 
-        function updatePosition() {
+            function updatePosition() {
                 fetch('https://api.wheretheiss.at/v1/satellites/25544')
                     .then(res => res.json())
                     .then(data => {
@@ -591,16 +580,11 @@
                         coordsEl.innerText = `${lat.toFixed(4)}°, ${lng.toFixed(4)}°`;
 
                         const newLatLng = new L.LatLng(lat, lng);
-                        
-                        // ИСПРАВЛЕНИЕ ПРЫЖКОВ: Перемещаем маркер МКС
                         issMarker.setLatLng(newLatLng);
                         
-                        // Если это первая загрузка, просто жестко центрируем карту без анимации
                         if (issMap.getZoom() === 3 && issMap.getCenter().lat === 31.6067) {
                             issMap.setView(newLatLng, 4); 
                         } else {
-                            // Безопасный сдвиг карты: 
-                            // Включаем встроенную защиту Leaflet от прыжков через 180-й меридиан (noMoveStart)
                             issMap.panTo(newLatLng, { 
                                 animate: true, 
                                 duration: 2.0, 
@@ -609,7 +593,6 @@
                             });
                         }
 
-                        // Определение точной зоны пролета
                         fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&zoom=4&addressdetails=0`, {
                             headers: { 'User-Agent': 'AstroTrackSpaceDashboard/1.0' }
                         })
@@ -630,7 +613,6 @@
                         });
                     })
                     .catch(() => {
-                        // Резервный плавный демо-трек
                         const time = Date.now() * 0.00003;
                         const mockLat = Math.sin(time) * 51.6;
                         const mockLng = ((time * 25) % 360) - 180;
@@ -641,6 +623,11 @@
                         issMap.panTo(demoLatLng, { animate: false });
                     });
             }
+
+            updatePosition();
+            setInterval(updatePosition, 5000);
+        } // Скобка закрывает trackISS()
+
         function changeLanguage(lang) {
             currentLang = lang;
             document.documentElement.lang = lang;
