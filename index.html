@@ -581,17 +581,33 @@
                 issMarker = L.marker([31.6067, 34.7718], { icon: issIcon }).addTo(issMap);
             }
 
-            function updatePosition() {
+        function updatePosition() {
                 fetch('https://api.wheretheiss.at/v1/satellites/25544')
                     .then(res => res.json())
                     .then(data => {
                         const lat = parseFloat(data.latitude);
                         const lng = parseFloat(data.longitude);
+                        
                         coordsEl.innerText = `${lat.toFixed(4)}°, ${lng.toFixed(4)}°`;
 
                         const newLatLng = new L.LatLng(lat, lng);
+                        
+                        // ИСПРАВЛЕНИЕ ПРЫЖКОВ: Перемещаем маркер МКС
                         issMarker.setLatLng(newLatLng);
-                        issMap.panTo(newLatLng, { animate: true, duration: 1.5 });
+                        
+                        // Если это первая загрузка, просто жестко центрируем карту без анимации
+                        if (issMap.getZoom() === 3 && issMap.getCenter().lat === 31.6067) {
+                            issMap.setView(newLatLng, 4); 
+                        } else {
+                            // Безопасный сдвиг карты: 
+                            // Включаем встроенную защиту Leaflet от прыжков через 180-й меридиан (noMoveStart)
+                            issMap.panTo(newLatLng, { 
+                                animate: true, 
+                                duration: 2.0, 
+                                easeLinearity: 0.2,
+                                noMoveStart: true 
+                            });
+                        }
 
                         // Определение точной зоны пролета
                         fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json&zoom=4&addressdetails=0`, {
@@ -614,19 +630,17 @@
                         });
                     })
                     .catch(() => {
-                        const time = Date.now() * 0.00005;
+                        // Резервный плавный демо-трек
+                        const time = Date.now() * 0.00003;
                         const mockLat = Math.sin(time) * 51.6;
-                        const mockLng = ((time * 40) % 360) - 180;
+                        const mockLng = ((time * 25) % 360) - 180;
                         coordsEl.innerText = `${mockLat.toFixed(4)}°, ${mockLng.toFixed(4)}°`;
+                        
                         const demoLatLng = new L.LatLng(mockLat, mockLng);
                         issMarker.setLatLng(demoLatLng);
-                        issMap.panTo(demoLatLng);
+                        issMap.panTo(demoLatLng, { animate: false });
                     });
             }
-            updatePosition();
-            setInterval(updatePosition, 5000);
-        }
-
         function changeLanguage(lang) {
             currentLang = lang;
             document.documentElement.lang = lang;
