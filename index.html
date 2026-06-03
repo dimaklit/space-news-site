@@ -533,7 +533,7 @@
             if (window.currentUserCity) {
                 applySkyTitle(window.currentUserCity);
             } else if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(
+            navigator.geolocation.getCurrentPosition(
                     (position) => {
                         const userLat = position.coords.latitude;
                         const userLng = position.coords.longitude;
@@ -549,19 +549,30 @@
                             window.currentUserCity = city;
                             applySkyTitle(city);
                         })
-                        .catch(() => fallbackSkyTitle());
+                        .catch(() => fallbackSkyTitle(position)); // <-- Передаем позицию при сбое сервера геокодинга
                     },
-                    () => fallbackSkyTitle()
+                    () => fallbackSkyTitle() // Передаем пустоту, если заблокирован сам GPS
                 );
             } else {
                 fallbackSkyTitle();
             }
 
-            function fallbackSkyTitle() {
-                window.currentUserCity = currentLang === 'ru' ? "Кирьят-Гат" : currentLang === 'he' ? "קריית גת" : "Kiryat Gat";
-                applySkyTitle(window.currentUserCity);
+            // Улучшенный блок отката: если имя города недоступно, выводим живые GPS-координаты браузера
+            function fallbackSkyTitle(errorPosition = null) {
+                if (errorPosition && errorPosition.coords) {
+                    // Если браузер дал координаты, но упал сервер Nominatim — выводим GPS-метку
+                    const latStr = errorPosition.coords.latitude.toFixed(2);
+                    const lngStr = errorPosition.coords.longitude.toFixed(2);
+                    
+                    if (currentLang === 'ru') titleEl.textContent = `🌌 Локальное небо (${latStr}°, ${lngStr}°)`;
+                    else if (currentLang === 'he') titleEl.textContent = `🌌 שמי המיקום (${latStr}°, ${lngStr}°)`;
+                    else titleEl.textContent = `🌌 Local Sky (${latStr}°, ${lngStr}°)`;
+                } else {
+                    // Полный откат, если геолокация вообще заблокирована в браузере
+                    window.currentUserCity = currentLang === 'ru' ? "Кирьят-Гат" : currentLang === 'he' ? "קריית גת" : "Kiryat Gat";
+                    applySkyTitle(window.currentUserCity);
+                }
             }
-
             for (let i = 0; i < 35; i++) {
                 const star = document.createElement('div');
                 star.className = 'star';
