@@ -149,11 +149,6 @@
             margin-right: 2px;
         }
 
-        body[dir="rtl"] .timer-unit {
-            margin-left: 2px;
-            margin-right: 2px;
-        }
-
         /* Окно живой зум-карты Leaflet */
         .iss-map-container {
             width: 100%;
@@ -350,7 +345,7 @@
 
     <div class="dashboard-grid">
         <div class="dash-card">
-            <h3 id="dash-sky-title">🌌 Local Sky (Kiryat Gat)</h3>
+            <h3 id="dash-sky-title">🌌 Local Sky</h3>
             <div class="skymap-container" id="sky-map">
                 <div style="z-index: 2; text-align: center; font-size: 12px; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">
                     <strong id="sky-constellation">Telemetry link...</strong><br>
@@ -392,10 +387,11 @@
         let issMap = null;
         let issMarker = null;
 
+        // ИСПРАВЛЕНИЕ: Вычистили жестко зашитые имена городов из переводов дашборда
         const translations = {
-            en: { title: "AstroTrack", regular: "Regular Mode", kids: "Kids Edition 🚀", dashSky: "🌌 Local Sky (Kiryat Gat)", dashAlert: "🚨 Spaceport Alerts", dashIss: "🛰️ ISS Orbit Tracker", launches: "Upcoming Space Launches", waiting: "Calculating location...", telemetry: "Link established" },
-            ru: { title: "AstroTrack", regular: "Обычный режим", kids: "Детский режим 🚀", dashSky: "🌌 Небо над Кирьят-Гатом", dashAlert: "🚨 Сигналы космодрома", dashIss: "🛰️ Наблюдение за МКС", launches: "Ближайшие космические пуски", waiting: "Вычисление позиции...", telemetry: "Связь установлена" },
-            he: { title: "AstroTrack", regular: "מצב רגיל", kids: "גרסת ילדים 🚀", dashSky: "🌌 שמי קריית גת", dashAlert: "🚨 התראות נמל חלל", dashIss: "🛰️ מעקב תחנת החלל הבינלאומית", launches: "שיגורי חלל קרובים", waiting: "מחשב מיקום...", telemetry: "חיבור תקין" }
+            en: { title: "AstroTrack", regular: "Regular Mode", kids: "Kids Edition 🚀", dashSky: "🌌 Local Sky", dashAlert: "🚨 Spaceport Alerts", dashIss: "🛰️ ISS Orbit Tracker", launches: "Upcoming Space Launches", waiting: "Calculating location...", telemetry: "Link established" },
+            ru: { title: "AstroTrack", regular: "Обычный режим", kids: "Детский режим 🚀", dashSky: "🌌 Локальное небо", dashAlert: "🚨 Сигналы космодрома", dashIss: "🛰️ Наблюдение за МКС", launches: "Ближайшие космические пуски", waiting: "Вычисление позиции...", telemetry: "Связь установлена" },
+            he: { title: "AstroTrack", regular: "מצב רגיל", kids: "גרסת ילדים 🚀", dashSky: "🌌 שמי המיקום", dashAlert: "🚨 התראות נמל חלל", dashIss: "🛰️ מעקב תחנת החלל הבינלאומית", launches: "שיגורי חלל קרובים", waiting: "מחשב מיקום...", telemetry: "חיבור תקין" }
         };
 
         async function init() {
@@ -447,8 +443,6 @@
                 let title = article.title_en;
                 let summary = article.summary_en;
 
-                // УМНАЯ ЗАЩИТА ОТ UNDEFINED: Если бэкенд на GitHub Actions запаздывает, 
-                // фронтенд собирает динамические строки сам, исключая поломку интерфейса!
                 if (currentLang === 'ru') {
                     title = currentMode === 'kids' ? (article.title_ru_kids || `🚀 ${article.title_ru} ✨`) : article.title_ru;
                     summary = currentMode === 'kids' ? (article.summary_ru_kids || `🌟 Смотри, что в космосе: ${article.summary_ru} 🪐🔭`) : article.summary_ru;
@@ -511,7 +505,7 @@
             });
         }
 
-        // === ИСПРАВЛЕННАЯ ЛОГИКА ДИНАМИЧЕСКОГО ЛОКАЛЬНОГО НЕБА ===
+        // === ИСПРАВЛЕННАЯ ЛОГИКА АВТОМАТИЧЕСКОЙ ГЕОЛОКАЦИИ ПОЛЬЗОВАТЕЛЯ ===
         function initSkyMap() {
             const map = document.getElementById('sky-map');
             const titleEl = document.getElementById('dash-sky-title');
@@ -529,8 +523,16 @@
             const currentList = constellations[currentLang] || constellations['en'];
             document.getElementById('sky-constellation').innerText = currentList[hour % currentList.length];
 
-            // ГЕНЕРАЦИЯ ГЕОЛОКАЦИИ ПОЛЬЗОВАТЕЛЯ БРАУЗЕРА
-            if (navigator.geolocation) {
+            // Интернациональная сборка строки заголовка на основе глобального кэша сессии
+            function applySkyTitle(cityName) {
+                if (currentLang === 'ru') titleEl.textContent = `🌌 Небо над: ${cityName}`;
+                else if (currentLang === 'he') titleEl.textContent = `🌌 שמי המיקום: ${cityName}`;
+                else titleEl.textContent = `🌌 Local Sky (${cityName})`;
+            }
+
+            if (window.currentUserCity) {
+                applySkyTitle(window.currentUserCity);
+            } else if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(
                     (position) => {
                         const userLat = position.coords.latitude;
@@ -544,9 +546,8 @@
                             const address = geoData.address;
                             const city = address.city || address.town || address.village || address.city_district || "Current Location";
                             
-                            if (currentLang === 'ru') titleEl.textContent = `🌌 Небо над: ${city}`;
-                            else if (currentLang === 'he') titleEl.textContent = `🌌 שמי המיקום: ${city}`;
-                            else titleEl.textContent = `🌌 Local Sky (${city})`;
+                            window.currentUserCity = city;
+                            applySkyTitle(city);
                         })
                         .catch(() => fallbackSkyTitle());
                     },
@@ -557,8 +558,8 @@
             }
 
             function fallbackSkyTitle() {
-                const t = translations[currentLang];
-                titleEl.textContent = t.dashSky; 
+                window.currentUserCity = currentLang === 'ru' ? "Кирьят-Гат" : currentLang === 'he' ? "קריית גת" : "Kiryat Gat";
+                applySkyTitle(window.currentUserCity);
             }
 
             for (let i = 0; i < 35; i++) {
@@ -589,7 +590,6 @@
             } catch(e) {}
         }
 
-        // === УМНЫЙ ФИЛЬТР БЛИЖАЙШИХ ПУСКОВ С АВТОПЕРЕСКОКОМ ===
         function initLaunchTimer() {
             if (!launchData || launchData.length === 0) {
                 document.getElementById('countdown-timer').innerText = "OFFLINE";
@@ -598,7 +598,6 @@
 
             const nowTime = new Date().getTime();
 
-            // Авто-фильтрация: Отбрасываем старые запуски, которые скрапер еще не стер из кэша
             let upcomingLaunches = launchData.filter(launch => {
                 return new Date(launch.window_start).getTime() > nowTime;
             });
@@ -609,8 +608,6 @@
 
             const nextLaunch = upcomingLaunches[0];
             document.getElementById('next-mission-name').innerText = `${nextLaunch.name_en} (${nextLaunch.rocket})`;
-            
-            // Считывание ISO UTC и автоматический перевод в часовой пояс пользователя
             const launchDate = new Date(nextLaunch.window_start).getTime();
 
             if (window.launchIntervalID) {
@@ -628,7 +625,6 @@
                     document.getElementById('launch-alert-status').innerText = currentLang === 'ru' ? "⚠️ СТАРТ СОСТОЯЛСЯ!" : currentLang === 'he' ? "⚠️ השיגור החל!" : "⚠️ LIFT OFF!";
                     document.getElementById('launch-alert-status').style.color = "#ff5555";
                     
-                    // Переключаемся на следующую ракету из массива через 10 секунд
                     setTimeout(() => {
                         initLaunchTimer();
                     }, 10000);
@@ -655,7 +651,6 @@
             }, 1000);
         }
 
-        // === СТАБИЛИЗИРОВАННЫЙ ТРЕКЕР МКС С ЗУМ-КАРТОЙ ===
         function trackISS() {
             const coordsEl = document.getElementById('iss-coords');
             const locationEl = document.getElementById('iss-location-text');
@@ -688,7 +683,6 @@
                         if (issMap.getZoom() === 3 && issMap.getCenter().lat === 31.6067) {
                             issMap.setView(newLatLng, 4); 
                         } else {
-                            // ИСПРАВЛЕНИЕ СКАЧКОВ: noMoveStart заставляет Leaflet мягко прокручивать карту
                             issMap.panTo(newLatLng, { 
                                 animate: true, 
                                 duration: 2.0, 
@@ -737,7 +731,7 @@
             document.documentElement.lang = lang;
             document.body.setAttribute('dir', lang === 'he' ? 'rtl' : 'ltr');
             updateInterfaceTexts();
-            initSkyMap(); // Перерасчет города и звезд под локаль
+            initSkyMap(); 
             
             const locationEl = document.getElementById('iss-location-text');
             if(locationEl) locationEl.innerHTML = `🌍 Location: <span style="color:#aaa;">${translations[currentLang].waiting}</span>`;
@@ -758,7 +752,7 @@
             document.getElementById('site-title').textContent = t.title;
             document.getElementById('mode-btn').textContent = currentMode === 'regular' ? t.regular : t.kids;
             
-            // КРИТИЧЕСКИЙ ФИКС: Убрали жесткое затирание dashSky, чтобы дать свободу автоопределению города!
+            // ИСПРАВЛЕНИЕ: Больше не перетираем заголовок dashSky статичным текстом при смене языков!
             document.getElementById('dash-alert-title').textContent = t.dashAlert;
             document.getElementById('dash-iss-title').textContent = t.dashIss;
             document.getElementById('launches-heading').textContent = t.launches;
