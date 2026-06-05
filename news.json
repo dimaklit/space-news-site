@@ -1,5 +1,45 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-06-05T10:00:00",
+    "date_display": "Fri, 05 Jun 2026 10:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Baku_Azerbaijan",
+    "title_en": "Earth from Space: Baku, Azerbaijan",
+    "summary_en": "Image:\n\t\t\tOn World Environment Day, the Copernicus Sentinel-2 mission brings us an amazing view from space of Baku, capital of Azerbaijan, hosting this year’s celebration.",
+    "image": "",
+    "title_ru": "Земля из космоса: Баку, Азербайджан",
+    "summary_ru": "Изображение:\n\t\t\tВо Всемирный день окружающей среды миссия Copernicus Sentinel-2 преподносит нам потрясающий вид из космоса на Баку, столицу Азербайджана, где в этом году проводится празднование.",
+    "title_ru_kids": "🚀 Земля из космоса: Баку, Азербайджан ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tВо Всемирный день окружающей среды миссия Copernicus Sentinel-2 преподносит нам потрясающий вид из космоса на Баку, столицу Азербайджана, где в этом году проводится празднование. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
+    "title_he": "כדור הארץ מהחלל: באקו, אזרבייג'ן",
+    "summary_he": "תמונה:\n\t\t\tביום הסביבה העולמי, משימת Copernicus Sentinel-2 מביאה לנו נוף מדהים מהחלל של באקו, בירת אזרבייג'ן, המארחת את החגיגה השנה.",
+    "title_he_kids": "🚀 כדור הארץ מהחלל: באקו, אזרבייג'ן ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tביום הסביבה העולמי, משימת Copernicus Sentinel-2 מביאה לנו נוף מדהים מהחלל של באקו, בירת אזרבייג'ן, המארחת את החגיגה השנה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Earth from Space: Baku, Azerbaijan ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tOn World Environment Day, the Copernicus Sentinel-2 mission brings us an amazing view from space of Baku, capital of Azerbaijan, hosting this year’s celebration. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-05T10:00:00",
+    "date_display": "Fri, 05 Jun 2026 10:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Webb_unveils_young_stars_across_every_stage_of_formation",
+    "title_en": "Webb unveils young stars across every stage of formation",
+    "summary_en": "Image:\n\t\t\tWebb unveils young stars across every stage of formation",
+    "image": "",
+    "title_ru": "Уэбб представляет молодых звезд на всех стадиях формирования",
+    "summary_ru": "Изображение:\n\t\t\tУэбб представляет молодых звезд на всех стадиях формирования",
+    "title_ru_kids": "🚀 Уэбб представляет молодых звезд на всех стадиях формирования ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tУэбб представляет молодых звезд на всех стадиях формирования 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "ווב חושף כוכבים צעירים בכל שלב של היווצרות",
+    "summary_he": "תמונה:\n\t\t\tווב חושף כוכבים צעירים בכל שלב של היווצרות",
+    "title_he_kids": "🚀 ווב חושף כוכבים צעירים בכל שלב של היווצרות ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tווב חושף כוכבים צעירים בכל שלב של היווצרות 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Webb unveils young stars across every stage of formation ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tWebb unveils young stars across every stage of formation 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 2
+  },
+  {
     "source": "Spaceflight Now",
     "date_parsed": "2026-06-04T18:08:20",
     "date_display": "Thu, 04 Jun 2026 18:08:20 +0000",
@@ -17,7 +57,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! השינוי אושר על ידי הסוכנות שבוע לאחר שפיצוץ ניסוי של ניו גלן השמיד את הרקטה ופגע במתחם השיגור 36. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 NASA head urges new launcher for Blue Origin’s moon landers to meet Artemis mission deadlines ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The change was confirmed by the agency a week after a New Glenn testing explosion destroyed the rocket and damaged Launch Complex 36. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 3
   },
   {
     "source": "ESA",
@@ -37,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מודל יסוד שהוכשר על נתוני תצפית על כדור הארץ מקופרניקוס Sentinel-1 ו- Sentinel-2 הפך לזמין נרחב לחוקרים, כך הוכרז בכנס תעשיית המחשבים השבוע בדנוור, ארה\"ב. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Tessera AI model offers accessible way to view Earth ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! A foundation model trained on Earth observation data from Copernicus Sentinel-1 and Sentinel-2 has been made widely available to researchers, it was announced at a computer industry conference this week in Denver, US. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 4
   },
   {
     "source": "ESA",
@@ -57,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! בשנה שעברה, סוכנות החלל האירופית (ESA) חשפה את החזון ארוך הטווח שלה לעשורים הבאים עם אסטרטגיית ESA 2040. ממוסגרת סביב חמישה יעדים מקיפים המדגימים את התפקיד החשוב שהחלל יכול למלא בכל היבט בחיי האזרחים ברחבי אירופה. היום, ESA היא טאקי... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 A new chapter for ESA’s brand ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Last year, the European Space Agency (ESA) unveiled its long-term vision for the decades ahead with ESA Strategy 2040. Framed around five encompassing goals which demonstrate the important role space can play in every aspect of citizens’ lives across Europe. Today, ESA is taki... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 5
   },
   {
     "source": "ESA",
@@ -77,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! באזור שבו הרובר ExoMars Rosalind Franklin יחפש סימני חיים, מרבצי חימר חורגים מעבר להערכות קודמות, כך מגלה מחקר חדש. השערה אחת אפילו מציעה שאוקיינוס ​​עצום כיסה פעם את אתר הנחיתה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ExoMars rover targets vast bed of clay in search for life  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! In the region where the ExoMars Rosalind Franklin rover will search for signs of life, clay deposits extend beyond previous estimates, a new study finds. One hypothesis even suggests a vast ocean once covered the landing site. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -97,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-47 ראתה את SpaceX ניסתה את הנחיתה ה-200 שלה על ספינת המל\"טים שנקראת 'כמובן שאני עדיין אוהב אותך'. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 8:40:39 בבוקר PDT (11:40:39 בבוקר EDT / 1540:39 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-47 mission saw SpaceX attempt its 200th landing on the drone ship called ‘Of Course I Still Love You.’ Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:40:39 a.m. PDT (11:40:39 a.m. EDT / 1540:39 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +157,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-47 ראתה את SpaceX ניסתה את הנחיתה ה-200 שלה על ספינת המל\"טים שנקראת 'כמובן שאני עדיין אוהב אותך'. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 8:40:39 בבוקר PDT (11:40:39 בבוקר EDT / 1540:39 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-47 mission saw SpaceX attempt its 200th landing on the drone ship called ‘Of Course I Still Love You.’ Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:40:39 a.m. PDT (11:40:39 a.m. EDT / 1540:39 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +177,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מנכ\"ל Blue Origin, דייב לימפ, בפוסט בן לילה בפלטפורמת המדיה החברתית X, אמר כי מיכלי הנעה במנחת השיגור 36 בתחנת כוח החלל קייפ קנוורל הצליחו לעבור את הפיצוץ במצב טוב, וכך גם האנגר עיבוד סמוך. גב התמיכה העיקרי, בעודו פגום,... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Blue Origin vows to resume New Glenn flights by year’s end ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Blue Origin CEO Dave Limp, in an overnight post on the social media platform X, said propellant tanks  at launch pad 36 at the Cape Canaveral Space Force Station made it through the blast in good shape, as did a nearby processing hangar. The main support gantry, while damaged,... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 9
   },
   {
     "source": "SpaceX",
@@ -157,7 +197,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-43 תטוס על רקטת פלקון 9 לכיוון צפון-מזרח. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת ליום חמישי, 4 ביוני, בשעה 6:26:30 בבוקר EDT (1026:30 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches sunrise Starlink mission following weather scrub ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-43 mission will fly on a Falcon 9 rocket heading on a north-easterly trajectory. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for Thursday, June 4, at 6:26:30 a.m. EDT (1026:30 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -177,27 +217,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 10-43 תטוס על רקטת פלקון 9 לכיוון צפון-מזרח. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת ליום חמישי, 4 ביוני, בשעה 6:26:30 בבוקר EDT (1026:30 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches sunrise Starlink mission following weather scrub ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 10-43 mission will fly on a Falcon 9 rocket heading on a north-easterly trajectory. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for Thursday, June 4, at 6:26:30 a.m. EDT (1026:30 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 9
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-01T17:00:00",
-    "date_display": "Mon, 01 Jun 2026 17:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Webb_sniffs_methane_from_interstellar_Comet_3I_ATLAS",
-    "title_en": "Webb sniffs methane from interstellar Comet 3I/ATLAS",
-    "summary_en": "Image:\n\t\t\tWebb's MIRI image of the interstellar Comet 3I/ATLAS in three different light wavelengths",
-    "image": "",
-    "title_ru": "Уэбб нюхает метан межзвездной кометы 3I/ATLAS",
-    "summary_ru": "Изображение:\n\t\t\tMIRI-изображение Уэбба межзвездной кометы 3I/ATLAS в трех разных длинах волн света.",
-    "title_ru_kids": "🚀 Уэбб нюхает метан межзвездной кометы 3I/ATLAS ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tMIRI-изображение Уэбба межзвездной кометы 3I/ATLAS в трех разных длинах волн света. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "ווב מרחרח מתאן מהשביט הבין-כוכבי 3I/ATLAS",
-    "summary_he": "תמונה:\n\t\t\tתמונת MIRI של ווב של השביט הבין-כוכבי 3I/ATLAS בשלושה אורכי גל שונים של אור",
-    "title_he_kids": "🚀 ווב מרחרח מתאן מהשביט הבין-כוכבי 3I/ATLAS ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת MIRI של ווב של השביט הבין-כוכבי 3I/ATLAS בשלושה אורכי גל שונים של אור 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Webb sniffs methane from interstellar Comet 3I/ATLAS ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tWebb's MIRI image of the interstellar Comet 3I/ATLAS in three different light wavelengths 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "ESA",
@@ -217,7 +237,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:24\n\t\t\t\tסמייל שוגר בהצלחה מנמל החלל של אירופה בגיאנה הצרפתית ב-19 במאי 2026. ה-Timelapse הזה לוכד את ההתרגשות והדיוק של פעולות השיגור כשהחללית מתחילה את מסעה לחקור את הקשר בין השמש לכדור הארץ.Smile (t... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Smile: cleanroom to space ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:24\n\t\t\t\tSmile successfully launched from Europe’s Spaceport in French Guiana on 19 May 2026.This timelapse captures the excitement and precision of launch operations as the spacecraft begins its journey to study the connection between the Sun and Earth.Smile (t... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "SpaceX",
@@ -237,7 +257,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-41 הייתה השיגור ה-10 והאחרון של SpaceX במאי. הורדת רקטת ה-Falcon 9 ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 8:25 בבוקר PDT (11:25 בבוקר EDT / 1525 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 50th Starlink mission of 2026 ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-41 mission was SpaceX’s 10th and final launch of May. Liftoff of the Falcon 9 rocket from pad 4E at Vandenberg Space Force Base happened at 8:25 a.m. PDT (11:25 a.m. EDT / 1525 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "Spaceflight Now",
@@ -257,7 +277,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-41 הייתה השיגור ה-10 והאחרון של SpaceX במאי. הורדת רקטת ה-Falcon 9 ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 8:25 בבוקר PDT (11:25 בבוקר EDT / 1525 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 50th Starlink mission of 2026 ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-41 mission was SpaceX’s 10th and final launch of May. Liftoff of the Falcon 9 rocket from pad 4E at Vandenberg Space Force Base happened at 8:25 a.m. PDT (11:25 a.m. EDT / 1525 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 13
+    "id": 14
   },
   {
     "source": "Spaceflight Now",
@@ -277,7 +297,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Leo Atlas 07 הייתה הטיסה השנייה אחרונה שאמזון הזמינה על רקטת United Launch Alliance Atlas 5. ההמראה מרכב 41 בתחנת כוח החלל קייפ קנוורל אירעה בשעה 19:53. EDT (2353 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ULA launches 29 Amazon Leo satellites on Atlas 5 rocket from Cape Canaveral ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Leo Atlas 07 mission was the second to last flight that Amazon booked on a United Launch Alliance Atlas 5 rocket. Liftoff from pad 41 at Cape Canaveral Space Force Station happened at 7:53 p.m. EDT (2353 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 14
+    "id": 15
   },
   {
     "source": "ESA",
@@ -297,26 +317,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:04:15\n\t\t\t\tמה סיפק החלל לאירופה החודש? מטיסות אסטרואידים ועד בדיקות נחיתה במאדים, תגליות חדשות מ-Webb והאבל, ואסטרונאוטית ESA סופי אדנוט הלוכדת כוכבים נופלים ממסלול, הנה הסיכום החודשי שלך מסוכנות החלל האירופית... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 This Month at ESA: May 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:04:15\n\t\t\t\tWhat did space deliver for Europe this month? From asteroid flybys to Mars landing tests, new discoveries from Webb and Hubble, and ESA astronaut Sophie Adenot capturing shooting stars from orbit, here’s your monthly roundup from the European Space Agen... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 15
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-05-29T15:10:00",
-    "date_display": "Fri, 29 May 2026 15:10:00 +0200",
-    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_25-29_May_2026",
-    "title_en": "Week in images: 25-29 May 2026",
-    "summary_en": "Week in images: 25-29 May 2026\n\tDiscover our week through the lens",
-    "image": "",
-    "title_ru": "Неделя в изображениях: 25–29 мая 2026 г.",
-    "summary_ru": "Неделя в изображениях: 25–29 мая 2026 г.\n\tОткройте для себя нашу неделю через призму",
-    "title_ru_kids": "🚀 Неделя в изображениях: 25–29 мая 2026 г. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 25–29 мая 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "שבוע בתמונות: 25-29 במאי 2026",
-    "summary_he": "שבוע בתמונות: 25-29 במאי 2026\n\tגלה את השבוע שלנו דרך העדשה",
-    "title_he_kids": "🚀 שבוע בתמונות: 25-29 במאי 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 25-29 במאי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Week in images: 25-29 May 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 25-29 May 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 16
   },
   {
