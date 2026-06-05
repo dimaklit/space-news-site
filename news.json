@@ -61,6 +61,26 @@
   },
   {
     "source": "ESA",
+    "date_parsed": "2026-06-05T15:00:00",
+    "date_display": "Fri, 05 Jun 2026 15:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/How_Europe_studies_the_Sun",
+    "title_en": "How Europe studies the Sun",
+    "summary_en": "Video: \n\t\t\t00:02:40\n\t\t\t\tEnglishHow does Europe study the Sun? Discover the missions revealing the secrets of our closest star, from SOHO and Solar Orbiter to Proba-3, which is creating artificial solar eclipses in space to unlock new insights into the Sun's mysterious corona.F...",
+    "image": "",
+    "title_ru": "Как Европа изучает Солнце",
+    "summary_ru": "Видео: \n\t\t\t00:02:40\n\t\t\t\tRussianКак Европа изучает Солнце? Откройте для себя миссии, раскрывающие тайны нашей ближайшей звезды, от SOHO и Solar Orbiter до Пробы-3, которая создает искусственные солнечные затмения в космосе, чтобы открыть новые возможности для понимания загадочной солнечной короны.F...",
+    "title_ru_kids": "🚀 Как Европа изучает Солнце ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:02:40\n\t\t\t\tRussianКак Европа изучает Солнце? Откройте для себя миссии, раскрывающие тайны нашей ближайшей звезды, от SOHO и Solar Orbiter до Пробы-3, которая создает искусственные солнечные затмения в космосе, чтобы открыть новые возможности для понимания загадочной солнечной короны.F... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ В космосе абсолютная, полная тишина!",
+    "title_he": "איך אירופה חוקרת את השמש",
+    "summary_he": "סרטון: \n\t\t\t00:02:40\n\t\t\t\tאיך אירופה חוקרת את השמש? גלה את המשימות החושפות את הסודות של הכוכב הקרוב ביותר שלנו, מ-SOHO ו-Solar Orbiter ועד ל-Proba-3, שיוצרת ליקויי חמה מלאכותיים בחלל כדי לפתוח תובנות חדשות על הקורונה המסתורית של השמש.",
+    "title_he_kids": "🚀 איך אירופה חוקרת את השמש ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:02:40\n\t\t\t\tאיך אירופה חוקרת את השמש? גלה את המשימות החושפות את הסודות של הכוכב הקרוב ביותר שלנו, מ-SOHO ו-Solar Orbiter ועד ל-Proba-3, שיוצרת ליקויי חמה מלאכותיים בחלל כדי לפתוח תובנות חדשות על הקורונה המסתורית של השמש. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 How Europe studies the Sun ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:02:40\n\t\t\t\tEnglishHow does Europe study the Sun? Discover the missions revealing the secrets of our closest star, from SOHO and Solar Orbiter to Proba-3, which is creating artificial solar eclipses in space to unlock new insights into the Sun's mysterious corona.F... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ A real space suit weighs as much as a huge dog!",
+    "id": 4
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-06-05T10:00:00",
     "date_display": "Fri, 05 Jun 2026 10:00:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Webb_unveils_young_stars_across_every_stage_of_formation",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tווב חושף כוכבים צעירים בכל שלב של היווצרות 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Webb unveils young stars across every stage of formation ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tWebb unveils young stars across every stage of formation 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tביום הסביבה העולמי, משימת Copernicus Sentinel-2 מביאה לנו נוף מדהים מהחלל של באקו, בירת אזרבייג'ן, המארחת את החגיגה השנה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Earth from Space: Baku, Azerbaijan ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tOn World Environment Day, the Copernicus Sentinel-2 mission brings us an amazing view from space of Baku, capital of Azerbaijan, hosting this year’s celebration. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! השינוי אושר על ידי הסוכנות שבוע לאחר שפיצוץ ניסוי של ניו גלן השמיד את הרקטה ופגע במתחם השיגור 36. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 NASA head urges new launcher for Blue Origin’s moon landers to meet Artemis mission deadlines ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The change was confirmed by the agency a week after a New Glenn testing explosion destroyed the rocket and damaged Launch Complex 36. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מודל יסוד שהוכשר על נתוני תצפית על כדור הארץ מקופרניקוס Sentinel-1 ו- Sentinel-2 הפך לזמין נרחב לחוקרים, כך הוכרז בכנס תעשיית המחשבים השבוע בדנוור, ארה\"ב. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Tessera AI model offers accessible way to view Earth ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! A foundation model trained on Earth observation data from Copernicus Sentinel-1 and Sentinel-2 has been made widely available to researchers, it was announced at a computer industry conference this week in Denver, US. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,26 +177,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! בשנה שעברה, סוכנות החלל האירופית (ESA) חשפה את החזון ארוך הטווח שלה לעשורים הבאים עם אסטרטגיית ESA 2040. ממוסגרת סביב חמישה יעדים מקיפים המדגימים את התפקיד החשוב שהחלל יכול למלא בכל היבט בחיי האזרחים ברחבי אירופה. היום, ESA היא טאקי... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 A new chapter for ESA’s brand ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Last year, the European Space Agency (ESA) unveiled its long-term vision for the decades ahead with ESA Strategy 2040. Framed around five encompassing goals which demonstrate the important role space can play in every aspect of citizens’ lives across Europe. Today, ESA is taki... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-04T08:30:00",
-    "date_display": "Thu, 04 Jun 2026 08:30:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_targets_vast_bed_of_clay_in_search_for_life",
-    "title_en": "ExoMars rover targets vast bed of clay in search for life ",
-    "summary_en": "In the region where the ExoMars Rosalind Franklin rover will search for signs of life, clay deposits extend beyond previous estimates, a new study finds. One hypothesis even suggests a vast ocean once covered the landing site.",
-    "image": "",
-    "title_ru": "Марсоход ExoMars нацелился на огромный пласт глины в поисках жизни",
-    "summary_ru": "Новое исследование показало, что в регионе, где марсоход ExoMars Rosalind Franklin будет искать признаки жизни, запасы глины превышают предыдущие оценки. Одна из гипотез даже предполагает, что когда-то место приземления покрывал огромный океан.",
-    "title_ru_kids": "🚀 Марсоход ExoMars нацелился на огромный пласт глины в поисках жизни ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Новое исследование показало, что в регионе, где марсоход ExoMars Rosalind Franklin будет искать признаки жизни, запасы глины превышают предыдущие оценки. Одна из гипотез даже предполагает, что когда-то место приземления покрывал огромный океан. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "רובר ExoMars מכוון למצע עצום של חימר בחיפוש אחר חיים",
-    "summary_he": "באזור שבו הרובר ExoMars Rosalind Franklin יחפש סימני חיים, מרבצי חימר חורגים מעבר להערכות קודמות, כך מגלה מחקר חדש. השערה אחת אפילו מציעה שאוקיינוס ​​עצום כיסה פעם את אתר הנחיתה.",
-    "title_he_kids": "🚀 רובר ExoMars מכוון למצע עצום של חימר בחיפוש אחר חיים ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! באזור שבו הרובר ExoMars Rosalind Franklin יחפש סימני חיים, מרבצי חימר חורגים מעבר להערכות קודמות, כך מגלה מחקר חדש. השערה אחת אפילו מציעה שאוקיינוס ​​עצום כיסה פעם את אתר הנחיתה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 ExoMars rover targets vast bed of clay in search for life  ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! In the region where the ExoMars Rosalind Franklin rover will search for signs of life, clay deposits extend beyond previous estimates, a new study finds. One hypothesis even suggests a vast ocean once covered the landing site. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 9
   },
   {
