@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 8 | Unknown Payload",
-    "window_start": "2026-06-05T05:00:00Z",
-    "rocket": "Long March 8",
-    "pad": "Commercial LC-1",
-    "location": "Wenchang Space Launch Site, People's Republic of China"
-  },
-  {
     "name_en": "South Korean ADD Solid-Fuel SLV | Demo Flight",
     "window_start": "2026-06-08T05:00:00Z",
     "rocket": "South Korean ADD Solid-Fuel SLV",
@@ -33,5 +26,12 @@
     "rocket": "Smart Dragon 3",
     "pad": "Haiyang offshore launch location",
     "location": "Haiyang Oriental Spaceport"
+  },
+  {
+    "name_en": "H3-30 | H3-30 Test Flight",
+    "window_start": "2026-06-10T00:53:59Z",
+    "rocket": "H3-30",
+    "pad": "Yoshinobu Launch Complex LP-2",
+    "location": "Tanegashima Space Center, Japan"
   }
 ]
