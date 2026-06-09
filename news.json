@@ -1,5 +1,25 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-06-09T14:00:00",
+    "date_display": "Tue, 09 Jun 2026 14:00:00 +0200",
+    "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/We_re_back_Proba-3_ready_for_more_science",
+    "title_en": "We’re back: Proba-3 ready for more science",
+    "summary_en": "The Proba-3 mission’s Coronagraph spacecraft and its main scientific instrument, ASPIICS, are both at full health, ready to resume routine formation flying operations and deliver more breathtaking artificial eclipses.",
+    "image": "",
+    "title_ru": "Мы вернулись: Проба-3 готова к новой науке",
+    "summary_ru": "Космический корабль «Коронограф» миссии «Проба-3» и его главный научный инструмент ASPIICS полностью исправны и готовы возобновить обычные групповые летные операции и провести еще больше захватывающих дух искусственных затмений.",
+    "title_ru_kids": "🚀 Мы вернулись: Проба-3 готова к новой науке ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Космический корабль «Коронограф» миссии «Проба-3» и его главный научный инструмент ASPIICS полностью исправны и готовы возобновить обычные групповые летные операции и провести еще больше захватывающих дух искусственных затмений. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "חזרנו: Proba-3 מוכן לעוד מדע",
+    "summary_he": "החללית Coronagraph של משימת Proba-3 והמכשיר המדעי העיקרי שלה, ASPIICS, נמצאים שניהם במצב בריאותי מלא, מוכנים לחדש את פעולות הטיסה השגרתיות של המערך ולהעניק ליקויי חמה מלאכותיים עוצרי נשימה נוספים.",
+    "title_he_kids": "🚀 חזרנו: Proba-3 מוכן לעוד מדע ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! החללית Coronagraph של משימת Proba-3 והמכשיר המדעי העיקרי שלה, ASPIICS, נמצאים שניהם במצב בריאותי מלא, מוכנים לחדש את פעולות הטיסה השגרתיות של המערך ולהעניק ליקויי חמה מלאכותיים עוצרי נשימה נוספים. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 We’re back: Proba-3 ready for more science ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Proba-3 mission’s Coronagraph spacecraft and its main scientific instrument, ASPIICS, are both at full health, ready to resume routine formation flying operations and deliver more breathtaking artificial eclipses. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
     "source": "Spaceflight Now",
     "date_parsed": "2026-06-09T10:03:27",
     "date_display": "Tue, 09 Jun 2026 10:03:27 +0000",
@@ -17,7 +37,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה תהיה מפגש נמוך במסלול כדור הארץ בין חללית אוריון לאחד מנחיתות מערכת הנחיתה האנושית או שתיהן: Blue Origin's Blue Moon Mark 2 וספינת הכוכבים של SpaceX. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Live coverage: NASA to unveil Artemis 3 crew, provide updates on mission ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission will be a low Earth orbit rendezvous between the Orion spacecraft and one or both of the Human Landing System landers: Blue Origin’s Blue Moon Mark 2 and SpaceX’s Starship. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! במשך עשרות שנים, צמיחה כלכלית וצריכת דלק מאובנים שלובים זה בזה. ככל שהערים התרחבו, העלייה בשגשוג לוותה לעתים קרובות בהחמרה בזיהום האוויר. עם זאת, מחקר חדש מצביע על כך שהקשר הזה משתנה - ונתוני לוויין הם... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Cleaner air and prosperity can go hand in hand ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! For decades, economic growth and fossil-fuel consumption have been tightly intertwined. As cities have expanded, rising prosperity has often been accompanied by worsening air pollution. New research, however, suggests that this relationship is changing – and satellite data are... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תחת הנושא 'Space4Future', סוכנות החלל האירופית (ESA) תקבל את פני המבקרים בביתן החלל בתערוכת האוויר הבינלאומית של ILA Berlin, אולם B, בין ה-10 ל-14 ביוני. מחקר הירח לניטור אקלים, מניווט וטלקומוניקציה ועד כביסה אירופאית... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA at ILA Berlin International Airshow 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Under the theme 'Space4Future', the European Space Agency (ESA) will welcome visitors to the Space Pavilion at ILA Berlin International Airshow, Hall B, from&nbsp;10 to 14 June. From Moon exploration to climate monitoring, from navigation and telecommunication to European laun... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) חתמה על הסכם עם הבנק האירופי לשיקום ופיתוח (EBRD), המברכת על עידן חדש של שיתוף פעולה במטרה לקדם את השימוש בנתונים ובשירותי תצפית על כדור הארץ ליוזמות פיתוח והשפעה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA and EBRD to advance Earth observation for development and impact finance ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) signed an agreement with the European Bank for Reconstruction and Development (EBRD), hailing a new era of cooperation with the aim of advancing the use of Earth observation data and services for development and impact finance initiatives. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "SpaceX",
@@ -97,7 +117,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-35 תהיה השיגור הייעודי ה-53 עבור קבוצת הלוויין. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת בשעה 6:13:50 בבוקר EDT (1013:50 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-35 mission will be the 53rd dedicated launch for the satellite constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled at 6:13:50 a.m. EDT (1013:50 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 10-35 תהיה השיגור הייעודי ה-53 עבור קבוצת הלוויין. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת בשעה 6:13:50 בבוקר EDT (1013:50 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 10-35 mission will be the 53rd dedicated launch for the satellite constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled at 6:13:50 a.m. EDT (1013:50 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "SpaceX",
@@ -137,7 +157,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה מייצגת הודעה פומבית נדירה על שיגור לווייני Starshield של SpaceX, גרסה ממשלתית של לווייני Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 21:24:45. PDT ביום שבת, 6 ביוני (12:24:45 בבוקר EDT / 0424:45 UTC ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 2 Starshield satellites during Saturday night Starlink mission ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission represents a rare public announcement of the launch of SpaceX’s Starshield satellites, a government variant of Starlink satellites. Liftoff from pad 4E at Vandenberg Space Force Base happened at 9:24:45 p.m. PDT on Saturday, June 6 (12:24:45 a.m. EDT / 0424:45 UTC ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -157,26 +177,6 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! המשימה מייצגת הודעה פומבית נדירה על שיגור לווייני Starshield של SpaceX, גרסה ממשלתית של לווייני Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 21:24:45. PDT ביום שבת, 6 ביוני (12:24:45 בבוקר EDT / 0424:45 UTC ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 2 Starshield satellites during Saturday night Starlink mission ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The mission represents a rare public announcement of the launch of SpaceX’s Starshield satellites, a government variant of Starlink satellites. Liftoff from pad 4E at Vandenberg Space Force Base happened at 9:24:45 p.m. PDT on Saturday, June 6 (12:24:45 a.m. EDT / 0424:45 UTC ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 8
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-05T15:53:00",
-    "date_display": "Fri, 05 Jun 2026 15:53:00 +0200",
-    "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Date_is_set_for_bigger_booster_more_powerful_Ariane_6",
-    "title_en": "Date is set for bigger booster, more powerful Ariane 6 ",
-    "summary_en": "",
-    "image": "",
-    "title_ru": "Назначена дата создания более крупного и мощного ускорителя Ariane 6",
-    "summary_ru": "",
-    "title_ru_kids": "🚀 Назначена дата создания более крупного и мощного ускорителя Ariane 6 ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "התאריך נקבע לבוסטר גדול יותר, Ariane 6 חזק יותר",
-    "summary_he": "",
-    "title_he_kids": "🚀 התאריך נקבע לבוסטר גדול יותר, Ariane 6 חזק יותר ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Date is set for bigger booster, more powerful Ariane 6  ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 9
   },
   {

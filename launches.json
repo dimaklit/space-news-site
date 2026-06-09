@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 10-35",
-    "window_start": "2026-06-08T10:07:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Zhuque-2E Block 2 | Unknown Payload",
     "window_start": "2026-06-09T08:11:00Z",
     "rocket": "Zhuque-2E Block 2",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "HASTE | Curveball",
+    "window_start": "2026-06-11T04:00:00Z",
+    "rocket": "Electron",
+    "pad": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
+    "location": "Wallops Flight Facility, Virginia, USA"
   }
 ]
