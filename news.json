@@ -1,23 +1,103 @@
 [
   {
     "source": "ESA",
-    "date_parsed": "2026-06-11T10:00:00",
-    "date_display": "Thu, 11 Jun 2026 10:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/ILA_Berlin_2026_ESA_Director_General_press_conference",
-    "title_en": "ILA Berlin 2026: ESA Director General press conference",
-    "summary_en": "Video: \n\t\t\t00:26:00\n\t\t\t\tESA Director General Josef Aschbacher briefed media representatives and discussed Europe's priorities in space, exploration, resilience and the future of the European space sector.&nbsp;",
+    "date_parsed": "2026-06-11T14:30:00",
+    "date_display": "Thu, 11 Jun 2026 14:30:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/ILA_Berlin_2026_in-flight_call_with_ESA_Astronaut_Sophie_Adenot",
+    "title_en": "ILA Berlin 2026: in-flight call with ESA Astronaut Sophie Adenot",
+    "summary_en": "Video: \n\t\t\t00:19:00\n\t\t\t\tESA astronaut Sophie Adenot joined ILA Berlin 2026 live from the International Space Station for a special in-flight conversation on life and work in orbit, Europe's ambitions in human spaceflight. The call featured ESA Director General Josef Aschbacher...",
     "image": "",
-    "title_ru": "ILA Berlin 2026: пресс-конференция генерального директора ЕКА",
-    "summary_ru": "Видео: \n\t\t\t00:26:00\n\t\t\t\tГенеральный директор ЕКА Йозеф Ашбахер проинформировал представителей средств массовой информации и обсудил приоритеты Европы в области космоса, исследований, устойчивости и будущего европейского космического сектора.",
-    "title_ru_kids": "🚀 ILA Berlin 2026: пресс-конференция генерального директора ЕКА ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:26:00\n\t\t\t\tГенеральный директор ЕКА Йозеф Ашбахер проинформировал представителей средств массовой информации и обсудил приоритеты Европы в области космоса, исследований, устойчивости и будущего европейского космического сектора. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "ILA Berlin 2026: מסיבת עיתונאים של מנכ\"ל ESA",
-    "summary_he": "וידאו: \n\t\t\t00:26:00\n\t\t\t\tמנכ\"ל ESA, יוסף אשבאכר, תדרך את נציגי התקשורת ודן בסדרי העדיפויות של אירופה בחלל, חקר, חוסן ועתיד מגזר החלל האירופי.",
-    "title_he_kids": "🚀 ILA Berlin 2026: מסיבת עיתונאים של מנכ\"ל ESA ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:26:00\n\t\t\t\tמנכ\"ל ESA, יוסף אשבאכר, תדרך את נציגי התקשורת ודן בסדרי העדיפויות של אירופה בחלל, חקר, חוסן ועתיד מגזר החלל האירופי. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 ILA Berlin 2026: ESA Director General press conference ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:26:00\n\t\t\t\tESA Director General Josef Aschbacher briefed media representatives and discussed Europe's priorities in space, exploration, resilience and the future of the European space sector.&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "title_ru": "ILA Berlin 2026: разговор в полете с астронавтом ЕКА Софи Адено",
+    "summary_ru": "Видео: \n\t\t\t00:19:00\n\t\t\t\tАстронавт ЕКА Софи Адено присоединилась к ILA Berlin 2026 в прямом эфире с Международной космической станции для специального разговора в полете о жизни и работе на орбите, амбициях Европы в области пилотируемых космических полетов. В беседе принял участие генеральный директор ЕКА Йозеф Ашбахер...",
+    "title_ru_kids": "🚀 ILA Berlin 2026: разговор в полете с астронавтом ЕКА Софи Адено ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:19:00\n\t\t\t\tАстронавт ЕКА Софи Адено присоединилась к ILA Berlin 2026 в прямом эфире с Международной космической станции для специального разговора в полете о жизни и работе на орбите, амбициях Европы в области пилотируемых космических полетов. В беседе принял участие генеральный директор ЕКА Йозеф Ашбахер... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "ILA Berlin 2026: שיחה בטיסה עם אסטרונאוטית ESA סופי אדנוט",
+    "summary_he": "וידאו: \n\t\t\t00:19:00\n\t\t\t\tאסטרונאוטית ESA סופי אדנוט הצטרפה בשידור חי ל-ILA Berlin 2026 מתחנת החלל הבינלאומית לשיחה מיוחדת בטיסה על החיים והעבודה במסלול, שאיפותיה של אירופה בטיסות אנושיות בחלל. בשיחה הופיעו מנכ\"ל ESA יוזף אשבאכר...",
+    "title_he_kids": "🚀 ILA Berlin 2026: שיחה בטיסה עם אסטרונאוטית ESA סופי אדנוט ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:19:00\n\t\t\t\tאסטרונאוטית ESA סופי אדנוט הצטרפה בשידור חי ל-ILA Berlin 2026 מתחנת החלל הבינלאומית לשיחה מיוחדת בטיסה על החיים והעבודה במסלול, שאיפותיה של אירופה בטיסות אנושיות בחלל. בשיחה הופיעו מנכ\"ל ESA יוזף אשבאכר... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 ILA Berlin 2026: in-flight call with ESA Astronaut Sophie Adenot ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:19:00\n\t\t\t\tESA astronaut Sophie Adenot joined ILA Berlin 2026 live from the International Space Station for a special in-flight conversation on life and work in orbit, Europe's ambitions in human spaceflight. The call featured ESA Director General Josef Aschbacher... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-11T14:00:00",
+    "date_display": "Thu, 11 Jun 2026 14:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Luca_Parmitano_Artemis_III_pilot",
+    "title_en": "Luca Parmitano: Artemis III pilot",
+    "summary_en": "Image:\n\t\t\tLuca Parmitano, Artemis III pilot, in his flight suit.",
+    "image": "",
+    "title_ru": "Лука Пармитано: пилот Артемиды III",
+    "summary_ru": "Изображение:\n\t\t\tЛука Пармитано, пилот Артемиды III, в летном костюме.",
+    "title_ru_kids": "🚀 Лука Пармитано: пилот Артемиды III ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tЛука Пармитано, пилот Артемиды III, в летном костюме. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "לוקה פרמיטאנו: טייס ארטמיס השלישי",
+    "summary_he": "תמונה:\n\t\t\tלוקה פרמיטנו, טייס ארטמיס השלישי, בחליפת הטיסה שלו.",
+    "title_he_kids": "🚀 לוקה פרמיטאנו: טייס ארטמיס השלישי ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tלוקה פרמיטנו, טייס ארטמיס השלישי, בחליפת הטיסה שלו. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Luca Parmitano: Artemis III pilot ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tLuca Parmitano, Artemis III pilot, in his flight suit. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 2
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-11T13:40:00",
+    "date_display": "Thu, 11 Jun 2026 13:40:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Same_rocket_new_boost",
+    "title_en": "Same rocket, new boost",
+    "summary_en": "Video: \n\t\t\t00:01:38\n\t\t\t\tThe eighth flight of Europe’s rocket Ariane 6 will have a bigger boost: the P120C solid-propellant rocket motor, used as Ariane 6 booster so far, has been upgraded. The new P160C flying on Ariane 6 flight VA269 offers 10% more performance to orbit.P160C...",
+    "image": "",
+    "title_ru": "Та же ракета, новый импульс",
+    "summary_ru": "Видео: \n\t\t\t00:01:38\n\t\t\t\tВосьмой полет европейской ракеты Ariane 6 будет иметь больший разгон: твердотопливный ракетный двигатель P120C, который до сих пор использовался в качестве ускорителя Ariane 6, был модернизирован. Новый P160C, летающий на борту Ariane 6 рейса VA269, предлагает на 10% больше производительности на орбите.P160C...",
+    "title_ru_kids": "🚀 Та же ракета, новый импульс ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:01:38\n\t\t\t\tВосьмой полет европейской ракеты Ariane 6 будет иметь больший разгон: твердотопливный ракетный двигатель P120C, который до сих пор использовался в качестве ускорителя Ariane 6, был модернизирован. Новый P160C, летающий на борту Ariane 6 рейса VA269, предлагает на 10% больше производительности на орбите.P160C... 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "title_he": "אותה טיל, דחיפה חדשה",
+    "summary_he": "וידאו: \n\t\t\t00:01:38\n\t\t\t\tהטיסה השמינית של הרקטה Ariane 6 של אירופה תהיה בעלת דחיפה גדולה יותר: מנוע הרקטה המונע מוצק P120C, ששימש עד כה כמאיץ Ariane 6, שודרג. ה-P160C החדש שטס בטיסת Ariane 6 VA269 מציע 10% יותר ביצועים למסלול. P160C...",
+    "title_he_kids": "🚀 אותה טיל, דחיפה חדשה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:38\n\t\t\t\tהטיסה השמינית של הרקטה Ariane 6 של אירופה תהיה בעלת דחיפה גדולה יותר: מנוע הרקטה המונע מוצק P120C, ששימש עד כה כמאיץ Ariane 6, שודרג. ה-P160C החדש שטס בטיסת Ariane 6 VA269 מציע 10% יותר ביצועים למסלול. P160C... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Same rocket, new boost ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:01:38\n\t\t\t\tThe eighth flight of Europe’s rocket Ariane 6 will have a bigger boost: the P120C solid-propellant rocket motor, used as Ariane 6 booster so far, has been upgraded. The new P160C flying on Ariane 6 flight VA269 offers 10% more performance to orbit.P160C... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 3
+  },
+  {
+    "source": "SpaceX",
+    "date_parsed": "2026-06-11T10:29:38",
+    "date_display": "Thu, 11 Jun 2026 10:29:38 +0000",
+    "link": "https://spaceflightnow.com/2026/06/11/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-4/",
+    "title_en": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg",
+    "summary_en": "The Falcon 9 is launching a day before the company begins publicly trading on the Nasdaq. Liftoff from pad 4E at Vandenberg Space Force Base in California is scheduled for 8:05 a.m. PDT (11:05 a.m. EDT / 1505 UTC).",
+    "image": "",
+    "title_ru": "Прямая трансляция: SpaceX запустит 24 спутника Starlink на ракете Falcon 9 из Ванденберга",
+    "summary_ru": "Falcon 9 будет запущен за день до того, как компания начнет публичные торги на Nasdaq. Старт с площадки 4E на базе космических сил Ванденберг в Калифорнии запланирован на 8:05 утра по тихоокеанскому времени (11:05 по восточному времени / 15:05 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит 24 спутника Starlink на ракете Falcon 9 из Ванденберга ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Falcon 9 будет запущен за день до того, как компания начнет публичные торги на Nasdaq. Старт с площадки 4E на базе космических сил Ванденберг в Калифорнии запланирован на 8:05 утра по тихоокеанскому времени (11:05 по восточному времени / 15:05 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "סיקור חי: SpaceX תשגר 24 לווייני Starlink על רקטת פלקון 9 מוונדנברג",
+    "summary_he": "ה-Falcon 9 מושק יום לפני שהחברה מתחילה להיסחר בבורסה בנאסד\"ק. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג בקליפורניה מתוכננת לשעה 8:05 בבוקר PDT (11:05 בבוקר EDT / 1505 UTC).",
+    "title_he_kids": "🚀 סיקור חי: SpaceX תשגר 24 לווייני Starlink על רקטת פלקון 9 מוונדנברג ✨",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ה-Falcon 9 מושק יום לפני שהחברה מתחילה להיסחר בבורסה בנאסד\"ק. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג בקליפורניה מתוכננת לשעה 8:05 בבוקר PDT (11:05 בבוקר EDT / 1505 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
+    "summary_en_kids": "⚡ Elon Musk's team strikes again! The Falcon 9 is launching a day before the company begins publicly trading on the Nasdaq. Liftoff from pad 4E at Vandenberg Space Force Base in California is scheduled for 8:05 a.m. PDT (11:05 a.m. EDT / 1505 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 4
+  },
+  {
+    "source": "Spaceflight Now",
+    "date_parsed": "2026-06-11T10:29:38",
+    "date_display": "Thu, 11 Jun 2026 10:29:38 +0000",
+    "link": "https://spaceflightnow.com/2026/06/11/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-4/",
+    "title_en": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg",
+    "summary_en": "The Falcon 9 is launching a day before the company begins publicly trading on the Nasdaq. Liftoff from pad 4E at Vandenberg Space Force Base in California is scheduled for 8:05 a.m. PDT (11:05 a.m. EDT / 1505 UTC).",
+    "image": "",
+    "title_ru": "Прямая трансляция: SpaceX запустит 24 спутника Starlink на ракете Falcon 9 из Ванденберга",
+    "summary_ru": "Falcon 9 будет запущен за день до того, как компания начнет публичные торги на Nasdaq. Старт с площадки 4E на базе космических сил Ванденберг в Калифорнии запланирован на 8:05 утра по тихоокеанскому времени (11:05 по восточному времени / 15:05 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит 24 спутника Starlink на ракете Falcon 9 из Ванденберга ✨",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Falcon 9 будет запущен за день до того, как компания начнет публичные торги на Nasdaq. Старт с площадки 4E на базе космических сил Ванденберг в Калифорнии запланирован на 8:05 утра по тихоокеанскому времени (11:05 по восточному времени / 15:05 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "סיקור חי: SpaceX תשגר 24 לווייני Starlink על רקטת פלקון 9 מוונדנברג",
+    "summary_he": "ה-Falcon 9 מושק יום לפני שהחברה מתחילה להיסחר בבורסה בנאסד\"ק. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג בקליפורניה מתוכננת לשעה 8:05 בבוקר PDT (11:05 בבוקר EDT / 1505 UTC).",
+    "title_he_kids": "🚀 סיקור חי: SpaceX תשגר 24 לווייני Starlink על רקטת פלקון 9 מוונדנברג ✨",
+    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! ה-Falcon 9 מושק יום לפני שהחברה מתחילה להיסחר בבורסה בנאסד\"ק. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג בקליפורניה מתוכננת לשעה 8:05 בבוקר PDT (11:05 בבוקר EDT / 1505 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
+    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Falcon 9 is launching a day before the company begins publicly trading on the Nasdaq. Liftoff from pad 4E at Vandenberg Space Force Base in California is scheduled for 8:05 a.m. PDT (11:05 a.m. EDT / 1505 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 5
   },
   {
     "source": "ESA",
@@ -37,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Tracker World Settlement Footprint (WSF) והפלטפורמה המקוונת הייעודית שלו, פורסמו רשמית באירוע במטה הבנק העולמי בוושינגטון הבירה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Tracking urban expansion in hazard-prone areas ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The World Settlement Footprint (WSF) Tracker, and its dedicated online platform, have been officially released at an event at the World Bank headquarters in Washington DC. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! במהלך אירוע ביום שלישי במרכז החלל ג'ונסון, נאס\"א חשפה את האסטרונאוטים שנבחרו למשימת ארטמיס 3 בשנה הבאה, טיסה לבדיקת נהלי מפגש ועגינה במסלול נמוך של כדור הארץ עם נחיתות ירח שנבנו על ידי SpaceX ו-Blue Origin. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA chief defends selection of all-male Artemis 3 crew ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! During an event Tuesday at the Johnson Space Center, NASA revealed the astronauts who had been selected for next year's Artemis 3 mission, a flight to test rendezvous and docking procedures in low-Earth orbit with moon landers being built by SpaceX and Blue Origin. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 7
   },
   {
     "source": "ESA",
@@ -68,16 +148,16 @@
     "summary_en": "The European Space Agency (ESA) inaugurated its participation at ILA Berlin International Airshow 2026&nbsp;with a day rich in high-level meetings, public events and strategic milestones, highlighting Europe's determination to strengthen its role in space. From in-space operat...",
     "image": "",
     "title_ru": "ЕКА на ILA 2026 – основные моменты первого дня",
-    "summary_ru": "Европейское космическое агентство (ЕКА) открыло свое участие в Берлинском международном авиашоу ILA 2026 днем, богатым встречами на высоком уровне, публичными мероприятиями и стратегическими вехами, подчеркнув решимость Европы усилить свою роль в космосе. Из космической операции...",
+    "summary_ru": "Европейское космическое агентство (ЕКА) открыло свое участие в Берлинском международном авиасалоне ILA 2026 днем, богатым встречами на высоком уровне, публичными мероприятиями и стратегическими вехами, подчеркивающими решимость Европы укреплять свою роль в космосе. Из космической операции...",
     "title_ru_kids": "🚀 ЕКА на ILA 2026 – основные моменты первого дня ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Европейское космическое агентство (ЕКА) открыло свое участие в Берлинском международном авиашоу ILA 2026 днем, богатым встречами на высоком уровне, публичными мероприятиями и стратегическими вехами, подчеркнув решимость Европы усилить свою роль в космосе. Из космической операции... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Европейское космическое агентство (ЕКА) открыло свое участие в Берлинском международном авиасалоне ILA 2026 днем, богатым встречами на высоком уровне, публичными мероприятиями и стратегическими вехами, подчеркивающими решимость Европы укреплять свою роль в космосе. Из космической операции... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
     "title_he": "ESA ב-ILA 2026 - עיקרי יום 1",
     "summary_he": "סוכנות החלל האירופית (ESA) חנכה את השתתפותה בתערוכת האוויר הבינלאומית של ILA Berlin 2026 עם יום עשיר בפגישות ברמה גבוהה, אירועים ציבוריים ואבני דרך אסטרטגיות, והדגיש את נחישותה של אירופה לחזק את תפקידה בחלל. מתוך מבצע בחלל...",
     "title_he_kids": "🚀 ESA ב-ILA 2026 - עיקרי יום 1 ✨",
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) חנכה את השתתפותה בתערוכת האוויר הבינלאומית של ILA Berlin 2026 עם יום עשיר בפגישות ברמה גבוהה, אירועים ציבוריים ואבני דרך אסטרטגיות, והדגיש את נחישותה של אירופה לחזק את תפקידה בחלל. מתוך מבצע בחלל... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ESA at ILA 2026 – Day 1 highlights ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) inaugurated its participation at ILA Berlin International Airshow 2026&nbsp;with a day rich in high-level meetings, public events and strategic milestones, highlighting Europe's determination to strengthen its role in space. From in-space operat... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 8
   },
   {
     "source": "ESA",
@@ -97,27 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ועדת תוכנית המדע של סוכנות החלל האירופית (ESA) אימצה את משימת Arrakihs. מתוכנן לשיגור עד סוף 2030, Arrakihs ילכד את האור הקלוש מהילות הגלקסיות הסמוכות. על ידי ראיית הבלתי נראה, Arrakhs יחפור היסטוריה קוסמית ויחשוף כיצד חגיגית... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ESA adopts galactic archaeology mission Arrakihs ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s (ESA) Science Programme Committee has adopted the Arrakihs mission. Planned for launch by the end of 2030, Arrakihs will capture the faint light from nearby galaxy haloes. By seeing the unseen, Arrakihs will dig up cosmic history and reveal how gala... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 5
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-09T19:20:00",
-    "date_display": "Tue, 09 Jun 2026 19:20:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Artemis_III_NASA_announcement_highlights_Luca_Parmitano_assigned_as_pilot",
-    "title_en": "Artemis III NASA announcement highlights: Luca Parmitano assigned as pilot",
-    "summary_en": "Video: \n\t\t\t00:07:18\n\t\t\t\tOn 9 June, NASA announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which will be key for the mission’s...",
-    "image": "",
-    "title_ru": "Основные моменты объявления НАСА Artemis III: Лука Пармитано назначен пилотом",
-    "summary_ru": "Видео: \n\t\t\t00:07:18\n\t\t\t\t9 июня НАСА объявило состав экипажа миссии «Артемида III», в который в качестве пилота входит астронавт ЕКА Лука Пармитано. ЕКА также предоставляет свой третий европейский сервисный модуль для этого испытательного полета с экипажем на околоземной орбите, который станет ключевым моментом для миссии...",
-    "title_ru_kids": "🚀 Основные моменты объявления НАСА Artemis III: Лука Пармитано назначен пилотом ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:07:18\n\t\t\t\t9 июня НАСА объявило состав экипажа миссии «Артемида III», в который в качестве пилота входит астронавт ЕКА Лука Пармитано. ЕКА также предоставляет свой третий европейский сервисный модуль для этого испытательного полета с экипажем на околоземной орбите, который станет ключевым моментом для миссии... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "דגשים בהכרזה על ארטמיס III של נאס\"א: לוקה פרמיטנו הוקצה כטייס",
-    "summary_he": "וידאו: \n\t\t\t00:07:18\n\t\t\t\tב-9 ביוני, נאס\"א הכריזה על הצוות למשימת ארטמיס III, הכוללת את האסטרונאוט של ESA לוקה פרמיטנו כטייס. ESA מספקת גם את מודול השירות האירופי השלישי שלה עבור טיסת ניסוי זו במסלול כדור הארץ, שתהווה מפתח עבור המשימה...",
-    "title_he_kids": "🚀 דגשים בהכרזה על ארטמיס III של נאס\"א: לוקה פרמיטנו הוקצה כטייס ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:07:18\n\t\t\t\tב-9 ביוני, נאס\"א הכריזה על הצוות למשימת ארטמיס III, הכוללת את האסטרונאוט של ESA לוקה פרמיטנו כטייס. ESA מספקת גם את מודול השירות האירופי השלישי שלה עבור טיסת ניסוי זו במסלול כדור הארץ, שתהווה מפתח עבור המשימה... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Artemis III NASA announcement highlights: Luca Parmitano assigned as pilot ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:07:18\n\t\t\t\tOn 9 June, NASA announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which will be key for the mission’s... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 9
   },
   {
     "source": "ESA",
@@ -128,16 +188,16 @@
     "summary_en": "NASA has announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which will be key for the mission’s objective to test rendezvous a...",
     "image": "",
     "title_ru": "Астронавт ЕКА Лука Пармитано присоединяется к миссии НАСА «Артемида III» в качестве пилота",
-    "summary_ru": "НАСА объявило экипаж миссии «Артемида III», пилотом которого является астронавт ЕКА Лука Пармитано. ЕКА также предоставляет свой третий европейский сервисный модуль для этого испытательного полета с экипажем на околоземной орбите, который будет иметь ключевое значение для достижения цели миссии по проверке сближения...",
+    "summary_ru": "НАСА объявило состав экипажа миссии «Артемида III», пилотом которого является астронавт ЕКА Лука Пармитано. ЕКА также предоставляет свой третий европейский сервисный модуль для этого испытательного полета с экипажем на околоземной орбите, который будет иметь ключевое значение для достижения цели миссии по проверке сближения...",
     "title_ru_kids": "🚀 Астронавт ЕКА Лука Пармитано присоединяется к миссии НАСА «Артемида III» в качестве пилота ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! НАСА объявило экипаж миссии «Артемида III», пилотом которого является астронавт ЕКА Лука Пармитано. ЕКА также предоставляет свой третий европейский сервисный модуль для этого испытательного полета с экипажем на околоземной орбите, который будет иметь ключевое значение для достижения цели миссии по проверке сближения... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! НАСА объявило состав экипажа миссии «Артемида III», пилотом которого является астронавт ЕКА Лука Пармитано. ЕКА также предоставляет свой третий европейский сервисный модуль для этого испытательного полета с экипажем на околоземной орбите, который будет иметь ключевое значение для достижения цели миссии по проверке сближения... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "אסטרונאוט ESA לוקה פרמיטנו מצטרף למשימת ארטמיס III של נאס\"א כטייס",
     "summary_he": "נאס\"א הכריזה על הצוות למשימת ארטמיס III, הכוללת את האסטרונאוט של ESA לוקה פרמיטנו כטייס. ESA מספקת גם את מודול השירות האירופי השלישי שלה עבור טיסת ניסוי זו במסלול כדור הארץ, שתהווה מפתח למטרה של המשימה לבחון מפגש עם...",
     "title_he_kids": "🚀 אסטרונאוט ESA לוקה פרמיטנו מצטרף למשימת ארטמיס III של נאס\"א כטייס ✨",
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! נאס\"א הכריזה על הצוות למשימת ארטמיס III, הכוללת את האסטרונאוט של ESA לוקה פרמיטנו כטייס. ESA מספקת גם את מודול השירות האירופי השלישי שלה עבור טיסת ניסוי זו במסלול כדור הארץ, שתהווה מפתח למטרה של המשימה לבחון מפגש עם... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA astronaut Luca Parmitano joins NASA’s Artemis III mission as pilot ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! NASA has announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which will be key for the mission’s objective to test rendezvous a... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -148,16 +208,16 @@
     "summary_en": "The crew of NASA's next Artemis moon program mission was announced Tuesday, setting the stage for a flight to Earth orbit next year to test rendezvous and docking procedures with moon landers being built by SpaceX and Blue Origin, a critical milestone before sending astronauts...",
     "image": "",
     "title_ru": "НАСА назначило экипаж из четырех человек для миссии «Артемида-3»",
-    "summary_ru": "Во вторник был объявлен экипаж следующей миссии НАСА по лунной программе «Артемида», что подготовит почву для полета на околоземную орбиту в следующем году для проверки процедур сближения и стыковки с лунными кораблями, строящимися SpaceX и Blue Origin, что является важной вехой перед отправкой астронавтов...",
+    "summary_ru": "Во вторник был объявлен экипаж следующей миссии НАСА по лунной программе «Артемида», которая подготавливает почву для полета на околоземную орбиту в следующем году для проверки процедур сближения и стыковки с лунными кораблями, строящимися SpaceX и Blue Origin, что является важной вехой перед отправкой астронавтов...",
     "title_ru_kids": "🚀 НАСА назначило экипаж из четырех человек для миссии «Артемида-3» ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Во вторник был объявлен экипаж следующей миссии НАСА по лунной программе «Артемида», что подготовит почву для полета на околоземную орбиту в следующем году для проверки процедур сближения и стыковки с лунными кораблями, строящимися SpaceX и Blue Origin, что является важной вехой перед отправкой астронавтов... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Во вторник был объявлен экипаж следующей миссии НАСА по лунной программе «Артемида», которая подготавливает почву для полета на околоземную орбиту в следующем году для проверки процедур сближения и стыковки с лунными кораблями, строящимися SpaceX и Blue Origin, что является важной вехой перед отправкой астронавтов... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
     "title_he": "נאס\"א מונה צוות בן ארבעה אנשים למשימת ארטמיס 3",
     "summary_he": "צוות המשימה הבאה של תוכנית הירח של נאס\"א הוכרז ביום שלישי, וקבע את הבמה לטיסה למסלול כדור הארץ בשנה הבאה כדי לבחון נהלי מפגש ועגינה עם נחתות ירח שנבנות על ידי SpaceX ו-Blue Origin, אבן דרך קריטית לפני שליחת אסטרונאוטים...",
     "title_he_kids": "🚀 נאס\"א מונה צוות בן ארבעה אנשים למשימת ארטמיס 3 ✨",
     "summary_he_kids": "🌟 תראו מה קרה! צוות המשימה הבאה של תוכנית הירח של נאס\"א הוכרז ביום שלישי, וקבע את הבמה לטיסה למסלול כדור הארץ בשנה הבאה כדי לבחון נהלי מפגש ועגינה עם נחתות ירח שנבנות על ידי SpaceX ו-Blue Origin, אבן דרך קריטית לפני שליחת אסטרונאוטים... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA names four-man crew to Artemis 3 mission ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The crew of NASA's next Artemis moon program mission was announced Tuesday, setting the stage for a flight to Earth orbit next year to test rendezvous and docking procedures with moon landers being built by SpaceX and Blue Origin, a critical milestone before sending astronauts... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -177,7 +237,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה תהיה מפגש נמוך במסלול כדור הארץ בין חללית אוריון לאחד מנחיתות מערכת הנחיתה האנושית או שתיהן: Blue Origin's Blue Moon Mark 2 וספינת הכוכבים של SpaceX. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Preview: NASA to unveil Artemis 3 crew, provide updates on mission ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission will be a low Earth orbit rendezvous between the Orion spacecraft and one or both of the Human Landing System landers: Blue Origin’s Blue Moon Mark 2 and SpaceX’s Starship. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 12
   },
   {
     "source": "SpaceX",
@@ -197,7 +257,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-35 תהיה השיגור הייעודי ה-53 עבור קבוצת הלוויין. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת בשעה 6:13:50 בבוקר EDT (1013:50 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-35 mission will be the 53rd dedicated launch for the satellite constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled at 6:13:50 a.m. EDT (1013:50 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 13
   },
   {
     "source": "Spaceflight Now",
@@ -217,7 +277,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 10-35 תהיה השיגור הייעודי ה-53 עבור קבוצת הלוויין. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת בשעה 6:13:50 בבוקר EDT (1013:50 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 10-35 mission will be the 53rd dedicated launch for the satellite constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled at 6:13:50 a.m. EDT (1013:50 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 14
   },
   {
     "source": "SpaceX",
@@ -237,7 +297,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה מייצגת הודעה פומבית נדירה על שיגור לווייני Starshield של SpaceX, גרסה ממשלתית של לווייני Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 21:24:45. PDT ביום שבת, 6 ביוני (12:24:45 בבוקר EDT / 0424:45 UTC ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 2 Starshield satellites during Saturday night Starlink mission ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission represents a rare public announcement of the launch of SpaceX’s Starshield satellites, a government variant of Starlink satellites. Liftoff from pad 4E at Vandenberg Space Force Base happened at 9:24:45 p.m. PDT on Saturday, June 6 (12:24:45 a.m. EDT / 0424:45 UTC ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 12
+    "id": 15
   },
   {
     "source": "Spaceflight Now",
@@ -257,7 +317,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! המשימה מייצגת הודעה פומבית נדירה על שיגור לווייני Starshield של SpaceX, גרסה ממשלתית של לווייני Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 21:24:45. PDT ביום שבת, 6 ביוני (12:24:45 בבוקר EDT / 0424:45 UTC ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 2 Starshield satellites during Saturday night Starlink mission ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The mission represents a rare public announcement of the launch of SpaceX’s Starshield satellites, a government variant of Starlink satellites. Liftoff from pad 4E at Vandenberg Space Force Base happened at 9:24:45 p.m. PDT on Saturday, June 6 (12:24:45 a.m. EDT / 0424:45 UTC ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 13
+    "id": 16
   },
   {
     "source": "Spaceflight Now",
@@ -277,27 +337,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! אמצעי הזהירות הוכרזו באותו יום שבו אמרה נאס\"א שהקוסמונאוטים של Roscosmos אמורים לבצע \"פעולת תיקון נרחבת יותר\", אך מבלי לספק פרטים על מה זה כרוך. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 NASA crew briefly shelters inside Dragon capsule as Russia addresses new space station leaks ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The precautions were announced the same day as NASA said Roscosmos cosmonauts are set to perform “a more extensive repair operation”, but without providing details as to what that entails. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 14
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-05T15:10:00",
-    "date_display": "Fri, 05 Jun 2026 15:10:00 +0200",
-    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_01-05_Jun_2026",
-    "title_en": "Week in images: 01-05 June 2026",
-    "summary_en": "Week in images: 01-05 June 2026\n\tDiscover our week through the lens",
-    "image": "",
-    "title_ru": "Неделя в изображениях: 01–05 июня 2026 г.",
-    "summary_ru": "Неделя в изображениях: 01–05 июня 2026 г.\n\tОткройте для себя нашу неделю через призму",
-    "title_ru_kids": "🚀 Неделя в изображениях: 01–05 июня 2026 г. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 01–05 июня 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "שבוע בתמונות: 01-05 ביוני 2026",
-    "summary_he": "שבוע בתמונות: 01-05 ביוני 2026\n\tגלה את השבוע שלנו דרך העדשה",
-    "title_he_kids": "🚀 שבוע בתמונות: 01-05 ביוני 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 01-05 ביוני 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Week in images: 01-05 June 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 01-05 June 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 15
+    "id": 17
   },
   {
     "source": "Spaceflight Now",
@@ -307,9 +347,9 @@
     "title_en": "NASA head urges new launcher for Blue Origin’s moon landers to meet Artemis mission deadlines",
     "summary_en": "The change was confirmed by the agency a week after a New Glenn testing explosion destroyed the rocket and damaged Launch Complex 36.",
     "image": "",
-    "title_ru": "Глава НАСА призывает новую пусковую установку для лунных кораблей Blue Origin уложиться в сроки миссии Артемида",
+    "title_ru": "Глава НАСА призывает новую пусковую установку для лунных кораблей Blue Origin уложиться в сроки миссии «Артемида»",
     "summary_ru": "Изменение было подтверждено агентством через неделю после того, как испытательный взрыв в Нью-Гленне уничтожил ракету и повредил стартовый комплекс 36.",
-    "title_ru_kids": "🚀 Глава НАСА призывает новую пусковую установку для лунных кораблей Blue Origin уложиться в сроки миссии Артемида ✨",
+    "title_ru_kids": "🚀 Глава НАСА призывает новую пусковую установку для лунных кораблей Blue Origin уложиться в сроки миссии «Артемида» ✨",
     "summary_ru_kids": "🌟 Смотри, что произошло! Изменение было подтверждено агентством через неделю после того, как испытательный взрыв в Нью-Гленне уничтожил ракету и повредил стартовый комплекс 36. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "ראש נאס\"א קורא למשגר חדש לנחיתות הירח של Blue Origin לעמוד במועדי המשימה של ארטמיס",
     "summary_he": "השינוי אושר על ידי הסוכנות שבוע לאחר שפיצוץ ניסוי של ניו גלן השמיד את הרקטה ופגע במתחם השיגור 36.",
@@ -317,7 +357,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! השינוי אושר על ידי הסוכנות שבוע לאחר שפיצוץ ניסוי של ניו גלן השמיד את הרקטה ופגע במתחם השיגור 36. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 NASA head urges new launcher for Blue Origin’s moon landers to meet Artemis mission deadlines ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The change was confirmed by the agency a week after a New Glenn testing explosion destroyed the rocket and damaged Launch Complex 36. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 16
+    "id": 18
   },
   {
     "source": "SpaceX",
@@ -337,27 +377,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-47 ראתה את SpaceX ניסתה את הנחיתה ה-200 שלה על ספינת המל\"טים שנקראת 'כמובן שאני עדיין אוהב אותך'. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 8:40:39 בבוקר PDT (11:40:39 בבוקר EDT / 1540:39 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-47 mission saw SpaceX attempt its 200th landing on the drone ship called ‘Of Course I Still Love You.’ Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:40:39 a.m. PDT (11:40:39 a.m. EDT / 1540:39 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 17
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-06-03T01:39:54",
-    "date_display": "Wed, 03 Jun 2026 01:39:54 +0000",
-    "link": "https://spaceflightnow.com/2026/06/03/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-3/",
-    "title_en": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg",
-    "summary_en": "The Starlink 17-47 mission saw SpaceX attempt its 200th landing on the drone ship called ‘Of Course I Still Love You.’ Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:40:39 a.m. PDT (11:40:39 a.m. EDT / 1540:39 UTC).",
-    "image": "",
-    "title_ru": "SpaceX запустила 24 спутника Starlink на ракете Falcon 9 из Ванденберга",
-    "summary_ru": "В ходе миссии Starlink 17-47 SpaceX предприняла 200-ю попытку приземления на беспилотный корабль под названием «Конечно, я все еще люблю тебя». Старт с площадки 4E на базе космических сил Ванденберг произошел в 8:40:39 по тихоокеанскому времени (11:40:39 по восточному времени / 15:40:39 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 SpaceX запустила 24 спутника Starlink на ракете Falcon 9 из Ванденберга ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! В ходе миссии Starlink 17-47 SpaceX предприняла 200-ю попытку приземления на беспилотный корабль под названием «Конечно, я все еще люблю тебя». Старт с площадки 4E на базе космических сил Ванденберг произошел в 8:40:39 по тихоокеанскому времени (11:40:39 по восточному времени / 15:40:39 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
-    "title_he": "SpaceX משגרת 24 לווייני Starlink על רקטת פלקון 9 מוונדנברג",
-    "summary_he": "משימת Starlink 17-47 ראתה את SpaceX ניסתה את הנחיתה ה-200 שלה על ספינת המל\"טים שנקראת 'כמובן שאני עדיין אוהב אותך'. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 8:40:39 בבוקר PDT (11:40:39 בבוקר EDT / 1540:39 UTC).",
-    "title_he_kids": "🚀 SpaceX משגרת 24 לווייני Starlink על רקטת פלקון 9 מוונדנברג ✨",
-    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-47 ראתה את SpaceX ניסתה את הנחיתה ה-200 שלה על ספינת המל\"טים שנקראת 'כמובן שאני עדיין אוהב אותך'. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 8:40:39 בבוקר PDT (11:40:39 בבוקר EDT / 1540:39 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
-    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-47 mission saw SpaceX attempt its 200th landing on the drone ship called ‘Of Course I Still Love You.’ Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:40:39 a.m. PDT (11:40:39 a.m. EDT / 1540:39 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 18
+    "id": 19
   },
   {
     "source": "SpaceX",
@@ -377,7 +397,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-43 תטוס על רקטת פלקון 9 לכיוון צפון-מזרח. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת ליום חמישי, 4 ביוני, בשעה 6:26:30 בבוקר EDT (1026:30 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches sunrise Starlink mission following weather scrub ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-43 mission will fly on a Falcon 9 rocket heading on a north-easterly trajectory. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for Thursday, June 4, at 6:26:30 a.m. EDT (1026:30 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 19
+    "id": 20
   },
   {
     "source": "SpaceX",
@@ -397,7 +417,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-41 הייתה ההשקה העשירית והאחרונה של SpaceX במאי. הורדת רקטת ה-Falcon 9 ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 8:25 בבוקר PDT (11:25 בבוקר EDT / 1525 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 50th Starlink mission of 2026 ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-41 mission was SpaceX’s 10th and final launch of May. Liftoff of the Falcon 9 rocket from pad 4E at Vandenberg Space Force Base happened at 8:25 a.m. PDT (11:25 a.m. EDT / 1525 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 20
+    "id": 21
   },
   {
     "source": "SpaceX",
@@ -412,12 +432,12 @@
     "title_ru_kids": "🚀 SpaceX запустила 29 спутников Starlink на ракете Falcon 9 с мыса Канаверал ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 10-53 стала 49-й миссией, посвященной запуску широкополосных интернет-спутников SpaceX на низкую околоземную орбиту в 2026 году. Старт с площадки 40 на станции космических сил на мысе Канаверал в 8:57 утра по восточному времени (12:57 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "SpaceX משגרת 29 לווייני Starlink על רקטת פלקון 9 מקייפ קנוורל",
-    "summary_he": "משימת Starlink 10-53 הייתה המשימה ה-49 שהוקדשה להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. התרפה משטח 40 בתחנת כוח החלל קייפ קנוורל 8:57 בבוקר EDT (1257 UTC).",
+    "summary_he": "משימת Starlink 10-53 הייתה המשימה ה-49 שהוקדשה להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. התרוממות משטח 40 בתחנת כוח החלל קייפ קנוורל 8:57 בבוקר EDT (1257 UTC).",
     "title_he_kids": "🚀 SpaceX משגרת 29 לווייני Starlink על רקטת פלקון 9 מקייפ קנוורל ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-53 הייתה המשימה ה-49 שהוקדשה להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. התרפה משטח 40 בתחנת כוח החלל קייפ קנוורל 8:57 בבוקר EDT (1257 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-53 הייתה המשימה ה-49 שהוקדשה להטסת לווייני האינטרנט בפס רחב של SpaceX למסלול נמוך של כדור הארץ בשנת 2026. התרוממות משטח 40 בתחנת כוח החלל קייפ קנוורל 8:57 בבוקר EDT (1257 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-53 mission was the 49th mission dedicated to flying SpaceX’s broadband internet satellites to low Earth orbit in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station 8:57 a.m. EDT (1257 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 21
+    "id": 22
   },
   {
     "source": "SpaceX",
@@ -427,36 +447,16 @@
     "title_en": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
     "summary_en": "The Starlink 17-37 mission flew on the 60th Falcon 9 rocket launched in 2026. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:50 a.m. PDT (10:50 a.m. EDT / 1450 UTC).",
     "image": "",
-    "title_ru": "SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с космодрома Ванденберг",
+    "title_ru": "SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с базы Ванденберг SFB",
     "summary_ru": "Миссия Starlink 17-37 выполнялась на 60-й ракете Falcon 9, запущенной в 2026 году. Старт с площадки 4E на базе космических сил Ванденберг произошел в 7:50 утра по тихоокеанскому времени (10:50 утра по восточному времени / 14:50 UTC).",
-    "title_ru_kids": "🚀 SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с космодрома Ванденберг ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 17-37 выполнялась на 60-й ракете Falcon 9, запущенной в 2026 году. Старт с площадки 4E на базе космических сил Ванденберг произошел в 7:50 утра по тихоокеанскому времени (10:50 утра по восточному времени / 14:50 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
-    "title_he": "SpaceX משגרת 24 לווייני Starlink על רקטת Falcon 9 מ-Vandenberg SFB",
+    "title_ru_kids": "🚀 SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с базы Ванденберг SFB ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 17-37 выполнялась на 60-й ракете Falcon 9, запущенной в 2026 году. Старт с площадки 4E на базе космических сил Ванденберг произошел в 7:50 утра по тихоокеанскому времени (10:50 утра по восточному времени / 14:50 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "SpaceX משגרת 24 לווייני Starlink על רקטת פלקון 9 מ-Vandenberg SFB",
     "summary_he": "משימת Starlink 17-37 טסה על הרקטה ה-60 של פלקון 9 ששוגרה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 7:50 בבוקר PDT (10:50 בבוקר EDT / 1450 UTC).",
-    "title_he_kids": "🚀 SpaceX משגרת 24 לווייני Starlink על רקטת Falcon 9 מ-Vandenberg SFB ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-37 טסה על הרקטה ה-60 של פלקון 9 ששוגרה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 7:50 בבוקר PDT (10:50 בבוקר EDT / 1450 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_he_kids": "🚀 SpaceX משגרת 24 לווייני Starlink על רקטת פלקון 9 מ-Vandenberg SFB ✨",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-37 טסה על הרקטה ה-60 של פלקון 9 ששוגרה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 7:50 בבוקר PDT (10:50 בבוקר EDT / 1450 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-37 mission flew on the 60th Falcon 9 rocket launched in 2026. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:50 a.m. PDT (10:50 a.m. EDT / 1450 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 22
-  },
-  {
-    "source": "SpaceX",
-    "date_parsed": "2026-05-24T17:54:29",
-    "date_display": "Sun, 24 May 2026 17:54:29 +0000",
-    "link": "https://spaceflightnow.com/2026/05/24/live-coverage-spacex-to-launch-29-starlink-satellites-on-a-falcon-9-rocket-from-cape-canaveral/",
-    "title_en": "SpaceX launches 29 Starlink satellites on Memorial Day",
-    "summary_en": "The mission was SpaceX’s 60th orbital flight of the year, including one Falcon Heavy launch and 59 Falcon 9 flights. Liftoff of the Starlink 10-47 mission from pad 40 at Cape Canaveral Space Force Station happened at 7:48 a.m. EDT (1148 UTC).",
-    "image": "",
-    "title_ru": "SpaceX запустила 29 спутников Starlink в День памяти",
-    "summary_ru": "Эта миссия стала 60-м орбитальным полетом SpaceX в этом году, включая один запуск Falcon Heavy и 59 полетов Falcon 9. Старт миссии Starlink 10-47 с площадки 40 на станции космических сил на мысе Канаверал произошел в 7:48 утра по восточному времени (11:48 UTC).",
-    "title_ru_kids": "🚀 SpaceX запустила 29 спутников Starlink в День памяти ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Эта миссия стала 60-м орбитальным полетом SpaceX в этом году, включая один запуск Falcon Heavy и 59 полетов Falcon 9. Старт миссии Starlink 10-47 с площадки 40 на станции космических сил на мысе Канаверал произошел в 7:48 утра по восточному времени (11:48 UTC). 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "SpaceX משגרת 29 לווייני Starlink ביום הזיכרון",
-    "summary_he": "המשימה הייתה טיסת המסלול ה-60 של SpaceX בשנה, כולל שיגור אחד של Falcon Heavy ו-59 טיסות פלקון 9. הסרת משימת Starlink 10-47 ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 7:48 בבוקר EDT (1148 UTC).",
-    "title_he_kids": "🚀 SpaceX משגרת 29 לווייני Starlink ביום הזיכרון ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה הייתה טיסת המסלול ה-60 של SpaceX בשנה, כולל שיגור אחד של Falcon Heavy ו-59 טיסות פלקון 9. הסרת משימת Starlink 10-47 ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 7:48 בבוקר EDT (1148 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 SpaceX launches 29 Starlink satellites on Memorial Day ✨",
-    "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission was SpaceX’s 60th orbital flight of the year, including one Falcon Heavy launch and 59 Falcon 9 flights. Liftoff of the Starlink 10-47 mission from pad 40 at Cape Canaveral Space Force Station happened at 7:48 a.m. EDT (1148 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
     "id": 23
   },
   {
