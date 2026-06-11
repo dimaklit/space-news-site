@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 17-44",
-    "window_start": "2026-06-10T14:00:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "HASTE | Curveball",
     "window_start": "2026-06-11T04:00:00Z",
     "rocket": "Electron",
@@ -33,5 +26,12 @@
     "rocket": "Long March 3B/E",
     "pad": "Launch Complex 2 (LC-2)",
     "location": "Xichang Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Long March 12 | Unknown Payload",
+    "window_start": "2026-06-17T02:00:00Z",
+    "rocket": "Long March 12",
+    "pad": "Commercial LC-2",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
