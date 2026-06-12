@@ -1,43 +1,83 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-06-12T10:00:00",
+    "date_display": "Fri, 12 Jun 2026 10:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Buenos_Aires",
+    "title_en": "Earth from Space: Buenos Aires",
+    "summary_en": "Image:\n\t\t\tThis radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary.Zoom in to explore this image at its full resolution.This is a composite of three Sentinel-1 acquisiti...",
+    "image": "",
+    "title_ru": "Земля из космоса: Буэнос-Айрес",
+    "summary_ru": "Изображение:\n\t\t\tНа этом радиолокационном изображении, полученном миссией Copernicus Sentinel-1, запечатлены Буэнос-Айрес, столица Аргентины, окружающая сельская местность и устье Рио-де-ла-Плата. Увеличьте масштаб, чтобы изучить это изображение в полном разрешении. Это объединение трех изображений, полученных Sentinel-1...",
+    "title_ru_kids": "🚀 Земля из космоса: Буэнос-Айрес ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tНа этом радиолокационном изображении, полученном миссией Copernicus Sentinel-1, запечатлены Буэнос-Айрес, столица Аргентины, окружающая сельская местность и устье Рио-де-ла-Плата. Увеличьте масштаб, чтобы изучить это изображение в полном разрешении. Это объединение трех изображений, полученных Sentinel-1... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Скафандр весит как большой пес!",
+    "title_he": "כדור הארץ מהחלל: בואנוס איירס",
+    "summary_he": "תמונה:\n\t\t\tתמונת מכ\"ם זו ממשימת Copernicus Sentinel-1 לוכדת את בואנוס איירס, בירת ארגנטינה, את האזור הכפרי שמסביב ואת שפך ריו דה לה פלטה. התקרב כדי לחקור תמונה זו ברזולוציה המלאה. זהו שילוב של שלושה סנטינל-1 רכישות...",
+    "title_he_kids": "🚀 כדור הארץ מהחלל: בואנוס איירס ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת מכ\"ם זו ממשימת Copernicus Sentinel-1 לוכדת את בואנוס איירס, בירת ארגנטינה, את האזור הכפרי שמסביב ואת שפך ריו דה לה פלטה. התקרב כדי לחקור תמונה זו ברזולוציה המלאה. זהו שילוב של שלושה סנטינל-1 רכישות... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Earth from Space: Buenos Aires ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary.Zoom in to explore this image at its full resolution.This is a composite of three Sentinel-1 acquisiti... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-12T08:45:00",
+    "date_display": "Fri, 12 Jun 2026 08:45:00 +0200",
+    "link": "https://www.esa.int/Applications/Satellite_navigation/Conversations_in_the_sky_Galileo_s_intersatellite_links_tested",
+    "title_en": "Conversations in the sky: Galileo’s intersatellite links tested",
+    "summary_en": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, enable new services and add new capabilities to the conste...",
+    "image": "",
+    "title_ru": "Разговоры в небе: проверена межспутниковая связь Галилея",
+    "summary_ru": "Строится второе поколение спутниковой навигационной группировки Европы Galileo. Эти спутники будут иметь реконфигурируемую полезную нагрузку, обеспечивать более надежное и надежное позиционирование, навигацию и синхронизацию, предоставлять новые услуги и добавлять новые возможности в констел...",
+    "title_ru_kids": "🚀 Разговоры в небе: проверена межспутниковая связь Галилея ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Строится второе поколение спутниковой навигационной группировки Европы Galileo. Эти спутники будут иметь реконфигурируемую полезную нагрузку, обеспечивать более надежное и надежное позиционирование, навигацию и синхронизацию, предоставлять новые услуги и добавлять новые возможности в констел... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "שיחות בשמיים: הקישורים הבין-לווייניים של גלילאו נבדקו",
+    "summary_he": "הדור השני של גלילאו, קבוצת הניווט הלוויין של אירופה, נבנה. לוויינים אלה יציגו עומסים הניתנים להגדרה מחדש, יספקו מיקום, ניווט ותזמון חזק ואמין יותר, יאפשרו שירותים חדשים ויוסיפו יכולות חדשות לקונסט...",
+    "title_he_kids": "🚀 שיחות בשמיים: הקישורים הבין-לווייניים של גלילאו נבדקו ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הדור השני של גלילאו, קבוצת הניווט הלוויין של אירופה, נבנה. לוויינים אלה יציגו עומסים הניתנים להגדרה מחדש, יספקו מיקום, ניווט ותזמון חזק ואמין יותר, יאפשרו שירותים חדשים ויוסיפו יכולות חדשות לקונסט... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Conversations in the sky: Galileo’s intersatellite links tested ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, enable new services and add new capabilities to the conste... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 2
+  },
+  {
     "source": "SpaceX",
     "date_parsed": "2026-06-12T02:06:09",
     "date_display": "Fri, 12 Jun 2026 02:06:09 +0000",
     "link": "https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/",
-    "title_en": "Live coverage: SpaceX to launch a Starlink mission from Cape Canaveral as it begins publicly trading its stock on the Nasdaq for the first time",
+    "title_en": "Live coverage: SpaceX to launch Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time",
     "summary_en": "The company will debut on the Nasdaq under the ticker symbol “SPCX” and begin trading with a massive valuation of $1.77 trillion. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:37 a.m. EDT (1237 UTC).",
     "image": "",
-    "title_ru": "Прямая трансляция: SpaceX запустит миссию Starlink с мыса Канаверал и впервые начнет публично торговать своими акциями на Nasdaq",
+    "title_ru": "Прямая трансляция: SpaceX запустит миссию Starlink с мыса Канаверал, поскольку акции впервые торгуются на Nasdaq",
     "summary_ru": "Компания дебютирует на Nasdaq под тикером SPCX и начнет торговаться с огромной оценкой в ​​$1,77 трлн. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:37 утра по восточному времени (12:37 UTC).",
-    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит миссию Starlink с мыса Канаверал и впервые начнет публично торговать своими акциями на Nasdaq ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Компания дебютирует на Nasdaq под тикером SPCX и начнет торговаться с огромной оценкой в ​​$1,77 трлн. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:37 утра по восточному времени (12:37 UTC). 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "סיקור חי: SpaceX תשיק משימת Starlink מקייפ קנוורל כשהיא מתחילה לסחור בבורסה במניות שלה בנאסד\"ק בפעם הראשונה",
+    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит миссию Starlink с мыса Канаверал, поскольку акции впервые торгуются на Nasdaq ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Компания дебютирует на Nasdaq под тикером SPCX и начнет торговаться с огромной оценкой в ​​$1,77 трлн. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:37 утра по восточному времени (12:37 UTC). 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "סיקור חי: SpaceX תשיק את משימת Starlink מקייפ קנוורל כאשר נסחרת מניות בנאסד\"ק בפעם הראשונה",
     "summary_he": "החברה תופיע לראשונה בנאסד\"ק תחת סמל הטיקר \"SPCX\" ותתחיל להיסחר עם שווי עצום של 1.77 טריליון דולר. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 8:37 בבוקר EDT (1237 UTC).",
-    "title_he_kids": "🚀 סיקור חי: SpaceX תשיק משימת Starlink מקייפ קנוורל כשהיא מתחילה לסחור בבורסה במניות שלה בנאסד\"ק בפעם הראשונה ✨",
+    "title_he_kids": "🚀 סיקור חי: SpaceX תשיק את משימת Starlink מקייפ קנוורל כאשר נסחרת מניות בנאסד\"ק בפעם הראשונה ✨",
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! החברה תופיע לראשונה בנאסד\"ק תחת סמל הטיקר \"SPCX\" ותתחיל להיסחר עם שווי עצום של 1.77 טריליון דולר. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 8:37 בבוקר EDT (1237 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Live coverage: SpaceX to launch a Starlink mission from Cape Canaveral as it begins publicly trading its stock on the Nasdaq for the first time ✨",
+    "title_en_kids": "🚀 Live coverage: SpaceX to launch Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The company will debut on the Nasdaq under the ticker symbol “SPCX” and begin trading with a massive valuation of $1.77 trillion. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:37 a.m. EDT (1237 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
     "date_parsed": "2026-06-12T02:06:09",
     "date_display": "Fri, 12 Jun 2026 02:06:09 +0000",
     "link": "https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/",
-    "title_en": "Live coverage: SpaceX to launch a Starlink mission from Cape Canaveral as it begins publicly trading its stock on the Nasdaq for the first time",
+    "title_en": "Live coverage: SpaceX to launch Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time",
     "summary_en": "The company will debut on the Nasdaq under the ticker symbol “SPCX” and begin trading with a massive valuation of $1.77 trillion. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:37 a.m. EDT (1237 UTC).",
     "image": "",
-    "title_ru": "Прямая трансляция: SpaceX запустит миссию Starlink с мыса Канаверал и впервые начнет публично торговать своими акциями на Nasdaq",
+    "title_ru": "Прямая трансляция: SpaceX запустит миссию Starlink с мыса Канаверал, поскольку акции впервые торгуются на Nasdaq",
     "summary_ru": "Компания дебютирует на Nasdaq под тикером SPCX и начнет торговаться с огромной оценкой в ​​$1,77 трлн. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:37 утра по восточному времени (12:37 UTC).",
-    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит миссию Starlink с мыса Канаверал и впервые начнет публично торговать своими акциями на Nasdaq ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Компания дебютирует на Nasdaq под тикером SPCX и начнет торговаться с огромной оценкой в ​​$1,77 трлн. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:37 утра по восточному времени (12:37 UTC). 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "סיקור חי: SpaceX תשיק משימת Starlink מקייפ קנוורל כשהיא מתחילה לסחור בבורסה במניות שלה בנאסד\"ק בפעם הראשונה",
+    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит миссию Starlink с мыса Канаверал, поскольку акции впервые торгуются на Nasdaq ✨",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Компания дебютирует на Nasdaq под тикером SPCX и начнет торговаться с огромной оценкой в ​​$1,77 трлн. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 8:37 утра по восточному времени (12:37 UTC). 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "סיקור חי: SpaceX תשיק את משימת Starlink מקייפ קנוורל כאשר נסחרת מניות בנאסד\"ק בפעם הראשונה",
     "summary_he": "החברה תופיע לראשונה בנאסד\"ק תחת סמל הטיקר \"SPCX\" ותתחיל להיסחר עם שווי עצום של 1.77 טריליון דולר. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 8:37 בבוקר EDT (1237 UTC).",
-    "title_he_kids": "🚀 סיקור חי: SpaceX תשיק משימת Starlink מקייפ קנוורל כשהיא מתחילה לסחור בבורסה במניות שלה בנאסד\"ק בפעם הראשונה ✨",
+    "title_he_kids": "🚀 סיקור חי: SpaceX תשיק את משימת Starlink מקייפ קנוורל כאשר נסחרת מניות בנאסד\"ק בפעם הראשונה ✨",
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! החברה תופיע לראשונה בנאסד\"ק תחת סמל הטיקר \"SPCX\" ותתחיל להיסחר עם שווי עצום של 1.77 טריליון דולר. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 8:37 בבוקר EDT (1237 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Live coverage: SpaceX to launch a Starlink mission from Cape Canaveral as it begins publicly trading its stock on the Nasdaq for the first time ✨",
+    "title_en_kids": "🚀 Live coverage: SpaceX to launch Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The company will debut on the Nasdaq under the ticker symbol “SPCX” and begin trading with a massive valuation of $1.77 trillion. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 8:37 a.m. EDT (1237 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 4
   },
   {
     "source": "ESA",
@@ -57,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מדיונים אסטרטגיים על אוטונומיה וחוסן ועד לשיחה בטיסה עם האסטרונאוטית של ESA סופי אדנוט, היום השני של ESA בתערוכת האוויר הבינלאומית של ILA Berlin Berlin 2026 הדגיש את הערך הנרחב של החלל עבור אירופה כעת ובעתיד. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA at ILA 2026 – Day 2 highlights ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! From strategic discussions on autonomy and resilience to an in-flight call with ESA astronaut Sophie Adenot, ESA's second day at ILA Berlin International Airshow 2026 highlighted the wide-reaching value of space for Europe now and in the future. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 5
   },
   {
     "source": "ESA",
@@ -77,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:19:00\n\t\t\t\tאסטרונאוטית ESA סופי אדנוט הצטרפה בשידור חי ל-ILA Berlin 2026 מתחנת החלל הבינלאומית לשיחה מיוחדת בטיסה על החיים והעבודה במסלול, שאיפותיה של אירופה בטיסות אנושיות בחלל. בשיחה הופיעו מנכ\"ל ESA יוזף אשבאכר... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ILA Berlin 2026: in-flight call with ESA Astronaut Sophie Adenot ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:19:00\n\t\t\t\tESA astronaut Sophie Adenot joined ILA Berlin 2026 live from the International Space Station for a special in-flight conversation on life and work in orbit, Europe's ambitions in human spaceflight. The call featured ESA Director General Josef Aschbacher... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 6
   },
   {
     "source": "ESA",
@@ -97,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tלוקה פרמיטנו, טייס ארטמיס השלישי, בחליפת הטיסה שלו. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Luca Parmitano: Artemis III pilot ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tLuca Parmitano, Artemis III pilot, in his flight suit. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 7
   },
   {
     "source": "ESA",
@@ -117,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:38\n\t\t\t\tהטיסה השמינית של הרקטה Ariane 6 של אירופה תהיה בעלת דחיפה גדולה יותר: מנוע הטיל הנעה מוצק P120C, ששימש עד כה כמאיץ Ariane 6, שודרג. ה-P160C החדש שטס בטיסת Ariane 6 VA269 מציע 10% יותר ביצועים למסלול. P160C... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Same rocket, new boost ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:01:38\n\t\t\t\tThe eighth flight of Europe’s rocket Ariane 6 will have a bigger boost: the P120C solid-propellant rocket motor, used as Ariane 6 booster so far, has been upgraded. The new P160C flying on Ariane 6 flight VA269 offers 10% more performance to orbit.P160C... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 8
   },
   {
     "source": "SpaceX",
@@ -137,7 +177,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ה-Falcon 9 הושק יום לפני שהחברה מתחילה להיסחר בבורסה בנאסד\"ק. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג בקליפורניה אירעה בשעה 8:05:59 בבוקר PDT (11:05:59 בבוקר EDT / 1505:59 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Falcon 9 launched a day before the company begins publicly trading on the Nasdaq. Liftoff from pad 4E at Vandenberg Space Force Base in California happened at 8:05:59 a.m. PDT (11:05:59 a.m. EDT / 1505:59 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -157,7 +197,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! ה-Falcon 9 הושק יום לפני שהחברה מתחילה להיסחר בבורסה בנאסד\"ק. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג בקליפורניה אירעה בשעה 8:05:59 בבוקר PDT (11:05:59 בבוקר EDT / 1505:59 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Falcon 9 launched a day before the company begins publicly trading on the Nasdaq. Liftoff from pad 4E at Vandenberg Space Force Base in California happened at 8:05:59 a.m. PDT (11:05:59 a.m. EDT / 1505:59 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 10
   },
   {
     "source": "ESA",
@@ -177,7 +217,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Tracker World Settlement Footprint (WSF) והפלטפורמה המקוונת הייעודית שלו, פורסמו רשמית באירוע במטה הבנק העולמי בוושינגטון הבירה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Tracking urban expansion in hazard-prone areas ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The World Settlement Footprint (WSF) Tracker, and its dedicated online platform, have been officially released at an event at the World Bank headquarters in Washington DC. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 9
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -197,46 +237,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! במהלך אירוע ביום שלישי במרכז החלל ג'ונסון, נאס\"א חשפה את האסטרונאוטים שנבחרו למשימת ארטמיס 3 בשנה הבאה, טיסה לבדיקת נהלי מפגש ועגינה במסלול נמוך של כדור הארץ עם נחיתות ירח שנבנו על ידי SpaceX ו-Blue Origin. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA chief defends selection of all-male Artemis 3 crew ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! During an event Tuesday at the Johnson Space Center, NASA revealed the astronauts who had been selected for next year's Artemis 3 mission, a flight to test rendezvous and docking procedures in low-Earth orbit with moon landers being built by SpaceX and Blue Origin. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 10
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-10T19:32:00",
-    "date_display": "Wed, 10 Jun 2026 19:32:00 +0200",
-    "link": "https://www.esa.int/About_Us/Corporate_news/ESA_at_ILA_2026_Day_1_highlights",
-    "title_en": "ESA at ILA 2026 – Day 1 highlights",
-    "summary_en": "The European Space Agency (ESA) inaugurated its participation at ILA Berlin International Airshow 2026&nbsp;with a day rich in high-level meetings, public events and strategic milestones, highlighting Europe's determination to strengthen its role in space. From in-space operat...",
-    "image": "",
-    "title_ru": "ЕКА на ILA 2026 – основные моменты первого дня",
-    "summary_ru": "Европейское космическое агентство (ЕКА) открыло свое участие в Берлинском международном авиашоу ILA 2026 днем, богатым встречами на высоком уровне, публичными мероприятиями и стратегическими вехами, подчеркнув решимость Европы усилить свою роль в космосе. Из космической операции...",
-    "title_ru_kids": "🚀 ЕКА на ILA 2026 – основные моменты первого дня ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Европейское космическое агентство (ЕКА) открыло свое участие в Берлинском международном авиашоу ILA 2026 днем, богатым встречами на высоком уровне, публичными мероприятиями и стратегическими вехами, подчеркнув решимость Европы усилить свою роль в космосе. Из космической операции... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "ESA ב-ILA 2026 - עיקרי יום 1",
-    "summary_he": "סוכנות החלל האירופית (ESA) חנכה את השתתפותה בתערוכת האוויר הבינלאומית של ILA Berlin 2026 עם יום עשיר בפגישות ברמה גבוהה, אירועים ציבוריים ואבני דרך אסטרטגיות, והדגיש את נחישותה של אירופה לחזק את תפקידה בחלל. מתוך מבצע בחלל...",
-    "title_he_kids": "🚀 ESA ב-ILA 2026 - עיקרי יום 1 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) חנכה את השתתפותה בתערוכת האוויר הבינלאומית של ILA Berlin 2026 עם יום עשיר בפגישות ברמה גבוהה, אירועים ציבוריים ואבני דרך אסטרטגיות, והדגיש את נחישותה של אירופה לחזק את תפקידה בחלל. מתוך מבצע בחלל... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 ESA at ILA 2026 – Day 1 highlights ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) inaugurated its participation at ILA Berlin International Airshow 2026&nbsp;with a day rich in high-level meetings, public events and strategic milestones, highlighting Europe's determination to strengthen its role in space. From in-space operat... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-10T18:25:00",
-    "date_display": "Wed, 10 Jun 2026 18:25:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/ESA_adopts_galactic_archaeology_mission_Arrakihs",
-    "title_en": "ESA adopts galactic archaeology mission Arrakihs",
-    "summary_en": "The European Space Agency’s (ESA) Science Programme Committee has adopted the Arrakihs mission. Planned for launch by the end of 2030, Arrakihs will capture the faint light from nearby galaxy haloes. By seeing the unseen, Arrakihs will dig up cosmic history and reveal how gala...",
-    "image": "",
-    "title_ru": "ЕКА принимает миссию галактической археологии Арракихс",
-    "summary_ru": "Комитет научной программы Европейского космического агентства (ЕКА) одобрил миссию Арракихс. Запуск которого запланирован на конец 2030 года, \"Арракихс\" будет улавливать слабый свет от гало близлежащих галактик. Увидев невидимое, Арракихс раскопает космическую историю и покажет, насколько величественна...",
-    "title_ru_kids": "🚀 ЕКА принимает миссию галактической археологии Арракихс ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Комитет научной программы Европейского космического агентства (ЕКА) одобрил миссию Арракихс. Запуск которого запланирован на конец 2030 года, \"Арракихс\" будет улавливать слабый свет от гало близлежащих галактик. Увидев невидимое, Арракихс раскопает космическую историю и покажет, насколько величественна... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "ESA מאמצת את משימת הארכיאולוגיה הגלקטית Arrakihs",
-    "summary_he": "ועדת תוכנית המדע של סוכנות החלל האירופית (ESA) אימצה את משימת Arrakihs. מתוכנן לשיגור עד סוף 2030, Arrakihs ילכד את האור הקלוש מהילות הגלקסיות הסמוכות. על ידי ראיית הבלתי נראה, Arrakhs יחפור היסטוריה קוסמית ויחשוף כיצד חגיגית...",
-    "title_he_kids": "🚀 ESA מאמצת את משימת הארכיאולוגיה הגלקטית Arrakihs ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ועדת תוכנית המדע של סוכנות החלל האירופית (ESA) אימצה את משימת Arrakihs. מתוכנן לשיגור עד סוף 2030, Arrakihs ילכד את האור הקלוש מהילות הגלקסיות הסמוכות. על ידי ראיית הבלתי נראה, Arrakhs יחפור היסטוריה קוסמית ויחשוף כיצד חגיגית... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 ESA adopts galactic archaeology mission Arrakihs ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s (ESA) Science Programme Committee has adopted the Arrakihs mission. Planned for launch by the end of 2030, Arrakihs will capture the faint light from nearby galaxy haloes. By seeing the unseen, Arrakihs will dig up cosmic history and reveal how gala... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 12
   },
   {
