@@ -1,5 +1,45 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-06-15T14:10:00",
+    "date_display": "Mon, 15 Jun 2026 14:10:00 +0200",
+    "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Watch_live_bigger_booster_more_powerful_Ariane_6_launch",
+    "title_en": "Watch live: bigger booster, more powerful Ariane 6 launch ",
+    "summary_en": "",
+    "image": "",
+    "title_ru": "Смотрите в прямом эфире: запуск более мощного ракеты-носителя Ariane 6",
+    "summary_ru": "",
+    "title_ru_kids": "🚀 Смотрите в прямом эфире: запуск более мощного ракеты-носителя Ariane 6 ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
+    "title_he": "צפו בשידור חי: בוסטר גדול יותר, השקת Ariane 6 חזקה יותר",
+    "summary_he": "",
+    "title_he_kids": "🚀 צפו בשידור חי: בוסטר גדול יותר, השקת Ariane 6 חזקה יותר ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Watch live: bigger booster, more powerful Ariane 6 launch  ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-15T13:45:00",
+    "date_display": "Mon, 15 Jun 2026 13:45:00 +0200",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth/Pacific_warming_signals_El_Nino_has_stirred",
+    "title_en": "Pacific warming signals El Niño has stirred",
+    "summary_en": "",
+    "image": "",
+    "title_ru": "Сигналы о потеплении в Тихом океане Эль-Ниньо всколыхнуло",
+    "summary_ru": "",
+    "title_ru_kids": "🚀 Сигналы о потеплении в Тихом океане Эль-Ниньо всколыхнуло ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "האותות של התחממות האוקיינוס ​​השקט שאל ניניו התעוררה",
+    "summary_he": "",
+    "title_he_kids": "🚀 האותות של התחממות האוקיינוס ​​השקט שאל ניניו התעוררה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Pacific warming signals El Niño has stirred ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 2
+  },
+  {
     "source": "SpaceX",
     "date_parsed": "2026-06-14T23:29:03",
     "date_display": "Sun, 14 Jun 2026 23:29:03 +0000",
@@ -17,7 +57,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-54 כוללת את הלוויין ה-1,500 של Starlink ששוגר עד כה בשנת 2026. הרמה משטח 4E בבסיס כוח החלל ונדנברג מתוכננת בשעה 8:32 בבוקר PDT (11:32 בבוקר EDT / 1532 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Live coverage: SpaceX to launch its first Falcon 9 rocket since Nasdaq debut ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-54 mission includes the 1,500th Starlink satellite launched so far in 2026. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled at 8:32 a.m. PDT (11:32 a.m. EDT / 1532 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +77,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 17-54 כוללת את הלוויין ה-1,500 של Starlink ששוגר עד כה בשנת 2026. הרמה משטח 4E בבסיס כוח החלל ונדנברג מתוכננת בשעה 8:32 בבוקר PDT (11:32 בבוקר EDT / 1532 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Live coverage: SpaceX to launch its first Falcon 9 rocket since Nasdaq debut ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 17-54 mission includes the 1,500th Starlink satellite launched so far in 2026. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled at 8:32 a.m. PDT (11:32 a.m. EDT / 1532 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 4
   },
   {
     "source": "ESA",
@@ -57,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 08-12 ביוני 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 08-12 June 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 08-12 June 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 5
   },
   {
     "source": "ESA",
@@ -77,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:17:20\n\t\t\t\tהיכנס למרכז הבקרה של קולומבוס ליד מינכן, גרמניה, וגלה מה נדרש כדי לשמור על מעבדת קולומבוס של ESA פועלת - 24 שעות ביממה, 365 ימים בשנה. מנהל הטיסה של קולומבוס טריסטן הרמל לוקח אותנו אל מאחורי הקלעים של בקרת המשימה, שבו... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Mission Control | Keeping Columbus Running 24/7 | ESA Explores #19 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:17:20\n\t\t\t\tStep inside the Columbus Control Centre near Munich, Germany, and discover what it takes to keep ESA's Columbus laboratory running—24 hours a day, 365 days a year.Columbus Flight Director Tristan Hermel takes us behind the scenes of mission control, whe... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 6
   },
   {
     "source": "ESA",
@@ -97,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת מכ\"ם זו ממשימת Copernicus Sentinel-1 לוכדת את בואנוס איירס, בירת ארגנטינה, את האזור הכפרי שמסביב ואת שפך ריו דה לה פלטה. התקרב כדי לחקור את התמונה הזו ברזולוציה המלאה. זהו שילוב של שלושה סנטינל-1 רכישות... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Buenos Aires ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary.Zoom in to explore this image at its full resolution.This is a composite of three Sentinel-1 acquisiti... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 7
   },
   {
     "source": "ESA",
@@ -107,17 +147,17 @@
     "title_en": "Conversations in the sky: Galileo’s intersatellite links tested",
     "summary_en": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, enable new services and add new capabilities to the conste...",
     "image": "",
-    "title_ru": "Разговоры в небе: проверена межспутниковая связь Галилея",
+    "title_ru": "Разговоры в небе: проверена межспутниковая связь «Галилео»",
     "summary_ru": "Строится второе поколение спутниковой навигационной группировки Европы Galileo. Эти спутники будут иметь реконфигурируемую полезную нагрузку, обеспечивать более надежное и надежное позиционирование, навигацию и синхронизацию, предоставлять новые услуги и добавлять новые возможности в констел...",
-    "title_ru_kids": "🚀 Разговоры в небе: проверена межспутниковая связь Галилея ✨",
+    "title_ru_kids": "🚀 Разговоры в небе: проверена межспутниковая связь «Галилео» ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Строится второе поколение спутниковой навигационной группировки Европы Galileo. Эти спутники будут иметь реконфигурируемую полезную нагрузку, обеспечивать более надежное и надежное позиционирование, навигацию и синхронизацию, предоставлять новые услуги и добавлять новые возможности в констел... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
     "title_he": "שיחות בשמיים: הקישורים הבין-לווייניים של גלילאו נבדקו",
-    "summary_he": "הדור השני של גלילאו, קבוצת הניווט הלוויין של אירופה, נבנה. לוויינים אלה יציגו עומסים הניתנים להגדרה מחדש, יספקו מיקום חזק ואמין יותר, ניווט ותזמון, יאפשרו שירותים חדשים ויוסיפו יכולות חדשות לקונסט...",
+    "summary_he": "הדור השני של גלילאו, קבוצת הניווט הלווייני של אירופה, נבנה. לוויינים אלה יציגו עומסים שניתן להגדיר מחדש, יספקו מיקום, ניווט ותזמון חזק ואמין יותר, יאפשרו שירותים חדשים ויוסיפו יכולות חדשות לקונסט...",
     "title_he_kids": "🚀 שיחות בשמיים: הקישורים הבין-לווייניים של גלילאו נבדקו ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הדור השני של גלילאו, קבוצת הניווט הלוויין של אירופה, נבנה. לוויינים אלה יציגו עומסים הניתנים להגדרה מחדש, יספקו מיקום חזק ואמין יותר, ניווט ותזמון, יאפשרו שירותים חדשים ויוסיפו יכולות חדשות לקונסט... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הדור השני של גלילאו, קבוצת הניווט הלווייני של אירופה, נבנה. לוויינים אלה יציגו עומסים שניתן להגדיר מחדש, יספקו מיקום, ניווט ותזמון חזק ואמין יותר, יאפשרו שירותים חדשים ויוסיפו יכולות חדשות לקונסט... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Conversations in the sky: Galileo’s intersatellite links tested ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, enable new services and add new capabilities to the conste... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 8
   },
   {
     "source": "SpaceX",
@@ -137,7 +177,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! החברה הופיעה לראשונה בנאסד\"ק תחת סמל הטיקר \"SPCX\" והחלה להיסחר עם שווי עצום של 1.77 טריליון דולר. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 8:37 בבוקר EDT (1237 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The company debuted on the Nasdaq under the ticker symbol “SPCX” and began trading with a massive valuation of $1.77 trillion. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 8:37 a.m. EDT (1237 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -157,7 +197,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! החברה הופיעה לראשונה בנאסד\"ק תחת סמל הטיקר \"SPCX\" והחלה להיסחר עם שווי עצום של 1.77 טריליון דולר. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 8:37 בבוקר EDT (1237 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The company debuted on the Nasdaq under the ticker symbol “SPCX” and began trading with a massive valuation of $1.77 trillion. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 8:37 a.m. EDT (1237 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 10
   },
   {
     "source": "ESA",
@@ -177,46 +217,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מדיונים אסטרטגיים על אוטונומיה וחוסן ועד לשיחה בטיסה עם האסטרונאוטית של ESA סופי אדנוט, היום השני של ESA בתערוכת האוויר הבינלאומית של ILA Berlin Berlin 2026 הדגיש את הערך הנרחב של החלל עבור אירופה כעת ובעתיד. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA at ILA 2026 – Day 2 highlights ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! From strategic discussions on autonomy and resilience to an in-flight call with ESA astronaut Sophie Adenot, ESA's second day at ILA Berlin International Airshow 2026 highlighted the wide-reaching value of space for Europe now and in the future. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 9
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-11T14:30:00",
-    "date_display": "Thu, 11 Jun 2026 14:30:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/ILA_Berlin_2026_in-flight_call_with_ESA_Astronaut_Sophie_Adenot",
-    "title_en": "ILA Berlin 2026: in-flight call with ESA Astronaut Sophie Adenot",
-    "summary_en": "Video: \n\t\t\t00:19:00\n\t\t\t\tESA astronaut Sophie Adenot joined ILA Berlin 2026 live from the International Space Station for a special in-flight conversation on life and work in orbit, Europe's ambitions in human spaceflight. The call featured ESA Director General Josef Aschbacher...",
-    "image": "",
-    "title_ru": "ILA Berlin 2026: разговор в полете с астронавтом ЕКА Софи Адено",
-    "summary_ru": "Видео: \n\t\t\t00:19:00\n\t\t\t\tАстронавт ЕКА Софи Адено присоединилась к ILA Berlin 2026 в прямом эфире с Международной космической станции для специального разговора в полете о жизни и работе на орбите, амбициях Европы в области пилотируемых космических полетов. В беседе принял участие генеральный директор ЕКА Йозеф Ашбахер...",
-    "title_ru_kids": "🚀 ILA Berlin 2026: разговор в полете с астронавтом ЕКА Софи Адено ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:19:00\n\t\t\t\tАстронавт ЕКА Софи Адено присоединилась к ILA Berlin 2026 в прямом эфире с Международной космической станции для специального разговора в полете о жизни и работе на орбите, амбициях Европы в области пилотируемых космических полетов. В беседе принял участие генеральный директор ЕКА Йозеф Ашбахер... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "ILA Berlin 2026: שיחה בטיסה עם אסטרונאוטית ESA סופי אדנוט",
-    "summary_he": "וידאו: \n\t\t\t00:19:00\n\t\t\t\tהאסטרונאוטית של ESA, סופי אדנוט, הצטרפה ל-ILA ברלין 2026 בשידור חי מתחנת החלל הבינלאומית לשיחה מיוחדת בטיסה על החיים והעבודה במסלול, שאיפותיה של אירופה בטיסות חלל אנושיות. בשיחה הופיעו מנכ\"ל ESA יוזף אשבאכר...",
-    "title_he_kids": "🚀 ILA Berlin 2026: שיחה בטיסה עם אסטרונאוטית ESA סופי אדנוט ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:19:00\n\t\t\t\tהאסטרונאוטית של ESA, סופי אדנוט, הצטרפה ל-ILA ברלין 2026 בשידור חי מתחנת החלל הבינלאומית לשיחה מיוחדת בטיסה על החיים והעבודה במסלול, שאיפותיה של אירופה בטיסות חלל אנושיות. בשיחה הופיעו מנכ\"ל ESA יוזף אשבאכר... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 ILA Berlin 2026: in-flight call with ESA Astronaut Sophie Adenot ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:19:00\n\t\t\t\tESA astronaut Sophie Adenot joined ILA Berlin 2026 live from the International Space Station for a special in-flight conversation on life and work in orbit, Europe's ambitions in human spaceflight. The call featured ESA Director General Josef Aschbacher... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 10
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-11T14:00:00",
-    "date_display": "Thu, 11 Jun 2026 14:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Luca_Parmitano_Artemis_III_pilot",
-    "title_en": "Luca Parmitano: Artemis III pilot",
-    "summary_en": "Image:\n\t\t\tLuca Parmitano, Artemis III pilot, in his flight suit.",
-    "image": "",
-    "title_ru": "Лука Пармитано: пилот Артемиды III",
-    "summary_ru": "Изображение:\n\t\t\tЛука Пармитано, пилот Артемиды III, в летном костюме.",
-    "title_ru_kids": "🚀 Лука Пармитано: пилот Артемиды III ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tЛука Пармитано, пилот Артемиды III, в летном костюме. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "לוקה פרמיטאנו: טייס ארטמיס השלישי",
-    "summary_he": "תמונה:\n\t\t\tלוקה פרמיטנו, טייס ארטמיס השלישי, בחליפת הטיסה שלו.",
-    "title_he_kids": "🚀 לוקה פרמיטאנו: טייס ארטמיס השלישי ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tלוקה פרמיטנו, טייס ארטמיס השלישי, בחליפת הטיסה שלו. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Luca Parmitano: Artemis III pilot ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tLuca Parmitano, Artemis III pilot, in his flight suit. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 11
   },
   {
