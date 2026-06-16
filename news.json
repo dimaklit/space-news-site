@@ -1,5 +1,25 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-06-16T19:15:00",
+    "date_display": "Tue, 16 Jun 2026 19:15:00 +0200",
+    "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_reveal_relic_of_our_galaxy_s_formation",
+    "title_en": "Webb & Hubble reveal relic of our galaxy’s formation",
+    "summary_en": "Researchers have confirmed a new class of objects within our Milky Way galaxy: survivors called 'bulge fossil fragments.' Terzan 5 is the prototype of these remnants of our galaxy's early formation. Using the NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Spac...",
+    "image": "",
+    "title_ru": "Уэбб и Хаббл обнаружили остатки формирования нашей галактики",
+    "summary_ru": "Исследователи подтвердили новый класс объектов в нашей галактике Млечный Путь: выжившие, называемые «фрагментами ископаемых выпуклостей». Терзан 5 является прототипом остатков раннего формирования нашей галактики. Использование космического телескопа Джеймса Уэбба НАСА/ЕКА/ККА и космического телескопа Хаббла НАСА/ЕКА...",
+    "title_ru_kids": "🚀 Уэбб и Хаббл обнаружили остатки формирования нашей галактики ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Исследователи подтвердили новый класс объектов в нашей галактике Млечный Путь: выжившие, называемые «фрагментами ископаемых выпуклостей». Терзан 5 является прототипом остатков раннего формирования нашей галактики. Использование космического телескопа Джеймса Уэбба НАСА/ЕКА/ККА и космического телескопа Хаббла НАСА/ЕКА... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "ווב והאבל חושפים שריד להיווצרות הגלקסיה שלנו",
+    "summary_he": "חוקרים אישרו סוג חדש של עצמים בגלקסיית שביל החלב שלנו: ניצולים המכונים 'שברי מאובנים בליטה'. טרזן 5 הוא אב הטיפוס של השרידים הללו של היווצרותה המוקדמת של הגלקסיה שלנו. שימוש בטלסקופ החלל NASA/ESA/CSA ג'יימס ווב וב-NASA/ESA Hubble Spac...",
+    "title_he_kids": "🚀 ווב והאבל חושפים שריד להיווצרות הגלקסיה שלנו ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חוקרים אישרו סוג חדש של עצמים בגלקסיית שביל החלב שלנו: ניצולים המכונים 'שברי מאובנים בליטה'. טרזן 5 הוא אב הטיפוס של השרידים הללו של היווצרותה המוקדמת של הגלקסיה שלנו. שימוש בטלסקופ החלל NASA/ESA/CSA ג'יימס ווב וב-NASA/ESA Hubble Spac... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Webb & Hubble reveal relic of our galaxy’s formation ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Researchers have confirmed a new class of objects within our Milky Way galaxy: survivors called 'bulge fossil fragments.' Terzan 5 is the prototype of these remnants of our galaxy's early formation. Using the NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Spac... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
     "source": "Spaceflight Now",
     "date_parsed": "2026-06-16T01:08:24",
     "date_display": "Tue, 16 Jun 2026 01:08:24 +0000",
@@ -17,7 +37,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה, שהוכרזה במקור כ-Griffin-1 עבור התוכנית Commercial Lunar Payload Services (CLPS) של נאס\"א, מותגה מחדש כ- Moon Base 2 על ידי הסוכנות. ההשקה מתוכננת לסוף 2026. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Astrobotic showcases Griffin-1 lander ahead of environmental testing in California ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission, originally billed as Griffin-1 for NASA’s Commercial Lunar Payload Services (CLPS) program was rebranded as Moon Base 2 by the agency. Launch is scheduled for late 2026. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Watch live: bigger booster, more powerful Ariane 6 launch  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Pacific warming signals El Niño has stirred ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "SpaceX",
@@ -77,7 +97,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-54 כוללת את הלוויין ה-1,500 של Starlink ששוגר עד כה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 8:34 בבוקר PDT (11:34 בבוקר EDT / 1534 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches its first Falcon 9 rocket since Nasdaq debut ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-54 mission includes the 1,500th Starlink satellite launched so far in 2026. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:34 a.m. PDT (11:34 a.m. EDT / 1534 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 17-54 כוללת את הלוויין ה-1,500 של Starlink ששוגר עד כה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 8:34 בבוקר PDT (11:34 בבוקר EDT / 1534 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches its first Falcon 9 rocket since Nasdaq debut ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 17-54 mission includes the 1,500th Starlink satellite launched so far in 2026. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:34 a.m. PDT (11:34 a.m. EDT / 1534 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 08-12 ביוני 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 08-12 June 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 08-12 June 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -132,12 +152,12 @@
     "title_ru_kids": "🚀 Управление миссией | Обеспечение круглосуточной работы Колумбуса | ЕКА исследует № 19 ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:17:20\n\t\t\t\tЗайдите в Центр управления «Колумбусом» недалеко от Мюнхена, Германия, и узнайте, что нужно для обеспечения работы лаборатории ЕКА «Колумбус» — 24 часа в сутки, 365 дней в году. Директор полета «Колумбуса» Тристан Хермель знакомит нас с закулисами управления полетами, когда... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "בקרת משימה | שמירה על קולומבוס פועל 24/7 | ESA חוקרת את מספר 19",
-    "summary_he": "סרטון: \n\t\t\t00:17:20\n\t\t\t\tהיכנס למרכז הבקרה של קולומבוס ליד מינכן, גרמניה, וגלה מה נדרש כדי לשמור על מעבדת קולומבוס של ESA פועלת - 24 שעות ביממה, 365 ימים בשנה. מנהל הטיסה של קולומבוס טריסטן הרמל לוקח אותנו אל מאחורי הקלעים של בקרת המשימה, שבו...",
+    "summary_he": "וידאו: \n\t\t\t00:17:20\n\t\t\t\tהיכנס למרכז הבקרה של קולומבוס ליד מינכן, גרמניה, וגלה מה נדרש כדי לשמור על מעבדת קולומבוס של ESA פועלת - 24 שעות ביממה, 365 ימים בשנה. מנהל הטיסה של קולומבוס טריסטן הרמל לוקח אותנו אל מאחורי הקלעים של בקרת המשימה, שבו...",
     "title_he_kids": "🚀 בקרת משימה | שמירה על קולומבוס פועל 24/7 | ESA חוקרת את מספר 19 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:17:20\n\t\t\t\tהיכנס למרכז הבקרה של קולומבוס ליד מינכן, גרמניה, וגלה מה נדרש כדי לשמור על מעבדת קולומבוס של ESA פועלת - 24 שעות ביממה, 365 ימים בשנה. מנהל הטיסה של קולומבוס טריסטן הרמל לוקח אותנו אל מאחורי הקלעים של בקרת המשימה, שבו... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:17:20\n\t\t\t\tהיכנס למרכז הבקרה של קולומבוס ליד מינכן, גרמניה, וגלה מה נדרש כדי לשמור על מעבדת קולומבוס של ESA פועלת - 24 שעות ביממה, 365 ימים בשנה. מנהל הטיסה של קולומבוס טריסטן הרמל לוקח אותנו אל מאחורי הקלעים של בקרת המשימה, שבו... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Mission Control | Keeping Columbus Running 24/7 | ESA Explores #19 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:17:20\n\t\t\t\tStep inside the Columbus Control Centre near Munich, Germany, and discover what it takes to keep ESA's Columbus laboratory running—24 hours a day, 365 days a year.Columbus Flight Director Tristan Hermel takes us behind the scenes of mission control, whe... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -148,16 +168,16 @@
     "summary_en": "Image:\n\t\t\tThis radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary.Zoom in to explore this image at its full resolution.This is a composite of three Sentinel-1 acquisiti...",
     "image": "",
     "title_ru": "Земля из космоса: Буэнос-Айрес",
-    "summary_ru": "Изображение:\n\t\t\tНа этом радиолокационном изображении, полученном миссией Copernicus Sentinel-1, запечатлены Буэнос-Айрес, столица Аргентины, окружающая сельская местность и устье Рио-де-ла-Плата. Увеличьте масштаб, чтобы изучить это изображение в полном разрешении. Это совокупность трех снимков Sentinel-1...",
+    "summary_ru": "Изображение:\n\t\t\tНа этом радиолокационном изображении, полученном миссией Copernicus Sentinel-1, запечатлены Буэнос-Айрес, столица Аргентины, окружающая сельская местность и устье Рио-де-ла-Плата. Увеличьте масштаб, чтобы изучить это изображение в полном разрешении. Это объединение трех изображений, полученных Sentinel-1...",
     "title_ru_kids": "🚀 Земля из космоса: Буэнос-Айрес ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tНа этом радиолокационном изображении, полученном миссией Copernicus Sentinel-1, запечатлены Буэнос-Айрес, столица Аргентины, окружающая сельская местность и устье Рио-де-ла-Плата. Увеличьте масштаб, чтобы изучить это изображение в полном разрешении. Это совокупность трех снимков Sentinel-1... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Скафандр весит как большой пес!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tНа этом радиолокационном изображении, полученном миссией Copernicus Sentinel-1, запечатлены Буэнос-Айрес, столица Аргентины, окружающая сельская местность и устье Рио-де-ла-Плата. Увеличьте масштаб, чтобы изучить это изображение в полном разрешении. Это объединение трех изображений, полученных Sentinel-1... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Скафандр весит как большой пес!",
     "title_he": "כדור הארץ מהחלל: בואנוס איירס",
     "summary_he": "תמונה:\n\t\t\tתמונת מכ\"ם זו ממשימת Copernicus Sentinel-1 לוכדת את בואנוס איירס, בירת ארגנטינה, את האזור הכפרי שמסביב ואת שפך ריו דה לה פלטה. התקרב כדי לחקור את התמונה הזו ברזולוציה המלאה. זהו שילוב של שלושה סנטינל-1 רכישות...",
     "title_he_kids": "🚀 כדור הארץ מהחלל: בואנוס איירס ✨",
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת מכ\"ם זו ממשימת Copernicus Sentinel-1 לוכדת את בואנוס איירס, בירת ארגנטינה, את האזור הכפרי שמסביב ואת שפך ריו דה לה פלטה. התקרב כדי לחקור את התמונה הזו ברזולוציה המלאה. זהו שילוב של שלושה סנטינל-1 רכישות... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Buenos Aires ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary.Zoom in to explore this image at its full resolution.This is a composite of three Sentinel-1 acquisiti... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הדור השני של גלילאו, קבוצת הניווט הלוויין של אירופה, נבנה. לוויינים אלה יציגו עומסים הניתנים להגדרה מחדש, יספקו מיקום חזק ואמין יותר, ניווט ותזמון, יאפשרו שירותים חדשים ויוסיפו יכולות חדשות לקונסט... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Conversations in the sky: Galileo’s intersatellite links tested ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, enable new services and add new capabilities to the conste... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "SpaceX",
@@ -197,7 +217,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! החברה הופיעה לראשונה בנאסד\"ק תחת סמל הטיקר \"SPCX\" והחלה להיסחר עם שווי עצום של 1.77 טריליון דולר. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 8:37 בבוקר EDT (1237 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The company debuted on the Nasdaq under the ticker symbol “SPCX” and began trading with a massive valuation of $1.77 trillion. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 8:37 a.m. EDT (1237 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -217,26 +237,6 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! החברה הופיעה לראשונה בנאסד\"ק תחת סמל הטיקר \"SPCX\" והחלה להיסחר עם שווי עצום של 1.77 טריליון דולר. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 8:37 בבוקר EDT (1237 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from Cape Canaveral as stock trades on the Nasdaq for first time ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The company debuted on the Nasdaq under the ticker symbol “SPCX” and began trading with a massive valuation of $1.77 trillion. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 8:37 a.m. EDT (1237 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-11T17:25:00",
-    "date_display": "Thu, 11 Jun 2026 17:25:00 +0200",
-    "link": "https://www.esa.int/About_Us/Corporate_news/ESA_at_ILA_2026_Day_2_highlights",
-    "title_en": "ESA at ILA 2026 – Day 2 highlights",
-    "summary_en": "From strategic discussions on autonomy and resilience to an in-flight call with ESA astronaut Sophie Adenot, ESA's second day at ILA Berlin International Airshow 2026 highlighted the wide-reaching value of space for Europe now and in the future.",
-    "image": "",
-    "title_ru": "ЕКА на ILA 2026 – основные моменты второго дня",
-    "summary_ru": "От стратегических обсуждений автономности и устойчивости до разговора в полете с астронавтом ЕКА Софи Адено, второй день ЕКА на Берлинском международном авиасалоне ILA 2026 продемонстрировал широкомасштабную ценность космоса для Европы сейчас и в будущем.",
-    "title_ru_kids": "🚀 ЕКА на ILA 2026 – основные моменты второго дня ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! От стратегических обсуждений автономности и устойчивости до разговора в полете с астронавтом ЕКА Софи Адено, второй день ЕКА на Берлинском международном авиасалоне ILA 2026 продемонстрировал широкомасштабную ценность космоса для Европы сейчас и в будущем. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "ESA ב-ILA 2026 - עיקרי יום 2",
-    "summary_he": "מדיונים אסטרטגיים על אוטונומיה וחוסן ועד לשיחה בטיסה עם האסטרונאוטית של ESA סופי אדנוט, היום השני של ESA ב-ILA Berlin Airshow International 2026 הדגיש את הערך הנרחב של החלל עבור אירופה כעת ובעתיד.",
-    "title_he_kids": "🚀 ESA ב-ILA 2026 - עיקרי יום 2 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מדיונים אסטרטגיים על אוטונומיה וחוסן ועד לשיחה בטיסה עם האסטרונאוטית של ESA סופי אדנוט, היום השני של ESA ב-ILA Berlin Airshow International 2026 הדגיש את הערך הנרחב של החלל עבור אירופה כעת ובעתיד. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 ESA at ILA 2026 – Day 2 highlights ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! From strategic discussions on autonomy and resilience to an in-flight call with ESA astronaut Sophie Adenot, ESA's second day at ILA Berlin International Airshow 2026 highlighted the wide-reaching value of space for Europe now and in the future. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 12
   },
   {
@@ -308,9 +308,9 @@
     "summary_en": "The crew of NASA's next Artemis moon program mission was announced Tuesday, setting the stage for a flight to Earth orbit next year to test rendezvous and docking procedures with moon landers being built by SpaceX and Blue Origin, a critical milestone before sending astronauts...",
     "image": "",
     "title_ru": "НАСА назначило экипаж из четырех человек для миссии «Артемида-3»",
-    "summary_ru": "Во вторник был объявлен экипаж следующей миссии НАСА по лунной программе «Артемида», которая подготавливает почву для полета на околоземную орбиту в следующем году для проверки процедур сближения и стыковки с лунными кораблями, строящимися SpaceX и Blue Origin, что является важной вехой перед отправкой астронавтов...",
+    "summary_ru": "Во вторник был объявлен экипаж следующей миссии НАСА по лунной программе «Артемида», что подготовит почву для полета на околоземную орбиту в следующем году для проверки процедур сближения и стыковки с лунными кораблями, строящимися SpaceX и Blue Origin, что является важной вехой перед отправкой астронавтов...",
     "title_ru_kids": "🚀 НАСА назначило экипаж из четырех человек для миссии «Артемида-3» ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Во вторник был объявлен экипаж следующей миссии НАСА по лунной программе «Артемида», которая подготавливает почву для полета на околоземную орбиту в следующем году для проверки процедур сближения и стыковки с лунными кораблями, строящимися SpaceX и Blue Origin, что является важной вехой перед отправкой астронавтов... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Во вторник был объявлен экипаж следующей миссии НАСА по лунной программе «Артемида», что подготовит почву для полета на околоземную орбиту в следующем году для проверки процедур сближения и стыковки с лунными кораблями, строящимися SpaceX и Blue Origin, что является важной вехой перед отправкой астронавтов... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
     "title_he": "נאס\"א מונה צוות בן ארבעה אנשים למשימת ארטמיס 3",
     "summary_he": "צוות המשימה הבאה של תוכנית הירח של נאס\"א הוכרז ביום שלישי, וקבע את הבמה לטיסה למסלול כדור הארץ בשנה הבאה כדי לבחון נהלי מפגש ועגינה עם נחתות ירח שנבנות על ידי SpaceX ו-Blue Origin, אבן דרך קריטית לפני שליחת אסטרונאוטים...",
     "title_he_kids": "🚀 נאס\"א מונה צוות בן ארבעה אנשים למשימת ארטמיס 3 ✨",
