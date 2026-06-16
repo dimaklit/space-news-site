@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Spectrum | Onward and Upward",
-    "window_start": "2026-06-15T20:00:00Z",
-    "rocket": "Spectrum",
-    "pad": "Orbital Launch Pad",
-    "location": "Andøya Spaceport"
-  },
-  {
     "name_en": "Long March 3B/E | Unknown Payload",
     "window_start": "2026-06-16T09:37:00Z",
     "rocket": "Long March 3B/E",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 40",
     "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Ariane 64 Block 2 | Amazon Leo (LE-03)",
+    "window_start": "2026-06-17T11:53:00Z",
+    "rocket": "Ariane 64 Block 2",
+    "pad": "Ariane Launch Area 4",
+    "location": "Guiana Space Centre, French Guiana"
   }
 ]
