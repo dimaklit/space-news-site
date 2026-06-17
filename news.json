@@ -1,6 +1,86 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-06-17T17:00:00",
+    "date_display": "Wed, 17 Jun 2026 17:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/347th_ESA_Council_Media_information_session",
+    "title_en": "347th ESA Council: Media information session",
+    "summary_en": "Video: \n\t\t\t00:49:43\n\t\t\t\tWatch the replay of the media information session where ESA Director General Josef Aschbacher and outgoing ESA Council Chair Renato Krpoun provide an update on the main outcomes of the 347th ESA Council meeting, held at ESA Headquarters in Paris on 16–1...",
+    "image": "",
+    "title_ru": "347-й Совет ЕКА: Информационная сессия для СМИ",
+    "summary_ru": "Видео: \n\t\t\t00:49:43\n\t\t\t\tПосмотрите повтор информационной сессии для СМИ, на которой генеральный директор ЕКА Йозеф Ашбахер и покидающий свой пост председатель Совета ЕКА Ренато Крпун предоставляют обновленную информацию об основных результатах 347-го заседания Совета ЕКА, состоявшегося в штаб-квартире ЕКА в Париже 16–1...",
+    "title_ru_kids": "🚀 347-й Совет ЕКА: Информационная сессия для СМИ ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:49:43\n\t\t\t\tПосмотрите повтор информационной сессии для СМИ, на которой генеральный директор ЕКА Йозеф Ашбахер и покидающий свой пост председатель Совета ЕКА Ренато Крпун предоставляют обновленную информацию об основных результатах 347-го заседания Совета ЕКА, состоявшегося в штаб-квартире ЕКА в Париже 16–1... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "מועצת ESA ה-347: מושב מידע תקשורתי",
+    "summary_he": "סרטון: \n\t\t\t00:49:43\n\t\t\t\tצפו בשידור החוזר של מושב המידע התקשורתי שבו מנכ\"ל ESA יוזף אשבאכר וראש מועצת ESA היוצא רנאטו קרפון מספקים עדכון על התוצאות העיקריות של ישיבת מועצת ESA ה-347, שהתקיימה במטה ESA בפריז ב-16-1...",
+    "title_he_kids": "🚀 מועצת ESA ה-347: מושב מידע תקשורתי ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:49:43\n\t\t\t\tצפו בשידור החוזר של מושב המידע התקשורתי שבו מנכ\"ל ESA יוזף אשבאכר וראש מועצת ESA היוצא רנאטו קרפון מספקים עדכון על התוצאות העיקריות של ישיבת מועצת ESA ה-347, שהתקיימה במטה ESA בפריז ב-16-1... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 347th ESA Council: Media information session ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:49:43\n\t\t\t\tWatch the replay of the media information session where ESA Director General Josef Aschbacher and outgoing ESA Council Chair Renato Krpoun provide an update on the main outcomes of the 347th ESA Council meeting, held at ESA Headquarters in Paris on 16–1... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-17T15:50:00",
+    "date_display": "Wed, 17 Jun 2026 15:50:00 +0200",
+    "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Ariane_6_launches_with_more_powerful_boosters_a_new_record_for_Europe",
+    "title_en": "Ariane 6 launches with more powerful boosters: a new record for Europe",
+    "summary_en": "",
+    "image": "",
+    "title_ru": "Ariane 6 запускается с более мощными ускорителями: новый рекорд Европы",
+    "summary_ru": "",
+    "title_ru_kids": "🚀 Ariane 6 запускается с более мощными ускорителями: новый рекорд Европы ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
+    "title_he": "Ariane 6 מושק עם בוסטרים חזקים יותר: שיא חדש לאירופה",
+    "summary_he": "",
+    "title_he_kids": "🚀 Ariane 6 מושק עם בוסטרים חזקים יותר: שיא חדש לאירופה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Ariane 6 launches with more powerful boosters: a new record for Europe ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
+    "id": 2
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-17T15:00:00",
+    "date_display": "Wed, 17 Jun 2026 15:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/First_Ariane_6_liftoff_with_most_powerful_boosters",
+    "title_en": "First Ariane 6 liftoff with most powerful boosters ",
+    "summary_en": "Video: \n\t\t\t00:03:05\n\t\t\t\tOn the 17th of June Ariane 6 flight VA269 soared to orbit from Europe's Spaceport in French Guiana. The latest generation of Europe's largest and most powerful rocket launched 36 satellites for Amazon's Leo constellation.&nbsp;The debut of the four new ...",
+    "image": "",
+    "title_ru": "Первый старт Ariane 6 с самыми мощными ускорителями",
+    "summary_ru": "Видео: \n\t\t\t00:03:05\n\t\t\t\t17 июня Ariane 6, рейс VA269, поднялся на орбиту с европейского космодрома во Французской Гвиане. Самая большая и мощная ракета в Европе последнего поколения запустила 36 спутников для созвездия Амазонки Лео. Дебют четырех новых...",
+    "title_ru_kids": "🚀 Первый старт Ariane 6 с самыми мощными ускорителями ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:03:05\n\t\t\t\t17 июня Ariane 6, рейс VA269, поднялся на орбиту с европейского космодрома во Французской Гвиане. Самая большая и мощная ракета в Европе последнего поколения запустила 36 спутников для созвездия Амазонки Лео. Дебют четырех новых... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "ההמראה הראשונה של Ariane 6 עם המאיצים החזקים ביותר",
+    "summary_he": "סרטון: \n\t\t\t00:03:05\n\t\t\t\tב-17 ביוני זינקה טיסה VA269 של Ariane 6 למסלול מנמל החלל של אירופה בגיאנה הצרפתית. הדור האחרון של הרקטה הגדולה והחזקה ביותר באירופה שיגר 36 לוויינים עבור קבוצת הכוכבים ליאו של אמזון. הופעת הבכורה של ארבעת החדשים...",
+    "title_he_kids": "🚀 ההמראה הראשונה של Ariane 6 עם המאיצים החזקים ביותר ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:03:05\n\t\t\t\tב-17 ביוני זינקה טיסה VA269 של Ariane 6 למסלול מנמל החלל של אירופה בגיאנה הצרפתית. הדור האחרון של הרקטה הגדולה והחזקה ביותר באירופה שיגר 36 לוויינים עבור קבוצת הכוכבים ליאו של אמזון. הופעת הבכורה של ארבעת החדשים... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 First Ariane 6 liftoff with most powerful boosters  ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:05\n\t\t\t\tOn the 17th of June Ariane 6 flight VA269 soared to orbit from Europe's Spaceport in French Guiana. The latest generation of Europe's largest and most powerful rocket launched 36 satellites for Amazon's Leo constellation.&nbsp;The debut of the four new ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 3
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-17T11:44:00",
+    "date_display": "Wed, 17 Jun 2026 11:44:00 +0200",
+    "link": "https://www.esa.int/About_Us/Corporate_news/ESA_Council_appoints_two_new_directors",
+    "title_en": "ESA Council appoints two new directors",
+    "summary_en": "The European Space Agency Council has approved the appointment of two new directors: Christine Klein as Director of Controlling, Finance and Operational Procurement, and Jean-Luc Trullemans as Director of Strategy, Legal and External Affairs.",
+    "image": "",
+    "title_ru": "Совет ЕКА назначил двух новых директоров",
+    "summary_ru": "Совет Европейского космического агентства одобрил назначение двух новых директоров: Кристин Кляйн на должность директора по контролю, финансам и оперативным закупкам и Жан-Люка Трюлеманса на должность директора по стратегии, правовым и внешним связям.",
+    "title_ru_kids": "🚀 Совет ЕКА назначил двух новых директоров ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Совет Европейского космического агентства одобрил назначение двух новых директоров: Кристин Кляйн на должность директора по контролю, финансам и оперативным закупкам и Жан-Люка Трюлеманса на должность директора по стратегии, правовым и внешним связям. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "מועצת ESA ממנה שני דירקטורים חדשים",
+    "summary_he": "מועצת סוכנות החלל האירופית אישרה את מינויה של שני דירקטורים חדשים: כריסטין קליין כמנהלת בקרה, כספים ורכש תפעולי, וז'אן-לוק טרולמנס כמנהל אסטרטגיה, עניינים משפטיים וחוץ.",
+    "title_he_kids": "🚀 מועצת ESA ממנה שני דירקטורים חדשים ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מועצת סוכנות החלל האירופית אישרה את מינויה של שני דירקטורים חדשים: כריסטין קליין כמנהלת בקרה, כספים ורכש תפעולי, וז'אן-לוק טרולמנס כמנהל אסטרטגיה, עניינים משפטיים וחוץ. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 ESA Council appoints two new directors ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency Council has approved the appointment of two new directors: Christine Klein as Director of Controlling, Finance and Operational Procurement, and Jean-Luc Trullemans as Director of Strategy, Legal and External Affairs. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 4
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-06-17T11:24:00",
     "date_display": "Wed, 17 Jun 2026 11:24:00 +0200",
     "link": "https://www.esa.int/About_Us/ESA_Publications/ESA_Impact_2026_-_April-June",
@@ -17,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ESA Impact: מבט על אבני הדרך באביב של ESA 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA Impact: a look at ESA’s spring milestones ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA Impact: a look at ESA’s spring milestones 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Leo Europe 03 תראה את Arianespace שולחת אצווה של 36 לווייני אמזון Leo למסלול נמוך של כדור הארץ. ההמראה מנמל החלל של אירופה בגיאנה הצרפתית מתוכננת במהלך חלון שייפתח בשעה 8:53 בבוקר שעון קורו (7:53 בבוקר EDT / 1153 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Live coverage: Arianespace to launch its heaviest payload to date with Amazon Leo flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Leo Europe 03 mission will see Arianespace send a batch of 36 Amazon Leo satellites into low Earth orbit. Liftoff from Europe’s Spaceport in French Guiana is scheduled during a window that opens up at 8:53 a.m. Kourou time (7:53 a.m. EDT / 1153 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 6
   },
   {
     "source": "ESA",
@@ -57,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מרס אקספרס של סוכנות החלל האירופית כבשה חלק מעמק מאמרס של מאדים: מערכת עמקים מרתקת מנוקדת במערבולת קצרות דמויות טורנדו המכונה שדי אבק. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Dozens of dust devils hidden in plain sight ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s Mars Express has captured part of Mars’s Mamers Valles: a fascinating valley system speckled with brief, tornado-like whirlwinds known as dust devils. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 7
   },
   {
     "source": "SpaceX",
@@ -77,7 +157,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה היא הפעם השלישית ש-SpaceX תשגר לוויינים עבור AST SpaceMobile והראשונה שלה באיטרציה של בלוק 2 של לווייני BlueBird. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 02:39 לפנות בוקר EDT (0639 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 Block 2 BlueBird satellites for AST SpaceMobile ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission is third time SpaceX will launch satellites for AST SpaceMobile and its first of the Block 2 iteration of the BlueBird satellites. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 2:39 a.m. EDT (0639 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +177,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה היא הפעם השלישית ש-SpaceX תשגר לוויינים עבור AST SpaceMobile והראשונה שלה באיטרציה של בלוק 2 של לווייני BlueBird. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 02:39 לפנות בוקר EDT (0639 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 Block 2 BlueBird satellites for AST SpaceMobile ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The mission is third time SpaceX will launch satellites for AST SpaceMobile and its first of the Block 2 iteration of the BlueBird satellites. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 2:39 a.m. EDT (0639 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 9
   },
   {
     "source": "ESA",
@@ -117,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חוקרים אישרו סוג חדש של עצמים בגלקסיית שביל החלב שלנו: ניצולים המכונים 'שברי מאובנים בליטה'. טרזן 5 הוא אב הטיפוס של השרידים הללו של היווצרותה המוקדמת של הגלקסיה שלנו. שימוש בטלסקופ החלל NASA/ESA/CSA ג'יימס ווב וב-NASA/ESA Hubble Spac... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Webb & Hubble reveal relic of our galaxy’s formation ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Researchers have confirmed a new class of objects within our Milky Way galaxy: survivors called 'bulge fossil fragments.' Terzan 5 is the prototype of these remnants of our galaxy's early formation. Using the NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Spac... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -137,47 +217,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה, שהוכרזה במקור כ-Griffin-1 עבור התוכנית Commercial Lunar Payload Services (CLPS) של נאס\"א, מותגה מחדש כ- Moon Base 2 על ידי הסוכנות. ההשקה מתוכננת לסוף 2026. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Astrobotic showcases Griffin-1 lander ahead of environmental testing in California ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission, originally billed as Griffin-1 for NASA’s Commercial Lunar Payload Services (CLPS) program was rebranded as Moon Base 2 by the agency. Launch is scheduled for late 2026. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-15T14:10:00",
-    "date_display": "Mon, 15 Jun 2026 14:10:00 +0200",
-    "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Watch_live_bigger_booster_more_powerful_Ariane_6_launch",
-    "title_en": "Watch live: bigger booster, more powerful Ariane 6 launch ",
-    "summary_en": "",
-    "image": "",
-    "title_ru": "Смотрите в прямом эфире: запуск более мощного ракеты-носителя Ariane 6",
-    "summary_ru": "",
-    "title_ru_kids": "🚀 Смотрите в прямом эфире: запуск более мощного ракеты-носителя Ariane 6 ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
-    "title_he": "צפו בשידור חי: בוסטר גדול יותר, השקת Ariane 6 חזקה יותר",
-    "summary_he": "",
-    "title_he_kids": "🚀 צפו בשידור חי: בוסטר גדול יותר, השקת Ariane 6 חזקה יותר ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Watch live: bigger booster, more powerful Ariane 6 launch  ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 8
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-15T13:45:00",
-    "date_display": "Mon, 15 Jun 2026 13:45:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/Pacific_warming_signals_El_Nino_has_stirred",
-    "title_en": "Pacific warming signals El Niño has stirred",
-    "summary_en": "",
-    "image": "",
-    "title_ru": "Сигналы о потеплении в Тихом океане Эль-Ниньо всколыхнуло",
-    "summary_ru": "",
-    "title_ru_kids": "🚀 Сигналы о потеплении в Тихом океане Эль-Ниньо всколыхнуло ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "האותות של התחממות האוקיינוס ​​השקט שאל ניניו התעוררה",
-    "summary_he": "",
-    "title_he_kids": "🚀 האותות של התחממות האוקיינוס ​​השקט שאל ניניו התעוררה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Pacific warming signals El Niño has stirred ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 11
   },
   {
     "source": "SpaceX",
@@ -197,7 +237,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-54 כוללת את הלוויין ה-1,500 של Starlink ששוגר עד כה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 8:34 בבוקר PDT (11:34 בבוקר EDT / 1534 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches its first Falcon 9 rocket since Nasdaq debut ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-54 mission includes the 1,500th Starlink satellite launched so far in 2026. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:34 a.m. PDT (11:34 a.m. EDT / 1534 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 10
+    "id": 12
   },
   {
     "source": "Spaceflight Now",
@@ -217,46 +257,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 17-54 כוללת את הלוויין ה-1,500 של Starlink ששוגר עד כה בשנת 2026. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 8:34 בבוקר PDT (11:34 בבוקר EDT / 1534 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches its first Falcon 9 rocket since Nasdaq debut ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 17-54 mission includes the 1,500th Starlink satellite launched so far in 2026. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:34 a.m. PDT (11:34 a.m. EDT / 1534 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-12T15:10:00",
-    "date_display": "Fri, 12 Jun 2026 15:10:00 +0200",
-    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_08-12_June_2026",
-    "title_en": "Week in images: 08-12 June 2026",
-    "summary_en": "Week in images: 08-12 June 2026\n\tDiscover our week through the lens",
-    "image": "",
-    "title_ru": "Неделя в изображениях: 08–12 июня 2026 г.",
-    "summary_ru": "Неделя в изображениях: 08–12 июня 2026 г.\n\tОткройте для себя нашу неделю через призму",
-    "title_ru_kids": "🚀 Неделя в изображениях: 08–12 июня 2026 г. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 08–12 июня 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "שבוע בתמונות: 08-12 ביוני 2026",
-    "summary_he": "שבוע בתמונות: 08-12 ביוני 2026\n\tגלה את השבוע שלנו דרך העדשה",
-    "title_he_kids": "🚀 שבוע בתמונות: 08-12 ביוני 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 08-12 ביוני 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Week in images: 08-12 June 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 08-12 June 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 12
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-12T12:00:00",
-    "date_display": "Fri, 12 Jun 2026 12:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Mission_Control_Keeping_Columbus_Running_24_7_ESA_Explores_19",
-    "title_en": "Mission Control | Keeping Columbus Running 24/7 | ESA Explores #19",
-    "summary_en": "Video: \n\t\t\t00:17:20\n\t\t\t\tStep inside the Columbus Control Centre near Munich, Germany, and discover what it takes to keep ESA's Columbus laboratory running—24 hours a day, 365 days a year.Columbus Flight Director Tristan Hermel takes us behind the scenes of mission control, whe...",
-    "image": "",
-    "title_ru": "Управление миссией | Обеспечение круглосуточной работы Колумбуса | ЕКА исследует № 19",
-    "summary_ru": "Видео: \n\t\t\t00:17:20\n\t\t\t\tЗайдите в Центр управления «Колумбусом» недалеко от Мюнхена, Германия, и узнайте, что нужно для обеспечения работы лаборатории ЕКА «Колумбус» — 24 часа в сутки, 365 дней в году. Директор полета «Колумбуса» Тристан Хермель знакомит нас с закулисами управления полетами, когда...",
-    "title_ru_kids": "🚀 Управление миссией | Обеспечение круглосуточной работы Колумбуса | ЕКА исследует № 19 ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:17:20\n\t\t\t\tЗайдите в Центр управления «Колумбусом» недалеко от Мюнхена, Германия, и узнайте, что нужно для обеспечения работы лаборатории ЕКА «Колумбус» — 24 часа в сутки, 365 дней в году. Директор полета «Колумбуса» Тристан Хермель знакомит нас с закулисами управления полетами, когда... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "בקרת משימה | שמירה על קולומבוס פועל 24/7 | ESA חוקרת את מספר 19",
-    "summary_he": "סרטון: \n\t\t\t00:17:20\n\t\t\t\tהיכנס למרכז הבקרה של קולומבוס ליד מינכן, גרמניה, וגלה מה נדרש כדי לשמור על מעבדת קולומבוס של ESA פועלת - 24 שעות ביממה, 365 ימים בשנה. מנהל הטיסה של קולומבוס טריסטן הרמל לוקח אותנו אל מאחורי הקלעים של בקרת המשימה, שבו...",
-    "title_he_kids": "🚀 בקרת משימה | שמירה על קולומבוס פועל 24/7 | ESA חוקרת את מספר 19 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:17:20\n\t\t\t\tהיכנס למרכז הבקרה של קולומבוס ליד מינכן, גרמניה, וגלה מה נדרש כדי לשמור על מעבדת קולומבוס של ESA פועלת - 24 שעות ביממה, 365 ימים בשנה. מנהל הטיסה של קולומבוס טריסטן הרמל לוקח אותנו אל מאחורי הקלעים של בקרת המשימה, שבו... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Mission Control | Keeping Columbus Running 24/7 | ESA Explores #19 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:17:20\n\t\t\t\tStep inside the Columbus Control Centre near Munich, Germany, and discover what it takes to keep ESA's Columbus laboratory running—24 hours a day, 365 days a year.Columbus Flight Director Tristan Hermel takes us behind the scenes of mission control, whe... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 13
   },
   {
