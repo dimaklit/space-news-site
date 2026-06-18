@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Kuaizhou 11 | Unknown Payload",
-    "window_start": "2026-06-17T03:31:00Z",
-    "rocket": "Kuaizhou 11",
-    "pad": "Launch Area 95A",
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
-  },
-  {
-    "name_en": "Falcon 9 Block 5 | BlueBird Block 2 #3-5",
-    "window_start": "2026-06-17T06:39:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Ariane 64 Block 2 | Amazon Leo (LE-03)",
     "window_start": "2026-06-17T11:53:00Z",
     "rocket": "Ariane 64 Block 2",
@@ -30,6 +16,20 @@
   {
     "name_en": "Falcon 9 Block 5 | NROL-179",
     "window_start": "2026-06-18T08:54:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+    "window_start": "2026-06-20T06:39:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 40",
+    "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 17-28",
+    "window_start": "2026-06-20T14:00:00Z",
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
