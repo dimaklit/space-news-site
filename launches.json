@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Ariane 64 Block 2 | Amazon Leo (LE-03)",
-    "window_start": "2026-06-17T11:53:00Z",
-    "rocket": "Ariane 64 Block 2",
-    "pad": "Ariane Launch Area 4",
-    "location": "Guiana Space Centre, French Guiana"
-  },
-  {
     "name_en": "Electron | Ten Owl Of Ten (StriX Launch 10)",
     "window_start": "2026-06-17T20:40:00Z",
     "rocket": "Electron",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Long March 7A | Unknown Payload",
+    "window_start": "2026-06-23T02:00:00Z",
+    "rocket": "Long March 7A",
+    "pad": "201",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
