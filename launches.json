@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 12 | Unknown Payload",
-    "window_start": "2026-06-17T02:37:00Z",
-    "rocket": "Long March 12",
-    "pad": "Commercial LC-2",
-    "location": "Wenchang Space Launch Site, People's Republic of China"
-  },
-  {
     "name_en": "Kuaizhou 11 | Unknown Payload",
     "window_start": "2026-06-17T03:31:00Z",
     "rocket": "Kuaizhou 11",
@@ -33,5 +26,12 @@
     "rocket": "Electron",
     "pad": "Unknown Pad",
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | NROL-179",
+    "window_start": "2026-06-18T08:54:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   }
 ]
