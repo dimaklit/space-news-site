@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | NROL-179",
-    "window_start": "2026-06-18T08:54:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
     "window_start": "2026-06-20T06:39:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
+    "window_start": "2026-06-30T00:00:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
   }
 ]

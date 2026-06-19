@@ -1,6 +1,46 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-06-19T15:55:00",
+    "date_display": "Fri, 19 Jun 2026 15:55:00 +0200",
+    "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo/Galileo_signal_updated_for_internet-of-things_use",
+    "title_en": "Galileo signal updated for internet-of-things use",
+    "summary_en": "In April, Galileo marked a step forward with the deployment of a new signal component, known as E5a Quasi Pilot, on 12 satellites of Europe’s satellite navigation constellation. This upgrade makes Galileo signals easier to access, particularly on emerging mass-market, low-powe...",
+    "image": "",
+    "title_ru": "Сигнал Galileo обновлен для использования в Интернете вещей",
+    "summary_ru": "В апреле Galileo ознаменовала шаг вперед, развернув новый компонент сигнала, известный как E5a Quasi Pilot, на 12 спутниках европейской спутниковой навигационной группировки. Это обновление упрощает доступ к сигналам Galileo, особенно на развивающихся маломощных устройствах массового рынка.",
+    "title_ru_kids": "🚀 Сигнал Galileo обновлен для использования в Интернете вещей ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! В апреле Galileo ознаменовала шаг вперед, развернув новый компонент сигнала, известный как E5a Quasi Pilot, на 12 спутниках европейской спутниковой навигационной группировки. Это обновление упрощает доступ к сигналам Galileo, особенно на развивающихся маломощных устройствах массового рынка. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "אות גלילאו מעודכן לשימוש באינטרנט של הדברים",
+    "summary_he": "באפריל סימנה גלילאו צעד קדימה עם פריסת רכיב אות חדש, הידוע בשם E5a Quasi Pilot, על 12 לוויינים של קבוצת הניווט הלווייני של אירופה. שדרוג זה מקל על הגישה לאותות גלילאו, במיוחד בשוק ההמונים המתפתחים, בעלי עוצמה נמוכה...",
+    "title_he_kids": "🚀 אות גלילאו מעודכן לשימוש באינטרנט של הדברים ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! באפריל סימנה גלילאו צעד קדימה עם פריסת רכיב אות חדש, הידוע בשם E5a Quasi Pilot, על 12 לוויינים של קבוצת הניווט הלווייני של אירופה. שדרוג זה מקל על הגישה לאותות גלילאו, במיוחד בשוק ההמונים המתפתחים, בעלי עוצמה נמוכה... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Galileo signal updated for internet-of-things use ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! In April, Galileo marked a step forward with the deployment of a new signal component, known as E5a Quasi Pilot, on 12 satellites of Europe’s satellite navigation constellation. This upgrade makes Galileo signals easier to access, particularly on emerging mass-market, low-powe... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-06-19T10:00:00",
+    "date_display": "Fri, 19 Jun 2026 10:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_celebrates_1000_images",
+    "title_en": "Earth from Space celebrates 1000 images",
+    "summary_en": "Image:\n\t\t\tESA’s Earth from Space series reaches its 1000th image with a return to the vibrant waters of southern Florida, Cuba and the Bahamas – the same region featured in the very first edition in 2004.",
+    "image": "",
+    "title_ru": "Земля из космоса отмечает 1000 снимков",
+    "summary_ru": "Изображение:\n\t\t\tСерия ЕКА «Земля из космоса» достигает своего 1000-го изображения с возвращением в яркие воды южной Флориды, Кубы и Багамских островов – того же региона, который был показан в самом первом выпуске в 2004 году.",
+    "title_ru_kids": "🚀 Земля из космоса отмечает 1000 снимков ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tСерия ЕКА «Земля из космоса» достигает своего 1000-го изображения с возвращением в яркие воды южной Флориды, Кубы и Багамских островов – того же региона, который был показан в самом первом выпуске в 2004 году. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
+    "title_he": "כדור הארץ מהחלל חוגג 1000 תמונות",
+    "summary_he": "תמונה:\n\t\t\tסדרת Earth from Space של ESA מגיעה לתמונה ה-1000 שלה עם חזרה למים התוססים של דרום פלורידה, קובה ואיי בהאמה - אותו אזור שהוצג במהדורה הראשונה ב-2004.",
+    "title_he_kids": "🚀 כדור הארץ מהחלל חוגג 1000 תמונות ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tסדרת Earth from Space של ESA מגיעה לתמונה ה-1000 שלה עם חזרה למים התוססים של דרום פלורידה, קובה ואיי בהאמה - אותו אזור שהוצג במהדורה הראשונה ב-2004. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Earth from Space celebrates 1000 images ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tESA’s Earth from Space series reaches its 1000th image with a return to the vibrant waters of southern Florida, Cuba and the Bahamas – the same region featured in the very first edition in 2004. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 2
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-06-18T17:15:00",
     "date_display": "Thu, 18 Jun 2026 17:15:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Sophie_Adenot_s_mid-mission_highlights",
@@ -17,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:02:03\n\t\t\t\tסופי נמצאת באמצע משימת εpsilon על סיפון ה-ISS, והיא כבר השיגה כל כך הרבה. בין מאות שעות של מחקר מדעי ואלפי תצלומים שצולמו מהחלל, היא לקחה את הזמן לשתף הרבה תמונות בלתי נשכחות... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Sophie Adenot's mid-mission highlights ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:02:03\n\t\t\t\tSophie is halfway through the εpsilon mission onboard the ISS, and she has already accomplished so much. Between hundreds of hours of scientific research and thousands of photographs taken from space, she has taken the time to share many unforgettable m... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 3
   },
   {
     "source": "SpaceX",
@@ -25,39 +65,39 @@
     "date_display": "Thu, 18 Jun 2026 13:13:12 +0000",
     "link": "https://spaceflightnow.com/2026/06/18/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-2/",
     "title_en": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office",
-    "summary_en": "The Falcon 9 rocket will launch an undisclosed number of satellites, which are believed to be Starshield satellites, a government variant of Starlink. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled during a 35-minute window that opens on Friday, June 19, at 1:...",
+    "summary_en": "The Falcon 9 rocket will launch an undisclosed number of satellites, which are believed to be Starshield satellites, a government variant of Starlink. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for Friday, June 19, at 1:50:45 a.m. PDT (4:50:45 a.m. EDT / 0...",
     "image": "",
     "title_ru": "Прямая трансляция: SpaceX запустит спутники для сбора разведывательной информации для Национального разведывательного управления",
-    "summary_ru": "Ракета Falcon 9 запустит неизвестное количество спутников, которые, как полагают, являются спутниками Starshield, правительственным вариантом Starlink. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 35-минутное окно, которое откроется в пятницу, 19 июня, в 1:00...",
+    "summary_ru": "Ракета Falcon 9 запустит неизвестное количество спутников, которые, как полагают, являются спутниками Starshield, правительственным вариантом Starlink. Старт с площадки 4E на базе космических сил Ванденберг запланирован на пятницу, 19 июня, в 1:50:45 по тихоокеанскому времени (4:50:45 по восточному времени / 0...",
     "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит спутники для сбора разведывательной информации для Национального разведывательного управления ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Ракета Falcon 9 запустит неизвестное количество спутников, которые, как полагают, являются спутниками Starshield, правительственным вариантом Starlink. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 35-минутное окно, которое откроется в пятницу, 19 июня, в 1:00... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Ракета Falcon 9 запустит неизвестное количество спутников, которые, как полагают, являются спутниками Starshield, правительственным вариантом Starlink. Старт с площадки 4E на базе космических сил Ванденберг запланирован на пятницу, 19 июня, в 1:50:45 по тихоокеанскому времени (4:50:45 по восточному времени / 0... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "סיקור חי: SpaceX תשגר לוויינים לאיסוף מודיעין עבור משרד הסיור הלאומי",
-    "summary_he": "רקטת ה-Falcon 9 תשגר מספר לא ידוע של לוויינים, שעל פי ההערכות הם לווייני Starshield, גרסה ממשלתית של Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת במהלך חלון של 35 דקות שייפתח ביום שישי, 19 ביוני, בשעה 1:...",
+    "summary_he": "רקטת ה-Falcon 9 תשגר מספר לא ידוע של לוויינים, שעל פי ההערכות הם לווייני Starshield, גרסה ממשלתית של Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת ליום שישי, 19 ביוני, בשעה 1:50:45 בבוקר PDT (4:50:45 בבוקר EDT / 0...",
     "title_he_kids": "🚀 סיקור חי: SpaceX תשגר לוויינים לאיסוף מודיעין עבור משרד הסיור הלאומי ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! רקטת ה-Falcon 9 תשגר מספר לא ידוע של לוויינים, שעל פי ההערכות הם לווייני Starshield, גרסה ממשלתית של Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת במהלך חלון של 35 דקות שייפתח ביום שישי, 19 ביוני, בשעה 1:... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! רקטת ה-Falcon 9 תשגר מספר לא ידוע של לוויינים, שעל פי ההערכות הם לווייני Starshield, גרסה ממשלתית של Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת ליום שישי, 19 ביוני, בשעה 1:50:45 בבוקר PDT (4:50:45 בבוקר EDT / 0... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office ✨",
-    "summary_en_kids": "⚡ Elon Musk's team strikes again! The Falcon 9 rocket will launch an undisclosed number of satellites, which are believed to be Starshield satellites, a government variant of Starlink. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled during a 35-minute window that opens on Friday, June 19, at 1:... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "summary_en_kids": "⚡ Elon Musk's team strikes again! The Falcon 9 rocket will launch an undisclosed number of satellites, which are believed to be Starshield satellites, a government variant of Starlink. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for Friday, June 19, at 1:50:45 a.m. PDT (4:50:45 a.m. EDT / 0... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
     "date_parsed": "2026-06-18T13:13:12",
     "date_display": "Thu, 18 Jun 2026 13:13:12 +0000",
     "link": "https://spaceflightnow.com/2026/06/18/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-2/",
-    "title_en": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office",
-    "summary_en": "The Falcon 9 rocket will launch an undisclosed number of satellites, which are believed to be Starshield satellites, a government variant of Starlink. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled during a 35-minute window that opens on Friday, June 19, at 1:...",
+    "title_en": "SpaceX launches intelligence-gathering satellites for the National Reconnaissance Office",
+    "summary_en": "The Falcon 9 rocket launched an undisclosed number of satellites, which are believed to be Starshield satellites, a government variant of Starlink. Liftoff from pad 4E at Vandenberg Space Force Base happened Friday, June 19, at 1:50:45 a.m. PDT (4:50:45 a.m. EDT / 0850:45 UTC).",
     "image": "",
-    "title_ru": "Прямая трансляция: SpaceX запустит спутники для сбора разведывательной информации для Национального разведывательного управления",
-    "summary_ru": "Ракета Falcon 9 запустит неизвестное количество спутников, которые, как полагают, являются спутниками Starshield, правительственным вариантом Starlink. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 35-минутное окно, которое откроется в пятницу, 19 июня, в 1:00...",
-    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит спутники для сбора разведывательной информации для Национального разведывательного управления ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Ракета Falcon 9 запустит неизвестное количество спутников, которые, как полагают, являются спутниками Starshield, правительственным вариантом Starlink. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 35-минутное окно, которое откроется в пятницу, 19 июня, в 1:00... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "סיקור חי: SpaceX תשגר לוויינים לאיסוף מודיעין עבור משרד הסיור הלאומי",
-    "summary_he": "רקטת ה-Falcon 9 תשגר מספר לא ידוע של לוויינים, שעל פי ההערכות הם לווייני Starshield, גרסה ממשלתית של Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת במהלך חלון של 35 דקות שייפתח ביום שישי, 19 ביוני, בשעה 1:...",
-    "title_he_kids": "🚀 סיקור חי: SpaceX תשגר לוויינים לאיסוף מודיעין עבור משרד הסיור הלאומי ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! רקטת ה-Falcon 9 תשגר מספר לא ידוע של לוויינים, שעל פי ההערכות הם לווייני Starshield, גרסה ממשלתית של Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת במהלך חלון של 35 דקות שייפתח ביום שישי, 19 ביוני, בשעה 1:... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office ✨",
-    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Falcon 9 rocket will launch an undisclosed number of satellites, which are believed to be Starshield satellites, a government variant of Starlink. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled during a 35-minute window that opens on Friday, June 19, at 1:... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "title_ru": "SpaceX запускает спутники для сбора разведывательной информации для Национального разведывательного управления",
+    "summary_ru": "Ракета Falcon 9 запустила неизвестное количество спутников, которые предположительно являются спутниками Starshield, правительственным вариантом Starlink. Старт с площадки 4E на базе космических сил Ванденберг произошел в пятницу, 19 июня, в 1:50:45 по тихоокеанскому времени (4:50:45 по восточному времени / 08:50:45 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 SpaceX запускает спутники для сбора разведывательной информации для Национального разведывательного управления ✨",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Ракета Falcon 9 запустила неизвестное количество спутников, которые предположительно являются спутниками Starshield, правительственным вариантом Starlink. Старт с площадки 4E на базе космических сил Ванденберг произошел в пятницу, 19 июня, в 1:50:45 по тихоокеанскому времени (4:50:45 по восточному времени / 08:50:45 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
+    "title_he": "SpaceX משגרת לוויינים לאיסוף מודיעין עבור משרד הסיור הלאומי",
+    "summary_he": "רקטת ה-Falcon 9 שיגרה מספר לא ידוע של לוויינים, שלפי ההערכות הם לווייני Starshield, גרסה ממשלתית של Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש ביום שישי, 19 ביוני, בשעה 1:50:45 בבוקר PDT (4:50:45 בבוקר EDT / 0850:45 UTC).",
+    "title_he_kids": "🚀 SpaceX משגרת לוויינים לאיסוף מודיעין עבור משרד הסיור הלאומי ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! רקטת ה-Falcon 9 שיגרה מספר לא ידוע של לוויינים, שלפי ההערכות הם לווייני Starshield, גרסה ממשלתית של Starlink. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש ביום שישי, 19 ביוני, בשעה 1:50:45 בבוקר PDT (4:50:45 בבוקר EDT / 0850:45 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 SpaceX launches intelligence-gathering satellites for the National Reconnaissance Office ✨",
+    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Falcon 9 rocket launched an undisclosed number of satellites, which are believed to be Starshield satellites, a government variant of Starlink. Liftoff from pad 4E at Vandenberg Space Force Base happened Friday, June 19, at 1:50:45 a.m. PDT (4:50:45 a.m. EDT / 0850:45 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
+    "id": 5
   },
   {
     "source": "ESA",
@@ -77,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:49:43\n\t\t\t\tצפו בשידור החוזר של מושב המידע התקשורתי שבו מנכ\"ל ESA יוזף אשבאכר וראש מועצת ESA היוצא רנאטו קרפון מספקים עדכון על התוצאות העיקריות של ישיבת מועצת ESA ה-347, שהתקיימה במטה ESA בפריז ב-16-1... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 347th ESA Council: Media information session ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:49:43\n\t\t\t\tWatch the replay of the media information session where ESA Director General Josef Aschbacher and outgoing ESA Council Chair Renato Krpoun provide an update on the main outcomes of the 347th ESA Council meeting, held at ESA Headquarters in Paris on 16–1... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 6
   },
   {
     "source": "ESA",
@@ -97,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Ariane 6 launches with more powerful boosters: a new record for Europe ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 7
   },
   {
     "source": "ESA",
@@ -117,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מועצת סוכנות החלל האירופית אישרה את מינויה של שני דירקטורים חדשים: כריסטין קליין כמנהלת בקרה, כספים ורכש תפעולי, וז'אן-לוק טרולמנס כמנהל אסטרטגיה, עניינים משפטיים וחוץ. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ESA Council appoints two new directors ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency Council has approved the appointment of two new directors: Christine Klein as Director of Controlling, Finance and Operational Procurement, and Jean-Luc Trullemans as Director of Strategy, Legal and External Affairs. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 8
   },
   {
     "source": "ESA",
@@ -137,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ESA Impact: מבט על אבני הדרך באביב של ESA 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA Impact: a look at ESA’s spring milestones ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA Impact: a look at ESA’s spring milestones 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 7
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -157,27 +197,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Leo Europe 03 תראה את Arianespace שולחת קבוצה של 36 לווייני אמזון Leo למסלול נמוך של כדור הארץ. ההמראה מנמל החלל של אירופה בגיאנה הצרפתית מתוכננת במהלך חלון שייפתח בשעה 8:53 בבוקר שעון קורו (7:53 בבוקר EDT / 1153 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Arianespace launches its heaviest payload to date with Amazon Leo flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Leo Europe 03 mission will see Arianespace send a batch of 36 Amazon Leo satellites into low Earth orbit. Liftoff from Europe’s Spaceport in French Guiana is scheduled during a window that opens up at 8:53 a.m. Kourou time (7:53 a.m. EDT / 1153 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-17T11:00:00",
-    "date_display": "Wed, 17 Jun 2026 11:00:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Dozens_of_dust_devils_hidden_in_plain_sight",
-    "title_en": "Dozens of dust devils hidden in plain sight",
-    "summary_en": "The European Space Agency’s Mars Express has captured part of Mars’s Mamers Valles: a fascinating valley system speckled with brief, tornado-like whirlwinds known as dust devils.",
-    "image": "",
-    "title_ru": "Десятки пылевых дьяволов, спрятанных на виду",
-    "summary_ru": "Марсианский экспресс Европейского космического агентства захватил часть марсианской долины Мамерс: захватывающую систему долин, испещренную короткими, похожими на торнадо вихрями, известными как пылевые дьяволы.",
-    "title_ru_kids": "🚀 Десятки пылевых дьяволов, спрятанных на виду ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Марсианский экспресс Европейского космического агентства захватил часть марсианской долины Мамерс: захватывающую систему долин, испещренную короткими, похожими на торнадо вихрями, известными как пылевые дьяволы. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "עשרות שדי אבק חבויים לעין",
-    "summary_he": "מרס אקספרס של סוכנות החלל האירופית כבשה חלק מעמק מאמרס של מאדים: מערכת עמקים מרתקת מנוקדת במערבולת קצרה דמוית טורנדו המכונה שדי אבק.",
-    "title_he_kids": "🚀 עשרות שדי אבק חבויים לעין ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מרס אקספרס של סוכנות החלל האירופית כבשה חלק מעמק מאמרס של מאדים: מערכת עמקים מרתקת מנוקדת במערבולת קצרה דמוית טורנדו המכונה שדי אבק. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Dozens of dust devils hidden in plain sight ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s Mars Express has captured part of Mars’s Mamers Valles: a fascinating valley system speckled with brief, tornado-like whirlwinds known as dust devils. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "SpaceX",
@@ -197,7 +217,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה היא הפעם השלישית ש-SpaceX תשגר לוויינים עבור AST SpaceMobile והראשונה שלה באיטרציה של בלוק 2 של לווייני BlueBird. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 02:39 לפנות בוקר EDT (0639 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 Block 2 BlueBird satellites for AST SpaceMobile ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission is third time SpaceX will launch satellites for AST SpaceMobile and its first of the Block 2 iteration of the BlueBird satellites. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 2:39 a.m. EDT (0639 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -217,26 +237,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה היא הפעם השלישית ש-SpaceX תשגר לוויינים עבור AST SpaceMobile והראשונה שלה באיטרציה של בלוק 2 של לווייני BlueBird. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 02:39 לפנות בוקר EDT (0639 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 Block 2 BlueBird satellites for AST SpaceMobile ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The mission is third time SpaceX will launch satellites for AST SpaceMobile and its first of the Block 2 iteration of the BlueBird satellites. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 2:39 a.m. EDT (0639 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-16T19:15:00",
-    "date_display": "Tue, 16 Jun 2026 19:15:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_reveal_relic_of_our_galaxy_s_formation",
-    "title_en": "Webb & Hubble reveal relic of our galaxy’s formation",
-    "summary_en": "Researchers have confirmed a new class of objects within our Milky Way galaxy: survivors called 'bulge fossil fragments.' Terzan 5 is the prototype of these remnants of our galaxy's early formation. Using the NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Spac...",
-    "image": "",
-    "title_ru": "Уэбб и Хаббл обнаружили остатки формирования нашей галактики",
-    "summary_ru": "Исследователи подтвердили новый класс объектов в нашей галактике Млечный Путь: выжившие, называемые «фрагментами ископаемых выпуклостей». Терзан 5 является прототипом остатков раннего формирования нашей галактики. Использование космического телескопа Джеймса Уэбба НАСА/ЕКА/ККА и космического телескопа Хаббла НАСА/ЕКА...",
-    "title_ru_kids": "🚀 Уэбб и Хаббл обнаружили остатки формирования нашей галактики ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Исследователи подтвердили новый класс объектов в нашей галактике Млечный Путь: выжившие, называемые «фрагментами ископаемых выпуклостей». Терзан 5 является прототипом остатков раннего формирования нашей галактики. Использование космического телескопа Джеймса Уэбба НАСА/ЕКА/ККА и космического телескопа Хаббла НАСА/ЕКА... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "ווב והאבל חושפים שריד מהיווצרות הגלקסיה שלנו",
-    "summary_he": "חוקרים אישרו סוג חדש של עצמים בגלקסיית שביל החלב שלנו: ניצולים המכונים 'שברי מאובנים בליטה'. טרזן 5 הוא אב הטיפוס של השרידים הללו של היווצרותה המוקדמת של הגלקסיה שלנו. שימוש בטלסקופ החלל NASA/ESA/CSA ג'יימס ווב וב-NASA/ESA Hubble Spac...",
-    "title_he_kids": "🚀 ווב והאבל חושפים שריד מהיווצרות הגלקסיה שלנו ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חוקרים אישרו סוג חדש של עצמים בגלקסיית שביל החלב שלנו: ניצולים המכונים 'שברי מאובנים בליטה'. טרזן 5 הוא אב הטיפוס של השרידים הללו של היווצרותה המוקדמת של הגלקסיה שלנו. שימוש בטלסקופ החלל NASA/ESA/CSA ג'יימס ווב וב-NASA/ESA Hubble Spac... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Webb & Hubble reveal relic of our galaxy’s formation ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Researchers have confirmed a new class of objects within our Milky Way galaxy: survivors called 'bulge fossil fragments.' Terzan 5 is the prototype of these remnants of our galaxy's early formation. Using the NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Spac... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 12
   },
   {
