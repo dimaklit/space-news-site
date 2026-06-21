@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-    "window_start": "2026-06-20T06:39:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 17-28",
     "window_start": "2026-06-20T14:00:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Electron",
     "pad": "Unknown Pad",
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Pegasus XL | Swift Boost Mission",
+    "window_start": "2026-06-30T00:00:00Z",
+    "rocket": "Pegasus XL",
+    "pad": "Kwajalein Atoll",
+    "location": "Air launch to orbit"
   }
 ]
