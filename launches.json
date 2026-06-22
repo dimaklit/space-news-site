@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 17-28",
-    "window_start": "2026-06-21T14:00:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Long March 7A | Unknown Payload",
     "window_start": "2026-06-23T02:02:00Z",
     "rocket": "Long March 7A",
@@ -33,5 +26,12 @@
     "rocket": "Pegasus XL",
     "pad": "Kwajalein Atoll",
     "location": "Air launch to orbit"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 17-40",
+    "window_start": "2026-06-28T14:00:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   }
 ]
