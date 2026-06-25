@@ -1,43 +1,63 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-06-25T09:00:00",
+    "date_display": "Thu, 25 Jun 2026 09:00:00 +0200",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/A_first_EarthCARE_cloud_data_sharpen_weather_forecasts",
+    "title_en": "A first: EarthCARE cloud data sharpen weather forecasts",
+    "summary_en": "The European Space Agency’s EarthCARE satellite was developed to make a unique set of simultaneous measurements that shed new light on the role that clouds and aerosols play in regulating Earth’s climate.Now, in a remarkable example of a research mission delivering direct prac...",
+    "image": "",
+    "title_ru": "Первое: данные об облаках EarthCARE улучшают прогнозы погоды",
+    "summary_ru": "Спутник EarthCARE Европейского космического агентства был разработан для проведения уникального набора одновременных измерений, которые проливают новый свет на роль, которую облака и аэрозоли играют в регулировании климата Земли. Теперь, в замечательном примере исследовательской миссии, предоставляющей прямую практику...",
+    "title_ru_kids": "🚀 Первое: данные об облаках EarthCARE улучшают прогнозы погоды ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Спутник EarthCARE Европейского космического агентства был разработан для проведения уникального набора одновременных измерений, которые проливают новый свет на роль, которую облака и аэрозоли играют в регулировании климата Земли. Теперь, в замечательном примере исследовательской миссии, предоставляющей прямую практику... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
+    "title_he": "דבר ראשון: נתוני הענן של EarthCARE מחדדים את תחזיות מזג האוויר",
+    "summary_he": "הלווין EarthCARE של סוכנות החלל האירופית פותח כדי לבצע קבוצה ייחודית של מדידות בו-זמניות ששופכות אור חדש על התפקיד שממלאים עננים ואירוסולים בוויסות האקלים של כדור הארץ.",
+    "title_he_kids": "🚀 דבר ראשון: נתוני הענן של EarthCARE מחדדים את תחזיות מזג האוויר ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הלווין EarthCARE של סוכנות החלל האירופית פותח כדי לבצע קבוצה ייחודית של מדידות בו-זמניות ששופכות אור חדש על התפקיד שממלאים עננים ואירוסולים בוויסות האקלים של כדור הארץ. 🌍 כדור הארץ נראה פשוט קסום מהחלל. תראה איזה יופי! 📸 חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 A first: EarthCARE cloud data sharpen weather forecasts ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s EarthCARE satellite was developed to make a unique set of simultaneous measurements that shed new light on the role that clouds and aerosols play in regulating Earth’s climate.Now, in a remarkable example of a research mission delivering direct prac... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
     "source": "SpaceX",
     "date_parsed": "2026-06-24T23:10:20",
     "date_display": "Wed, 24 Jun 2026 23:10:20 +0000",
     "link": "https://spaceflightnow.com/2026/06/24/live-coverage-west-coast-falcon-9-launch-to-continue-expansion-of-spacexs-starlink-network/",
-    "title_en": "Live Coverage: West Coast Falcon 9 launch to continue expansion of SpaceX’s Starlink network",
-    "summary_en": "Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California is scheduled for 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC).",
+    "title_en": "West Coast Falcon 9 launch continues expansion of SpaceX’s Starlink network",
+    "summary_en": "Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California occurred at 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC).",
     "image": "",
-    "title_ru": "Прямая трансляция: запуск Falcon 9 на западном побережье для продолжения расширения сети Starlink SpaceX",
-    "summary_ru": "Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии запланирован на 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 Прямая трансляция: запуск Falcon 9 на западном побережье для продолжения расширения сети Starlink SpaceX ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии запланирован на 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
-    "title_he": "סיקור חי: השקת West Coast Falcon 9 להמשך הרחבת רשת Starlink של SpaceX",
-    "summary_he": "המראה של משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה מתוכנן לשעה 20:30. PDT (23:30 EDT / 0330 UTC).",
-    "title_he_kids": "🚀 סיקור חי: השקת West Coast Falcon 9 להמשך הרחבת רשת Starlink של SpaceX ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המראה של משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה מתוכנן לשעה 20:30. PDT (23:30 EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Live Coverage: West Coast Falcon 9 launch to continue expansion of SpaceX’s Starlink network ✨",
-    "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California is scheduled for 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "title_ru": "Запуск Falcon 9 на западном побережье продолжает расширение сети Starlink SpaceX",
+    "summary_ru": "Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Запуск Falcon 9 на западном побережье продолжает расширение сети Starlink SpaceX ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX",
+    "summary_he": "הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (23:30 EDT / 0330 UTC).",
+    "title_he_kids": "🚀 שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX ✨",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (23:30 EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 West Coast Falcon 9 launch continues expansion of SpaceX’s Starlink network ✨",
+    "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California occurred at 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
     "date_parsed": "2026-06-24T23:10:20",
     "date_display": "Wed, 24 Jun 2026 23:10:20 +0000",
     "link": "https://spaceflightnow.com/2026/06/24/live-coverage-west-coast-falcon-9-launch-to-continue-expansion-of-spacexs-starlink-network/",
-    "title_en": "Live Coverage: West Coast Falcon 9 launch to continue expansion of SpaceX’s Starlink network",
-    "summary_en": "Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California is scheduled for 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC).",
+    "title_en": "West Coast Falcon 9 launch continues expansion of SpaceX’s Starlink network",
+    "summary_en": "Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California occurred at 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC).",
     "image": "",
-    "title_ru": "Прямая трансляция: запуск Falcon 9 на западном побережье для продолжения расширения сети Starlink SpaceX",
-    "summary_ru": "Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии запланирован на 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 Прямая трансляция: запуск Falcon 9 на западном побережье для продолжения расширения сети Starlink SpaceX ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии запланирован на 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
-    "title_he": "סיקור חי: השקת West Coast Falcon 9 להמשך הרחבת רשת Starlink של SpaceX",
-    "summary_he": "המראה של משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה מתוכנן לשעה 20:30. PDT (23:30 EDT / 0330 UTC).",
-    "title_he_kids": "🚀 סיקור חי: השקת West Coast Falcon 9 להמשך הרחבת רשת Starlink של SpaceX ✨",
-    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! המראה של משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה מתוכנן לשעה 20:30. PDT (23:30 EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Live Coverage: West Coast Falcon 9 launch to continue expansion of SpaceX’s Starlink network ✨",
-    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California is scheduled for 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "title_ru": "Запуск Falcon 9 на западном побережье продолжает расширение сети Starlink SpaceX",
+    "summary_ru": "Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Запуск Falcon 9 на западном побережье продолжает расширение сети Starlink SpaceX ✨",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX",
+    "summary_he": "הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (23:30 EDT / 0330 UTC).",
+    "title_he_kids": "🚀 שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX ✨",
+    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (23:30 EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 West Coast Falcon 9 launch continues expansion of SpaceX’s Starlink network ✨",
+    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California occurred at 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA’s Euclid captures the Milky Way’s crowded heart  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הטיסה ללא צוות של החללית עדיין עוברת בדיקות וניתוח לפני שנאס\"א מאירה אורות ירוקים במשימת חזרה לטיסה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 NASA, Boeing committed to Starliner-1 launch despite unclear timeline ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The uncrewed flight of the spacecraft is still going through testing and analysis before NASA green lights a return to flight mission. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:38\n\t\t\t\tעברית: Paxi וסוכנות החלל האירופית האם ידעת שהחלל משפיע על חייך בכל יום ויום? הצטרף ל-Paxi כדי לגלות את כל הדרכים שבהן סוכנות החלל האירופית (ESA) הופכת את החיים על פני כדור הארץ לטובים יותר מדי יום וחוקר את החלל, מהלוויינים... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Paxi and the European Space Agency ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:38\n\t\t\t\tEnglish:&nbsp;Paxi and the European Space AgencyDid you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every day and explores space, from the satellites a... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -117,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches reentry capsule demo mission called ‘Starfall’ ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission is the debut of a new reentry capsule developed by SpaceX that weighs about 2,100 kg (4,600 lbs). Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 6:53 a.m. EDT (1053 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +157,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches reentry capsule demo mission called ‘Starfall’ ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission is the debut of a new reentry capsule developed by SpaceX that weighs about 2,100 kg (4,600 lbs). Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 6:53 a.m. EDT (1053 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לשביט הבין-כוכבי המזוהה השלישי בהיסטוריה האנושית יש מבנה כימי מפתיע, ומעלה שאלות לגבי מידת השכיחות, או יוצאי הדופן, של התנאים במערכת השמש שלנו. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Webb finds clues to ancient origin of Comet 3I/ATLAS ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! עונת הימים הפתוחים של ESA כמעט כאן והצוותים שלנו ברחבי המפעלים שלנו באירופה כבר מתכוננים, ומתכוננים להעניק לאלפי מבקרים חוויה מיוחדת באמת. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA Open Days 2026 are coming: mark your calendar! ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The ESA Open Days season is almost here and our teams across our establishments in Europe are already gearing up, preparing to give thousands of visitors a truly special experience. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -197,7 +217,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מצפה הכוכבים בשווי 4.3 מיליארד דולר יעבור כ-70 ימים של עיבוד טרום-שיגור במרכז החלל קנדי ​​של נאס\"א לפני שישוגר על רקטת SpaceX Falcon Heavy לא לפני ה-30 באוגוסט. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 NASA’s Nancy Grace Roman Space Telescope arrives in Florida ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The $4.3 billion observatory will go through about 70 days of prelaunch processing at NASA's Kennedy Space Center before it launches on a SpaceX Falcon Heavy rocket no earlier than August 30. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "SpaceX",
@@ -217,7 +237,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-28 היא המשימה ה-58 המשגרת את לווייני הפס הרחב למסלול נמוך של כדור הארץ. ההמראה משטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 9:39:06 בבוקר PDT (12:39:06 אחר הצהריים EDT / 1639:06 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-28 mission is the 58th mission launching the broadband satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 9:39:06 a.m. PDT (12:39:06 p.m. EDT / 1639:06 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "Spaceflight Now",
@@ -237,7 +257,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-28 היא המשימה ה-58 המשגרת את לווייני הפס הרחב למסלול נמוך של כדור הארץ. ההמראה משטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 9:39:06 בבוקר PDT (12:39:06 אחר הצהריים EDT / 1639:06 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-28 mission is the 58th mission launching the broadband satellites into low Earth orbit. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 9:39:06 a.m. PDT (12:39:06 p.m. EDT / 1639:06 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "ESA",
@@ -257,26 +277,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:23:49\n\t\t\t\tפגשו את הקולות שהאסטרונאוטים שומעים בחלל. במרכז האסטרונאוטים האירופי של ESA בקלן, גרמניה, צוות ה-EUROCOM הוא החוליה המקשרת בין הצוות והקרקע, ומנחה אסטרונאוטים כמו האסטרונאוטית סופי אדנו של ESA בעבודתם היומיומית בספא הבינלאומי... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 The Voice in Orbit | Talking to Astronauts in Space | ESA Explores #20 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:23:49\n\t\t\t\tMeet the voices astronauts hear in space. At ESA’s European Astronaut Centre in Cologne, Germany, the EUROCOM team is the link between crew and ground, guiding astronauts like ESA astronaut Sophie Adenot through their daily work on the International Spa... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 13
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-19T15:55:00",
-    "date_display": "Fri, 19 Jun 2026 15:55:00 +0200",
-    "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo/Galileo_signal_updated_for_internet-of-things_use",
-    "title_en": "Galileo signal updated for internet-of-things use",
-    "summary_en": "In April, Galileo marked a step forward with the deployment of a new signal component, known as E5a Quasi Pilot, on 12 satellites of Europe’s satellite navigation constellation. This upgrade makes Galileo signals easier to access, particularly on emerging mass-market, low-powe...",
-    "image": "",
-    "title_ru": "Сигнал Galileo обновлен для использования в Интернете вещей",
-    "summary_ru": "В апреле Galileo ознаменовала шаг вперед, развернув новый компонент сигнала, известный как E5a Quasi Pilot, на 12 спутниках европейской спутниковой навигационной группировки. Это обновление упрощает доступ к сигналам Galileo, особенно на развивающихся маломощных устройствах массового рынка...",
-    "title_ru_kids": "🚀 Сигнал Galileo обновлен для использования в Интернете вещей ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! В апреле Galileo ознаменовала шаг вперед, развернув новый компонент сигнала, известный как E5a Quasi Pilot, на 12 спутниках европейской спутниковой навигационной группировки. Это обновление упрощает доступ к сигналам Galileo, особенно на развивающихся маломощных устройствах массового рынка... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "אות גלילאו מעודכן לשימוש באינטרנט של הדברים",
-    "summary_he": "באפריל סימנה גלילאו צעד קדימה עם פריסת רכיב אות חדש, הידוע בשם E5a Quasi Pilot, על 12 לוויינים של קבוצת הניווט הלווייני של אירופה. שדרוג זה מקל על הגישה לאותות גלילאו, במיוחד בשוק ההמונים המתפתחים, בעלי עוצמה נמוכה...",
-    "title_he_kids": "🚀 אות גלילאו מעודכן לשימוש באינטרנט של הדברים ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! באפריל סימנה גלילאו צעד קדימה עם פריסת רכיב אות חדש, הידוע בשם E5a Quasi Pilot, על 12 לוויינים של קבוצת הניווט הלווייני של אירופה. שדרוג זה מקל על הגישה לאותות גלילאו, במיוחד בשוק ההמונים המתפתחים, בעלי עוצמה נמוכה... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Galileo signal updated for internet-of-things use ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! In April, Galileo marked a step forward with the deployment of a new signal component, known as E5a Quasi Pilot, on 12 satellites of Europe’s satellite navigation constellation. This upgrade makes Galileo signals easier to access, particularly on emerging mass-market, low-powe... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 14
   },
   {
