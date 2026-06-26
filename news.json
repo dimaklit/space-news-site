@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-06-26T17:00:00",
+    "date_display": "Fri, 26 Jun 2026 17:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/From_Lab_to_Orbit_Turning_Space_Science_into_Reality_ESA_Explores_21",
+    "title_en": "From Lab to Orbit | Turning Space Science into Reality | ESA Explores #21",
+    "summary_en": "Video: \n\t\t\t00:18:53\n\t\t\t\tGo behind the scenes at ESA’s European Astronaut Centre in Cologne, Germany, and discover how space experiments are prepared long before they reach orbit. Meet the ECOS team, as Deputy Manager Salvi Verma shares how they work with scientists, engineers ...",
+    "image": "",
+    "title_ru": "Из лаборатории на орбиту | Превращая космическую науку в реальность | ЕКА исследует № 21",
+    "summary_ru": "Видео: \n\t\t\t00:18:53\n\t\t\t\tЗагляните за кулисы Европейского центра астронавтов ЕКА в Кельне, Германия, и узнайте, как готовятся космические эксперименты задолго до того, как они достигнут орбиты. Познакомьтесь с командой ECOS: заместитель менеджера Сальви Верма рассказывает, как они работают с учеными, инженерами...",
+    "title_ru_kids": "🚀 Из лаборатории на орбиту | Превращая космическую науку в реальность | ЕКА исследует № 21 ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:18:53\n\t\t\t\tЗагляните за кулисы Европейского центра астронавтов ЕКА в Кельне, Германия, и узнайте, как готовятся космические эксперименты задолго до того, как они достигнут орбиты. Познакомьтесь с командой ECOS: заместитель менеджера Сальви Верма рассказывает, как они работают с учеными, инженерами... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "ממעבדה למסלול | הפיכת מדע החלל למציאות | ESA חוקרת את מספר 21",
+    "summary_he": "וידאו: \n\t\t\t00:18:53\n\t\t\t\tעבור אל מאחורי הקלעים במרכז האסטרונאוטים האירופי של ESA בקלן, גרמניה, וגלה כיצד מכינים ניסויי חלל הרבה לפני שהם מגיעים למסלול. הכירו את צוות ECOS, כשסגן המנהל Salvi Verma משתף כיצד הם עובדים עם מדענים, מהנדסים...",
+    "title_he_kids": "🚀 ממעבדה למסלול | הפיכת מדע החלל למציאות | ESA חוקרת את מספר 21 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:18:53\n\t\t\t\tעבור אל מאחורי הקלעים במרכז האסטרונאוטים האירופי של ESA בקלן, גרמניה, וגלה כיצד מכינים ניסויי חלל הרבה לפני שהם מגיעים למסלול. הכירו את צוות ECOS, כשסגן המנהל Salvi Verma משתף כיצד הם עובדים עם מדענים, מהנדסים... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 From Lab to Orbit | Turning Space Science into Reality | ESA Explores #21 ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:18:53\n\t\t\t\tGo behind the scenes at ESA’s European Astronaut Centre in Cologne, Germany, and discover how space experiments are prepared long before they reach orbit. Meet the ECOS team, as Deputy Manager Salvi Verma shares how they work with scientists, engineers ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-06-26T15:10:00",
     "date_display": "Fri, 26 Jun 2026 15:10:00 +0200",
     "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_22-26_June_2026",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 22-26 ביוני 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 22-26 June 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 22-26 June 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tמעבדת הדרכה במערות 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Cave training lab ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tCave training lab 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונות אלו של Copernicus Sentinel-2 מציגות התפתחות חקלאית במדבר של דרום מצרים, קרוב לגבול עם סודן. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Desert cropland ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThese Copernicus Sentinel-2 images show agricultural development in the desert of southern Egypt, close to the border with Sudan. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -72,12 +92,12 @@
     "title_ru_kids": "🚀 Европе грозит жара ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:02:07\n\t\t\t\tЕвропа столкнулась с сильной волной тепла с рекордными температурами, а несколько городов находятся под красной тревогой. 23 июня во Франции был зафиксирован самый жаркий июньский день за всю историю. Это изображение было получено в тот же день спутником Copernicus Sentinel-3, который измеряет поверхность суши... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
     "title_he": "אירופה מתמודדת עם החום",
-    "summary_he": "סרטון: \n\t\t\t00:02:07\n\t\t\t\tאירופה מתמודדת עם גל חום עז, עם טמפרטורות שיא ומספר ערים בכוננות אדום. ב-23 ביוני, צרפת רשמה את היום החם ביותר אי פעם ביוני. תמונה זו צולמה באותו יום על ידי הלוויין Copernicus Sentinel-3, המודד קרקע...",
+    "summary_he": "וידאו: \n\t\t\t00:02:07\n\t\t\t\tאירופה מתמודדת עם גל חום עז, עם טמפרטורות שיא ומספר ערים בכוננות אדום. ב-23 ביוני, צרפת רשמה את היום החם ביותר ביוני אי פעם. תמונה זו צולמה באותו יום על ידי הלוויין Copernicus Sentinel-3, המודד קרקע...",
     "title_he_kids": "🚀 אירופה מתמודדת עם החום ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:02:07\n\t\t\t\tאירופה מתמודדת עם גל חום עז, עם טמפרטורות שיא ומספר ערים בכוננות אדום. ב-23 ביוני, צרפת רשמה את היום החם ביותר אי פעם ביוני. תמונה זו צולמה באותו יום על ידי הלוויין Copernicus Sentinel-3, המודד קרקע... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:02:07\n\t\t\t\tאירופה מתמודדת עם גל חום עז, עם טמפרטורות שיא ומספר ערים בכוננות אדום. ב-23 ביוני, צרפת רשמה את היום החם ביותר ביוני אי פעם. תמונה זו צולמה באותו יום על ידי הלוויין Copernicus Sentinel-3, המודד קרקע... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Europe faces the heat ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:02:07\n\t\t\t\tEurope is facing an intense heatwave, with record temperatures and several cities under red alert. On 23 June, France recorded its hottest June day ever.This image was captured the same day by the Copernicus Sentinel-3 satellite, which measures land sur... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 European Flight Ticket Initiative opens to more launch service providers ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -108,16 +128,16 @@
     "summary_en": "The European Space Agency’s EarthCARE satellite was developed to make a unique set of simultaneous measurements that shed new light on the role that clouds and aerosols play in regulating Earth’s climate.Now, in a remarkable example of a research mission delivering direct prac...",
     "image": "",
     "title_ru": "Первое: данные об облаках EarthCARE улучшают прогнозы погоды",
-    "summary_ru": "Спутник EarthCARE Европейского космического агентства был разработан для проведения уникального набора одновременных измерений, которые проливают новый свет на роль, которую облака и аэрозоли играют в регулировании климата Земли. Теперь, в замечательном примере исследовательской миссии, обеспечивающей прямую практику...",
+    "summary_ru": "Спутник EarthCARE Европейского космического агентства был разработан для проведения уникального набора одновременных измерений, которые проливают новый свет на роль, которую облака и аэрозоли играют в регулировании климата Земли. Теперь, в замечательном примере исследовательской миссии, предоставляющей прямую практику...",
     "title_ru_kids": "🚀 Первое: данные об облаках EarthCARE улучшают прогнозы погоды ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Спутник EarthCARE Европейского космического агентства был разработан для проведения уникального набора одновременных измерений, которые проливают новый свет на роль, которую облака и аэрозоли играют в регулировании климата Земли. Теперь, в замечательном примере исследовательской миссии, обеспечивающей прямую практику... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Спутник EarthCARE Европейского космического агентства был разработан для проведения уникального набора одновременных измерений, которые проливают новый свет на роль, которую облака и аэрозоли играют в регулировании климата Земли. Теперь, в замечательном примере исследовательской миссии, предоставляющей прямую практику... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
     "title_he": "דבר ראשון: נתוני הענן של EarthCARE מחדדים את תחזיות מזג האוויר",
     "summary_he": "הלווין EarthCARE של סוכנות החלל האירופית פותח כדי לבצע קבוצה ייחודית של מדידות בו-זמניות ששופכות אור חדש על התפקיד שממלאים עננים ואירוסולים בוויסות האקלים של כדור הארץ.",
     "title_he_kids": "🚀 דבר ראשון: נתוני הענן של EarthCARE מחדדים את תחזיות מזג האוויר ✨",
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הלווין EarthCARE של סוכנות החלל האירופית פותח כדי לבצע קבוצה ייחודית של מדידות בו-זמניות ששופכות אור חדש על התפקיד שממלאים עננים ואירוסולים בוויסות האקלים של כדור הארץ. 🌍 כדור הארץ נראה פשוט קסום מהחלל. תראה איזה יופי! 📸 חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 A first: EarthCARE cloud data sharpen weather forecasts ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s EarthCARE satellite was developed to make a unique set of simultaneous measurements that shed new light on the role that clouds and aerosols play in regulating Earth’s climate.Now, in a remarkable example of a research mission delivering direct prac... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "SpaceX",
@@ -131,13 +151,13 @@
     "summary_ru": "Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени).",
     "title_ru_kids": "🚀 Запуск Falcon 9 на западном побережье продолжает расширение сети Starlink SpaceX ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
-    "title_he": "שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX",
+    "title_he": "שיגור West Coast Falcon 9 ממשיך להרחיב את רשת Starlink של SpaceX",
     "summary_he": "הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (11:30 בצהריים EDT / 0330 UTC).",
-    "title_he_kids": "🚀 שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (11:30 בצהריים EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_he_kids": "🚀 שיגור West Coast Falcon 9 ממשיך להרחיב את רשת Starlink של SpaceX ✨",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (11:30 בצהריים EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 West Coast Falcon 9 launch continues expansion of SpaceX’s Starlink network ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California occurred at 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -151,32 +171,12 @@
     "summary_ru": "Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени).",
     "title_ru_kids": "🚀 Запуск Falcon 9 на западном побережье продолжает расширение сети Starlink SpaceX ✨",
     "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
-    "title_he": "שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX",
+    "title_he": "שיגור West Coast Falcon 9 ממשיך להרחיב את רשת Starlink של SpaceX",
     "summary_he": "הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (11:30 בצהריים EDT / 0330 UTC).",
-    "title_he_kids": "🚀 שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX ✨",
-    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (11:30 בצהריים EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_he_kids": "🚀 שיגור West Coast Falcon 9 ממשיך להרחיב את רשת Starlink של SpaceX ✨",
+    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (11:30 בצהריים EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 West Coast Falcon 9 launch continues expansion of SpaceX’s Starlink network ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California occurred at 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-24T12:00:00",
-    "date_display": "Wed, 24 Jun 2026 12:00:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/ESA_s_Euclid_captures_the_Milky_Way_s_crowded_heart",
-    "title_en": "ESA’s Euclid captures the Milky Way’s crowded heart ",
-    "summary_en": "",
-    "image": "",
-    "title_ru": "Евклид ЕКА запечатлел многолюдное сердце Млечного Пути",
-    "summary_ru": "",
-    "title_ru_kids": "🚀 Евклид ЕКА запечатлел многолюдное сердце Млечного Пути ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "האוקלידס של ESA כובש את הלב הצפוף של שביל החלב",
-    "summary_he": "",
-    "title_he_kids": "🚀 האוקלידס של ESA כובש את הלב הצפוף של שביל החלב ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 ESA’s Euclid captures the Milky Way’s crowded heart  ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 9
   },
   {
@@ -352,9 +352,9 @@
     "title_ru_kids": "🚀 Arianespace запустила самую тяжелую на сегодняшний день полезную нагрузку рейсом Amazon Leo ✨",
     "summary_ru_kids": "🌟 Смотри, что произошло! В рамках миссии Leo Europe 03 Arianespace отправит на низкую околоземную орбиту партию из 36 спутников Amazon Leo. Старт с европейского космодрома во Французской Гвиане запланирован в окне, которое открывается в 8:53 утра по времени Куру (7:53 утра по восточному времени / 11:53 UTC). 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
     "title_he": "Arianespace משיקה את המטען הכבד ביותר שלה עד כה עם טיסת אמזון ליאו",
-    "summary_he": "משימת Leo Europe 03 תראה את Arianespace שולחת אצווה של 36 לווייני אמזון Leo למסלול נמוך של כדור הארץ. ההמראה מנמל החלל של אירופה בגיאנה הצרפתית מתוכננת במהלך חלון שייפתח ב-8:53 בבוקר שעון קורו (7:53 בבוקר EDT / 1153 UTC).",
+    "summary_he": "משימת Leo Europe 03 תראה את Arianespace שולחת אצווה של 36 לווייני אמזון Leo למסלול נמוך של כדור הארץ. ההמראה מנמל החלל של אירופה בגיאנה הצרפתית מתוכננת במהלך חלון שייפתח בשעה 8:53 בבוקר שעון קורו (7:53 בבוקר EDT / 1153 UTC).",
     "title_he_kids": "🚀 Arianespace משיקה את המטען הכבד ביותר שלה עד כה עם טיסת אמזון ליאו ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! משימת Leo Europe 03 תראה את Arianespace שולחת אצווה של 36 לווייני אמזון Leo למסלול נמוך של כדור הארץ. ההמראה מנמל החלל של אירופה בגיאנה הצרפתית מתוכננת במהלך חלון שייפתח ב-8:53 בבוקר שעון קורו (7:53 בבוקר EDT / 1153 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "🌟 תראו מה קרה! משימת Leo Europe 03 תראה את Arianespace שולחת אצווה של 36 לווייני אמזון Leo למסלול נמוך של כדור הארץ. ההמראה מנמל החלל של אירופה בגיאנה הצרפתית מתוכננת במהלך חלון שייפתח בשעה 8:53 בבוקר שעון קורו (7:53 בבוקר EDT / 1153 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Arianespace launches its heaviest payload to date with Amazon Leo flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Leo Europe 03 mission will see Arianespace send a batch of 36 Amazon Leo satellites into low Earth orbit. Liftoff from Europe’s Spaceport in French Guiana is scheduled during a window that opens up at 8:53 a.m. Kourou time (7:53 a.m. EDT / 1153 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 18
