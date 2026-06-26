@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-06-26T10:21:00",
+    "date_display": "Fri, 26 Jun 2026 10:21:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Cave_training_lab",
+    "title_en": "Cave training lab",
+    "summary_en": "Image:\n\t\t\tCave training lab",
+    "image": "",
+    "title_ru": "Пещерная учебная лаборатория",
+    "summary_ru": "Изображение:\n\t\t\tПещерная учебная лаборатория",
+    "title_ru_kids": "🚀 Пещерная учебная лаборатория ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tПещерная учебная лаборатория 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "מעבדת הדרכה במערות",
+    "summary_he": "תמונה:\n\t\t\tמעבדת הדרכה במערות",
+    "title_he_kids": "🚀 מעבדת הדרכה במערות ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tמעבדת הדרכה במערות 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Cave training lab ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tCave training lab 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-06-26T10:00:00",
     "date_display": "Fri, 26 Jun 2026 10:00:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Desert_cropland",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונות אלו של Copernicus Sentinel-2 מציגות התפתחות חקלאית במדבר של דרום מצרים, קרוב לגבול עם סודן. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Desert cropland ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThese Copernicus Sentinel-2 images show agricultural development in the desert of southern Egypt, close to the border with Sudan. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:02:07\n\t\t\t\tאירופה מתמודדת עם גל חום עז, עם טמפרטורות שיא ומספר ערים בכוננות אדום. ב-23 ביוני, צרפת רשמה את היום החם ביותר ביוני אי פעם. תמונה זו צולמה באותו יום על ידי הלוויין Copernicus Sentinel-3, המודד קרקע... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Europe faces the heat ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:02:07\n\t\t\t\tEurope is facing an intense heatwave, with record temperatures and several cities under red alert. On 23 June, France recorded its hottest June day ever.This image was captured the same day by the Copernicus Sentinel-3 satellite, which measures land sur... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,26 +77,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 European Flight Ticket Initiative opens to more launch service providers ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-25T10:00:00",
-    "date_display": "Thu, 25 Jun 2026 10:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Smile_reaches_science_orbit",
-    "title_en": "Smile reaches science orbit",
-    "summary_en": "Image:\n\t\t\tSmile reaches science orbit",
-    "image": "",
-    "title_ru": "Улыбка выходит на научную орбиту",
-    "summary_ru": "Изображение:\n\t\t\tУлыбка выходит на научную орбиту",
-    "title_ru_kids": "🚀 Улыбка выходит на научную орбиту ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tУлыбка выходит на научную орбиту 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "החיוך מגיע למסלול המדע",
-    "summary_he": "תמונה:\n\t\t\tהחיוך מגיע למסלול המדע",
-    "title_he_kids": "🚀 החיוך מגיע למסלול המדע ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tהחיוך מגיע למסלול המדע 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Smile reaches science orbit ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tSmile reaches science orbit 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 4
   },
   {
