@@ -7,31 +7,31 @@
     "location": "Vandenberg SFB, CA, USA"
   },
   {
-    "name_en": "Electron | Ten Owl Of Ten (StriX Launch 10)",
-    "window_start": "2026-06-30T00:00:00Z",
-    "rocket": "Electron",
-    "pad": "Unknown Pad",
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
-  },
-  {
-    "name_en": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
-    "window_start": "2026-06-30T00:00:00Z",
-    "rocket": "Electron",
-    "pad": "Unknown Pad",
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
-  },
-  {
-    "name_en": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
-    "window_start": "2026-06-30T00:00:00Z",
+    "name_en": "Falcon 9 Block 5 | Sirius SXM-11",
+    "window_start": "2026-06-29T02:25:00Z",
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 40",
     "location": "Cape Canaveral SFS, FL, USA"
   },
   {
-    "name_en": "Smart Dragon 3 | Unknown Payload",
-    "window_start": "2026-06-30T00:00:00Z",
-    "rocket": "Smart Dragon 3",
-    "pad": "Haiyang offshore launch location",
-    "location": "Haiyang Oriental Spaceport"
+    "name_en": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
+    "window_start": "2026-06-30T01:15:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+    "window_start": "2026-06-30T05:00:00Z",
+    "rocket": "South Korean ADD Solid-Fuel SLV",
+    "pad": "ADD Offshore launch platform",
+    "location": "Sea Launch"
+  },
+  {
+    "name_en": "Pegasus XL | Swift Boost Mission",
+    "window_start": "2026-06-30T07:30:00Z",
+    "rocket": "Pegasus XL",
+    "pad": "Kwajalein Atoll",
+    "location": "Air launch to orbit"
   }
 ]
