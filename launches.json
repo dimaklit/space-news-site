@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Sirius SXM-11",
-    "window_start": "2026-06-29T02:25:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
     "window_start": "2026-06-30T01:15:00Z",
     "rocket": "Electron",
@@ -33,5 +26,12 @@
     "rocket": "Long March 4C",
     "pad": "Launch Area 94 (SLS-2 / 603)",
     "location": "Jiuquan Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 17-46",
+    "window_start": "2026-07-02T02:00:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   }
 ]
