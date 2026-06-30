@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-06-30T14:30:00",
+    "date_display": "Tue, 30 Jun 2026 14:30:00 +0200",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Time_to_say_goodbye_to_Sentinel-1A",
+    "title_en": "Time to say goodbye to Sentinel-1A",
+    "summary_en": "After 12 years of exceptional service, the pioneering Copernicus Sentinel-1A radar satellite has reached the end of its mission. Originally designed for a seven-year life in orbit, the satellite has exceeded expectations, not only by its longevity, but through the extraordinar...",
+    "image": "",
+    "title_ru": "Пришло время попрощаться с Sentinel-1A.",
+    "summary_ru": "После 12 лет исключительной службы новаторский радиолокационный спутник Copernicus Sentinel-1A завершил свою миссию. Первоначально рассчитанный на семилетнюю жизнь на орбите, спутник превзошел все ожидания не только своей долговечностью, но и необычайными...",
+    "title_ru_kids": "🚀 Пришло время попрощаться с Sentinel-1A. ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! После 12 лет исключительной службы новаторский радиолокационный спутник Copernicus Sentinel-1A завершил свою миссию. Первоначально рассчитанный на семилетнюю жизнь на орбите, спутник превзошел все ожидания не только своей долговечностью, но и необычайными... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "הגיע הזמן להיפרד מסנטינל-1A",
+    "summary_he": "לאחר 12 שנות שירות יוצא דופן, לוויין המכ\"ם הקופרניקוס Sentinel-1A החלוצי הגיע לסוף משימתו. תוכנן במקור לחיים של שבע שנים במסלול, הלוויין עלה על הציפיות, לא רק באורך חייו, אלא גם בזכות...",
+    "title_he_kids": "🚀 הגיע הזמן להיפרד מסנטינל-1A ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לאחר 12 שנות שירות יוצא דופן, לוויין המכ\"ם הקופרניקוס Sentinel-1A החלוצי הגיע לסוף משימתו. תוכנן במקור לחיים של שבע שנים במסלול, הלוויין עלה על הציפיות, לא רק באורך חייו, אלא גם בזכות... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Time to say goodbye to Sentinel-1A ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! After 12 years of exceptional service, the pioneering Copernicus Sentinel-1A radar satellite has reached the end of its mission. Originally designed for a seven-year life in orbit, the satellite has exceeded expectations, not only by its longevity, but through the extraordinar... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-06-30T11:30:00",
     "date_display": "Tue, 30 Jun 2026 11:30:00 +0200",
     "link": "https://www.esa.int/Space_Safety/Planetary_Defence/Asteroid_Day_eight_other_key_dates_in_asteroid_history",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! יום אסטרואיד שמח! היום הוא האירוע השנתי העולמי המוכר של האו\"ם לקידום חינוך ציבורי בנושא אסטרואידים והגנה פלנטרית. אבל למה היום, מכל הימים? המשך לקרוא כדי לגלות - ולגלות את תאריכי המפתח האחרים בעידן הזהב הנוכחי שלנו של אסטרואידים! 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Asteroid Day & eight other key dates in asteroid history ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Happy Asteroid Day! Today is the annual UN-recognised global event to promote public education on asteroids and planetary defence. But why today, of all days? Read on to find out – and find out the other key dates in our current golden age of asteroids! 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:15\n\t\t\t\tמה תכנן החלל לאירופה החודש? ביוני הקרוב, האסטרונאוט של ESA לוקה פרמיטנו מונה לטייס של משימת ארטמיס III של נאס\"א, אריאן 6 קבע שיא שיגור אירופי חדש, פרובה-3 חזר לפעול, לווייני ESA זיהו סימנים מוקדמים של... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 This Month at ESA: June 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:15\n\t\t\t\tWhat did space have in store for Europe this month? This June, ESA astronaut Luca Parmitano was named pilot of NASA's Artemis III mission, Ariane 6 set a new European launch record, Proba-3 returned to operations, ESA satellites detected early signs of ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tהמפה היא אינטרפרוגרם הנגזרת מהשוואת נתוני Sentinel-1 בשני תאריכים: ב-18 ביוני לפני רעידות האדמה וב-25 ביוני יום לאחר מכן. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Sentinel-1 shows ground displacement after Venezuela earthquakes ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThe map is an interferogram derived from the comparison of Sentinel-1 data on two dates: on the 18 June before the earthquakes and on 25 June a day after. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "SpaceX",
@@ -77,7 +97,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הלוויין SXM-11 נבנה על ידי Intuitive Machines וגובהו יותר מ-230 רגל. ההמראה על רקטת SpaceX Falcon 9 מרפיד 40 בתחנת כוח החלל קייפ קנוורל אירעה בשעה 22:25. EDT (0225 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 7.5-ton SiriusXM satellite as part of constellation refresh ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The SXM-11 satellite was built by Intuitive Machines and is more than 230-feet-tall. Liftoff on SpaceX Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Station happened at 10:25 p.m. EDT (0225 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הלוויין SXM-11 נבנה על ידי Intuitive Machines וגובהו יותר מ-230 רגל. ההמראה על רקטת SpaceX Falcon 9 מרפיד 40 בתחנת כוח החלל קייפ קנוורל אירעה בשעה 22:25. EDT (0225 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 7.5-ton SiriusXM satellite as part of constellation refresh ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The SXM-11 satellite was built by Intuitive Machines and is more than 230-feet-tall. Liftoff on SpaceX Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Station happened at 10:25 p.m. EDT (0225 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -117,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-40 תוסיף עוד 24 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ של SpaceX. ההמראה משטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 9:09 בבוקר PDT (12:09 בצהריים EDT / 1609 UTC) 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink satellites from Vandenberg Space Force Base ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-40 mission will add another 24 broadband internet satellites to SpaceX’s low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 9:09 a.m. PDT (12:09 p.m. EDT / 1609 UTC) 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +157,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-40 תוסיף עוד 24 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ של SpaceX. ההמראה משטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 9:09 בבוקר PDT (12:09 בצהריים EDT / 1609 UTC) 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink satellites from Vandenberg Space Force Base ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-40 mission will add another 24 broadband internet satellites to SpaceX’s low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 9:09 a.m. PDT (12:09 p.m. EDT / 1609 UTC) 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -157,7 +177,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! ב-26 במאי, נאס\"א בחרה בשני ספקי רכבי שטח ירחיים כדי ליצור גרסאות איטרטיביות של עיצובי ה-LTV הקודמים שלהם, שיכולות לפרוס לירח בצורה יעילה יותר בזמן ובמחיר. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Next-gen astronaut Moon rovers aim for deployment ahead of Artemis 4 crew arrival ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! On May 26, NASA selected two lunar terrain vehicle providers to create iterative versions of their prior LTV designs that can deploy to the Moon in more timely and cost-effective manner. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:18:53\n\t\t\t\tעבור אל מאחורי הקלעים במרכז האסטרונאוטים האירופי של ESA בקלן, גרמניה, וגלה כיצד מכינים ניסויי חלל הרבה לפני שהם מגיעים למסלול. הכירו את צוות ECOS, כשסגן המנהל Salvi Verma משתף כיצד הם עובדים עם מדענים, מהנדסים... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 From Lab to Orbit | Turning Space Science into Reality | ESA Explores #21 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:18:53\n\t\t\t\tGo behind the scenes at ESA’s European Astronaut Centre in Cologne, Germany, and discover how space experiments are prepared long before they reach orbit. Meet the ECOS team, as Deputy Manager Salvi Verma shares how they work with scientists, engineers ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "ESA",
@@ -197,7 +217,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 22-26 ביוני 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 22-26 June 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 22-26 June 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "ESA",
@@ -217,26 +237,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tמעבדת הדרכה במערות 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Cave training lab ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tCave training lab 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-25T10:16:00",
-    "date_display": "Thu, 25 Jun 2026 10:16:00 +0200",
-    "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/European_Flight_Ticket_Initiative_opens_to_more_launch_service_providers",
-    "title_en": "European Flight Ticket Initiative opens to more launch service providers",
-    "summary_en": "",
-    "image": "",
-    "title_ru": "Европейская инициатива по продаже авиабилетов открывается для большего числа поставщиков услуг по запуску",
-    "summary_ru": "",
-    "title_ru_kids": "🚀 Европейская инициатива по продаже авиабилетов открывается для большего числа поставщиков услуг по запуску ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
-    "title_he": "יוזמת כרטיסי הטיסה האירופית נפתחת לספקי שירותי השקה נוספים",
-    "summary_he": "",
-    "title_he_kids": "🚀 יוזמת כרטיסי הטיסה האירופית נפתחת לספקי שירותי השקה נוספים ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 European Flight Ticket Initiative opens to more launch service providers ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 12
   },
   {
