@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
-    "window_start": "2026-06-30T01:15:00Z",
-    "rocket": "Electron",
-    "pad": "Unknown Pad",
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
-  },
-  {
     "name_en": "South Korean ADD Solid-Fuel SLV | Demo Flight",
     "window_start": "2026-06-30T05:00:00Z",
     "rocket": "South Korean ADD Solid-Fuel SLV",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Atlas V 551 | Amazon Leo (LA-08)",
+    "window_start": "2026-07-02T04:24:00Z",
+    "rocket": "Atlas V 551",
+    "pad": "Space Launch Complex 41",
+    "location": "Cape Canaveral SFS, FL, USA"
   }
 ]
