@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "South Korean ADD Solid-Fuel SLV | Demo Flight",
-    "window_start": "2026-06-30T05:00:00Z",
-    "rocket": "South Korean ADD Solid-Fuel SLV",
-    "pad": "ADD Offshore launch platform",
-    "location": "Sea Launch"
-  },
-  {
     "name_en": "Pegasus XL | Swift Boost Mission",
     "window_start": "2026-06-30T07:30:00Z",
     "rocket": "Pegasus XL",
@@ -33,5 +26,12 @@
     "rocket": "Atlas V 551",
     "pad": "Space Launch Complex 41",
     "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Long March 8A | Unknown Payload",
+    "window_start": "2026-07-02T13:46:00Z",
+    "rocket": "Long March 8A",
+    "pad": "Commercial LC-1",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
