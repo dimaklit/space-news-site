@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-07-01T17:00:00",
+    "date_display": "Wed, 01 Jul 2026 17:00:00 +0200",
+    "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+    "title_en": "Webb studies how a planet survived the death of its star",
+    "summary_en": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecting its atmosphere.They found that the planet is significa...",
+    "image": "",
+    "title_ru": "Уэбб изучает, как планета пережила смерть своей звезды",
+    "summary_ru": "Международная группа астрономов использовала космический телескоп Джеймса Уэбба NASA/ESA/CSA, чтобы наблюдать за экзопланетой размером с Юпитер WD 1856 b, проходящей через свою родительскую звезду, измеряя массу и температуру планеты и даже обнаруживая ее атмосферу. Они обнаружили, что планета имеет большое значение...",
+    "title_ru_kids": "🚀 Уэбб изучает, как планета пережила смерть своей звезды ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Международная группа астрономов использовала космический телескоп Джеймса Уэбба NASA/ESA/CSA, чтобы наблюдать за экзопланетой размером с Юпитер WD 1856 b, проходящей через свою родительскую звезду, измеряя массу и температуру планеты и даже обнаруживая ее атмосферу. Они обнаружили, что планета имеет большое значение... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "ווב חוקר כיצד כוכב לכת שרד את מותו של הכוכב שלו",
+    "summary_he": "צוות בינלאומי של אסטרונומים השתמש בטלסקופ החלל ג'יימס ווב של נאס\"א/ESA/CSA כדי לצפות בכוכב הלכת החיצוני בגודל צדק WD 1856 b עובר את הכוכב המארח שלו, מודד את המסה והטמפרטורה של כוכב הלכת ואפילו מזהה את האטמוספירה שלו. הם גילו שלכוכב הלכת יש משמעות...",
+    "title_he_kids": "🚀 ווב חוקר כיצד כוכב לכת שרד את מותו של הכוכב שלו ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! צוות בינלאומי של אסטרונומים השתמש בטלסקופ החלל ג'יימס ווב של נאס\"א/ESA/CSA כדי לצפות בכוכב הלכת החיצוני בגודל צדק WD 1856 b עובר את הכוכב המארח שלו, מודד את המסה והטמפרטורה של כוכב הלכת ואפילו מזהה את האטמוספירה שלו. הם גילו שלכוכב הלכת יש משמעות... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Webb studies how a planet survived the death of its star ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecting its atmosphere.They found that the planet is significa... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-07-01T14:00:00",
     "date_display": "Wed, 01 Jul 2026 14:00:00 +0200",
     "link": "https://www.esa.int/Science_Exploration/Space_Science/XMM-Newton/XMM-Newton_helps_revise_distance_to_outer_spiral_arms",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! טלסקופי החלל XMM-Newton של סוכנות החלל האירופית וטלסקופי החלל צ'נדרה רנטגן של נאס\"א הבחינו בתוצאות של שלושה פיצוצים בהירים המהדהדים דרך הזרועות הספירליות החיצוניות של הגלקסיה שלנו, שביל החלב. על ידי מדידת המרחק להדים הללו, הם מוצאים שהזרועות החיצוניות הן... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 XMM-Newton helps revise distance to outer spiral arms ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s XMM-Newton and NASA’s Chandra X-ray space telescopes have spotted the aftermath of three bright explosions echoing through the outer spiral arms of our galaxy, the Milky Way. By measuring the distance to these echoes, they find the outer arms to be ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -28,16 +48,16 @@
     "summary_en": "Video: \n\t\t\t00:10:45\n\t\t\t\tMillions of stars. Thousands of hidden worlds. One unprecedented view of our galaxy.Three years since launch, ESA’s Euclid space telescope reveals the Milky Way galaxy’s centre in extraordinary detail: a mosaic of tens of millions of stars captured in j...",
     "image": "",
     "title_ru": "На этой фотографии скрыты тысячи планет",
-    "summary_ru": "Видео: \n\t\t\t00:10:45\n\t\t\t\tМиллионы звезд. Тысячи скрытых миров. Беспрецедентный вид нашей галактики. Через три года после запуска космический телескоп ЕКА «Евклид» раскрывает центр галактики Млечный Путь в невероятных деталях: мозаику из десятков миллионов звезд, запечатленную в...",
+    "summary_ru": "Видео: \n\t\t\t00:10:45\n\t\t\t\tМиллионы звезд. Тысячи скрытых миров. Беспрецедентный вид нашей галактики. Через три года после запуска космический телескоп ЕКА «Евклид» демонстрирует центр галактики Млечный Путь в невероятных деталях: мозаику из десятков миллионов звезд, запечатленную в...",
     "title_ru_kids": "🚀 На этой фотографии скрыты тысячи планет ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:10:45\n\t\t\t\tМиллионы звезд. Тысячи скрытых миров. Беспрецедентный вид нашей галактики. Через три года после запуска космический телескоп ЕКА «Евклид» раскрывает центр галактики Млечный Путь в невероятных деталях: мозаику из десятков миллионов звезд, запечатленную в... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:10:45\n\t\t\t\tМиллионы звезд. Тысячи скрытых миров. Беспрецедентный вид нашей галактики. Через три года после запуска космический телескоп ЕКА «Евклид» демонстрирует центр галактики Млечный Путь в невероятных деталях: мозаику из десятков миллионов звезд, запечатленную в... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
     "title_he": "בתמונה זו מסתתרים אלפי כוכבי לכת",
     "summary_he": "וידאו: \n\t\t\t00:10:45\n\t\t\t\tמיליוני כוכבים. אלפי עולמות נסתרים. מבט אחד חסר תקדים של הגלקסיה שלנו. שלוש שנים מאז השיגור, טלסקופ החלל אוקלידס של ESA חושף את מרכז גלקסיית שביל החלב בפירוט יוצא דופן: פסיפס של עשרות מיליוני כוכבים שנלכדו ב...",
     "title_he_kids": "🚀 בתמונה זו מסתתרים אלפי כוכבי לכת ✨",
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:10:45\n\t\t\t\tמיליוני כוכבים. אלפי עולמות נסתרים. מבט אחד חסר תקדים של הגלקסיה שלנו. שלוש שנים מאז השיגור, טלסקופ החלל אוקלידס של ESA חושף את מרכז גלקסיית שביל החלב בפירוט יוצא דופן: פסיפס של עשרות מיליוני כוכבים שנלכדו ב... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Thousands of planets are hidden in this photo ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:10:45\n\t\t\t\tMillions of stars. Thousands of hidden worlds. One unprecedented view of our galaxy.Three years since launch, ESA’s Euclid space telescope reveals the Milky Way galaxy’s centre in extraordinary detail: a mosaic of tens of millions of stars captured in j... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חמישה חוקרים משלוש סוכנויות חלל סיימו בהצלחה את קורס ההכשרה CAVES של ESA באיטליה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 The space under  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Five explorers from three space agencies have successfully completed ESA’s CAVES training course in Italy. &nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! ב-27 במאי, בקרי טיסה במרכז החלל ג'ונסון ביוסטון הבחינו באחד משבעת המפרקים של הזרוע הבנויה בקנדה שואב יותר זרם מהצפוי ואינו זז כראוי. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Astronauts ‘operate’ on space station’s broken robot arm ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! On May 27, flight controllers at the Johnson Space Center in Houston noticed one of the Canadian-built arm's seven joints was drawing more current than expected and not moving properly. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -92,12 +112,12 @@
     "title_ru_kids": "🚀 Blue Origin планирует вернуться к логистике полетов для своих ракет New Glenn ✨",
     "summary_ru_kids": "🌟 Смотри, что произошло! Взрыв ракеты New Glenn 28 мая все еще расследуется. Компания заявила, что в будущем переходит к гибридной горизонтально-вертикальной интеграции своих ракет. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
     "title_he": "קווי מתאר Blue Origin חוזרים ללוגיסטיקת הטיסה עבור רקטות ניו גלן שלה",
-    "summary_he": "פיצוץ רקטה של ​​ניו גלן ב-28 במאי עדיין בחקירה. החברה אמרה שהיא עוברת לאינטגרציה היברידית אופקית-אנכית עבור הרקטות שלה שנעות קדימה.",
+    "summary_he": "פיצוץ רקטה של ​​ניו גלן ב-28 במאי עדיין בחקירה. החברה אמרה שהיא עוברת לאינטגרציה היברידית אופקית-אנכית עבור הרקטות שלה שמתקדמים קדימה.",
     "title_he_kids": "🚀 קווי מתאר Blue Origin חוזרים ללוגיסטיקת הטיסה עבור רקטות ניו גלן שלה ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! פיצוץ רקטה של ​​ניו גלן ב-28 במאי עדיין בחקירה. החברה אמרה שהיא עוברת לאינטגרציה היברידית אופקית-אנכית עבור הרקטות שלה שנעות קדימה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "summary_he_kids": "🌟 תראו מה קרה! פיצוץ רקטה של ​​ניו גלן ב-28 במאי עדיין בחקירה. החברה אמרה שהיא עוברת לאינטגרציה היברידית אופקית-אנכית עבור הרקטות שלה שמתקדמים קדימה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Blue Origin outlines return to flight logistics for its New Glenn rockets ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The explosion of a New Glenn rocket on May 28 is still under investigation. The company said it’s moving to a hybrid horizontal-vertical integration for its rockets moving forward. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,26 +137,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האם אתה נלהב מחלל ומחפש לבנות קריירה ארוכת טווח במגזר החלל האירופי? יש לך פחות משלוש שנות ניסיון מקצועי ותואר שני? סוכנות החלל האירופית מציעה הזדמנות ייחודית באמצעות P... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Apply now to ESA's Junior Professional Programme ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Are you passionate about space and looking to build a long-term career in the European space sector? Do you have less than three years of professional experience and a Master’s degree? The European Space Agency is offering a unique opportunity through its Junior Professional P... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 6
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-06-30T14:30:00",
-    "date_display": "Tue, 30 Jun 2026 14:30:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Time_to_say_goodbye_to_Sentinel-1A",
-    "title_en": "Time to say goodbye to Sentinel-1A",
-    "summary_en": "After 12 years of exceptional service, the pioneering Copernicus Sentinel-1A radar satellite has reached the end of its mission. Originally designed for a seven-year life in orbit, the satellite has exceeded expectations, not only by its longevity, but through the extraordinar...",
-    "image": "",
-    "title_ru": "Пришло время попрощаться с Sentinel-1A.",
-    "summary_ru": "После 12 лет исключительной службы новаторский радиолокационный спутник Copernicus Sentinel-1A достиг завершения своей миссии. Первоначально рассчитанный на семилетний срок службы на орбите, спутник превзошел все ожидания не только своей долговечностью, но и необычайными...",
-    "title_ru_kids": "🚀 Пришло время попрощаться с Sentinel-1A. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! После 12 лет исключительной службы новаторский радиолокационный спутник Copernicus Sentinel-1A достиг завершения своей миссии. Первоначально рассчитанный на семилетний срок службы на орбите, спутник превзошел все ожидания не только своей долговечностью, но и необычайными... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "הגיע הזמן להיפרד מסנטינל-1A",
-    "summary_he": "לאחר 12 שנות שירות יוצא דופן, לוויין המכ\"ם הקופרניקוס Sentinel-1A החלוצי הגיע לסוף משימתו. תוכנן במקור לחיים של שבע שנים במסלול, הלוויין עלה על הציפיות, לא רק באורך חייו, אלא גם בזכות...",
-    "title_he_kids": "🚀 הגיע הזמן להיפרד מסנטינל-1A ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לאחר 12 שנות שירות יוצא דופן, לוויין המכ\"ם הקופרניקוס Sentinel-1A החלוצי הגיע לסוף משימתו. תוכנן במקור לחיים של שבע שנים במסלול, הלוויין עלה על הציפיות, לא רק באורך חייו, אלא גם בזכות... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Time to say goodbye to Sentinel-1A ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! After 12 years of exceptional service, the pioneering Copernicus Sentinel-1A radar satellite has reached the end of its mission. Originally designed for a seven-year life in orbit, the satellite has exceeded expectations, not only by its longevity, but through the extraordinar... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 7
   },
   {
@@ -152,9 +152,9 @@
     "title_ru_kids": "🚀 В этом месяце в ЕКА: июнь 2026 г. ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:03:15\n\t\t\t\tЧто космос приготовил Европе в этом месяце? В июне этого года астронавт ЕКА Лука Пармитано был назначен пилотом миссии НАСА «Артемида III», «Ариана-6» установила новый европейский рекорд запуска, «Проба-3» вернулась в строй, спутники ЕКА обнаружили ранние признаки... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "החודש ב-ESA: יוני 2026",
-    "summary_he": "וידאו: \n\t\t\t00:03:15\n\t\t\t\tמה תכנן החלל לאירופה החודש? ביוני הקרוב, האסטרונאוט של ESA לוקה פרמיטנו מונה לטייס של משימת ארטמיס III של נאס\"א, אריאן 6 קבע שיא שיגור אירופי חדש, פרובה-3 חזר לפעולה, לווייני ESA זיהו סימנים מוקדמים של...",
+    "summary_he": "וידאו: \n\t\t\t00:03:15\n\t\t\t\tמה תכנן החלל לאירופה החודש? ביוני הקרוב, האסטרונאוט של ESA לוקה פרמיטנו מונה לטייס של משימת ארטמיס III של נאס\"א, אריאן 6 קבע שיא שיגור אירופי חדש, פרובה-3 חזר לפעול, לווייני ESA זיהו סימנים מוקדמים של...",
     "title_he_kids": "🚀 החודש ב-ESA: יוני 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:15\n\t\t\t\tמה תכנן החלל לאירופה החודש? ביוני הקרוב, האסטרונאוט של ESA לוקה פרמיטנו מונה לטייס של משימת ארטמיס III של נאס\"א, אריאן 6 קבע שיא שיגור אירופי חדש, פרובה-3 חזר לפעולה, לווייני ESA זיהו סימנים מוקדמים של... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:15\n\t\t\t\tמה תכנן החלל לאירופה החודש? ביוני הקרוב, האסטרונאוט של ESA לוקה פרמיטנו מונה לטייס של משימת ארטמיס III של נאס\"א, אריאן 6 קבע שיא שיגור אירופי חדש, פרובה-3 חזר לפעול, לווייני ESA זיהו סימנים מוקדמים של... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 This Month at ESA: June 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:15\n\t\t\t\tWhat did space have in store for Europe this month? This June, ESA astronaut Luca Parmitano was named pilot of NASA's Artemis III mission, Ariane 6 set a new European launch record, Proba-3 returned to operations, ESA satellites detected early signs of ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 8
@@ -352,9 +352,9 @@
     "title_ru_kids": "🚀 SpaceX запускает демонстрационную миссию спускаемой капсулы под названием «Звездопад» ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Эта миссия является дебютом новой спускаемой капсулы, разработанной SpaceX, которая весит около 2100 кг (4600 фунтов). Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 6:53 утра по восточному времени (10:53 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
     "title_he": "SpaceX משיקה משימת הדגמה של קפסולה חוזרת בשם 'מפל כוכבים'",
-    "summary_he": "המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX, ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC).",
+    "summary_he": "המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC).",
     "title_he_kids": "🚀 SpaceX משיקה משימת הדגמה של קפסולה חוזרת בשם 'מפל כוכבים' ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX, ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches reentry capsule demo mission called ‘Starfall’ ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission is the debut of a new reentry capsule developed by SpaceX that weighs about 2,100 kg (4,600 lbs). Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 6:53 a.m. EDT (1053 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
     "id": 18
@@ -372,9 +372,9 @@
     "title_ru_kids": "🚀 SpaceX запускает демонстрационную миссию спускаемой капсулы под названием «Звездопад» ✨",
     "summary_ru_kids": "🌟 Смотри, что произошло! Эта миссия является дебютом новой спускаемой капсулы, разработанной SpaceX, которая весит около 2100 кг (4600 фунтов). Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 6:53 утра по восточному времени (10:53 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
     "title_he": "SpaceX משיקה משימת הדגמה של קפסולה חוזרת בשם 'מפל כוכבים'",
-    "summary_he": "המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX, ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC).",
+    "summary_he": "המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC).",
     "title_he_kids": "🚀 SpaceX משיקה משימת הדגמה של קפסולה חוזרת בשם 'מפל כוכבים' ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX, ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "summary_he_kids": "🌟 תראו מה קרה! המשימה היא הופעת הבכורה של קפסולת reentry חדשה שפותחה על ידי SpaceX ששוקלת כ-2,100 ק\"ג (4,600 פאונד). ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 6:53 בבוקר EDT (1053 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches reentry capsule demo mission called ‘Starfall’ ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission is the debut of a new reentry capsule developed by SpaceX that weighs about 2,100 kg (4,600 lbs). Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 6:53 a.m. EDT (1053 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
     "id": 19
@@ -428,13 +428,13 @@
     "summary_en": "The mission is third time SpaceX will launch satellites for AST SpaceMobile and its first of the Block 2 iteration of the BlueBird satellites. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 2:39 a.m. EDT (0639 UTC).",
     "image": "",
     "title_ru": "SpaceX запустила три спутника Block 2 BlueBird для AST SpaceMobile",
-    "summary_ru": "Это третий раз, когда SpaceX запускает спутники для AST SpaceMobile и первый из спутников Block 2 BlueBird. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 2:39 утра по восточному времени (06:39 UTC).",
+    "summary_ru": "Это уже третий раз, когда SpaceX запускает спутники для AST SpaceMobile и первый из спутников Block 2 BlueBird. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 2:39 утра по восточному времени (06:39 UTC).",
     "title_ru_kids": "🚀 SpaceX запустила три спутника Block 2 BlueBird для AST SpaceMobile ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Это третий раз, когда SpaceX запускает спутники для AST SpaceMobile и первый из спутников Block 2 BlueBird. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 2:39 утра по восточному времени (06:39 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Это уже третий раз, когда SpaceX запускает спутники для AST SpaceMobile и первый из спутников Block 2 BlueBird. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 2:39 утра по восточному времени (06:39 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "SpaceX משגרת 3 לווייני בלוק 2 BlueBird עבור AST SpaceMobile",
-    "summary_he": "המשימה היא הפעם השלישית ש-SpaceX תשגר לוויינים עבור AST SpaceMobile והראשונה שלה באיטרציה של בלוק 2 של לווייני BlueBird. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 2:39 לפנות בוקר EDT (0639 UTC).",
+    "summary_he": "המשימה היא הפעם השלישית ש-SpaceX תשגר לוויינים עבור AST SpaceMobile והראשונה שלה באיטרציה של בלוק 2 של לווייני BlueBird. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 02:39 לפנות בוקר EDT (0639 UTC).",
     "title_he_kids": "🚀 SpaceX משגרת 3 לווייני בלוק 2 BlueBird עבור AST SpaceMobile ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה היא הפעם השלישית ש-SpaceX תשגר לוויינים עבור AST SpaceMobile והראשונה שלה באיטרציה של בלוק 2 של לווייני BlueBird. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 2:39 לפנות בוקר EDT (0639 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה היא הפעם השלישית ש-SpaceX תשגר לוויינים עבור AST SpaceMobile והראשונה שלה באיטרציה של בלוק 2 של לווייני BlueBird. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 02:39 לפנות בוקר EDT (0639 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 Block 2 BlueBird satellites for AST SpaceMobile ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission is third time SpaceX will launch satellites for AST SpaceMobile and its first of the Block 2 iteration of the BlueBird satellites. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 2:39 a.m. EDT (0639 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
     "id": 22
