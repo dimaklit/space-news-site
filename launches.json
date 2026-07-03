@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 8A | Unknown Payload",
-    "window_start": "2026-07-02T13:46:00Z",
-    "rocket": "Long March 8A",
-    "pad": "Commercial LC-1",
-    "location": "Wenchang Space Launch Site, People's Republic of China"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 10-50",
     "window_start": "2026-07-03T11:20:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Long March 10B",
     "pad": "Commercial LC-2",
     "location": "Wenchang Space Launch Site, People's Republic of China"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 17-48",
+    "window_start": "2026-07-10T14:00:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   }
 ]

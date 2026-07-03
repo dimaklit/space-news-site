@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-07-03T15:15:00",
+    "date_display": "Fri, 03 Jul 2026 15:15:00 +0200",
+    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_29_June_-_03_July_2026",
+    "title_en": "Week in images: 29 June - 03 July 2026",
+    "summary_en": "Week in images: 29 June - 03 July 2026\n\tDiscover our week through the lens",
+    "image": "",
+    "title_ru": "Неделя в изображениях: 29 июня – 3 июля 2026 г.",
+    "summary_ru": "Неделя в изображениях: 29 июня – 3 июля 2026 г.\n\tОткройте для себя нашу неделю через призму",
+    "title_ru_kids": "🚀 Неделя в изображениях: 29 июня – 3 июля 2026 г. ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 29 июня – 3 июля 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "שבוע בתמונות: 29 ביוני - 03 ביולי 2026",
+    "summary_he": "שבוע בתמונות: 29 ביוני - 03 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה",
+    "title_he_kids": "🚀 שבוע בתמונות: 29 ביוני - 03 ביולי 2026 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 29 ביוני - 03 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Week in images: 29 June - 03 July 2026 ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 29 June - 03 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-07-03T10:00:00",
     "date_display": "Fri, 03 Jul 2026 10:00:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Grand_Canyon_US",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tהגרנד קניון, תכונה טבעית מדהימה בנוף של אריזונה, ארה\"ב, מוצג בשני תצוגות הלוויין הללו. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Grand Canyon, US ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThe Grand Canyon, a stunning natural feature in the landscape of Arizona, US, is featured in these two satellite views. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית התקשרה עם חברת EMXYS הספרדית עבור ה-CubeSat הראשון שנועד לפעול על פני השטח של אסטרואיד. Don Quijote היא חללית בגודל קופסת נעליים שתתפרס על האסטרואיד אפופיס על ידי משימת רעמסס של ESA לפני שהאסטרואיד יטוס... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Surface CubeSat contracted for Ramses asteroid mission ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid. Don Quijote is a shoebox-sized spacecraft that will be deployed onto the Apophis asteroid by ESA’s Ramses mission before the asteroid flies b... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! בהתבסס על ההצלחה המדהימה של משימת הרוח של Earth Explorer Aeolus, סוכנות החלל האירופית העניקה ל-Airbus Defense and Space בבריטניה אישור להמשיך ולהתחיל בפיתוח היורש של Aeolus, Aeolus-2 - שאמור להיבנות כדי לשפר את האופרה... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Authorisation paves the way for Aeolus-2 wind mission  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Building on the remarkable success of the Earth Explorer Aeolus wind mission, the European Space Agency has given Airbus Defence and Space in the UK the authorisation to proceed to begin the development of Aeolus’ successor, Aeolus-2 – which is set to be built to enhance opera... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Leo Atlas 8 הייתה גם הטיסה האחרונה של תצורת Atlas 5 551. ההמראה ממשטח 41 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 12:30:15 בבוקר EDT (0430:15 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ULA launches final Atlas 5 rocket supporting Amazon Leo’s broadband internet satellite constellation ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Leo Atlas 8 mission was also the final flight of an Atlas 5 551 configuration. Liftoff from pad 41 at Cape Canaveral Space Force Station happened at 12:30:15 a.m. EDT (0430:15 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "SpaceX",
@@ -97,7 +117,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-46 טסה בשיגור רקטות פלקון 9 ה-77 של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 19:58. PDT (22:58 P.M. EDT / 0258 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-46 mission flew on the 77th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:58 p.m. PDT (10:58 p.m. EDT / 0258 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-46 טסה בשיגור רקטות פלקון 9 ה-77 של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 19:58. PDT (22:58 P.M. EDT / 0258 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-46 mission flew on the 77th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base happened at 7:58 p.m. PDT (10:58 p.m. EDT / 0258 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! צוות בינלאומי של אסטרונומים השתמש בטלסקופ החלל ג'יימס ווב של נאס\"א/ESA/CSA כדי לצפות בכוכב הלכת החיצוני בגודל צדק WD 1856 b עובר את הכוכב המארח שלו, מודד את המסה והטמפרטורה של כוכב הלכת ואפילו מזהה את האטמוספירה שלו. הם גילו שלכוכב הלכת יש משמעות... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Webb studies how a planet survived the death of its star ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecting its atmosphere.They found that the planet is significa... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו מציגה את חריגת טמפרטורת פני הים שזוהתה בים התיכון ב-29 ביוני 2026. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Mediterranean Sea breaks June surface heat record ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis image shows the sea surface temperature anomaly detected in the Mediterranean Sea on 29 June 2026. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,26 +197,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! טלסקופי החלל XMM-Newton של סוכנות החלל האירופית וטלסקופי החלל צ'נדרה רנטגן של נאס\"א הבחינו בתוצאות של שלושה פיצוצים בהירים המהדהדים דרך הזרועות הספירליות החיצוניות של הגלקסיה שלנו, שביל החלב. על ידי מדידת המרחק להדים הללו, הם מוצאים שהזרועות החיצוניות הן... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 XMM-Newton helps revise distance to outer spiral arms ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s XMM-Newton and NASA’s Chandra X-ray space telescopes have spotted the aftermath of three bright explosions echoing through the outer spiral arms of our galaxy, the Milky Way. By measuring the distance to these echoes, they find the outer arms to be ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 9
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-01T10:00:00",
-    "date_display": "Wed, 01 Jul 2026 10:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Thousands_of_planets_are_hidden_in_this_photo",
-    "title_en": "Thousands of planets are hidden in this photo",
-    "summary_en": "Video: \n\t\t\t00:10:45\n\t\t\t\tMillions of stars. Thousands of hidden worlds. One unprecedented view of our galaxy.Three years since launch, ESA’s Euclid space telescope reveals the Milky Way galaxy’s centre in extraordinary detail: a mosaic of tens of millions of stars captured in j...",
-    "image": "",
-    "title_ru": "На этой фотографии скрыты тысячи планет",
-    "summary_ru": "Видео: \n\t\t\t00:10:45\n\t\t\t\tМиллионы звезд. Тысячи скрытых миров. Беспрецедентный вид нашей галактики. Через три года после запуска космический телескоп ЕКА «Евклид» демонстрирует центр галактики Млечный Путь в невероятных деталях: мозаику из десятков миллионов звезд, запечатленную в...",
-    "title_ru_kids": "🚀 На этой фотографии скрыты тысячи планет ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:10:45\n\t\t\t\tМиллионы звезд. Тысячи скрытых миров. Беспрецедентный вид нашей галактики. Через три года после запуска космический телескоп ЕКА «Евклид» демонстрирует центр галактики Млечный Путь в невероятных деталях: мозаику из десятков миллионов звезд, запечатленную в... 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
-    "title_he": "בתמונה זו מסתתרים אלפי כוכבי לכת",
-    "summary_he": "וידאו: \n\t\t\t00:10:45\n\t\t\t\tמיליוני כוכבים. אלפי עולמות נסתרים. מבט אחד חסר תקדים של הגלקסיה שלנו. שלוש שנים מאז השיגור, טלסקופ החלל אוקלידס של ESA חושף את מרכז גלקסיית שביל החלב בפירוט יוצא דופן: פסיפס של עשרות מיליוני כוכבים שנלכדו ב...",
-    "title_he_kids": "🚀 בתמונה זו מסתתרים אלפי כוכבי לכת ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:10:45\n\t\t\t\tמיליוני כוכבים. אלפי עולמות נסתרים. מבט אחד חסר תקדים של הגלקסיה שלנו. שלוש שנים מאז השיגור, טלסקופ החלל אוקלידס של ESA חושף את מרכז גלקסיית שביל החלב בפירוט יוצא דופן: פסיפס של עשרות מיליוני כוכבים שנלכדו ב... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Thousands of planets are hidden in this photo ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:10:45\n\t\t\t\tMillions of stars. Thousands of hidden worlds. One unprecedented view of our galaxy.Three years since launch, ESA’s Euclid space telescope reveals the Milky Way galaxy’s centre in extraordinary detail: a mosaic of tens of millions of stars captured in j... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 10
   },
   {
