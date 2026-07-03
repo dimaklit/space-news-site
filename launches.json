@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Atlas V 551 | Amazon Leo (LA-08)",
-    "window_start": "2026-07-02T04:24:00Z",
-    "rocket": "Atlas V 551",
-    "pad": "Space Launch Complex 41",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Long March 8A | Unknown Payload",
     "window_start": "2026-07-02T13:46:00Z",
     "rocket": "Long March 8A",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 40",
     "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Long March 10B | Demo Flight",
+    "window_start": "2026-07-10T05:00:00Z",
+    "rocket": "Long March 10B",
+    "pad": "Commercial LC-2",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
