@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
-    "window_start": "2026-07-07T07:10:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 10-42",
     "window_start": "2026-07-09T09:05:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Gravity-1",
     "pad": "Haiyang offshore launch location",
     "location": "Haiyang Oriental Spaceport"
+  },
+  {
+    "name_en": "Vikram-I | Demo Flight",
+    "window_start": "2026-07-12T05:00:00Z",
+    "rocket": "Vikram-I",
+    "pad": "Satish Dhawan Space Centre First Launch Pad",
+    "location": "Satish Dhawan Space Centre, India"
   }
 ]
