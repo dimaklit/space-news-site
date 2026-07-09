@@ -1,5 +1,25 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-07-09T17:10:00",
+    "date_display": "Thu, 09 Jul 2026 17:10:00 +0200",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Satellites_in_tandem_reveal_30_years_of_Antarctic_ice_flow",
+    "title_en": "Satellites in tandem reveal 30 years of Antarctic ice flow",
+    "summary_en": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar satellites to replicate the pioneering ERS-1–ERS-2 ‘tandem...",
+    "image": "",
+    "title_ru": "Спутники в тандеме выявили 30-летний ледяной поток в Антарктике",
+    "summary_ru": "Спустя тридцать лет после того, как Европейское космическое агентство впервые продемонстрировало возможности запуска двух спутников в очень близком строю, эта концепция была недавно воссоздана. Временно разместив два радиолокационных спутника Copernicus Sentinel-1, чтобы воспроизвести новаторский «тандем» ERS-1–ERS-2...",
+    "title_ru_kids": "🚀 Спутники в тандеме выявили 30-летний ледяной поток в Антарктике ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Спустя тридцать лет после того, как Европейское космическое агентство впервые продемонстрировало возможности запуска двух спутников в очень близком строю, эта концепция была недавно воссоздана. Временно разместив два радиолокационных спутника Copernicus Sentinel-1, чтобы воспроизвести новаторский «тандем» ERS-1–ERS-2... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "לוויינים במקביל חושפים 30 שנות זרימת קרח באנטארקטיקה",
+    "summary_he": "30 שנה לאחר שסוכנות החלל האירופית הדגימה לראשונה את הכוח של הטסת שני לוויינים במבנה קרוב מאוד, הרעיון נוצר לאחרונה מחדש. על ידי מיקום זמני של שני לווייני מכ\"ם קופרניקוס Sentinel-1 כדי לשכפל את \"הטנדם\" החלוצי ERS-1–ERS-2...",
+    "title_he_kids": "🚀 לוויינים במקביל חושפים 30 שנות זרימת קרח באנטארקטיקה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! 30 שנה לאחר שסוכנות החלל האירופית הדגימה לראשונה את הכוח של הטסת שני לוויינים במבנה קרוב מאוד, הרעיון נוצר לאחרונה מחדש. על ידי מיקום זמני של שני לווייני מכ\"ם קופרניקוס Sentinel-1 כדי לשכפל את \"הטנדם\" החלוצי ERS-1–ERS-2... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Satellites in tandem reveal 30 years of Antarctic ice flow ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar satellites to replicate the pioneering ERS-1–ERS-2 ‘tandem... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
     "source": "SpaceX",
     "date_parsed": "2026-07-09T02:14:49",
     "date_display": "Thu, 09 Jul 2026 02:14:49 +0000",
@@ -17,7 +37,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המאיץ המוביל בטיסה, B1067, שיגר את משימת Starlink 10-42 מתחנת כוח החלל קייפ קנוורל. ההמראה מרפיד 40 אירעה ב-5:25 בבוקר EDT (0925 UTC) ביום חמישי בבוקר. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket on record-breaking 36th flight ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The flight-leading booster, B1067, launched the Starlink 10-42 mission from Cape Canaveral Space Force Station. Liftoff from pad 40 happened at 5:25 a.m. EDT (0925 UTC) on Thursday morning. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המאיץ המוביל בטיסה, B1067, שיגר את משימת Starlink 10-42 מתחנת כוח החלל קייפ קנוורל. ההמראה מרפיד 40 אירעה ב-5:25 בבוקר EDT (0925 UTC) ביום חמישי בבוקר. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket on record-breaking 36th flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The flight-leading booster, B1067, launched the Starlink 10-42 mission from Cape Canaveral Space Force Station. Liftoff from pad 40 happened at 5:25 a.m. EDT (0925 UTC) on Thursday morning. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! פועל על פני 140 מיליון ק\"מ של חלל, צוות הבקרה למשימת Hera של ESA הצליח לשדרג את התוכנה שמפעילה את החללית, והשאיר אותה מוכנה לחקור את האסטרואידים דימורפוס ודידימוס הרחוקים בסתיו הקרוב. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Deep space software upgrade for Hera’s asteroid visit ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA, סופי אדנוט, החלה לבחון את מכשיר התרגיל האירופאי (E4D) בתחנת החלל הבינלאומית. מערכת התרגול החדשה, המותקנת בתוך מעבדת קולומבוס של ESA, תבלה את השנתיים הקרובות בסיוע לחוקרים להעריך מחקרים חדשניים... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 New European exercise device begins testing with first rope-pulling workout in space  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the next two years helping researchers evaluate innovative w... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לוויין ה-Meteosat Third Generation Imager (MTG-I2) השני החל במסע השיגור שלו, במהלכו יעבור בדיקות אחרונות לפני שיותבנה בתוך יריעת הרקטה Ariane 6 שתשגר אותו לחלל לקראת סוף הקיץ. אז איך... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Unpacking Europe’s new weather imagers ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The second Meteosat Third Generation Imager satellite (MTG-I2) has begun its launch campaign, during which it will go through final inspections before being fitted inside the fairing of the Ariane 6 rocket that will launch it into space towards the end of the summer. So how wi... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -117,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! SpaceX שיגרה סדרה של 81 מטענים למסלול כדור הארץ סינכרוני של השמש במהלך תקופת פריסה של כ-2.5 שעות. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 12:12 בבוקר PDT (0312 EDT / 0712 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Fire detectors, military tech demos, 3D printers among SpaceX rideshare payloads launching on midnight Falcon 9 flight ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! SpaceX launched a series of 81 payloads to a Sun-synchronous Earth orbit over a roughly 2.5-hour-long deployment period. Liftoff from pad 4E at Vandenberg Space Force Base happened at 12:12 a.m. PDT (0312 EDT / 0712 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,26 +157,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! SpaceX שיגרה סדרה של 81 מטענים למסלול כדור הארץ סינכרוני של השמש במהלך תקופת פריסה של כ-2.5 שעות. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 12:12 בבוקר PDT (0312 EDT / 0712 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Fire detectors, military tech demos, 3D printers among SpaceX rideshare payloads launching on midnight Falcon 9 flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! SpaceX launched a series of 81 payloads to a Sun-synchronous Earth orbit over a roughly 2.5-hour-long deployment period. Liftoff from pad 4E at Vandenberg Space Force Base happened at 12:12 a.m. PDT (0312 EDT / 0712 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-06T08:30:00",
-    "date_display": "Mon, 06 Jul 2026 08:30:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_the_most_ancient_quasar_in_the_Universe",
-    "title_en": "Euclid discovers the most ancient quasar in the Universe",
-    "summary_en": "",
-    "image": "",
-    "title_ru": "Евклид обнаружил самый древний квазар во Вселенной",
-    "summary_ru": "",
-    "title_ru_kids": "🚀 Евклид обнаружил самый древний квазар во Вселенной ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "אוקלידס מגלה את הקוואזר העתיק ביותר ביקום",
-    "summary_he": "",
-    "title_he_kids": "🚀 אוקלידס מגלה את הקוואזר העתיק ביותר ביקום ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Euclid discovers the most ancient quasar in the Universe ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 8
   },
   {
