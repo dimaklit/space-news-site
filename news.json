@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-07-13T14:34:00",
+    "date_display": "Mon, 13 Jul 2026 14:34:00 +0200",
+    "link": "https://www.esa.int/About_Us/Corporate_news/ESA_and_Poland_to_establish_a_new_civil_security_and_resilience_centre_in_Warsaw",
+    "title_en": "ESA and Poland to establish a new civil security and resilience centre in Warsaw",
+    "summary_en": "The European Space Agency (ESA) and the Republic of Poland have announced that a new ESA centre focusing on civil security and resilience will be located in Warsaw, supporting the efficient and coordinated development of European capabilities in these strategically important f...",
+    "image": "",
+    "title_ru": "ЕКА и Польша создадут новый центр гражданской безопасности и устойчивости в Варшаве",
+    "summary_ru": "Европейское космическое агентство (ЕКА) и Республика Польша объявили, что новый центр ЕКА, специализирующийся на гражданской безопасности и устойчивости, будет расположен в Варшаве, поддерживая эффективное и скоординированное развитие европейского потенциала в этих стратегически важных регионах...",
+    "title_ru_kids": "🚀 ЕКА и Польша создадут новый центр гражданской безопасности и устойчивости в Варшаве ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Европейское космическое агентство (ЕКА) и Республика Польша объявили, что новый центр ЕКА, специализирующийся на гражданской безопасности и устойчивости, будет расположен в Варшаве, поддерживая эффективное и скоординированное развитие европейского потенциала в этих стратегически важных регионах... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "ESA ופולין להקים מרכז ביטחון וחוסן אזרחי חדש בוורשה",
+    "summary_he": "סוכנות החלל האירופית (ESA) והרפובליקה של פולין הודיעו כי מרכז ESA חדש המתמקד בביטחון אזרחי וחוסן ימוקם בוורשה, שיתמוך בפיתוח יעיל ומתואם של יכולות אירופיות בתחומים חשובים אסטרטגיים אלה...",
+    "title_he_kids": "🚀 ESA ופולין להקים מרכז ביטחון וחוסן אזרחי חדש בוורשה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) והרפובליקה של פולין הודיעו כי מרכז ESA חדש המתמקד בביטחון אזרחי וחוסן ימוקם בוורשה, שיתמוך בפיתוח יעיל ומתואם של יכולות אירופיות בתחומים חשובים אסטרטגיים אלה... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 ESA and Poland to establish a new civil security and resilience centre in Warsaw ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) and the Republic of Poland have announced that a new ESA centre focusing on civil security and resilience will be located in Warsaw, supporting the efficient and coordinated development of European capabilities in these strategically important f... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-07-13T13:23:00",
     "date_display": "Mon, 13 Jul 2026 13:23:00 +0200",
     "link": "https://www.esa.int/About_Us/Corporate_news/ESA_welcomes_new_UK_space_and_defence_gateway",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הוד מלכותו המלך צ'ארלס השלישי ביקר באשכול החלל הגדול ביותר בבריטניה ב-10 ביולי כדי להשיק יוזמה חדשה שנועדה לעצב את עתיד כלכלת החלל וההגנה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA welcomes new UK space and defence gateway  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! His Majesty King Charles III visited the UK’s largest space cluster on 10 July to launch a new initiative designed to shape the future of the space and defence economy. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "SpaceX",
@@ -37,7 +57,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +77,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:02:34\n\t\t\t\tמשביל הטוטאליות והחרוזים המרהיבים של ביילי ועד למה הליקוי הזה יהיה יפה במיוחד בשקיעה, גלה מה הופך את ליקוי החמה המלא של 12 באוגוסט 2026 למיוחד כל כך. בהשתתפות אסטרונאוטית ESA Reserve Sara García Alonso ו-ESA Astr... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 8 things to know about this year’s solar eclipse ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:02:34\n\t\t\t\tFrom the path of totality and the spectacular Baily's beads to why this eclipse will be especially beautiful at sunset, discover what makes the 12 August 2026 total solar eclipse so special.Featuring ESA Reserve Astronaut Sara García Alonso and ESA Astr... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 06-10 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 06-10 July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 06-10 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tמשימת Copernicus Sentinel-2 לוכדת את אגם הדובים הגדול של קנדה בצבעים מדהימים. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Great Bear Lake, Canada ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThe Copernicus Sentinel-2 mission captures Canada’s Great Bear Lake in striking colours. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! 30 שנה לאחר שסוכנות החלל האירופית הדגימה לראשונה את הכוח של הטסת שני לוויינים במבנה קרוב מאוד, הרעיון נוצר לאחרונה מחדש. על ידי מיקום זמני של שני לווייני מכ\"ם קופרניקוס Sentinel-1 כדי לשכפל את \"הטנדם\" החלוצי ERS-1–ERS-2... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Satellites in tandem reveal 30 years of Antarctic ice flow ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar satellites to replicate the pioneering ERS-1–ERS-2 ‘tandem... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "SpaceX",
@@ -157,7 +177,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המאיץ המוביל בטיסה, B1067, שיגר את משימת Starlink 10-42 מתחנת כוח החלל קייפ קנוורל. ההמראה מרפיד 40 אירעה ב-5:25 בבוקר EDT (0925 UTC) ביום חמישי בבוקר. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket on record-breaking 36th flight ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The flight-leading booster, B1067, launched the Starlink 10-42 mission from Cape Canaveral Space Force Station. Liftoff from pad 40 happened at 5:25 a.m. EDT (0925 UTC) on Thursday morning. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -177,7 +197,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המאיץ המוביל בטיסה, B1067, שיגר את משימת Starlink 10-42 מתחנת כוח החלל קייפ קנוורל. ההמראה מרפיד 40 אירעה ב-5:25 בבוקר EDT (0925 UTC) ביום חמישי בבוקר. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket on record-breaking 36th flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The flight-leading booster, B1067, launched the Starlink 10-42 mission from Cape Canaveral Space Force Station. Liftoff from pad 40 happened at 5:25 a.m. EDT (0925 UTC) on Thursday morning. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "ESA",
@@ -197,26 +217,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! פועל על פני 140 מיליון ק\"מ של חלל, צוות הבקרה למשימת Hera של ESA הצליח לשדרג את התוכנה שמפעילה את החללית, והשאיר אותה מוכנה לחקור את האסטרואידים דימורפוס ודידימוס הרחוקים בסתיו הקרוב. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Deep space software upgrade for Hera’s asteroid visit ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 10
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-08T10:36:00",
-    "date_display": "Wed, 08 Jul 2026 10:36:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space",
-    "title_en": "New European exercise device begins testing with first rope-pulling workout in space ",
-    "summary_en": "ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the next two years helping researchers evaluate innovative w...",
-    "image": "",
-    "title_ru": "Новый европейский тренажер начинает испытания с первой тренировки по перетягиванию каната в космосе",
-    "summary_ru": "Астронавт ЕКА Софи Адено приступила к испытаниям европейского устройства для усовершенствованных исследовательских упражнений (E4D) на Международной космической станции. Новая система упражнений, установленная в лаборатории ЕКА в Колумбусе, в течение следующих двух лет будет помогать исследователям оценивать инновационные методы...",
-    "title_ru_kids": "🚀 Новый европейский тренажер начинает испытания с первой тренировки по перетягиванию каната в космосе ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Астронавт ЕКА Софи Адено приступила к испытаниям европейского устройства для усовершенствованных исследовательских упражнений (E4D) на Международной космической станции. Новая система упражнений, установленная в лаборатории ЕКА в Колумбусе, в течение следующих двух лет будет помогать исследователям оценивать инновационные методы... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "מכשיר אימונים אירופי חדש מתחיל בבדיקה עם אימון משיכת חבל ראשון בחלל",
-    "summary_he": "האסטרונאוטית של ESA, סופי אדנוט, החלה לבחון את מכשיר התרגיל האירופאי (E4D) בתחנת החלל הבינלאומית. מערכת התרגול החדשה, המותקנת בתוך מעבדת קולומבוס של ESA, תבלה את השנתיים הקרובות בסיוע לחוקרים להעריך מחקרים חדשניים...",
-    "title_he_kids": "🚀 מכשיר אימונים אירופי חדש מתחיל בבדיקה עם אימון משיכת חבל ראשון בחלל ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA, סופי אדנוט, החלה לבחון את מכשיר התרגיל האירופאי (E4D) בתחנת החלל הבינלאומית. מערכת התרגול החדשה, המותקנת בתוך מעבדת קולומבוס של ESA, תבלה את השנתיים הקרובות בסיוע לחוקרים להעריך מחקרים חדשניים... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 New European exercise device begins testing with first rope-pulling workout in space  ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the next two years helping researchers evaluate innovative w... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 11
   },
   {
@@ -392,9 +392,9 @@
     "title_ru_kids": "🚀 Blue Origin планирует вернуться к логистике полетов для своих ракет New Glenn ✨",
     "summary_ru_kids": "🌟 Смотри, что произошло! Взрыв ракеты New Glenn 28 мая все еще расследуется. Компания заявила, что в будущем переходит к гибридной горизонтально-вертикальной интеграции своих ракет. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
     "title_he": "קווי מתאר Blue Origin חוזרים ללוגיסטיקת הטיסה עבור רקטות ניו גלן שלה",
-    "summary_he": "פיצוץ רקטה של ​​ניו גלן ב-28 במאי עדיין בחקירה. החברה אמרה שהיא עוברת לאינטגרציה היברידית אופקית-אנכית עבור הרקטות שלה שמתקדמים קדימה.",
+    "summary_he": "פיצוץ רקטה של ​​ניו גלן ב-28 במאי עדיין בחקירה. החברה אמרה שהיא עוברת לאינטגרציה היברידית אופקית-אנכית עבור הרקטות שלה שנעות קדימה.",
     "title_he_kids": "🚀 קווי מתאר Blue Origin חוזרים ללוגיסטיקת הטיסה עבור רקטות ניו גלן שלה ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! פיצוץ רקטה של ​​ניו גלן ב-28 במאי עדיין בחקירה. החברה אמרה שהיא עוברת לאינטגרציה היברידית אופקית-אנכית עבור הרקטות שלה שמתקדמים קדימה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "summary_he_kids": "🌟 תראו מה קרה! פיצוץ רקטה של ​​ניו גלן ב-28 במאי עדיין בחקירה. החברה אמרה שהיא עוברת לאינטגרציה היברידית אופקית-אנכית עבור הרקטות שלה שנעות קדימה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Blue Origin outlines return to flight logistics for its New Glenn rockets ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The explosion of a New Glenn rocket on May 28 is still under investigation. The company said it’s moving to a hybrid horizontal-vertical integration for its rockets moving forward. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 20
@@ -451,10 +451,10 @@
     "summary_ru": "Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени).",
     "title_ru_kids": "🚀 Запуск Falcon 9 на западном побережье продолжает расширение сети Starlink SpaceX ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии Starlink 17-45 с космодрома 4E на базе космических сил Ванденберг в Калифорнии произошел в 20:30 по тихоокеанскому времени. Тихоокеанское время (23:30 по восточному времени / 03:30 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
-    "title_he": "שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX",
+    "title_he": "שיגור West Coast Falcon 9 ממשיך להרחיב את רשת Starlink של SpaceX",
     "summary_he": "הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (23:30 EDT / 0330 UTC).",
-    "title_he_kids": "🚀 שיגור West Coast Falcon 9 ממשיך את הרחבת רשת Starlink של SpaceX ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (23:30 EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_he_kids": "🚀 שיגור West Coast Falcon 9 ממשיך להרחיב את רשת Starlink של SpaceX ✨",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הסרת משימת Starlink 17-45 ממתחם שיגור החלל 4E בבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 20:30. PDT (23:30 EDT / 0330 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 West Coast Falcon 9 launch continues expansion of SpaceX’s Starlink network ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Starlink 17-45 mission from Space Launch Complex 4E at Vandenberg Space Force Base in California occurred at 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 23
