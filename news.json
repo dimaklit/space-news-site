@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-07-13T16:09:00",
+    "date_display": "Mon, 13 Jul 2026 16:09:00 +0200",
+    "link": "https://www.esa.int/About_Us/Business_with_ESA/ESA_releases_2026_Space_Economy_Report",
+    "title_en": "ESA releases 2026 Space Economy Report",
+    "summary_en": "The European Space Agency’s (ESA) newly released Space Economy Report gives a comprehensive overview of the latest developments shaping Europe's space sector.",
+    "image": "",
+    "title_ru": "ЕКА опубликовало отчет о космической экономике за 2026 год",
+    "summary_ru": "Недавно опубликованный Отчет Европейского космического агентства (ЕКА) по космической экономике дает всесторонний обзор последних событий, формирующих европейский космический сектор.",
+    "title_ru_kids": "🚀 ЕКА опубликовало отчет о космической экономике за 2026 год ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Недавно опубликованный Отчет Европейского космического агентства (ЕКА) по космической экономике дает всесторонний обзор последних событий, формирующих европейский космический сектор. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "ESA מפרסמת את דו\"ח כלכלת החלל לשנת 2026",
+    "summary_he": "דו\"ח כלכלת החלל החדש של סוכנות החלל האירופית (ESA) מספק סקירה מקיפה של ההתפתחויות האחרונות שמעצבות את תחום החלל באירופה.",
+    "title_he_kids": "🚀 ESA מפרסמת את דו\"ח כלכלת החלל לשנת 2026 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! דו\"ח כלכלת החלל החדש של סוכנות החלל האירופית (ESA) מספק סקירה מקיפה של ההתפתחויות האחרונות שמעצבות את תחום החלל באירופה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 ESA releases 2026 Space Economy Report ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s (ESA) newly released Space Economy Report gives a comprehensive overview of the latest developments shaping Europe's space sector. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-07-13T14:34:00",
     "date_display": "Mon, 13 Jul 2026 14:34:00 +0200",
     "link": "https://www.esa.int/About_Us/Corporate_news/ESA_and_Poland_to_establish_a_new_civil_security_and_resilience_centre_in_Warsaw",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) והרפובליקה של פולין הודיעו כי מרכז ESA חדש המתמקד בביטחון אזרחי וחוסן ימוקם בוורשה, שיתמוך בפיתוח יעיל ומתואם של יכולות אירופיות בתחומים חשובים אסטרטגיים אלה... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA and Poland to establish a new civil security and resilience centre in Warsaw ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) and the Republic of Poland have announced that a new ESA centre focusing on civil security and resilience will be located in Warsaw, supporting the efficient and coordinated development of European capabilities in these strategically important f... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הוד מלכותו המלך צ'ארלס השלישי ביקר באשכול החלל הגדול ביותר בבריטניה ב-10 ביולי כדי להשיק יוזמה חדשה שנועדה לעצב את עתיד כלכלת החלל וההגנה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA welcomes new UK space and defence gateway  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! His Majesty King Charles III visited the UK’s largest space cluster on 10 July to launch a new initiative designed to shape the future of the space and defence economy. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "SpaceX",
@@ -57,7 +77,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:02:34\n\t\t\t\tמשביל הטוטאליות והחרוזים המרהיבים של ביילי ועד למה הליקוי הזה יהיה יפה במיוחד בשקיעה, גלה מה הופך את ליקוי החמה המלא של 12 באוגוסט 2026 למיוחד כל כך. בהשתתפות אסטרונאוטית ESA Reserve Sara García Alonso ו-ESA Astr... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 8 things to know about this year’s solar eclipse ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:02:34\n\t\t\t\tFrom the path of totality and the spectacular Baily's beads to why this eclipse will be especially beautiful at sunset, discover what makes the 12 August 2026 total solar eclipse so special.Featuring ESA Reserve Astronaut Sara García Alonso and ESA Astr... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 06-10 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 06-10 July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 06-10 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tמשימת Copernicus Sentinel-2 לוכדת את אגם הדובים הגדול של קנדה בצבעים מדהימים. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Great Bear Lake, Canada ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThe Copernicus Sentinel-2 mission captures Canada’s Great Bear Lake in striking colours. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! 30 שנה לאחר שסוכנות החלל האירופית הדגימה לראשונה את הכוח של הטסת שני לוויינים במבנה קרוב מאוד, הרעיון נוצר לאחרונה מחדש. על ידי מיקום זמני של שני לווייני מכ\"ם קופרניקוס Sentinel-1 כדי לשכפל את \"הטנדם\" החלוצי ERS-1–ERS-2... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Satellites in tandem reveal 30 years of Antarctic ice flow ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar satellites to replicate the pioneering ERS-1–ERS-2 ‘tandem... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "SpaceX",
@@ -177,7 +197,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המאיץ המוביל בטיסה, B1067, שיגר את משימת Starlink 10-42 מתחנת כוח החלל קייפ קנוורל. ההמראה מרפיד 40 אירעה ב-5:25 בבוקר EDT (0925 UTC) ביום חמישי בבוקר. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket on record-breaking 36th flight ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The flight-leading booster, B1067, launched the Starlink 10-42 mission from Cape Canaveral Space Force Station. Liftoff from pad 40 happened at 5:25 a.m. EDT (0925 UTC) on Thursday morning. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -197,26 +217,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! המאיץ המוביל בטיסה, B1067, שיגר את משימת Starlink 10-42 מתחנת כוח החלל קייפ קנוורל. ההמראה מרפיד 40 אירעה ב-5:25 בבוקר EDT (0925 UTC) ביום חמישי בבוקר. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket on record-breaking 36th flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The flight-leading booster, B1067, launched the Starlink 10-42 mission from Cape Canaveral Space Force Station. Liftoff from pad 40 happened at 5:25 a.m. EDT (0925 UTC) on Thursday morning. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-08T14:44:00",
-    "date_display": "Wed, 08 Jul 2026 14:44:00 +0200",
-    "link": "https://www.esa.int/Space_Safety/Hera/Deep_space_software_upgrade_for_Hera_s_asteroid_visit",
-    "title_en": "Deep space software upgrade for Hera’s asteroid visit",
-    "summary_en": "Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn.",
-    "image": "",
-    "title_ru": "Обновление программного обеспечения для глубокого космоса для посещения астероида Геры",
-    "summary_ru": "Действуя на расстоянии 140 миллионов километров космоса, группа управления миссией ЕКА «Гера» преуспела в обновлении программного обеспечения, управляющего космическим кораблем, и этой осенью он готов к исследованию далеких астероидов Диморфос и Дидимос.",
-    "title_ru_kids": "🚀 Обновление программного обеспечения для глубокого космоса для посещения астероида Геры ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Действуя на расстоянии 140 миллионов километров космоса, группа управления миссией ЕКА «Гера» преуспела в обновлении программного обеспечения, управляющего космическим кораблем, и этой осенью он готов к исследованию далеких астероидов Диморфос и Дидимос. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "שדרוג תוכנת חלל עמוק לביקור האסטרואיד של הרה",
-    "summary_he": "פועל על פני 140 מיליון ק\"מ של חלל, צוות הבקרה למשימת Hera של ESA הצליח לשדרג את התוכנה שמפעילה את החללית, והשאיר אותה מוכנה לחקור את האסטרואידים דימורפוס ודידימוס הרחוקים בסתיו הקרוב.",
-    "title_he_kids": "🚀 שדרוג תוכנת חלל עמוק לביקור האסטרואיד של הרה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! פועל על פני 140 מיליון ק\"מ של חלל, צוות הבקרה למשימת Hera של ESA הצליח לשדרג את התוכנה שמפעילה את החללית, והשאיר אותה מוכנה לחקור את האסטרואידים דימורפוס ודידימוס הרחוקים בסתיו הקרוב. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Deep space software upgrade for Hera’s asteroid visit ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 11
   },
   {
