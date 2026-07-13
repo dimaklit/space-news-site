@@ -1,5 +1,25 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-07-13T13:23:00",
+    "date_display": "Mon, 13 Jul 2026 13:23:00 +0200",
+    "link": "https://www.esa.int/About_Us/Corporate_news/ESA_welcomes_new_UK_space_and_defence_gateway",
+    "title_en": "ESA welcomes new UK space and defence gateway ",
+    "summary_en": "His Majesty King Charles III visited the UK’s largest space cluster on 10 July to launch a new initiative designed to shape the future of the space and defence economy.",
+    "image": "",
+    "title_ru": "ЕКА приветствует новый британский космический и оборонный портал",
+    "summary_ru": "Его Величество король Карл III 10 июля посетил крупнейший космический кластер Великобритании, чтобы запустить новую инициативу, призванную сформировать будущее космической и оборонной экономики.",
+    "title_ru_kids": "🚀 ЕКА приветствует новый британский космический и оборонный портал ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Его Величество король Карл III 10 июля посетил крупнейший космический кластер Великобритании, чтобы запустить новую инициативу, призванную сформировать будущее космической и оборонной экономики. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "ESA מברכת על שער החלל וההגנה החדש בבריטניה",
+    "summary_he": "הוד מלכותו המלך צ'ארלס השלישי ביקר באשכול החלל הגדול ביותר בבריטניה ב-10 ביולי כדי להשיק יוזמה חדשה שנועדה לעצב את עתיד כלכלת החלל וההגנה.",
+    "title_he_kids": "🚀 ESA מברכת על שער החלל וההגנה החדש בבריטניה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הוד מלכותו המלך צ'ארלס השלישי ביקר באשכול החלל הגדול ביותר בבריטניה ב-10 ביולי כדי להשיק יוזמה חדשה שנועדה לעצב את עתיד כלכלת החלל וההגנה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 ESA welcomes new UK space and defence gateway  ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! His Majesty King Charles III visited the UK’s largest space cluster on 10 July to launch a new initiative designed to shape the future of the space and defence economy. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
     "source": "SpaceX",
     "date_parsed": "2026-07-10T20:59:39",
     "date_display": "Fri, 10 Jul 2026 20:59:39 +0000",
@@ -17,7 +37,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:02:34\n\t\t\t\tמשביל הטוטאליות והחרוזים המרהיבים של ביילי ועד למה הליקוי הזה יהיה יפה במיוחד בשקיעה, גלה מה הופך את ליקוי החמה המלא של 12 באוגוסט 2026 למיוחד כל כך. בהשתתפות אסטרונאוטית ESA Reserve Sara García Alonso ו-ESA Astr... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 8 things to know about this year’s solar eclipse ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:02:34\n\t\t\t\tFrom the path of totality and the spectacular Baily's beads to why this eclipse will be especially beautiful at sunset, discover what makes the 12 August 2026 total solar eclipse so special.Featuring ESA Reserve Astronaut Sara García Alonso and ESA Astr... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 06-10 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 06-10 July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 06-10 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tמשימת Copernicus Sentinel-2 לוכדת את אגם הדובים הגדול של קנדה בצבעים מדהימים. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Great Bear Lake, Canada ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThe Copernicus Sentinel-2 mission captures Canada’s Great Bear Lake in striking colours. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! 30 שנה לאחר שסוכנות החלל האירופית הדגימה לראשונה את הכוח של הטסת שני לוויינים במבנה קרוב מאוד, הרעיון נוצר לאחרונה מחדש. על ידי מיקום זמני של שני לווייני מכ\"ם קופרניקוס Sentinel-1 כדי לשכפל את \"הטנדם\" החלוצי ERS-1–ERS-2... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Satellites in tandem reveal 30 years of Antarctic ice flow ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar satellites to replicate the pioneering ERS-1–ERS-2 ‘tandem... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "SpaceX",
@@ -137,7 +157,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המאיץ המוביל בטיסה, B1067, שיגר את משימת Starlink 10-42 מתחנת כוח החלל קייפ קנוורל. ההמראה מרפיד 40 אירעה ב-5:25 בבוקר EDT (0925 UTC) ביום חמישי בבוקר. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket on record-breaking 36th flight ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The flight-leading booster, B1067, launched the Starlink 10-42 mission from Cape Canaveral Space Force Station. Liftoff from pad 40 happened at 5:25 a.m. EDT (0925 UTC) on Thursday morning. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -157,7 +177,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המאיץ המוביל בטיסה, B1067, שיגר את משימת Starlink 10-42 מתחנת כוח החלל קייפ קנוורל. ההמראה מרפיד 40 אירעה ב-5:25 בבוקר EDT (0925 UTC) ביום חמישי בבוקר. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Falcon 9 rocket on record-breaking 36th flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The flight-leading booster, B1067, launched the Starlink 10-42 mission from Cape Canaveral Space Force Station. Liftoff from pad 40 happened at 5:25 a.m. EDT (0925 UTC) on Thursday morning. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! פועל על פני 140 מיליון ק\"מ של חלל, צוות הבקרה למשימת Hera של ESA הצליח לשדרג את התוכנה שמפעילה את החללית, והשאיר אותה מוכנה לחקור את האסטרואידים דימורפוס ודידימוס הרחוקים בסתיו הקרוב. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Deep space software upgrade for Hera’s asteroid visit ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "ESA",
@@ -197,26 +217,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA, סופי אדנוט, החלה לבחון את מכשיר התרגיל האירופאי (E4D) בתחנת החלל הבינלאומית. מערכת התרגול החדשה, המותקנת בתוך מעבדת קולומבוס של ESA, תבלה את השנתיים הקרובות בסיוע לחוקרים להעריך מחקרים חדשניים... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 New European exercise device begins testing with first rope-pulling workout in space  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the next two years helping researchers evaluate innovative w... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 10
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-07T10:00:00",
-    "date_display": "Tue, 07 Jul 2026 10:00:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Unpacking_Europe_s_new_weather_imagers",
-    "title_en": "Unpacking Europe’s new weather imagers",
-    "summary_en": "The second Meteosat Third Generation Imager satellite (MTG-I2) has begun its launch campaign, during which it will go through final inspections before being fitted inside the fairing of the Ariane 6 rocket that will launch it into space towards the end of the summer. So how wi...",
-    "image": "",
-    "title_ru": "Распаковка новых тепловизоров Европы",
-    "summary_ru": "Второй спутник Meteosat третьего поколения Imager (MTG-I2) начал кампанию по запуску, в ходе которой он пройдет окончательные проверки перед установкой в ​​обтекатель ракеты Ariane 6, которая запустит его в космос ближе к концу лета. Так как же...",
-    "title_ru_kids": "🚀 Распаковка новых тепловизоров Европы ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Второй спутник Meteosat третьего поколения Imager (MTG-I2) начал кампанию по запуску, в ходе которой он пройдет окончательные проверки перед установкой в ​​обтекатель ракеты Ariane 6, которая запустит его в космос ближе к концу лета. Так как же... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "פורקים את תמונות מזג האוויר החדשות של אירופה",
-    "summary_he": "לוויין ה-Meteosat Third Generation Imager (MTG-I2) השני החל במסע השיגור שלו, במהלכו יעבור בדיקות אחרונות לפני שיותבנה בתוך יריעת הרקטה Ariane 6 שתשגר אותו לחלל לקראת סוף הקיץ. אז איך...",
-    "title_he_kids": "🚀 פורקים את תמונות מזג האוויר החדשות של אירופה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לוויין ה-Meteosat Third Generation Imager (MTG-I2) השני החל במסע השיגור שלו, במהלכו יעבור בדיקות אחרונות לפני שיותבנה בתוך יריעת הרקטה Ariane 6 שתשגר אותו לחלל לקראת סוף הקיץ. אז איך... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Unpacking Europe’s new weather imagers ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The second Meteosat Third Generation Imager satellite (MTG-I2) has begun its launch campaign, during which it will go through final inspections before being fitted inside the fairing of the Ariane 6 rocket that will launch it into space towards the end of the summer. So how wi... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 11
   },
   {
