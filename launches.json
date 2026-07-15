@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 10-45",
-    "window_start": "2026-07-14T07:15:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Soyuz 2.1a | Soyuz MS-29",
     "window_start": "2026-07-14T14:47:50Z",
     "rocket": "Soyuz 2.1a",
@@ -33,5 +26,12 @@
     "rocket": "Long March 7A",
     "pad": "201",
     "location": "Wenchang Space Launch Site, People's Republic of China"
+  },
+  {
+    "name_en": "Vikram-I | Demo Flight",
+    "window_start": "2026-07-18T05:00:00Z",
+    "rocket": "Vikram-I",
+    "pad": "Satish Dhawan Space Centre First Launch Pad",
+    "location": "Satish Dhawan Space Centre, India"
   }
 ]
