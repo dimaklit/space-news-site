@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Soyuz 2.1a | Soyuz MS-29",
-    "window_start": "2026-07-14T14:47:50Z",
-    "rocket": "Soyuz 2.1a",
-    "pad": "31/6",
-    "location": "Baikonur Cosmodrome, Republic of Kazakhstan"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
     "window_start": "2026-07-16T20:22:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Vikram-I",
     "pad": "Satish Dhawan Space Centre First Launch Pad",
     "location": "Satish Dhawan Space Centre, India"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 17-39",
+    "window_start": "2026-07-18T14:00:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   }
 ]
