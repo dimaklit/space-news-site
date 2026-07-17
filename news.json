@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-07-17T18:00:00",
+    "date_display": "Fri, 17 Jul 2026 18:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/ESA_s_Mars_Express_meets_NASA_s_Psyche",
+    "title_en": "ESA’s Mars Express meets NASA’s Psyche",
+    "summary_en": "Image:\n\t\t\tMars Express image",
+    "image": "",
+    "title_ru": "Mars Express ЕКА встречается с Psyche НАСА",
+    "summary_ru": "Изображение:\n\t\t\tИзображение Марс-Экспресс",
+    "title_ru_kids": "🚀 Mars Express ЕКА встречается с Psyche НАСА ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tИзображение Марс-Экспресс 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "Mars Express של ESA פוגש את הנפש של נאס\"א",
+    "summary_he": "תמונה:\n\t\t\tתמונת Mars Express",
+    "title_he_kids": "🚀 Mars Express של ESA פוגש את הנפש של נאס\"א ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת Mars Express 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 ESA’s Mars Express meets NASA’s Psyche ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tMars Express image 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-07-17T15:10:00",
     "date_display": "Fri, 17 Jul 2026 15:10:00 +0200",
     "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_13-17_July_2026",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 13-17 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 13-17 July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 13-17 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,26 +57,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tמשמאל לימין, האסטרונאוטים של נאס\"א כריסטינה קוך, ריד ויסמן וויקטור גלובר, ואסטרונאוט סוכנות החלל הקנדית ג'רמי הנסן, כשמאחוריהם צוות מודול השירות האירופאי של ESA ב-ESTEC. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 European Service Module team meets Artemis II crew ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tFrom left to right, NASA astronauts Chrstina Koch, Reid Wiseman and Victor Glover, and Canadian Space Agency astronaut Jeremy Hansen, with ESA's European Service Module team behind them at ESTEC. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-17T10:00:00",
-    "date_display": "Fri, 17 Jul 2026 10:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Guinea-Bissau",
-    "title_en": "Earth from Space: Guinea-Bissau",
-    "summary_en": "Image:\n\t\t\tThis Copernicus Sentinel-2 image features part of the Republic of Guinea-Bissau in western Africa.",
-    "image": "",
-    "title_ru": "Земля из космоса: Гвинея-Бисау",
-    "summary_ru": "Изображение:\n\t\t\tНа этом снимке Copernicus Sentinel-2 изображена часть Республики Гвинея-Бисау в Западной Африке.",
-    "title_ru_kids": "🚀 Земля из космоса: Гвинея-Бисау ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tНа этом снимке Copernicus Sentinel-2 изображена часть Республики Гвинея-Бисау в Западной Африке. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Скафандр весит как большой пес!",
-    "title_he": "כדור הארץ מהחלל: גינאה-ביסאו",
-    "summary_he": "תמונה:\n\t\t\tתמונה זו של קופרניקוס סנטינל-2 מציגה חלק מהרפובליקה של גינאה-ביסאו במערב אפריקה.",
-    "title_he_kids": "🚀 כדור הארץ מהחלל: גינאה-ביסאו ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו של קופרניקוס סנטינל-2 מציגה חלק מהרפובליקה של גינאה-ביסאו במערב אפריקה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Earth from Space: Guinea-Bissau ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis Copernicus Sentinel-2 image features part of the Republic of Guinea-Bissau in western Africa. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 3
   },
   {
