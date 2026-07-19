@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Vikram-I | Demo Flight",
-    "window_start": "2026-07-18T05:00:00Z",
-    "rocket": "Vikram-I",
-    "pad": "Satish Dhawan Space Centre First Launch Pad",
-    "location": "Satish Dhawan Space Centre, India"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 17-39",
     "window_start": "2026-07-18T14:00:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -29,6 +22,13 @@
   },
   {
     "name_en": "Electron | LOXSAT 1",
+    "window_start": "2026-07-31T00:00:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Electron | StriX Launch 11",
     "window_start": "2026-07-31T00:00:00Z",
     "rocket": "Electron",
     "pad": "Unknown Pad",
