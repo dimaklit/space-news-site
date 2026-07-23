@@ -1,5 +1,25 @@
 [
   {
+    "source": "Spaceflight Now",
+    "date_parsed": "2026-07-23T19:12:50",
+    "date_display": "Thu, 23 Jul 2026 19:12:50 +0000",
+    "link": "https://spaceflightnow.com/2026/07/23/live-coverage-spacex-ready-for-2nd-attempt-to-launch-starship-flight-13-following-post-abort-engine-work/",
+    "title_en": "Live coverage: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work",
+    "summary_en": "The flight comes as Tropical Storm Bertha is expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC).",
+    "image": "",
+    "title_ru": "Прямая трансляция: SpaceX готова ко второй попытке запустить Starship Flight 13 после работы двигателя после прерывания",
+    "summary_ru": "Полет произошел в тот момент, когда тропический шторм Берта, как ожидается, обрушится на берег Техаса в четверг. Старт миссии Starship Flight 13 запланирован на 90-минутное окно, которое открывается в 17:45 по тихоокеанскому времени. CDT (18:45 по восточному времени / 22:45 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Прямая трансляция: SpaceX готова ко второй попытке запустить Starship Flight 13 после работы двигателя после прерывания ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Полет произошел в тот момент, когда тропический шторм Берта, как ожидается, обрушится на берег Техаса в четверг. Старт миссии Starship Flight 13 запланирован на 90-минутное окно, которое открывается в 17:45 по тихоокеанскому времени. CDT (18:45 по восточному времени / 22:45 по всемирному координированному времени). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "סיקור ישיר: SpaceX מוכנה לניסיון שני לשגר את טיסת ספינת הכוכבים 13 בעקבות עבודת מנוע לאחר הפסקת המטוס",
+    "summary_he": "הטיסה מגיעה כאשר הסופה הטרופית ברטה צפויה להגיע לנחיתה בטקסס ביום חמישי. ההמראה של משימת טיסת ספינת הכוכבים 13 מתוכננת במהלך חלון של 90 דקות שייפתח בשעה 17:45. CDT (6:45 אחר הצהריים EDT / 2245 UTC).",
+    "title_he_kids": "🚀 סיקור ישיר: SpaceX מוכנה לניסיון שני לשגר את טיסת ספינת הכוכבים 13 בעקבות עבודת מנוע לאחר הפסקת המטוס ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! הטיסה מגיעה כאשר הסופה הטרופית ברטה צפויה להגיע לנחיתה בטקסס ביום חמישי. ההמראה של משימת טיסת ספינת הכוכבים 13 מתוכננת במהלך חלון של 90 דקות שייפתח בשעה 17:45. CDT (6:45 אחר הצהריים EDT / 2245 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Live coverage: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! The flight comes as Tropical Storm Bertha is expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
     "source": "ESA",
     "date_parsed": "2026-07-23T12:00:00",
     "date_display": "Thu, 23 Jul 2026 12:00:00 +0200",
@@ -11,13 +31,13 @@
     "summary_ru": "Откройте для себя науку, лежащую в основе одного из самых необычных явлений природы, и испытайте полное солнечное затмение вместе с Европейским космическим агентством (ЕКА), городом Леон и Леонским университетом.",
     "title_ru_kids": "🚀 Наблюдайте за полным солнечным затмением вместе с ЕКА в Леоне. ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Откройте для себя науку, лежащую в основе одного из самых необычных явлений природы, и испытайте полное солнечное затмение вместе с Европейским космическим агентством (ЕКА), городом Леон и Леонским университетом. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Скафандр весит как большой пес!",
-    "title_he": "צפו בליקוי החמה המלא עם ESA בלאון",
+    "title_he": "צפו בליקוי החמה המלא עם ESA בליאון",
     "summary_he": "גלו את המדע מאחורי אחת התופעות הכי יוצאות דופן של הטבע וחוו ליקוי חמה מוחלט עם סוכנות החלל האירופית (ESA), העיר לאון ואוניברסיטת לאון.",
-    "title_he_kids": "🚀 צפו בליקוי החמה המלא עם ESA בלאון ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! גלו את המדע מאחורי אחת התופעות הכי יוצאות דופן של הטבע וחוו ליקוי חמה מוחלט עם סוכנות החלל האירופית (ESA), העיר לאון ואוניברסיטת לאון. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_he_kids": "🚀 צפו בליקוי החמה המלא עם ESA בליאון ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! גלו את המדע מאחורי אחת התופעות הכי יוצאות דופן של הטבע וחוו ליקוי חמה מוחלט עם סוכנות החלל האירופית (ESA), העיר לאון ואוניברסיטת לאון. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Watch the total solar eclipse with ESA in León ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -28,16 +48,16 @@
     "summary_en": "More analysis is needed to ensure that tropical forest degeneration and regeneration&nbsp;are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project.The study analysed how t...",
     "image": "",
     "title_ru": "Необходимо улучшить отчетность о выбросах углекислого газа в лесах",
-    "summary_ru": "Согласно исследованию, частично финансируемому проектом ЕКА «Инициатива по изменению климата в области биомассы», необходим дополнительный анализ, чтобы гарантировать, что вырождение и восстановление тропических лесов последовательно отражается в моделях углеродного цикла и в национальной отчетности. В исследовании проанализировано, как...",
+    "summary_ru": "Согласно исследованию, частично финансируемому проектом ЕКА «Инициатива по изменению климата» по биомассе, необходим дополнительный анализ, чтобы гарантировать, что вырождение и восстановление тропических лесов последовательно отражается в моделях углеродного цикла и в национальной отчетности. В исследовании проанализировано, как...",
     "title_ru_kids": "🚀 Необходимо улучшить отчетность о выбросах углекислого газа в лесах ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Согласно исследованию, частично финансируемому проектом ЕКА «Инициатива по изменению климата в области биомассы», необходим дополнительный анализ, чтобы гарантировать, что вырождение и восстановление тропических лесов последовательно отражается в моделях углеродного цикла и в национальной отчетности. В исследовании проанализировано, как... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Согласно исследованию, частично финансируемому проектом ЕКА «Инициатива по изменению климата» по биомассе, необходим дополнительный анализ, чтобы гарантировать, что вырождение и восстановление тропических лесов последовательно отражается в моделях углеродного цикла и в национальной отчетности. В исследовании проанализировано, как... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "נדרש דיווח משופר על פליטת פחמן ביער",
     "summary_he": "יש צורך בניתוח נוסף כדי להבטיח שהתנוונות והתחדשות יער טרופי מדווחים באופן עקבי במודלים של מחזור פחמן ובדיווח לאומי, על פי מחקר שמומן בחלקו על ידי פרויקט Biomass של יוזמת שינויי האקלים של ESA. המחקר ניתח כיצד...",
     "title_he_kids": "🚀 נדרש דיווח משופר על פליטת פחמן ביער ✨",
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! יש צורך בניתוח נוסף כדי להבטיח שהתנוונות והתחדשות יער טרופי מדווחים באופן עקבי במודלים של מחזור פחמן ובדיווח לאומי, על פי מחקר שמומן בחלקו על ידי פרויקט Biomass של יוזמת שינויי האקלים של ESA. המחקר ניתח כיצד... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Improved reporting needed on forest carbon emissions ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! More analysis is needed to ensure that tropical forest degeneration and regeneration&nbsp;are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project.The study analysed how t... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "SpaceX",
@@ -57,7 +77,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הרכב הרובוטי המשימה של Northrop Grumman כולל את המטען הרובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches novel geosynchronous robotic servicing satellite on decade-long mission ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Northrop Grumman’s Mission Robotic Vehicle features the Robotic Servicing of Geosynchronous Satellites (RSGS) payload from the U.S. Naval Research Laboratory and DARPA. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a four-hour window that opens ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הרכב הרובוטי המשימה של Northrop Grumman כולל את המטען הרובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches novel geosynchronous robotic servicing satellite on decade-long mission ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Northrop Grumman’s Mission Robotic Vehicle features the Robotic Servicing of Geosynchronous Satellites (RSGS) payload from the U.S. Naval Research Laboratory and DARPA. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a four-hour window that opens ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "SpaceX",
@@ -97,7 +117,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from California a day after last-second abort ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from California a day after last-second abort ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tצייד כוכבי הלכת היבשתי של סוכנות החלל האירופית, אפלטון, השלים לאחרונה סדרה של בדיקות מפתח בתוך לשכת המבחן של מקסוול ב-ESTEC, והוכיחו שהציוד האלקטרוני שלה מתאים לעבודה בחלל. תמונה זו לוכדת את החללית עומדת בתוך... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Plato's electronics ready for space ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThe European Space Agency’s terrestrial planet hunter Plato&nbsp;has recently completed a series of key tests inside the Maxwell Test Chamber at ESTEC, demonstrating that its electronic equipment is fit to work in space.This photo captures the spacecraft standing ins... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "SpaceX",
@@ -148,16 +168,16 @@
     "summary_en": "The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC).",
     "image": "",
     "title_ru": "SpaceX потерпела редкую аварию при запуске ракеты Falcon 9 в последнюю секунду",
-    "summary_ru": "Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 UTC).",
+    "summary_ru": "Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 по всемирному координированному времени).",
     "title_ru_kids": "🚀 SpaceX потерпела редкую аварию при запуске ракеты Falcon 9 в последнюю секунду ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
     "title_he": "SpaceX חווה הפסקה נדירה של שיגור רקטות Falcon 9 בשנייה האחרונה",
     "summary_he": "משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC).",
     "title_he_kids": "🚀 SpaceX חווה הפסקה נדירה של שיגור רקטות Falcon 9 בשנייה האחרונה ✨",
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX suffers rare, last-second Falcon 9 rocket launch abort ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -168,16 +188,16 @@
     "summary_en": "The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC).",
     "image": "",
     "title_ru": "SpaceX потерпела редкую аварию при запуске ракеты Falcon 9 в последнюю секунду",
-    "summary_ru": "Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 UTC).",
+    "summary_ru": "Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 по всемирному координированному времени).",
     "title_ru_kids": "🚀 SpaceX потерпела редкую аварию при запуске ракеты Falcon 9 в последнюю секунду ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
     "title_he": "SpaceX חווה הפסקה נדירה של שיגור רקטות Falcon 9 בשנייה האחרונה",
     "summary_he": "משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC).",
     "title_he_kids": "🚀 SpaceX חווה הפסקה נדירה של שיגור רקטות Falcon 9 בשנייה האחרונה ✨",
     "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX suffers rare, last-second Falcon 9 rocket launch abort ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "ESA",
@@ -192,12 +212,12 @@
     "title_ru_kids": "🚀 Экипаж Артемиды II в ESTEC ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:19:14\n\t\t\t\tЧетверо астронавтов Артемиды II посетили ESTEC , технический центр ЕКА в Нидерландах, 13 июля, что стало первой остановкой в серии послеполетных визитов к европейским командам, которые сделали их миссию возможной. В этот день было посещение&nbsp... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "צוות ארטמיס II ב-ESTEC",
-    "summary_he": "וידאו: \n\t\t\t00:19:14\n\t\t\t\tארבעת האסטרונאוטים של ארטמיס II ביקרו ב-ESTEC, המרכז הטכני של ESA בהולנד, ב-13 ביולי כתחנה הראשונה בסדרה של ביקורים לאחר הטיסה בצוותים האירופיים שאיפשרו את משימתם. היום כלל ביקור ב-&nbsp...",
+    "summary_he": "סרטון: \n\t\t\t00:19:14\n\t\t\t\tארבעת האסטרונאוטים של ארטמיס II ביקרו ב-ESTEC, המרכז הטכני של ESA בהולנד, ב-13 ביולי כתחנה הראשונה בסדרה של ביקורים לאחר הטיסה בצוותים האירופיים שאיפשרו את משימתם. היום כלל ביקור ב-&nbsp...",
     "title_he_kids": "🚀 צוות ארטמיס II ב-ESTEC ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:19:14\n\t\t\t\tארבעת האסטרונאוטים של ארטמיס II ביקרו ב-ESTEC, המרכז הטכני של ESA בהולנד, ב-13 ביולי כתחנה הראשונה בסדרה של ביקורים לאחר הטיסה בצוותים האירופיים שאיפשרו את משימתם. היום כלל ביקור ב-&nbsp... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:19:14\n\t\t\t\tארבעת האסטרונאוטים של ארטמיס II ביקרו ב-ESTEC, המרכז הטכני של ESA בהולנד, ב-13 ביולי כתחנה הראשונה בסדרה של ביקורים לאחר הטיסה בצוותים האירופיים שאיפשרו את משימתם. היום כלל ביקור ב-&nbsp... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Artemis II crew at ESTEC ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:19:14\n\t\t\t\tThe four Artemis II astronauts&nbsp;visited ESTEC,&nbsp;ESA’s technical centre in the Netherlands, on 13 July as the first stop in a series of post-flight visits to the European teams that made their mission possible.The day included a visit to the&nbsp... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "ESA",
@@ -217,7 +237,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת Mars Express 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA’s Mars Express meets NASA’s Psyche ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tMars Express image 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "ESA",
@@ -237,7 +257,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 13-17 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 13-17 July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 13-17 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "ESA",
@@ -248,16 +268,16 @@
     "summary_en": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavári travels from our Sun out into the depths of space to u...",
     "image": "",
     "title_ru": "Серия подкастов Expedition Sound",
-    "summary_ru": "Expedition Sound — это серия подкастов Европейского космического агентства (ЕКА), в которых вам предлагается исследовать Вселенную своими ушами. Руководствуясь ультразвуковыми технологиями — переводом данных в звук — ведущий Жофи Салавари путешествует от нашего Солнца в глубины космоса, чтобы...",
+    "summary_ru": "Expedition Sound — это серия подкастов Европейского космического агентства (ЕКА), в которой вам предлагается исследовать Вселенную своими ушами. Руководствуясь ультразвуковыми технологиями – переводом данных в звук – ведущий Жофи Салавари путешествует от нашего Солнца в глубины космоса, чтобы...",
     "title_ru_kids": "🚀 Серия подкастов Expedition Sound ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Expedition Sound — это серия подкастов Европейского космического агентства (ЕКА), в которых вам предлагается исследовать Вселенную своими ушами. Руководствуясь ультразвуковыми технологиями — переводом данных в звук — ведущий Жофи Салавари путешествует от нашего Солнца в глубины космоса, чтобы... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Expedition Sound — это серия подкастов Европейского космического агентства (ЕКА), в которой вам предлагается исследовать Вселенную своими ушами. Руководствуясь ультразвуковыми технологиями – переводом данных в звук – ведущий Жофи Салавари путешествует от нашего Солнца в глубины космоса, чтобы... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
     "title_he": "סדרת הפודקאסטים של Expedition Sound",
-    "summary_he": "Expedition Sound היא סדרת פודקאסט של סוכנות החלל האירופית (ESA) שבה אתם מוזמנים לחקור את היקום דרך האוזניים. בהנחיית סוניפיקציות - תרגום נתונים לצליל - המארח זופי סלווארי נוסע מהשמש שלנו החוצה אל מעמקי החלל אל...",
+    "summary_he": "Expedition Sound היא סדרת פודקאסט של סוכנות החלל האירופית (ESA) שבה אתם מוזמנים לחקור את היקום דרך האוזניים. בהנחיית סוניפיקציות - תרגום נתונים לצליל - המארח Zsófi Szalavari נוסע מהשמש שלנו החוצה אל מעמקי החלל אל...",
     "title_he_kids": "🚀 סדרת הפודקאסטים של Expedition Sound ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Expedition Sound היא סדרת פודקאסט של סוכנות החלל האירופית (ESA) שבה אתם מוזמנים לחקור את היקום דרך האוזניים. בהנחיית סוניפיקציות - תרגום נתונים לצליל - המארח זופי סלווארי נוסע מהשמש שלנו החוצה אל מעמקי החלל אל... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Expedition Sound היא סדרת פודקאסט של סוכנות החלל האירופית (ESA) שבה אתם מוזמנים לחקור את היקום דרך האוזניים. בהנחיית סוניפיקציות - תרגום נתונים לצליל - המארח Zsófi Szalavari נוסע מהשמש שלנו החוצה אל מעמקי החלל אל... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Expedition Sound podcast series ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavári travels from our Sun out into the depths of space to u... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 13
+    "id": 14
   },
   {
     "source": "Spaceflight Now",
@@ -271,13 +291,13 @@
     "summary_ru": "Миссия также проверит ряд улучшений пусковой установки, которые помогут приблизить ее к полной возможности повторного использования. Взлет с площадки 2 на базе Старбаза, штат Техас, был прерван при зажигании из-за неисправности двигателя.",
     "title_ru_kids": "🚀 Аномалия после возгорания привела к остановке полета 13 космического корабля SpaceX ✨",
     "summary_ru_kids": "🌟 Смотри, что произошло! Миссия также проверит ряд улучшений пусковой установки, которые помогут приблизить ее к полной возможности повторного использования. Взлет с площадки 2 на базе Старбаза, штат Техас, был прерван при зажигании из-за неисправности двигателя. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "אנומליה שלאחר הצתה גורמת להפסקת טיסת הספינה 13 של SpaceX",
+    "title_he": "אנומליה שלאחר הצתה גורמת להפסקת טיסת ספינת הכוכבים 13 של SpaceX",
     "summary_he": "המשימה גם תבחן סדרה של שיפורים במשגר כדי לעזור לדחוף אותו קרוב יותר לשימוש חוזר מלא. ההרמה מרפידה 2 בסטארבייס, טקסס, הופסקה בעת ההצתה עקב בעיה הקשורה למנוע.",
-    "title_he_kids": "🚀 אנומליה שלאחר הצתה גורמת להפסקת טיסת הספינה 13 של SpaceX ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! המשימה גם תבחן סדרה של שיפורים במשגר כדי לעזור לדחוף אותו קרוב יותר לשימוש חוזר מלא. ההרמה מרפידה 2 בסטארבייס, טקסס, הופסקה בעת ההצתה עקב בעיה הקשורה למנוע. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_he_kids": "🚀 אנומליה שלאחר הצתה גורמת להפסקת טיסת ספינת הכוכבים 13 של SpaceX ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! המשימה גם תבחן סדרה של שיפורים במשגר כדי לעזור לדחוף אותו קרוב יותר לשימוש חוזר מלא. ההרמה מרפידה 2 בסטארבייס, טקסס, הופסקה בעת ההצתה עקב בעיה הקשורה למנוע. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Post-ignition anomaly causes abort of SpaceX’s Starship Flight 13 ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission will also test out a series of improvements to the launcher to help push it closer to full reusability. Liftoff from pad 2 at Starbase, Texas, was aborted at ignition due to an engine-related issue. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 14
+    "id": 15
   },
   {
     "source": "SpaceX",
@@ -292,12 +312,12 @@
     "title_ru_kids": "🚀 SpaceX запустила 21 спутник связи для Агентства космического развития ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Tranche 1 Transporter Layer E (T1TL-E) стала третьей партией действующих спутников, запущенных для поддержки группировки спутников SDA Proliferated Warfighter Space Architecture. Старт с площадки 4E на базе космических сил Ванденберг произошел в 13:32. тихоокеанское время (4:32... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
     "title_he": "SpaceX משגרת 21 לווייני תקשורת עבור הסוכנות לפיתוח החלל",
-    "summary_he": "משימת ה-Tranche 1 Transporter Layer E (T1TL-E) הייתה המערך השלישי של לוויינים מבצעיים ששוגרו כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32...",
+    "summary_he": "משימת Tranche 1 Transporter Layer E (T1TL-E) הייתה האצווה השלישית של לוויינים מבצעיים ששוגרה כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32...",
     "title_he_kids": "🚀 SpaceX משגרת 21 לווייני תקשורת עבור הסוכנות לפיתוח החלל ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת ה-Tranche 1 Transporter Layer E (T1TL-E) הייתה המערך השלישי של לוויינים מבצעיים ששוגרו כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Tranche 1 Transporter Layer E (T1TL-E) הייתה האצווה השלישית של לוויינים מבצעיים ששוגרה כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 21 communications satellites for the Space Development Agency ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Tranche 1 Transporter Layer E (T1TL-E) mission was the third batch of operational satellites launched to support the SDA’s Proliferated Warfighter Space Architecture satellite constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 1:32 p.m. PDT (4:32... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 15
+    "id": 16
   },
   {
     "source": "Spaceflight Now",
@@ -312,12 +332,12 @@
     "title_ru_kids": "🚀 SpaceX запустила 21 спутник связи для Агентства космического развития ✨",
     "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Миссия Tranche 1 Transporter Layer E (T1TL-E) стала третьей партией действующих спутников, запущенных для поддержки группировки спутников SDA Proliferated Warfighter Space Architecture. Старт с площадки 4E на базе космических сил Ванденберг произошел в 13:32. тихоокеанское время (4:32... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
     "title_he": "SpaceX משגרת 21 לווייני תקשורת עבור הסוכנות לפיתוח החלל",
-    "summary_he": "משימת ה-Tranche 1 Transporter Layer E (T1TL-E) הייתה המערך השלישי של לוויינים מבצעיים ששוגרו כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32...",
+    "summary_he": "משימת Tranche 1 Transporter Layer E (T1TL-E) הייתה האצווה השלישית של לוויינים מבצעיים ששוגרה כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32...",
     "title_he_kids": "🚀 SpaceX משגרת 21 לווייני תקשורת עבור הסוכנות לפיתוח החלל ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! משימת ה-Tranche 1 Transporter Layer E (T1TL-E) הייתה המערך השלישי של לוויינים מבצעיים ששוגרו כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "🌟 תראו מה קרה! משימת Tranche 1 Transporter Layer E (T1TL-E) הייתה האצווה השלישית של לוויינים מבצעיים ששוגרה כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 21 communications satellites for the Space Development Agency ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Tranche 1 Transporter Layer E (T1TL-E) mission was the third batch of operational satellites launched to support the SDA’s Proliferated Warfighter Space Architecture satellite constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 1:32 p.m. PDT (4:32... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 16
+    "id": 17
   },
   {
     "source": "SpaceX",
@@ -337,7 +357,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-45 הוסיפה עוד 29 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ של SpaceX. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 5:10 בבוקר EDT (0910 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches a flight-proven Falcon booster for 600th time ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-45 mission added another 29 broadband internet satellites to SpaceX’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 5:10 a.m. EDT (0910 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 17
+    "id": 18
   },
   {
     "source": "Spaceflight Now",
@@ -357,7 +377,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 10-45 הוסיפה עוד 29 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ של SpaceX. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 5:10 בבוקר EDT (0910 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches a flight-proven Falcon booster for 600th time ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 10-45 mission added another 29 broadband internet satellites to SpaceX’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 5:10 a.m. EDT (0910 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 18
+    "id": 19
   },
   {
     "source": "SpaceX",
@@ -377,7 +397,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 15-14 תוסיף עוד 27 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 18:28:17. PDT (9:28:17 pm EDT / 0128:17 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 27 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 15-14 mission will add another 27 broadband internet satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:28:17 p.m. PDT (9:28:17 p.m. EDT / 0128:17 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 19
+    "id": 20
   },
   {
     "source": "Spaceflight Now",
@@ -397,7 +417,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 15-14 תוסיף עוד 27 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 18:28:17. PDT (9:28:17 pm EDT / 0128:17 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 27 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 15-14 mission will add another 27 broadband internet satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:28:17 p.m. PDT (9:28:17 p.m. EDT / 0128:17 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 20
+    "id": 21
   },
   {
     "source": "SpaceX",
@@ -407,36 +427,16 @@
     "title_en": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
     "summary_en": "The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC).",
     "image": "",
-    "title_ru": "SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с космодрома Ванденберг",
+    "title_ru": "SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с базы Ванденберг SFB",
     "summary_ru": "Миссия Starlink 17-48 добавила в низкоорбитальную группировку еще 24 спутника. Старт с площадки 4E на базе космических сил Ванденберг произошел в 20:01. Тихоокеанское время (23:01 по восточному времени / 03:01 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с космодрома Ванденберг ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 17-48 добавила в низкоорбитальную группировку еще 24 спутника. Старт с площадки 4E на базе космических сил Ванденберг произошел в 20:01. Тихоокеанское время (23:01 по восточному времени / 03:01 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "title_ru_kids": "🚀 SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с базы Ванденберг SFB ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 17-48 добавила в низкоорбитальную группировку еще 24 спутника. Старт с площадки 4E на базе космических сил Ванденберг произошел в 20:01. Тихоокеанское время (23:01 по восточному времени / 03:01 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "SpaceX משגרת 24 לווייני Starlink על רקטת Falcon 9 מ-Vandenberg SFB",
     "summary_he": "משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC).",
     "title_he_kids": "🚀 SpaceX משגרת 24 לווייני Starlink על רקטת Falcon 9 מ-Vandenberg SFB ✨",
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 21
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-07-10T20:59:39",
-    "date_display": "Fri, 10 Jul 2026 20:59:39 +0000",
-    "link": "https://spaceflightnow.com/2026/07/10/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-10/",
-    "title_en": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
-    "summary_en": "The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC).",
-    "image": "",
-    "title_ru": "SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с космодрома Ванденберг",
-    "summary_ru": "Миссия Starlink 17-48 добавила в низкоорбитальную группировку еще 24 спутника. Старт с площадки 4E на базе космических сил Ванденберг произошел в 20:01. Тихоокеанское время (23:01 по восточному времени / 03:01 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 SpaceX запустила 24 спутника Starlink на ракете Falcon 9 с космодрома Ванденберг ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Миссия Starlink 17-48 добавила в низкоорбитальную группировку еще 24 спутника. Старт с площадки 4E на базе космических сил Ванденберг произошел в 20:01. Тихоокеанское время (23:01 по восточному времени / 03:01 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
-    "title_he": "SpaceX משגרת 24 לווייני Starlink על רקטת Falcon 9 מ-Vandenberg SFB",
-    "summary_he": "משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC).",
-    "title_he_kids": "🚀 SpaceX משגרת 24 לווייני Starlink על רקטת Falcon 9 מ-Vandenberg SFB ✨",
-    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-48 הוסיפה עוד 24 לוויינים לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 20:01. PDT (23:01 בצהריים EDT / 0301 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
-    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-48 mission added another 24 satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:01 p.m. PDT (11:01 p.m. EDT / 0301 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
     "id": 22
   },
   {
