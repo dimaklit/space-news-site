@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-07-28T14:04:00",
+    "date_display": "Tue, 28 Jul 2026 14:04:00 +0200",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/How_Sentinel-1_measured_movement_of_Venezuela_quakes",
+    "title_en": "How Sentinel-1 measured movement of Venezuela quakes",
+    "summary_en": "More than one month on from the catastrophic twin earthquakes in northern Venezuela on 24 June 2026, satellite data show the ground displacement was greater than first estimated.",
+    "image": "",
+    "title_ru": "Как Sentinel-1 измерял движение землетрясений в Венесуэле",
+    "summary_ru": "Спутниковые данные показывают, что спустя более месяца после катастрофических двойных землетрясений на севере Венесуэлы 24 июня 2026 года смещение земли оказалось больше, чем предполагалось изначально.",
+    "title_ru_kids": "🚀 Как Sentinel-1 измерял движение землетрясений в Венесуэле ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Спутниковые данные показывают, что спустя более месяца после катастрофических двойных землетрясений на севере Венесуэлы 24 июня 2026 года смещение земли оказалось больше, чем предполагалось изначально. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
+    "title_he": "כיצד Sentinel-1 מדד תנועה של רעידות בוונצואלה",
+    "summary_he": "יותר מחודש לאחר רעידות האדמה התאומות הקטסטרופליות בצפון ונצואלה ב-24 ביוני 2026, נתוני לוויין מראים שהתזוזת הקרקע הייתה גדולה מההערכה הראשונה.",
+    "title_he_kids": "🚀 כיצד Sentinel-1 מדד תנועה של רעידות בוונצואלה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! יותר מחודש לאחר רעידות האדמה התאומות הקטסטרופליות בצפון ונצואלה ב-24 ביוני 2026, נתוני לוויין מראים שהתזוזת הקרקע הייתה גדולה מההערכה הראשונה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 How Sentinel-1 measured movement of Venezuela quakes ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! More than one month on from the catastrophic twin earthquakes in northern Venezuela on 24 June 2026, satellite data show the ground displacement was greater than first estimated. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-07-28T09:00:00",
     "date_display": "Tue, 28 Jul 2026 09:00:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Vertical_liftoff_as_Ariane_6_takes_flight_for_the_first_time",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tהמראה אנכי כאשר אריאן 6 יוצאת לטיסה בפעם הראשונה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Vertical liftoff as Ariane 6 takes flight for the first time ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tVertical liftoff as Ariane 6 takes flight for the first time 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tשריפות יער משתוללות ליד מדריד, ספרד 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Raging wildfires near Madrid, Spain ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tRaging wildfires near Madrid, Spain 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חברות סטארט-אפ שהמציאו רעיונות מבריקים לשימוש בחלל יצטרפו לאירוע של סוכנות החלל האירופית (ESA) Industry Days Space (ISD) ב-16-17 בספטמבר ב-ESA-ESTEC בהולנד. במשך יומיים תעשיית החלל של אירופה תחליף רעיונות, תציג את היכולות... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Meet space startups at ESA’s Industry Space Days ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Startup companies which have come up with brilliant ideas for using space will join the European Space Agency’s (ESA) Industry Space Days (ISD) event on 16–17 September at ESA-ESTEC in the Netherlands.Over two days Europe’s space industry will exchange ideas, showcase capabili... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "SpaceX",
@@ -77,7 +97,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההרמה מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 8:51 בבוקר PDT (11:51 בבוקר EDT / 1551 UTC). הפלקון 9 הציב 24 לווייני Starlink למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches Starlink satellites from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff from Vandenberg Space Force Base in California occurred at 8:51 a.m. PDT (11:51 a.m. EDT / 1551 UTC). The Falcon 9 placed 24 Starlink satellites into orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! ההרמה מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 8:51 בבוקר PDT (11:51 בבוקר EDT / 1551 UTC). הפלקון 9 הציב 24 לווייני Starlink למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches Starlink satellites from West Coast ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff from Vandenberg Space Force Base in California occurred at 8:51 a.m. PDT (11:51 a.m. EDT / 1551 UTC). The Falcon 9 placed 24 Starlink satellites into orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מונעת על ידי 33 מנועי רפטור מונעי מתאן, הרקטה הדו-שלבית בגובה 407 רגל התפוצצה מאתר השיגור של SpaceX \"Starbase\", טקסס, בשעה 17:51. EDT, מציגה מופע מרהיב לתושבי האזור ולתיירים כשהיא טיפסה משם על גבי כ-16 מיליון פאונד של דחף. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Super Heavy-Starship rocket chalks up mostly successful test flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Powered by 33 methane-fueled Raptor engines, the 407-foot-tall two-stage rocket blasted off from SpaceX's \"Starbase,\" Texas, launch site at 5:51 p.m. EDT, putting on a spectacular show for area residents and tourists as it climbed away atop some 16 million pounds of thrust. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +157,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מתחם תקשורת החלל העמוק של מדריד הוא אחד משלושה אתרים קריטיים ברחבי העולם המתקשרים עם חלליות מעבר להישג ידן של יכולות תקשורת קרוב לכדור הארץ. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Critical NASA Deep Space ground station in Spain evacuated due to wildfires ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Madrid Deep Space Communications Complex is one of three critical sites around the world that communicate with spacecraft beyond the reach of near-Earth communications capabilities. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:07:07\n\t\t\t\tלפני יותר מ-2500 שנה, ליקוי חמה מוחלט סיים את המלחמה בין הלידים והמדים. כיום, אנו מבינים את המדע שמאחורי ליקוי חמה, אך עדות כזו היא עדיין אחת החוויות המעוררות יראת כבוד על פני כדור הארץ. בסרטון זה... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Why total solar eclipses are so special ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:07:07\n\t\t\t\tMore than 2500 years ago, a total solar eclipse is said to have ended a war between the Lydians and the Medes. Today, we understand the science behind eclipses, but witnessing one is still one of the most awe-inspiring experiences on Earth.In this video... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שני לוויינים חדשים הצטרפו כעת באופן רשמי לקונסטלציית הניווט הלווינית גלילאו של אירופה, ומחזקים את היכולות, החוסן והאוטונומיה שלה. נותרו לשגר ארבעה לוויינים מהדור הראשון של גלילאו, כאשר הזוג הבא מתוכנן לסוף השנה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Two new Galileo satellites enter service ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Two new satellites have now officially joined Europe’s Galileo satellite navigation constellation, strengthening its capabilities, resilience and autonomy. Four Galileo First Generation satellites remain to be launched, with the next pair planned for the end of the year. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -197,7 +217,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הטיסה נדחתה ביום נוסף מכיוון שהסופה הטרופית ברטה צפויה להגיע לנחיתה בטקסס ביום חמישי. ההמראה של משימת טיסת ספינת הכוכבים 13 מתוכננת במהלך חלון של 90 דקות שייפתח ביום שישי, 24 ביולי, בשעה 17:45. CDT (6:45 אחר הצהריים EDT / 2245 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Launch preview: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The flight was delayed another day as Tropical Storm Bertha was expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens on Friday, July 24, at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "ESA",
@@ -217,26 +237,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! גלו את המדע מאחורי אחת התופעות הכי יוצאות דופן של הטבע וחוו ליקוי חמה מוחלט עם סוכנות החלל האירופית (ESA), העיר לאון ואוניברסיטת לאון. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Watch the total solar eclipse with ESA in León ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-22T15:00:00",
-    "date_display": "Wed, 22 Jul 2026 15:00:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Improved_reporting_needed_on_forest_carbon_emissions",
-    "title_en": "Improved reporting needed on forest carbon emissions",
-    "summary_en": "More analysis is needed to ensure that tropical forest degeneration and regeneration&nbsp;are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project.The study analysed how t...",
-    "image": "",
-    "title_ru": "Необходимо улучшить отчетность о выбросах углекислого газа в лесах",
-    "summary_ru": "Согласно исследованию, частично финансируемому проектом ЕКА «Инициатива по изменению климата» по биомассе, необходим дополнительный анализ, чтобы гарантировать, что вырождение и восстановление тропических лесов последовательно отражается в моделях углеродного цикла и в национальной отчетности. В исследовании проанализировано, как...",
-    "title_ru_kids": "🚀 Необходимо улучшить отчетность о выбросах углекислого газа в лесах ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Согласно исследованию, частично финансируемому проектом ЕКА «Инициатива по изменению климата» по биомассе, необходим дополнительный анализ, чтобы гарантировать, что вырождение и восстановление тропических лесов последовательно отражается в моделях углеродного цикла и в национальной отчетности. В исследовании проанализировано, как... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "נדרש דיווח משופר על פליטת פחמן ביער",
-    "summary_he": "יש צורך בניתוח נוסף כדי להבטיח שהתנוונות והתחדשות יער טרופי מדווחים באופן עקבי במודלים של מחזור פחמן ובדיווח לאומי, על פי מחקר שמומן בחלקו על ידי פרויקט Biomass של יוזמת שינויי האקלים של ESA. המחקר ניתח כיצד...",
-    "title_he_kids": "🚀 נדרש דיווח משופר על פליטת פחמן ביער ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! יש צורך בניתוח נוסף כדי להבטיח שהתנוונות והתחדשות יער טרופי מדווחים באופן עקבי במודלים של מחזור פחמן ובדיווח לאומי, על פי מחקר שמומן בחלקו על ידי פרויקט Biomass של יוזמת שינויי האקלים של ESA. המחקר ניתח כיצד... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Improved reporting needed on forest carbon emissions ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! More analysis is needed to ensure that tropical forest degeneration and regeneration&nbsp;are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project.The study analysed how t... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 12
   },
   {
