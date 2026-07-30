@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 7A | Unknown Payload",
-    "window_start": "2026-07-29T11:42:00Z",
-    "rocket": "Long March 7A",
-    "pad": "201",
-    "location": "Wenchang Space Launch Site, People's Republic of China"
-  },
-  {
     "name_en": "Long March 6A | Unknown Payload",
     "window_start": "2026-07-30T00:52:00Z",
     "rocket": "Long March 6A",
@@ -32,6 +25,13 @@
     "window_start": "2026-07-31T00:00:00Z",
     "rocket": "Electron",
     "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
+    "window_start": "2026-07-31T00:00:00Z",
+    "rocket": "Electron",
+    "pad": "Rocket Lab Launch Complex 1A",
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
   }
 ]
