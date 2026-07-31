@@ -1,5 +1,45 @@
 [
   {
+    "source": "SpaceX",
+    "date_parsed": "2026-07-31T18:07:54",
+    "date_display": "Fri, 31 Jul 2026 18:07:54 +0000",
+    "link": "https://spaceflightnow.com/2026/07/31/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-12/",
+    "title_en": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
+    "summary_en": "The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:59 p.m. PDT (10:59 p.m. EDT / 0259 UTC).",
+    "image": "",
+    "title_ru": "Прямая трансляция: SpaceX запустит 24 спутника Starlink на ракете Falcon 9 с базы Ванденберг SFB",
+    "summary_ru": "Миссия Starlink 17-52 на данный момент является 90-м орбитальным запуском SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 19:59. Тихоокеанское время (22:59 по восточному времени / 02:59 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит 24 спутника Starlink на ракете Falcon 9 с базы Ванденберг SFB ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 17-52 на данный момент является 90-м орбитальным запуском SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 19:59. Тихоокеанское время (22:59 по восточному времени / 02:59 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "title_he": "סיקור חי: SpaceX תשגר 24 לווייני Starlink על רקטת פלקון 9 מ-Vandenberg SFB",
+    "summary_he": "משימת Starlink 17-52 היא השיגור המסלולי ה-90 של SpaceX של השנה עד כה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 19:59. PDT (22:59 EDT / 0259 UTC).",
+    "title_he_kids": "🚀 סיקור חי: SpaceX תשגר 24 לווייני Starlink על רקטת פלקון 9 מ-Vandenberg SFB ✨",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-52 היא השיגור המסלולי ה-90 של SpaceX של השנה עד כה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 19:59. PDT (22:59 EDT / 0259 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
+    "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:59 p.m. PDT (10:59 p.m. EDT / 0259 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
+    "source": "Spaceflight Now",
+    "date_parsed": "2026-07-31T18:07:54",
+    "date_display": "Fri, 31 Jul 2026 18:07:54 +0000",
+    "link": "https://spaceflightnow.com/2026/07/31/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-12/",
+    "title_en": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
+    "summary_en": "The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:59 p.m. PDT (10:59 p.m. EDT / 0259 UTC).",
+    "image": "",
+    "title_ru": "Прямая трансляция: SpaceX запустит 24 спутника Starlink на ракете Falcon 9 с базы Ванденберг SFB",
+    "summary_ru": "Миссия Starlink 17-52 на данный момент является 90-м орбитальным запуском SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 19:59. Тихоокеанское время (22:59 по восточному времени / 02:59 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит 24 спутника Starlink на ракете Falcon 9 с базы Ванденберг SFB ✨",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Миссия Starlink 17-52 на данный момент является 90-м орбитальным запуском SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 19:59. Тихоокеанское время (22:59 по восточному времени / 02:59 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "title_he": "סיקור חי: SpaceX תשגר 24 לווייני Starlink על רקטת פלקון 9 מ-Vandenberg SFB",
+    "summary_he": "משימת Starlink 17-52 היא השיגור המסלולי ה-90 של SpaceX של השנה עד כה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 19:59. PDT (22:59 EDT / 0259 UTC).",
+    "title_he_kids": "🚀 סיקור חי: SpaceX תשגר 24 לווייני Starlink על רקטת פלקון 9 מ-Vandenberg SFB ✨",
+    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-52 היא השיגור המסלולי ה-90 של SpaceX של השנה עד כה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 19:59. PDT (22:59 EDT / 0259 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
+    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:59 p.m. PDT (10:59 p.m. EDT / 0259 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
+    "id": 2
+  },
+  {
     "source": "ESA",
     "date_parsed": "2026-07-31T16:00:00",
     "date_display": "Fri, 31 Jul 2026 16:00:00 +0200",
@@ -12,12 +52,12 @@
     "title_ru_kids": "🚀 Как безопасно наблюдать солнечное затмение ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:01:34\n\t\t\t\t[Русский]: Солнечное затмение — незабываемое зрелище, но только если смотреть его безопасно! Астронавт запаса ЕКА Сара Гарсиа Алонсо покажет вам, как наслаждаться этим невероятным космическим событием, используя сертифицированные очки для наблюдения за затмением, и объяснит, почему обычные солнцезащитные очки не подходят... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "כיצד לצפות בבטחה בליקוי חמה",
-    "summary_he": "וידאו: \n\t\t\t00:01:34\n\t\t\t\t[אנגלית]: ליקוי חמה הוא מראה בלתי נשכח, אבל רק אם תצפו בו בבטחה! אסטרונאוטית מילואים של ESA שרה גרסיה אלונסו מראה לכם איך ליהנות מהאירוע הקוסמי המדהים הזה באמצעות משקפי ליקוי מאושרים ומסבירה מדוע משקפי שמש רגילים אינם...",
+    "summary_he": "וידאו: \n\t\t\t00:01:34\n\t\t\t\t[אנגלית]: ליקוי חמה הוא מראה בלתי נשכח, אבל רק אם אתה צופה בו בבטחה! אסטרונאוטית מילואים של ESA שרה גרסיה אלונסו מראה לך איך ליהנות מהאירוע הקוסמי המדהים הזה באמצעות משקפי ליקוי מאושרים ומסבירה מדוע משקפי שמש רגילים הם לא...",
     "title_he_kids": "🚀 כיצד לצפות בבטחה בליקוי חמה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:34\n\t\t\t\t[אנגלית]: ליקוי חמה הוא מראה בלתי נשכח, אבל רק אם תצפו בו בבטחה! אסטרונאוטית מילואים של ESA שרה גרסיה אלונסו מראה לכם איך ליהנות מהאירוע הקוסמי המדהים הזה באמצעות משקפי ליקוי מאושרים ומסבירה מדוע משקפי שמש רגילים אינם... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:34\n\t\t\t\t[אנגלית]: ליקוי חמה הוא מראה בלתי נשכח, אבל רק אם אתה צופה בו בבטחה! אסטרונאוטית מילואים של ESA שרה גרסיה אלונסו מראה לך איך ליהנות מהאירוע הקוסמי המדהים הזה באמצעות משקפי ליקוי מאושרים ומסבירה מדוע משקפי שמש רגילים הם לא... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 How to safely watch a solar eclipse ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:01:34\n\t\t\t\t[English]: A solar eclipse is an unforgettable sight, but only if you watch it safely!ESA reserve astronaut Sara García Alonso shows you how to enjoy this incredible cosmic event using certified eclipse glasses and explains why ordinary sunglasses are n... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 3
   },
   {
     "source": "ESA",
@@ -37,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 27-31 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 27-31 July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 27-31 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 4
   },
   {
     "source": "ESA",
@@ -52,12 +92,12 @@
     "title_ru_kids": "🚀 В этом месяце в ЕКА: июль 2026 г. ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:03:06\n\t\t\t\tЧто космос приготовил Европе в июле этого года? Экипаж «Артемиды II» посетил технический центр ЕКА в Нидерландах, чтобы встретиться с командой европейского сервисного модуля «Орион», отметив сотрудничество, которое послужило основой их путешествия вокруг Луны. Между тем... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "החודש ב-ESA: יולי 2026",
-    "summary_he": "וידאו: \n\t\t\t00:03:06\n\t\t\t\tמה תכנן החלל לאירופה ביולי הקרוב? הצוות של Artemis II ביקר במרכז הטכני של ESA בהולנד כדי לפגוש את הצוות שמאחורי מודול השירות האירופאי של אוריון, וחוגג את שיתוף הפעולה שהניע את הטיול שלהם סביב הירח. בינתיים...",
+    "summary_he": "וידאו: \n\t\t\t00:03:06\n\t\t\t\tמה תכנן החלל לאירופה ביולי הקרוב? הצוות של ארטמיס II ביקר במרכז הטכני של ESA בהולנד כדי לפגוש את הצוות מאחורי מודול השירות האירופאי של אוריון, וחוגג את שיתוף הפעולה שהניע את הטיול שלהם סביב הירח. בינתיים...",
     "title_he_kids": "🚀 החודש ב-ESA: יולי 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:06\n\t\t\t\tמה תכנן החלל לאירופה ביולי הקרוב? הצוות של Artemis II ביקר במרכז הטכני של ESA בהולנד כדי לפגוש את הצוות שמאחורי מודול השירות האירופאי של אוריון, וחוגג את שיתוף הפעולה שהניע את הטיול שלהם סביב הירח. בינתיים... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:06\n\t\t\t\tמה תכנן החלל לאירופה ביולי הקרוב? הצוות של ארטמיס II ביקר במרכז הטכני של ESA בהולנד כדי לפגוש את הצוות מאחורי מודול השירות האירופאי של אוריון, וחוגג את שיתוף הפעולה שהניע את הטיול שלהם סביב הירח. בינתיים... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 This Month at ESA: July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:06\n\t\t\t\tWhat did space have in store for Europe this July?The Artemis II crew visited ESA’s technical center in the Netherlands to meet the team behind Orion’s European Service Module, celebrating the colaboration that powered their trip around the Moon. Meanwh... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 5
   },
   {
     "source": "ESA",
@@ -77,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! משימת ה- HydroGNSS Scout דו-לוויינית של סוכנות החלל האירופית הסתיימה את ההפעלה והיא נמצאת כעת בפעילות מדעית מלאה. לאחר בדיקות ואימות מקיף של הלוויינים, המכשירים וקטע הקרקע, נתוני HydroGNSS זמינים כעת באופן חופשי למשתמשים... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 HydroGNSS data open for new insights into Earth’s water  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.Following extensive testing and validation of the satellites, instruments and ground segment, HydroGNSS data are now freely available to users... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 6
   },
   {
     "source": "ESA",
@@ -88,16 +128,16 @@
     "summary_en": "Image:\n\t\t\tThis colourful radar image captured by the Copernicus Sentinel-1 mission features New Orleans and the delta of the Mississippi River, one the largest rivers in North America.",
     "image": "",
     "title_ru": "Земля из космоса: Новый Орлеан и могучая Миссисипи",
-    "summary_ru": "Изображение:\n\t\t\tНа этом красочном радиолокационном изображении, полученном миссией Copernicus Sentinel-1, изображен Новый Орлеан и дельта реки Миссисипи, одной из крупнейших рек Северной Америки.",
+    "summary_ru": "Изображение:\n\t\t\tНа этом красочном радиолокационном изображении, полученном миссией Copernicus Sentinel-1, изображен Новый Орлеан и дельта реки Миссисипи, одной из крупнейших рек в Северной Америке.",
     "title_ru_kids": "🚀 Земля из космоса: Новый Орлеан и могучая Миссисипи ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tНа этом красочном радиолокационном изображении, полученном миссией Copernicus Sentinel-1, изображен Новый Орлеан и дельта реки Миссисипи, одной из крупнейших рек Северной Америки. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tНа этом красочном радиолокационном изображении, полученном миссией Copernicus Sentinel-1, изображен Новый Орлеан и дельта реки Миссисипи, одной из крупнейших рек в Северной Америке. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
     "title_he": "כדור הארץ מהחלל: ניו אורלינס והמיסיסיפי האדירה",
     "summary_he": "תמונה:\n\t\t\tתמונת מכ\"ם צבעונית זו שצולמה במשימת Copernicus Sentinel-1 מציגה את ניו אורלינס ואת הדלתא של נהר המיסיסיפי, אחד הנהרות הגדולים בצפון אמריקה.",
     "title_he_kids": "🚀 כדור הארץ מהחלל: ניו אורלינס והמיסיסיפי האדירה ✨",
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת מכ\"ם צבעונית זו שצולמה במשימת Copernicus Sentinel-1 מציגה את ניו אורלינס ואת הדלתא של נהר המיסיסיפי, אחד הנהרות הגדולים בצפון אמריקה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: New Orleans and the mighty Mississippi ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis colourful radar image captured by the Copernicus Sentinel-1 mission features New Orleans and the delta of the Mississippi River, one the largest rivers in North America. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 7
   },
   {
     "source": "ESA",
@@ -117,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Major rehearsal takes Themis one step closer to flight ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 8
   },
   {
     "source": "SpaceX",
@@ -128,16 +168,16 @@
     "summary_en": "The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC).",
     "image": "",
     "title_ru": "SpaceX запустила секретную полезную нагрузку для Национального разведывательного управления",
-    "summary_ru": "Миссия NROL-95 стала третьей полезной нагрузкой Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC).",
+    "summary_ru": "Миссия NROL-95 стала третьей полезной нагрузкой для Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC).",
     "title_ru_kids": "🚀 SpaceX запустила секретную полезную нагрузку для Национального разведывательного управления ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия NROL-95 стала третьей полезной нагрузкой Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия NROL-95 стала третьей полезной нагрузкой для Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "SpaceX משיקה מטען מסווג עבור משרד הסיור הלאומי",
     "summary_he": "משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC).",
     "title_he_kids": "🚀 SpaceX משיקה מטען מסווג עבור משרד הסיור הלאומי ✨",
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches classified payload for National Reconnaissance Office ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -148,16 +188,16 @@
     "summary_en": "The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC).",
     "image": "",
     "title_ru": "SpaceX запустила секретную полезную нагрузку для Национального разведывательного управления",
-    "summary_ru": "Миссия NROL-95 стала третьей полезной нагрузкой Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC).",
+    "summary_ru": "Миссия NROL-95 стала третьей полезной нагрузкой для Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC).",
     "title_ru_kids": "🚀 SpaceX запустила секретную полезную нагрузку для Национального разведывательного управления ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Миссия NROL-95 стала третьей полезной нагрузкой Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Миссия NROL-95 стала третьей полезной нагрузкой для Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "SpaceX משיקה מטען מסווג עבור משרד הסיור הלאומי",
     "summary_he": "משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC).",
     "title_he_kids": "🚀 SpaceX משיקה מטען מסווג עבור משרד הסיור הלאומי ✨",
     "summary_he_kids": "🌟 תראו מה קרה! משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches classified payload for National Reconnaissance Office ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 10
   },
   {
     "source": "SpaceX",
@@ -177,7 +217,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההרמה מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 8:51 בבוקר PDT (11:51 בבוקר EDT / 1551 UTC). הפלקון 9 הציב 24 לווייני Starlink למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches Starlink satellites from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff from Vandenberg Space Force Base in California occurred at 8:51 a.m. PDT (11:51 a.m. EDT / 1551 UTC). The Falcon 9 placed 24 Starlink satellites into orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 9
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -197,7 +237,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! ההרמה מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 8:51 בבוקר PDT (11:51 בבוקר EDT / 1551 UTC). הפלקון 9 הציב 24 לווייני Starlink למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches Starlink satellites from West Coast ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff from Vandenberg Space Force Base in California occurred at 8:51 a.m. PDT (11:51 a.m. EDT / 1551 UTC). The Falcon 9 placed 24 Starlink satellites into orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 10
+    "id": 12
   },
   {
     "source": "Spaceflight Now",
@@ -217,7 +257,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מונעת על ידי 33 מנועי רפטור מונעי מתאן, הרקטה הדו-שלבית בגובה 407 רגל התפוצצה מאתר השיגור של SpaceX \"Starbase\", טקסס, בשעה 17:51. EDT, מציגה מופע מרהיב לתושבי האזור ולתיירים כשהיא טיפסה משם על גבי כ-16 מיליון פאונד של דחף. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Super Heavy-Starship rocket chalks up mostly successful test flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Powered by 33 methane-fueled Raptor engines, the 407-foot-tall two-stage rocket blasted off from SpaceX's \"Starbase,\" Texas, launch site at 5:51 p.m. EDT, putting on a spectacular show for area residents and tourists as it climbed away atop some 16 million pounds of thrust. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 13
   },
   {
     "source": "Spaceflight Now",
@@ -237,7 +277,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מתחם תקשורת החלל העמוק של מדריד הוא אחד משלושה אתרים קריטיים ברחבי העולם המתקשרים עם חלליות מעבר להישג ידן של יכולות תקשורת קרוב לכדור הארץ. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Critical NASA Deep Space ground station in Spain evacuated due to wildfires ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Madrid Deep Space Communications Complex is one of three critical sites around the world that communicate with spacecraft beyond the reach of near-Earth communications capabilities. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 12
+    "id": 14
   },
   {
     "source": "Spaceflight Now",
@@ -248,16 +288,16 @@
     "summary_en": "The flight was delayed another day as Tropical Storm Bertha was expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens on Friday, July 24, at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC).",
     "image": "",
     "title_ru": "Предварительный просмотр запуска: SpaceX готова ко второй попытке запустить Starship Flight 13 после работы двигателя после прерывания",
-    "summary_ru": "Рейс был отложен еще на день, поскольку в четверг ожидалось, что тропический шторм Берта обрушится на берег Техаса. Старт миссии Starship Flight 13 запланирован на 90-минутное окно, которое откроется в пятницу, 24 июля, в 17:45 по тихоокеанскому времени. CDT (18:45 по восточному времени / 22:45 по всемирному координированному времени).",
+    "summary_ru": "Рейс был отложен еще на день, поскольку в четверг ожидалось, что тропический шторм «Берта» обрушится на берег Техаса. Старт миссии Starship Flight 13 запланирован на 90-минутное окно, которое откроется в пятницу, 24 июля, в 17:45 по тихоокеанскому времени. CDT (18:45 по восточному времени / 22:45 по всемирному координированному времени).",
     "title_ru_kids": "🚀 Предварительный просмотр запуска: SpaceX готова ко второй попытке запустить Starship Flight 13 после работы двигателя после прерывания ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Рейс был отложен еще на день, поскольку в четверг ожидалось, что тропический шторм Берта обрушится на берег Техаса. Старт миссии Starship Flight 13 запланирован на 90-минутное окно, которое откроется в пятницу, 24 июля, в 17:45 по тихоокеанскому времени. CDT (18:45 по восточному времени / 22:45 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Рейс был отложен еще на день, поскольку в четверг ожидалось, что тропический шторм «Берта» обрушится на берег Техаса. Старт миссии Starship Flight 13 запланирован на 90-минутное окно, которое откроется в пятницу, 24 июля, в 17:45 по тихоокеанскому времени. CDT (18:45 по восточному времени / 22:45 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "תצוגה מקדימה של ההשקה: SpaceX מוכנה לניסיון שני לשגר את טיסת Starship 13 בעקבות עבודת מנוע לאחר הפסקה",
     "summary_he": "הטיסה נדחתה ביום נוסף מכיוון שהסופה הטרופית ברטה צפויה להגיע לנחיתה בטקסס ביום חמישי. ההמראה של משימת טיסת ספינת הכוכבים 13 מתוכננת במהלך חלון של 90 דקות שייפתח ביום שישי, 24 ביולי, בשעה 17:45. CDT (6:45 אחר הצהריים EDT / 2245 UTC).",
     "title_he_kids": "🚀 תצוגה מקדימה של ההשקה: SpaceX מוכנה לניסיון שני לשגר את טיסת Starship 13 בעקבות עבודת מנוע לאחר הפסקה ✨",
     "summary_he_kids": "🌟 תראו מה קרה! הטיסה נדחתה ביום נוסף מכיוון שהסופה הטרופית ברטה צפויה להגיע לנחיתה בטקסס ביום חמישי. ההמראה של משימת טיסת ספינת הכוכבים 13 מתוכננת במהלך חלון של 90 דקות שייפתח ביום שישי, 24 ביולי, בשעה 17:45. CDT (6:45 אחר הצהריים EDT / 2245 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Launch preview: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The flight was delayed another day as Tropical Storm Bertha was expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens on Friday, July 24, at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 13
+    "id": 15
   },
   {
     "source": "SpaceX",
@@ -272,12 +312,12 @@
     "title_ru_kids": "🚀 SpaceX запустила новый геосинхронный роботизированный спутник обслуживания с десятилетней миссией ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Роботизированный автомобиль миссии Northrop Grumman оснащен полезной нагрузкой для роботизированного обслуживания геосинхронных спутников (RSGS) от Исследовательской лаборатории ВМС США и DARPA. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на четырехчасовое окно, которое открывается... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "SpaceX משיקה לווין שירות רובוטי גיאו-סינכרוני חדש במשימה של עשור",
-    "summary_he": "הרכב הרובוטי המשימה של Northrop Grumman כולל את המטען הרובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח...",
+    "summary_he": "הרכב הרובוטי המשימה של Northrop Grumman כולל מטען רובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח...",
     "title_he_kids": "🚀 SpaceX משיקה לווין שירות רובוטי גיאו-סינכרוני חדש במשימה של עשור ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הרכב הרובוטי המשימה של Northrop Grumman כולל את המטען הרובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הרכב הרובוטי המשימה של Northrop Grumman כולל מטען רובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches novel geosynchronous robotic servicing satellite on decade-long mission ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Northrop Grumman’s Mission Robotic Vehicle features the Robotic Servicing of Geosynchronous Satellites (RSGS) payload from the U.S. Naval Research Laboratory and DARPA. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a four-hour window that opens ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 14
+    "id": 16
   },
   {
     "source": "Spaceflight Now",
@@ -292,12 +332,12 @@
     "title_ru_kids": "🚀 SpaceX запустила новый геосинхронный роботизированный спутник обслуживания с десятилетней миссией ✨",
     "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Роботизированный автомобиль миссии Northrop Grumman оснащен полезной нагрузкой для роботизированного обслуживания геосинхронных спутников (RSGS) от Исследовательской лаборатории ВМС США и DARPA. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на четырехчасовое окно, которое открывается... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "SpaceX משיקה לווין שירות רובוטי גיאו-סינכרוני חדש במשימה של עשור",
-    "summary_he": "הרכב הרובוטי המשימה של Northrop Grumman כולל את המטען הרובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח...",
+    "summary_he": "הרכב הרובוטי המשימה של Northrop Grumman כולל מטען רובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח...",
     "title_he_kids": "🚀 SpaceX משיקה לווין שירות רובוטי גיאו-סינכרוני חדש במשימה של עשור ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! הרכב הרובוטי המשימה של Northrop Grumman כולל את המטען הרובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "🌟 תראו מה קרה! הרכב הרובוטי המשימה של Northrop Grumman כולל מטען רובוטי של לוויינים גיאו-סינכרוניים (RSGS) ממעבדת המחקר הצי האמריקאי ו-DARPA. ההמראה משטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת במהלך חלון של ארבע שעות שנפתח... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches novel geosynchronous robotic servicing satellite on decade-long mission ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Northrop Grumman’s Mission Robotic Vehicle features the Robotic Servicing of Geosynchronous Satellites (RSGS) payload from the U.S. Naval Research Laboratory and DARPA. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a four-hour window that opens ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 15
+    "id": 17
   },
   {
     "source": "SpaceX",
@@ -317,7 +357,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from California a day after last-second abort ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 16
+    "id": 18
   },
   {
     "source": "Spaceflight Now",
@@ -337,7 +377,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההרמה ממשטח 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from California a day after last-second abort ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 17
+    "id": 19
   },
   {
     "source": "SpaceX",
@@ -357,27 +397,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX suffers rare, last-second Falcon 9 rocket launch abort ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 18
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-07-20T12:38:44",
-    "date_display": "Mon, 20 Jul 2026 12:38:44 +0000",
-    "link": "https://spaceflightnow.com/2026/07/20/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-11/",
-    "title_en": "SpaceX suffers rare, last-second Falcon 9 rocket launch abort",
-    "summary_en": "The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC).",
-    "image": "",
-    "title_ru": "SpaceX потерпела редкую аварию при запуске ракеты Falcon 9 в последнюю секунду",
-    "summary_ru": "Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 SpaceX потерпела редкую аварию при запуске ракеты Falcon 9 в последнюю секунду ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Миссия Starlink 17-39 — 85-й запуск ракеты Falcon 9 компании SpaceX в этом году. Старт с площадки 4E на базе космических сил Ванденберг запланирован на 7:49 утра по тихоокеанскому времени (10:49 утра по восточному времени / 14:49 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
-    "title_he": "SpaceX חווה הפסקה נדירה של שיגור רקטות Falcon 9 בשנייה האחרונה",
-    "summary_he": "משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC).",
-    "title_he_kids": "🚀 SpaceX חווה הפסקה נדירה של שיגור רקטות Falcon 9 בשנייה האחרונה ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 17-39 היא שיגור רקטות Falcon 9 ה-85 של SpaceX של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 7:49 בבוקר PDT (10:49 בבוקר EDT / 1449 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 SpaceX suffers rare, last-second Falcon 9 rocket launch abort ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 19
+    "id": 20
   },
   {
     "source": "SpaceX",
@@ -388,16 +408,16 @@
     "summary_en": "The Tranche 1 Transporter Layer E (T1TL-E) mission was the third batch of operational satellites launched to support the SDA’s Proliferated Warfighter Space Architecture satellite constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 1:32 p.m. PDT (4:32...",
     "image": "",
     "title_ru": "SpaceX запустила 21 спутник связи для Агентства космического развития",
-    "summary_ru": "Миссия Tranche 1 Transporter Layer E (T1TL-E) стала третьей партией действующих спутников, запущенных для поддержки группировки спутников SDA Proliferated Warfighter Space Architecture. Старт с площадки 4E на базе космических сил Ванденберг произошел в 13:32. тихоокеанское время (4:32...",
+    "summary_ru": "Миссия Tranche 1 Transporter Layer E (T1TL-E) стала третьей партией действующих спутников, запущенных для поддержки спутниковой группировки SDA Proliferated Warfighter Space Architecture. Старт с площадки 4E на базе космических сил Ванденберг произошел в 13:32. тихоокеанское время (4:32...",
     "title_ru_kids": "🚀 SpaceX запустила 21 спутник связи для Агентства космического развития ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Tranche 1 Transporter Layer E (T1TL-E) стала третьей партией действующих спутников, запущенных для поддержки группировки спутников SDA Proliferated Warfighter Space Architecture. Старт с площадки 4E на базе космических сил Ванденберг произошел в 13:32. тихоокеанское время (4:32... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Tranche 1 Transporter Layer E (T1TL-E) стала третьей партией действующих спутников, запущенных для поддержки спутниковой группировки SDA Proliferated Warfighter Space Architecture. Старт с площадки 4E на базе космических сил Ванденберг произошел в 13:32. тихоокеанское время (4:32... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
     "title_he": "SpaceX משגרת 21 לווייני תקשורת עבור הסוכנות לפיתוח החלל",
-    "summary_he": "משימת ה-Tranche 1 Transporter Layer E (T1TL-E) הייתה המערך השלישי של לוויינים מבצעיים ששוגרו כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 13:32. PDT (4:32...",
+    "summary_he": "משימת Tranche 1 Transporter Layer E (T1TL-E) הייתה האצווה השלישית של לוויינים מבצעיים ששוגרה כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32...",
     "title_he_kids": "🚀 SpaceX משגרת 21 לווייני תקשורת עבור הסוכנות לפיתוח החלל ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת ה-Tranche 1 Transporter Layer E (T1TL-E) הייתה המערך השלישי של לוויינים מבצעיים ששוגרו כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 13:32. PDT (4:32... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Tranche 1 Transporter Layer E (T1TL-E) הייתה האצווה השלישית של לוויינים מבצעיים ששוגרה כדי לתמוך בקונסטלציה של הלוויין Proliferated Warfighter Space Architecture של ה-SDA. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 13:32. PDT (4:32... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 21 communications satellites for the Space Development Agency ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Tranche 1 Transporter Layer E (T1TL-E) mission was the third batch of operational satellites launched to support the SDA’s Proliferated Warfighter Space Architecture satellite constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 1:32 p.m. PDT (4:32... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 20
+    "id": 21
   },
   {
     "source": "SpaceX",
@@ -417,26 +437,6 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-45 הוסיפה עוד 29 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ של SpaceX. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 5:10 בבוקר EDT (0910 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches a flight-proven Falcon booster for 600th time ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-45 mission added another 29 broadband internet satellites to SpaceX’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 5:10 a.m. EDT (0910 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 21
-  },
-  {
-    "source": "SpaceX",
-    "date_parsed": "2026-07-13T18:37:21",
-    "date_display": "Mon, 13 Jul 2026 18:37:21 +0000",
-    "link": "https://spaceflightnow.com/2026/07/13/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-6/",
-    "title_en": "SpaceX launches 27 Starlink satellites on Falcon 9 rocket from Vandenberg",
-    "summary_en": "The Starlink 15-14 mission will add another 27 broadband internet satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:28:17 p.m. PDT (9:28:17 p.m. EDT / 0128:17 UTC).",
-    "image": "",
-    "title_ru": "SpaceX запустила 27 спутников Starlink на ракете Falcon 9 из Ванденберга",
-    "summary_ru": "Миссия Starlink 15-14 добавит еще 27 спутников широкополосного доступа в Интернет к низкоорбитальному созвездию. Старт с площадки 4E на базе космических сил Ванденберг произошел в 18:28:17. Тихоокеанское время (21:28:17 по восточному времени / 01:28:17 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 SpaceX запустила 27 спутников Starlink на ракете Falcon 9 из Ванденберга ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Starlink 15-14 добавит еще 27 спутников широкополосного доступа в Интернет к низкоорбитальному созвездию. Старт с площадки 4E на базе космических сил Ванденберг произошел в 18:28:17. Тихоокеанское время (21:28:17 по восточному времени / 01:28:17 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
-    "title_he": "SpaceX משגרת 27 לווייני Starlink על רקטת פלקון 9 מוונדנברג",
-    "summary_he": "משימת Starlink 15-14 תוסיף עוד 27 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 18:28:17. PDT (9:28:17 pm EDT / 0128:17 UTC).",
-    "title_he_kids": "🚀 SpaceX משגרת 27 לווייני Starlink על רקטת פלקון 9 מוונדנברג ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 15-14 תוסיף עוד 27 לווייני אינטרנט בפס רחב לקבוצת הכוכבים הנמוכה של מסלול כדור הארץ. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 18:28:17. PDT (9:28:17 pm EDT / 0128:17 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 SpaceX launches 27 Starlink satellites on Falcon 9 rocket from Vandenberg ✨",
-    "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 15-14 mission will add another 27 broadband internet satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:28:17 p.m. PDT (9:28:17 p.m. EDT / 0128:17 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
     "id": 22
   },
   {
