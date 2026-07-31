@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-07-31T16:00:00",
+    "date_display": "Fri, 31 Jul 2026 16:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/How_to_safely_watch_a_solar_eclipse",
+    "title_en": "How to safely watch a solar eclipse",
+    "summary_en": "Video: \n\t\t\t00:01:34\n\t\t\t\t[English]: A solar eclipse is an unforgettable sight, but only if you watch it safely!ESA reserve astronaut Sara García Alonso shows you how to enjoy this incredible cosmic event using certified eclipse glasses and explains why ordinary sunglasses are n...",
+    "image": "",
+    "title_ru": "Как безопасно наблюдать солнечное затмение",
+    "summary_ru": "Видео: \n\t\t\t00:01:34\n\t\t\t\t[Русский]: Солнечное затмение — незабываемое зрелище, но только если смотреть его безопасно! Астронавт запаса ЕКА Сара Гарсиа Алонсо покажет вам, как наслаждаться этим невероятным космическим событием, используя сертифицированные очки для наблюдения за затмением, и объяснит, почему обычные солнцезащитные очки не подходят...",
+    "title_ru_kids": "🚀 Как безопасно наблюдать солнечное затмение ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:01:34\n\t\t\t\t[Русский]: Солнечное затмение — незабываемое зрелище, но только если смотреть его безопасно! Астронавт запаса ЕКА Сара Гарсиа Алонсо покажет вам, как наслаждаться этим невероятным космическим событием, используя сертифицированные очки для наблюдения за затмением, и объяснит, почему обычные солнцезащитные очки не подходят... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "כיצד לצפות בבטחה בליקוי חמה",
+    "summary_he": "וידאו: \n\t\t\t00:01:34\n\t\t\t\t[אנגלית]: ליקוי חמה הוא מראה בלתי נשכח, אבל רק אם תצפו בו בבטחה! אסטרונאוטית מילואים של ESA שרה גרסיה אלונסו מראה לכם איך ליהנות מהאירוע הקוסמי המדהים הזה באמצעות משקפי ליקוי מאושרים ומסבירה מדוע משקפי שמש רגילים אינם...",
+    "title_he_kids": "🚀 כיצד לצפות בבטחה בליקוי חמה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:34\n\t\t\t\t[אנגלית]: ליקוי חמה הוא מראה בלתי נשכח, אבל רק אם תצפו בו בבטחה! אסטרונאוטית מילואים של ESA שרה גרסיה אלונסו מראה לכם איך ליהנות מהאירוע הקוסמי המדהים הזה באמצעות משקפי ליקוי מאושרים ומסבירה מדוע משקפי שמש רגילים אינם... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 How to safely watch a solar eclipse ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:01:34\n\t\t\t\t[English]: A solar eclipse is an unforgettable sight, but only if you watch it safely!ESA reserve astronaut Sara García Alonso shows you how to enjoy this incredible cosmic event using certified eclipse glasses and explains why ordinary sunglasses are n... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-07-31T15:10:00",
     "date_display": "Fri, 31 Jul 2026 15:10:00 +0200",
     "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_27-31_July_2026",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 27-31 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 27-31 July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 27-31 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:06\n\t\t\t\tמה תכנן החלל לאירופה ביולי הקרוב? הצוות של Artemis II ביקר במרכז הטכני של ESA בהולנד כדי לפגוש את הצוות שמאחורי מודול השירות האירופאי של אוריון, וחוגג את שיתוף הפעולה שהניע את הטיול שלהם סביב הירח. בינתיים... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 This Month at ESA: July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:06\n\t\t\t\tWhat did space have in store for Europe this July?The Artemis II crew visited ESA’s technical center in the Netherlands to meet the team behind Orion’s European Service Module, celebrating the colaboration that powered their trip around the Moon. Meanwh... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! משימת ה- HydroGNSS Scout דו-לוויינית של סוכנות החלל האירופית הסתיימה את ההפעלה והיא נמצאת כעת בפעילות מדעית מלאה. לאחר בדיקות ואימות מקיף של הלוויינים, המכשירים וקטע הקרקע, נתוני HydroGNSS זמינים כעת באופן חופשי למשתמשים... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 HydroGNSS data open for new insights into Earth’s water  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.Following extensive testing and validation of the satellites, instruments and ground segment, HydroGNSS data are now freely available to users... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,27 +97,27 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת מכ\"ם צבעונית זו שצולמה במשימת Copernicus Sentinel-1 מציגה את ניו אורלינס ואת הדלתא של נהר המיסיסיפי, אחד הנהרות הגדולים בצפון אמריקה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: New Orleans and the mighty Mississippi ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis colourful radar image captured by the Copernicus Sentinel-1 mission features New Orleans and the delta of the Mississippi River, one the largest rivers in North America. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
-    "date_parsed": "2026-07-30T09:20:00",
-    "date_display": "Thu, 30 Jul 2026 09:20:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/SMOS_salinity_could_offer_early_indicator_of_El_Nino",
-    "title_en": "SMOS salinity could offer early indicator of El Niño",
-    "summary_en": "As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity – which is another key indicator of this phenomenon.Measurements from satellites such as the European Space Agency's SMOS mission are r...",
+    "date_parsed": "2026-07-30T09:56:00",
+    "date_display": "Thu, 30 Jul 2026 09:56:00 +0200",
+    "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Major_rehearsal_takes_Themis_one_step_closer_to_flight",
+    "title_en": "Major rehearsal takes Themis one step closer to flight",
+    "summary_en": "",
     "image": "",
-    "title_ru": "Соленость SMOS может служить ранним индикатором Эль-Ниньо",
-    "summary_ru": "Поскольку Тихий океан переходит в фазу Эль-Ниньо, ученые отслеживают изменения температуры поверхности моря, а также солености поверхности моря, что является еще одним ключевым индикатором этого явления. Измерения со спутников, таких как миссия SMOS Европейского космического агентства, актуальны...",
-    "title_ru_kids": "🚀 Соленость SMOS может служить ранним индикатором Эль-Ниньо ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Поскольку Тихий океан переходит в фазу Эль-Ниньо, ученые отслеживают изменения температуры поверхности моря, а также солености поверхности моря, что является еще одним ключевым индикатором этого явления. Измерения со спутников, таких как миссия SMOS Европейского космического агентства, актуальны... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "מליחות SMOS יכולה להציע אינדיקטור מוקדם של אל ניניו",
-    "summary_he": "כאשר האוקיינוס ​​השקט עובר לשלב אל ניניו, מדענים עוקבים אחר שינויים בטמפרטורת פני הים, אך גם במליחות פני הים - שהוא אינדיקטור מרכזי נוסף לתופעה זו. מדידות מלוויינים כגון משימת SMOS של סוכנות החלל האירופית הן r...",
-    "title_he_kids": "🚀 מליחות SMOS יכולה להציע אינדיקטור מוקדם של אל ניניו ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! כאשר האוקיינוס ​​השקט עובר לשלב אל ניניו, מדענים עוקבים אחר שינויים בטמפרטורת פני הים, אך גם במליחות פני הים - שהוא אינדיקטור מרכזי נוסף לתופעה זו. מדידות מלוויינים כגון משימת SMOS של סוכנות החלל האירופית הן r... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 SMOS salinity could offer early indicator of El Niño ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity – which is another key indicator of this phenomenon.Measurements from satellites such as the European Space Agency's SMOS mission are r... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "title_ru": "Генеральная репетиция делает Фемиду на шаг ближе к полету",
+    "summary_ru": "",
+    "title_ru_kids": "🚀 Генеральная репетиция делает Фемиду на шаг ближе к полету ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "החזרה הגדולה לוקחת את תמיס צעד אחד קרוב יותר לטיסה",
+    "summary_he": "",
+    "title_he_kids": "🚀 החזרה הגדולה לוקחת את תמיס צעד אחד קרוב יותר לטיסה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Major rehearsal takes Themis one step closer to flight ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -117,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches classified payload for National Reconnaissance Office ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,26 +157,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches classified payload for National Reconnaissance Office ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-28T14:04:00",
-    "date_display": "Tue, 28 Jul 2026 14:04:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/How_Sentinel-1_measured_movement_of_Venezuela_quakes",
-    "title_en": "How Sentinel-1 measured movement of Venezuela quakes",
-    "summary_en": "More than one month on from the catastrophic twin earthquakes in northern Venezuela on 24 June 2026, satellite data show the ground displacement was greater than first estimated.",
-    "image": "",
-    "title_ru": "Как Sentinel-1 измерял движение землетрясений в Венесуэле",
-    "summary_ru": "Спутниковые данные показывают, что спустя более месяца после катастрофических двойных землетрясений на севере Венесуэлы 24 июня 2026 года смещение земли оказалось больше, чем предполагалось изначально.",
-    "title_ru_kids": "🚀 Как Sentinel-1 измерял движение землетрясений в Венесуэле ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Спутниковые данные показывают, что спустя более месяца после катастрофических двойных землетрясений на севере Венесуэлы 24 июня 2026 года смещение земли оказалось больше, чем предполагалось изначально. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
-    "title_he": "כיצד Sentinel-1 מדד תנועה של רעידות בוונצואלה",
-    "summary_he": "יותר מחודש לאחר רעידות האדמה התאומות הקטסטרופליות בצפון ונצואלה ב-24 ביוני 2026, נתוני לוויין מראים שהתזוזת הקרקע הייתה גדולה מההערכה הראשונה.",
-    "title_he_kids": "🚀 כיצד Sentinel-1 מדד תנועה של רעידות בוונצואלה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! יותר מחודש לאחר רעידות האדמה התאומות הקטסטרופליות בצפון ונצואלה ב-24 ביוני 2026, נתוני לוויין מראים שהתזוזת הקרקע הייתה גדולה מההערכה הראשונה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 How Sentinel-1 measured movement of Venezuela quakes ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! More than one month on from the catastrophic twin earthquakes in northern Venezuela on 24 June 2026, satellite data show the ground displacement was greater than first estimated. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 8
   },
   {
