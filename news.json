@@ -1,5 +1,25 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-08-03T14:00:00",
+    "date_display": "Mon, 03 Aug 2026 14:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/The_journey_of_Sophie_Adenot_s_bonus_food",
+    "title_en": "The journey of Sophie Adenot's bonus food",
+    "summary_en": "Video: \n\t\t\t00:05:45\n\t\t\t\tWhat does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work together to transform traditional recipes into me...",
+    "image": "",
+    "title_ru": "Путешествие бонусной еды Софи Адено",
+    "summary_ru": "Видео: \n\t\t\t00:05:45\n\t\t\t\tЧто нужно, чтобы отправить изысканную еду на Международную космическую станцию? Следуйте бонусному меню астронавта ЕКА Софи Адено из французской кухни на орбиту, где повара, инженеры и специалисты по питанию работают вместе, чтобы превратить традиционные рецепты в меня...",
+    "title_ru_kids": "🚀 Путешествие бонусной еды Софи Адено ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:05:45\n\t\t\t\tЧто нужно, чтобы отправить изысканную еду на Международную космическую станцию? Следуйте бонусному меню астронавта ЕКА Софи Адено из французской кухни на орбиту, где повара, инженеры и специалисты по питанию работают вместе, чтобы превратить традиционные рецепты в меня... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "המסע של אוכל הבונוס של סופי אדנות",
+    "summary_he": "וידאו: \n\t\t\t00:05:45\n\t\t\t\tמה צריך כדי לשלוח אוכל גורמה לתחנת החלל הבינלאומית? עקבו אחר תפריט הבונוס של אסטרונאוטית ESA סופי אדנו ממטבח צרפתי למסלול, שבו שפים, מהנדסים ומומחי מזון עובדים יחד כדי להפוך מתכונים מסורתיים אלי...",
+    "title_he_kids": "🚀 המסע של אוכל הבונוס של סופי אדנות ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:05:45\n\t\t\t\tמה צריך כדי לשלוח אוכל גורמה לתחנת החלל הבינלאומית? עקבו אחר תפריט הבונוס של אסטרונאוטית ESA סופי אדנו ממטבח צרפתי למסלול, שבו שפים, מהנדסים ומומחי מזון עובדים יחד כדי להפוך מתכונים מסורתיים אלי... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 The journey of Sophie Adenot's bonus food ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:05:45\n\t\t\t\tWhat does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work together to transform traditional recipes into me... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
     "source": "SpaceX",
     "date_parsed": "2026-07-31T18:07:54",
     "date_display": "Fri, 31 Jul 2026 18:07:54 +0000",
@@ -17,7 +37,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-52 היא שיגור המסלול ה-90 של SpaceX של השנה עד כה. ההרמה מרכב 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 20:08. PDT (23:08 בצהריים EDT / 0308 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:08 p.m. PDT (11:08 p.m. EDT / 0308 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-52 היא שיגור המסלול ה-90 של SpaceX של השנה עד כה. ההרמה מרכב 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 20:08. PDT (23:08 בצהריים EDT / 0308 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:08 p.m. PDT (11:08 p.m. EDT / 0308 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:34\n\t\t\t\t[אנגלית]: ליקוי חמה הוא מראה בלתי נשכח, אבל רק אם אתה צופה בו בבטחה! אסטרונאוטית מילואים של ESA שרה גרסיה אלונסו מראה לך איך ליהנות מהאירוע הקוסמי המדהים הזה באמצעות משקפי ליקוי מאושרים ומסבירה מדוע משקפי שמש רגילים הם לא... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 How to safely watch a solar eclipse ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:01:34\n\t\t\t\t[English]: A solar eclipse is an unforgettable sight, but only if you watch it safely!ESA reserve astronaut Sara García Alonso shows you how to enjoy this incredible cosmic event using certified eclipse glasses and explains why ordinary sunglasses are n... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,26 +97,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 27-31 ביולי 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 27-31 July 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 27-31 July 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 4
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-31T13:00:00",
-    "date_display": "Fri, 31 Jul 2026 13:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/This_Month_at_ESA_July_2026",
-    "title_en": "This Month at ESA: July 2026",
-    "summary_en": "Video: \n\t\t\t00:03:06\n\t\t\t\tWhat did space have in store for Europe this July?The Artemis II crew visited ESTEC, ESA’s technical centre in the Netherlands, to meet the team behind Orion’s European Service Module, celebrating the collaboration that powered their trip around the Moo...",
-    "image": "",
-    "title_ru": "В этом месяце в ЕКА: июль 2026 г.",
-    "summary_ru": "Видео: \n\t\t\t00:03:06\n\t\t\t\tЧто космос приготовил Европе в июле этого года? Экипаж «Артемиды II» посетил ESTEC, технический центр ЕКА в Нидерландах, чтобы встретиться с командой, работающей над европейским сервисным модулем «Орион», и отпраздновать сотрудничество, которое послужило основой их путешествия вокруг Му...",
-    "title_ru_kids": "🚀 В этом месяце в ЕКА: июль 2026 г. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:03:06\n\t\t\t\tЧто космос приготовил Европе в июле этого года? Экипаж «Артемиды II» посетил ESTEC, технический центр ЕКА в Нидерландах, чтобы встретиться с командой, работающей над европейским сервисным модулем «Орион», и отпраздновать сотрудничество, которое послужило основой их путешествия вокруг Му... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "החודש ב-ESA: יולי 2026",
-    "summary_he": "וידאו: \n\t\t\t00:03:06\n\t\t\t\tמה תכנן החלל לאירופה ביולי הקרוב? הצוות של Artemis II ביקר ב-ESTEC, המרכז הטכני של ESA בהולנד, כדי לפגוש את הצוות שמאחורי מודול השירות האירופאי של אוריון, חוגג את שיתוף הפעולה שהניע את הטיול שלהם ברחבי המו...",
-    "title_he_kids": "🚀 החודש ב-ESA: יולי 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:06\n\t\t\t\tמה תכנן החלל לאירופה ביולי הקרוב? הצוות של Artemis II ביקר ב-ESTEC, המרכז הטכני של ESA בהולנד, כדי לפגוש את הצוות שמאחורי מודול השירות האירופאי של אוריון, חוגג את שיתוף הפעולה שהניע את הטיול שלהם ברחבי המו... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 This Month at ESA: July 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:06\n\t\t\t\tWhat did space have in store for Europe this July?The Artemis II crew visited ESTEC, ESA’s technical centre in the Netherlands, to meet the team behind Orion’s European Service Module, celebrating the collaboration that powered their trip around the Moo... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 5
   },
   {
