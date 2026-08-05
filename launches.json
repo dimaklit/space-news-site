@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 17-53",
-    "window_start": "2026-08-04T14:00:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Smart Dragon 3 | Unknown Payload",
     "window_start": "2026-08-05T02:27:00Z",
     "rocket": "Smart Dragon 3",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Long March 7A | Unknown Payload",
+    "window_start": "2026-08-09T11:00:00Z",
+    "rocket": "Long March 7A",
+    "pad": "201",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
