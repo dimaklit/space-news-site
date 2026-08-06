@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-08-06T10:00:00",
+    "date_display": "Thu, 06 Aug 2026 10:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Webb_opens_a_Treasure_Chest_filled_with_stars",
+    "title_en": "Webb opens a Treasure Chest filled with stars",
+    "summary_en": "Image:\n\t\t\tThis NASA/ESA/CSA James Webb Space Telescope Picture of the Month takes us to a fantastical realm within our home galaxy, where piercing starlight and billowing winds sculpt dust clouds into inventive shapes. This scene is from the Carina Nebula, which lies just 7500...",
+    "image": "",
+    "title_ru": "Webb opens a Treasure Chest filled with stars",
+    "summary_ru": "Изображение:\n\t\t\tЭта фотография месяца, сделанная космическим телескопом имени Джеймса Уэбба NASA/ESA/CSA, переносит нас в фантастический мир нашей родной галактики, где пронизывающий звездный свет и порывистые ветры придают пылевым облакам причудливые формы. Эта сцена из туманности Киля, которая находится всего в 7500...",
+    "title_ru_kids": "🚀 Webb opens a Treasure Chest filled with stars ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tЭта фотография месяца, сделанная космическим телескопом имени Джеймса Уэбба NASA/ESA/CSA, переносит нас в фантастический мир нашей родной галактики, где пронизывающий звездный свет и порывистые ветры придают пылевым облакам причудливые формы. Эта сцена из туманности Киля, которая находится всего в 7500... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "ווב פותח תיבת אוצר מלאה בכוכבים",
+    "summary_he": "תמונה:\n\t\t\tתמונת החודש של טלסקופ החלל של נאס\"א/ESA/CSA ג'יימס ווב לוקחת אותנו לממלכה פנטסטית בתוך הגלקסיה הביתית שלנו, שבה אור כוכבים חודר ורוחות מתנפחות מפסלים ענני אבק לצורות המצאתיות. הסצנה הזו היא מערפילית קארינה, השוכנת רק 7500...",
+    "title_he_kids": "🚀 ווב פותח תיבת אוצר מלאה בכוכבים ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת החודש של טלסקופ החלל של נאס\"א/ESA/CSA ג'יימס ווב לוקחת אותנו לממלכה פנטסטית בתוך הגלקסיה הביתית שלנו, שבה אור כוכבים חודר ורוחות מתנפחות מפסלים ענני אבק לצורות המצאתיות. הסצנה הזו היא מערפילית קארינה, השוכנת רק 7500... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Webb opens a Treasure Chest filled with stars ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis NASA/ESA/CSA James Webb Space Telescope Picture of the Month takes us to a fantastical realm within our home galaxy, where piercing starlight and billowing winds sculpt dust clouds into inventive shapes. This scene is from the Carina Nebula, which lies just 7500... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-08-05T16:04:00",
     "date_display": "Wed, 05 Aug 2026 16:04:00 +0200",
     "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Your_chance_to_run_software_in_deep_space_on_ESA_s_asteroid_mission",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית מציעה לחוקרים וחברות אירופאיות הזדמנות נדירה ומרגשת להפעיל את התוכנה החדשנית שלהם ישירות בחלל העמוק על סיפון משימת Hera של ESA, מיליוני קילומטרים משם. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Your chance to run software in deep space on ESA's asteroid mission ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! היערות של אירופה מאבדים יותר ביומסה ממה שחשבו בעבר, עם הפרעות כמו בצורת ומזיקים שגורמות לאובדן גדול יותר ויותר מכמה מהיערות העתיקים ביותר באירופה. מצב זה הידרדר באופן ניכר מאז 2018. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Europe’s forests losing more biomass since 2018 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from some of the oldest forests in Europe. This situation has deteriorated markedly since 2018. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ליקוי חמה מלא מגיע לאירופה. סוכנות החלל האירופית (ESA) תשדר בשידור חי מ-19:30 CEST ב-12 באוגוסט, מה שיאפשר לכם לחוות את האירוע הנדיר הזה מכל מקום בעולם.\nקישורים מהירים:\n- שידור חי ב-YouTube (12 באוגוסט, 19:30-20:45 CEST)\n-&nbs... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Total solar eclipse: how to watch live from home ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! A total solar eclipse is coming to Europe. The European Space Agency (ESA) will broadcast live from 19:30 CEST on 12 August, allowing you to experience this rare event from anywhere in the world.\nQuick links:\n-&nbsp;Live broadcast on YouTube (12 August, 19:30–20:45 CEST)\n-&nbs... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "SpaceX",
@@ -77,7 +97,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת BlueBird 11-13 הייתה הפעם השלישית ש-SpaceX הטיסה לוויינים למסלול התומכים בקונסטלציה ישירה למכשיר של AST SpaceMobile. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:49 לפנות בוקר EDT (0749 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת BlueBird 11-13 הייתה הפעם השלישית ש-SpaceX הטיסה לוויינים למסלול התומכים בקונסטלציה ישירה למכשיר של AST SpaceMobile. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:49 לפנות בוקר EDT (0749 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -117,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-53 היא שיגור רקטות Falcon 9 ה-90 של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 10:05 בבוקר PDT (1:05 ​​בצהריים EDT / 1705 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-53 mission is the 90th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 10:05 a.m. PDT (1:05 p.m. EDT / 1705 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +157,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-53 היא שיגור רקטות Falcon 9 ה-90 של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 10:05 בבוקר PDT (1:05 ​​בצהריים EDT / 1705 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-53 mission is the 90th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 10:05 a.m. PDT (1:05 p.m. EDT / 1705 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) ו-The Pokémon Company International (TPCi) חוברות יחד כדי לחגוג את שבוע החלל העולמי בין ה-4 ל-10 באוקטובר 2026. שיתוף הפעולה הייחודי והמוגבל הזה מפגיש שני עולמות המאוחדים על ידי סקרנות, חקר ודמיון. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA and Pokémon team up to celebrate World Space Week ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) and The Pokémon Company International (TPCi) are teaming up to celebrate World Space Week from 4–10 October 2026. This unique, limited-time collaboration brings together two worlds united by curiosity, exploration and imagination. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:05:45\n\t\t\t\tמה צריך כדי לשלוח אוכל גורמה לתחנת החלל הבינלאומית? עקבו אחר תפריט הבונוס של אסטרונאוטית ESA סופי אדנו ממטבח צרפתי למסלול, שבו שפים, מהנדסים ומומחי מזון עובדים יחד כדי להפוך מתכונים מסורתיים אלי... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 The journey of Sophie Adenot's bonus food ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:05:45\n\t\t\t\tWhat does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work together to transform traditional recipes into me... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "SpaceX",
@@ -197,7 +217,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-52 היא שיגור המסלול ה-90 של SpaceX של השנה עד כה. ההרמה מרכב 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 20:08. PDT (23:08 בצהריים EDT / 0308 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:08 p.m. PDT (11:08 p.m. EDT / 0308 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -217,7 +237,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-52 היא שיגור המסלול ה-90 של SpaceX של השנה עד כה. ההרמה מרכב 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 20:08. PDT (23:08 בצהריים EDT / 0308 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:08 p.m. PDT (11:08 p.m. EDT / 0308 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "ESA",
@@ -237,7 +257,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:34\n\t\t\t\t[אנגלית]: ליקוי חמה הוא מראה בלתי נשכח, אבל רק אם תצפו בו בבטחה! אסטרונאוטית מילואים של ESA שרה גרסיה אלונסו מראה לכם איך ליהנות מהאירוע הקוסמי המדהים הזה באמצעות משקפי ליקוי מאושרים ומסבירה מדוע משקפי שמש רגילים אינם... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 How to safely watch a solar eclipse ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:01:34\n\t\t\t\t[English]: A solar eclipse is an unforgettable sight, but only if you watch it safely!ESA reserve astronaut Sara García Alonso shows you how to enjoy this incredible cosmic event using certified eclipse glasses and explains why ordinary sunglasses are n... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "SpaceX",
@@ -257,7 +277,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches classified payload for National Reconnaissance Office ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 13
+    "id": 14
   },
   {
     "source": "Spaceflight Now",
@@ -277,7 +297,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches classified payload for National Reconnaissance Office ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 14
+    "id": 15
   },
   {
     "source": "SpaceX",
@@ -297,7 +317,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההרמה מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 8:51 בבוקר PDT (11:51 בבוקר EDT / 1551 UTC). הפלקון 9 הציב 24 לווייני Starlink למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches Starlink satellites from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff from Vandenberg Space Force Base in California occurred at 8:51 a.m. PDT (11:51 a.m. EDT / 1551 UTC). The Falcon 9 placed 24 Starlink satellites into orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 15
+    "id": 16
   },
   {
     "source": "Spaceflight Now",
@@ -317,7 +337,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! ההרמה מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 8:51 בבוקר PDT (11:51 בבוקר EDT / 1551 UTC). הפלקון 9 הציב 24 לווייני Starlink למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches Starlink satellites from West Coast ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff from Vandenberg Space Force Base in California occurred at 8:51 a.m. PDT (11:51 a.m. EDT / 1551 UTC). The Falcon 9 placed 24 Starlink satellites into orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 16
+    "id": 17
   },
   {
     "source": "Spaceflight Now",
@@ -337,7 +357,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מונעת על ידי 33 מנועי רפטור מונעי מתאן, הרקטה הדו-שלבית בגובה 407 רגל התפוצצה מאתר השיגור של SpaceX \"Starbase\", טקסס, בשעה 17:51. EDT, מציגה מופע מרהיב לתושבי האזור ולתיירים כשהיא טיפסה משם על גבי כ-16 מיליון פאונד של דחף. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Super Heavy-Starship rocket chalks up mostly successful test flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Powered by 33 methane-fueled Raptor engines, the 407-foot-tall two-stage rocket blasted off from SpaceX's \"Starbase,\" Texas, launch site at 5:51 p.m. EDT, putting on a spectacular show for area residents and tourists as it climbed away atop some 16 million pounds of thrust. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 17
+    "id": 18
   },
   {
     "source": "Spaceflight Now",
@@ -357,7 +377,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מתחם תקשורת החלל העמוק של מדריד הוא אחד משלושה אתרים קריטיים ברחבי העולם המתקשרים עם חלליות מעבר להישג ידן של יכולות תקשורת קרוב לכדור הארץ. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Critical NASA Deep Space ground station in Spain evacuated due to wildfires ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Madrid Deep Space Communications Complex is one of three critical sites around the world that communicate with spacecraft beyond the reach of near-Earth communications capabilities. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 18
+    "id": 19
   },
   {
     "source": "Spaceflight Now",
@@ -377,26 +397,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! הטיסה נדחתה ביום נוסף מכיוון שהסופה הטרופית ברטה צפויה להגיע לנחיתה בטקסס ביום חמישי. ההמראה של משימת טיסת ספינת הכוכבים 13 מתוכננת במהלך חלון של 90 דקות שייפתח ביום שישי, 24 ביולי, בשעה 17:45. CDT (6:45 אחר הצהריים EDT / 2245 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Launch preview: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The flight was delayed another day as Tropical Storm Bertha was expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens on Friday, July 24, at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 19
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-07-23T12:00:00",
-    "date_display": "Thu, 23 Jul 2026 12:00:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon",
-    "title_en": "Watch the total solar eclipse with ESA in León",
-    "summary_en": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León.\nQuick links:\n- Overview of all ESA activities, including videos, graphics and educat...",
-    "image": "",
-    "title_ru": "Наблюдайте за полным солнечным затмением вместе с ЕКА в Леоне.",
-    "summary_ru": "Откройте для себя науку, лежащую в основе одного из самых необычных явлений природы, и испытайте полное солнечное затмение вместе с Европейским космическим агентством (ЕКА), городом Леон и Леонским университетом.\nБыстрые ссылки:\n- Обзор всей деятельности ЕКА, включая видео, графику и образовательные материалы.",
-    "title_ru_kids": "🚀 Наблюдайте за полным солнечным затмением вместе с ЕКА в Леоне. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Откройте для себя науку, лежащую в основе одного из самых необычных явлений природы, и испытайте полное солнечное затмение вместе с Европейским космическим агентством (ЕКА), городом Леон и Леонским университетом.\nБыстрые ссылки:\n- Обзор всей деятельности ЕКА, включая видео, графику и образовательные материалы. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Скафандр весит как большой пес!",
-    "title_he": "צפו בליקוי החמה המלא עם ESA בליאון",
-    "summary_he": "גלו את המדע מאחורי אחת התופעות הכי יוצאות דופן של הטבע וחוו ליקוי חמה מוחלט עם סוכנות החלל האירופית (ESA), העיר לאון ואוניברסיטת לאון.\nקישורים מהירים:\n- סקירה כללית של כל פעילויות ESA, כולל סרטונים, גרפיקה וחינוך...",
-    "title_he_kids": "🚀 צפו בליקוי החמה המלא עם ESA בליאון ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! גלו את המדע מאחורי אחת התופעות הכי יוצאות דופן של הטבע וחוו ליקוי חמה מוחלט עם סוכנות החלל האירופית (ESA), העיר לאון ואוניברסיטת לאון.\nקישורים מהירים:\n- סקירה כללית של כל פעילויות ESA, כולל סרטונים, גרפיקה וחינוך... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Watch the total solar eclipse with ESA in León ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León.\nQuick links:\n- Overview of all ESA activities, including videos, graphics and educat... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 20
   },
   {
