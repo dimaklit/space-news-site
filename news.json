@@ -1,6 +1,26 @@
 [
   {
     "source": "Spaceflight Now",
+    "date_parsed": "2026-08-06T22:35:52",
+    "date_display": "Thu, 06 Aug 2026 22:35:52 +0000",
+    "link": "https://spaceflightnow.com/2026/08/06/blue-origin-identifies-engine-issue-behind-new-glenn-explosion/",
+    "title_en": "Blue Origin identifies engine issue behind New Glenn explosion",
+    "summary_en": "The Aug. 5 update from Blue Origin CEO Dave Limp offered the first explanation for what caused the company’s 98-meter-tall (320 ft.) to explode at the pad on May 28.",
+    "image": "",
+    "title_ru": "Blue Origin выявила проблему с двигателем, ставшую причиной взрыва New Glenn",
+    "summary_ru": "В сообщении генерального директора Blue Origin Дэйва Лимпа от 5 августа было предложено первое объяснение того, почему 28 мая на площадке взорвался 98-метровый (320 футов) объект компании.",
+    "title_ru_kids": "🚀 Blue Origin выявила проблему с двигателем, ставшую причиной взрыва New Glenn ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! В сообщении генерального директора Blue Origin Дэйва Лимпа от 5 августа было предложено первое объяснение того, почему 28 мая на площадке взорвался 98-метровый (320 футов) объект компании. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "Blue Origin מזהה בעיית מנוע מאחורי פיצוץ ניו גלן",
+    "summary_he": "העדכון ב-5 באוגוסט של מנכ\"ל Blue Origin, דייב לימפ, הציע את ההסבר הראשון למה שגרם לגובה של 98 מטרים של החברה (320 רגל) להתפוצץ ליד המשטח ב-28 במאי.",
+    "title_he_kids": "🚀 Blue Origin מזהה בעיית מנוע מאחורי פיצוץ ניו גלן ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! העדכון ב-5 באוגוסט של מנכ\"ל Blue Origin, דייב לימפ, הציע את ההסבר הראשון למה שגרם לגובה של 98 מטרים של החברה (320 רגל) להתפוצץ ליד המשטח ב-28 במאי. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Blue Origin identifies engine issue behind New Glenn explosion ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! The Aug. 5 update from Blue Origin CEO Dave Limp offered the first explanation for what caused the company’s 98-meter-tall (320 ft.) to explode at the pad on May 28. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "Spaceflight Now",
     "date_parsed": "2026-08-06T13:57:46",
     "date_display": "Thu, 06 Aug 2026 13:57:46 +0000",
     "link": "https://spaceflightnow.com/2026/08/06/nasa-northrop-grumman-repurpose-gateway-elements-for-moon-base-demo-missions/",
@@ -12,12 +32,12 @@
     "title_ru_kids": "🚀 НАСА и Northrop Grumman перепрофилировали элементы Gateway для демонстрационных миссий Лунной базы ✨",
     "summary_ru_kids": "🌟 Смотри, что произошло! Этот сдвиг усиливает заметный переход агентства от пилотируемых операций на лунной орбите к сосредоточению внимания на наземных миссиях. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "נאס\"א, נורת'רופ גרומן מיישמים מחדש את רכיבי ה-gateway עבור משימות הדגמה של בסיס הירח",
-    "summary_he": "השינוי מגביר את המעבר המובהק של הסוכנות מפעולות צוות במסלול ירח להתמקדות במשימות מבוססות שטח.",
+    "summary_he": "השינוי מגביר את המעבר המסומן של הסוכנות מפעולות צוות במסלול ירח להתמקדות במשימות מבוססות שטח.",
     "title_he_kids": "🚀 נאס\"א, נורת'רופ גרומן מיישמים מחדש את רכיבי ה-gateway עבור משימות הדגמה של בסיס הירח ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! השינוי מגביר את המעבר המובהק של הסוכנות מפעולות צוות במסלול ירח להתמקדות במשימות מבוססות שטח. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "summary_he_kids": "🌟 תראו מה קרה! השינוי מגביר את המעבר המסומן של הסוכנות מפעולות צוות במסלול ירח להתמקדות במשימות מבוססות שטח. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA, Northrop Grumman repurpose Gateway elements for Moon Base demo missions ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The shift amplifies the agency’s marked shift from crewed operations in lunar orbit to focus on surface-based missions. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:00:06\n\t\t\t\tהצילומים מציגים את פריסה בו-זמנית של שתי רגלי נחיתה מפלטפורמת הנחיתה של ExoMars, בשני זוגות עוקבים.  הרגליים נעות מונחות על החללית בחלל עמוק, ונפרסות אוטומטית בזוגות תוך פחות מ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ExoMars stretches out its legs ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:00:06\n\t\t\t\tThe footage shows the simultaneous deployment of two landing legs from the ExoMars landing platform, in two sequential pairs.&nbsp;&nbsp;The legs travel stowed on the spacecraft through deep space, and are automatically deployed in pairs in less than a ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת החודש של טלסקופ החלל של נאס\"א/ESA/CSA ג'יימס ווב לוקחת אותנו לממלכה פנטסטית בתוך הגלקסיה הביתית שלנו, שבה אור כוכבים חודר ורוחות מתנפחות מפסלים ענני אבק לצורות המצאתיות. הסצנה הזו היא מערפילית קארינה, השוכנת רק 7500... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Webb opens a Treasure Chest filled with stars ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis NASA/ESA/CSA James Webb Space Telescope Picture of the Month takes us to a fantastical realm within our home galaxy, where piercing starlight and billowing winds sculpt dust clouds into inventive shapes. This scene is from the Carina Nebula, which lies just 7500... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית מציעה לחוקרים וחברות אירופאיות הזדמנות נדירה ומרגשת להפעיל את התוכנה החדשנית שלהם ישירות בחלל העמוק על סיפון משימת Hera של ESA, מיליוני קילומטרים משם. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Your chance to run software in deep space on ESA's asteroid mission ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! היערות של אירופה מאבדים יותר ביומסה ממה שחשבו בעבר, עם הפרעות כמו בצורת ומזיקים שגורמות לאובדן גדול יותר ויותר מכמה מהיערות העתיקים ביותר באירופה. מצב זה הידרדר באופן ניכר מאז 2018. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Europe’s forests losing more biomass since 2018 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from some of the oldest forests in Europe. This situation has deteriorated markedly since 2018. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ליקוי חמה מלא מגיע לאירופה. סוכנות החלל האירופית (ESA) תשדר בשידור חי מ-19:30 CEST ב-12 באוגוסט, מה שיאפשר לכם לחוות את האירוע הנדיר הזה מכל מקום בעולם.\nקישורים מהירים:\n- שידור חי ב-YouTube (12 באוגוסט, 19:30-20:45 CEST)\n-&nbs... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Total solar eclipse: how to watch live from home ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! A total solar eclipse is coming to Europe. The European Space Agency (ESA) will broadcast live from 19:30 CEST on 12 August, allowing you to experience this rare event from anywhere in the world.\nQuick links:\n-&nbsp;Live broadcast on YouTube (12 August, 19:30–20:45 CEST)\n-&nbs... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "SpaceX",
@@ -137,7 +157,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת BlueBird 11-13 הייתה הפעם השלישית ש-SpaceX הטיסה לוויינים למסלול התומכים בקונסטלציה ישירה למכשיר של AST SpaceMobile. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:49 לפנות בוקר EDT (0749 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -157,7 +177,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת BlueBird 11-13 הייתה הפעם השלישית ש-SpaceX הטיסה לוויינים למסלול התומכים בקונסטלציה ישירה למכשיר של AST SpaceMobile. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:49 לפנות בוקר EDT (0749 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "SpaceX",
@@ -177,7 +197,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-53 היא שיגור רקטות Falcon 9 ה-90 של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 10:05 בבוקר PDT (1:05 ​​בצהריים EDT / 1705 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-53 mission is the 90th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 10:05 a.m. PDT (1:05 p.m. EDT / 1705 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -197,7 +217,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-53 היא שיגור רקטות Falcon 9 ה-90 של השנה. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 10:05 בבוקר PDT (1:05 ​​בצהריים EDT / 1705 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-53 mission is the 90th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 10:05 a.m. PDT (1:05 p.m. EDT / 1705 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "ESA",
@@ -217,7 +237,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) ו-The Pokémon Company International (TPCi) חוברות יחד כדי לחגוג את שבוע החלל העולמי בין ה-4 ל-10 באוקטובר 2026. שיתוף הפעולה הייחודי והמוגבל הזה מפגיש שני עולמות המאוחדים על ידי סקרנות, חקר ודמיון. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA and Pokémon team up to celebrate World Space Week ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) and The Pokémon Company International (TPCi) are teaming up to celebrate World Space Week from 4–10 October 2026. This unique, limited-time collaboration brings together two worlds united by curiosity, exploration and imagination. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "ESA",
@@ -237,7 +257,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:05:45\n\t\t\t\tמה צריך כדי לשלוח אוכל גורמה לתחנת החלל הבינלאומית? עקבו אחר תפריט הבונוס של אסטרונאוטית ESA סופי אדנו ממטבח צרפתי למסלול, שבו שפים, מהנדסים ומומחי מזון עובדים יחד כדי להפוך מתכונים מסורתיים אלי... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 The journey of Sophie Adenot's bonus food ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:05:45\n\t\t\t\tWhat does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work together to transform traditional recipes into me... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "SpaceX",
@@ -257,7 +277,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-52 היא שיגור המסלול ה-90 של SpaceX של השנה עד כה. ההרמה מרכב 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 20:08. PDT (23:08 בצהריים EDT / 0308 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:08 p.m. PDT (11:08 p.m. EDT / 0308 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 13
+    "id": 14
   },
   {
     "source": "Spaceflight Now",
@@ -277,7 +297,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-52 היא שיגור המסלול ה-90 של SpaceX של השנה עד כה. ההרמה מרכב 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 20:08. PDT (23:08 בצהריים EDT / 0308 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-52 mission is SpaceX’s 90th orbital launch of the year so far. Liftoff from pad 4E at Vandenberg Space Force Base occurred at 8:08 p.m. PDT (11:08 p.m. EDT / 0308 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 14
+    "id": 15
   },
   {
     "source": "SpaceX",
@@ -288,16 +308,16 @@
     "summary_en": "The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC).",
     "image": "",
     "title_ru": "SpaceX запустила секретную полезную нагрузку для Национального разведывательного управления",
-    "summary_ru": "Миссия NROL-95 стала третьей полезной нагрузкой Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC).",
+    "summary_ru": "Миссия NROL-95 стала третьей полезной нагрузкой для Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC).",
     "title_ru_kids": "🚀 SpaceX запустила секретную полезную нагрузку для Национального разведывательного управления ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия NROL-95 стала третьей полезной нагрузкой Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия NROL-95 стала третьей полезной нагрузкой для Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "SpaceX משיקה מטען מסווג עבור משרד הסיור הלאומי",
     "summary_he": "משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC).",
     "title_he_kids": "🚀 SpaceX משיקה מטען מסווג עבור משרד הסיור הלאומי ✨",
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches classified payload for National Reconnaissance Office ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 15
+    "id": 16
   },
   {
     "source": "Spaceflight Now",
@@ -308,16 +328,16 @@
     "summary_en": "The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC).",
     "image": "",
     "title_ru": "SpaceX запустила секретную полезную нагрузку для Национального разведывательного управления",
-    "summary_ru": "Миссия NROL-95 стала третьей полезной нагрузкой Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC).",
+    "summary_ru": "Миссия NROL-95 стала третьей полезной нагрузкой для Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC).",
     "title_ru_kids": "🚀 SpaceX запустила секретную полезную нагрузку для Национального разведывательного управления ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Миссия NROL-95 стала третьей полезной нагрузкой Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Миссия NROL-95 стала третьей полезной нагрузкой для Национального разведывательного управления, запущенной в рамках второй фазы закупки космического запуска национальной безопасности. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:10 утра по восточному времени (07:10 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "SpaceX משיקה מטען מסווג עבור משרד הסיור הלאומי",
     "summary_he": "משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC).",
     "title_he_kids": "🚀 SpaceX משיקה מטען מסווג עבור משרד הסיור הלאומי ✨",
     "summary_he_kids": "🌟 תראו מה קרה! משימת NROL-95 הייתה המטען השלישי עבור משרד הסיור הלאומי שהושק במסגרת רכש שלב 2 של שיגור החלל לביטחון לאומי. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:10 לפנות בוקר EDT (0710 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches classified payload for National Reconnaissance Office ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The NROL-95 mission was the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:10 a.m. EDT (0710 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 16
+    "id": 17
   },
   {
     "source": "SpaceX",
@@ -337,7 +357,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההרמה מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 8:51 בבוקר PDT (11:51 בבוקר EDT / 1551 UTC). הפלקון 9 הציב 24 לווייני Starlink למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches Starlink satellites from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff from Vandenberg Space Force Base in California occurred at 8:51 a.m. PDT (11:51 a.m. EDT / 1551 UTC). The Falcon 9 placed 24 Starlink satellites into orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 17
+    "id": 18
   },
   {
     "source": "Spaceflight Now",
@@ -357,7 +377,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! ההרמה מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 8:51 בבוקר PDT (11:51 בבוקר EDT / 1551 UTC). הפלקון 9 הציב 24 לווייני Starlink למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches Starlink satellites from West Coast ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff from Vandenberg Space Force Base in California occurred at 8:51 a.m. PDT (11:51 a.m. EDT / 1551 UTC). The Falcon 9 placed 24 Starlink satellites into orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 18
+    "id": 19
   },
   {
     "source": "Spaceflight Now",
@@ -377,26 +397,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! מונעת על ידי 33 מנועי רפטור מונעי מתאן, הרקטה הדו-שלבית בגובה 407 רגל התפוצצה מאתר השיגור של SpaceX \"Starbase\", טקסס, בשעה 17:51. EDT, מציגה מופע מרהיב לתושבי האזור ולתיירים כשהיא טיפסה משם על גבי כ-16 מיליון פאונד של דחף. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Super Heavy-Starship rocket chalks up mostly successful test flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Powered by 33 methane-fueled Raptor engines, the 407-foot-tall two-stage rocket blasted off from SpaceX's \"Starbase,\" Texas, launch site at 5:51 p.m. EDT, putting on a spectacular show for area residents and tourists as it climbed away atop some 16 million pounds of thrust. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 19
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-07-24T20:11:08",
-    "date_display": "Fri, 24 Jul 2026 20:11:08 +0000",
-    "link": "https://spaceflightnow.com/2026/07/24/critical-nasa-deep-space-ground-station-in-spain-evacuated-due-to-wildfires/",
-    "title_en": "Critical NASA Deep Space ground station in Spain evacuated due to wildfires",
-    "summary_en": "The Madrid Deep Space Communications Complex is one of three critical sites around the world that communicate with spacecraft beyond the reach of near-Earth communications capabilities.",
-    "image": "",
-    "title_ru": "Важнейшая наземная станция NASA Deep Space в Испании эвакуирована из-за лесных пожаров",
-    "summary_ru": "Мадридский комплекс дальней космической связи является одним из трех важнейших объектов в мире, которые поддерживают связь с космическими кораблями, находящимися за пределами возможностей околоземной связи.",
-    "title_ru_kids": "🚀 Важнейшая наземная станция NASA Deep Space в Испании эвакуирована из-за лесных пожаров ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Мадридский комплекс дальней космической связи является одним из трех важнейших объектов в мире, которые поддерживают связь с космическими кораблями, находящимися за пределами возможностей околоземной связи. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "תחנת הקרקע הקריטית של נאס\"א בחלל העמוק בספרד פונתה עקב שריפות",
-    "summary_he": "מתחם תקשורת החלל העמוק של מדריד הוא אחד משלושה אתרים קריטיים ברחבי העולם המתקשרים עם חלליות מעבר להישג ידן של יכולות תקשורת קרוב לכדור הארץ.",
-    "title_he_kids": "🚀 תחנת הקרקע הקריטית של נאס\"א בחלל העמוק בספרד פונתה עקב שריפות ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! מתחם תקשורת החלל העמוק של מדריד הוא אחד משלושה אתרים קריטיים ברחבי העולם המתקשרים עם חלליות מעבר להישג ידן של יכולות תקשורת קרוב לכדור הארץ. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Critical NASA Deep Space ground station in Spain evacuated due to wildfires ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! The Madrid Deep Space Communications Complex is one of three critical sites around the world that communicate with spacecraft beyond the reach of near-Earth communications capabilities. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 20
   },
   {
