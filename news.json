@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-08-07T15:10:00",
+    "date_display": "Fri, 07 Aug 2026 15:10:00 +0200",
+    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_03-07_August_2026",
+    "title_en": "Week in images: 03-07 August 2026",
+    "summary_en": "Week in images: 03-07 August 2026\n\tDiscover our week through the lens",
+    "image": "",
+    "title_ru": "Неделя в изображениях: 03–07 августа 2026 г.",
+    "summary_ru": "Неделя в изображениях: 03–07 августа 2026 г.\n\tОткройте для себя нашу неделю через призму",
+    "title_ru_kids": "🚀 Неделя в изображениях: 03–07 августа 2026 г. ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 03–07 августа 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "שבוע בתמונות: 03-07 באוגוסט 2026",
+    "summary_he": "שבוע בתמונות: 03-07 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה",
+    "title_he_kids": "🚀 שבוע בתמונות: 03-07 באוגוסט 2026 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 03-07 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Week in images: 03-07 August 2026 ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 03-07 August 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-08-07T13:40:00",
     "date_display": "Fri, 07 Aug 2026 13:40:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Danube_s_waters_fall_to_record_lows",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונות אלו של Copernicus Sentinel-2 מעל הדנובה מצפון לבודפשט מראות כיצד מפלס הנהר ירד לשפל שיא בהונגריה עקב בצורת קשה במרכז אירופה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Danube’s waters fall to record lows ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThese Copernicus Sentinel-2 images over the Danube north of Budapest show how the river’s level has fallen to a record low in Hungary due to a severe drought in central Europe. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ב-7 באוגוסט, הנציבות האירופית וקונסורציום SpaceRISE סיימו את המשא ומתן וחתמו על הסכם יישום להפצת IRIS², קבוצת הדגל החדשה של האיחוד האירופי לווייני. ההסכם, בין היתר, מוסיף 66 לוויינים לכדור הארץ נמוך או... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 IRIS² reinforced and accelerated as implementation advances ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 7 August, the European Commission and the SpaceRISE consortium concluded negotiations and signed an implementation agreement to roll out IRIS², the European Union’s new flagship satellite constellation. The agreement, among other things, adds 66 satellites into low Earth or... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +77,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! העדכון ב-5 באוגוסט של מנכ\"ל Blue Origin, דייב לימפ, הציע את ההסבר הראשון למה שגרם לגובה של 98 מטר (320 רגל) של החברה להתפוצץ ליד המשטח ב-28 במאי. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Blue Origin identifies engine issue behind New Glenn explosion ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Aug. 5 update from Blue Origin CEO Dave Limp offered the first explanation for what caused the company’s 98-meter-tall (320 ft.) to explode at the pad on May 28. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! השינוי מגביר את המעבר המובהק של הסוכנות מפעולות צוות במסלול ירח להתמקדות במשימות מבוססות שטח. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA, Northrop Grumman repurpose Gateway elements for Moon Base demo missions ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The shift amplifies the agency’s marked shift from crewed operations in lunar orbit to focus on surface-based missions. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:00:06\n\t\t\t\tהצילומים מציגים את פריסה בו-זמנית של שתי רגלי נחיתה מפלטפורמת הנחיתה של ExoMars, בשני זוגות עוקבים.  הרגליים נעות מונחות על החללית בחלל עמוק, ונפרסות אוטומטית בזוגות תוך פחות מ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ExoMars stretches out its legs ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:00:06\n\t\t\t\tThe footage shows the simultaneous deployment of two landing legs from the ExoMars landing platform, in two sequential pairs.&nbsp;&nbsp;The legs travel stowed on the spacecraft through deep space, and are automatically deployed in pairs in less than a ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת החודש של טלסקופ החלל של נאס\"א/ESA/CSA ג'יימס ווב לוקחת אותנו לממלכה פנטסטית בתוך הגלקסיה הביתית שלנו, שבה אור כוכבים חודר ורוחות מתנפחות מפסלים ענני אבק לצורות המצאתיות. הסצנה הזו היא מערפילית קארינה, השוכנת רק 7500... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Webb opens a Treasure Chest filled with stars ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis NASA/ESA/CSA James Webb Space Telescope Picture of the Month takes us to a fantastical realm within our home galaxy, where piercing starlight and billowing winds sculpt dust clouds into inventive shapes. This scene is from the Carina Nebula, which lies just 7500... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,26 +157,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית מציעה לחוקרים וחברות אירופאיות הזדמנות נדירה ומרגשת להפעיל את התוכנה החדשנית שלהם ישירות בחלל העמוק על סיפון משימת Hera של ESA, מיליוני קילומטרים משם. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Your chance to run software in deep space on ESA's asteroid mission ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-05T11:30:00",
-    "date_display": "Wed, 05 Aug 2026 11:30:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Europe_s_forests_losing_more_biomass_since_2018",
-    "title_en": "Europe’s forests losing more biomass since 2018",
-    "summary_en": "Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from some of the oldest forests in Europe. This situation has deteriorated markedly since 2018.",
-    "image": "",
-    "title_ru": "Леса Европы теряют больше биомассы с 2018 года",
-    "summary_ru": "Леса Европы теряют больше биомассы, чем считалось ранее, а такие нарушения, как засуха и вредители, приводят к все более значительным потерям некоторых из старейших лесов Европы. Эта ситуация заметно ухудшилась с 2018 года.",
-    "title_ru_kids": "🚀 Леса Европы теряют больше биомассы с 2018 года ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Леса Европы теряют больше биомассы, чем считалось ранее, а такие нарушения, как засуха и вредители, приводят к все более значительным потерям некоторых из старейших лесов Европы. Эта ситуация заметно ухудшилась с 2018 года. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "יערות אירופה מאבדים יותר ביומסה מאז 2018",
-    "summary_he": "היערות של אירופה מאבדים יותר ביומסה ממה שחשבו בעבר, עם הפרעות כמו בצורת ומזיקים שגורמות לאובדן גדול יותר ויותר מכמה מהיערות העתיקים ביותר באירופה. מצב זה הידרדר באופן ניכר מאז 2018.",
-    "title_he_kids": "🚀 יערות אירופה מאבדים יותר ביומסה מאז 2018 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! היערות של אירופה מאבדים יותר ביומסה ממה שחשבו בעבר, עם הפרעות כמו בצורת ומזיקים שגורמות לאובדן גדול יותר ויותר מכמה מהיערות העתיקים ביותר באירופה. מצב זה הידרדר באופן ניכר מאז 2018. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Europe’s forests losing more biomass since 2018 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from some of the oldest forests in Europe. This situation has deteriorated markedly since 2018. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 8
   },
   {
