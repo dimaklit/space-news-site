@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-08-07T16:00:00",
+    "date_display": "Fri, 07 Aug 2026 16:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
+    "title_en": "Join us live and enjoy the total solar eclipse!",
+    "summary_en": "Video: \n\t\t\t00:01:44\n\t\t\t\t[English] On 12 August 2026, Europe will witness one of nature’s most spectacular events: a total solar eclipse starting at 19:30 CEST.As the Moon’s shadow sweeps across Spain, join the European Space Agency live from Observatorio Astrofísico de Javalam...",
+    "image": "",
+    "title_ru": "Присоединяйтесь к нам в прямом эфире и наслаждайтесь полным солнечным затмением!",
+    "summary_ru": "Видео: \n\t\t\t00:01:44\n\t\t\t\t[Русский] 12 августа 2026 года Европа станет свидетелем одного из самых впечатляющих явлений природы: полного солнечного затмения, которое начнется в 19:30 по центральноевропейскому летнему времени. Пока тень Луны проносится по Испании, присоединяйтесь к Европейскому космическому агентству в прямом эфире из Астрофизической обсерватории Хавалама...",
+    "title_ru_kids": "🚀 Присоединяйтесь к нам в прямом эфире и наслаждайтесь полным солнечным затмением! ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:01:44\n\t\t\t\t[Русский] 12 августа 2026 года Европа станет свидетелем одного из самых впечатляющих явлений природы: полного солнечного затмения, которое начнется в 19:30 по центральноевропейскому летнему времени. Пока тень Луны проносится по Испании, присоединяйтесь к Европейскому космическому агентству в прямом эфире из Астрофизической обсерватории Хавалама... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "הצטרפו אלינו בשידור חי ותיהנו מליקוי החמה המלא!",
+    "summary_he": "וידאו: \n\t\t\t00:01:44\n\t\t\t\t[אנגלית] ב-12 באוגוסט 2026, אירופה תהיה עדה לאחד האירועים המרהיבים ביותר של הטבע: ליקוי חמה מלא החל בשעה 19:30 CEST. בזמן שצל הירח שוטף את ספרד, הצטרף לסוכנות החלל האירופית בשידור חי מ-Observatorio Astrofísico de Javalam...",
+    "title_he_kids": "🚀 הצטרפו אלינו בשידור חי ותיהנו מליקוי החמה המלא! ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:44\n\t\t\t\t[אנגלית] ב-12 באוגוסט 2026, אירופה תהיה עדה לאחד האירועים המרהיבים ביותר של הטבע: ליקוי חמה מלא החל בשעה 19:30 CEST. בזמן שצל הירח שוטף את ספרד, הצטרף לסוכנות החלל האירופית בשידור חי מ-Observatorio Astrofísico de Javalam... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Join us live and enjoy the total solar eclipse! ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:01:44\n\t\t\t\t[English] On 12 August 2026, Europe will witness one of nature’s most spectacular events: a total solar eclipse starting at 19:30 CEST.As the Moon’s shadow sweeps across Spain, join the European Space Agency live from Observatorio Astrofísico de Javalam... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-08-07T15:10:00",
     "date_display": "Fri, 07 Aug 2026 15:10:00 +0200",
     "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_03-07_August_2026",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 03-07 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 03-07 August 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 03-07 August 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונות אלו של Copernicus Sentinel-2 מעל הדנובה מצפון לבודפשט מראות כיצד מפלס הנהר ירד לשפל שיא בהונגריה עקב בצורת קשה במרכז אירופה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Danube’s waters fall to record lows ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThese Copernicus Sentinel-2 images over the Danube north of Budapest show how the river’s level has fallen to a record low in Hungary due to a severe drought in central Europe. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ב-7 באוגוסט, הנציבות האירופית וקונסורציום SpaceRISE סיימו את המשא ומתן וחתמו על הסכם יישום להפצת IRIS², קבוצת הדגל החדשה של האיחוד האירופי לווייני. ההסכם, בין היתר, מוסיף 66 לוויינים לכדור הארץ נמוך או... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 IRIS² reinforced and accelerated as implementation advances ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 7 August, the European Commission and the SpaceRISE consortium concluded negotiations and signed an implementation agreement to roll out IRIS², the European Union’s new flagship satellite constellation. The agreement, among other things, adds 66 satellites into low Earth or... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! העדכון ב-5 באוגוסט של מנכ\"ל Blue Origin, דייב לימפ, הציע את ההסבר הראשון למה שגרם לגובה של 98 מטר (320 רגל) של החברה להתפוצץ ליד המשטח ב-28 במאי. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Blue Origin identifies engine issue behind New Glenn explosion ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Aug. 5 update from Blue Origin CEO Dave Limp offered the first explanation for what caused the company’s 98-meter-tall (320 ft.) to explode at the pad on May 28. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! השינוי מגביר את המעבר המובהק של הסוכנות מפעולות צוות במסלול ירח להתמקדות במשימות מבוססות שטח. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA, Northrop Grumman repurpose Gateway elements for Moon Base demo missions ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The shift amplifies the agency’s marked shift from crewed operations in lunar orbit to focus on surface-based missions. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:00:06\n\t\t\t\tהצילומים מציגים את פריסה בו-זמנית של שתי רגלי נחיתה מפלטפורמת הנחיתה של ExoMars, בשני זוגות עוקבים.  הרגליים נעות מונחות על החללית בחלל עמוק, ונפרסות אוטומטית בזוגות תוך פחות מ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ExoMars stretches out its legs ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:00:06\n\t\t\t\tThe footage shows the simultaneous deployment of two landing legs from the ExoMars landing platform, in two sequential pairs.&nbsp;&nbsp;The legs travel stowed on the spacecraft through deep space, and are automatically deployed in pairs in less than a ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,26 +157,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת החודש של טלסקופ החלל של נאס\"א/ESA/CSA ג'יימס ווב לוקחת אותנו לממלכה פנטסטית בתוך הגלקסיה הביתית שלנו, שבה אור כוכבים חודר ורוחות מתנפחות מפסלים ענני אבק לצורות המצאתיות. הסצנה הזו היא מערפילית קארינה, השוכנת רק 7500... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Webb opens a Treasure Chest filled with stars ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis NASA/ESA/CSA James Webb Space Telescope Picture of the Month takes us to a fantastical realm within our home galaxy, where piercing starlight and billowing winds sculpt dust clouds into inventive shapes. This scene is from the Carina Nebula, which lies just 7500... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-05T16:04:00",
-    "date_display": "Wed, 05 Aug 2026 16:04:00 +0200",
-    "link": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Your_chance_to_run_software_in_deep_space_on_ESA_s_asteroid_mission",
-    "title_en": "Your chance to run software in deep space on ESA's asteroid mission",
-    "summary_en": "The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away.",
-    "image": "",
-    "title_ru": "Ваш шанс запустить программное обеспечение в глубоком космосе во время миссии ЕКА на астероиде",
-    "summary_ru": "Европейское космическое агентство предлагает европейским исследователям и компаниям редкую и захватывающую возможность запустить свое инновационное программное обеспечение непосредственно в глубоком космосе на борту миссии ЕКА «Гера», находящейся за миллионы километров от Земли.",
-    "title_ru_kids": "🚀 Ваш шанс запустить программное обеспечение в глубоком космосе во время миссии ЕКА на астероиде ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Европейское космическое агентство предлагает европейским исследователям и компаниям редкую и захватывающую возможность запустить свое инновационное программное обеспечение непосредственно в глубоком космосе на борту миссии ЕКА «Гера», находящейся за миллионы километров от Земли. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "ההזדמנות שלך להפעיל תוכנה בחלל העמוק במשימת האסטרואידים של ESA",
-    "summary_he": "סוכנות החלל האירופית מציעה לחוקרים וחברות אירופאיות הזדמנות נדירה ומרגשת להפעיל את התוכנה החדשנית שלהם ישירות בחלל העמוק על סיפון משימת Hera של ESA, מיליוני קילומטרים משם.",
-    "title_he_kids": "🚀 ההזדמנות שלך להפעיל תוכנה בחלל העמוק במשימת האסטרואידים של ESA ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית מציעה לחוקרים וחברות אירופאיות הזדמנות נדירה ומרגשת להפעיל את התוכנה החדשנית שלהם ישירות בחלל העמוק על סיפון משימת Hera של ESA, מיליוני קילומטרים משם. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Your chance to run software in deep space on ESA's asteroid mission ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 8
   },
   {
@@ -165,18 +165,18 @@
     "date_display": "Wed, 05 Aug 2026 10:00:00 +0200",
     "link": "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
     "title_en": "Total solar eclipse: how to watch live from home",
-    "summary_en": "A total solar eclipse is coming to Europe. The European Space Agency (ESA) will broadcast live from 19:30 CEST on 12 August, allowing you to experience this rare event from anywhere in the world.\nQuick links:\n-&nbsp;Live broadcast on YouTube (12 August, 19:30–20:45 CEST)\n-&nbs...",
+    "summary_en": "A total solar eclipse is coming to Europe. The European Space Agency (ESA) will broadcast live from 19:30 CEST on 12 August, allowing you to experience this rare event from anywhere in the world.\nQuick links:\n-&nbsp;Live ESA broadcast on YouTube (12 August, 19:30–20:45 CEST)&n...",
     "image": "",
     "title_ru": "Полное солнечное затмение: как посмотреть в прямом эфире из дома",
-    "summary_ru": "Полное солнечное затмение приближается к Европе. Европейское космическое агентство (ЕКА) будет вести прямую трансляцию с 19:30 по центральноевропейскому летнему времени 12 августа, что позволит вам увидеть это редкое событие из любой точки мира.\nБыстрые ссылки:\n- Прямая трансляция на YouTube (12 августа, 19:30–20:45 CEST)\n-&nbs...",
+    "summary_ru": "Полное солнечное затмение приближается к Европе. Европейское космическое агентство (ЕКА) будет вести прямую трансляцию с 19:30 по центральноевропейскому летнему времени 12 августа, что позволит вам увидеть это редкое событие из любой точки мира.\nБыстрые ссылки:\n- Прямая трансляция ЕКА на YouTube (12 августа, 19:30–20:45 по центральноевропейскому летнему времени) и...",
     "title_ru_kids": "🚀 Полное солнечное затмение: как посмотреть в прямом эфире из дома ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Полное солнечное затмение приближается к Европе. Европейское космическое агентство (ЕКА) будет вести прямую трансляцию с 19:30 по центральноевропейскому летнему времени 12 августа, что позволит вам увидеть это редкое событие из любой точки мира.\nБыстрые ссылки:\n- Прямая трансляция на YouTube (12 августа, 19:30–20:45 CEST)\n-&nbs... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Космос на древнегреческом означает 'порядок'!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Полное солнечное затмение приближается к Европе. Европейское космическое агентство (ЕКА) будет вести прямую трансляцию с 19:30 по центральноевропейскому летнему времени 12 августа, что позволит вам увидеть это редкое событие из любой точки мира.\nБыстрые ссылки:\n- Прямая трансляция ЕКА на YouTube (12 августа, 19:30–20:45 по центральноевропейскому летнему времени) и... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "ליקוי חמה מוחלט: איך לצפות בשידור חי מהבית",
-    "summary_he": "ליקוי חמה מלא מגיע לאירופה. סוכנות החלל האירופית (ESA) תשדר בשידור חי מ-19:30 CEST ב-12 באוגוסט, מה שיאפשר לכם לחוות את האירוע הנדיר הזה מכל מקום בעולם.\nקישורים מהירים:\n- שידור חי ב-YouTube (12 באוגוסט, 19:30–20:45 CEST)\n-&nbs...",
+    "summary_he": "ליקוי חמה מלא מגיע לאירופה. סוכנות החלל האירופית (ESA) תשדר בשידור חי מ-19:30 CEST ב-12 באוגוסט, מה שיאפשר לכם לחוות את האירוע הנדיר הזה מכל מקום בעולם.\nקישורים מהירים:\n- שידור חי של ESA ב-YouTube (12 באוגוסט, 19:30–20:45 CEST)&n...",
     "title_he_kids": "🚀 ליקוי חמה מוחלט: איך לצפות בשידור חי מהבית ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ליקוי חמה מלא מגיע לאירופה. סוכנות החלל האירופית (ESA) תשדר בשידור חי מ-19:30 CEST ב-12 באוגוסט, מה שיאפשר לכם לחוות את האירוע הנדיר הזה מכל מקום בעולם.\nקישורים מהירים:\n- שידור חי ב-YouTube (12 באוגוסט, 19:30–20:45 CEST)\n-&nbs... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ליקוי חמה מלא מגיע לאירופה. סוכנות החלל האירופית (ESA) תשדר בשידור חי מ-19:30 CEST ב-12 באוגוסט, מה שיאפשר לכם לחוות את האירוע הנדיר הזה מכל מקום בעולם.\nקישורים מהירים:\n- שידור חי של ESA ב-YouTube (12 באוגוסט, 19:30–20:45 CEST)&n... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Total solar eclipse: how to watch live from home ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! A total solar eclipse is coming to Europe. The European Space Agency (ESA) will broadcast live from 19:30 CEST on 12 August, allowing you to experience this rare event from anywhere in the world.\nQuick links:\n-&nbsp;Live broadcast on YouTube (12 August, 19:30–20:45 CEST)\n-&nbs... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! A total solar eclipse is coming to Europe. The European Space Agency (ESA) will broadcast live from 19:30 CEST on 12 August, allowing you to experience this rare event from anywhere in the world.\nQuick links:\n-&nbsp;Live ESA broadcast on YouTube (12 August, 19:30–20:45 CEST)&n... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 9
   },
   {
