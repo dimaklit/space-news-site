@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 10-19",
-    "window_start": "2026-08-10T14:49:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "H3-22 | Michibiki 7 (QZS-7)",
     "window_start": "2026-08-10T19:23:31Z",
     "rocket": "H3-22",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 9)",
+    "window_start": "2026-08-16T01:12:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 40",
+    "location": "Cape Canaveral SFS, FL, USA"
   }
 ]
