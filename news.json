@@ -1,5 +1,25 @@
 [
   {
+    "source": "Spaceflight Now",
+    "date_parsed": "2026-08-12T21:24:47",
+    "date_display": "Wed, 12 Aug 2026 21:24:47 +0000",
+    "link": "https://spaceflightnow.com/2026/08/12/mike-fincke-a-30-year-astronaut-with-experience-across-four-human-rated-spacecraft-retires-from-nasa/",
+    "title_en": "Mike Fincke, a 30-year astronaut with experience across four spacecraft, retires from NASA",
+    "summary_en": "Mike Fincke trained on the Boeing CST-100 Starliner side of the Commercial Crew Program from January 2019 until his reassignment to the SpaceX Crew-11 mission. His fourth and final mission to the International Space Station launched on Aug. 1, 2025.",
+    "image": "",
+    "title_ru": "Майк Финке, 30-летний астронавт с опытом работы на четырех космических кораблях, уходит из НАСА",
+    "summary_ru": "Майк Финке обучался на Boeing CST-100 Starliner в рамках программы коммерческих экипажей с января 2019 года до своего перевода в миссию SpaceX Crew-11. Его четвёртая и последняя миссия на Международную космическую станцию ​​стартовала 1 августа 2025 года.",
+    "title_ru_kids": "🚀 Майк Финке, 30-летний астронавт с опытом работы на четырех космических кораблях, уходит из НАСА ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Майк Финке обучался на Boeing CST-100 Starliner в рамках программы коммерческих экипажей с января 2019 года до своего перевода в миссию SpaceX Crew-11. Его четвёртая и последняя миссия на Международную космическую станцию ​​стартовала 1 августа 2025 года. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "מייק פינקה, אסטרונאוט בן 30 שנה עם ניסיון בארבע חלליות, פורש מנאס\"א",
+    "summary_he": "מייק פינקה התאמן בצד הבואינג CST-100 Starliner של תוכנית הצוות המסחרי מינואר 2019 ועד לשיבוץ מחדש שלו למשימת SpaceX Crew-11. המשימה הרביעית והאחרונה שלו לתחנת החלל הבינלאומית שוגרה ב-1 באוגוסט 2025.",
+    "title_he_kids": "🚀 מייק פינקה, אסטרונאוט בן 30 שנה עם ניסיון בארבע חלליות, פורש מנאס\"א ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! מייק פינקה התאמן בצד הבואינג CST-100 Starliner של תוכנית הצוות המסחרי מינואר 2019 ועד לשיבוץ מחדש שלו למשימת SpaceX Crew-11. המשימה הרביעית והאחרונה שלו לתחנת החלל הבינלאומית שוגרה ב-1 באוגוסט 2025. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Mike Fincke, a 30-year astronaut with experience across four spacecraft, retires from NASA ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! Mike Fincke trained on the Boeing CST-100 Starliner side of the Commercial Crew Program from January 2019 until his reassignment to the SpaceX Crew-11 mission. His fourth and final mission to the International Space Station launched on Aug. 1, 2025. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
     "source": "ESA",
     "date_parsed": "2026-08-12T14:00:00",
     "date_display": "Wed, 12 Aug 2026 14:00:00 +0200",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:05:08\n\t\t\t\t[אנגלית] התנסו בסימולציה מוזיקלית של ליקוי החמה המלא ב-12 באוגוסט 2026 כפי שניתן לראות מ-Observatorio Astrofísico de Javalambre (ספרד). לחץ כאן למידע על השידור החי של ESA ממצפה הכוכבים הזה, או בקר בכתובת esa.int/solareclip... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Musification of the 2026 total solar eclipse ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:05:08\n\t\t\t\t[English] Experience a musical simulation of the 12 August 2026 total solar eclipse as seen from the Observatorio Astrofísico de Javalambre (Spain). Click here for information about ESA’s live broadcast from this observatory, or visit esa.int/solareclip... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! במהלך שיחת רווחי משקיעים ביום שלישי, מנכ\"ל Firefly Aerospace, ג'ייסון קים, אמר כי החברה מצפה כעת להטיס בסך הכל שלוש רקטות אלפא השנה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Firefly Aerospace pushes debut of Alpha Block 2 rocket to the fourth quarter of 2026 ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! During an investor earnings call on Tuesday, Firefly Aerospace CEO Jason Kim said the company now expects to fly a total of three Alpha rockets this year. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "SpaceX",
@@ -57,7 +77,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 17-49 הייתה המשימה ה-73 שהטיסה את לווייני האינטרנט בפס הרחב של SpaceX למסלול. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 21:46. PDT (12:46 בבוקר EDT / 0446 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 17-49 mission was the 73rd mission flying SpaceX’s broadband internet satellites to orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 9:46 p.m. PDT (12:46 a.m. EDT / 0446 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 17-49 הייתה המשימה ה-73 שהטיסה את לווייני האינטרנט בפס הרחב של SpaceX למסלול. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 21:46. PDT (12:46 בבוקר EDT / 0446 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 17-49 mission was the 73rd mission flying SpaceX’s broadband internet satellites to orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 9:46 p.m. PDT (12:46 a.m. EDT / 0446 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:01:24\n\t\t\t\tכאשר הירח עובר בין כדור הארץ לשמש, הוא מטיל צל על פני כדור הארץ. עבור אנשים בחלק החשוך ביותר של הצל הזה, פני השמש חסומים לחלוטין, והאווירה המגושמת שלה נראית לעין. ביום רביעי ה-12 באוגוסט, אירוע כזה... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 A total solar eclipse is coming to Europe ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:01:24\n\t\t\t\tWhen the Moon passes between Earth and the Sun, it casts a shadow onto Earth's surface. For people in the darkest part of this shadow, the face of the Sun is totally blocked out, and its wispy atmosphere becomes visible.On Wednesday 12 August, such a sh... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! באמצעות טלסקופ החלל של נאס\"א/ESA/CSA ג'יימס ווב, צוות בינלאומי של אסטרונומים גילה שאבק ומים יכולים להיווצר ולשרוד בסמוך להפתיע לחור השחור הסופר-מאסיבי במרכז גלקסיית שביל החלב שלנו. התצפיות מגלות כי הסט... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Dust and water spotted close to giant black hole ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the centre of our Milky Way galaxy. The observations reveal that the evolved st... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +157,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! ההודעה הגיעה בהגשה לרשות ניירות ערך של ארה\"ב לקראת קריאה רבעונית לרווחי המשקיעים ב-10 באוגוסט. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Window for 2026 launch debut of Rocket Lab’s Neutron rocket ‘is narrowing’ as development continues ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The announcement came in a filing to the U.S. Securities and Exchange Commission ahead of a quarterly investor earnings call on Aug. 10. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tבהתבוננות על פני \"מישורי\" הכוכבים של החלל, טלסקופ החלל ג'יימס ווב של נאס\"א/ESA/CSA צילם תמונות של NGC 2392, שזכה לכינוי ערפילית האריה. טלסקופ החלל האבל של נאס\"א/ESA צפה בעבר בערפילית פלנטרית זו בשנת 2000, תוך שהוא מדמיין את המטרה בצורת פני האריה... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Lion Nebula roars to life for Webb ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tObserving across the starry “plains” of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula.The NASA/ESA Hubble Space Telescope previously viewed this planetary nebula in 2000, imaging the lion face-shaped target... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לווייני תצפית על כדור הארץ עוזרים לנו לעקוב אחר תופעות כמו שריפות, בצורת וגלי חום מהחלל. עמוד זה מתעדכן על בסיס קבוע עם מבחר מהתמונות העדכניות ביותר הקשורות לחדשות של ESA המראות כיצד השפעות שינויי האקלים משפיעות על העולם שלנו. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Wildfires, drought and extreme heat, 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how the effects of climate change are impacting our world. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "SpaceX",
@@ -197,7 +217,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת Starlink 10-19 הייתה אמורה להיות הטיסה ה-72 של SpaceX של לווייני הפס הרחב שלה השנה. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 11:58 בבוקר EDT (1558 UTC) ביום שלישי, 11 באוגוסט. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Tuesday noontime Starlink mission following Monday scrub ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-19 mission was set to be SpaceX’s 72nd flight of its broadband internet satellites this year. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 11:58 a.m. EDT (1558 UTC) on Tuesday, Aug. 11. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -217,7 +237,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! משימת Starlink 10-19 הייתה אמורה להיות הטיסה ה-72 של SpaceX של לווייני הפס הרחב שלה השנה. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 11:58 בבוקר EDT (1558 UTC) ביום שלישי, 11 באוגוסט. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches Tuesday noontime Starlink mission following Monday scrub ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 10-19 mission was set to be SpaceX’s 72nd flight of its broadband internet satellites this year. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 11:58 a.m. EDT (1558 UTC) on Tuesday, Aug. 11. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "SpaceX",
@@ -237,7 +257,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הסרת משימת Starlink 17-38 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 9:35 בבוקר PDT (12:35 בצהריים EDT / 1635 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX West Coast launch surge continues with Starlink mission ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Starlink 17-38 mission from Vandenberg Space Force Base in California happened at 9:35 a.m. PDT (12:35 p.m. EDT / 1635 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "Spaceflight Now",
@@ -257,7 +277,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הסרת משימת Starlink 17-38 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 9:35 בבוקר PDT (12:35 בצהריים EDT / 1635 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX West Coast launch surge continues with Starlink mission ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Starlink 17-38 mission from Vandenberg Space Force Base in California happened at 9:35 a.m. PDT (12:35 p.m. EDT / 1635 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 13
+    "id": 14
   },
   {
     "source": "ESA",
@@ -277,7 +297,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 03-07 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 03-07 August 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 03-07 August 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 14
+    "id": 15
   },
   {
     "source": "ESA",
@@ -297,7 +317,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונות אלו של Copernicus Sentinel-2 מעל הדנובה מצפון לבודפשט מראות כיצד מפלס הנהר ירד לשפל שיא בהונגריה עקב בצורת קשה במרכז אירופה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Danube’s waters fall to record lows ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThese Copernicus Sentinel-2 images over the Danube north of Budapest show how the river’s level has fallen to a record low in Hungary due to a severe drought in central Europe. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 15
+    "id": 16
   },
   {
     "source": "Spaceflight Now",
@@ -317,7 +337,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! העדכון ב-5 באוגוסט של מנכ\"ל Blue Origin, דייב לימפ, הציע את ההסבר הראשון למה שגרם לגובה של 98 מטרים של החברה (320 רגל) להתפוצץ ליד המשטח ב-28 במאי. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Blue Origin identifies engine issue behind New Glenn explosion ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Aug. 5 update from Blue Origin CEO Dave Limp offered the first explanation for what caused the company’s 98-meter-tall (320 ft.) to explode at the pad on May 28. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 16
+    "id": 17
   },
   {
     "source": "Spaceflight Now",
@@ -337,7 +357,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! השינוי מגביר את המעבר המסומן של הסוכנות מפעולות צוות במסלול ירח להתמקדות במשימות מבוססות שטח. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA, Northrop Grumman repurpose Gateway elements for Moon Base demo missions ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The shift amplifies the agency’s marked shift from crewed operations in lunar orbit to focus on surface-based missions. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 17
+    "id": 18
   },
   {
     "source": "SpaceX",
@@ -357,26 +377,6 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! משימת BlueBird 11-13 הייתה הפעם השלישית ש-SpaceX הטיסה לוויינים למסלול התומכים בקונסטלציה ישירה למכשיר של AST SpaceMobile. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:49 לפנות בוקר EDT (0749 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 18
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-08-05T06:55:35",
-    "date_display": "Wed, 05 Aug 2026 06:55:35 +0000",
-    "link": "https://spaceflightnow.com/2026/08/05/live-coverage-spacex-to-launch-3-ast-spacemobile-bluebird-satellites-on-falcon-9-rocket-from-cape-canaveral/",
-    "title_en": "SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral",
-    "summary_en": "The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC).",
-    "image": "",
-    "title_ru": "SpaceX запустила три спутника AST SpaceMobile BlueBird на ракете Falcon 9 с мыса Канаверал",
-    "summary_ru": "Миссия BlueBird 11-13 стала третьим разом, когда SpaceX вывела спутники на орбиту, поддерживая группировку AST SpaceMobile с прямой связью с устройствами. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:49 утра по восточному времени (07:49 UTC).",
-    "title_ru_kids": "🚀 SpaceX запустила три спутника AST SpaceMobile BlueBird на ракете Falcon 9 с мыса Канаверал ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Миссия BlueBird 11-13 стала третьим разом, когда SpaceX вывела спутники на орбиту, поддерживая группировку AST SpaceMobile с прямой связью с устройствами. Старт с площадки 40 на станции космических сил на мысе Канаверал произошел в 3:49 утра по восточному времени (07:49 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
-    "title_he": "SpaceX משגרת 3 לווייני AST SpaceMobile BlueBird על רקטת פלקון 9 מקייפ קנוורל",
-    "summary_he": "משימת BlueBird 11-13 הייתה הפעם השלישית ש-SpaceX הטיסה לוויינים למסלול התומכים בקונסטלציה ישירה למכשיר של AST SpaceMobile. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:49 לפנות בוקר EDT (0749 UTC).",
-    "title_he_kids": "🚀 SpaceX משגרת 3 לווייני AST SpaceMobile BlueBird על רקטת פלקון 9 מקייפ קנוורל ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! משימת BlueBird 11-13 הייתה הפעם השלישית ש-SpaceX הטיסה לוויינים למסלול התומכים בקונסטלציה ישירה למכשיר של AST SpaceMobile. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל התרחשה בשעה 3:49 לפנות בוקר EDT (0749 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral ✨",
-    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 19
   },
   {
