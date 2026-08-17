@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-08-17T16:00:00",
+    "date_display": "Mon, 17 Aug 2026 16:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Total_solar_eclipse_2026_Official_ESA_broadcast",
+    "title_en": "Total solar eclipse 2026 (Official ESA broadcast)",
+    "summary_en": "Video: \n\t\t\t01:10:42\n\t\t\t\tWe broadcast live from the Observatorio Astrofísico de Javalambre in Spain as a total solar eclipse crossed Europe on 12 August 2026.&nbsp;The path of totality swept across Greenland, Iceland, Spain and a small area of northeastern Portugal, while much ...",
+    "image": "",
+    "title_ru": "Полное солнечное затмение 2026 года (официальная трансляция ЕКА)",
+    "summary_ru": "Видео: \n\t\t\t01:10:42\n\t\t\t\tМы ведем прямую трансляцию из Астрофизической обсерватории Хаваламбре в Испании, когда полное солнечное затмение пересекло Европу 12 августа 2026 года. Путь полного солнечного затмения пролегал через Гренландию, Исландию, Испанию и небольшую территорию на северо-востоке Португалии, в то время как большая часть ...",
+    "title_ru_kids": "🚀 Полное солнечное затмение 2026 года (официальная трансляция ЕКА) ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t01:10:42\n\t\t\t\tМы ведем прямую трансляцию из Астрофизической обсерватории Хаваламбре в Испании, когда полное солнечное затмение пересекло Европу 12 августа 2026 года. Путь полного солнечного затмения пролегал через Гренландию, Исландию, Испанию и небольшую территорию на северо-востоке Португалии, в то время как большая часть ... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Скафандр весит как большой пес!",
+    "title_he": "ליקוי חמה מוחלט 2026 (שידור רשמי של ESA)",
+    "summary_he": "וידאו: \n\t\t\t01:10:42\n\t\t\t\tשידרנו בשידור חי מה-Observatorio Astrofísico de Javalambre בספרד כאשר ליקוי חמה מלא חצה את אירופה ב-12 באוגוסט 2026. נתיב השלם שטף את גרינלנד, איסלנד, ספרד ואזור קטן בצפון מזרח פורטוגל, בעוד הרבה ...",
+    "title_he_kids": "🚀 ליקוי חמה מוחלט 2026 (שידור רשמי של ESA) ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t01:10:42\n\t\t\t\tשידרנו בשידור חי מה-Observatorio Astrofísico de Javalambre בספרד כאשר ליקוי חמה מלא חצה את אירופה ב-12 באוגוסט 2026. נתיב השלם שטף את גרינלנד, איסלנד, ספרד ואזור קטן בצפון מזרח פורטוגל, בעוד הרבה ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Total solar eclipse 2026 (Official ESA broadcast) ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t01:10:42\n\t\t\t\tWe broadcast live from the Observatorio Astrofísico de Javalambre in Spain as a total solar eclipse crossed Europe on 12 August 2026.&nbsp;The path of totality swept across Greenland, Iceland, Spain and a small area of northeastern Portugal, while much ... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-08-17T08:00:00",
     "date_display": "Mon, 17 Aug 2026 08:00:00 +0200",
     "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_Sophie_Adenot_s_spacewalk_live",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! צפו באסטרונאוטית ESA, סופי אדנוט, נכנסת לוואקום של החלל לקראת הליכת החלל הראשונה שלה ביום שלישי, 18 באוגוסט. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Watch Sophie Adenot’s spacewalk live  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Watch ESA astronaut Sophie Adenot venture into&nbsp;the vacuum of&nbsp;space for her first-ever&nbsp;spacewalk on Tuesday, 18 August. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "SpaceX",
@@ -37,7 +57,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! קבוצת שמונה לווייני Globalstar תסייע לרענן את קבוצת הכוכבים הנמוכה של מסלול כדור הארץ של החברה. ההמראה מכרית 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 21:12. EDT (0112 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches record-breaking back-to-back Falcon 9 rockets for Globalstar, U.S. Space Force ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The batch of eight Globalstar satellites will help refresh the company’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 9:12 p.m. EDT (0112 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +77,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! קבוצת שמונה לווייני Globalstar תסייע לרענן את קבוצת הכוכבים הנמוכה של מסלול כדור הארץ של החברה. ההמראה מכרית 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 21:12. EDT (0112 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches record-breaking back-to-back Falcon 9 rockets for Globalstar, U.S. Space Force ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The batch of eight Globalstar satellites will help refresh the company’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 9:12 p.m. EDT (0112 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הצהרת התמיכה הגיעה בעיצומה של ההכרזה על תערוכת אוויר וחלל, הנתמכת על ידי נאס\"א, בניהול פרטי בתחילת נובמבר. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 NASA Administrator ‘extremely confident’ in Artemis 3 mission in 2027 ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The statement of support came in the midst of announcing a NASA-supported, privately run air and space show happening in early November. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 10-14 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 10-14 August 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 10-14 August 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ב-12 באוגוסט 2026, אירופה הייתה עדה לליקוי החמה המלא הראשון מזה למעלה משני עשורים. מיליוני אנשים נדהמו מהירח שכיסה לחלוטין את הדיסק הבהיר של השמש, הפך לזמן קצר את היום ללילה וחשף את האטמוספירה החיצונית של השמש. ניתן היה לראות את הטוטאליות מגרין... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 A look back at the 2026 total solar eclipse ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly turning day into night and revealing the Sun's outer atmosphere. Totality could be seen from Green... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:00:04\n\t\t\t\tאתמול בין השעות 20:26 ל-20:34 CEST, חלקים מחצי האי האיברי חוו ליקוי חמה מלא. אנימציה זו, המורכבת מתמונות מהלוויין של הדור השלישי של Meteosat Imager (MTG-I1), תפסה את הצל האפל של הירח כשחלף מעל Ea... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 MTG-I1 captures eclipse path of totality over Europe ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:00:04\n\t\t\t\tYesterday between 20:26 and 20:34 CEST, parts of the Iberian peninsula experienced a total solar eclipse. This animation, composed of images from the Meteosat Third Generation Imager satellite (MTG-I1), caught the Moon’s dark shadow as it passed over Ea... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -157,26 +177,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! מייק פינקה התאמן בצד הבואינג CST-100 Starliner של תוכנית הצוות המסחרי מינואר 2019 ועד השיבוץ שלו למשימת SpaceX Crew-11. המשימה הרביעית והאחרונה שלו לתחנת החלל הבינלאומית שוגרה ב-1 באוגוסט 2025. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Mike Fincke, a 30-year astronaut with experience across four spacecraft, retires from NASA ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Mike Fincke trained on the Boeing CST-100 Starliner side of the Commercial Crew Program from January 2019 until his reassignment to the SpaceX Crew-11 mission. His fourth and final mission to the International Space Station launched on Aug. 1, 2025. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-12T14:00:00",
-    "date_display": "Wed, 12 Aug 2026 14:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Musification_of_the_2026_total_solar_eclipse",
-    "title_en": "Musification of the 2026 total solar eclipse",
-    "summary_en": "Video: \n\t\t\t00:05:08\n\t\t\t\t[English] Experience a musical simulation of the 12 August 2026 total solar eclipse as seen from the Observatorio Astrofísico de Javalambre (Spain). Click here for information about ESA’s live broadcast from this observatory, or visit esa.int/solareclip...",
-    "image": "",
-    "title_ru": "Музификация полного солнечного затмения 2026 года",
-    "summary_ru": "Видео: \n\t\t\t00:05:08\n\t\t\t\t[Русский] Испытайте музыкальную симуляцию полного солнечного затмения 12 августа 2026 года, которую можно увидеть из Астрофизической обсерватории Хаваламбре (Испания). Нажмите здесь, чтобы получить информацию о прямой трансляции ЕКА из этой обсерватории, или посетите сайт esa.int/solareclip...",
-    "title_ru_kids": "🚀 Музификация полного солнечного затмения 2026 года ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:05:08\n\t\t\t\t[Русский] Испытайте музыкальную симуляцию полного солнечного затмения 12 августа 2026 года, которую можно увидеть из Астрофизической обсерватории Хаваламбре (Испания). Нажмите здесь, чтобы получить информацию о прямой трансляции ЕКА из этой обсерватории, или посетите сайт esa.int/solareclip... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ В космосе абсолютная, полная тишина!",
-    "title_he": "מוסיפיקציה של ליקוי החמה המלא בשנת 2026",
-    "summary_he": "וידאו: \n\t\t\t00:05:08\n\t\t\t\t[אנגלית] התנסו בסימולציה מוזיקלית של ליקוי החמה המלא ב-12 באוגוסט 2026 כפי שניתן לראות מה-Observatorio Astrofísico de Javalambre (ספרד). לחץ כאן למידע על השידור החי של ESA ממצפה הכוכבים הזה, או בקר בכתובת esa.int/solareclip...",
-    "title_he_kids": "🚀 מוסיפיקציה של ליקוי החמה המלא בשנת 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:05:08\n\t\t\t\t[אנגלית] התנסו בסימולציה מוזיקלית של ליקוי החמה המלא ב-12 באוגוסט 2026 כפי שניתן לראות מה-Observatorio Astrofísico de Javalambre (ספרד). לחץ כאן למידע על השידור החי של ESA ממצפה הכוכבים הזה, או בקר בכתובת esa.int/solareclip... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Musification of the 2026 total solar eclipse ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:05:08\n\t\t\t\t[English] Experience a musical simulation of the 12 August 2026 total solar eclipse as seen from the Observatorio Astrofísico de Javalambre (Spain). Click here for information about ESA’s live broadcast from this observatory, or visit esa.int/solareclip... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 9
   },
   {
