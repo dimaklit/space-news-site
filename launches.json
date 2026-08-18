@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 2C | Unknown Payload",
-    "window_start": "2026-08-17T02:53:00Z",
-    "rocket": "Long March 2C",
-    "pad": "Launch Complex 9",
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Zhuque-3 | Flight 2",
     "window_start": "2026-08-18T23:27:00Z",
     "rocket": "Zhuque-3",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Long March 5 | Chang'e 7",
+    "window_start": "2026-08-24T00:00:00Z",
+    "rocket": "Long March 5",
+    "pad": "101",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
