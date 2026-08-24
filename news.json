@@ -1,5 +1,25 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-08-24T10:14:00",
+    "date_display": "Mon, 24 Aug 2026 10:14:00 +0200",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Watch_live_MTG-I2_set_for_liftoff",
+    "title_en": "Watch live: MTG-I2 set for liftoff",
+    "summary_en": "The next Meteosat Third Generation Imager satellite (MTG-I2) is set for liftoff on flight VA270 on an Ariane 6, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, which will deliver data for weather forecasting over Europe and northe...",
+    "image": "",
+    "title_ru": "Watch live: MTG-I2 set for liftoff",
+    "summary_ru": "The next Meteosat Third Generation Imager satellite (MTG-I2) is set for liftoff on flight VA270 on an Ariane 6, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, which will deliver data for weather forecasting over Europe and northe...",
+    "title_ru_kids": "🚀 Watch live: MTG-I2 set for liftoff ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! The next Meteosat Third Generation Imager satellite (MTG-I2) is set for liftoff on flight VA270 on an Ariane 6, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, which will deliver data for weather forecasting over Europe and northe... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "Watch live: MTG-I2 set for liftoff",
+    "summary_he": "The next Meteosat Third Generation Imager satellite (MTG-I2) is set for liftoff on flight VA270 on an Ariane 6, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, which will deliver data for weather forecasting over Europe and northe...",
+    "title_he_kids": "🚀 Watch live: MTG-I2 set for liftoff ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! The next Meteosat Third Generation Imager satellite (MTG-I2) is set for liftoff on flight VA270 on an Ariane 6, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, which will deliver data for weather forecasting over Europe and northe... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Watch live: MTG-I2 set for liftoff ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The next Meteosat Third Generation Imager satellite (MTG-I2) is set for liftoff on flight VA270 on an Ariane 6, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, which will deliver data for weather forecasting over Europe and northe... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
     "source": "SpaceX",
     "date_parsed": "2026-08-21T18:53:18",
     "date_display": "Fri, 21 Aug 2026 18:53:18 +0000",
@@ -17,7 +37,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! The Starlink 15-20 mission represented the 99th Falcon 9 rocket launch of the year. Liftoff from pad 4 East happened at 12:25 a.m. PDT (3:25 a.m. EDT / 0725 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 100th orbital mission of 2026 ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 15-20 mission represented the 99th Falcon 9 rocket launch of the year. Liftoff from pad 4 East happened at 12:25 a.m. PDT (3:25 a.m. EDT / 0725 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! The Starlink 15-20 mission represented the 99th Falcon 9 rocket launch of the year. Liftoff from pad 4 East happened at 12:25 a.m. PDT (3:25 a.m. EDT / 0725 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 100th orbital mission of 2026 ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 15-20 mission represented the 99th Falcon 9 rocket launch of the year. Liftoff from pad 4 East happened at 12:25 a.m. PDT (3:25 a.m. EDT / 0725 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Watch Sophie Adenot’s second spacewalk live ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Week in images: 17-21 August 2026\n\tDiscover our week through the lens 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 17-21 August 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 17-21 August 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026.The event marks the glacier’s largest loss of floating ice since 2012 an... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Sentinel-1 captures major ice loss from Greenland glacier ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026.The event marks the glacier’s largest loss of floating ice since 2012 an... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -117,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! The Starlink 10-39 mission includes the 2,000th Starlink satellite to fly this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:14 a.m. EDT (1514 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 29 Starlink satellites from Cape Canaveral following last-minute scrub ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-39 mission includes the 2,000th Starlink satellite to fly this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:14 a.m. EDT (1514 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +157,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! The Starlink 10-39 mission includes the 2,000th Starlink satellite to fly this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:14 a.m. EDT (1514 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 29 Starlink satellites from Cape Canaveral following last-minute scrub ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 10-39 mission includes the 2,000th Starlink satellite to fly this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:14 a.m. EDT (1514 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Europe’s newest eye on the health of Earth’s vegetation has taken another crucial step towards orbit – the European Space Agency’s FLEX satellite has been fuelled at Europe’s Spaceport in French Guiana ahead of its planned launch on 15 September at 03:21 CEST (14 September at ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ESA’s photosynthesis satellite fuelled  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Europe’s newest eye on the health of Earth’s vegetation has taken another crucial step towards orbit – the European Space Agency’s FLEX satellite has been fuelled at Europe’s Spaceport in French Guiana ahead of its planned launch on 15 September at 03:21 CEST (14 September at ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -177,7 +197,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! The August 19 landing of its ZhuQue-3 rocket marked the first landing of a Chinese-made rocket using landing legs as well. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 LandSpace becomes first commercial Chinese company to land an orbital-class booster ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The August 19 landing of its ZhuQue-3 rocket marked the first landing of a Chinese-made rocket using landing legs as well. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "ESA",
@@ -197,26 +217,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Video: \n\t\t\t00:51:38\n\t\t\t\tOn Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2). The satellite is set to be launched on an Ariane 6 from Europe’s Spaceport in French Guia... 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Replay: MTG-I2 pre-launch media briefing ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:51:38\n\t\t\t\tOn Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2). The satellite is set to be launched on an Ariane 6 from Europe’s Spaceport in French Guia... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 10
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-19T11:00:00",
-    "date_display": "Wed, 19 Aug 2026 11:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Fly_around_Schiaparelli_Crater_with_Mars_Express",
-    "title_en": "Fly around Schiaparelli Crater with Mars Express ",
-    "summary_en": "Video: \n\t\t\t00:04:10\n\t\t\t\tESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars.&nbsp;Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. Perhaps it has been filled in over the last ...",
-    "image": "",
-    "title_ru": "Fly around Schiaparelli Crater with Mars Express ",
-    "summary_ru": "Video: \n\t\t\t00:04:10\n\t\t\t\tESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars.&nbsp;Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. Perhaps it has been filled in over the last ...",
-    "title_ru_kids": "🚀 Fly around Schiaparelli Crater with Mars Express  ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Video: \n\t\t\t00:04:10\n\t\t\t\tESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars.&nbsp;Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. Perhaps it has been filled in over the last ... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "Fly around Schiaparelli Crater with Mars Express ",
-    "summary_he": "Video: \n\t\t\t00:04:10\n\t\t\t\tESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars.&nbsp;Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. Perhaps it has been filled in over the last ...",
-    "title_he_kids": "🚀 Fly around Schiaparelli Crater with Mars Express  ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Video: \n\t\t\t00:04:10\n\t\t\t\tESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars.&nbsp;Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. Perhaps it has been filled in over the last ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Fly around Schiaparelli Crater with Mars Express  ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:04:10\n\t\t\t\tESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars.&nbsp;Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. Perhaps it has been filled in over the last ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 11
   },
   {
