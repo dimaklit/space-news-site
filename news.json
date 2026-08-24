@@ -41,6 +41,26 @@
   },
   {
     "source": "ESA",
+    "date_parsed": "2026-08-21T16:00:00",
+    "date_display": "Fri, 21 Aug 2026 16:00:00 +0200",
+    "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Watch_Sophie_Adenot_s_second_spacewalk_live",
+    "title_en": "Watch Sophie Adenot’s second spacewalk live",
+    "summary_en": "After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98.",
+    "image": "",
+    "title_ru": "Watch Sophie Adenot’s second spacewalk live",
+    "summary_ru": "After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98.",
+    "title_ru_kids": "🚀 Watch Sophie Adenot’s second spacewalk live ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "Watch Sophie Adenot’s second spacewalk live",
+    "summary_he": "After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98.",
+    "title_he_kids": "🚀 Watch Sophie Adenot’s second spacewalk live ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Watch Sophie Adenot’s second spacewalk live ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! After a successful EVA-97 on Tuesday 18 August, watch ESA astronaut Sophie Adenot venture into the vacuum of space for the second time on Tuesday 25 August, during EVA-98. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 3
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-08-21T15:10:00",
     "date_display": "Fri, 21 Aug 2026 15:10:00 +0200",
     "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_17-21_August_2026",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Week in images: 17-21 August 2026\n\tDiscover our week through the lens 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 17-21 August 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 17-21 August 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026.The event marks the glacier’s largest loss of floating ice since 2012 an... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Sentinel-1 captures major ice loss from Greenland glacier ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026.The event marks the glacier’s largest loss of floating ice since 2012 an... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "SpaceX",
@@ -97,7 +117,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! The Starlink 10-39 mission includes the 2,000th Starlink satellite to fly this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:14 a.m. EDT (1514 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 29 Starlink satellites from Cape Canaveral following last-minute scrub ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Starlink 10-39 mission includes the 2,000th Starlink satellite to fly this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:14 a.m. EDT (1514 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! The Starlink 10-39 mission includes the 2,000th Starlink satellite to fly this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:14 a.m. EDT (1514 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 29 Starlink satellites from Cape Canaveral following last-minute scrub ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Starlink 10-39 mission includes the 2,000th Starlink satellite to fly this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:14 a.m. EDT (1514 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Europe’s newest eye on the health of Earth’s vegetation has taken another crucial step towards orbit – the European Space Agency’s FLEX satellite has been fuelled at Europe’s Spaceport in French Guiana ahead of its planned launch on 15 September at 03:21 CEST (14 September at ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ESA’s photosynthesis satellite fuelled  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Europe’s newest eye on the health of Earth’s vegetation has taken another crucial step towards orbit – the European Space Agency’s FLEX satellite has been fuelled at Europe’s Spaceport in French Guiana ahead of its planned launch on 15 September at 03:21 CEST (14 September at ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -157,7 +177,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! The August 19 landing of its ZhuQue-3 rocket marked the first landing of a Chinese-made rocket using landing legs as well. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 LandSpace becomes first commercial Chinese company to land an orbital-class booster ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The August 19 landing of its ZhuQue-3 rocket marked the first landing of a Chinese-made rocket using landing legs as well. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Video: \n\t\t\t00:51:38\n\t\t\t\tOn Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2). The satellite is set to be launched on an Ariane 6 from Europe’s Spaceport in French Guia... 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Replay: MTG-I2 pre-launch media briefing ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:51:38\n\t\t\t\tOn Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2). The satellite is set to be launched on an Ariane 6 from Europe’s Spaceport in French Guia... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "ESA",
@@ -197,7 +217,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Video: \n\t\t\t00:04:10\n\t\t\t\tESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars.&nbsp;Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. Perhaps it has been filled in over the last ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Fly around Schiaparelli Crater with Mars Express  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:04:10\n\t\t\t\tESA’s Mars Express takes us on another mesmerising flight, this time around one of the biggest craters on Mars.&nbsp;Despite measuring a huge 460 km across, Schiaparelli Crater seems to be relatively shallow. Perhaps it has been filled in over the last ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -217,26 +237,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! It was the 282nd EVA devoted to station assembly and maintenance, the fifth so far this year, the second for Menon and the first for Adenot, now the first French woman to walk in space. Total ISS EVA time now stands at 74 days 10 hours and 44 minutes since station assembly beg... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Astronauts remove failed antenna; run out of time to install a spare ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! It was the 282nd EVA devoted to station assembly and maintenance, the fifth so far this year, the second for Menon and the first for Adenot, now the first French woman to walk in space. Total ISS EVA time now stands at 74 days 10 hours and 44 minutes since station assembly beg... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-18T15:00:00",
-    "date_display": "Tue, 18 Aug 2026 15:00:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Wildfires_drought_and_extreme_heat_2026",
-    "title_en": "Wildfires, drought and extreme heat, 2026",
-    "summary_en": "Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how the effects of climate change are impacting our world.",
-    "image": "",
-    "title_ru": "Wildfires, drought and extreme heat, 2026",
-    "summary_ru": "Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how the effects of climate change are impacting our world.",
-    "title_ru_kids": "🚀 Wildfires, drought and extreme heat, 2026 ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how the effects of climate change are impacting our world. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "Wildfires, drought and extreme heat, 2026",
-    "summary_he": "Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how the effects of climate change are impacting our world.",
-    "title_he_kids": "🚀 Wildfires, drought and extreme heat, 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how the effects of climate change are impacting our world. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Wildfires, drought and extreme heat, 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how the effects of climate change are impacting our world. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 12
   },
   {
