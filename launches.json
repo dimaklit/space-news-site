@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Long March 6C | Unknown Payload",
-    "window_start": "2026-08-25T03:15:00Z",
-    "rocket": "Long March 6C",
-    "pad": "Launch Complex 9A",
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
-  },
-  {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 10-49",
-    "window_start": "2026-08-25T05:49:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 15-22",
     "window_start": "2026-08-26T09:27:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +19,19 @@
     "rocket": "Falcon Heavy",
     "pad": "Launch Complex 39A",
     "location": "Kennedy Space Center, FL, USA"
+  },
+  {
+    "name_en": "Angara 1.2 | Kosmos (Unknown Payload)",
+    "window_start": "2026-08-31T00:00:00Z",
+    "rocket": "Angara 1.2",
+    "pad": "35/1",
+    "location": "Plesetsk Cosmodrome, Russian Federation"
+  },
+  {
+    "name_en": "Electron | LOXSAT 1",
+    "window_start": "2026-08-31T00:00:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
   }
 ]
