@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-08-27T22:48:00",
+    "date_display": "Thu, 27 Aug 2026 22:48:00 +0200",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_completes_Europe_s_latest_weather_trio",
+    "title_en": "MTG-I2 completes Europe’s latest weather trio",
+    "summary_en": "The second Meteosat Third Generation Imager satellite (MTG-I2) has been launched on board Ariane 6, flight VA270, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, delivering data for weather forecasting over Europe and northern Afr...",
+    "image": "",
+    "title_ru": "MTG-I2 завершает новейшее европейское метеорологическое трио",
+    "summary_ru": "Второй спутник Meteosat третьего поколения (MTG-I2) был запущен на борту Ariane 6, рейс VA270, с европейского космодрома во Французской Гвиане. Он станет завершением первого семейства спутников MTG, доставляющих данные для прогнозирования погоды в Европе и Северной Африке.",
+    "title_ru_kids": "🚀 MTG-I2 завершает новейшее европейское метеорологическое трио ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Второй спутник Meteosat третьего поколения (MTG-I2) был запущен на борту Ariane 6, рейс VA270, с европейского космодрома во Французской Гвиане. Он станет завершением первого семейства спутников MTG, доставляющих данные для прогнозирования погоды в Европе и Северной Африке. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "MTG-I2 משלים את שלישיית מזג האוויר האחרונה של אירופה",
+    "summary_he": "הלוויין השני של Meteosat הדור השלישי של Imager (MTG-I2) שוגר על סיפון Ariane 6, טיסה VA270, מנמל החלל של אירופה בגיאנה הצרפתית. הוא ישלים את המשפחה הראשונה של לווייני MTG, ויספק נתונים לחיזוי מזג אוויר מעל אירופה וצפון אפ...",
+    "title_he_kids": "🚀 MTG-I2 משלים את שלישיית מזג האוויר האחרונה של אירופה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הלוויין השני של Meteosat הדור השלישי של Imager (MTG-I2) שוגר על סיפון Ariane 6, טיסה VA270, מנמל החלל של אירופה בגיאנה הצרפתית. הוא ישלים את המשפחה הראשונה של לווייני MTG, ויספק נתונים לחיזוי מזג אוויר מעל אירופה וצפון אפ... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 MTG-I2 completes Europe’s latest weather trio ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The second Meteosat Third Generation Imager satellite (MTG-I2) has been launched on board Ariane 6, flight VA270, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, delivering data for weather forecasting over Europe and northern Afr... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-08-27T09:30:00",
     "date_display": "Thu, 27 Aug 2026 09:30:00 +0200",
     "link": "https://www.esa.int/Science_Exploration/Space_Science/Expedition_Sound_podcast_series",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Expedition Sound היא סדרת פודקאסט של סוכנות החלל האירופית (ESA) שבה אתם מוזמנים לחקור את היקום דרך האוזניים. בהנחיית סוניפיקציות - תרגום נתונים לצליל - המארח Zsófi Szalavari נוסע מהשמש שלנו החוצה אל מעמקי החלל אל... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Expedition Sound podcast series ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavári travels from our Sun out into the depths of space to u... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 First contracts kick off European Launcher Challenge ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,26 +77,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לוויין ה-Meteosat הדור השלישי של Imager2 (MTG-I2) מוקף בתוך יריעת Ariane 6 ונמצא במקומו על משטח השיגור שלו. הוא אמור להמריא ביום חמישי בערב, 27 באוגוסט, מנמל החלל של אירופה בגיאנה הצרפתית. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 MTG-I2 ready for launch on Ariane 6 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Meteosat Third Generation Imager2 satellite (MTG-I2) has been encapsulated inside the Ariane 6 fairing and is in place on its launch pad. It is scheduled to lift off on Thursday evening, 27 August, from Europe’s Spaceport in French Guiana. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-26T10:40:00",
-    "date_display": "Wed, 26 Aug 2026 10:40:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Second_spacewalk_completed_for_Sophie_Adenot",
-    "title_en": "Second spacewalk completed for Sophie Adenot ",
-    "summary_en": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98 at 20:57 CEST on Tuesday 25 August. It was Sophie’s second spacewalk, and the 32nd conducted by a European astronaut.&nbsp;&nbsp;&nbsp;",
-    "image": "",
-    "title_ru": "Совершился второй выход в открытый космос Софи Адено",
-    "summary_ru": "Астронавт ЕКА Софи Адено и астронавт НАСА Анил Менон успешно завершили выход в открытый космос США-98 в 20:57 по центральноевропейскому летнему времени во вторник, 25 августа. Это был второй выход Софи в открытый космос и 32-й, проведенный европейским астронавтом.",
-    "title_ru_kids": "🚀 Совершился второй выход в открытый космос Софи Адено ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Астронавт ЕКА Софи Адено и астронавт НАСА Анил Менон успешно завершили выход в открытый космос США-98 в 20:57 по центральноевропейскому летнему времени во вторник, 25 августа. Это был второй выход Софи в открытый космос и 32-й, проведенный европейским астронавтом. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "הליכת החלל השנייה הושלמה עבור סופי אדנוט",
-    "summary_he": "האסטרונאוטית של ESA סופי אדנוט ואסטרונאוט נאס\"א אניל מנון סיימו בהצלחה את US EVA-98 בשעה 20:57 CEST ביום שלישי ה-25 באוגוסט. זו הייתה הליכת החלל השנייה של סופי, וה-32 שנערכה על ידי אסטרונאוט אירופי.",
-    "title_he_kids": "🚀 הליכת החלל השנייה הושלמה עבור סופי אדנוט ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA סופי אדנוט ואסטרונאוט נאס\"א אניל מנון סיימו בהצלחה את US EVA-98 בשעה 20:57 CEST ביום שלישי ה-25 באוגוסט. זו הייתה הליכת החלל השנייה של סופי, וה-32 שנערכה על ידי אסטרונאוט אירופי. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Second spacewalk completed for Sophie Adenot  ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed US EVA-98 at 20:57 CEST on Tuesday 25 August. It was Sophie’s second spacewalk, and the 32nd conducted by a European astronaut.&nbsp;&nbsp;&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 4
   },
   {
