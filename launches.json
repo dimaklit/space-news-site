@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Ariane 62 | MTG-I2",
-    "window_start": "2026-08-27T20:10:00Z",
-    "rocket": "Ariane 62",
-    "pad": "Ariane Launch Area 4",
-    "location": "Guiana Space Centre, French Guiana"
-  },
-  {
     "name_en": "Falcon Heavy | Nancy Grace Roman Space Telescope",
     "window_start": "2026-08-30T11:26:00Z",
     "rocket": "Falcon Heavy",
@@ -33,5 +26,12 @@
     "rocket": "Electron",
     "pad": "Unknown Pad",
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Long March 12A | Flight 2",
+    "window_start": "2026-08-31T00:00:00Z",
+    "rocket": "Long March 12A",
+    "pad": "Long March 12 series Pad",
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
   }
 ]
