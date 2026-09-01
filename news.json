@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-09-01T11:05:00",
+    "date_display": "Tue, 01 Sep 2026 11:05:00 +0200",
+    "link": "https://www.esa.int/Space_Safety/Space_Debris/Samba_s_fiery_farewell_recorded",
+    "title_en": "Samba’s fiery farewell recorded",
+    "summary_en": "Yesterday, on 31 August 2026, Samba reentered Earth’s atmosphere at 21:39:38 UTC / 23:39:38 CEST as the third of the four Cluster satellites.&nbsp;Samba had been lined up for a special 'targeted reentry' safely over the South Pacific Ocean, the precision so high that a plane c...",
+    "image": "",
+    "title_ru": "Пламенное прощание Самбы записано",
+    "summary_ru": "Вчера, 31 августа 2026 года, Самба снова вошел в атмосферу Земли в 21:39:38 UTC / 23:39:38 CEST в качестве третьего из четырех спутников скопления. Самба была подготовлена ​​к специальному «целевому входу» в безопасную зону над южной частью Тихого океана, точность была настолько высокой, что самолет мог бы...",
+    "title_ru_kids": "🚀 Пламенное прощание Самбы записано ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Вчера, 31 августа 2026 года, Самба снова вошел в атмосферу Земли в 21:39:38 UTC / 23:39:38 CEST в качестве третьего из четырех спутников скопления. Самба была подготовлена ​​к специальному «целевому входу» в безопасную зону над южной частью Тихого океана, точность была настолько высокой, что самолет мог бы... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "הפרידה הלוהטת של סמבה נרשמה",
+    "summary_he": "אתמול, ב-31 באוגוסט 2026, סמבה נכנסה שוב לאטמוספירה של כדור הארץ בשעה 21:39:38 UTC / 23:39:38 CEST כשלישיית מארבעת לווייני האשכולות. סמבה הועמד בתור ל\"כניסה חוזרת ממוקדת\" מיוחדת בבטחה מעל דרום האוקיינוס ​​השקט, הדיוק כה גבוה עד שמטוס התרסק...",
+    "title_he_kids": "🚀 הפרידה הלוהטת של סמבה נרשמה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! אתמול, ב-31 באוגוסט 2026, סמבה נכנסה שוב לאטמוספירה של כדור הארץ בשעה 21:39:38 UTC / 23:39:38 CEST כשלישיית מארבעת לווייני האשכולות. סמבה הועמד בתור ל\"כניסה חוזרת ממוקדת\" מיוחדת בבטחה מעל דרום האוקיינוס ​​השקט, הדיוק כה גבוה עד שמטוס התרסק... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Samba’s fiery farewell recorded ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Yesterday, on 31 August 2026, Samba reentered Earth’s atmosphere at 21:39:38 UTC / 23:39:38 CEST as the third of the four Cluster satellites.&nbsp;Samba had been lined up for a special 'targeted reentry' safely over the South Pacific Ocean, the precision so high that a plane c... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-08-31T16:00:00",
     "date_display": "Mon, 31 Aug 2026 16:00:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t01:09:40\n\t\t\t\tצפו מחדש בתדרוך העיתונאים המקוון של סוכנות החלל האירופית ב-31 באוגוסט 2026 על ההתפתחויות האחרונות של משימת ESA/JAXA BepiColombo, המשימה הראשונה של אירופה ויפן למרקורי. תדרוך זה התמקד במורכבות ההפרדה של ה-Mer... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Media briefing: BepiColombo's next milestone towards Mercury ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t01:09:40\n\t\t\t\tRewatch the European Space Agency's 31 August 2026 online press briefing on the latest developments of the ESA/JAXA BepiColombo mission, Europe's and Japan's first mission to Mercury.This briefing focused on the complexities of the separation of the Mer... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:19\n\t\t\t\tאוגוסט היה חודש עמוס עבור ESA, בין נופים מרהיבים, אבני דרך היסטוריות ותגליות חדשות ומרגשות. מליקוי חמה מלא ששודר בשידור חי מספרד ומהליכות החלל ההיסטוריות של סופי אדנו, ועד לשיגור ה-MTG-I2 על סיפון Ariane 6, a... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 What happened this month at the European Space Agency? (August 2026)  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:19\n\t\t\t\tAugust was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries.&nbsp;From a total solar eclipse broadcast live from Spain and Sophie Adenot’s historic spacewalks, to the launch of MTG-I2 aboard Ariane 6, a b... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! עם אלפי כוחות חירום שמבצעים פעולות חיפוש והצלה בעקבות השיטפון האסון שפקד את צפון נפאל ב-26 באוגוסט, צילומי לוויין עוזרים לחשוף את היקף ההצפה וההרס ברחבי האזור הפגוע. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Nepal flash flood imaged by satellites ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! With thousands of emergency responders conducting search-and-rescue operations following the catastrophic flash flood that struck northern Nepal on 26 August, satellite imagery is helping to reveal the scale of the inundation and devastation across the affected region. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tטלסקופ החלל הרומאי ננסי גרייס של נאס\"א התרומם על רקטת SpaceX Falcon Heavy ממרכז החלל קנדי של נאס\"א בפלורידה, ארה\"ב, בשעה 07:26 EDT / 12:26 BST / 13:26 CEST ב-30 באוגוסט 2026. עם השיגור המוצלח, החל רומן את משימתו לסקור את השמים בביקור... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Roman lifts off on a mission to survey the infrared sky  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tNASA’s Nancy Grace Roman Space Telescope lifted off on a SpaceX Falcon Heavy rocket from NASA’s Kennedy Space Center in Florida, USA, at 07:26 EDT / 12:26 BST/ 13:26 CEST on 30 August 2026. With the successful launch, Roman began its mission to survey the sky in visi... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! באמצעות מראה נתרמה מסוג האבל שנבנתה במקור עבור לוויין ריגול, טלסקופ החלל הרומי של נאס\"א מוכן לשיגור ביום ראשון במשימה של 4.3 מיליארד דולר כדי לפתוח חלון חדש על היקום. ההמראה ממרכז החלל קנדי ​​על גבי SpaceX Falcon Heavy מתוכננת ל... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Roman Space Telescope, NASA’s next ‘great observatory,’ poised for Sunday launch ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Using a donated Hubble-class mirror originally built for a spy satellite, NASA's Roman Space Telescope is poised for launch Sunday on a $4.3 billion mission to open a new window on the universe. Liftoff from the Kennedy Space Center atop a SpaceX Falcon Heavy is scheduled for ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,26 +137,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לאחר שתי הליכות חלל מוצלחות ב-18 באוגוסט (EVA-97) וב-25 באוגוסט (EVA-98), צפו באסטרונאוטית ESA, סופי Adenot, יוצאת אל הוואקום של החלל בפעם השלישית ביום שלישי ה-1 בספטמבר, במהלך EVA-99. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Watch Sophie Adenot’s third spacewalk live ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! After two successful spacewalks on 18 August (EVA-97) and 25 August (EVA-98), watch ESA astronaut Sophie Adenot venture into the vacuum of space for the third time on Tuesday 1 September, during EVA-99. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 6
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-28T15:10:00",
-    "date_display": "Fri, 28 Aug 2026 15:10:00 +0200",
-    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_24-28_August_2026",
-    "title_en": "Week in images: 24-28 August 2026",
-    "summary_en": "Week in images: 24-28 August 2026\n\tDiscover our week through the lens",
-    "image": "",
-    "title_ru": "Неделя в изображениях: 24–28 августа 2026 г.",
-    "summary_ru": "Неделя в изображениях: 24–28 августа 2026 г.\n\tОткройте для себя нашу неделю через призму",
-    "title_ru_kids": "🚀 Неделя в изображениях: 24–28 августа 2026 г. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 24–28 августа 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "שבוע בתמונות: 24-28 באוגוסט 2026",
-    "summary_he": "שבוע בתמונות: 24-28 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה",
-    "title_he_kids": "🚀 שבוע בתמונות: 24-28 באוגוסט 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 24-28 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Week in images: 24-28 August 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 24-28 August 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 7
   },
   {
