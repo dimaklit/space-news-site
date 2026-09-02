@@ -1,6 +1,46 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-09-02T13:00:00",
+    "date_display": "Wed, 02 Sep 2026 13:00:00 +0200",
+    "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Third_spacewalk_completed_for_Sophie_Adenot",
+    "title_en": "Third spacewalk completed for Sophie Adenot ",
+    "summary_en": "ESA astronaut Sophie Adenot and NASA astronaut Jessica Meir successfully completed US EVA-99 at 21:29 CEST on Tuesday 1 September. It was Sophie’s third spacewalk, and the 33rd conducted by a European astronaut.&nbsp;&nbsp;&nbsp;",
+    "image": "",
+    "title_ru": "Совершился третий выход в открытый космос Софи Адено",
+    "summary_ru": "Астронавт ЕКА Софи Адено и астронавт НАСА Джессика Меир успешно завершили выход в открытый космос США-99 в 21:29 по центральноевропейскому летнему времени во вторник, 1 сентября. Это был третий выход Софи в открытый космос и 33-й, проведенный европейским астронавтом.",
+    "title_ru_kids": "🚀 Совершился третий выход в открытый космос Софи Адено ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Астронавт ЕКА Софи Адено и астронавт НАСА Джессика Меир успешно завершили выход в открытый космос США-99 в 21:29 по центральноевропейскому летнему времени во вторник, 1 сентября. Это был третий выход Софи в открытый космос и 33-й, проведенный европейским астронавтом. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "טיול חלל שלישי הושלם עבור סופי אדנוט",
+    "summary_he": "אסטרונאוטית ESA סופי אדנוט ואסטרונאוטית נאס\"א ג'סיקה מאיר סיימו בהצלחה את US EVA-99 בשעה 21:29 CEST ביום שלישי ה-1 בספטמבר. זו הייתה הליכת החלל השלישית של סופי, וה-33 שנערכה על ידי אסטרונאוט אירופי.",
+    "title_he_kids": "🚀 טיול חלל שלישי הושלם עבור סופי אדנוט ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! אסטרונאוטית ESA סופי אדנוט ואסטרונאוטית נאס\"א ג'סיקה מאיר סיימו בהצלחה את US EVA-99 בשעה 21:29 CEST ביום שלישי ה-1 בספטמבר. זו הייתה הליכת החלל השלישית של סופי, וה-33 שנערכה על ידי אסטרונאוט אירופי. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Third spacewalk completed for Sophie Adenot  ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot and NASA astronaut Jessica Meir successfully completed US EVA-99 at 21:29 CEST on Tuesday 1 September. It was Sophie’s third spacewalk, and the 33rd conducted by a European astronaut.&nbsp;&nbsp;&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-09-02T12:20:00",
+    "date_display": "Wed, 02 Sep 2026 12:20:00 +0200",
+    "link": "https://www.esa.int/Space_Safety/Space_Debris/Cluster_s_encore_for_reentry_science_a_success",
+    "title_en": "Cluster’s encore for reentry science a success",
+    "summary_en": "The Cluster mission danced its final dance as Tango reentered the atmosphere on 1 September, at 23:30:31 CEST. The end of the Cluster mission in 2024 turned into the start of the reentry data collection campaign. After four ‘targeted’ reentries, this is now a proven method of ...",
+    "image": "",
+    "title_ru": "Выступление Кластера на бис за науку о возвращении в атмосферу увенчалось успехом",
+    "summary_ru": "Миссия Кластера станцевала свой последний танец, когда Танго снова вошло в атмосферу 1 сентября в 23:30:31 по центральноевропейскому летнему времени. Завершение миссии Кластера в 2024 году обернулось началом кампании по сбору данных о возвращении в атмосферу. После четырех «целевых» повторных входов это проверенный метод...",
+    "title_ru_kids": "🚀 Выступление Кластера на бис за науку о возвращении в атмосферу увенчалось успехом ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Миссия Кластера станцевала свой последний танец, когда Танго снова вошло в атмосферу 1 сентября в 23:30:31 по центральноевропейскому летнему времени. Завершение миссии Кластера в 2024 году обернулось началом кампании по сбору данных о возвращении в атмосферу. После четырех «целевых» повторных входов это проверенный метод... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "ההדרן של אשכול למדעי הכניסה מחדש הצליח",
+    "summary_he": "משימת האשכול רקדה את הריקוד האחרון שלה כשהטנגו נכנס שוב לאווירה ב-1 בספטמבר, בשעה 23:30:31 CEST. סופה של משימת האשכול בשנת 2024 הפך לתחילת קמפיין איסוף הנתונים מחדש. לאחר ארבע כניסות 'ממוקדות' מחדש, זוהי כעת שיטה מוכחת של ...",
+    "title_he_kids": "🚀 ההדרן של אשכול למדעי הכניסה מחדש הצליח ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! משימת האשכול רקדה את הריקוד האחרון שלה כשהטנגו נכנס שוב לאווירה ב-1 בספטמבר, בשעה 23:30:31 CEST. סופה של משימת האשכול בשנת 2024 הפך לתחילת קמפיין איסוף הנתונים מחדש. לאחר ארבע כניסות 'ממוקדות' מחדש, זוהי כעת שיטה מוכחת של ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Cluster’s encore for reentry science a success ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Cluster mission danced its final dance as Tango reentered the atmosphere on 1 September, at 23:30:31 CEST. The end of the Cluster mission in 2024 turned into the start of the reentry data collection campaign. After four ‘targeted’ reentries, this is now a proven method of ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 2
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-09-02T09:00:00",
     "date_display": "Wed, 02 Sep 2026 09:00:00 +0200",
     "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward",
@@ -17,27 +57,27 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! אתמול בערב, במהלך טקס החתימה באירוע Space for Inspiration בקופנהגן, דנמרק, חגגו סוכנות החלל האירופית (ESA) ו-ispace-Europe את יישום MAGPIE, שאמור להיות הרובר האירופי הראשון על הירח. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ESA’s first lunar rover rolls forward ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Yesterday evening, during a signing ceremony at the Space for Inspiration event in Copenhagen, Denmark, the European Space Agency (ESA) and ispace-Europe celebrated the implementation of MAGPIE, set to be the first European rover on the Moon. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 3
   },
   {
     "source": "SpaceX",
     "date_parsed": "2026-09-01T20:56:22",
     "date_display": "Tue, 01 Sep 2026 20:56:22 +0000",
     "link": "https://spaceflightnow.com/2026/09/01/spacex-to-launch-starlink-mission-from-west-coast/",
-    "title_en": "SpaceX to launches Starlink mission from West Coast",
+    "title_en": "SpaceX launches Starlink mission from West Coast",
     "summary_en": "Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California occurred at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC).",
     "image": "",
-    "title_ru": "SpaceX запустит миссию Starlink с западного побережья",
+    "title_ru": "SpaceX запускает миссию Starlink с западного побережья",
     "summary_ru": "Старт ракеты Falcon 9 с базы космических сил Ванденберг в Калифорнии произошел в 1:42 ночи по тихоокеанскому времени (4:42 утра по восточному времени / 08:42 UTC).",
-    "title_ru_kids": "🚀 SpaceX запустит миссию Starlink с западного побережья ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт ракеты Falcon 9 с базы космических сил Ванденберг в Калифорнии произошел в 1:42 ночи по тихоокеанскому времени (4:42 утра по восточному времени / 08:42 UTC). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_ru_kids": "🚀 SpaceX запускает миссию Starlink с западного побережья ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт ракеты Falcon 9 с базы космических сил Ванденберг в Калифорнии произошел в 1:42 ночи по тихоокеанскому времени (4:42 утра по восточному времени / 08:42 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "SpaceX משיקה את משימת Starlink מהחוף המערבי",
     "summary_he": "הורדת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 01:42 PDT (4:42 לפנות בוקר EDT / 0842 UTC).",
     "title_he_kids": "🚀 SpaceX משיקה את משימת Starlink מהחוף המערבי ✨",
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הורדת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 01:42 PDT (4:42 לפנות בוקר EDT / 0842 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 SpaceX to launches Starlink mission from West Coast ✨",
-    "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California occurred at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "title_en_kids": "🚀 SpaceX launches Starlink mission from West Coast ✨",
+    "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California occurred at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +97,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הורדת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 01:42 PDT (4:42 לפנות בוקר EDT / 0842 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from West Coast ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California occurred at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 5
   },
   {
     "source": "ESA",
@@ -77,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! אתמול, ב-31 באוגוסט 2026, סמבה נכנסה שוב לאטמוספירה של כדור הארץ בשעה 21:39:38 UTC / 23:39:38 CEST כשלישיית מארבעת לווייני האשכולות. סמבה הועמד בתור ל\"כניסה חוזרת ממוקדת\" מיוחדת בבטחה מעל דרום האוקיינוס ​​השקט, הדיוק כה גבוה עד שמטוס התרסק... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Samba’s fiery farewell recorded ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Yesterday, on 31 August 2026, Samba reentered Earth’s atmosphere at 21:39:38 UTC / 23:39:38 CEST as the third of the four Cluster satellites.&nbsp;Samba had been lined up for a special 'targeted reentry' safely over the South Pacific Ocean, the precision so high that a plane c... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 6
   },
   {
     "source": "ESA",
@@ -97,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t01:09:40\n\t\t\t\tצפו מחדש בתדרוך העיתונאים המקוון של סוכנות החלל האירופית ב-31 באוגוסט 2026 על ההתפתחויות האחרונות של משימת ESA/JAXA BepiColombo, המשימה הראשונה של אירופה ויפן למרקורי. תדרוך זה התמקד במורכבות ההפרדה של ה-Mer... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Media briefing: BepiColombo's next milestone towards Mercury ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t01:09:40\n\t\t\t\tRewatch the European Space Agency's 31 August 2026 online press briefing on the latest developments of the ESA/JAXA BepiColombo mission, Europe's and Japan's first mission to Mercury.This briefing focused on the complexities of the separation of the Mer... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 7
   },
   {
     "source": "ESA",
@@ -117,27 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:19\n\t\t\t\tאוגוסט היה חודש עמוס עבור ESA, בין נופים מרהיבים, אבני דרך היסטוריות ותגליות חדשות ומרגשות. מליקוי חמה מלא ששודר בשידור חי מספרד ומהליכות החלל ההיסטוריות של סופי אדנו, ועד לשיגור ה-MTG-I2 על סיפון Ariane 6, a... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 What happened this month at the European Space Agency? (August 2026)  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:19\n\t\t\t\tAugust was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries.&nbsp;From a total solar eclipse broadcast live from Spain and Sophie Adenot’s historic spacewalks, to the launch of MTG-I2 aboard Ariane 6, a b... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 6
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-31T13:57:00",
-    "date_display": "Mon, 31 Aug 2026 13:57:00 +0200",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Nepal_flash_flood_imaged_by_satellites",
-    "title_en": "Nepal flash flood imaged by satellites",
-    "summary_en": "With thousands of emergency responders conducting search-and-rescue operations following the catastrophic flash flood that struck northern Nepal on 26 August, satellite imagery is helping to reveal the scale of the inundation and devastation across the affected region.",
-    "image": "",
-    "title_ru": "Внезапное наводнение в Непале, снятое спутниками",
-    "summary_ru": "Тысячи сотрудников служб экстренного реагирования проводят поисково-спасательные операции после катастрофического наводнения, обрушившегося на север Непала 26 августа. Спутниковые снимки помогают выявить масштабы наводнения и разрушений в пострадавшем регионе.",
-    "title_ru_kids": "🚀 Внезапное наводнение в Непале, снятое спутниками ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Тысячи сотрудников служб экстренного реагирования проводят поисково-спасательные операции после катастрофического наводнения, обрушившегося на север Непала 26 августа. Спутниковые снимки помогают выявить масштабы наводнения и разрушений в пострадавшем регионе. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "שיטפון נפאל שצולם על ידי לוויינים",
-    "summary_he": "עם אלפי כוחות חירום שמבצעים פעולות חיפוש והצלה בעקבות שיטפון הבזק הקטסטרופלי שפקד את צפון נפאל ב-26 באוגוסט, צילומי לוויין עוזרים לחשוף את היקף ההצפה וההרס ברחבי האזור הפגוע.",
-    "title_he_kids": "🚀 שיטפון נפאל שצולם על ידי לוויינים ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! עם אלפי כוחות חירום שמבצעים פעולות חיפוש והצלה בעקבות שיטפון הבזק הקטסטרופלי שפקד את צפון נפאל ב-26 באוגוסט, צילומי לוויין עוזרים לחשוף את היקף ההצפה וההרס ברחבי האזור הפגוע. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Nepal flash flood imaged by satellites ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! With thousands of emergency responders conducting search-and-rescue operations following the catastrophic flash flood that struck northern Nepal on 26 August, satellite imagery is helping to reveal the scale of the inundation and devastation across the affected region. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tטלסקופ החלל הרומאי ננסי גרייס של נאס\"א התרומם על רקטת SpaceX Falcon Heavy ממרכז החלל קנדי של נאס\"א בפלורידה, ארה\"ב, בשעה 07:26 EDT / 12:26 BST / 13:26 CEST ב-30 באוגוסט 2026. עם השיגור המוצלח, החל רומן את משימתו לסקור את השמים בביקור... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Roman lifts off on a mission to survey the infrared sky  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tNASA’s Nancy Grace Roman Space Telescope lifted off on a SpaceX Falcon Heavy rocket from NASA’s Kennedy Space Center in Florida, USA, at 07:26 EDT / 12:26 BST/ 13:26 CEST on 30 August 2026. With the successful launch, Roman began its mission to survey the sky in visi... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -177,26 +197,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! באמצעות מראה נתרמה מסוג האבל שנבנתה במקור עבור לוויין ריגול, טלסקופ החלל הרומי של נאס\"א שוגר ביום ראשון במשימה של 4.3 מיליארד דולר כדי לפתוח חלון חדש על היקום. ההמראה ממרכז החלל קנדי ​​על גבי SpaceX Falcon Heavy הגיעה בשעה 7:26 בבוקר EDT (1126 U... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Roman Space Telescope, NASA’s next ‘great observatory,’ launched ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Using a donated Hubble-class mirror originally built for a spy satellite, NASA's Roman Space Telescope launched Sunday on a $4.3 billion mission to open a new window on the universe. Liftoff from the Kennedy Space Center atop a SpaceX Falcon Heavy came at 7:26 a.m. EDT (1126 U... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 9
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-28T15:10:00",
-    "date_display": "Fri, 28 Aug 2026 15:10:00 +0200",
-    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_24-28_August_2026",
-    "title_en": "Week in images: 24-28 August 2026",
-    "summary_en": "Week in images: 24-28 August 2026\n\tDiscover our week through the lens",
-    "image": "",
-    "title_ru": "Неделя в изображениях: 24–28 августа 2026 г.",
-    "summary_ru": "Неделя в изображениях: 24–28 августа 2026 г.\n\tОткройте для себя нашу неделю через призму",
-    "title_ru_kids": "🚀 Неделя в изображениях: 24–28 августа 2026 г. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 24–28 августа 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "שבוע בתמונות: 24-28 באוגוסט 2026",
-    "summary_he": "שבוע בתמונות: 24-28 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה",
-    "title_he_kids": "🚀 שבוע בתמונות: 24-28 באוגוסט 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 24-28 באוגוסט 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Week in images: 24-28 August 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 24-28 August 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 10
   },
   {
