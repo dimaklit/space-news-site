@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Electron | Owl Around The World (StriX Launch 11)",
-    "window_start": "2026-09-01T11:30:00Z",
-    "rocket": "Electron",
-    "pad": "Unknown Pad",
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 15-23",
     "window_start": "2026-09-02T07:46:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Soyuz 2.1b | Progress MS-35 (96P)",
+    "window_start": "2026-09-09T16:15:03Z",
+    "rocket": "Soyuz 2.1b",
+    "pad": "31/6",
+    "location": "Baikonur Cosmodrome, Republic of Kazakhstan"
   }
 ]
