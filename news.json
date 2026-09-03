@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-09-03T12:00:00",
+    "date_display": "Thu, 03 Sep 2026 12:00:00 +0200",
+    "link": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
+    "title_en": "Latest updates: BepiColombo's arrival at Mercury",
+    "summary_en": "After eight years of travelling through the inner Solar System, BepiColombo is arriving at Mercury. This page will show the latest updates throughout the mission's arrival.&nbsp;",
+    "image": "",
+    "title_ru": "Последние обновления: прибытие BepiColombo на Меркурий.",
+    "summary_ru": "После восьми лет путешествия по внутренней части Солнечной системы БепиКоломбо прибывает на Меркурий. На этой странице будут показаны последние обновления по прибытии миссии.",
+    "title_ru_kids": "🚀 Последние обновления: прибытие BepiColombo на Меркурий. ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! После восьми лет путешествия по внутренней части Солнечной системы БепиКоломбо прибывает на Меркурий. На этой странице будут показаны последние обновления по прибытии миссии. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "עדכונים אחרונים: הגעתו של BepiColombo למרקורי",
+    "summary_he": "לאחר שמונה שנים של נסיעה במערכת השמש הפנימית, BepiColombo מגיע למרקורי. עמוד זה יציג את העדכונים האחרונים לאורך הגעת המשימה.",
+    "title_he_kids": "🚀 עדכונים אחרונים: הגעתו של BepiColombo למרקורי ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לאחר שמונה שנים של נסיעה במערכת השמש הפנימית, BepiColombo מגיע למרקורי. עמוד זה יציג את העדכונים האחרונים לאורך הגעת המשימה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Latest updates: BepiColombo's arrival at Mercury ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! After eight years of travelling through the inner Solar System, BepiColombo is arriving at Mercury. This page will show the latest updates throughout the mission's arrival.&nbsp; 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-09-02T18:08:00",
     "date_display": "Wed, 02 Sep 2026 18:08:00 +0200",
     "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_sealed_within_Vega-C_fairing",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! בנמל החלל של אירופה בגיאנה הצרפתית, ההכנות לאחד מהשיגורים הצפויים ביותר של תצפית כדור הארץ נכנסות לשלבים האחרונים שלהן. FLEX ו-Copernicus Sentinel-3C נסגרו כעת בתוך יריעת ההגנה של רקטת Vega-C שלהם, מה שמביא את שני ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 FLEX and Sentinel-3C sealed within Vega-C fairing ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! At Europe’s Spaceport in French Guiana, preparations for one of the year’s most anticipated Earth-observation launches are entering their final stages.FLEX and Copernicus Sentinel-3C have now been enclosed within the protective fairing of their Vega-C rocket, bringing the two ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! אסטרונאוטית ESA סופי אדנוט ואסטרונאוטית נאס\"א ג'סיקה מאיר סיימו בהצלחה את US EVA-99 בשעה 21:29 CEST ביום שלישי ה-1 בספטמבר. זו הייתה הליכת החלל השלישית של סופי, וה-33 שנערכה על ידי אסטרונאוט אירופי. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Third spacewalk completed for Sophie Adenot  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot and NASA astronaut Jessica Meir successfully completed US EVA-99 at 21:29 CEST on Tuesday 1 September. It was Sophie’s third spacewalk, and the 33rd conducted by a European astronaut.&nbsp;&nbsp;&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,26 +77,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! משימת האשכול רקדה את הריקוד האחרון שלה כשהטנגו נכנס שוב לאווירה ב-1 בספטמבר, בשעה 23:30:31 CEST. סופה של משימת האשכול בשנת 2024 הפך לתחילת קמפיין איסוף הנתונים מחדש. לאחר ארבע כניסות 'ממוקדות' מחדש, זוהי כעת שיטה מוכחת של ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Cluster’s encore for reentry science a success ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Cluster mission danced its final dance as Tango reentered the atmosphere on 1 September, at 23:30:31 CEST. The end of the Cluster mission in 2024 turned into the start of the reentry data collection campaign. After four ‘targeted’ reentries, this is now a proven method of ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-09-02T09:00:00",
-    "date_display": "Wed, 02 Sep 2026 09:00:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward",
-    "title_en": "ESA’s first lunar rover rolls forward",
-    "summary_en": "Yesterday evening, during a signing ceremony at the Space for Inspiration event in Copenhagen, Denmark, the European Space Agency (ESA) and ispace-Europe celebrated the implementation of MAGPIE, set to be the first European rover on the Moon.",
-    "image": "",
-    "title_ru": "Первый луноход ЕКА двинулся вперед",
-    "summary_ru": "Вчера вечером во время церемонии подписания на мероприятии Space for Inspiration в Копенгагене, Дания, Европейское космическое агентство (ESA) и ispace-Europe отпраздновали внедрение MAGPIE, который станет первым европейским марсоходом на Луне.",
-    "title_ru_kids": "🚀 Первый луноход ЕКА двинулся вперед ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Вчера вечером во время церемонии подписания на мероприятии Space for Inspiration в Копенгагене, Дания, Европейское космическое агентство (ESA) и ispace-Europe отпраздновали внедрение MAGPIE, который станет первым европейским марсоходом на Луне. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "רובר הירח הראשון של ESA מתגלגל קדימה",
-    "summary_he": "אתמול בערב, במהלך טקס החתימה באירוע Space for Inspiration בקופנהגן, דנמרק, חגגו סוכנות החלל האירופית (ESA) ו-ispace-Europe את יישום MAGPIE, שאמור להיות הרובר האירופי הראשון על הירח.",
-    "title_he_kids": "🚀 רובר הירח הראשון של ESA מתגלגל קדימה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! אתמול בערב, במהלך טקס החתימה באירוע Space for Inspiration בקופנהגן, דנמרק, חגגו סוכנות החלל האירופית (ESA) ו-ispace-Europe את יישום MAGPIE, שאמור להיות הרובר האירופי הראשון על הירח. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 ESA’s first lunar rover rolls forward ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Yesterday evening, during a signing ceremony at the Space for Inspiration event in Copenhagen, Denmark, the European Space Agency (ESA) and ispace-Europe celebrated the implementation of MAGPIE, set to be the first European rover on the Moon. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 4
   },
   {
