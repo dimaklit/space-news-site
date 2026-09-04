@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-09-04T10:00:00",
+    "date_display": "Fri, 04 Sep 2026 10:00:00 +0200",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/How_Sentinel-3_tracks_climate_change",
+    "title_en": "How Sentinel-3 tracks climate change ",
+    "summary_en": "Copernicus Sentinel-3 is one of the most diverse missions for measuring and monitoring Earth’s climate systems. It captures a breadth of data about the environment and has contributed substantially to what we know about climate change over the past decade. The launch of the mi...",
+    "image": "",
+    "title_ru": "Как Sentinel-3 отслеживает изменение климата",
+    "summary_ru": "Copernicus Sentinel-3 — одна из самых разнообразных миссий по измерению и мониторингу климатических систем Земли. Он собирает широкий спектр данных об окружающей среде и внес существенный вклад в то, что мы знаем об изменении климата за последнее десятилетие. Запуск ми...",
+    "title_ru_kids": "🚀 Как Sentinel-3 отслеживает изменение климата ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Copernicus Sentinel-3 — одна из самых разнообразных миссий по измерению и мониторингу климатических систем Земли. Он собирает широкий спектр данных об окружающей среде и внес существенный вклад в то, что мы знаем об изменении климата за последнее десятилетие. Запуск ми... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "כיצד Sentinel-3 עוקב אחר שינויי אקלים",
+    "summary_he": "Copernicus Sentinel-3 היא אחת המשימות המגוונות ביותר למדידה וניטור מערכות האקלים של כדור הארץ. הוא לוכד מידע רחב על הסביבה ותרם רבות למה שאנו יודעים על שינויי אקלים בעשור האחרון. ההשקה של המי...",
+    "title_he_kids": "🚀 כיצד Sentinel-3 עוקב אחר שינויי אקלים ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Copernicus Sentinel-3 היא אחת המשימות המגוונות ביותר למדידה וניטור מערכות האקלים של כדור הארץ. הוא לוכד מידע רחב על הסביבה ותרם רבות למה שאנו יודעים על שינויי אקלים בעשור האחרון. ההשקה של המי... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 How Sentinel-3 tracks climate change  ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Copernicus Sentinel-3 is one of the most diverse missions for measuring and monitoring Earth’s climate systems. It captures a breadth of data about the environment and has contributed substantially to what we know about climate change over the past decade. The launch of the mi... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-09-03T12:00:00",
     "date_display": "Thu, 03 Sep 2026 12:00:00 +0200",
     "link": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! לאחר שמונה שנים של טיול במערכת השמש הפנימית, BepiColombo מגיע למרקורי. עמוד זה יציג את העדכונים האחרונים לאורך הגעת המשימה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Latest updates: BepiColombo's arrival at Mercury ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! After eight years of travelling through the inner Solar System, BepiColombo is arriving at Mercury. This page will show the latest updates throughout the mission's arrival.&nbsp; 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! בנמל החלל של אירופה בגיאנה הצרפתית, ההכנות לאחד מהשיגורים הצפויים ביותר של תצפית כדור הארץ נכנסות לשלבים האחרונים שלהן. FLEX ו-Copernicus Sentinel-3C נסגרו כעת בתוך יריעת ההגנה של רקטת Vega-C שלהם, מה שמביא את שני ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 FLEX and Sentinel-3C sealed within Vega-C fairing ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! At Europe’s Spaceport in French Guiana, preparations for one of the year’s most anticipated Earth-observation launches are entering their final stages.FLEX and Copernicus Sentinel-3C have now been enclosed within the protective fairing of their Vega-C rocket, bringing the two ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,26 +77,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! אסטרונאוטית ESA סופי אדנוט ואסטרונאוטית נאס\"א ג'סיקה מאיר סיימו בהצלחה את US EVA-99 בשעה 21:29 CEST ביום שלישי ה-1 בספטמבר. זו הייתה הליכת החלל השלישית של סופי, וה-33 שנערכה על ידי אסטרונאוט אירופי. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Third spacewalk completed for Sophie Adenot  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot and NASA astronaut Jessica Meir successfully completed US EVA-99 at 21:29 CEST on Tuesday 1 September. It was Sophie’s third spacewalk, and the 33rd conducted by a European astronaut.&nbsp;&nbsp;&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-09-02T12:20:00",
-    "date_display": "Wed, 02 Sep 2026 12:20:00 +0200",
-    "link": "https://www.esa.int/Space_Safety/Space_Debris/Cluster_s_encore_for_reentry_science_a_success",
-    "title_en": "Cluster’s encore for reentry science a success",
-    "summary_en": "The Cluster mission danced its final dance as Tango reentered the atmosphere on 1 September, at 23:30:31 CEST. The end of the Cluster mission in 2024 turned into the start of the reentry data collection campaign. After four ‘targeted’ reentries, this is now a proven method of ...",
-    "image": "",
-    "title_ru": "Выступление Кластера на бис за науку о возвращении в атмосферу увенчалось успехом",
-    "summary_ru": "Миссия Кластера станцевала свой последний танец, когда Танго снова вошло в атмосферу 1 сентября в 23:30:31 по центральноевропейскому летнему времени. Завершение миссии Кластера в 2024 году обернулось началом кампании по сбору данных о возвращении в атмосферу. После четырех «целевых» повторных входов это проверенный метод...",
-    "title_ru_kids": "🚀 Выступление Кластера на бис за науку о возвращении в атмосферу увенчалось успехом ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Миссия Кластера станцевала свой последний танец, когда Танго снова вошло в атмосферу 1 сентября в 23:30:31 по центральноевропейскому летнему времени. Завершение миссии Кластера в 2024 году обернулось началом кампании по сбору данных о возвращении в атмосферу. После четырех «целевых» повторных входов это проверенный метод... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "ההדרן של אשכול למדעי הכניסה מחדש הצליח",
-    "summary_he": "משימת האשכול רקדה את הריקוד האחרון שלה כשהטנגו נכנס שוב לאווירה ב-1 בספטמבר, בשעה 23:30:31 CEST. סופה של משימת האשכול בשנת 2024 הפך לתחילת קמפיין איסוף הנתונים מחדש. לאחר ארבע כניסות 'ממוקדות' מחדש, זוהי כעת שיטה מוכחת של ...",
-    "title_he_kids": "🚀 ההדרן של אשכול למדעי הכניסה מחדש הצליח ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! משימת האשכול רקדה את הריקוד האחרון שלה כשהטנגו נכנס שוב לאווירה ב-1 בספטמבר, בשעה 23:30:31 CEST. סופה של משימת האשכול בשנת 2024 הפך לתחילת קמפיין איסוף הנתונים מחדש. לאחר ארבע כניסות 'ממוקדות' מחדש, זוהי כעת שיטה מוכחת של ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Cluster’s encore for reentry science a success ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Cluster mission danced its final dance as Tango reentered the atmosphere on 1 September, at 23:30:31 CEST. The end of the Cluster mission in 2024 turned into the start of the reentry data collection campaign. After four ‘targeted’ reentries, this is now a proven method of ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 4
   },
   {
