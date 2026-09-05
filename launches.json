@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "GSLV Mk II | GISAT-1A (EOS-05)",
-    "window_start": "2026-09-03T21:00:00Z",
-    "rocket": "GSLV Mk. II",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "location": "Satish Dhawan Space Centre, India"
-  },
-  {
     "name_en": "Spectrum | Onward and Upward",
     "window_start": "2026-09-04T20:00:00Z",
     "rocket": "Spectrum",
@@ -33,5 +26,12 @@
     "rocket": "Long March 8A",
     "pad": "Commercial LC-1",
     "location": "Wenchang Space Launch Site, People's Republic of China"
+  },
+  {
+    "name_en": "Vega-C | Sentinel-3C & FLEX",
+    "window_start": "2026-09-15T01:21:07Z",
+    "rocket": "Vega-C",
+    "pad": "Ariane Launch Area 1 (ELV)",
+    "location": "Guiana Space Centre, French Guiana"
   }
 ]
