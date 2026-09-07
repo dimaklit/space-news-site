@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 15-24",
-    "window_start": "2026-09-06T10:59:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Long March 2D/YZ-3 | Unknown Payload",
     "window_start": "2026-09-09T08:52:00Z",
     "rocket": "Long March 2D/YZ-3",
@@ -33,5 +26,12 @@
     "rocket": "Long March 8A",
     "pad": "Commercial LC-1",
     "location": "Wenchang Space Launch Site, People's Republic of China"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | O3b mPower 11-13",
+    "window_start": "2026-09-13T18:50:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 40",
+    "location": "Cape Canaveral SFS, FL, USA"
   }
 ]
