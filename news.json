@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-09-08T10:45:00",
+    "date_display": "Tue, 08 Sep 2026 10:45:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Anak_Krakatau_eruption_by_Sentinel-3",
+    "title_en": "Anak Krakatau eruption by Sentinel-3",
+    "summary_en": "Image:\n\t\t\tCopernicus Sentinel-3 captured a plume from the eruption of Anak Krakatau on Saturday, 5 September.",
+    "image": "",
+    "title_ru": "Извержение Анака Кракатау от Sentinel-3",
+    "summary_ru": "Изображение:\n\t\t\tКосмический аппарат Copernicus Sentinel-3 заснял шлейф от извержения вулкана Анак Кракатау в субботу, 5 сентября.",
+    "title_ru_kids": "🚀 Извержение Анака Кракатау от Sentinel-3 ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tКосмический аппарат Copernicus Sentinel-3 заснял шлейф от извержения вулкана Анак Кракатау в субботу, 5 сентября. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "התפרצות אנאק קרקטאו על ידי Sentinel-3",
+    "summary_he": "תמונה:\n\t\t\tקופרניקוס סנטינל-3 תפס פלומה מהתפרצות אנאק קרקטאו ביום שבת, 5 בספטמבר.",
+    "title_he_kids": "🚀 התפרצות אנאק קרקטאו על ידי Sentinel-3 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tקופרניקוס סנטינל-3 תפס פלומה מהתפרצות אנאק קרקטאו ביום שבת, 5 בספטמבר. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Anak Krakatau eruption by Sentinel-3 ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tCopernicus Sentinel-3 captured a plume from the eruption of Anak Krakatau on Saturday, 5 September. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-09-07T10:25:00",
     "date_display": "Mon, 07 Sep 2026 10:25:00 +0200",
     "link": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ב-3 בספטמבר 2026 בשעה 15:49 CEST, צוות בקרת המשימה BepiColombo של סוכנות החלל האירופית במרכז המבצעים של החלל האירופי (ESOC) קיבל את האות לו חיכו - Mercury Transfer Module (MTM) של BepiColombo הפריד בהצלחה... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 BepiColombo begins Mercury arrival with MTM separation success ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 3 September 2026 at 15:49 CEST, the European Space Agency's&nbsp;BepiColombo&nbsp;Mission Control Team at the European Space Operations Centre (ESOC) received the signal they had been waiting for&nbsp;–&nbsp;BepiColombo’s&nbsp;Mercury Transfer Module (MTM) successfully sepa... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! פסגת החלל הבינלאומית, שתתקיים בפריז, צרפת, ב-9 וב-10 בספטמבר, תפגיש מנהיגי עולם, שרים, נציגי תעשייה ואסטרונאוטים ברגע מרכזי לעתיד החלל. מנכ\"ל ESA יוזף אשבאכר יזמין את אירופאי... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Europe's space future in focus at the International Space Summit ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The International Space Summit, taking place in Paris, France, on 9 and 10 September, will bring together world leaders, ministers, industry representatives and astronauts at a pivotal moment for the future of space. ESA Director General Josef Aschbacher will invite European l... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Isar Aerospace achieves first launch to orbit from continental Europe ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "SpaceX",
@@ -77,7 +97,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! SpaceX החליטה להעביר את כל משימות Starlink שטסות על רקטות פלקון 9 לחוף המערבי בזמן שהיא מתקדמת לקראת הופעת הבכורה של Starship-Super Heavy שלה בפלורידה. הסרת משימת Starlink 15-24 מבסיס כוח החלל ונדנברג התרחשה בשעה 7:26 בבוקר PDT (10:26 בבוקר EDT / ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 80th Starlink mission of 2026 ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! SpaceX decided to shift all Starlink missions flying on Falcon 9 rockets to the West Coast as it pushes towards the debut of its Starship-Super Heavy in Florida. Liftoff of the Starlink 15-24 mission from Vandenberg Space Force Base happened at 7:26 a.m. PDT (10:26 a.m. EDT / ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! SpaceX החליטה להעביר את כל משימות Starlink שטסות על רקטות פלקון 9 לחוף המערבי בזמן שהיא מתקדמת לקראת הופעת הבכורה של Starship-Super Heavy שלה בפלורידה. הסרת משימת Starlink 15-24 מבסיס כוח החלל ונדנברג התרחשה בשעה 7:26 בבוקר PDT (10:26 בבוקר EDT / ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 80th Starlink mission of 2026 ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! SpaceX decided to shift all Starlink missions flying on Falcon 9 rockets to the West Coast as it pushes towards the debut of its Starship-Super Heavy in Florida. Liftoff of the Starlink 15-24 mission from Vandenberg Space Force Base happened at 7:26 a.m. PDT (10:26 a.m. EDT / ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 31 באוגוסט - 04 בספטמבר 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Week in images: 31 Aug - 04 Sep 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 31 Aug - 04 Sep 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Copernicus Sentinel-3 היא אחת המשימות המגוונות ביותר למדידה וניטור מערכות האקלים של כדור הארץ. הוא לוכד מידע רחב על הסביבה ותרם רבות למה שאנו יודעים על שינויי אקלים בעשור האחרון. ההשקה של המי... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 How Sentinel-3 tracks climate change  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Copernicus Sentinel-3 is one of the most diverse missions for measuring and monitoring Earth’s climate systems. It captures a breadth of data about the environment and has contributed substantially to what we know about climate change over the past decade. The launch of the mi... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t02:31:10\n\t\t\t\tצפו בשידור החוזר של השידור החי ששודר במקור ב-3 בספטמבר כאשר משימת BepiColombo של ESA/JAXA עשתה את הצעד הקריטי הראשון לקראת ההגעה למרקורי. לאחר שטיילו יחד במערכת השמש הפנימית במשך שמונה שנים, ה-Mer... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 BepiColombo’s Mercury arrival begins - full replay ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t02:31:10\n\t\t\t\tWatch the replay of the livestream originally broadcast on 3 September as ESA/JAXA's BepiColombo mission took the first critical step towards arriving at Mercury.After travelling through the inner Solar System together for eight years, BepiColombo's Mer... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "SpaceX",
@@ -177,7 +197,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הורדת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 01:42 PDT (4:42 לפנות בוקר EDT / 0842 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California occurred at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -197,26 +217,6 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הורדת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 01:42 PDT (4:42 לפנות בוקר EDT / 0842 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from West Coast ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California occurred at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 10
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-08-31T15:30:00",
-    "date_display": "Mon, 31 Aug 2026 15:30:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/What_happened_this_month_at_the_European_Space_Agency_August_2026",
-    "title_en": "What happened this month at the European Space Agency? (August 2026) ",
-    "summary_en": "Video: \n\t\t\t00:03:19\n\t\t\t\tAugust was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries.&nbsp;From a total solar eclipse broadcast live from Spain and Sophie Adenot’s historic spacewalks, to the launch of MTG-I2 aboard Ariane 6, a b...",
-    "image": "",
-    "title_ru": "Что произошло в этом месяце в Европейском космическом агентстве? (август 2026 г.)",
-    "summary_ru": "Видео: \n\t\t\t00:03:19\n\t\t\t\tАвгуст был для ЕКА напряженным месяцем: захватывающими видами, историческими вехами и новыми захватывающими открытиями. От прямой трансляции полного солнечного затмения из Испании и исторических выходов Софи Адено в открытый космос до запуска MTG-I2 на борту корабля «Ариан-6»,...",
-    "title_ru_kids": "🚀 Что произошло в этом месяце в Европейском космическом агентстве? (август 2026 г.) ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:03:19\n\t\t\t\tАвгуст был для ЕКА напряженным месяцем: захватывающими видами, историческими вехами и новыми захватывающими открытиями. От прямой трансляции полного солнечного затмения из Испании и исторических выходов Софи Адено в открытый космос до запуска MTG-I2 на борту корабля «Ариан-6»,... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "מה קרה החודש בסוכנות החלל האירופית? (אוגוסט 2026)",
-    "summary_he": "סרטון: \n\t\t\t00:03:19\n\t\t\t\tאוגוסט היה חודש עמוס עבור ESA, בין נופים מרהיבים, אבני דרך היסטוריות ותגליות חדשות ומרגשות. מליקוי חמה מלא ששודר בשידור חי מספרד ומהליכות החלל ההיסטוריות של סופי אדנו, ועד לשיגור ה-MTG-I2 על סיפון Ariane 6, a...",
-    "title_he_kids": "🚀 מה קרה החודש בסוכנות החלל האירופית? (אוגוסט 2026) ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:03:19\n\t\t\t\tאוגוסט היה חודש עמוס עבור ESA, בין נופים מרהיבים, אבני דרך היסטוריות ותגליות חדשות ומרגשות. מליקוי חמה מלא ששודר בשידור חי מספרד ומהליכות החלל ההיסטוריות של סופי אדנו, ועד לשיגור ה-MTG-I2 על סיפון Ariane 6, a... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 What happened this month at the European Space Agency? (August 2026)  ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:19\n\t\t\t\tAugust was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries.&nbsp;From a total solar eclipse broadcast live from Spain and Sophie Adenot’s historic spacewalks, to the launch of MTG-I2 aboard Ariane 6, a b... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 11
   },
   {
