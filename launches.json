@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 2D/YZ-3 | Unknown Payload",
-    "window_start": "2026-09-09T08:52:00Z",
-    "rocket": "Long March 2D/YZ-3",
-    "pad": "Launch Area 94 (SLS-2 / 603)",
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Soyuz 2.1b | Progress MS-35 (96P)",
     "window_start": "2026-09-09T16:15:03Z",
     "rocket": "Soyuz 2.1b",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 40",
     "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Vega-C | Sentinel-3C & FLEX",
+    "window_start": "2026-09-15T01:21:07Z",
+    "rocket": "Vega-C",
+    "pad": "Ariane Launch Area 1 (ELV)",
+    "location": "Guiana Space Centre, French Guiana"
   }
 ]
