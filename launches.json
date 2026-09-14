@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "window_start": "2026-09-13T18:49:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Vega-C | Sentinel-3C & FLEX",
     "window_start": "2026-09-15T01:21:07Z",
     "rocket": "Vega-C",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Soyuz 2.1b | Progress MS-35 (96P)",
+    "window_start": "2026-09-16T13:33:53Z",
+    "rocket": "Soyuz 2.1b",
+    "pad": "31/6",
+    "location": "Baikonur Cosmodrome, Republic of Kazakhstan"
   }
 ]
