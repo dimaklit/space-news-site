@@ -1,6 +1,46 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-09-14T16:00:00",
+    "date_display": "Mon, 14 Sep 2026 16:00:00 +0200",
+    "link": "https://www.esa.int/Space_Safety/Hera/Questions_Ask_our_Hera_Space_Companion",
+    "title_en": "Questions? Ask our Hera Space Companion!",
+    "summary_en": "Meet a key member of our Hera asteroid mission team: the Hera Space Companion, not just an AI chatbot but a dynamic mission-linked communication platform, designed to make the European Space Agency’s first planetary defence mission accessible to everyone!",
+    "image": "",
+    "title_ru": "Questions? Ask our Hera Space Companion!",
+    "summary_ru": "Meet a key member of our Hera asteroid mission team: the Hera Space Companion, not just an AI chatbot but a dynamic mission-linked communication platform, designed to make the European Space Agency’s first planetary defence mission accessible to everyone!",
+    "title_ru_kids": "🚀 Questions? Ask our Hera Space Companion! ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Meet a key member of our Hera asteroid mission team: the Hera Space Companion, not just an AI chatbot but a dynamic mission-linked communication platform, designed to make the European Space Agency’s first planetary defence mission accessible to everyone! 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "Questions? Ask our Hera Space Companion!",
+    "summary_he": "Meet a key member of our Hera asteroid mission team: the Hera Space Companion, not just an AI chatbot but a dynamic mission-linked communication platform, designed to make the European Space Agency’s first planetary defence mission accessible to everyone!",
+    "title_he_kids": "🚀 Questions? Ask our Hera Space Companion! ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Meet a key member of our Hera asteroid mission team: the Hera Space Companion, not just an AI chatbot but a dynamic mission-linked communication platform, designed to make the European Space Agency’s first planetary defence mission accessible to everyone! 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Questions? Ask our Hera Space Companion! ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Meet a key member of our Hera asteroid mission team: the Hera Space Companion, not just an AI chatbot but a dynamic mission-linked communication platform, designed to make the European Space Agency’s first planetary defence mission accessible to everyone! 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-09-14T10:52:00",
+    "date_display": "Mon, 14 Sep 2026 10:52:00 +0200",
+    "link": "https://www.esa.int/Space_Safety/Space_Debris/ESA_Space_Environment_Report_2026",
+    "title_en": "ESA Space Environment Report 2026",
+    "summary_en": "",
+    "image": "",
+    "title_ru": "ESA Space Environment Report 2026",
+    "summary_ru": "",
+    "title_ru_kids": "🚀 ESA Space Environment Report 2026 ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "ESA Space Environment Report 2026",
+    "summary_he": "",
+    "title_he_kids": "🚀 ESA Space Environment Report 2026 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 ESA Space Environment Report 2026 ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 2
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-09-14T10:00:00",
     "date_display": "Mon, 14 Sep 2026 10:00:00 +0200",
     "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/09/ESA_s_FLEX_mission_reveals_the_secret_glow_of_plants",
@@ -17,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Video: \n\t\t\t00:06:30\n\t\t\t\tPlants may look still and silent, but every leaf is constantly responding to its environment.As plants photosynthesise, they emit an incredibly faint glow called fluorescence. Invisible to our eyes, this signal can reveal how plants are using sunlight a... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA’s FLEX mission reveals the secret glow of plants ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:06:30\n\t\t\t\tPlants may look still and silent, but every leaf is constantly responding to its environment.As plants photosynthesise, they emit an incredibly faint glow called fluorescence. Invisible to our eyes, this signal can reveal how plants are using sunlight a... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 3
   },
   {
     "source": "ESA",
@@ -37,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Two Earth observation satellites – ESA’s Fluorescence Explorer (FLEX) satellite, and the third satellite for the Copernicus Sentinel-3 mission – are encapsulated inside the nose cone of a Vega-C launcher and are awaiting liftoff at Europe’s Spaceport in French Guiana. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 FLEX and Sentinel-3C ready for liftoff on Vega-C ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Two Earth observation satellites – ESA’s Fluorescence Explorer (FLEX) satellite, and the third satellite for the Copernicus Sentinel-3 mission – are encapsulated inside the nose cone of a Vega-C launcher and are awaiting liftoff at Europe’s Spaceport in French Guiana. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 4
   },
   {
     "source": "SpaceX",
@@ -57,7 +97,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! The launch marks the 400th orbital flight from Space Launch Complex 40 at Cape Canaveral Space Force Station. Liftoff is scheduled during an 87-minute window that opens at 2:49 p.m. EDT (1849 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 700th Falcon rocket, carries final 3 O3b mPOWER satellites to orbit for SES ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The launch marks the 400th orbital flight from Space Launch Complex 40 at Cape Canaveral Space Force Station. Liftoff is scheduled during an 87-minute window that opens at 2:49 p.m. EDT (1849 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -77,27 +117,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! The launch marks the 400th orbital flight from Space Launch Complex 40 at Cape Canaveral Space Force Station. Liftoff is scheduled during an 87-minute window that opens at 2:49 p.m. EDT (1849 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 700th Falcon rocket, carries final 3 O3b mPOWER satellites to orbit for SES ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The launch marks the 400th orbital flight from Space Launch Complex 40 at Cape Canaveral Space Force Station. Liftoff is scheduled during an 87-minute window that opens at 2:49 p.m. EDT (1849 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 4
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-09-11T17:52:00",
-    "date_display": "Fri, 11 Sep 2026 17:52:00 +0200",
-    "link": "https://www.esa.int/Space_Safety/Space_Debris/ESA_Space_Environment_Report_2026",
-    "title_en": "ESA Space Environment Report 2026",
-    "summary_en": "",
-    "image": "",
-    "title_ru": "ESA Space Environment Report 2026",
-    "summary_ru": "",
-    "title_ru_kids": "🚀 ESA Space Environment Report 2026 ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение!  🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "ESA Space Environment Report 2026",
-    "summary_he": "",
-    "title_he_kids": "🚀 ESA Space Environment Report 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק!  🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 ESA Space Environment Report 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report!  🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! Week in images: 07-11 Sep 2026\n\tDiscover our week through the lens 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 07-11 Sep 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 07-11 Sep 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,26 +157,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s oceans, land, ice and atmosphere.At ESA’s European Space O... 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 A team of teams like never before: rehearsing a unique launch at ESA mission control ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s oceans, land, ice and atmosphere.At ESA’s European Space O... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 7
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-09-10T16:00:00",
-    "date_display": "Thu, 10 Sep 2026 16:00:00 +0200",
-    "link": "https://www.esa.int/Space_Safety/Hera/Name_our_dino_ESA_s_Hera_asteroid_mission_mascot",
-    "title_en": "Name our dino – ESA’s Hera asteroid mission mascot!",
-    "summary_en": "The European Space Agency’s Hera asteroid mission for planetary defence has a cartoon dinosaur for its mascot – because dinos were made extinct after an asteroid impact, but while they didn't have a space agency, people do! Now we’re asking you to supply our dino with a name, ...",
-    "image": "",
-    "title_ru": "Name our dino – ESA’s Hera asteroid mission mascot!",
-    "summary_ru": "The European Space Agency’s Hera asteroid mission for planetary defence has a cartoon dinosaur for its mascot – because dinos were made extinct after an asteroid impact, but while they didn't have a space agency, people do! Now we’re asking you to supply our dino with a name, ...",
-    "title_ru_kids": "🚀 Name our dino – ESA’s Hera asteroid mission mascot! ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! The European Space Agency’s Hera asteroid mission for planetary defence has a cartoon dinosaur for its mascot – because dinos were made extinct after an asteroid impact, but while they didn't have a space agency, people do! Now we’re asking you to supply our dino with a name, ... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "Name our dino – ESA’s Hera asteroid mission mascot!",
-    "summary_he": "The European Space Agency’s Hera asteroid mission for planetary defence has a cartoon dinosaur for its mascot – because dinos were made extinct after an asteroid impact, but while they didn't have a space agency, people do! Now we’re asking you to supply our dino with a name, ...",
-    "title_he_kids": "🚀 Name our dino – ESA’s Hera asteroid mission mascot! ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! The European Space Agency’s Hera asteroid mission for planetary defence has a cartoon dinosaur for its mascot – because dinos were made extinct after an asteroid impact, but while they didn't have a space agency, people do! Now we’re asking you to supply our dino with a name, ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Name our dino – ESA’s Hera asteroid mission mascot! ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s Hera asteroid mission for planetary defence has a cartoon dinosaur for its mascot – because dinos were made extinct after an asteroid impact, but while they didn't have a space agency, people do! Now we’re asking you to supply our dino with a name, ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 8
   },
   {
