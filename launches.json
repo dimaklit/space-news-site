@@ -1,7 +1,7 @@
 [
   {
     "name_en": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "window_start": "2026-09-13T18:50:00Z",
+    "window_start": "2026-09-13T18:49:00Z",
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 40",
     "location": "Cape Canaveral SFS, FL, USA"
@@ -14,22 +14,22 @@
     "location": "Guiana Space Centre, French Guiana"
   },
   {
-    "name_en": "Electron | LOXSAT 1",
-    "window_start": "2026-09-30T00:00:00Z",
-    "rocket": "Electron",
-    "pad": "Unknown Pad",
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+    "name_en": "Zhuque-2E Block 2 | Unknown Payload",
+    "window_start": "2026-09-15T06:18:00Z",
+    "rocket": "Zhuque-2E Block 2",
+    "pad": "Launch Area 96A",
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
   },
   {
-    "name_en": "Falcon 9 Block 5 | Crew-13",
-    "window_start": "2026-09-30T00:00:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
+    "name_en": "Gravity-1 | Unknown Payload",
+    "window_start": "2026-09-15T21:50:00Z",
+    "rocket": "Gravity-1",
+    "pad": "Yellow Sea (launch location 5)",
+    "location": "Haiyang Oriental Spaceport"
   },
   {
-    "name_en": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "window_start": "2026-09-30T00:00:00Z",
+    "name_en": "Falcon 9 Block 5 | USSF-259",
+    "window_start": "2026-09-16T01:00:00Z",
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
