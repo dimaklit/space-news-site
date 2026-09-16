@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Zhuque-2E Block 2 | Unknown Payload",
-    "window_start": "2026-09-15T06:18:00Z",
-    "rocket": "Zhuque-2E Block 2",
-    "pad": "Launch Area 96A",
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Gravity-1 | Unknown Payload",
     "window_start": "2026-09-15T21:50:00Z",
     "rocket": "Gravity-1",
@@ -33,5 +26,12 @@
     "rocket": "Long March 12",
     "pad": "Commercial LC-2",
     "location": "Wenchang Space Launch Site, People's Republic of China"
+  },
+  {
+    "name_en": "Kuaizhou 11 | Unknown Payload",
+    "window_start": "2026-09-17T02:31:00Z",
+    "rocket": "Kuaizhou 11",
+    "pad": "Launch Area 95A",
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
   }
 ]
