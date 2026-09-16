@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Vega-C | Sentinel-3C & FLEX",
-    "window_start": "2026-09-15T01:21:07Z",
-    "rocket": "Vega-C",
-    "pad": "Ariane Launch Area 1 (ELV)",
-    "location": "Guiana Space Centre, French Guiana"
-  },
-  {
     "name_en": "Zhuque-2E Block 2 | Unknown Payload",
     "window_start": "2026-09-15T06:18:00Z",
     "rocket": "Zhuque-2E Block 2",
@@ -33,5 +26,12 @@
     "rocket": "Soyuz 2.1b",
     "pad": "31/6",
     "location": "Baikonur Cosmodrome, Republic of Kazakhstan"
+  },
+  {
+    "name_en": "Long March 12 | Unknown Payload",
+    "window_start": "2026-09-17T00:25:00Z",
+    "rocket": "Long March 12",
+    "pad": "Commercial LC-2",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
