@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Gravity-1 | Unknown Payload",
-    "window_start": "2026-09-15T21:50:00Z",
-    "rocket": "Gravity-1",
-    "pad": "Yellow Sea (launch location 5)",
-    "location": "Haiyang Oriental Spaceport"
-  },
-  {
-    "name_en": "Falcon 9 Block 5 | USSF-259",
-    "window_start": "2026-09-16T01:00:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Soyuz 2.1b | Progress MS-35 (96P)",
     "window_start": "2026-09-16T13:33:53Z",
     "rocket": "Soyuz 2.1b",
@@ -33,5 +19,19 @@
     "rocket": "Kuaizhou 11",
     "pad": "Launch Area 95A",
     "location": "Jiuquan Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Starship | Flight 14",
+    "window_start": "2026-09-18T12:15:00Z",
+    "rocket": "Starship V3",
+    "pad": "Orbital Launch Pad 2",
+    "location": "SpaceX Starbase, TX, USA"
+  },
+  {
+    "name_en": "Long March 2D | Unknown Payload",
+    "window_start": "2026-09-19T10:43:00Z",
+    "rocket": "Long March 2D",
+    "pad": "Launch Complex 9",
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
   }
 ]
