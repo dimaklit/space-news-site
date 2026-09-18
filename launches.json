@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Long March 12 | Unknown Payload",
-    "window_start": "2026-09-17T00:25:00Z",
-    "rocket": "Long March 12",
-    "pad": "Commercial LC-2",
-    "location": "Wenchang Space Launch Site, People's Republic of China"
-  },
-  {
-    "name_en": "Kuaizhou 11 | Unknown Payload",
-    "window_start": "2026-09-17T02:31:00Z",
-    "rocket": "Kuaizhou 11",
-    "pad": "Launch Area 95A",
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Starship | Flight 14",
     "window_start": "2026-09-18T12:15:00Z",
     "rocket": "Starship V3",
@@ -33,5 +19,19 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Electron | LOXSAT 1",
+    "window_start": "2026-09-30T00:00:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Crew-13",
+    "window_start": "2026-09-30T00:00:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 40",
+    "location": "Cape Canaveral SFS, FL, USA"
   }
 ]
