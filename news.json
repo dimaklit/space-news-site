@@ -1,5 +1,25 @@
 [
   {
+    "source": "Spaceflight Now",
+    "date_parsed": "2026-09-19T20:06:04",
+    "date_display": "Sat, 19 Sep 2026 20:06:04 +0000",
+    "link": "https://spaceflightnow.com/2026/09/19/live-coverage-spacex-to-launch-27-starlink-v2-mini-satellites-on-falcon-9-rocket-from-vandenberg/",
+    "title_en": "Live coverage: SpaceX to launch 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg",
+    "summary_en": "Liftoff from pad 4E at Vandenberg Space Force Base is scheduled during a window that opens at 6:47 p.m. PDT (9:47 p.m. EDT / 0147 UTC). It will be the 81st Starlink mission of the year.",
+    "image": "",
+    "title_ru": "Прямая трансляция: SpaceX запустит 27 спутников Starlink V2 Mini на ракете Falcon 9 из Ванденберга",
+    "summary_ru": "Старт с площадки 4E на базе космических сил Ванденберг запланирован в окне, которое открывается в 18:47 по восточноевропейскому времени. Тихоокеанское время (21:47 по восточному времени / 01:47 по всемирному координированному времени). Это будет 81-я миссия Starlink в этом году.",
+    "title_ru_kids": "🚀 Прямая трансляция: SpaceX запустит 27 спутников Starlink V2 Mini на ракете Falcon 9 из Ванденберга ✨",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт с площадки 4E на базе космических сил Ванденберг запланирован в окне, которое открывается в 18:47 по восточноевропейскому времени. Тихоокеанское время (21:47 по восточному времени / 01:47 по всемирному координированному времени). Это будет 81-я миссия Starlink в этом году. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "סיקור חי: SpaceX תשגר 27 לווייני Starlink V2 Mini על רקטת פלקון 9 מוונדנברג",
+    "summary_he": "הרמה משטח 4E בבסיס כוח החלל ונדנברג מתוכננת במהלך חלון שייפתח בשעה 18:47. PDT (9:47 בערב EDT / 0147 UTC). זו תהיה משימת Starlink ה-81 של השנה.",
+    "title_he_kids": "🚀 סיקור חי: SpaceX תשגר 27 לווייני Starlink V2 Mini על רקטת פלקון 9 מוונדנברג ✨",
+    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הרמה משטח 4E בבסיס כוח החלל ונדנברג מתוכננת במהלך חלון שייפתח בשעה 18:47. PDT (9:47 בערב EDT / 0147 UTC). זו תהיה משימת Starlink ה-81 של השנה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Live coverage: SpaceX to launch 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg ✨",
+    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff from pad 4E at Vandenberg Space Force Base is scheduled during a window that opens at 6:47 p.m. PDT (9:47 p.m. EDT / 0147 UTC). It will be the 81st Starlink mission of the year. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
     "source": "ESA",
     "date_parsed": "2026-09-19T00:01:00",
     "date_display": "Sat, 19 Sep 2026 00:01:00 +0200",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) ו-The Pokémon Company International (TPCI) השיקו שיתוף פעולה רשמי כדי לחגוג את שבוע החלל העולמי 2026 בין ה-4 ל-10 באוקטובר 2026. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀  ESA and The Pokémon Company International reveal Europe-wide exhibition and astronaut Pikachu experience  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) and The Pokémon Company International (TPCI) have launched an official collaboration to celebrate World Space Week 2026 from 4–10 October 2026.&nbsp;&nbsp; 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 14-18 בספטמבר 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 14-18 Sep 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 14-18 Sep 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tלמרות שהגלקסיה הספירלית בתמונה החדשה הזו של טלסקופ החלל האבל של נאס\"א/ESA נראית שלווה, היא מסתירה סוד כאוטי. הגלקסיה הזו היא NGC 4698, והיא נמצאת במרחק של כ-55 מיליון שנות אור משם בקבוצת הכוכבים בתולה. זה אחד מתוך יותר מאלף... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 A galaxy spinning out of sync ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThough the spiral galaxy in this new image&nbsp;by the NASA/ESA&nbsp;Hubble Space Telescope&nbsp;seems serene, it hides a chaotic secret. This galaxy is NGC 4698, and it lies about 55 million light-years away in the constellation Virgo. It’s one of over one thousand ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו של Copernicus Sentinel-2, שנרכשה ב-25 באוגוסט 2026, מציגה אזור של Altiplano של האנדים בדרום בוליביה ליד הגבול עם צ'ילה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Earth from Space: Laguna Colorada ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis Copernicus Sentinel-2 image, acquired on 25 August 2026, shows an area of the Andean Altiplano in southern Bolivia near the border with Chile. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) חתמה על 18 חוזי איחוד המאגדים קרוב ל-80 חברות כדי ללמוד שירותי קישוריות מאובטחים וגמישים חדשים. החוזים מכסים גם מושגי משימה קשורים ומטרתם לעצב את עתיד הקישוריות המאובטחת של האיחוד האירופי... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 ESA starts next phase of IRIS² evolution through Low-LEO activities  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) has signed 18 consolidation contracts bringing together nearly 80 companies to study new secure and resilient connectivity services. The contracts also cover associated mission concepts and aim to shape the future of the EU's secure connectivity... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ב-16 בספטמבר באירוע Industry Space Days 2026 ב-ESA–ESTEC בהולנד, כיבדה סוכנות החלל האירופית (ESA) שלוש חברות חלל בפרסים היוקרתיים לשנה זו למצוינות וחדשנות. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Three space companies win ESA awards for excellence and innovation ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 16 September at its Industry Space Days 2026 event at ESA–ESTEC in the Netherlands, the European Space Agency (ESA) honoured three space companies with this year’s prestigious awards for excellence and innovation.&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "ESA",
@@ -137,7 +157,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! במשך שעתיים אחר הצהריים של יום רביעי ה-16 בספטמבר, חמישה לווייני גלילאו מבצעיים המשדרים מעל אירופה שידרו אות מוצפן חדש לבדיקה. על הקרקע באנדייה, נורבגיה, ובמעבדת הניווט של ESA ב-ESTEC, בהולנד, מקלטי ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Galileo's first civil authenticated position fix under spoofing conditions ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! For two hours on the afternoon of Wednesday 16 September, five operational Galileo satellites broadcasting over Europe transmitted a new encrypted signal for testing. On the ground in Andøya, Norway, and at ESA’s navigation laboratory at ESTEC, in the Netherlands, receivers su... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "SpaceX",
@@ -157,7 +177,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הרקטה נשאה מספר לא מוגדר של לוויינים להקיף. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה ביום רביעי, 16 בספטמבר, 18:07:56. PDT / 21:07:56 EDT ב-16 בספטמבר (0107:56 UTC ב-17 בספטמבר). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches national security payload for U.S. Space Force from Vandenberg ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The rocket carried an unspecified number of satellites to orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened on Wednesday, Sept. 16, 6:07:56 p.m. PDT / 9:07:56 p.m. EDT on Sept. 16 (0107:56 UTC on Sept. 17). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "Spaceflight Now",
@@ -177,7 +197,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הרקטה נשאה מספר לא מוגדר של לוויינים להקיף. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה ביום רביעי, 16 בספטמבר, 18:07:56. PDT / 21:07:56 EDT ב-16 בספטמבר (0107:56 UTC ב-17 בספטמבר). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches national security payload for U.S. Space Force from Vandenberg ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The rocket carried an unspecified number of satellites to orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened on Wednesday, Sept. 16, 6:07:56 p.m. PDT / 9:07:56 p.m. EDT on Sept. 16 (0107:56 UTC on Sept. 17). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -197,7 +217,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה, עם הקיצור VV30, היא השיגור השני של רקטה Vega-C המנוהלת אך ורק על ידי Avio ללא Arianespace. ההמראה מאנסמבל דה לאנסמנט וגה בנמל החלל של אירופה בגיאנה הצרפתית אירעה ב-22:21. זמן מקומי (21:21 EDT / 0121 UTC / 3:21 בבוקר CEST). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Avio launches pair of climate monitoring European spacecraft to study plants, oceans and atmospheric changes ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission, with the shorthand VV30, is the second launch of a Vega-C rocket managed solely by Avio without Arianespace. Liftoff from Ensemble de Lancement Vega at Europe’s Spaceport in French Guiana happened at 10:21 p.m. local time (9:21 p.m. EDT / 0121 UTC / 3:21 a.m. CEST). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -217,7 +237,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה, עם הקיצור VV30, היא השיגור השני של רקטה Vega-C המנוהלת אך ורק על ידי Avio ללא Arianespace. ההמראה מ-Ansemble de Lancement Vega בנמל החלל של אירופה בגיאנה הצרפתית מתוכננת לשעה 22:21. זמן מקומי (21:21 EDT / 0121 UTC / 3:21 בבוקר.... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Launch preview: Avio to launch spacecraft to monitor plant health and ocean conditions ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission, with the shorthand VV30, is the second launch of a Vega-C rocket managed solely by Avio without Arianespace. Liftoff from Ensemble de Lancement Vega at Europe’s Spaceport in French Guiana is scheduled for 10:21 p.m. local time (9:21 p.m. EDT / 0121 UTC / 3:21 a.m.... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "SpaceX",
@@ -237,7 +257,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! השיגור מציין את הטיסה המסלולית ה-400 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל. ההרמה מתוכננת במהלך חלון של 87 דקות שייפתח בשעה 14:49. EDT (1849 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 700th Falcon rocket, carries final 3 O3b mPOWER satellites to orbit for SES ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The launch marks the 400th orbital flight from Space Launch Complex 40 at Cape Canaveral Space Force Station. Liftoff is scheduled during an 87-minute window that opens at 2:49 p.m. EDT (1849 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "Spaceflight Now",
@@ -257,7 +277,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! השיגור מציין את הטיסה המסלולית ה-400 ממתחם שיגור החלל 40 בתחנת כוח החלל קייפ קנוורל. ההרמה מתוכננת במהלך חלון של 87 דקות שייפתח בשעה 14:49. EDT (1849 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 700th Falcon rocket, carries final 3 O3b mPOWER satellites to orbit for SES ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The launch marks the 400th orbital flight from Space Launch Complex 40 at Cape Canaveral Space Force Station. Liftoff is scheduled during an 87-minute window that opens at 2:49 p.m. EDT (1849 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 13
+    "id": 14
   },
   {
     "source": "SpaceX",
@@ -277,7 +297,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה, שכונתה משימת USSF-153, שיגרה מספר לא ידוע של לוויינים עבור חיל החלל האמריקני. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 8:42 בבוקר PDT (1142 בבוקר EDT / 1542 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches classified payload for the U.S. Space Force ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission, dubbed USSF-153 mission, launched an undisclosed number of satellites for the U.S. Space Force. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:42 a.m. PDT (1142 a.m. EDT / 1542 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 14
+    "id": 15
   },
   {
     "source": "Spaceflight Now",
@@ -297,7 +317,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה, שכונתה משימת USSF-153, שיגרה מספר לא ידוע של לוויינים עבור חיל החלל האמריקני. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 8:42 בבוקר PDT (1142 בבוקר EDT / 1542 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches classified payload for the U.S. Space Force ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission, dubbed USSF-153 mission, launched an undisclosed number of satellites for the U.S. Space Force. Liftoff from pad 4E at Vandenberg Space Force Base happened at 8:42 a.m. PDT (1142 a.m. EDT / 1542 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 15
+    "id": 16
   },
   {
     "source": "SpaceX",
@@ -317,7 +337,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! SpaceX החליטה להעביר את כל משימות Starlink שטסות על רקטות פלקון 9 לחוף המערבי בזמן שהיא מתקדמת לקראת הופעת הבכורה של Starship-Super Heavy שלה בפלורידה. הסרת משימת Starlink 15-24 מבסיס כוח החלל ונדנברג התרחשה בשעה 7:26 בבוקר PDT (10:26 בבוקר EDT / ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 80th Starlink mission of 2026 ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! SpaceX decided to shift all Starlink missions flying on Falcon 9 rockets to the West Coast as it pushes towards the debut of its Starship-Super Heavy in Florida. Liftoff of the Starlink 15-24 mission from Vandenberg Space Force Base happened at 7:26 a.m. PDT (10:26 a.m. EDT / ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 16
+    "id": 17
   },
   {
     "source": "Spaceflight Now",
@@ -337,7 +357,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! SpaceX החליטה להעביר את כל משימות Starlink שטסות על רקטות פלקון 9 לחוף המערבי בזמן שהיא מתקדמת לקראת הופעת הבכורה של Starship-Super Heavy שלה בפלורידה. הסרת משימת Starlink 15-24 מבסיס כוח החלל ונדנברג התרחשה בשעה 7:26 בבוקר PDT (10:26 בבוקר EDT / ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches 80th Starlink mission of 2026 ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! SpaceX decided to shift all Starlink missions flying on Falcon 9 rockets to the West Coast as it pushes towards the debut of its Starship-Super Heavy in Florida. Liftoff of the Starlink 15-24 mission from Vandenberg Space Force Base happened at 7:26 a.m. PDT (10:26 a.m. EDT / ... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 17
+    "id": 18
   },
   {
     "source": "SpaceX",
@@ -357,7 +377,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הורדת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 01:42 PDT (4:42 לפנות בוקר EDT / 0842 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California occurred at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 18
+    "id": 19
   },
   {
     "source": "Spaceflight Now",
@@ -377,26 +397,6 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הורדת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה התרחשה בשעה 01:42 PDT (4:42 לפנות בוקר EDT / 0842 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches Starlink mission from West Coast ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California occurred at 1:42 a.m. PDT (4:42 a.m. EDT / 0842 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 19
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-08-29T22:17:36",
-    "date_display": "Sat, 29 Aug 2026 22:17:36 +0000",
-    "link": "https://spaceflightnow.com/2026/08/29/roman-space-telescope-nasas-next-great-observatory-poised-for-sunday-launch/",
-    "title_en": "Roman Space Telescope, NASA’s next ‘great observatory,’ launched",
-    "summary_en": "Using a donated Hubble-class mirror originally built for a spy satellite, NASA's Roman Space Telescope launched Sunday on a $4.3 billion mission to open a new window on the universe. Liftoff from the Kennedy Space Center atop a SpaceX Falcon Heavy came at 7:26 a.m. EDT (1126 U...",
-    "image": "",
-    "title_ru": "Запущен Римский космический телескоп, следующая «великая обсерватория» НАСА",
-    "summary_ru": "Используя подаренное зеркало класса «Хаббл», первоначально созданное для спутника-шпиона, Римский космический телескоп НАСА в воскресенье запустил миссию стоимостью 4,3 миллиарда долларов, чтобы открыть новое окно во Вселенную. Старт из Космического центра Кеннеди на ракете SpaceX Falcon Heavy произошел в 7:26 утра по восточному времени (1126 U...",
-    "title_ru_kids": "🚀 Запущен Римский космический телескоп, следующая «великая обсерватория» НАСА ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Используя подаренное зеркало класса «Хаббл», первоначально созданное для спутника-шпиона, Римский космический телескоп НАСА в воскресенье запустил миссию стоимостью 4,3 миллиарда долларов, чтобы открыть новое окно во Вселенную. Старт из Космического центра Кеннеди на ракете SpaceX Falcon Heavy произошел в 7:26 утра по восточному времени (1126 U... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "טלסקופ החלל הרומי, 'מצפה הכוכבים הגדול' הבא של נאס\"א שוגר",
-    "summary_he": "באמצעות מראה נתרמה מסוג האבל שנבנתה במקור עבור לוויין ריגול, טלסקופ החלל הרומי של נאס\"א שוגר ביום ראשון במשימה של 4.3 מיליארד דולר כדי לפתוח חלון חדש על היקום. ההמראה ממרכז החלל קנדי ​​על גבי SpaceX Falcon Heavy הגיעה בשעה 7:26 בבוקר EDT (1126 U...",
-    "title_he_kids": "🚀 טלסקופ החלל הרומי, 'מצפה הכוכבים הגדול' הבא של נאס\"א שוגר ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! באמצעות מראה נתרמה מסוג האבל שנבנתה במקור עבור לוויין ריגול, טלסקופ החלל הרומי של נאס\"א שוגר ביום ראשון במשימה של 4.3 מיליארד דולר כדי לפתוח חלון חדש על היקום. ההמראה ממרכז החלל קנדי ​​על גבי SpaceX Falcon Heavy הגיעה בשעה 7:26 בבוקר EDT (1126 U... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
-    "title_en_kids": "🚀 Roman Space Telescope, NASA’s next ‘great observatory,’ launched ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! Using a donated Hubble-class mirror originally built for a spy satellite, NASA's Roman Space Telescope launched Sunday on a $4.3 billion mission to open a new window on the universe. Liftoff from the Kennedy Space Center atop a SpaceX Falcon Heavy came at 7:26 a.m. EDT (1126 U... 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 20
   },
   {
