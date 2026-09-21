@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Kinetica 1 | 9 satellites",
-    "window_start": "2026-09-20T03:54:00Z",
-    "rocket": "Kinetica 1",
-    "pad": "Launch Area 130",
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Long March 8A | Unknown Payload",
     "window_start": "2026-09-23T13:24:00Z",
     "rocket": "Long March 8A",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+    "window_start": "2026-09-28T12:15:00Z",
+    "rocket": "Starship V3",
+    "pad": "Orbital Launch Pad 2",
+    "location": "SpaceX Starbase, TX, USA"
   }
 ]
