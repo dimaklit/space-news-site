@@ -1,37 +1,37 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 15-27",
-    "window_start": "2026-09-20T01:47:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
+    "name_en": "Kinetica 1 | 9 satellites",
+    "window_start": "2026-09-20T03:54:00Z",
+    "rocket": "Kinetica 1",
+    "pad": "Launch Area 130",
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
   },
   {
-    "name_en": "Electron | LOXSAT 1",
-    "window_start": "2026-09-30T00:00:00Z",
+    "name_en": "Long March 8A | Unknown Payload",
+    "window_start": "2026-09-23T13:24:00Z",
+    "rocket": "Long March 8A",
+    "pad": "Commercial LC-1",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
+  },
+  {
+    "name_en": "Long March 6A | Unknown Payload",
+    "window_start": "2026-09-24T08:38:00Z",
+    "rocket": "Long March 6A",
+    "pad": "Launch Complex 9A",
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
+    "window_start": "2026-09-26T00:15:00Z",
     "rocket": "Electron",
-    "pad": "Unknown Pad",
+    "pad": "Rocket Lab Launch Complex 1B",
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
   },
   {
-    "name_en": "Falcon 9 Block 5 | Crew-13",
-    "window_start": "2026-09-30T00:00:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
-    "name_en": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "window_start": "2026-09-30T00:00:00Z",
+    "name_en": "Falcon 9 Block 5 | USSF-385",
+    "window_start": "2026-09-26T11:56:00Z",
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
-  },
-  {
-    "name_en": "Long March 12A | Flight 2",
-    "window_start": "2026-09-30T00:00:00Z",
-    "rocket": "Long March 12A",
-    "pad": "Long March 12 series Pad",
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
   }
 ]
