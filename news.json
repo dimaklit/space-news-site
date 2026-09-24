@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-09-24T15:00:00",
+    "date_display": "Thu, 24 Sep 2026 15:00:00 +0200",
+    "link": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Win_a_trip_to_ESA_to_witness_BepiColombo_arrive_at_Mercury",
+    "title_en": "Win a trip to ESA to witness BepiColombo arrive at Mercury ",
+    "summary_en": "Get ready to celebrate BepiColombo’s arrival at Mercury. Craft a welcoming message that could be a drawing, song, poem or any other art form and stand a chance to win a trip to mission control!&nbsp;ENTRY FORM&nbsp;&nbsp;Full rules and how to enter below.&nbsp;",
+    "image": "",
+    "title_ru": "Выиграйте поездку в ЕКА и станьте свидетелем прибытия БепиКоломбо на Меркурий.",
+    "summary_ru": "Приготовьтесь отпраздновать прибытие BepiColombo на Меркурий. Создайте приветственное послание, которое может представлять собой рисунок, песню, стихотворение или любой другой вид искусства, и получите шанс выиграть поездку в центр управления полетами! ФОРМА ЗАЯВКИ  Полные правила и способы участия приведены ниже.",
+    "title_ru_kids": "🚀 Выиграйте поездку в ЕКА и станьте свидетелем прибытия БепиКоломбо на Меркурий. ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Приготовьтесь отпраздновать прибытие BepiColombo на Меркурий. Создайте приветственное послание, которое может представлять собой рисунок, песню, стихотворение или любой другой вид искусства, и получите шанс выиграть поездку в центр управления полетами! ФОРМА ЗАЯВКИ  Полные правила и способы участия приведены ниже. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "זכה בנסיעה ל-ESA כדי לראות את BepiColombo מגיע למרקורי",
+    "summary_he": "התכוננו לחגוג את הגעתו של BepiColombo למרקורי. צרו מסר מסביר פנים שיכול להיות ציור, שיר, שיר או כל צורת אמנות אחרת וקבלו סיכוי לזכות בטיול לבקרת המשימה! טופס הרשמה  הכללים המלאים וכיצד להיכנס למטה.",
+    "title_he_kids": "🚀 זכה בנסיעה ל-ESA כדי לראות את BepiColombo מגיע למרקורי ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! התכוננו לחגוג את הגעתו של BepiColombo למרקורי. צרו מסר מסביר פנים שיכול להיות ציור, שיר, שיר או כל צורת אמנות אחרת וקבלו סיכוי לזכות בטיול לבקרת המשימה! טופס הרשמה  הכללים המלאים וכיצד להיכנס למטה. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Win a trip to ESA to witness BepiColombo arrive at Mercury  ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Get ready to celebrate BepiColombo’s arrival at Mercury. Craft a welcoming message that could be a drawing, song, poem or any other art form and stand a chance to win a trip to mission control!&nbsp;ENTRY FORM&nbsp;&nbsp;Full rules and how to enter below.&nbsp; 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-09-24T09:05:00",
     "date_display": "Thu, 24 Sep 2026 09:05:00 +0200",
     "link": "https://www.esa.int/About_Us/Business_with_ESA/Record_participation_in_ESA_s_Industry_Space_Days_2026",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ב-16-17 בספטמבר, סוכנות החלל האירופית (ESA) אירחה שיא של 3100 מבקרים מתעשיית החלל של אירופה לאירוע בן יומיים של Industry Space Days (ISD) במרכז הטכני ESTEC של ESA בהולנד. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Record participation in ESA’s Industry Space Days 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 16–17 September, the European Space Agency (ESA) hosted a record 3100 visitors from Europe’s space industry for a two-day Industry Space Days (ISD) event at ESA’s ESTEC technical centre in the Netherlands.&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הכללת הבמה העליונה, מספר זנב ספינה 41, מגיעה לקראת הפגנת תדלוק סביר שתוכננה בימים שלפני ניסיון שיגור. טיסה מס' 14 של ספינת הכוכבים מתוכננת לא לפני ה-28 בספטמבר, בהמתנה לאישור מינהל התעופה הפדרלי. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX stack Starship and Super Heavy for first orbital flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The inclusion of the upper stage, tail number Ship 41, comes ahead of a probable fueling demonstration planned in the days leading up to a launch attempt. Starship Flight 14 is scheduled for no earlier than Sept. 28, pending approval from the Federal Aviation Administration. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חללית ההגנה הפלנטרית של סוכנות החלל האירופית ויפן לחקר החלל של סוכנות החלל של סוכנות החלל היפנית, ראמסס, הופעלה לראשונה על ידי הקבלן הראשי שלה - מה שמציין אבן דרך חשובה בלוח הזמנים של הפיתוח הקריטי שלה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 First switch on for ESA-JAXA Ramses asteroid mission ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s and Japan Aerospace Exploration Agency’s Ramses planetary defence spacecraft has been turned on for the first time by its prime contractor – marking a major milestone in its time-critical development schedule. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,26 +97,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! כעת דוהרת בחלל העמוק במהירות של 12 ק\"מ לשנייה ביחס לכדור הארץ, חללית הרה של ESA אמורה להגיע לאסטרואיד דימורפוס היעד שלה בנובמבר הקרוב. אבל אם אסטרונאוט היה מועבר בצורה קסומה אל הרה בגודל המכונית הקטנה עם הגעתו, מה הם היו רואים ומה... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 A hitchhiker’s guide to Hera’s target asteroids ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Currently speeding through deep space at 12 km/s relative to Earth, ESA’s Hera spacecraft is due to reach its target Dimorphos asteroid this November. But if an astronaut were magically teleported onto the small-car-sized Hera upon arrival, what would they be seeing, and what ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-09-22T13:26:00",
-    "date_display": "Tue, 22 Sep 2026 13:26:00 +0200",
-    "link": "https://www.esa.int/About_Us/Corporate_news/A_call_to_boost_European_space_exploration",
-    "title_en": "A call to boost European space exploration",
-    "summary_en": "The Call sets out a shared vision for strengthening Europe's role in human and robotic space exploration and provides political guidance for preparations ahead of the Intermediate Ministerial Meeting in Rome on 15 December.",
-    "image": "",
-    "title_ru": "Призыв ускорить освоение космоса в Европе",
-    "summary_ru": "Призыв излагает общее видение усиления роли Европы в освоении космоса человеком и роботами и обеспечивает политическое руководство для подготовки к промежуточной встрече министров в Риме 15 декабря.",
-    "title_ru_kids": "🚀 Призыв ускорить освоение космоса в Европе ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Призыв излагает общее видение усиления роли Европы в освоении космоса человеком и роботами и обеспечивает политическое руководство для подготовки к промежуточной встрече министров в Риме 15 декабря. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "קריאה להגביר את חקר החלל האירופי",
-    "summary_he": "הקריאה מציגה חזון משותף לחיזוק תפקידה של אירופה בחקר החלל האנושי והרובוטי ומספקת הדרכה פוליטית להכנות לקראת ישיבת השרים הביניים ברומא ב-15 בדצמבר.",
-    "title_he_kids": "🚀 קריאה להגביר את חקר החלל האירופי ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הקריאה מציגה חזון משותף לחיזוק תפקידה של אירופה בחקר החלל האנושי והרובוטי ומספקת הדרכה פוליטית להכנות לקראת ישיבת השרים הביניים ברומא ב-15 בדצמבר. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 A call to boost European space exploration ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Call sets out a shared vision for strengthening Europe's role in human and robotic space exploration and provides political guidance for preparations ahead of the Intermediate Ministerial Meeting in Rome on 15 December. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 5
   },
   {
