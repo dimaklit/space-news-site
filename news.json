@@ -1,5 +1,25 @@
 [
   {
+    "source": "ESA",
+    "date_parsed": "2026-09-24T09:05:00",
+    "date_display": "Thu, 24 Sep 2026 09:05:00 +0200",
+    "link": "https://www.esa.int/About_Us/Business_with_ESA/Record_participation_in_ESA_s_Industry_Space_Days_2026",
+    "title_en": "Record participation in ESA’s Industry Space Days 2026",
+    "summary_en": "On 16–17 September, the European Space Agency (ESA) hosted a record 3100 visitors from Europe’s space industry for a two-day Industry Space Days (ISD) event at ESA’s ESTEC technical centre in the Netherlands.&nbsp;",
+    "image": "",
+    "title_ru": "Рекордное участие в Днях промышленного космоса ЕКА 2026 г.",
+    "summary_ru": "16–17 сентября Европейское космическое агентство (ЕКА) приняло рекордные 3100 посетителей из космической отрасли Европы на двухдневное мероприятие Industry Space Days (ISD) в техническом центре ESTEC ЕКА в Нидерландах.",
+    "title_ru_kids": "🚀 Рекордное участие в Днях промышленного космоса ЕКА 2026 г. ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! 16–17 сентября Европейское космическое агентство (ЕКА) приняло рекордные 3100 посетителей из космической отрасли Европы на двухдневное мероприятие Industry Space Days (ISD) в техническом центре ESTEC ЕКА в Нидерландах. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "שיא השתתפות בימי התעשייה החלל של ESA 2026",
+    "summary_he": "ב-16-17 בספטמבר, סוכנות החלל האירופית (ESA) אירחה שיא של 3100 מבקרים מתעשיית החלל של אירופה לאירוע בן יומיים של Industry Space Days (ISD) במרכז הטכני ESTEC של ESA בהולנד.",
+    "title_he_kids": "🚀 שיא השתתפות בימי התעשייה החלל של ESA 2026 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ב-16-17 בספטמבר, סוכנות החלל האירופית (ESA) אירחה שיא של 3100 מבקרים מתעשיית החלל של אירופה לאירוע בן יומיים של Industry Space Days (ISD) במרכז הטכני ESTEC של ESA בהולנד. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Record participation in ESA’s Industry Space Days 2026 ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 16–17 September, the European Space Agency (ESA) hosted a record 3100 visitors from Europe’s space industry for a two-day Industry Space Days (ISD) event at ESA’s ESTEC technical centre in the Netherlands.&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
     "source": "Spaceflight Now",
     "date_parsed": "2026-09-23T21:47:00",
     "date_display": "Wed, 23 Sep 2026 21:47:00 +0000",
@@ -17,7 +37,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הכללת הבמה העליונה, מספר זנב ספינה 41, מגיעה לקראת הפגנת תדלוק סביר שתוכננה בימים שלפני ניסיון שיגור. טיסה מס' 14 של ספינת הכוכבים מתוכננת לא לפני ה-28 בספטמבר, בהמתנה לאישור מינהל התעופה הפדרלי. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX stack Starship and Super Heavy for first orbital flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The inclusion of the upper stage, tail number Ship 41, comes ahead of a probable fueling demonstration planned in the days leading up to a launch attempt. Starship Flight 14 is scheduled for no earlier than Sept. 28, pending approval from the Federal Aviation Administration. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חללית ההגנה הפלנטרית של סוכנות החלל האירופית ויפן לחקר החלל של סוכנות החלל של סוכנות החלל היפנית, ראמסס, הופעלה לראשונה על ידי הקבלן הראשי שלה - מה שמציין אבן דרך חשובה בלוח הזמנים של הפיתוח הקריטי שלה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 First switch on for ESA-JAXA Ramses asteroid mission ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s and Japan Aerospace Exploration Agency’s Ramses planetary defence spacecraft has been turned on for the first time by its prime contractor – marking a major milestone in its time-critical development schedule. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,7 +77,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! כעת דוהרת בחלל העמוק במהירות של 12 ק\"מ לשנייה ביחס לכדור הארץ, חללית הרה של ESA אמורה להגיע לאסטרואיד דימורפוס היעד שלה בנובמבר הקרוב. אבל אם אסטרונאוט היה מועבר בצורה קסומה אל הרה בגודל המכונית הקטנה עם הגעתו, מה הם היו רואים ומה... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 A hitchhiker’s guide to Hera’s target asteroids ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Currently speeding through deep space at 12 km/s relative to Earth, ESA’s Hera spacecraft is due to reach its target Dimorphos asteroid this November. But if an astronaut were magically teleported onto the small-car-sized Hera upon arrival, what would they be seeing, and what ... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! הקריאה מציגה חזון משותף לחיזוק תפקידה של אירופה בחקר החלל האנושי והרובוטי ומספקת הדרכה פוליטית להכנות לקראת ישיבת השרים הביניים ברומא ב-15 בדצמבר. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 A call to boost European space exploration ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The Call sets out a shared vision for strengthening Europe's role in human and robotic space exploration and provides political guidance for preparations ahead of the Intermediate Ministerial Meeting in Rome on 15 December. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,26 +117,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה הראשונה המתוכננת של ספינת Starship מתוכננת לשיגור מ-Starbase בטקסס כבר ב-28 בספטמבר, בהמתנה לאישור סופי ממינהל התעופה הפדרלי. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX’s Super Heavy booster arrives at pad ahead of first orbital Starship launch ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The first planned orbital Starship mission is scheduled for launch from Starbase in Texas as soon as Sept. 28, pending final approval from the Federal Aviation Administration. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-09-21T16:00:00",
-    "date_display": "Mon, 21 Sep 2026 16:00:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_to_fly_past_Earth_for_third_gravity_assist",
-    "title_en": "Juice to fly past Earth for third gravity assist",
-    "summary_en": "The European Space Agency’s Jupiter Icy Moons Explorer (Juice) will return to Earth on 28 September, with flight controllers guiding the spacecraft close to our home planet to alter its speed and direction en route to Jupiter.",
-    "image": "",
-    "title_ru": "Джус пролетит мимо Земли для третьего гравитационного ассистента",
-    "summary_ru": "Исследователь ледяных лун Юпитера (Juice) Европейского космического агентства вернется на Землю 28 сентября, а диспетчеры полета будут направлять космический корабль недалеко от нашей родной планеты, чтобы изменить его скорость и направление на пути к Юпитеру.",
-    "title_ru_kids": "🚀 Джус пролетит мимо Земли для третьего гравитационного ассистента ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Исследователь ледяных лун Юпитера (Juice) Европейского космического агентства вернется на Землю 28 сентября, а диспетчеры полета будут направлять космический корабль недалеко от нашей родной планеты, чтобы изменить его скорость и направление на пути к Юпитеру. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
-    "title_he": "מיץ לעוף על פני כדור הארץ לסיוע שלישי בכוח הכבידה",
-    "summary_he": "סייר הירחים הקרח (Jupiter) של סוכנות החלל האירופית יחזור לכדור הארץ ב-28 בספטמבר, עם בקרי טיסה שידריכו את החללית קרוב לכוכב הבית שלנו כדי לשנות את מהירותה וכיוונה בדרך לצדק.",
-    "title_he_kids": "🚀 מיץ לעוף על פני כדור הארץ לסיוע שלישי בכוח הכבידה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סייר הירחים הקרח (Jupiter) של סוכנות החלל האירופית יחזור לכדור הארץ ב-28 בספטמבר, עם בקרי טיסה שידריכו את החללית קרוב לכוכב הבית שלנו כדי לשנות את מהירותה וכיוונה בדרך לצדק. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Juice to fly past Earth for third gravity assist ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s Jupiter Icy Moons Explorer (Juice) will return to Earth on 28 September, with flight controllers guiding the spacecraft close to our home planet to alter its speed and direction en route to Jupiter. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
     "id": 6
   },
   {
