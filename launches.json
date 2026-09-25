@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 6A | Unknown Payload",
-    "window_start": "2026-09-24T08:38:00Z",
-    "rocket": "Long March 6A",
-    "pad": "Launch Complex 9A",
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
     "window_start": "2026-09-26T00:15:00Z",
     "rocket": "Electron",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Crew-13",
+    "window_start": "2026-10-01T15:10:06Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 40",
+    "location": "Cape Canaveral SFS, FL, USA"
   }
 ]
