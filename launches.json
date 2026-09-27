@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | USSF-385",
-    "window_start": "2026-09-26T11:56:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Starship | Starlink Group 31-1 (Starship Flight 14)",
     "window_start": "2026-09-28T12:15:00Z",
     "rocket": "Starship V3",
@@ -33,5 +26,12 @@
     "rocket": "SR75",
     "pad": "Unknown Pad",
     "location": "SaxaVord Spaceport"
+  },
+  {
+    "name_en": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+    "window_start": "2026-10-07T00:00:00Z",
+    "rocket": "Ariane 64 Block 2",
+    "pad": "Ariane Launch Area 4",
+    "location": "Guiana Space Centre, French Guiana"
   }
 ]
