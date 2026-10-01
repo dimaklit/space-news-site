@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-10-01T14:30:00",
+    "date_display": "Thu, 01 Oct 2026 14:30:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
+    "title_en": "What happened this month at the European Space Agency? (September 2026)",
+    "summary_en": "Video: \n\t\t\t00:03:32\n\t\t\t\tSeptember was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1. BepiColombo separated from its Mercury Transfer Module, taking an...",
+    "image": "",
+    "title_ru": "Что произошло в этом месяце в Европейском космическом агентстве? (сентябрь 2026 г.)",
+    "summary_ru": "Видео: \n\t\t\t00:03:32\n\t\t\t\tСентябрь стал месяцем вех и открытий. FLEX запущен на борту Vega-C вместе с Sentinel-3C. Софи Адено совершила свой третий и последний выход в открытый космос, возглавив миссию под позывным EV-1. BepiColombo отделилась от своего модуля переноса ртути, приняв...",
+    "title_ru_kids": "🚀 Что произошло в этом месяце в Европейском космическом агентстве? (сентябрь 2026 г.) ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:03:32\n\t\t\t\tСентябрь стал месяцем вех и открытий. FLEX запущен на борту Vega-C вместе с Sentinel-3C. Софи Адено совершила свой третий и последний выход в открытый космос, возглавив миссию под позывным EV-1. BepiColombo отделилась от своего модуля переноса ртути, приняв... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "מה קרה החודש בסוכנות החלל האירופית? (ספטמבר 2026)",
+    "summary_he": "וידאו: \n\t\t\t00:03:32\n\t\t\t\tספטמבר היה חודש של אבני דרך ותגליות. FLEX הושק על סיפון Vega-C לצד Sentinel-3C. סופי אדנוט השלימה את הליכת החלל השלישית והאחרונה שלה, והובילה את המשימה כ-EV-1. BepiColombo נפרדה ממודול העברת כספית שלה, ולקחה...",
+    "title_he_kids": "🚀 מה קרה החודש בסוכנות החלל האירופית? (ספטמבר 2026) ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:03:32\n\t\t\t\tספטמבר היה חודש של אבני דרך ותגליות. FLEX הושק על סיפון Vega-C לצד Sentinel-3C. סופי אדנוט השלימה את הליכת החלל השלישית והאחרונה שלה, והובילה את המשימה כ-EV-1. BepiColombo נפרדה ממודול העברת כספית שלה, ולקחה... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 What happened this month at the European Space Agency? (September 2026) ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:03:32\n\t\t\t\tSeptember was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1. BepiColombo separated from its Mercury Transfer Module, taking an... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-10-01T09:30:00",
     "date_display": "Thu, 01 Oct 2026 09:30:00 +0200",
     "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/EarthCARE_s_view_of_volcanic_plume_boosts_air_safety",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! כאשר אנאק קרקטאו התפרץ לפני מספר שבועות, הלווין EarthCARE של סוכנות החלל האירופית, שהקיף מעליו, תפס פרופילים אנכיים של מרכיבים שונים בתוך הפלומה הוולקנית. נועד בעיקר לקדם את ההבנה שלנו כיצד עננים ואירוסולים משפיעים על האוזן... 🌍 כדור הארץ נראה פשוט קסום מהחלל. תראה איזה יופי! 📸 המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 EarthCARE’s view of volcanic plume boosts air safety ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! When Anak Krakatau erupted a few weeks ago, the European Space Agency’s EarthCARE satellite, orbiting above, captured vertical profiles of different constituents within the volcanic plume. Designed primarily to advance our understanding of how clouds and aerosols influence Ear... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "SpaceX",
@@ -37,7 +57,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! האסטרונאוטית של נאס\"א ג'סיקה ווטקינס, תהפוך לאסטרונאוטית הראשונה של הסוכנות שטסה בפעם השנייה על סיפון חללית SpaceX Dragon. הרמת רקטת Falcon 9 ממשטח 40 בבסיס כוח החלל קייפ קנוורל מתוכננת לשעה 11:10 בבוקר EDT (1510 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Live coverage: NASA, SpaceX to launch next crewed mission to the International Space Station ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! NASA astronaut Jessica Watkins, will become the first agency astronaut to fly for a second time onboard a SpaceX Dragon spacecraft. Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Base is scheduled for 11:10 a.m. EDT (1510 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +77,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! האסטרונאוטית של נאס\"א ג'סיקה ווטקינס, תהפוך לאסטרונאוטית הראשונה של הסוכנות שטסה בפעם השנייה על סיפון חללית SpaceX Dragon. הרמת רקטת Falcon 9 ממשטח 40 בבסיס כוח החלל קייפ קנוורל מתוכננת לשעה 11:10 בבוקר EDT (1510 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Live coverage: NASA, SpaceX to launch next crewed mission to the International Space Station ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA astronaut Jessica Watkins, will become the first agency astronaut to fly for a second time onboard a SpaceX Dragon spacecraft. Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Base is scheduled for 11:10 a.m. EDT (1510 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! ב-23 בספטמבר הוכרזה משימת החיוך האירופית-סיני מוכנה להתחיל לחשוף כיצד כדור הארץ מגיב לרוח החלקיקים הטעונים מהשמש. זאת לאחר תקופה עמוסה בחלל מאז שיגור החללית ב-19 במאי והגיע למסלול היעד שלה... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Science begins for Smile ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! On 23 September, the European-Chinese Smile mission was declared ready to start revealing how Earth responds to the wind of charged particles from the Sun. This follows a busy in-space commissioning period since the spacecraft launched on 19 May and reached its target orbit fo... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -97,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונת החודש של טלסקופ החלל של נאס\"א/ESA/CSA ג'יימס ווב מציגה גלקסיות בפירוט רב שהתעוותו והוכפלו כאילו נכנסו לבית של מראות. הגלקסיות הזהובות המבריקות שניתזו על פני התמונה הזו שייכות לצביר גלקסיות... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Galaxies in a cosmic house of mirrors ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis NASA/ESA/CSA James Webb Space Telescope Picture of the Month features galaxies in great detail that have been warped and multiplied like they’ve stepped into a house of mirrors. The brilliant golden galaxies splashed across this image belong to a galaxy cluster ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! אם טיסת הניסוי הבלתי מנווטת תעבור כשורה, נאס\"א ובואינג מקווים להשיק טיסת Starliner מנוסה באמצע 2028, אמרו גורמים רשמיים ביום שני, תוך שילוב שסתומי מערכת הנעה מעוצבים מחדש, תת-מערכות חזקות יותר ושינויים אחרים שצפויים למנוע את סוג הכשלים... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA plans unpiloted Starliner test flight at end of year ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! If the unpiloted test flight goes well, NASA and Boeing hope to launch a piloted Starliner flight in mid 2028, officials said Monday, incorporating redesigned propulsion system valves, more robust subsystems and other modifications expected to prevent the sort of failures that... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,7 +157,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מאיץ השלב הראשון של ה-Super Heavy, המייצר כ-16 מיליון פאונד של דחף - פי שניים מהעוצמה של טיל הירח של מערכת שיגור החלל של נאס\"א - הואץ במהירות כשצרך חומר הנעה ויורד במשקל, טיפס החוצה מהאטמוספירה הנמוכה והסמיכה לאורך מסלול דרום-מזרח... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Starship returns to Earth; rocket splashes down north of Hawaii after three-hour flight ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Super Heavy first stage booster, generating some 16 million pounds of thrust — twice the power of NASA's Space Launch System moon rocket — rapidly accelerated as it consumed propellant and lost weight, climbing out of the thick lower atmosphere along a southeasterly trajec... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "ESA",
@@ -157,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! חוקר הירחים הקרחניים של סוכנות החלל האירופית (מיץ) רפרף על הקצה החיצוני מאוד של האטמוספירה של כדור הארץ ב-28 בספטמבר, תוך שימוש בכוח המשיכה של כוכב הלכת הביתי שלנו כדי לשנות את מסלולו לצדק תוך שימוש במעט מאוד דלק. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Successful Earth flyby improves Juice’s course to Jupiter ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s Jupiter Icy Moons Explorer (Juice) skimmed the very outer edge of Earth’s atmosphere on 28 September, using the gravity of our home planet to alter its route to Jupiter using very little fuel. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 8
+    "id": 9
   },
   {
     "source": "ESA",
@@ -177,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! בזמן שאנו מתכוננים לחזור לירח, ההכשרה המובילה באירופה לגיאולוגיה לאסטרונאוטים PANGEA חוגגת עשור להפיכת מקומות יוצאי דופן על פני כדור הארץ לכיתות לחקר החלל. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 One geology step closer to the Moon  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! As we prepare to return to the Moon, Europe’s leading geology training for astronauts PANGAEA celebrates its 10th anniversary turning extraordinary places on Earth into classrooms for space exploration. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 9
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -197,7 +217,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הטיסה המסלולית המתוכננת הראשונה של רקטת Starship-Super Heavy שואפת לשלוח את 26 Starlink גרסה 3 למסלול נמוך של כדור הארץ. הרמה מ-Pad 2 ב-Starbase, טקסס, מתוכננת במהלך חלון של 75 דקות שייפתח ב-7:15 בבוקר CDT (8:15 בבוקר EDT / 1215 UTC). 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Launch preview: SpaceX to launch first Starlink V3 satellites to orbit on Starship ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The first planned orbital flight of a Starship-Super Heavy rocket aims to send 26 Starlink Version 3 into low Earth orbit. Liftoff from Pad 2 at Starbase, Texas, is scheduled during a 75-minute window that opens at 7:15 a.m. CDT (8:15 a.m. EDT / 1215 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 10
+    "id": 11
   },
   {
     "source": "Spaceflight Now",
@@ -217,7 +237,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! שלושת האסטרונאוטים וקוסמונאוט אחד ישהו בערך שישה חודשים על סיפון תחנת החלל הבינלאומית. ההשקה מתוכננת לא לפני ה-1 באוקטובר. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Next crew bound for the space station arrive in Florida ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The three astronauts and one cosmonaut will spend roughly six months onboard the International Space Station. Launch is scheduled for no earlier than Oct. 1. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 12
   },
   {
     "source": "SpaceX",
@@ -237,7 +257,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההמראה של משימת USSF-385 על גבי פלקון 9 מתוכננת לשעה 7:00 PDT (10:00 EDT / 1400 UTC) בפתיחת חלון שיגור בן שלוש שעות. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches classified mission for U.S. Space Force from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the USSF-385 mission atop a Falcon 9 is scheduled for 7 a.m. PDT (10 a.m. EDT / 1400 UTC) at the opening of a three-hour launch window. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 12
+    "id": 13
   },
   {
     "source": "Spaceflight Now",
@@ -257,7 +277,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! ההמראה של משימת USSF-385 על גבי פלקון 9 מתוכננת לשעה 7:00 PDT (10:00 EDT / 1400 UTC) בפתיחת חלון שיגור בן שלוש שעות. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches classified mission for U.S. Space Force from West Coast ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Liftoff of the USSF-385 mission atop a Falcon 9 is scheduled for 7 a.m. PDT (10 a.m. EDT / 1400 UTC) at the opening of a three-hour launch window. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 13
+    "id": 14
   },
   {
     "source": "ESA",
@@ -277,26 +297,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 21-25 בספטמבר 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Week in images: 21-25 Sep 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 21-25 Sep 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 14
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-09-25T10:00:00",
-    "date_display": "Fri, 25 Sep 2026 10:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/09/Earth_from_Space_Venetian_Lagoon",
-    "title_en": "Earth from Space: Venetian Lagoon",
-    "summary_en": "Image:\n\t\t\tThis image of the Venetian Lagoon in northern Italy was acquired by the IRIDE satellites on 17 May 2026.",
-    "image": "",
-    "title_ru": "Земля из космоса: Венецианская лагуна",
-    "summary_ru": "Изображение:\n\t\t\tЭто изображение Венецианской лагуны на севере Италии было получено спутниками IRIDE 17 мая 2026 года.",
-    "title_ru_kids": "🚀 Земля из космоса: Венецианская лагуна ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tЭто изображение Венецианской лагуны на севере Италии было получено спутниками IRIDE 17 мая 2026 года. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Космос на древнегреческом означает 'порядок'!",
-    "title_he": "כדור הארץ מהחלל: לגונה ונציאנית",
-    "summary_he": "תמונה:\n\t\t\tתמונה זו של הלגונה הוונציאנית בצפון איטליה נרכשה על ידי לווייני IRIDE ב-17 במאי 2026.",
-    "title_he_kids": "🚀 כדור הארץ מהחלל: לגונה ונציאנית ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו של הלגונה הוונציאנית בצפון איטליה נרכשה על ידי לווייני IRIDE ב-17 במאי 2026. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Earth from Space: Venetian Lagoon ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis image of the Venetian Lagoon in northern Italy was acquired by the IRIDE satellites on 17 May 2026. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 15
   },
   {
