@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Crew-13",
-    "window_start": "2026-10-01T15:10:06Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 40",
-    "location": "Cape Canaveral SFS, FL, USA"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
     "window_start": "2026-10-01T18:18:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Nuri | NeonSat-2 to 6",
+    "window_start": "2026-10-07T03:23:00Z",
+    "rocket": "KSLV-2 Nuri",
+    "pad": "LC-2",
+    "location": "Naro Space Center, South Korea"
   }
 ]
