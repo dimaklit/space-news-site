@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon Heavy | NROL-97",
-    "window_start": "2026-10-02T03:53:00Z",
-    "rocket": "Falcon Heavy",
-    "pad": "Launch Complex 39A",
-    "location": "Kennedy Space Center, FL, USA"
-  },
-  {
     "name_en": "SR75 | Flight 2",
     "window_start": "2026-10-05T00:00:00Z",
     "rocket": "SR75",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "window_start": "2026-10-15T00:00:00Z",
+    "rocket": "GSLV Mk. II",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "location": "Satish Dhawan Space Centre, India"
   }
 ]
