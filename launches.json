@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "window_start": "2026-10-05T08:17:21Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Nuri | NeonSat-2 to 6",
     "window_start": "2026-10-07T03:23:00Z",
     "rocket": "KSLV-2 Nuri",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 40",
     "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "H3-24 | Martian Moon eXplorer (MMX)",
+    "window_start": "2026-10-19T19:41:03Z",
+    "rocket": "H3-24",
+    "pad": "Yoshinobu Launch Complex LP-2",
+    "location": "Tanegashima Space Center, Japan"
   }
 ]
