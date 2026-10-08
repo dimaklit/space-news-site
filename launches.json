@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Nuri | NeonSat-2 to 6",
-    "window_start": "2026-10-07T03:23:00Z",
-    "rocket": "KSLV-2 Nuri",
-    "pad": "LC-2",
-    "location": "Naro Space Center, South Korea"
-  },
-  {
     "name_en": "Long March 12 | Unknown Payload",
     "window_start": "2026-10-09T19:20:00Z",
     "rocket": "Long March 12",
@@ -33,5 +26,12 @@
     "rocket": "H3-24",
     "pad": "Yoshinobu Launch Complex LP-2",
     "location": "Tanegashima Space Center, Japan"
+  },
+  {
+    "name_en": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+    "window_start": "2026-10-31T00:00:00Z",
+    "rocket": "Ariane 64 Block 2",
+    "pad": "Ariane Launch Area 4",
+    "location": "Guiana Space Centre, French Guiana"
   }
 ]
