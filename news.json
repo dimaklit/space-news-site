@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-10-08T18:51:00",
+    "date_display": "Thu, 08 Oct 2026 18:51:00 +0200",
+    "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot",
+    "title_en": "Splashdown confirmed for Sophie Adenot ",
+    "summary_en": "ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8 October 2026.&nbsp;",
+    "image": "",
+    "title_ru": "Splashdown подтвержден для Софи Адено",
+    "summary_ru": "Астронавт ЕКА Софи Адено вернулась на Землю с экипажем-12 после своей почти восьмимесячной миссии на Международной космической станции, приземлившись у побережья Калифорнии, США, в 15:34 по Гринвичу/17:34 по центральноевропейскому летнему времени 8 октября 2026 года.",
+    "title_ru_kids": "🚀 Splashdown подтвержден для Софи Адено ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Астронавт ЕКА Софи Адено вернулась на Землю с экипажем-12 после своей почти восьмимесячной миссии на Международной космической станции, приземлившись у побережья Калифорнии, США, в 15:34 по Гринвичу/17:34 по центральноевропейскому летнему времени 8 октября 2026 года. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "Splashdown אושר עבור סופי Adenot",
+    "summary_he": "האסטרונאוטית של ESA, סופי אדנוט, חזרה לכדור הארץ עם Crew-12 לאחר משימתה ב-εpsilon בת כמעט שמונה חודשים לתחנת החלל הבינלאומית, כשהתיז מול חופי קליפורניה, ארה\"ב, בשעה 15:34 GMT/17:34 CEST ב-8 באוקטובר 2026.",
+    "title_he_kids": "🚀 Splashdown אושר עבור סופי Adenot ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA, סופי אדנוט, חזרה לכדור הארץ עם Crew-12 לאחר משימתה ב-εpsilon בת כמעט שמונה חודשים לתחנת החלל הבינלאומית, כשהתיז מול חופי קליפורניה, ארה\"ב, בשעה 15:34 GMT/17:34 CEST ב-8 באוקטובר 2026. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Splashdown confirmed for Sophie Adenot  ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8 October 2026.&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-10-08T14:25:00",
     "date_display": "Thu, 08 Oct 2026 14:25:00 +0200",
     "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Sentinel-3C_returns_its_first_views_of_Earth",
@@ -17,7 +37,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבועיים בלבד לאחר שיגורו, הלווין Copernicus Sentinel-3C החזיר את התמונות והמדידות הראשונות שלו משני המכשירים המרכזיים שלו - אבן דרך גדולה המאשרת שהלוויין פועל היטב ונמצא בדרך לניטור בריאות האוקיינוסים של כדור הארץ, לא... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Sentinel-3C returns its first views of Earth ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Just two weeks after it was launched, the Copernicus Sentinel-3C satellite returned its first images and measurements from two of its key instruments – a major milestone that confirms the satellite is working well and on the road to monitoring the health of Earth’s oceans, lan... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! החללית Solar Orbiter בהובלת סוכנות החלל האירופית טסה דרך קיפול בצורת S המכונה \"מתג\" בשדה המגנטי של רוח השמש. על ידי טביעת אצבע של החלקיקים החמקמקים בתוך ה- Switchback, Solar Orbiter איתר את מקורו אל פני השטח של השמש ו... ☀️ וואו, השמש ממש לוהטת היום! מגיני החללית עובדים בעוצמה מלאה! 🛡️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Solar Orbiter tracks origin of mysterious magnetic switchbacks ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a ‘switchback’ in the solar wind’s magnetic field. By fingerprinting the elusive particles within the switchback, Solar Orbiter has traced its origin back to the Sun’s surface an... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -57,26 +77,6 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! במשך אלפי שנים, שמי הלילה היוו השראה לאנושות, הדריכו מגלי ארצות ועזרו למדענים לפתוח את מסתורי היקום. ככל שמספר הלוויינים במסלול גדל, האור המוחזר וההפרעות בתדר הרדיו הופכים לאתגר עבור מקצועיים כאחד... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Keeping the sky dark and quiet ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! For thousands of years, the night sky has inspired humanity, guided explorers and helped scientists unlock the mysteries of the Universe. As the number of satellites in orbit grows, their reflected light and radio frequency interference become a challenge for both professional... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-10-07T17:00:00",
-    "date_display": "Wed, 07 Oct 2026 17:00:00 +0200",
-    "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought",
-    "title_en": "Mars’s oddest cloud may be even odder than we thought",
-    "summary_en": "Scientists using the European Space Agency's Mars Express,&nbsp;in combination with a state-of-the-art meteorological model of the Red Planet, have found that there may be some very exotic physics behind Mars’s most curious cloud.",
-    "image": "",
-    "title_ru": "Самое странное облако Марса может оказаться еще более странным, чем мы думали",
-    "summary_ru": "Ученые, использующие Mars Express Европейского космического агентства в сочетании с современной метеорологической моделью Красной планеты, обнаружили, что за самым любопытным облаком Марса может скрываться какая-то очень экзотическая физика.",
-    "title_ru_kids": "🚀 Самое странное облако Марса может оказаться еще более странным, чем мы думали ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Ученые, использующие Mars Express Европейского космического агентства в сочетании с современной метеорологической моделью Красной планеты, обнаружили, что за самым любопытным облаком Марса может скрываться какая-то очень экзотическая физика. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "הענן המוזר ביותר של מאדים עשוי להיות אפילו מוזר יותר ממה שחשבנו",
-    "summary_he": "מדענים המשתמשים ב-Mars Express של סוכנות החלל האירופית, בשילוב עם מודל מטאורולוגי מתקדם של הכוכב האדום, מצאו שייתכן שיש פיזיקה אקזוטית מאוד מאחורי הענן המוזר ביותר של מאדים.",
-    "title_he_kids": "🚀 הענן המוזר ביותר של מאדים עשוי להיות אפילו מוזר יותר ממה שחשבנו ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! מדענים המשתמשים ב-Mars Express של סוכנות החלל האירופית, בשילוב עם מודל מטאורולוגי מתקדם של הכוכב האדום, מצאו שייתכן שיש פיזיקה אקזוטית מאוד מאחורי הענן המוזר ביותר של מאדים. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Mars’s oddest cloud may be even odder than we thought ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Scientists using the European Space Agency's Mars Express,&nbsp;in combination with a state-of-the-art meteorological model of the Red Planet, have found that there may be some very exotic physics behind Mars’s most curious cloud. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
     "id": 4
   },
   {
