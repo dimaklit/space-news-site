@@ -1,6 +1,26 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-10-09T10:00:00",
+    "date_display": "Fri, 09 Oct 2026 10:00:00 +0200",
+    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Namibia_s_biggest_salt_pan",
+    "title_en": "Earth from Space: Namibia’s biggest salt pan",
+    "summary_en": "Image:\n\t\t\tThis image from Copernicus Sentinel-2, acquired on 5 April 2026, shows the Etosha National Park in northern Namibia.",
+    "image": "",
+    "title_ru": "Земля из космоса: самая большая соляная кастрюля Намибии",
+    "summary_ru": "Изображение:\n\t\t\tНа этом изображении, полученном 5 апреля 2026 года аппаратом Copernicus Sentinel-2, виден национальный парк Этоша на севере Намибии.",
+    "title_ru_kids": "🚀 Земля из космоса: самая большая соляная кастрюля Намибии ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tНа этом изображении, полученном 5 апреля 2026 года аппаратом Copernicus Sentinel-2, виден национальный парк Этоша на севере Намибии. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
+    "title_he": "כדור הארץ מהחלל: מחבת המלח הגדולה ביותר של נמיביה",
+    "summary_he": "תמונה:\n\t\t\tתמונה זו מ-Copernicus Sentinel-2, שנרכשה ב-5 באפריל 2026, מציגה את הפארק הלאומי אטושה בצפון נמיביה.",
+    "title_he_kids": "🚀 כדור הארץ מהחלל: מחבת המלח הגדולה ביותר של נמיביה ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו מ-Copernicus Sentinel-2, שנרכשה ב-5 באפריל 2026, מציגה את הפארק הלאומי אטושה בצפון נמיביה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Earth from Space: Namibia’s biggest salt pan ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis image from Copernicus Sentinel-2, acquired on 5 April 2026, shows the Etosha National Park in northern Namibia. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-10-08T18:51:00",
     "date_display": "Thu, 08 Oct 2026 18:51:00 +0200",
     "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot",
@@ -11,13 +31,13 @@
     "summary_ru": "Астронавт ЕКА Софи Адено вернулась на Землю с экипажем-12 после своей почти восьмимесячной миссии на Международной космической станции, приземлившись у побережья Калифорнии, США, в 15:34 по Гринвичу/17:34 по центральноевропейскому летнему времени 8 октября 2026 года.",
     "title_ru_kids": "🚀 Splashdown подтвержден для Софи Адено ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Астронавт ЕКА Софи Адено вернулась на Землю с экипажем-12 после своей почти восьмимесячной миссии на Международной космической станции, приземлившись у побережья Калифорнии, США, в 15:34 по Гринвичу/17:34 по центральноевропейскому летнему времени 8 октября 2026 года. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "Splashdown אושר עבור סופי Adenot",
-    "summary_he": "האסטרונאוטית של ESA, סופי אדנוט, חזרה לכדור הארץ עם Crew-12 לאחר משימתה ב-εpsilon בת כמעט שמונה חודשים לתחנת החלל הבינלאומית, כשהתיז מול חופי קליפורניה, ארה\"ב, בשעה 15:34 GMT/17:34 CEST ב-8 באוקטובר 2026.",
-    "title_he_kids": "🚀 Splashdown אושר עבור סופי Adenot ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA, סופי אדנוט, חזרה לכדור הארץ עם Crew-12 לאחר משימתה ב-εpsilon בת כמעט שמונה חודשים לתחנת החלל הבינלאומית, כשהתיז מול חופי קליפורניה, ארה\"ב, בשעה 15:34 GMT/17:34 CEST ב-8 באוקטובר 2026. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_he": "Splashdown אושר עבור סופי אדנוט",
+    "summary_he": "האסטרונאוטית של ESA, סופי אדנוט, חזרה לכדור הארץ עם צוות-12 לאחר משימת אפסילון בת כמעט שמונה חודשים לתחנת החלל הבינלאומית, כשהתיז מול חופי קליפורניה, ארה\"ב, בשעה 15:34 GMT/17:34 CEST ב-8 באוקטובר 2026.",
+    "title_he_kids": "🚀 Splashdown אושר עבור סופי אדנוט ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA, סופי אדנוט, חזרה לכדור הארץ עם צוות-12 לאחר משימת אפסילון בת כמעט שמונה חודשים לתחנת החלל הבינלאומית, כשהתיז מול חופי קליפורניה, ארה\"ב, בשעה 15:34 GMT/17:34 CEST ב-8 באוקטובר 2026. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Splashdown confirmed for Sophie Adenot  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8 October 2026.&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "ESA",
@@ -37,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבועיים בלבד לאחר שיגורו, הלווין Copernicus Sentinel-3C החזיר את התמונות והמדידות הראשונות שלו משני המכשירים המרכזיים שלו - אבן דרך גדולה המאשרת שהלוויין פועל היטב ונמצא בדרך לניטור בריאות האוקיינוסים של כדור הארץ, לא... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Sentinel-3C returns its first views of Earth ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Just two weeks after it was launched, the Copernicus Sentinel-3C satellite returned its first images and measurements from two of its key instruments – a major milestone that confirms the satellite is working well and on the road to monitoring the health of Earth’s oceans, lan... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "ESA",
@@ -52,12 +72,12 @@
     "title_ru_kids": "🚀 Solar Orbiter отслеживает происхождение загадочных магнитных переключений ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Космический корабль Solar Orbiter под руководством Европейского космического агентства пролетел через S-образный излом, известный как «обратное переключение» в магнитном поле солнечного ветра. С помощью отпечатков пальцев неуловимых частиц внутри переключателя Solar Orbiter проследил его происхождение до поверхности Солнца и... ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ В космосе абсолютная, полная тишина!",
     "title_he": "Solar Orbiter עוקב אחר מקורם של מעברים מגנטיים מסתוריים",
-    "summary_he": "החללית Solar Orbiter בהובלת סוכנות החלל האירופית טסה דרך קיפול בצורת S המכונה \"מתג\" בשדה המגנטי של רוח השמש. על ידי טביעת אצבע של החלקיקים החמקמקים בתוך ה- Switchback, Solar Orbiter איתר את מקורו אל פני השטח של השמש ו...",
+    "summary_he": "החללית Solar Orbiter בהובלת סוכנות החלל האירופית טסה דרך קיפול בצורת S המכונה \"מתג\" בשדה המגנטי של רוח השמש. על ידי טביעת אצבע של החלקיקים החמקמקים בתוך ה-switchback, Solar Orbiter איתר את מקורו אל פני השטח של השמש ו...",
     "title_he_kids": "🚀 Solar Orbiter עוקב אחר מקורם של מעברים מגנטיים מסתוריים ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! החללית Solar Orbiter בהובלת סוכנות החלל האירופית טסה דרך קיפול בצורת S המכונה \"מתג\" בשדה המגנטי של רוח השמש. על ידי טביעת אצבע של החלקיקים החמקמקים בתוך ה- Switchback, Solar Orbiter איתר את מקורו אל פני השטח של השמש ו... ☀️ וואו, השמש ממש לוהטת היום! מגיני החללית עובדים בעוצמה מלאה! 🛡️ חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! החללית Solar Orbiter בהובלת סוכנות החלל האירופית טסה דרך קיפול בצורת S המכונה \"מתג\" בשדה המגנטי של רוח השמש. על ידי טביעת אצבע של החלקיקים החמקמקים בתוך ה-switchback, Solar Orbiter איתר את מקורו אל פני השטח של השמש ו... ☀️ וואו, השמש ממש לוהטת היום! מגיני החללית עובדים בעוצמה מלאה! 🛡️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Solar Orbiter tracks origin of mysterious magnetic switchbacks ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a ‘switchback’ in the solar wind’s magnetic field. By fingerprinting the elusive particles within the switchback, Solar Orbiter has traced its origin back to the Sun’s surface an... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "ESA",
@@ -77,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! במשך אלפי שנים, שמי הלילה היוו השראה לאנושות, הדריכו מגלי ארצות ועזרו למדענים לפתוח את מסתורי היקום. ככל שמספר הלוויינים במסלול גדל, האור המוחזר וההפרעות בתדר הרדיו הופכים לאתגר עבור מקצועיים כאחד... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Keeping the sky dark and quiet ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! For thousands of years, the night sky has inspired humanity, guided explorers and helped scientists unlock the mysteries of the Universe. As the number of satellites in orbit grows, their reflected light and radio frequency interference become a challenge for both professional... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "ESA",
@@ -88,16 +108,16 @@
     "summary_en": "Video: \n\t\t\t00:04:19\n\t\t\t\tMeet&nbsp;Hera, our very own asteroid detective. Together with two CubeSats – Milani the rock decoder and Juventas the radar visionary – Hera is off on an adventure to explore Didymos, a double asteroid system that is typical of the thousands that pose ...",
     "image": "",
     "title_ru": "Миссия «Невероятные приключения Геры» – прибытие космических детективов",
-    "summary_ru": "Видео: \n\t\t\t00:04:19\n\t\t\t\tПознакомьтесь с Герой, нашим собственным детективом по астероидам. Вместе с двумя спутниками CubeSat – Милани, декодером горных пород, и Ювентасом, радарным провидцем – Гера отправляется в приключение, чтобы исследовать Дидимос, двойную систему астероидов, типичную для тысяч, которые представляют...",
+    "summary_ru": "Видео: \n\t\t\t00:04:19\n\t\t\t\tПознакомьтесь с Герой, нашим собственным детективом по астероидам. Вместе с двумя спутниками CubeSat — Милани, декодером горных пород, и Ювентасом, радарным провидцем, — Гера отправляется в приключение, чтобы исследовать Дидимос, двойную систему астероидов, типичную для тысяч, которые представляют...",
     "title_ru_kids": "🚀 Миссия «Невероятные приключения Геры» – прибытие космических детективов ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:04:19\n\t\t\t\tПознакомьтесь с Герой, нашим собственным детективом по астероидам. Вместе с двумя спутниками CubeSat – Милани, декодером горных пород, и Ювентасом, радарным провидцем – Гера отправляется в приключение, чтобы исследовать Дидимос, двойную систему астероидов, типичную для тысяч, которые представляют... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:04:19\n\t\t\t\tПознакомьтесь с Герой, нашим собственным детективом по астероидам. Вместе с двумя спутниками CubeSat — Милани, декодером горных пород, и Ювентасом, радарным провидцем, — Гера отправляется в приключение, чтобы исследовать Дидимос, двойную систему астероидов, типичную для тысяч, которые представляют... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
     "title_he": "ההרפתקאות המדהימות של משימת הרה - בלשי החלל מגיעים",
-    "summary_he": "וידאו: \n\t\t\t00:04:19\n\t\t\t\tהכירו את הרה, בלשית האסטרואידים שלנו. יחד עם שני CubeSats - מילאני מפענח הסלע ויובנטאס בעל החזון של המכ\"ם - הרה יוצאת להרפתקה כדי לחקור את דידימוס, מערכת אסטרואידים כפולה האופיינית לאלפים שמתייצבים ...",
+    "summary_he": "סרטון: \n\t\t\t00:04:19\n\t\t\t\tהכירו את הרה, בלשית האסטרואידים שלנו. יחד עם שני CubeSats - מילאני מפענח הסלע ויובנטאס בעל החזון של המכ\"ם - הרה יוצאת להרפתקה כדי לחקור את דידימוס, מערכת אסטרואידים כפולה האופיינית לאלפים שמתייצבים ...",
     "title_he_kids": "🚀 ההרפתקאות המדהימות של משימת הרה - בלשי החלל מגיעים ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:04:19\n\t\t\t\tהכירו את הרה, בלשית האסטרואידים שלנו. יחד עם שני CubeSats - מילאני מפענח הסלע ויובנטאס בעל החזון של המכ\"ם - הרה יוצאת להרפתקה כדי לחקור את דידימוס, מערכת אסטרואידים כפולה האופיינית לאלפים שמתייצבים ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:04:19\n\t\t\t\tהכירו את הרה, בלשית האסטרואידים שלנו. יחד עם שני CubeSats - מילאני מפענח הסלע ויובנטאס בעל החזון של המכ\"ם - הרה יוצאת להרפתקה כדי לחקור את דידימוס, מערכת אסטרואידים כפולה האופיינית לאלפים שמתייצבים ... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 The Incredible Adventures of the Hera mission – The space detectives arrive ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:04:19\n\t\t\t\tMeet&nbsp;Hera, our very own asteroid detective. Together with two CubeSats – Milani the rock decoder and Juventas the radar visionary – Hera is off on an adventure to explore Didymos, a double asteroid system that is typical of the thousands that pose ... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "ESA",
@@ -117,7 +137,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tווב לוכד מהומה ממטוסי הכוכבים של הערפילית 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Webb captures commotion from nebula’s stellar jets ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tWebb captures commotion from nebula’s stellar jets 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "SpaceX",
@@ -128,16 +148,16 @@
     "summary_en": "The Tranche 1 Transporter Layer A mission is the fourth flight supporting the Space Development Agency’s Proliferated Warfighter Space Architecture constellation. The next launch attempt could come as soon as Saturday.",
     "image": "",
     "title_ru": "SpaceX отменила попытку запуска 21 спутника для передачи данных для Агентства космического развития",
-    "summary_ru": "Миссия Tranche 1 Transporter Layer A — это четвертый полет в поддержку группировки распространённых военных истребителей Агентства космического развития. Следующая попытка запуска может произойти уже в субботу.",
+    "summary_ru": "Миссия Tranche 1 Transporter Layer A — это четвертый полет в поддержку группировки распространённых боевых истребителей Агентства космического развития. Следующая попытка запуска может произойти уже в субботу.",
     "title_ru_kids": "🚀 SpaceX отменила попытку запуска 21 спутника для передачи данных для Агентства космического развития ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Tranche 1 Transporter Layer A — это четвертый полет в поддержку группировки распространённых военных истребителей Агентства космического развития. Следующая попытка запуска может произойти уже в субботу. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Миссия Tranche 1 Transporter Layer A — это четвертый полет в поддержку группировки распространённых боевых истребителей Агентства космического развития. Следующая попытка запуска может произойти уже в субботу. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "SpaceX מקרצפת ניסיון שיגור של 21 לווייני העברת נתונים עבור הסוכנות לפיתוח החלל",
     "summary_he": "המשימה של Tranche 1 Transporter Layer A היא הטיסה הרביעית התומכת בקונסטלציה של Proliferated Warfighter Space Architecture של הסוכנות לפיתוח החלל. ניסיון השיגור הבא עשוי להגיע כבר בשבת.",
     "title_he_kids": "🚀 SpaceX מקרצפת ניסיון שיגור של 21 לווייני העברת נתונים עבור הסוכנות לפיתוח החלל ✨",
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה של Tranche 1 Transporter Layer A היא הטיסה הרביעית התומכת בקונסטלציה של Proliferated Warfighter Space Architecture של הסוכנות לפיתוח החלל. ניסיון השיגור הבא עשוי להגיע כבר בשבת. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX scrubs launch attempt for 21 data transport satellites for the Space Development Agency ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Tranche 1 Transporter Layer A mission is the fourth flight supporting the Space Development Agency’s Proliferated Warfighter Space Architecture constellation. The next launch attempt could come as soon as Saturday. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 8
   },
   {
     "source": "Spaceflight Now",
@@ -148,35 +168,15 @@
     "summary_en": "The Tranche 1 Transporter Layer A mission is the fourth flight supporting the Space Development Agency’s Proliferated Warfighter Space Architecture constellation. The next launch attempt could come as soon as Saturday.",
     "image": "",
     "title_ru": "SpaceX отменила попытку запуска 21 спутника для передачи данных для Агентства космического развития",
-    "summary_ru": "Миссия Tranche 1 Transporter Layer A — это четвертый полет в поддержку группировки распространённых военных истребителей Агентства космического развития. Следующая попытка запуска может произойти уже в субботу.",
+    "summary_ru": "Миссия Tranche 1 Transporter Layer A — это четвертый полет в поддержку группировки распространённых боевых истребителей Агентства космического развития. Следующая попытка запуска может произойти уже в субботу.",
     "title_ru_kids": "🚀 SpaceX отменила попытку запуска 21 спутника для передачи данных для Агентства космического развития ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Миссия Tranche 1 Transporter Layer A — это четвертый полет в поддержку группировки распространённых военных истребителей Агентства космического развития. Следующая попытка запуска может произойти уже в субботу. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Миссия Tranche 1 Transporter Layer A — это четвертый полет в поддержку группировки распространённых боевых истребителей Агентства космического развития. Следующая попытка запуска может произойти уже в субботу. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "SpaceX מקרצפת ניסיון שיגור של 21 לווייני העברת נתונים עבור הסוכנות לפיתוח החלל",
     "summary_he": "המשימה של Tranche 1 Transporter Layer A היא הטיסה הרביעית התומכת בקונסטלציה של Proliferated Warfighter Space Architecture של הסוכנות לפיתוח החלל. ניסיון השיגור הבא עשוי להגיע כבר בשבת.",
     "title_he_kids": "🚀 SpaceX מקרצפת ניסיון שיגור של 21 לווייני העברת נתונים עבור הסוכנות לפיתוח החלל ✨",
     "summary_he_kids": "🌟 תראו מה קרה! המשימה של Tranche 1 Transporter Layer A היא הטיסה הרביעית התומכת בקונסטלציה של Proliferated Warfighter Space Architecture של הסוכנות לפיתוח החלל. ניסיון השיגור הבא עשוי להגיע כבר בשבת. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX scrubs launch attempt for 21 data transport satellites for the Space Development Agency ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Tranche 1 Transporter Layer A mission is the fourth flight supporting the Space Development Agency’s Proliferated Warfighter Space Architecture constellation. The next launch attempt could come as soon as Saturday. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 8
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-10-02T15:10:00",
-    "date_display": "Fri, 02 Oct 2026 15:10:00 +0200",
-    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_28_Sep_-_2_Oct_2026",
-    "title_en": "Week in images: 28 Sep - 2 Oct 2026",
-    "summary_en": "Week in images: 28 Sep - 2 Oct 2026\n\tDiscover our week through the lens",
-    "image": "",
-    "title_ru": "Неделя в изображениях: 28 сентября – 2 октября 2026 г.",
-    "summary_ru": "Неделя в изображениях: 28 сентября – 2 октября 2026 г.\n\tОткройте для себя нашу неделю через призму",
-    "title_ru_kids": "🚀 Неделя в изображениях: 28 сентября – 2 октября 2026 г. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 28 сентября – 2 октября 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "שבוע בתמונות: 28 בספטמבר - 2 באוקטובר 2026",
-    "summary_he": "שבוע בתמונות: 28 בספטמבר - 2 באוקטובר 2026\n\tגלה את השבוע שלנו דרך העדשה",
-    "title_he_kids": "🚀 שבוע בתמונות: 28 בספטמבר - 2 באוקטובר 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 28 בספטמבר - 2 באוקטובר 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Week in images: 28 Sep - 2 Oct 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 28 Sep - 2 Oct 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 9
   },
   {
@@ -188,9 +188,9 @@
     "summary_en": "The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA’s Kennedy Space Center at 11:54 p.m. EDT (0354 UTC).",
     "image": "",
     "title_ru": "Falcon Heavy выполнил свою первую миссию по заказу американского шпионского спутникового агентства",
-    "summary_ru": "Планируется, что 14-я ракета Falcon Heavy отправится в секретную миссию со стартового комплекса 39А в Космическом центре Кеннеди НАСА в 23:54 по тихоокеанскому времени. Восточное время (03:54 UTC).",
+    "summary_ru": "Планируется, что 14-я ракета Falcon Heavy отправится в тайную миссию со стартового комплекса 39А в Космическом центре Кеннеди НАСА в 23:54 по тихоокеанскому времени. Восточное время (03:54 UTC).",
     "title_ru_kids": "🚀 Falcon Heavy выполнил свою первую миссию по заказу американского шпионского спутникового агентства ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Планируется, что 14-я ракета Falcon Heavy отправится в секретную миссию со стартового комплекса 39А в Космическом центре Кеннеди НАСА в 23:54 по тихоокеанскому времени. Восточное время (03:54 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Планируется, что 14-я ракета Falcon Heavy отправится в тайную миссию со стартового комплекса 39А в Космическом центре Кеннеди НАСА в 23:54 по тихоокеанскому времени. Восточное время (03:54 UTC). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "Falcon Heavy טסה את המשימה הראשונה שלה עבור סוכנות לווייני הריגול האמריקאית",
     "summary_he": "הרקטה ה-14 של פלקון כבדה אמורה להתפוצץ במשימה חשאית ממתחם השיגור 39A במרכז החלל קנדי ​​של נאס\"א בשעה 23:54. EDT (0354 UTC).",
     "title_he_kids": "🚀 Falcon Heavy טסה את המשימה הראשונה שלה עבור סוכנות לווייני הריגול האמריקאית ✨",
@@ -392,9 +392,9 @@
     "title_ru_kids": "🚀 SpaceX Falcon 9 запускает секретную миссию для Космических сил США с западного побережья ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии USSF-385 на вершине Falcon 9 запланирован на 7 часов утра по тихоокеанскому времени (10 часов утра по восточному времени / 14:00 по всемирному координированному времени) в начале трехчасового окна запуска. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
     "title_he": "SpaceX Falcon 9 משגר משימה מסווגת עבור כוח החלל האמריקני מהחוף המערבי",
-    "summary_he": "המראה של משימת USSF-385 על גבי פלקון 9 מתוכננת לשעה 7:00 PDT (10:00 EDT / 1400 UTC) בפתיחת חלון שיגור של שלוש שעות.",
+    "summary_he": "ההמראה של משימת USSF-385 על גבי פלקון 9 מתוכננת לשעה 7:00 PDT (10:00 EDT / 1400 UTC) בפתיחת חלון שיגור בן שלוש שעות.",
     "title_he_kids": "🚀 SpaceX Falcon 9 משגר משימה מסווגת עבור כוח החלל האמריקני מהחוף המערבי ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המראה של משימת USSF-385 על גבי פלקון 9 מתוכננת לשעה 7:00 PDT (10:00 EDT / 1400 UTC) בפתיחת חלון שיגור של שלוש שעות. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההמראה של משימת USSF-385 על גבי פלקון 9 מתוכננת לשעה 7:00 PDT (10:00 EDT / 1400 UTC) בפתיחת חלון שיגור בן שלוש שעות. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches classified mission for U.S. Space Force from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the USSF-385 mission atop a Falcon 9 is scheduled for 7 a.m. PDT (10 a.m. EDT / 1400 UTC) at the opening of a three-hour launch window. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
     "id": 20
@@ -412,9 +412,9 @@
     "title_ru_kids": "🚀 SpaceX запустила 27 спутников Starlink V2 Mini на ракете Falcon 9 из Ванденберга ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт с площадки 4E на базе космических сил Ванденберг произошел в 18:47. Тихоокеанское время (21:47 по восточному времени / 01:47 по всемирному координированному времени). Это была 81-я миссия Starlink в году. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "SpaceX משגרת 27 לווייני Starlink V2 Mini על רקטת פלקון 9 מוונדנברג",
-    "summary_he": "ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 18:47. PDT (9:47 בערב EDT / 0147 UTC). זו הייתה משימת Starlink ה-81 של השנה.",
+    "summary_he": "ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 18:47. PDT (9:47 בערב EDT / 0147 UTC). זו הייתה משימת Starlink ה-81 של השנה.",
     "title_he_kids": "🚀 SpaceX משגרת 27 לווייני Starlink V2 Mini על רקטת פלקון 9 מוונדנברג ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 18:47. PDT (9:47 בערב EDT / 0147 UTC). זו הייתה משימת Starlink ה-81 של השנה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 18:47. PDT (9:47 בערב EDT / 0147 UTC). זו הייתה משימת Starlink ה-81 של השנה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 SpaceX launches 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:47 p.m. PDT (9:47 p.m. EDT / 0147 UTC). It was the 81st Starlink mission of the year. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 21
@@ -427,9 +427,9 @@
     "title_en": "SpaceX launches national security payload for U.S. Space Force from Vandenberg",
     "summary_en": "The rocket carried an unspecified number of satellites to orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened on Wednesday, Sept. 16, 6:07:56 p.m. PDT / 9:07:56 p.m. EDT on Sept. 16 (0107:56 UTC on Sept. 17).",
     "image": "",
-    "title_ru": "SpaceX запустила полезную нагрузку национальной безопасности для Космических сил США из Ванденберга",
+    "title_ru": "SpaceX запустила из Ванденберга полезную нагрузку национальной безопасности для Космических сил США",
     "summary_ru": "Ракета вывела на орбиту неопределенное количество спутников. Старт с площадки 4E на базе космических сил Ванденберг произошел в среду, 16 сентября, в 18:07:56. Тихоокеанское время / 21:07:56. EDT 16 сентября (01:07:56 UTC 17 сентября).",
-    "title_ru_kids": "🚀 SpaceX запустила полезную нагрузку национальной безопасности для Космических сил США из Ванденберга ✨",
+    "title_ru_kids": "🚀 SpaceX запустила из Ванденберга полезную нагрузку национальной безопасности для Космических сил США ✨",
     "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Ракета вывела на орбиту неопределенное количество спутников. Старт с площадки 4E на базе космических сил Ванденберг произошел в среду, 16 сентября, в 18:07:56. Тихоокеанское время / 21:07:56. EDT 16 сентября (01:07:56 UTC 17 сентября). 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
     "title_he": "SpaceX משיקה מטען ביטחון לאומי עבור כוח החלל האמריקני מוונדנברג",
     "summary_he": "הרקטה נשאה מספר לא מוגדר של לוויינים להקיף. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה ביום רביעי, 16 בספטמבר, 18:07:56. PDT / 21:07:56 EDT ב-16 בספטמבר (0107:56 UTC ב-17 בספטמבר).",
