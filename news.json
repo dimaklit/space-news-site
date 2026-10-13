@@ -1,43 +1,83 @@
 [
   {
     "source": "SpaceX",
+    "date_parsed": "2026-10-13T01:19:30",
+    "date_display": "Tue, 13 Oct 2026 01:19:30 +0000",
+    "link": "https://spaceflightnow.com/2026/10/13/live-coverage-nasa-spacex-to-launch-new-solar-arrays-6300-pounds-of-cargo-to-the-space-station/",
+    "title_en": "Live coverage: NASA, SpaceX to launch new solar arrays, 6,300 pounds of cargo to the space station",
+    "summary_en": "Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Station is scheduled for 6:33 a.m. EDT (1033 UTC) on Tuesday, Oct. 13. The Cargo Dragon spacecraft will arrive at the space station following a two-day flight.",
+    "image": "",
+    "title_ru": "Прямая трансляция: НАСА и SpaceX запустят новые солнечные батареи, 6300 фунтов груза на космическую станцию",
+    "summary_ru": "Старт ракеты Falcon 9 с площадки 40 на станции космических сил на мысе Канаверал запланирован на 6:33 утра по восточному времени (10:33 UTC) во вторник, 13 октября. Космический корабль Cargo Dragon прибудет на космическую станцию ​​после двухдневного полета.",
+    "title_ru_kids": "🚀 Прямая трансляция: НАСА и SpaceX запустят новые солнечные батареи, 6300 фунтов груза на космическую станцию ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт ракеты Falcon 9 с площадки 40 на станции космических сил на мысе Канаверал запланирован на 6:33 утра по восточному времени (10:33 UTC) во вторник, 13 октября. Космический корабль Cargo Dragon прибудет на космическую станцию ​​после двухдневного полета. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "סיקור חי: נאס\"א, SpaceX ישגרו מערכים סולאריים חדשים, 6,300 פאונד של מטען לתחנת החלל",
+    "summary_he": "הרמת הרקטה פלקון 9 ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 6:33 בבוקר EDT (1033 UTC) ביום שלישי, 13 באוקטובר. החללית Cargo Dragon תגיע לתחנת החלל לאחר טיסה של יומיים.",
+    "title_he_kids": "🚀 סיקור חי: נאס\"א, SpaceX ישגרו מערכים סולאריים חדשים, 6,300 פאונד של מטען לתחנת החלל ✨",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הרמת הרקטה פלקון 9 ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 6:33 בבוקר EDT (1033 UTC) ביום שלישי, 13 באוקטובר. החללית Cargo Dragon תגיע לתחנת החלל לאחר טיסה של יומיים. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Live coverage: NASA, SpaceX to launch new solar arrays, 6,300 pounds of cargo to the space station ✨",
+    "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Station is scheduled for 6:33 a.m. EDT (1033 UTC) on Tuesday, Oct. 13. The Cargo Dragon spacecraft will arrive at the space station following a two-day flight. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
+    "source": "Spaceflight Now",
+    "date_parsed": "2026-10-13T01:19:30",
+    "date_display": "Tue, 13 Oct 2026 01:19:30 +0000",
+    "link": "https://spaceflightnow.com/2026/10/13/live-coverage-nasa-spacex-to-launch-new-solar-arrays-6300-pounds-of-cargo-to-the-space-station/",
+    "title_en": "Live coverage: NASA, SpaceX to launch new solar arrays, 6,300 pounds of cargo to the space station",
+    "summary_en": "Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Station is scheduled for 6:33 a.m. EDT (1033 UTC) on Tuesday, Oct. 13. The Cargo Dragon spacecraft will arrive at the space station following a two-day flight.",
+    "image": "",
+    "title_ru": "Прямая трансляция: НАСА и SpaceX запустят новые солнечные батареи, 6300 фунтов груза на космическую станцию",
+    "summary_ru": "Старт ракеты Falcon 9 с площадки 40 на станции космических сил на мысе Канаверал запланирован на 6:33 утра по восточному времени (10:33 UTC) во вторник, 13 октября. Космический корабль Cargo Dragon прибудет на космическую станцию ​​после двухдневного полета.",
+    "title_ru_kids": "🚀 Прямая трансляция: НАСА и SpaceX запустят новые солнечные батареи, 6300 фунтов груза на космическую станцию ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Старт ракеты Falcon 9 с площадки 40 на станции космических сил на мысе Канаверал запланирован на 6:33 утра по восточному времени (10:33 UTC) во вторник, 13 октября. Космический корабль Cargo Dragon прибудет на космическую станцию ​​после двухдневного полета. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "סיקור חי: נאס\"א, SpaceX ישגרו מערכים סולאריים חדשים, 6,300 פאונד של מטען לתחנת החלל",
+    "summary_he": "הרמת הרקטה פלקון 9 ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 6:33 בבוקר EDT (1033 UTC) ביום שלישי, 13 באוקטובר. החללית Cargo Dragon תגיע לתחנת החלל לאחר טיסה של יומיים.",
+    "title_he_kids": "🚀 סיקור חי: נאס\"א, SpaceX ישגרו מערכים סולאריים חדשים, 6,300 פאונד של מטען לתחנת החלל ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! הרמת הרקטה פלקון 9 ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 6:33 בבוקר EDT (1033 UTC) ביום שלישי, 13 באוקטובר. החללית Cargo Dragon תגיע לתחנת החלל לאחר טיסה של יומיים. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Live coverage: NASA, SpaceX to launch new solar arrays, 6,300 pounds of cargo to the space station ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Station is scheduled for 6:33 a.m. EDT (1033 UTC) on Tuesday, Oct. 13. The Cargo Dragon spacecraft will arrive at the space station following a two-day flight. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
+    "id": 2
+  },
+  {
+    "source": "SpaceX",
     "date_parsed": "2026-10-12T22:21:40",
     "date_display": "Mon, 12 Oct 2026 22:21:40 +0000",
     "link": "https://spaceflightnow.com/2026/10/12/spacex-falcon-9-rocket-to-launch-27-starlink-satellites-into-orbit-from-california/",
-    "title_en": "SpaceX Falcon 9 rocket to launch 27 Starlink satellites into orbit from California",
-    "summary_en": "Liftoff off of the Starlink 15-25 mission from Space Launch Complex 4 East is scheduled for 5:28 p.m. PDT (8:28 p.m. EDT / 0028 UTC).",
+    "title_en": "SpaceX Falcon 9 rocket launches 27 Starlink satellites from California",
+    "summary_en": "Liftoff off of the Starlink 15-25 mission from Space Launch Complex 4 East came at 5:28 p.m. PDT (8:28 p.m. EDT / 0028 UTC).",
     "image": "",
-    "title_ru": "Ракета SpaceX Falcon 9 выведет на орбиту 27 спутников Starlink из Калифорнии",
-    "summary_ru": "Старт миссии Starlink 15-25 с космодрома 4 Восток запланирован на 17:28. Тихоокеанское время (20:28 по восточному времени / 00:28 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 Ракета SpaceX Falcon 9 выведет на орбиту 27 спутников Starlink из Калифорнии ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии Starlink 15-25 с космодрома 4 Восток запланирован на 17:28. Тихоокеанское время (20:28 по восточному времени / 00:28 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
-    "title_he": "רקטת SpaceX Falcon 9 לשגר 27 לווייני Starlink למסלול מקליפורניה",
-    "summary_he": "ההמראה של משימת Starlink 15-25 ממתחם שיגור החלל 4 מזרח מתוכננת לשעה 17:28. PDT (8:28 בערב EDT / 0028 UTC).",
-    "title_he_kids": "🚀 רקטת SpaceX Falcon 9 לשגר 27 לווייני Starlink למסלול מקליפורניה ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההמראה של משימת Starlink 15-25 ממתחם שיגור החלל 4 מזרח מתוכננת לשעה 17:28. PDT (8:28 בערב EDT / 0028 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 SpaceX Falcon 9 rocket to launch 27 Starlink satellites into orbit from California ✨",
-    "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff off of the Starlink 15-25 mission from Space Launch Complex 4 East is scheduled for 5:28 p.m. PDT (8:28 p.m. EDT / 0028 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "title_ru": "Ракета SpaceX Falcon 9 запустила 27 спутников Starlink из Калифорнии",
+    "summary_ru": "Старт миссии Starlink 15-25 с космодрома 4 Восток произошел в 17:28. Тихоокеанское время (20:28 по восточному времени / 00:28 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Ракета SpaceX Falcon 9 запустила 27 спутников Starlink из Калифорнии ✨",
+    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт миссии Starlink 15-25 с космодрома 4 Восток произошел в 17:28. Тихоокеанское время (20:28 по восточному времени / 00:28 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "רקטת SpaceX Falcon 9 משגרת 27 לווייני Starlink מקליפורניה",
+    "summary_he": "ההמראה של משימת Starlink 15-25 ממתחם שיגור החלל 4 מזרח הגיעה בשעה 17:28. PDT (8:28 בערב EDT / 0028 UTC).",
+    "title_he_kids": "🚀 רקטת SpaceX Falcon 9 משגרת 27 לווייני Starlink מקליפורניה ✨",
+    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההמראה של משימת Starlink 15-25 ממתחם שיגור החלל 4 מזרח הגיעה בשעה 17:28. PDT (8:28 בערב EDT / 0028 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 SpaceX Falcon 9 rocket launches 27 Starlink satellites from California ✨",
+    "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff off of the Starlink 15-25 mission from Space Launch Complex 4 East came at 5:28 p.m. PDT (8:28 p.m. EDT / 0028 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
     "date_parsed": "2026-10-12T22:21:40",
     "date_display": "Mon, 12 Oct 2026 22:21:40 +0000",
     "link": "https://spaceflightnow.com/2026/10/12/spacex-falcon-9-rocket-to-launch-27-starlink-satellites-into-orbit-from-california/",
-    "title_en": "SpaceX Falcon 9 rocket to launch 27 Starlink satellites into orbit from California",
-    "summary_en": "Liftoff off of the Starlink 15-25 mission from Space Launch Complex 4 East is scheduled for 5:28 p.m. PDT (8:28 p.m. EDT / 0028 UTC).",
+    "title_en": "SpaceX Falcon 9 rocket launches 27 Starlink satellites from California",
+    "summary_en": "Liftoff off of the Starlink 15-25 mission from Space Launch Complex 4 East came at 5:28 p.m. PDT (8:28 p.m. EDT / 0028 UTC).",
     "image": "",
-    "title_ru": "Ракета SpaceX Falcon 9 выведет на орбиту 27 спутников Starlink из Калифорнии",
-    "summary_ru": "Старт миссии Starlink 15-25 с космодрома 4 Восток запланирован на 17:28. Тихоокеанское время (20:28 по восточному времени / 00:28 по всемирному координированному времени).",
-    "title_ru_kids": "🚀 Ракета SpaceX Falcon 9 выведет на орбиту 27 спутников Starlink из Калифорнии ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт миссии Starlink 15-25 с космодрома 4 Восток запланирован на 17:28. Тихоокеанское время (20:28 по восточному времени / 00:28 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
-    "title_he": "רקטת SpaceX Falcon 9 לשגר 27 לווייני Starlink למסלול מקליפורניה",
-    "summary_he": "ההמראה של משימת Starlink 15-25 ממתחם שיגור החלל 4 מזרח מתוכננת לשעה 17:28. PDT (8:28 בערב EDT / 0028 UTC).",
-    "title_he_kids": "🚀 רקטת SpaceX Falcon 9 לשגר 27 לווייני Starlink למסלול מקליפורניה ✨",
-    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! ההמראה של משימת Starlink 15-25 ממתחם שיגור החלל 4 מזרח מתוכננת לשעה 17:28. PDT (8:28 בערב EDT / 0028 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 SpaceX Falcon 9 rocket to launch 27 Starlink satellites into orbit from California ✨",
-    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff off of the Starlink 15-25 mission from Space Launch Complex 4 East is scheduled for 5:28 p.m. PDT (8:28 p.m. EDT / 0028 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 2
+    "title_ru": "Ракета SpaceX Falcon 9 запустила 27 спутников Starlink из Калифорнии",
+    "summary_ru": "Старт миссии Starlink 15-25 с космодрома 4 Восток произошел в 17:28. Тихоокеанское время (20:28 по восточному времени / 00:28 по всемирному координированному времени).",
+    "title_ru_kids": "🚀 Ракета SpaceX Falcon 9 запустила 27 спутников Starlink из Калифорнии ✨",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт миссии Starlink 15-25 с космодрома 4 Восток произошел в 17:28. Тихоокеанское время (20:28 по восточному времени / 00:28 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "רקטת SpaceX Falcon 9 משגרת 27 לווייני Starlink מקליפורניה",
+    "summary_he": "ההמראה של משימת Starlink 15-25 ממתחם שיגור החלל 4 מזרח הגיעה בשעה 17:28. PDT (8:28 בערב EDT / 0028 UTC).",
+    "title_he_kids": "🚀 רקטת SpaceX Falcon 9 משגרת 27 לווייני Starlink מקליפורניה ✨",
+    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! ההמראה של משימת Starlink 15-25 ממתחם שיגור החלל 4 מזרח הגיעה בשעה 17:28. PDT (8:28 בערב EDT / 0028 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 SpaceX Falcon 9 rocket launches 27 Starlink satellites from California ✨",
+    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff off of the Starlink 15-25 mission from Space Launch Complex 4 East came at 5:28 p.m. PDT (8:28 p.m. EDT / 0028 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
+    "id": 4
   },
   {
     "source": "ESA",
@@ -57,7 +97,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סרטון: \n\t\t\t00:02:54\n\t\t\t\tלאחר 237 ימים ולמעלה מ-3,700 מסלולים סביב כדור הארץ על סיפון תחנת החלל הבינלאומית, סופי אדנו חוזרת לכדור הארץ! לאחר מסירה לצוות 13, סופי וחברותיה לצוות 12 התנתקו ב-7 באוקטובר והתיזו מטה מול חופי קליפורניה... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Welcome home, Sophie Adenot ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:02:54\n\t\t\t\tAfter 237 days and over 3,700 orbits around Earth aboard the International Space Station, Sophie Adenot is back on Earth!Following a handover to Crew-13, Sophie and her Crew-12 crewmates undocked on 7 October and splashed down off the coast of Californi... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 5
   },
   {
     "source": "ESA",
@@ -77,7 +117,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA, סופי אדנוט, חזרה לאירופה, נחתה בקלן, גרמניה, לאחר חזרתה לכדור הארץ עם Crew-12 לאחר 237 ימים, כמעט שמונה חודשים, על סיפון תחנת החלל הבינלאומית למשימת האפסילון שלה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 ESA astronaut Sophie Adenot returns from her first mission to the International Space Station  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot has arrived back in Europe, landing in Cologne, Germany, following her return to Earth with Crew-12 after 237 days, nearly eight months, aboard the International Space Station for her εpsilon mission. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 6
   },
   {
     "source": "SpaceX",
@@ -97,7 +137,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! הרמת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה הנושאת לוויינים עבור קבוצת הכוכבים Proliferated Warfighter Space Architecture של הסוכנות לפיתוח החלל הגיעה בשעה 12:39 בבוקר PDT (3:39 EDT / 0739 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 21 data satellites for the Space Development Agency ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California carrying satellites for the Space Development Agency’s Proliferated Warfighter Space Architecture constellation came at 12:39 a.m. PDT (3:39 EDT / 0739 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +157,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! הרמת רקטת פלקון 9 מבסיס כוח החלל ונדנברג בקליפורניה הנושאת לוויינים עבור קבוצת הכוכבים Proliferated Warfighter Space Architecture של הסוכנות לפיתוח החלל הגיעה בשעה 12:39 בבוקר PDT (3:39 EDT / 0739 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX launches 21 data satellites for the Space Development Agency ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Falcon 9 rocket from Vandenberg Space Force Base in California carrying satellites for the Space Development Agency’s Proliferated Warfighter Space Architecture constellation came at 12:39 a.m. PDT (3:39 EDT / 0739 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 8
   },
   {
     "source": "ESA",
@@ -137,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 05-09 באוקטובר 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Week in images: 05-09 October 2026 ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 05-09 October 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 7
+    "id": 9
   },
   {
     "source": "ESA",
@@ -157,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו מ-Copernicus Sentinel-2, שנרכשה ב-5 באפריל 2026, מציגה את הפארק הלאומי אטושה בצפון נמיביה. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Earth from Space: Namibia’s biggest salt pan ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis image from Copernicus Sentinel-2, acquired on 5 April 2026, shows the Etosha National Park in northern Namibia. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 10
   },
   {
     "source": "ESA",
@@ -177,7 +217,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האסטרונאוטית של ESA, סופי אדנוט, חזרה לכדור הארץ עם Crew-12 לאחר משימתה ב-εpsilon בת כמעט שמונה חודשים לתחנת החלל הבינלאומית, כשהתיז מול חופי קליפורניה, ארה\"ב, בשעה 15:34 GMT/17:34 CEST ב-8 באוקטובר 2026. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Splashdown confirmed for Sophie Adenot  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! ESA astronaut Sophie Adenot returned to Earth with Crew-12 after her nearly eight-month εpsilon mission to the International Space Station, splashing down off the coast of California, USA, at 15:34 GMT/17:34 CEST on 8 October 2026.&nbsp; 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 11
   },
   {
     "source": "ESA",
@@ -197,7 +237,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבועיים בלבד לאחר שיגורו, הלווין Copernicus Sentinel-3C החזיר את התמונות והמדידות הראשונות שלו משני המכשירים המרכזיים שלו - אבן דרך גדולה המאשרת שהלוויין פועל היטב ונמצא בדרך לניטור בריאות האוקיינוסים של כדור הארץ, לא... 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Sentinel-3C returns its first views of Earth ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Just two weeks after it was launched, the Copernicus Sentinel-3C satellite returned its first images and measurements from two of its key instruments – a major milestone that confirms the satellite is working well and on the road to monitoring the health of Earth’s oceans, lan... 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
-    "id": 10
+    "id": 12
   },
   {
     "source": "ESA",
@@ -217,7 +257,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! החללית Solar Orbiter בהובלת סוכנות החלל האירופית טסה דרך קיפול בצורת S המכונה \"מתג\" בשדה המגנטי של רוח השמש. על ידי טביעת אצבע של החלקיקים החמקמקים בתוך ה- Switchback, Solar Orbiter איתר את מקורו אל פני השטח של השמש ו... ☀️ וואו, השמש ממש לוהטת היום! מגיני החללית עובדים בעוצמה מלאה! 🛡️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Solar Orbiter tracks origin of mysterious magnetic switchbacks ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency-led Solar Orbiter spacecraft has flown through an S-shaped kink known as a ‘switchback’ in the solar wind’s magnetic field. By fingerprinting the elusive particles within the switchback, Solar Orbiter has traced its origin back to the Sun’s surface an... ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 11
+    "id": 13
   },
   {
     "source": "SpaceX",
@@ -237,7 +277,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה של Tranche 1 Transporter Layer A היא הטיסה הרביעית התומכת בקונסטלציה של Proliferated Warfighter Space Architecture של הסוכנות לפיתוח החלל. ניסיון השיגור הבא עשוי להגיע כבר בשבת. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX scrubs launch attempt for 21 data transport satellites for the Space Development Agency ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The Tranche 1 Transporter Layer A mission is the fourth flight supporting the Space Development Agency’s Proliferated Warfighter Space Architecture constellation. The next launch attempt could come as soon as Saturday. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 12
+    "id": 14
   },
   {
     "source": "Spaceflight Now",
@@ -257,7 +297,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה של Tranche 1 Transporter Layer A היא הטיסה הרביעית התומכת בקונסטלציה של Proliferated Warfighter Space Architecture של הסוכנות לפיתוח החלל. ניסיון השיגור הבא עשוי להגיע כבר בשבת. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX scrubs launch attempt for 21 data transport satellites for the Space Development Agency ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The Tranche 1 Transporter Layer A mission is the fourth flight supporting the Space Development Agency’s Proliferated Warfighter Space Architecture constellation. The next launch attempt could come as soon as Saturday. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 13
+    "id": 15
   },
   {
     "source": "Spaceflight Now",
@@ -277,7 +317,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! רקטה ה-Falcon Heavy ה-14 אמורה להתפוצץ במשימה חשאית ממתחם השיגור 39A במרכז החלל קנדי ​​של נאס\"א בשעה 23:54. EDT (0354 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Falcon Heavy flies its first mission for U.S. spy satellite agency ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA’s Kennedy Space Center at 11:54 p.m. EDT (0354 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 14
+    "id": 16
   },
   {
     "source": "SpaceX",
@@ -297,7 +337,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! מרותקים לקפסולת SpaceX Crew Dragon, מפקד צוות 13 ג'סיקה ווטקינס, הטייס לוק דילייני, הקוסמונאוט הרוסי סרגיי טטריאטניקוב והאסטרונאוט הקנדי ג'ושוע קוטריק התפוצצו ממשטח 40 בתחנת כוח החלל קייפ קנוורל בשעה 11:10 בבוקר EDT. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Fresh crew takes off for six-month stay aboard space station ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Strapped into a SpaceX Crew Dragon capsule, Crew 13 commander Jessica Watkins, pilot Luke Delaney, Russian cosmonaut Sergey Teteryatnikov and Canadian astronaut Joshua Kutryk blasted off from pad 40 at the Cape Canaveral Space Force Station at 11:10 a.m. EDT. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 15
+    "id": 17
   },
   {
     "source": "Spaceflight Now",
@@ -317,7 +357,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מרותקים לקפסולת SpaceX Crew Dragon, מפקד צוות 13 ג'סיקה ווטקינס, הטייס לוק דילייני, הקוסמונאוט הרוסי סרגיי טטריאטניקוב והאסטרונאוט הקנדי ג'ושוע קוטריק התפוצצו ממשטח 40 בתחנת כוח החלל קייפ קנוורל בשעה 11:10 בבוקר EDT. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Fresh crew takes off for six-month stay aboard space station ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Strapped into a SpaceX Crew Dragon capsule, Crew 13 commander Jessica Watkins, pilot Luke Delaney, Russian cosmonaut Sergey Teteryatnikov and Canadian astronaut Joshua Kutryk blasted off from pad 40 at the Cape Canaveral Space Force Station at 11:10 a.m. EDT. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 16
+    "id": 18
   },
   {
     "source": "SpaceX",
@@ -337,7 +377,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! המשימה נשאה 130 מטענים על סיפון טיל ה-Falcon 9 בכיוון מסלול סינכרוני של השמש. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 11:32 בבוקר PDT (2:32 בצהריים EDT / 1832 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Launch preview: More than 100 spacecraft hitch a ride to orbit on SpaceX’s Transporter-18 ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! The mission carried 130 payloads onboard the Falcon 9 rocket heading to a Sun-synchronous orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 11:32 a.m. PDT (2:32 p.m. EDT / 1832 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 17
+    "id": 19
   },
   {
     "source": "Spaceflight Now",
@@ -357,7 +397,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! המשימה נשאה 130 מטענים על סיפון טיל ה-Falcon 9 בכיוון מסלול סינכרוני של השמש. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג התרחש בשעה 11:32 בבוקר PDT (2:32 בצהריים EDT / 1832 UTC). 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Launch preview: More than 100 spacecraft hitch a ride to orbit on SpaceX’s Transporter-18 ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The mission carried 130 payloads onboard the Falcon 9 rocket heading to a Sun-synchronous orbit. Liftoff from pad 4E at Vandenberg Space Force Base happened at 11:32 a.m. PDT (2:32 p.m. EDT / 1832 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 18
+    "id": 20
   },
   {
     "source": "SpaceX",
@@ -377,7 +417,7 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! האסטרונאוטית של נאס\"א ג'סיקה ווטקינס, תהפוך לאסטרונאוטית הראשונה של הסוכנות שטסה בפעם השנייה על סיפון חללית SpaceX Dragon. הרמת רקטת Falcon 9 ממשטח 40 בבסיס כוח החלל קייפ קנוורל מתוכננת לשעה 11:10 בבוקר EDT (1510 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Launch preview: NASA, SpaceX launch next crewed mission to the International Space Station ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! NASA astronaut Jessica Watkins, will become the first agency astronaut to fly for a second time onboard a SpaceX Dragon spacecraft. Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Base is scheduled for 11:10 a.m. EDT (1510 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 19
+    "id": 21
   },
   {
     "source": "Spaceflight Now",
@@ -397,27 +437,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! האסטרונאוטית של נאס\"א ג'סיקה ווטקינס, תהפוך לאסטרונאוטית הראשונה של הסוכנות שטסה בפעם השנייה על סיפון חללית SpaceX Dragon. הרמת רקטת Falcon 9 ממשטח 40 בבסיס כוח החלל קייפ קנוורל מתוכננת לשעה 11:10 בבוקר EDT (1510 UTC). 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 Launch preview: NASA, SpaceX launch next crewed mission to the International Space Station ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA astronaut Jessica Watkins, will become the first agency astronaut to fly for a second time onboard a SpaceX Dragon spacecraft. Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Base is scheduled for 11:10 a.m. EDT (1510 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 20
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-09-29T01:14:36",
-    "date_display": "Tue, 29 Sep 2026 01:14:36 +0000",
-    "link": "https://spaceflightnow.com/2026/09/29/nasa-plans-unpiloted-starliner-test-flight-at-end-of-year/",
-    "title_en": "NASA plans unpiloted Starliner test flight at end of year",
-    "summary_en": "If the unpiloted test flight goes well, NASA and Boeing hope to launch a piloted Starliner flight in mid 2028, officials said Monday, incorporating redesigned propulsion system valves, more robust subsystems and other modifications expected to prevent the sort of failures that...",
-    "image": "",
-    "title_ru": "НАСА планирует беспилотный испытательный полет Starliner в конце года",
-    "summary_ru": "Если беспилотный испытательный полет пройдет успешно, НАСА и Boeing надеются запустить пилотируемый полет Starliner в середине 2028 года, заявили в понедельник официальные лица, включающий модернизированные клапаны двигательной системы, более надежные подсистемы и другие модификации, которые, как ожидается, предотвратят сбои, которые...",
-    "title_ru_kids": "🚀 НАСА планирует беспилотный испытательный полет Starliner в конце года ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Если беспилотный испытательный полет пройдет успешно, НАСА и Boeing надеются запустить пилотируемый полет Starliner в середине 2028 года, заявили в понедельник официальные лица, включающий модернизированные клапаны двигательной системы, более надежные подсистемы и другие модификации, которые, как ожидается, предотвратят сбои, которые... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
-    "title_he": "נאס\"א מתכננת טיסת ניסוי ללא טייס של Starliner בסוף השנה",
-    "summary_he": "אם טיסת הניסוי הבלתי מנווטת תעבור כשורה, נאס\"א ובואינג מקווים להשיק טיסת Starliner מנוסה באמצע 2028, אמרו גורמים רשמיים ביום שני, תוך שילוב שסתומי מערכת הנעה מעוצבים מחדש, תת-מערכות חזקות יותר ושינויים אחרים שצפויים למנוע את סוג הכשלים...",
-    "title_he_kids": "🚀 נאס\"א מתכננת טיסת ניסוי ללא טייס של Starliner בסוף השנה ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! אם טיסת הניסוי הבלתי מנווטת תעבור כשורה, נאס\"א ובואינג מקווים להשיק טיסת Starliner מנוסה באמצע 2028, אמרו גורמים רשמיים ביום שני, תוך שילוב שסתומי מערכת הנעה מעוצבים מחדש, תת-מערכות חזקות יותר ושינויים אחרים שצפויים למנוע את סוג הכשלים... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 NASA plans unpiloted Starliner test flight at end of year ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! If the unpiloted test flight goes well, NASA and Boeing hope to launch a piloted Starliner flight in mid 2028, officials said Monday, incorporating redesigned propulsion system valves, more robust subsystems and other modifications expected to prevent the sort of failures that... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 21
+    "id": 22
   },
   {
     "source": "SpaceX",
@@ -437,26 +457,6 @@
     "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההמראה של משימת USSF-385 על גבי פלקון 9 מתוכננת לשעה 7:00 PDT (10:00 EDT / 1400 UTC) בפתיחת חלון שיגור בן שלוש שעות. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX Falcon 9 launches classified mission for U.S. Space Force from West Coast ✨",
     "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff of the USSF-385 mission atop a Falcon 9 is scheduled for 7 a.m. PDT (10 a.m. EDT / 1400 UTC) at the opening of a three-hour launch window. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 22
-  },
-  {
-    "source": "SpaceX",
-    "date_parsed": "2026-09-19T20:06:04",
-    "date_display": "Sat, 19 Sep 2026 20:06:04 +0000",
-    "link": "https://spaceflightnow.com/2026/09/19/live-coverage-spacex-to-launch-27-starlink-v2-mini-satellites-on-falcon-9-rocket-from-vandenberg/",
-    "title_en": "SpaceX launches 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg",
-    "summary_en": "Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:47 p.m. PDT (9:47 p.m. EDT / 0147 UTC). It was the 81st Starlink mission of the year.",
-    "image": "",
-    "title_ru": "SpaceX запустила 27 спутников Starlink V2 Mini на ракете Falcon 9 из Ванденберга",
-    "summary_ru": "Старт с площадки 4E на базе космических сил Ванденберг произошел в 18:47. Тихоокеанское время (21:47 по восточному времени / 01:47 по всемирному координированному времени). Это была 81-я миссия Starlink в году.",
-    "title_ru_kids": "🚀 SpaceX запустила 27 спутников Starlink V2 Mini на ракете Falcon 9 из Ванденберга ✨",
-    "summary_ru_kids": "⚡ Команда Илона Маска снова зажигает! Старт с площадки 4E на базе космических сил Ванденберг произошел в 18:47. Тихоокеанское время (21:47 по восточному времени / 01:47 по всемирному координированному времени). Это была 81-я миссия Starlink в году. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
-    "title_he": "SpaceX משגרת 27 לווייני Starlink V2 Mini על רקטת פלקון 9 מוונדנברג",
-    "summary_he": "ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 18:47. PDT (21:47 EDT / 0147 UTC). זו הייתה משימת Starlink ה-81 של השנה.",
-    "title_he_kids": "🚀 SpaceX משגרת 27 לווייני Starlink V2 Mini על רקטת פלקון 9 מוונדנברג ✨",
-    "summary_he_kids": "⚡ הצוות של אילון מאסק שוב מפציץ! ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג אירעה בשעה 18:47. PDT (21:47 EDT / 0147 UTC). זו הייתה משימת Starlink ה-81 של השנה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 SpaceX launches 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg ✨",
-    "summary_en_kids": "⚡ Elon Musk's team strikes again! Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:47 p.m. PDT (9:47 p.m. EDT / 0147 UTC). It was the 81st Starlink mission of the year. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 23
   },
   {
