@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | USSF-481",
-    "window_start": "2026-10-15T23:44:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "H3-24 | Martian Moons eXploration (MMX)",
     "window_start": "2026-10-19T19:41:03Z",
     "rocket": "H3-24",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 40",
     "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "window_start": "2026-10-31T00:00:00Z",
+    "rocket": "GSLV Mk. II",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "location": "Satish Dhawan Space Centre, India"
   }
 ]
