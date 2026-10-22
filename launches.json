@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Ceres-1S | Unknown Payload",
-    "window_start": "2026-10-21T03:29:00Z",
-    "rocket": "Ceres-1S",
-    "pad": "Rizhao offshore launch location",
-    "location": "Haiyang Oriental Spaceport"
-  },
-  {
-    "name_en": "Electron | We're Not Hawking Around (3x HawkEye 360)",
-    "window_start": "2026-10-21T05:00:00Z",
-    "rocket": "Electron",
-    "pad": "Unknown Pad",
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
-  },
-  {
     "name_en": "Long March 8A | Unknown Payload",
     "window_start": "2026-10-22T02:50:00Z",
     "rocket": "Long March 8A",
@@ -33,5 +19,19 @@
     "rocket": "Long March 4B",
     "pad": "Launch Area 94 (SLS-2 / 603)",
     "location": "Jiuquan Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | Starlink Group 15-16",
+    "window_start": "2026-10-24T05:29:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "window_start": "2026-10-29T00:00:00Z",
+    "rocket": "Vulcan VC6L",
+    "pad": "Space Launch Complex 41",
+    "location": "Cape Canaveral SFS, FL, USA"
   }
 ]
