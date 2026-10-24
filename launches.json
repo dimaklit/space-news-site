@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 6A | Unknown Payload",
-    "window_start": "2026-10-23T10:07:00Z",
-    "rocket": "Long March 6A",
-    "pad": "Launch Complex 9A",
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Long March 4B | Unknown Payload",
     "window_start": "2026-10-23T19:17:00Z",
     "rocket": "Long March 4B",
@@ -33,5 +26,12 @@
     "rocket": "GSLV Mk. II",
     "pad": "Satish Dhawan Space Centre Second Launch Pad",
     "location": "Satish Dhawan Space Centre, India"
+  },
+  {
+    "name_en": "Long March 12A | Flight 2",
+    "window_start": "2026-10-31T00:00:00Z",
+    "rocket": "Long March 12A",
+    "pad": "Long March 12 series Pad",
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
   }
 ]
