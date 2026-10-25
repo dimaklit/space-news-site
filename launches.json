@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | Starlink Group 15-16",
-    "window_start": "2026-10-24T05:29:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Vulcan VC6L | Amazon Leo (LV-01)",
     "window_start": "2026-10-29T00:00:00Z",
     "rocket": "Vulcan VC6L",
@@ -33,5 +26,12 @@
     "rocket": "SSLV",
     "pad": "Satish Dhawan Space Centre First Launch Pad",
     "location": "Satish Dhawan Space Centre, India"
+  },
+  {
+    "name_en": "Electron | The Sea God Surveys (iQPS Launch 9)",
+    "window_start": "2026-11-04T00:00:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
   }
 ]
