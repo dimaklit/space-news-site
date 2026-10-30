@@ -1,6 +1,46 @@
 [
   {
     "source": "ESA",
+    "date_parsed": "2026-10-30T16:00:00",
+    "date_display": "Fri, 30 Oct 2026 16:00:00 +0100",
+    "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_October_2026",
+    "title_en": "What happened this month at the European Space Agency? (October 2026)",
+    "summary_en": "Video: \n\t\t\t00:04:30\n\t\t\t\tOctober was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars. Our Smile mission captured the full ring of northern lights around Earth, while Mars Express uncovered new clues about a...",
+    "image": "",
+    "title_ru": "Что произошло в этом месяце в Европейском космическом агентстве? (октябрь 2026 г.)",
+    "summary_ru": "Видео: \n\t\t\t00:04:30\n\t\t\t\tОктябрь был месяцем открытий и вех. Команда марсохода ЕКА «Розалинда Франклин» тренировалась в пустыне Испании, готовясь к полету на Марс. Наша миссия «Улыбка» запечатлела полное кольцо северного сияния вокруг Земли, а «Марсианский экспресс» обнаружил новые подсказки о...",
+    "title_ru_kids": "🚀 Что произошло в этом месяце в Европейском космическом агентстве? (октябрь 2026 г.) ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Видео: \n\t\t\t00:04:30\n\t\t\t\tОктябрь был месяцем открытий и вех. Команда марсохода ЕКА «Розалинда Франклин» тренировалась в пустыне Испании, готовясь к полету на Марс. Наша миссия «Улыбка» запечатлела полное кольцо северного сияния вокруг Земли, а «Марсианский экспресс» обнаружил новые подсказки о... 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "מה קרה החודש בסוכנות החלל האירופית? (אוקטובר 2026)",
+    "summary_he": "וידאו: \n\t\t\t00:04:30\n\t\t\t\tאוקטובר היה חודש של גילויים ואבני דרך. צוות הרוברים רוזלינד פרנקלין של ESA התאמנה במדבר ספרד, והתכוננה למאדים. משימת החיוך שלנו תפסה את הטבעת המלאה של הזוהר הצפוני מסביב לכדור הארץ, בזמן שמארס אקספרס חשפה רמזים חדשים על...",
+    "title_he_kids": "🚀 מה קרה החודש בסוכנות החלל האירופית? (אוקטובר 2026) ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! וידאו: \n\t\t\t00:04:30\n\t\t\t\tאוקטובר היה חודש של גילויים ואבני דרך. צוות הרוברים רוזלינד פרנקלין של ESA התאמנה במדבר ספרד, והתכוננה למאדים. משימת החיוך שלנו תפסה את הטבעת המלאה של הזוהר הצפוני מסביב לכדור הארץ, בזמן שמארס אקספרס חשפה רמזים חדשים על... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 What happened this month at the European Space Agency? (October 2026) ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Video: \n\t\t\t00:04:30\n\t\t\t\tOctober was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars. Our Smile mission captured the full ring of northern lights around Earth, while Mars Express uncovered new clues about a... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
+    "source": "ESA",
+    "date_parsed": "2026-10-30T15:15:00",
+    "date_display": "Fri, 30 Oct 2026 15:15:00 +0100",
+    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_26-30_October_2026",
+    "title_en": "Week in images: 26-30 October 2026",
+    "summary_en": "Week in images: 26-30 October 2026\n\tDiscover our week through the lens",
+    "image": "",
+    "title_ru": "Неделя в изображениях: 26–30 октября 2026 г.",
+    "summary_ru": "Неделя в изображениях: 26–30 октября 2026 г.\n\tОткройте для себя нашу неделю через призму",
+    "title_ru_kids": "🚀 Неделя в изображениях: 26–30 октября 2026 г. ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 26–30 октября 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "שבוע בתמונות: 26-30 באוקטובר 2026",
+    "summary_he": "שבוע בתמונות: 26-30 באוקטובר 2026\n\tגלה את השבוע שלנו דרך העדשה",
+    "title_he_kids": "🚀 שבוע בתמונות: 26-30 באוקטובר 2026 ✨",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 26-30 באוקטובר 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 Week in images: 26-30 October 2026 ✨",
+    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 26-30 October 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 2
+  },
+  {
+    "source": "ESA",
     "date_parsed": "2026-10-30T10:00:00",
     "date_display": "Fri, 30 Oct 2026 10:00:00 +0100",
     "link": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Champi_s_eerie_eye",
@@ -17,7 +57,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו של סופת טייפון צ'אמפי מקופרניקוס סנטינל-3 צולמה ב-21 באוקטובר 2026 מול חופי טייוואן והפיליפינים. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Earth from Space: Champi’s eerie eye ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis image of Super Typhoon Champi from Copernicus Sentinel-3 was captured on 21 October 2026 off the coasts of Taiwan and the Philippines. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 1
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +77,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! האסטרונאוט של נאס\"א אניל מנון ואסטרונאוט סוכנות החלל הקנדית ג'ושוע קוטריק מבצעים הליכת חלל כדי להתקין את מערכי השמש ה-7 מתוך 8 ISS Roll-Out Solar (iROSA) כדי לשדרג את מערכת החשמל של המוצב המקיף. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 As it happened: spacewalkers install new solar array ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk are performing a spacewalk to install the 7th of 8 ISS Roll-Out Solar Arrays (iROSA) to upgrade the orbiting outpost's power system. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -48,16 +88,16 @@
     "summary_en": "NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk successfully installed and unfurled the seventh of eight new solar panels designed to power the outpost through its retirement in 2030.",
     "image": "",
     "title_ru": "Астронавты, выходящие в открытый космос, разворачивают модернизированную солнечную батарею для повышения мощности космической станции",
-    "summary_ru": "Астронавт НАСА Анил Менон и астронавт Канадского космического агентства Джошуа Катрик успешно установили и развернули седьмую из восьми новых солнечных панелей, предназначенных для питания аванпоста после его вывода из эксплуатации в 2030 году.",
+    "summary_ru": "Астронавт НАСА Анил Менон и астронавт Канадского космического агентства Джошуа Катрик успешно установили и развернули седьмую из восьми новых солнечных панелей, предназначенных для обеспечения электропитанием аванпоста после его вывода из эксплуатации в 2030 году.",
     "title_ru_kids": "🚀 Астронавты, выходящие в открытый космос, разворачивают модернизированную солнечную батарею для повышения мощности космической станции ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Астронавт НАСА Анил Менон и астронавт Канадского космического агентства Джошуа Катрик успешно установили и развернули седьмую из восьми новых солнечных панелей, предназначенных для питания аванпоста после его вывода из эксплуатации в 2030 году. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ В космосе абсолютная, полная тишина!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Астронавт НАСА Анил Менон и астронавт Канадского космического агентства Джошуа Катрик успешно установили и развернули седьмую из восьми новых солнечных панелей, предназначенных для обеспечения электропитанием аванпоста после его вывода из эксплуатации в 2030 году. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ В космосе абсолютная, полная тишина!",
     "title_he": "אסטרונאוטים מטיילים בחלל פותחים מערך סולארי משודרג כדי להגביר את כוח תחנת החלל",
     "summary_he": "האסטרונאוט של נאס\"א אניל מנון ואסטרונאוט סוכנות החלל הקנדית ג'ושוע קוטריק התקינו ופרסמו בהצלחה את השביעי מתוך שמונה פאנלים סולאריים חדשים שנועדו להפעיל את המאחז עד פרישתו ב-2030.",
     "title_he_kids": "🚀 אסטרונאוטים מטיילים בחלל פותחים מערך סולארי משודרג כדי להגביר את כוח תחנת החלל ✨",
     "summary_he_kids": "🌟 תראו מה קרה! האסטרונאוט של נאס\"א אניל מנון ואסטרונאוט סוכנות החלל הקנדית ג'ושוע קוטריק התקינו ופרסמו בהצלחה את השביעי מתוך שמונה פאנלים סולאריים חדשים שנועדו להפעיל את המאחז עד פרישתו ב-2030. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Spacewalking astronauts unfurl upgraded solar array to boost space station power ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk successfully installed and unfurled the seventh of eight new solar panels designed to power the outpost through its retirement in 2030. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 3
+    "id": 5
   },
   {
     "source": "ESA",
@@ -71,13 +111,13 @@
     "summary_ru": "Космические телескопы NASA/ESA «Хаббл» и NASA/ESA/CSA «Джеймс Уэбб» недавно наблюдали жуткую сцену звездообразования в туманности Киля, массивном газопылевом облаке, расположенном примерно в 7500 световых годах от Земли. Два телескопа предлагают дополняющие друг друга виды...",
     "title_ru_kids": "🚀 Туманность Призрачная Кошачья Голова скрывается в пределах видимости Хаббла и Уэбба ✨",
     "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Космические телескопы NASA/ESA «Хаббл» и NASA/ESA/CSA «Джеймс Уэбб» недавно наблюдали жуткую сцену звездообразования в туманности Киля, массивном газопылевом облаке, расположенном примерно в 7500 световых годах от Земли. Два телескопа предлагают дополняющие друг друга виды... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "ערפילית ראש חתול רפאים אורבת בטווח ראייה של האבל ו-ווב",
+    "title_he": "ערפילית ראש החתול הרפאים אורבת בטווח ראייה של האבל ו-ווב",
     "summary_he": "האבל של נאס\"א/ESA וטלסקופי החלל ג'יימס ווב של נאס\"א/ESA/CSA בהו לאחרונה בסצנה מוזרה של יצירת כוכבים בתוך ערפילית קארינה, ענן גז ואבק מסיבי שנמצא במרחק של כ-7,500 שנות אור מכדור הארץ. שני הטלסקופים מציעים תצוגות משלימות של...",
-    "title_he_kids": "🚀 ערפילית ראש חתול רפאים אורבת בטווח ראייה של האבל ו-ווב ✨",
+    "title_he_kids": "🚀 ערפילית ראש החתול הרפאים אורבת בטווח ראייה של האבל ו-ווב ✨",
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! האבל של נאס\"א/ESA וטלסקופי החלל ג'יימס ווב של נאס\"א/ESA/CSA בהו לאחרונה בסצנה מוזרה של יצירת כוכבים בתוך ערפילית קארינה, ענן גז ואבק מסיבי שנמצא במרחק של כ-7,500 שנות אור מכדור הארץ. שני הטלסקופים מציעים תצוגות משלימות של... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes recently stared at an eerie star-forming scene within the Carina Nebula, a massive gas and dust cloud located approximately 7500 light-years away from Earth. The two telescopes offer complementary views of th... 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -88,16 +128,16 @@
     "summary_en": "The anticipated launch will be the first for the heavy-lift rocket since a mid-flight nozzle failure on a solid rocket booster. The rocket will carry 40 Amazon Leo satellites to orbit.",
     "image": "",
     "title_ru": "United Launch Alliance объявляет о возвращении в полет ракеты Vulcan в середине ноября",
-    "summary_ru": "Ожидаемый запуск станет первым для ракеты-тяжеловеса после отказа сопла в полете твердотопливного ракетного ускорителя. Ракета выведет на орбиту 40 спутников Amazon Leo.",
+    "summary_ru": "Ожидаемый запуск станет первым запуском тяжелой ракеты после отказа сопла в полете твердотопливного ракетного ускорителя. Ракета выведет на орбиту 40 спутников Amazon Leo.",
     "title_ru_kids": "🚀 United Launch Alliance объявляет о возвращении в полет ракеты Vulcan в середине ноября ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Ожидаемый запуск станет первым для ракеты-тяжеловеса после отказа сопла в полете твердотопливного ракетного ускорителя. Ракета выведет на орбиту 40 спутников Amazon Leo. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Ожидаемый запуск станет первым запуском тяжелой ракеты после отказа сопла в полете твердотопливного ракетного ускорителя. Ракета выведет на орбиту 40 спутников Amazon Leo. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "United Launch Alliance מכריזה באמצע נובמבר על חזרה לטיסה לרקטת וולקן",
     "summary_he": "השיגור הצפוי יהיה הראשון לרקטת ההרמה הכבדה מאז תקלה בזרבובית באמצע הטיסה במאיץ רקטה מוצקה. הרקטה תשא 40 לווייני אמזון ליאו למסלול.",
     "title_he_kids": "🚀 United Launch Alliance מכריזה באמצע נובמבר על חזרה לטיסה לרקטת וולקן ✨",
     "summary_he_kids": "🌟 תראו מה קרה! השיגור הצפוי יהיה הראשון לרקטת ההרמה הכבדה מאז תקלה בזרבובית באמצע הטיסה במאיץ רקטה מוצקה. הרקטה תשא 40 לווייני אמזון ליאו למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 United Launch Alliance announces mid-November return to flight for Vulcan rocket ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The anticipated launch will be the first for the heavy-lift rocket since a mid-flight nozzle failure on a solid rocket booster. The rocket will carry 40 Amazon Leo satellites to orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +157,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! נאס\"א נמצאת במרחק של שתי צעדי חלל מהשלמת שדרוג גדול בן שנים של תחנת החלל הבינלאומית שתפעיל את המעבדה המקיפה עד לביטולה המתוכנן ב-2030. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 NASA nears end of space station solar array upgrade with Oct. 29 and Nov. 5 spacewalks ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA is two spacewalks away from completing a major, years-long upgrade to the International Space Station that will power the orbiting lab through to its planned decommissioning in 2030. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 8
   },
   {
     "source": "ESA",
@@ -137,7 +177,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! החללית Hera של סוכנות החלל האירופית להגנה פלנטרית פתרה את שני אסטרואידי היעד שלה בנפרד בפעם הראשונה, וחשפה את הטבע הבינארי של מערכת דידימוס, שנמצאת כיום במרחק של כ-197 מיליון ק\"מ מכדור הארץ. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 First light: Hera resolves two asteroids instead of one ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency’s Hera spacecraft for planetary defence has resolved its two target asteroids separately for the very first time, revealing the binary nature of the Didymos system, currently some 197 million km away from Earth. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 7
+    "id": 9
   },
   {
     "source": "ESA",
@@ -157,7 +197,7 @@
     "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! סוכנות החלל האירופית (ESA) האריכה חוזים מתמשכים לבניית ארבעה לוויינים נוספים מהדור השני של גלילאו (G2), מה שמבטיח את המשכיות ארוכת הטווח של הקונסטלציה ותומכים בהשקת שירותים חדשים. עם הרכש הזה, הגלילאו הדור השני... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ESA procures four new Galileo Second Generation satellites  ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! The European Space Agency (ESA) has extended ongoing contracts to build four additional Galileo Second Generation (G2) satellites, ensuring the long-term continuity of the constellation and supporting the rollout of new services. With this procurement, the Galileo Second Gener... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 8
+    "id": 10
   },
   {
     "source": "Spaceflight Now",
@@ -172,12 +212,12 @@
     "title_ru_kids": "🚀 Ракета West Coast Falcon 9 запустила 27 спутников Starlink ✨",
     "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт миссии Starlink 15-16 с космодрома 4E произошел во вторник, 27 октября 2026 года, в 12:25 по тихоокеанскому времени (3:25 по восточному времени / 08:25 по всемирному координированному времени). 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "רקטה West Coast Falcon 9 משגרת 27 לווייני Starlink",
-    "summary_he": "הסרת משימת Starlink 15-16 ממתחם שיגור החלל 4E התרחשה ביום שלישי, 27 באוקטובר 2026, בשעה 12:25 בבוקר PDT (3:25 בבוקר EDT / 0825 UTC).",
+    "summary_he": "הסרת משימת Starlink 15-16 ממתחם שיגור החלל 4E התרחשה ביום שלישי, 27 באוקטובר 2026, בשעה 12:25 PDT (3:25 בבוקר EDT / 0825 UTC).",
     "title_he_kids": "🚀 רקטה West Coast Falcon 9 משגרת 27 לווייני Starlink ✨",
-    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הסרת משימת Starlink 15-16 ממתחם שיגור החלל 4E התרחשה ביום שלישי, 27 באוקטובר 2026, בשעה 12:25 בבוקר PDT (3:25 בבוקר EDT / 0825 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
+    "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! הסרת משימת Starlink 15-16 ממתחם שיגור החלל 4E התרחשה ביום שלישי, 27 באוקטובר 2026, בשעה 12:25 PDT (3:25 בבוקר EDT / 0825 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 West Coast Falcon 9 rocket launches 27 Starlink satellites ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff of the Starlink 15-16 mission from Space Launch Complex 4E happened Tuesday, October 27, 2026, at 12:25 a.m. PDT (3:25 a.m. EDT / 0825 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 9
+    "id": 11
   },
   {
     "source": "ESA",
@@ -187,56 +227,16 @@
     "title_en": "Ice mission CRISTAL opens its wings",
     "summary_en": "With its solar arrays integrated and key qualification reviews under way, Europe’s new ice-monitoring satellite, CRISTAL, is moving from assembly into the demanding testing phase that will demonstrate its readiness for the rigours of launch and life in orbit.",
     "image": "",
-    "title_ru": "Ледовая миссия CRISTAL раскрывает крылья",
+    "title_ru": "Ледовая миссия CRISTAL раскрывает свои крылья",
     "summary_ru": "Благодаря интегрированным солнечным батареям и ключевым квалификационным проверкам новый европейский спутник для мониторинга льда CRISTAL переходит от сборки к требовательной фазе испытаний, которая продемонстрирует его готовность к суровым условиям запуска и жизни на орбите.",
-    "title_ru_kids": "🚀 Ледовая миссия CRISTAL раскрывает крылья ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Благодаря интегрированным солнечным батареям и ключевым квалификационным проверкам новый европейский спутник для мониторинга льда CRISTAL переходит от сборки к требовательной фазе испытаний, которая продемонстрирует его готовность к суровым условиям запуска и жизни на орбите. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_ru_kids": "🚀 Ледовая миссия CRISTAL раскрывает свои крылья ✨",
+    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Благодаря интегрированным солнечным батареям и ключевым квалификационным проверкам новый европейский спутник для мониторинга льда CRISTAL переходит от сборки к требовательной фазе испытаний, которая продемонстрирует его готовность к суровым условиям запуска и жизни на орбите. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
     "title_he": "משימת הקרח CRISTAL פותחת את כנפיה",
-    "summary_he": "עם המערכים הסולאריים שלו משולבים ובדיקות הכשרה מרכזיות בעיצומן, הלוויין החדש של אירופה לניטור הקרח, CRISTAL, עובר מהרכבה לשלב הבדיקות התובעני שיוכיח את מוכנותו לקשיחות של שיגור וחיים במסלול.",
+    "summary_he": "עם המערכים הסולאריים שלו משולבים ובדיקות הכשרה מרכזיות בעיצומן, לוויין ניטור הקרח החדש של אירופה, CRISTAL, עובר מהרכבה לשלב הבדיקות התובעני שיוכיח את מוכנותו לקשיחות של שיגור וחיים במסלול.",
     "title_he_kids": "🚀 משימת הקרח CRISTAL פותחת את כנפיה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! עם המערכים הסולאריים שלו משולבים ובדיקות הכשרה מרכזיות בעיצומן, הלוויין החדש של אירופה לניטור הקרח, CRISTAL, עובר מהרכבה לשלב הבדיקות התובעני שיוכיח את מוכנותו לקשיחות של שיגור וחיים במסלול. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! עם המערכים הסולאריים שלו משולבים ובדיקות הכשרה מרכזיות בעיצומן, לוויין ניטור הקרח החדש של אירופה, CRISTAL, עובר מהרכבה לשלב הבדיקות התובעני שיוכיח את מוכנותו לקשיחות של שיגור וחיים במסלול. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Ice mission CRISTAL opens its wings ✨",
     "summary_en_kids": "✨🔬 European scientists just sent an amazing report! With its solar arrays integrated and key qualification reviews under way, Europe’s new ice-monitoring satellite, CRISTAL, is moving from assembly into the demanding testing phase that will demonstrate its readiness for the rigours of launch and life in orbit. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 10
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-10-23T15:15:00",
-    "date_display": "Fri, 23 Oct 2026 15:15:00 +0200",
-    "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_19-23_October_2026",
-    "title_en": "Week in images: 19-23 October 2026",
-    "summary_en": "Week in images: 19-23 October 2026\n\tDiscover our week through the lens",
-    "image": "",
-    "title_ru": "Неделя в изображениях: 19–23 октября 2026 г.",
-    "summary_ru": "Неделя в изображениях: 19–23 октября 2026 г.\n\tОткройте для себя нашу неделю через призму",
-    "title_ru_kids": "🚀 Неделя в изображениях: 19–23 октября 2026 г. ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Неделя в изображениях: 19–23 октября 2026 г.\n\tОткройте для себя нашу неделю через призму 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "שבוע בתמונות: 19-23 באוקטובר 2026",
-    "summary_he": "שבוע בתמונות: 19-23 באוקטובר 2026\n\tגלה את השבוע שלנו דרך העדשה",
-    "title_he_kids": "🚀 שבוע בתמונות: 19-23 באוקטובר 2026 ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! שבוע בתמונות: 19-23 באוקטובר 2026\n\tגלה את השבוע שלנו דרך העדשה 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Week in images: 19-23 October 2026 ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Week in images: 19-23 October 2026\n\tDiscover our week through the lens 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 11
-  },
-  {
-    "source": "ESA",
-    "date_parsed": "2026-10-23T10:00:00",
-    "date_display": "Fri, 23 Oct 2026 10:00:00 +0200",
-    "link": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_The_pink_city",
-    "title_en": "Earth from Space: The pink city",
-    "summary_en": "Image:\n\t\t\tThis image shows a detailed view of the city of Toulouse in southwest France, with its terracotta tiled rooftops lending it the nickname la ville rose, or the pink city.",
-    "image": "",
-    "title_ru": "Земля из космоса: Розовый город",
-    "summary_ru": "Изображение:\n\t\t\tНа этом изображении показан детальный вид города Тулузы на юго-западе Франции с его крышами, покрытыми терракотовой черепицей, благодаря которым город получил прозвище la ville rose, или розовый город.",
-    "title_ru_kids": "🚀 Земля из космоса: Розовый город ✨",
-    "summary_ru_kids": "✨🔬 Европейские ученые отправили секретное донесение! Изображение:\n\t\t\tНа этом изображении показан детальный вид города Тулузы на юго-западе Франции с его крышами, покрытыми терракотовой черепицей, благодаря которым город получил прозвище la ville rose, или розовый город. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 Скафандр весит как большой пес!",
-    "title_he": "כדור הארץ מהחלל: העיר הוורודה",
-    "summary_he": "תמונה:\n\t\t\tתמונה זו מציגה מבט מפורט על העיר טולוז בדרום מערב צרפת, כאשר גגות הטרקוטה שלה מעניקים לה את הכינוי la ville rose, או העיר הוורודה.",
-    "title_he_kids": "🚀 כדור הארץ מהחלל: העיר הוורודה ✨",
-    "summary_he_kids": "✨🔬 המדענים מאירופה שלחו דיווח מרתק! תמונה:\n\t\t\tתמונה זו מציגה מבט מפורט על העיר טולוז בדרום מערב צרפת, כאשר גגות הטרקוטה שלה מעניקים לה את הכינוי la ville rose, או העיר הוורודה. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 Earth from Space: The pink city ✨",
-    "summary_en_kids": "✨🔬 European scientists just sent an amazing report! Image:\n\t\t\tThis image shows a detailed view of the city of Toulouse in southwest France, with its terracotta tiled rooftops lending it the nickname la ville rose, or the pink city. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 A real space suit weighs as much as a huge dog!",
     "id": 12
   },
   {
@@ -247,9 +247,9 @@
     "title_en": "SpaceX launches Starlink 15-15 mission following a trio of scrubs",
     "summary_en": "SpaceX succeeded in its fourth attempt to launch a Falcon 9 rocket from Vandenberg Space Force Base. Liftoff happened at 3:48 p.m. PDT (6:48 p.m. EDT / 2248 UTC) on Friday, Oct. 23.",
     "image": "",
-    "title_ru": "SpaceX запускает миссию Starlink 15-15 после тройки скрабов",
+    "title_ru": "SpaceX запускает миссию Starlink 15-15 после трех скрабов",
     "summary_ru": "SpaceX преуспела в четвертой попытке запустить ракету Falcon 9 с базы космических сил Ванденберг. Взлет произошел в 15:48. Тихоокеанское время (18:48 по восточному времени / 22:48 по всемирному координированному времени) в пятницу, 23 октября.",
-    "title_ru_kids": "🚀 SpaceX запускает миссию Starlink 15-15 после тройки скрабов ✨",
+    "title_ru_kids": "🚀 SpaceX запускает миссию Starlink 15-15 после трех скрабов ✨",
     "summary_ru_kids": "🛰️ Внимание, на связи космический радар! SpaceX преуспела в четвертой попытке запустить ракету Falcon 9 с базы космических сил Ванденберг. Взлет произошел в 15:48. Тихоокеанское время (18:48 по восточному времени / 22:48 по всемирному координированному времени) в пятницу, 23 октября. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
     "title_he": "SpaceX משיקה את משימת Starlink 15-15 בעקבות שלישיית קרצוף",
     "summary_he": "SpaceX הצליחה בניסיונה הרביעי לשגר רקטה פלקון 9 מבסיס כוח החלל ונדנברג. ההמראה התרחשה בשעה 15:48. PDT (6:48 אחר הצהריים EDT / 2248 UTC) ביום שישי, 23 באוקטובר.",
@@ -267,13 +267,13 @@
     "title_en": "SpaceX launches Starfall reentry capsule, 31 customer payloads on Bandwagon-5 rideshare mission",
     "summary_en": "This will be the second launch of SpaceX’s uncrewed reentry capsule, Starfall. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled at 7:04 a.m. EDT (1104 UTC) on Tuesday, Oct. 20.",
     "image": "",
-    "title_ru": "SpaceX запускает возвращаемую капсулу Starfall и 31 потребительскую полезную нагрузку в рамках миссии Bandwagon-5",
+    "title_ru": "SpaceX запускает возвращаемую капсулу Starfall и 31 полезную нагрузку для клиента в рамках миссии Bandwagon-5",
     "summary_ru": "Это будет второй запуск непилотируемой возвращаемой капсулы SpaceX Starfall. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 7:04 утра по восточному времени (11:04 UTC) во вторник, 20 октября.",
-    "title_ru_kids": "🚀 SpaceX запускает возвращаемую капсулу Starfall и 31 потребительскую полезную нагрузку в рамках миссии Bandwagon-5 ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Это будет второй запуск непилотируемой возвращаемой капсулы SpaceX Starfall. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 7:04 утра по восточному времени (11:04 UTC) во вторник, 20 октября. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
-    "title_he": "SpaceX משיקה קפסולת כניסה חוזרת של Starfall, 31 מטענים של לקוחות במשימת Bandwagon-5.",
+    "title_ru_kids": "🚀 SpaceX запускает возвращаемую капсулу Starfall и 31 полезную нагрузку для клиента в рамках миссии Bandwagon-5 ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Это будет второй запуск непилотируемой возвращаемой капсулы SpaceX Starfall. Старт с площадки 40 на станции космических сил на мысе Канаверал запланирован на 7:04 утра по восточному времени (11:04 UTC) во вторник, 20 октября. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
+    "title_he": "SpaceX משיקה קפסולת כניסה חוזרת של Starfall, 31 מטענים של לקוחות במשימה Bandwagon-5.",
     "summary_he": "זו תהיה ההשקה השנייה של קפסולת הכניסה מחדש ללא צוות של SpaceX, Starfall. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת בשעה 7:04 בבוקר EDT (1104 UTC) ביום שלישי, 20 באוקטובר.",
-    "title_he_kids": "🚀 SpaceX משיקה קפסולת כניסה חוזרת של Starfall, 31 מטענים של לקוחות במשימת Bandwagon-5. ✨",
+    "title_he_kids": "🚀 SpaceX משיקה קפסולת כניסה חוזרת של Starfall, 31 מטענים של לקוחות במשימה Bandwagon-5. ✨",
     "summary_he_kids": "🌟 תראו מה קרה! זו תהיה ההשקה השנייה של קפסולת הכניסה מחדש ללא צוות של SpaceX, Starfall. ההמראה ממשטח 40 בתחנת כוח החלל קייפ קנוורל מתוכננת בשעה 7:04 בבוקר EDT (1104 UTC) ביום שלישי, 20 באוקטובר. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 SpaceX launches Starfall reentry capsule, 31 customer payloads on Bandwagon-5 rideshare mission ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! This will be the second launch of SpaceX’s uncrewed reentry capsule, Starfall. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled at 7:04 a.m. EDT (1104 UTC) on Tuesday, Oct. 20. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
