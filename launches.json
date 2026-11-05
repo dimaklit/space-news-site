@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Mir | Demo Flight",
-    "window_start": "2026-11-04T05:00:00Z",
-    "rocket": "Mir",
-    "pad": "ADD Offshore launch platform",
-    "location": "Sea Launch"
-  },
-  {
     "name_en": "Ceres-2 | Unknown Payload",
     "window_start": "2026-11-04T21:00:00Z",
     "rocket": "Ceres-2",
@@ -33,5 +26,12 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Electron | The Mountain God Rises (iQPS Launch 10)",
+    "window_start": "2026-11-10T00:00:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
   }
 ]
