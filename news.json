@@ -1,6 +1,66 @@
 [
   {
     "source": "Spaceflight Now",
+    "date_parsed": "2026-11-05T22:34:58",
+    "date_display": "Thu, 05 Nov 2026 22:34:58 +0000",
+    "link": "https://spaceflightnow.com/2026/11/05/blue-origin-reveals-new-kick-stage-engines-for-its-new-glenn-rockets/",
+    "title_en": "Blue Origin reveals new kick stage, engines for its New Glenn rockets",
+    "summary_en": "The announcement was made during an invite-only event ahead of the weekend’s, NASA-backed Max Power airshow at the Kennedy Space Center.",
+    "image": "",
+    "title_ru": "Blue Origin представляет новую стартовую ступень и двигатели для своих ракет New Glenn",
+    "summary_ru": "Объявление было сделано во время мероприятия, предназначенного только для приглашенных, в преддверии авиашоу Max Power, проводимого при поддержке НАСА в Космическом центре Кеннеди.",
+    "title_ru_kids": "🚀 Blue Origin представляет новую стартовую ступень и двигатели для своих ракет New Glenn ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Объявление было сделано во время мероприятия, предназначенного только для приглашенных, в преддверии авиашоу Max Power, проводимого при поддержке НАСА в Космическом центре Кеннеди. 🪐 Как тебе такое космическое путешествие? Скафандр весит как большой пес!",
+    "title_he": "Blue Origin חושף שלב בעיטה חדש, מנועים לרקטות ניו גלן שלה",
+    "summary_he": "ההכרזה נמסרה במהלך אירוע להזמנה בלבד לקראת מופע האוויר של מקס פאוור, שנתמך על ידי נאס\"א בסוף השבוע במרכז החלל קנדי.",
+    "title_he_kids": "🚀 Blue Origin חושף שלב בעיטה חדש, מנועים לרקטות ניו גלן שלה ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! ההכרזה נמסרה במהלך אירוע להזמנה בלבד לקראת מופע האוויר של מקס פאוור, שנתמך על ידי נאס\"א בסוף השבוע במרכז החלל קנדי. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Blue Origin reveals new kick stage, engines for its New Glenn rockets ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! The announcement was made during an invite-only event ahead of the weekend’s, NASA-backed Max Power airshow at the Kennedy Space Center. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "Spaceflight Now",
+    "date_parsed": "2026-11-05T22:30:36",
+    "date_display": "Thu, 05 Nov 2026 22:30:36 +0000",
+    "link": "https://spaceflightnow.com/2026/11/05/as-it-happened-spacewalkers-install-space-stations-eighth-and-final-upgraded-solar-array/",
+    "title_en": "As it happened: spacewalkers install space station’s eighth and final upgraded solar array",
+    "summary_en": "During Thursday’s spacewalk, the astronauts will install the eighth and final International Space Station Roll-Out Solar Array, or IROSA.",
+    "image": "",
+    "title_ru": "Как это произошло: выходцы в открытый космос установили восьмую и последнюю модернизированную солнечную батарею космической станции",
+    "summary_ru": "Во время выхода в открытый космос в четверг астронавты установят восьмую и последнюю солнечную батарею Международной космической станции, или IROSA.",
+    "title_ru_kids": "🚀 Как это произошло: выходцы в открытый космос установили восьмую и последнюю модернизированную солнечную батарею космической станции ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Во время выхода в открытый космос в четверг астронавты установят восьмую и последнюю солнечную батарею Международной космической станции, или IROSA. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ В космосе абсолютная, полная тишина!",
+    "title_he": "כפי שקרה: הולכי חלל מתקינים את מערך השמש המשודרג השמיני והאחרון של תחנת החלל",
+    "summary_he": "במהלך הליכת החלל של יום חמישי, האסטרונאוטים יתקינו את מערך השמש של תחנת החלל הבינלאומית השמיני והאחרון, או IROSA.",
+    "title_he_kids": "🚀 כפי שקרה: הולכי חלל מתקינים את מערך השמש המשודרג השמיני והאחרון של תחנת החלל ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! במהלך הליכת החלל של יום חמישי, האסטרונאוטים יתקינו את מערך השמש של תחנת החלל הבינלאומית השמיני והאחרון, או IROSA. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 As it happened: spacewalkers install space station’s eighth and final upgraded solar array ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! During Thursday’s spacewalk, the astronauts will install the eighth and final International Space Station Roll-Out Solar Array, or IROSA. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
+    "id": 2
+  },
+  {
+    "source": "Spaceflight Now",
+    "date_parsed": "2026-11-05T22:28:40",
+    "date_display": "Thu, 05 Nov 2026 22:28:40 +0000",
+    "link": "https://spaceflightnow.com/2026/11/05/spacewalkers-complete-five-year-effort-to-upgrade-space-station-power-supply/",
+    "title_en": "Spacewalkers complete five-year effort to upgrade space station power supply",
+    "summary_en": "Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ...",
+    "image": "",
+    "title_ru": "Выходцы в открытый космос завершили пятилетнюю работу по модернизации электропитания космической станции",
+    "summary_ru": "Астронавты, выходящие в открытый космос Джошуа Катрик и Анил Менон, в четверг развернули последнюю из восьми новых солнечных батарей возле Международной космической станции, преодолевая неожиданные сбои в подаче электроэнергии, чтобы завершить пятилетнюю модернизацию, призванную обеспечить бесперебойную работу орбитальной лаборатории...",
+    "title_ru_kids": "🚀 Выходцы в открытый космос завершили пятилетнюю работу по модернизации электропитания космической станции ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Астронавты, выходящие в открытый космос Джошуа Катрик и Анил Менон, в четверг развернули последнюю из восьми новых солнечных батарей возле Международной космической станции, преодолевая неожиданные сбои в подаче электроэнергии, чтобы завершить пятилетнюю модернизацию, призванную обеспечить бесперебойную работу орбитальной лаборатории... 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
+    "title_he": "מטיילי חלל משלימים מאמץ של חמש שנים לשדרג את אספקת החשמל של תחנת החלל",
+    "summary_he": "האסטרונאוטים המטיילים בחלל, ג'ושוע קוטריק ואניל מנון, פרשו את האחרון מבין שמונה מערכי השמש החדשים מחוץ לתחנת החלל הבינלאומית ביום חמישי, ועבדו דרך תקלת חשמל בלתי צפויה כדי להשלים שדרוג של חמש שנים שנועד לשמור על המעבדה הסובבת לרוץ דרך...",
+    "title_he_kids": "🚀 מטיילי חלל משלימים מאמץ של חמש שנים לשדרג את אספקת החשמל של תחנת החלל ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! האסטרונאוטים המטיילים בחלל, ג'ושוע קוטריק ואניל מנון, פרשו את האחרון מבין שמונה מערכי השמש החדשים מחוץ לתחנת החלל הבינלאומית ביום חמישי, ועבדו דרך תקלת חשמל בלתי צפויה כדי להשלים שדרוג של חמש שנים שנועד לשמור על המעבדה הסובבת לרוץ דרך... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 Spacewalkers complete five-year effort to upgrade space station power supply ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 3
+  },
+  {
+    "source": "Spaceflight Now",
     "date_parsed": "2026-11-04T20:14:59",
     "date_display": "Wed, 04 Nov 2026 20:14:59 +0000",
     "link": "https://spaceflightnow.com/2026/11/04/nasas-neil-gehrels-swift-observatory-reenters-over-western-indonesia/",
@@ -17,7 +77,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! מצפה הכוכבים ניל גרלס סוויפט של נאס\"א צנח חזרה לאטמוספירה של כדור הארץ ביום רביעי מעל מערב אינדונזיה, וסיים כמעט 22 שנים במסלול של צייד פרצי גמא לאחר ניסיון כושל לחלצו. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA’s Neil Gehrels Swift Observatory reenters over Western Indonesia ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA’s Neil Gehrels Swift Observatory plummeted back into Earth’s atmosphere Wednesday over western Indonesia, ending nearly 22 years in orbit for the gamma-ray burst hunter after a failed attempt to rescue it. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! החל מיום שני, חיל החלל האמריקני חזה שסוויפט תיכנס שוב לאטמוספירה של כדור הארץ בסביבות השעה 3:30 לפנות בוקר EST יום רביעי, 4 בנובמבר, אי שם בטווח של כ-21 מעלות צפונית או מדרום לקו המשווה - רצועה שהיא ברובה אוקיינוס. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA’s Neil Gehrels Swift Observatory to burn up this week after more than two decades in space ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! As of Monday, the U.S. Space Force predicted Swift would re-enter Earth's atmosphere at approximately 3:30 a.m. EST Wednesday, Nov. 4, somewhere within about 21 degrees north or south of the equator — a band that is mostly ocean. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! משימת Starlink 15-18 תוסיף עוד 27 לוויינים Starlink V2 Mini Optimized למגה-קונסטלציה של SpaceX. ההמראה ממשטח 4E בבסיס כוח החלל ונדנברג מתוכננת לשעה 21:04. PDT (12:04 בבוקר EDT / 0404 UTC). 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 SpaceX closes out October with 700th Falcon 9 launch to date ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The Starlink 15-18 mission will add another 27 Starlink V2 Mini Optimized satellites to SpaceX’s megaconstellation. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 9:04 p.m. PDT (12:04 a.m. EDT / 0404 UTC). 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! זוהי הראשונה מתוך זוג טיסות טורקיות לירח. הראשון יהיה מסלול עם מספר מכשירים מדעיים והשני יהיה נחתת. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Turkey aims for first Moon-orbiting mission in 2027 ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! This is the first of a pair of Turkish flights to the Moon. The first will be an orbiter with several scientific instruments and the second will be a lander. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -97,66 +157,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! האסטרונאוט של נאס\"א אניל מנון ואסטרונאוט סוכנות החלל הקנדית ג'ושוע קוטריק התקינו ופתחו בהצלחה את השביעי מתוך שמונה פאנלים סולאריים חדשים שנועדו להפעיל את המאחז עד פרישתו ב-2030. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Spacewalking astronauts unfurl upgraded solar array to boost space station power ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk successfully installed and unfurled the seventh of eight new solar panels designed to power the outpost through its retirement in 2030. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-10-29T18:45:33",
-    "date_display": "Thu, 29 Oct 2026 18:45:33 +0000",
-    "link": "https://spaceflightnow.com/2026/10/29/as-it-happened-spacewalkers-install-new-solar-array/",
-    "title_en": "As it happened: spacewalkers install new solar array",
-    "summary_en": "NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk are performing a spacewalk to install the 7th of 8 ISS Roll-Out Solar Arrays (iROSA) to upgrade the orbiting outpost's power system.",
-    "image": "",
-    "title_ru": "Как это было: выходцы в открытый космос установили новую солнечную батарею",
-    "summary_ru": "Астронавт НАСА Анил Менон и астронавт Канадского космического агентства Джошуа Катрик совершают выход в открытый космос, чтобы установить седьмую из восьми развертываемых солнечных батарей МКС (iROSA) для модернизации энергосистемы орбитальной заставы.",
-    "title_ru_kids": "🚀 Как это было: выходцы в открытый космос установили новую солнечную батарею ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Астронавт НАСА Анил Менон и астронавт Канадского космического агентства Джошуа Катрик совершают выход в открытый космос, чтобы установить седьмую из восьми развертываемых солнечных батарей МКС (iROSA) для модернизации энергосистемы орбитальной заставы. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ В космосе абсолютная, полная тишина!",
-    "title_he": "כפי שקרה: הולכי חלל מתקינים מערך סולארי חדש",
-    "summary_he": "האסטרונאוט של נאס\"א אניל מנון ואסטרונאוט סוכנות החלל הקנדית ג'ושוע קוטריק מבצעים הליכת חלל כדי להתקין את ה-7 מתוך 8 מערכי השמש של ISS Roll-Out (iROSA) כדי לשדרג את מערכת החשמל של המוצב המקיף.",
-    "title_he_kids": "🚀 כפי שקרה: הולכי חלל מתקינים מערך סולארי חדש ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! האסטרונאוט של נאס\"א אניל מנון ואסטרונאוט סוכנות החלל הקנדית ג'ושוע קוטריק מבצעים הליכת חלל כדי להתקין את ה-7 מתוך 8 מערכי השמש של ISS Roll-Out (iROSA) כדי לשדרג את מערכת החשמל של המוצב המקיף. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 As it happened: spacewalkers install new solar array ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk are performing a spacewalk to install the 7th of 8 ISS Roll-Out Solar Arrays (iROSA) to upgrade the orbiting outpost's power system. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-10-28T22:46:41",
-    "date_display": "Wed, 28 Oct 2026 22:46:41 +0000",
-    "link": "https://spaceflightnow.com/2026/10/28/united-launch-alliance-announces-mid-november-return-to-flight-for-vulcan-rocket/",
-    "title_en": "United Launch Alliance announces mid-November return to flight for Vulcan rocket",
-    "summary_en": "The anticipated launch will be the first for the heavy-lift rocket since a mid-flight nozzle failure on a solid rocket booster. The rocket will carry 40 Amazon Leo satellites to orbit.",
-    "image": "",
-    "title_ru": "United Launch Alliance объявляет о возвращении в полет ракеты Vulcan в середине ноября",
-    "summary_ru": "Ожидаемый запуск станет первым для ракеты-тяжеловеса после отказа сопла в полете твердотопливного ракетного ускорителя. Ракета выведет на орбиту 40 спутников Amazon Leo.",
-    "title_ru_kids": "🚀 United Launch Alliance объявляет о возвращении в полет ракеты Vulcan в середине ноября ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Ожидаемый запуск станет первым для ракеты-тяжеловеса после отказа сопла в полете твердотопливного ракетного ускорителя. Ракета выведет на орбиту 40 спутников Amazon Leo. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Космос на древнегреческом означает 'порядок'!",
-    "title_he": "United Launch Alliance מכריזה באמצע נובמבר על חזרה לטיסה לרקטת וולקן",
-    "summary_he": "השיגור הצפוי יהיה הראשון לרקטת ההרמה הכבדה מאז תקלה בזרבובית באמצע הטיסה במאיץ רקטה מוצק. הרקטה תשא 40 לווייני אמזון ליאו למסלול.",
-    "title_he_kids": "🚀 United Launch Alliance מכריזה באמצע נובמבר על חזרה לטיסה לרקטת וולקן ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! השיגור הצפוי יהיה הראשון לרקטת ההרמה הכבדה מאז תקלה בזרבובית באמצע הטיסה במאיץ רקטה מוצק. הרקטה תשא 40 לווייני אמזון ליאו למסלול. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 United Launch Alliance announces mid-November return to flight for Vulcan rocket ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! The anticipated launch will be the first for the heavy-lift rocket since a mid-flight nozzle failure on a solid rocket booster. The rocket will carry 40 Amazon Leo satellites to orbit. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-10-28T21:03:33",
-    "date_display": "Wed, 28 Oct 2026 21:03:33 +0000",
-    "link": "https://spaceflightnow.com/2026/10/28/nasa-nears-end-of-space-station-solar-array-upgrade-with-oct-29-and-nov-5-spacewalks/",
-    "title_en": "NASA nears end of space station solar array upgrade with Oct. 29 and Nov. 5 spacewalks",
-    "summary_en": "NASA is two spacewalks away from completing a major, years-long upgrade to the International Space Station that will power the orbiting lab through to its planned decommissioning in 2030.",
-    "image": "",
-    "title_ru": "НАСА приближается к завершению модернизации солнечной батареи космической станции с выходами в открытый космос 29 октября и 5 ноября.",
-    "summary_ru": "НАСА находится в двух шагах от завершения масштабной, многолетней модернизации Международной космической станции, которая обеспечит питание орбитальной лаборатории до ее запланированного вывода из эксплуатации в 2030 году.",
-    "title_ru_kids": "🚀 НАСА приближается к завершению модернизации солнечной батареи космической станции с выходами в открытый космос 29 октября и 5 ноября. ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! НАСА находится в двух шагах от завершения масштабной, многолетней модернизации Международной космической станции, которая обеспечит питание орбитальной лаборатории до ее запланированного вывода из эксплуатации в 2030 году. ☀️ Ого, Солнце сегодня очень горячее! Защитные экраны корабля на максимуме! 🛡️ В космосе абсолютная, полная тишина!",
-    "title_he": "נאס\"א מתקרבת לסוף שדרוג מערך השמש של תחנת החלל עם הליכות החלל ב-29 באוקטובר וב-5 בנובמבר",
-    "summary_he": "נאס\"א נמצאת במרחק של שתי צעדי חלל מהשלמת שדרוג גדול לאורך שנים של תחנת החלל הבינלאומית שתפעיל את המעבדה המקיפה עד לפירוקה המתוכנן ב-2030.",
-    "title_he_kids": "🚀 נאס\"א מתקרבת לסוף שדרוג מערך השמש של תחנת החלל עם הליכות החלל ב-29 באוקטובר וב-5 בנובמבר ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! נאס\"א נמצאת במרחק של שתי צעדי חלל מהשלמת שדרוג גדול לאורך שנים של תחנת החלל הבינלאומית שתפעיל את המעבדה המקיפה עד לפירוקה המתוכנן ב-2030. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 NASA nears end of space station solar array upgrade with Oct. 29 and Nov. 5 spacewalks ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! NASA is two spacewalks away from completing a major, years-long upgrade to the International Space Station that will power the orbiting lab through to its planned decommissioning in 2030. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
     "id": 8
   }
 ]
