@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Long March 2C | Unknown Payload",
-    "window_start": "2026-11-05T15:52:00Z",
-    "rocket": "Long March 2C",
-    "pad": "Launch Complex 3 (LC-3/LA-1)",
-    "location": "Xichang Satellite Launch Center, People's Republic of China"
-  },
-  {
-    "name_en": "Long March 12 | SatNet LEO Group TBD?",
-    "window_start": "2026-11-05T21:10:00Z",
-    "rocket": "Long March 12",
-    "pad": "Commercial LC-2",
-    "location": "Wenchang Space Launch Site, People's Republic of China"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | Starlink Group 15-21",
     "window_start": "2026-11-06T02:21:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +19,19 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "window_start": "2026-11-13T00:00:00Z",
+    "rocket": "Vulcan VC6L",
+    "pad": "Space Launch Complex 41",
+    "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Long March 8A | SatNet LEO Group TBD?",
+    "window_start": "2026-11-20T11:00:00Z",
+    "rocket": "Long March 8A",
+    "pad": "Commercial LC-1",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
