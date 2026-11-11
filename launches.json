@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Electron | The Mountain God Rises (iQPS Launch 10)",
-    "window_start": "2026-11-10T00:00:00Z",
-    "rocket": "Electron",
-    "pad": "Unknown Pad",
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
-  },
-  {
-    "name_en": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
-    "window_start": "2026-11-10T03:03:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Vulcan VC6L | Amazon Leo (LV-01)",
     "window_start": "2026-11-13T00:00:00Z",
     "rocket": "Vulcan VC6L",
@@ -33,5 +19,19 @@
     "rocket": "Ariane 64 Block 2",
     "pad": "Ariane Launch Area 4",
     "location": "Guiana Space Centre, French Guiana"
+  },
+  {
+    "name_en": "Soyuz 2.1b | Progress MS-36 (97P)",
+    "window_start": "2026-11-24T05:03:00Z",
+    "rocket": "Soyuz 2.1b",
+    "pad": "31/6",
+    "location": "Baikonur Cosmodrome, Republic of Kazakhstan"
+  },
+  {
+    "name_en": "Long March 12 | SatNet LEO Group TBD?",
+    "window_start": "2026-11-24T07:00:00Z",
+    "rocket": "Long March 12",
+    "pad": "Commercial LC-2",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
