@@ -1,23 +1,43 @@
 [
   {
     "source": "Spaceflight Now",
+    "date_parsed": "2026-11-13T19:15:11",
+    "date_display": "Fri, 13 Nov 2026 19:15:11 +0000",
+    "link": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/",
+    "title_en": "Live Coverage: Starship Flight 15 attempts to recover full vehicle in double launch pad catch",
+    "summary_en": "Liftoff of the integrated Starship vehicle from Starbase in Texas is scheduled during a 75-minute launch window that opens at 4:45 p.m. CST (5:45 p.m. EST / 2245 UTC) on Friday, Nov. 13.",
+    "image": "",
+    "title_ru": "Прямая трансляция: Starship Flight 15 пытается восстановить полную машину с помощью двойной стартовой площадки",
+    "summary_ru": "Старт интегрированного корабля Starship со Звездной базы в Техасе запланирован на 75-минутное стартовое окно, которое открывается в 16:45 по тихоокеанскому времени. CST (17:45 EST / 22:45 UTC) в пятницу, 13 ноября.",
+    "title_ru_kids": "🚀 Прямая трансляция: Starship Flight 15 пытается восстановить полную машину с помощью двойной стартовой площадки ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! Старт интегрированного корабля Starship со Звездной базы в Техасе запланирован на 75-минутное стартовое окно, которое открывается в 16:45 по тихоокеанскому времени. CST (17:45 EST / 22:45 UTC) в пятницу, 13 ноября. 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
+    "title_he": "סיקור חי: טיסת ספינת הכוכבים 15 מנסה לשחזר רכב מלא בתפיסת משטח שיגור כפול",
+    "summary_he": "הרמה של הרכב המשולב Starship מסטארבייס בטקסס מתוכננת במהלך חלון שיגור של 75 דקות שייפתח בשעה 16:45. CST (5:45 אחר הצהריים EST / 2245 UTC) ביום שישי, 13 בנובמבר.",
+    "title_he_kids": "🚀 סיקור חי: טיסת ספינת הכוכבים 15 מנסה לשחזר רכב מלא בתפיסת משטח שיגור כפול ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! הרמה של הרכב המשולב Starship מסטארבייס בטקסס מתוכננת במהלך חלון שיגור של 75 דקות שייפתח בשעה 16:45. CST (5:45 אחר הצהריים EST / 2245 UTC) ביום שישי, 13 בנובמבר. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
+    "title_en_kids": "🚀 Live Coverage: Starship Flight 15 attempts to recover full vehicle in double launch pad catch ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! Liftoff of the integrated Starship vehicle from Starbase in Texas is scheduled during a 75-minute launch window that opens at 4:45 p.m. CST (5:45 p.m. EST / 2245 UTC) on Friday, Nov. 13. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
+    "id": 1
+  },
+  {
+    "source": "Spaceflight Now",
     "date_parsed": "2026-11-13T12:25:06",
     "date_display": "Fri, 13 Nov 2026 12:25:06 +0000",
     "link": "https://spaceflightnow.com/2026/11/13/ulas-vulcan-rocket-plans-return-to-flight-with-launch-of-40-leo-satellites-for-amazon/",
-    "title_en": "ULA’s Vulcan rocket plans return to flight with launch of 40 Leo satellites for Amazon",
-    "summary_en": "Liftoff from Space Launch Complex 41 at Cape Canaveral Space Force Station is scheduled for 12:54 p.m. EST (1754 UTC), at the opening of a 29-minute window.",
+    "title_en": "ULA delays to Saturday Vulcan rocket launch of 40 Leo satellites for Amazon",
+    "summary_en": "Liftoff from Space Launch Complex 41 at Cape Canaveral Space Force Station is now scheduled for 12:32 p.m. EST (1732 UTC) on Saturday.",
     "image": "",
-    "title_ru": "Ракета ULA Vulcan планирует вернуться в полет с запуском 40 спутников Leo для Amazon",
-    "summary_ru": "Старт со стартового комплекса 41 на станции космических сил на мысе Канаверал запланирован на 12:54. EST (17:54 UTC), начало 29-минутного окна.",
-    "title_ru_kids": "🚀 Ракета ULA Vulcan планирует вернуться в полет с запуском 40 спутников Leo для Amazon ✨",
-    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт со стартового комплекса 41 на станции космических сил на мысе Канаверал запланирован на 12:54. EST (17:54 UTC), начало 29-минутного окна. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ Скафандр весит как большой пес!",
-    "title_he": "תוכניות הרקטות וולקן של ULA חוזרות לטיסה עם שיגור של 40 לווייני ליאו עבור אמזון",
-    "summary_he": "ההמראה ממתחם שיגור החלל 41 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 12:54. EST (1754 UTC), בפתיחת חלון של 29 דקות.",
-    "title_he_kids": "🚀 תוכניות הרקטות וולקן של ULA חוזרות לטיסה עם שיגור של 40 לווייני ליאו עבור אמזון ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! ההמראה ממתחם שיגור החלל 41 בתחנת כוח החלל קייפ קנוורל מתוכננת לשעה 12:54. EST (1754 UTC), בפתיחת חלון של 29 דקות. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
-    "title_en_kids": "🚀 ULA’s Vulcan rocket plans return to flight with launch of 40 Leo satellites for Amazon ✨",
-    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff from Space Launch Complex 41 at Cape Canaveral Space Force Station is scheduled for 12:54 p.m. EST (1754 UTC), at the opening of a 29-minute window. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ Fun fact: space is completely, absolutely silent!",
-    "id": 1
+    "title_ru": "ULA откладывает на субботу запуск ракеты Vulcan с 40 спутниками Leo для Amazon",
+    "summary_ru": "Старт со стартового комплекса 41 на станции Космических сил на мысе Канаверал теперь запланирован на 12:32. EST (17:32 UTC) в субботу.",
+    "title_ru_kids": "🚀 ULA откладывает на субботу запуск ракеты Vulcan с 40 спутниками Leo для Amazon ✨",
+    "summary_ru_kids": "🛰️ Внимание, на связи космический радар! Старт со стартового комплекса 41 на станции Космических сил на мысе Канаверал теперь запланирован на 12:32. EST (17:32 UTC) в субботу. 🚀 Обратный отсчет окончен, полетели! Хотел бы стать командиром экипажа? ☄️ В космосе абсолютная, полная тишина!",
+    "title_he": "ULA מעכבת לשיגור רקטות וולקן בשבת של 40 לווייני ליאו עבור אמזון",
+    "summary_he": "ההמראה ממתחם שיגור החלל 41 בתחנת כוח החלל קייפ קנוורל מתוכננת כעת לשעה 12:32. EST (1732 UTC) ביום שבת.",
+    "title_he_kids": "🚀 ULA מעכבת לשיגור רקטות וולקן בשבת של 40 לווייני ליאו עבור אמזון ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! ההמראה ממתחם שיגור החלל 41 בתחנת כוח החלל קייפ קנוורל מתוכננת כעת לשעה 12:32. EST (1732 UTC) ביום שבת. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
+    "title_en_kids": "🚀 ULA delays to Saturday Vulcan rocket launch of 40 Leo satellites for Amazon ✨",
+    "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff from Space Launch Complex 41 at Cape Canaveral Space Force Station is now scheduled for 12:32 p.m. EST (1732 UTC) on Saturday. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! החברה שמאחורי קבוצת הלוויין הישירה לתא של Bluebird אמרה כי הוספת רקטה להרמה כבדה משלה היא החלק האחרון בתוכניות שלה לאינטגרציה אנכית. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 AST SpaceMobile unveils $1.3 billion engine deal with Firefly Aerospace to power new heavy-lift rocket ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The company behind the Bluebird direct-to-cell satellite constellation said the addition of its own heavy-lift rocket is the final piece of its plans for vertical integration. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +77,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! ההרמה מרכב 4E בבסיס כוח החלל ונדנברג התרחשה בשעה 16:48. PST (7:48 בערב EST / 0048 UTC). המשימה נחשבת לשאת לוויינים המבוססים על פלטפורמת Starshield של SpaceX. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Falcon 9 launches from California on classified mission for U.S. Space Force ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Liftoff from pad 4E at Vandenberg Space Force Base occurred at 4:48 p.m. PST (7:48 p.m. EST / 0048 UTC). The mission is thought to be carrying satellites based on SpaceX’s Starshield platform. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! ההכרזה נמסרה במהלך אירוע להזמנה בלבד לקראת מופע האוויר של מקס פאוור, שנתמך על ידי נאס\"א בסוף השבוע במרכז החלל קנדי. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Blue Origin reveals new kick stage, engines for its New Glenn rockets ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The announcement was made during an invite-only event ahead of the weekend’s, NASA-backed Max Power airshow at the Kennedy Space Center. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! במהלך הליכת החלל של יום חמישי, האסטרונאוטים יתקינו את מערך השמש של תחנת החלל הבינלאומית השמיני והאחרון, או IROSA. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 As it happened: spacewalkers install space station’s eighth and final upgraded solar array ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! During Thursday’s spacewalk, the astronauts will install the eighth and final International Space Station Roll-Out Solar Array, or IROSA. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! האסטרונאוטים המטיילים בחלל, ג'ושוע קוטריק ואניל מנון, פרשו את האחרון מבין שמונה מערכי השמש החדשים מחוץ לתחנת החלל הבינלאומית ביום חמישי, ועבדו דרך תקלת חשמל בלתי צפויה כדי להשלים שדרוג של חמש שנים שנועד לשמור על המעבדה הסובבת לרוץ דרך... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Spacewalkers complete five-year effort to upgrade space station power supply ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,26 +157,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! מצפה הכוכבים ניל גרלס סוויפט של נאס\"א צנח חזרה לאטמוספירה של כדור הארץ ביום רביעי מעל מערב אינדונזיה, וסיים כמעט 22 שנים במסלול של צייד פרצי גמא לאחר ניסיון כושל לחלצו. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 NASA’s Neil Gehrels Swift Observatory reenters over Western Indonesia ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! NASA’s Neil Gehrels Swift Observatory plummeted back into Earth’s atmosphere Wednesday over western Indonesia, ending nearly 22 years in orbit for the gamma-ray burst hunter after a failed attempt to rescue it. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 7
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-11-03T13:35:33",
-    "date_display": "Tue, 03 Nov 2026 13:35:33 +0000",
-    "link": "https://spaceflightnow.com/2026/11/03/nasas-neil-gehrels-swift-observatory-to-burn-up-this-week-after-two-decades-in-space/",
-    "title_en": "NASA’s Neil Gehrels Swift Observatory to burn up this week after more than two decades in space",
-    "summary_en": "As of Monday, the U.S. Space Force predicted Swift would re-enter Earth's atmosphere at approximately 3:30 a.m. EST Wednesday, Nov. 4, somewhere within about 21 degrees north or south of the equator — a band that is mostly ocean.",
-    "image": "",
-    "title_ru": "Обсерватория Свифта имени Нила Герельса НАСА сгорит на этой неделе после более чем двух десятилетий пребывания в космосе",
-    "summary_ru": "По состоянию на понедельник Космические силы США предсказали, что Свифт снова войдет в атмосферу Земли примерно в 3:30 утра по восточному стандартному времени в среду, 4 ноября, где-то в пределах 21 градуса к северу или югу от экватора — полосы, которая в основном состоит из океана.",
-    "title_ru_kids": "🚀 Обсерватория Свифта имени Нила Герельса НАСА сгорит на этой неделе после более чем двух десятилетий пребывания в космосе ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! По состоянию на понедельник Космические силы США предсказали, что Свифт снова войдет в атмосферу Земли примерно в 3:30 утра по восточному стандартному времени в среду, 4 ноября, где-то в пределах 21 градуса к северу или югу от экватора — полосы, которая в основном состоит из океана. 🪐 Как тебе такое космическое путешествие? В космосе абсолютная, полная тишина!",
-    "title_he": "מצפה הכוכבים ניל גרלס סוויפט של נאס\"א יישרף השבוע לאחר יותר משני עשורים בחלל",
-    "summary_he": "החל מיום שני, חיל החלל האמריקני חזה שסוויפט תיכנס שוב לאטמוספירה של כדור הארץ בסביבות השעה 3:30 לפנות בוקר EST יום רביעי, 4 בנובמבר, אי שם בטווח של כ-21 מעלות צפונית או מדרום לקו המשווה - רצועה שהיא ברובה אוקיינוס.",
-    "title_he_kids": "🚀 מצפה הכוכבים ניל גרלס סוויפט של נאס\"א יישרף השבוע לאחר יותר משני עשורים בחלל ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! החל מיום שני, חיל החלל האמריקני חזה שסוויפט תיכנס שוב לאטמוספירה של כדור הארץ בסביבות השעה 3:30 לפנות בוקר EST יום רביעי, 4 בנובמבר, אי שם בטווח של כ-21 מעלות צפונית או מדרום לקו המשווה - רצועה שהיא ברובה אוקיינוס. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 NASA’s Neil Gehrels Swift Observatory to burn up this week after more than two decades in space ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! As of Monday, the U.S. Space Force predicted Swift would re-enter Earth's atmosphere at approximately 3:30 a.m. EST Wednesday, Nov. 4, somewhere within about 21 degrees north or south of the equator — a band that is mostly ocean. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
     "id": 8
   }
 ]
