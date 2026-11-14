@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "name_en": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "window_start": "2026-11-13T17:54:00Z",
+    "rocket": "Vulcan VC6L",
+    "pad": "Space Launch Complex 41",
+    "location": "Cape Canaveral SFS, FL, USA"
+  },
+  {
+    "name_en": "Starship | Starlink Group 31-2 (Starship Flight 15)",
+    "window_start": "2026-11-13T22:45:00Z",
+    "rocket": "Starship V3",
+    "pad": "Orbital Launch Pad 2",
+    "location": "SpaceX Starbase, TX, USA"
+  },
+  {
+    "name_en": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
+    "window_start": "2026-11-14T00:50:00Z",
+    "rocket": "Soyuz 2.1b Fregat-M",
+    "pad": "Cosmodrome Site 1S",
+    "location": "Vostochny Cosmodrome, Siberia, Russian Federation"
+  },
+  {
+    "name_en": "Electron | The Mountain God Rises (iQPS Launch 10)",
+    "window_start": "2026-11-14T05:30:00Z",
+    "rocket": "Electron",
+    "pad": "Rocket Lab Launch Complex 1A",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | USSF-317",
+    "window_start": "2026-11-18T03:14:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
+  }
+]
