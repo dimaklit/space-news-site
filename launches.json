@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Electron | The Mountain God Rises (iQPS Launch 10)",
-    "window_start": "2026-11-14T05:30:00Z",
-    "rocket": "Electron",
-    "pad": "Rocket Lab Launch Complex 1A",
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
-  },
-  {
     "name_en": "Falcon 9 Block 5 | USSF-317",
     "window_start": "2026-11-18T03:14:00Z",
     "rocket": "Falcon 9 Block 5",
@@ -33,5 +26,12 @@
     "rocket": "Long March 8A",
     "pad": "Commercial LC-1",
     "location": "Wenchang Space Launch Site, People's Republic of China"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | NROL-136",
+    "window_start": "2026-11-21T12:30:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   }
 ]
