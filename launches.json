@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Starship | Starlink Group 31-2 (Starship Flight 15)",
-    "window_start": "2026-11-13T22:45:00Z",
-    "rocket": "Starship V3",
-    "pad": "Orbital Launch Pad 2",
-    "location": "SpaceX Starbase, TX, USA"
-  },
-  {
-    "name_en": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
-    "window_start": "2026-11-14T00:50:00Z",
-    "rocket": "Soyuz 2.1b Fregat-M",
-    "pad": "Cosmodrome Site 1S",
-    "location": "Vostochny Cosmodrome, Siberia, Russian Federation"
-  },
-  {
     "name_en": "Electron | The Mountain God Rises (iQPS Launch 10)",
     "window_start": "2026-11-14T05:30:00Z",
     "rocket": "Electron",
@@ -33,5 +19,19 @@
     "rocket": "Falcon 9 Block 5",
     "pad": "Space Launch Complex 4E",
     "location": "Vandenberg SFB, CA, USA"
+  },
+  {
+    "name_en": "Long March 2D | Unknown Payload",
+    "window_start": "2026-11-18T22:43:00Z",
+    "rocket": "Long March 2D",
+    "pad": "Launch Complex 9",
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Long March 8A | SatNet LEO Group TBD?",
+    "window_start": "2026-11-20T11:00:00Z",
+    "rocket": "Long March 8A",
+    "pad": "Commercial LC-1",
+    "location": "Wenchang Space Launch Site, People's Republic of China"
   }
 ]
