@@ -1,17 +1,10 @@
 [
   {
-    "name_en": "Falcon 9 Block 5 | USSF-317",
-    "window_start": "2026-11-18T03:14:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
-    "name_en": "Falcon 9 Block 5 | USSF-266",
-    "window_start": "2026-11-18T16:49:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
+    "name_en": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "window_start": "2026-11-15T17:11:30Z",
+    "rocket": "Vulcan VC6L",
+    "pad": "Space Launch Complex 41",
+    "location": "Cape Canaveral SFS, FL, USA"
   },
   {
     "name_en": "Long March 2D | Unknown Payload",
@@ -19,6 +12,13 @@
     "rocket": "Long March 2D",
     "pad": "Launch Complex 9",
     "location": "Taiyuan Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Falcon 9 Block 5 | USSF-317",
+    "window_start": "2026-11-19T03:00:00Z",
+    "rocket": "Falcon 9 Block 5",
+    "pad": "Space Launch Complex 4E",
+    "location": "Vandenberg SFB, CA, USA"
   },
   {
     "name_en": "Long March 8A | SatNet LEO Group TBD?",
