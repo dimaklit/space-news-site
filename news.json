@@ -1,6 +1,26 @@
 [
   {
     "source": "Spaceflight Now",
+    "date_parsed": "2026-11-18T17:46:40",
+    "date_display": "Wed, 18 Nov 2026 17:46:40 +0000",
+    "link": "https://spaceflightnow.com/2026/11/18/nasas-voyager-1-is-one-light-day-from-earth/",
+    "title_en": "NASA’s Voyager 1 is one light-day from Earth",
+    "summary_en": "NASA's Voyager 1 spacecraft became the first human-made object to reach a distance of one light-day from Earth early Wednesday, crossing the threshold at 5:16:07 a.m. EST (10:16:07 UTC) as it sped away from the sun at nearly 38,000 mph.",
+    "image": "",
+    "title_ru": "NASA’s Voyager 1 is one light-day from Earth",
+    "summary_ru": "NASA's Voyager 1 spacecraft became the first human-made object to reach a distance of one light-day from Earth early Wednesday, crossing the threshold at 5:16:07 a.m. EST (10:16:07 UTC) as it sped away from the sun at nearly 38,000 mph.",
+    "title_ru_kids": "🚀 NASA’s Voyager 1 is one light-day from Earth ✨",
+    "summary_ru_kids": "🌟 Смотри, что произошло! NASA's Voyager 1 spacecraft became the first human-made object to reach a distance of one light-day from Earth early Wednesday, crossing the threshold at 5:16:07 a.m. EST (10:16:07 UTC) as it sped away from the sun at nearly 38,000 mph. 🌍 Наша планета из космоса выглядит волшебно. Поделись этой красотой! 📸 В космосе абсолютная, полная тишина!",
+    "title_he": "NASA’s Voyager 1 is one light-day from Earth",
+    "summary_he": "NASA's Voyager 1 spacecraft became the first human-made object to reach a distance of one light-day from Earth early Wednesday, crossing the threshold at 5:16:07 a.m. EST (10:16:07 UTC) as it sped away from the sun at nearly 38,000 mph.",
+    "title_he_kids": "🚀 NASA’s Voyager 1 is one light-day from Earth ✨",
+    "summary_he_kids": "🌟 תראו מה קרה! NASA's Voyager 1 spacecraft became the first human-made object to reach a distance of one light-day from Earth early Wednesday, crossing the threshold at 5:16:07 a.m. EST (10:16:07 UTC) as it sped away from the sun at nearly 38,000 mph. 🌍 כדור הארץ נראה פשוט קסום מהחלל. תראה איזה יופי! 📸 דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
+    "title_en_kids": "🚀 NASA’s Voyager 1 is one light-day from Earth ✨",
+    "summary_en_kids": "🌟 Check out this cosmic event! NASA's Voyager 1 spacecraft became the first human-made object to reach a distance of one light-day from Earth early Wednesday, crossing the threshold at 5:16:07 a.m. EST (10:16:07 UTC) as it sped away from the sun at nearly 38,000 mph. 🌍 Our planet looks absolutely magical from orbit. Truly breathtaking! 📸 Fun fact: space is completely, absolutely silent!",
+    "id": 1
+  },
+  {
+    "source": "Spaceflight Now",
     "date_parsed": "2026-11-15T19:16:59",
     "date_display": "Sun, 15 Nov 2026 19:16:59 +0000",
     "link": "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
@@ -17,7 +37,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! In a major setback for United Launch Alliance, the company's new heavy-lift Vulcan rocket carrying a batch of Amazon Leo internet satellites, malfunctioned during the climb to space Sunday, dooming the payload and throwing a costly wrench into the launch schedule of both compa... 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ULA suffers first outright failure with loss of Vulcan rocket carrying 40 Amazon Leo satellites ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! In a major setback for United Launch Alliance, the company's new heavy-lift Vulcan rocket carrying a batch of Amazon Leo internet satellites, malfunctioned during the climb to space Sunday, dooming the payload and throwing a costly wrench into the launch schedule of both compa... 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 1
+    "id": 2
   },
   {
     "source": "Spaceflight Now",
@@ -37,7 +57,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! The catch occurred at 3:20 p.m. CST (2120 UTC) after Ship 42 reentered the atmosphere over the Pacific Ocean and made a supersonic flight across Mexico and the South West United States. 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Starship returns to Starbase and a successful tower catch ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The catch occurred at 3:20 p.m. CST (2120 UTC) after Ship 42 reentered the atmosphere over the Pacific Ocean and made a supersonic flight across Mexico and the South West United States. 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 2
+    "id": 3
   },
   {
     "source": "Spaceflight Now",
@@ -57,7 +77,7 @@
     "summary_he_kids": "🛰️ שימו לב, מכשיר הלוויין מעדכן! Liftoff from Space Launch Complex 41 at Cape Canaveral Space Force Station is now scheduled for 12:11 p.m. EST (1711 UTC) on Sunday. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 ULA delays to Sunday Vulcan rocket launch of 40 Leo satellites for Amazon ✨",
     "summary_en_kids": "🛰️ Space radar intercept successfully decoded! Liftoff from Space Launch Complex 41 at Cape Canaveral Space Force Station is now scheduled for 12:11 p.m. EST (1711 UTC) on Sunday. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ A real space suit weighs as much as a huge dog!",
-    "id": 3
+    "id": 4
   },
   {
     "source": "Spaceflight Now",
@@ -77,7 +97,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! The company behind the Bluebird direct-to-cell satellite constellation said the addition of its own heavy-lift rocket is the final piece of its plans for vertical integration. 🪐 מה דעתך על המסע הזה? חליפת חלל שוקלת כמו כלב ענקי!",
     "title_en_kids": "🚀 AST SpaceMobile unveils $1.3 billion engine deal with Firefly Aerospace to power new heavy-lift rocket ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The company behind the Bluebird direct-to-cell satellite constellation said the addition of its own heavy-lift rocket is the final piece of its plans for vertical integration. 🪐 What do you think about this awesome space journey? A real space suit weighs as much as a huge dog!",
-    "id": 4
+    "id": 5
   },
   {
     "source": "Spaceflight Now",
@@ -97,7 +117,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! Liftoff from pad 4E at Vandenberg Space Force Base occurred at 4:48 p.m. PST (7:48 p.m. EST / 0048 UTC). The mission is thought to be carrying satellites based on SpaceX’s Starshield platform. 🚀 הספירה לאחור הסתיימה, טסים! היית רוצה להיות המפקד של החללית הזו? ☄️ המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
     "title_en_kids": "🚀 Falcon 9 launches from California on classified mission for U.S. Space Force ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! Liftoff from pad 4E at Vandenberg Space Force Base occurred at 4:48 p.m. PST (7:48 p.m. EST / 0048 UTC). The mission is thought to be carrying satellites based on SpaceX’s Starshield platform. 🚀 Liftoff confirmed! Would you like to be the commander of this spaceship? ☄️ 'Cosmos' in ancient Greek actually means 'order'!",
-    "id": 5
+    "id": 6
   },
   {
     "source": "Spaceflight Now",
@@ -117,7 +137,7 @@
     "summary_he_kids": "🌟 תראו מה קרה! The announcement was made during an invite-only event ahead of the weekend’s, NASA-backed Max Power airshow at the Kennedy Space Center. 🪐 מה דעתך על המסע הזה? דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 Blue Origin reveals new kick stage, engines for its New Glenn rockets ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! The announcement was made during an invite-only event ahead of the weekend’s, NASA-backed Max Power airshow at the Kennedy Space Center. 🪐 What do you think about this awesome space journey? Fun fact: space is completely, absolutely silent!",
-    "id": 6
+    "id": 7
   },
   {
     "source": "Spaceflight Now",
@@ -137,26 +157,6 @@
     "summary_he_kids": "🌟 תראו מה קרה! During Thursday’s spacewalk, the astronauts will install the eighth and final International Space Station Roll-Out Solar Array, or IROSA. ☀️ וואו, השמש ממש לוהטת היום! מגיני החללית עובדים בעוצמה מלאה! 🛡️ דרך אгב, בחלל יש שקט מוחלט לחלוטין!",
     "title_en_kids": "🚀 As it happened: spacewalkers install space station’s eighth and final upgraded solar array ✨",
     "summary_en_kids": "🌟 Check out this cosmic event! During Thursday’s spacewalk, the astronauts will install the eighth and final International Space Station Roll-Out Solar Array, or IROSA. ☀️ Wow, the Sun is hyperactive today! Spaceship radiation shields at 100%! 🛡️ Fun fact: space is completely, absolutely silent!",
-    "id": 7
-  },
-  {
-    "source": "Spaceflight Now",
-    "date_parsed": "2026-11-05T22:28:40",
-    "date_display": "Thu, 05 Nov 2026 22:28:40 +0000",
-    "link": "https://spaceflightnow.com/2026/11/05/spacewalkers-complete-five-year-effort-to-upgrade-space-station-power-supply/",
-    "title_en": "Spacewalkers complete five-year effort to upgrade space station power supply",
-    "summary_en": "Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ...",
-    "image": "",
-    "title_ru": "Spacewalkers complete five-year effort to upgrade space station power supply",
-    "summary_ru": "Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ...",
-    "title_ru_kids": "🚀 Spacewalkers complete five-year effort to upgrade space station power supply ✨",
-    "summary_ru_kids": "🌟 Смотри, что произошло! Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ... 🪐 Как тебе такое космическое путешествие? Космос на древнегреческом означает 'порядок'!",
-    "title_he": "Spacewalkers complete five-year effort to upgrade space station power supply",
-    "summary_he": "Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ...",
-    "title_he_kids": "🚀 Spacewalkers complete five-year effort to upgrade space station power supply ✨",
-    "summary_he_kids": "🌟 תראו מה קרה! Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ... 🪐 מה דעתך על המסע הזה? המילה 'קוסמוס' ביוונית עתיקה משמעותה 'סדר'!",
-    "title_en_kids": "🚀 Spacewalkers complete five-year effort to upgrade space station power supply ✨",
-    "summary_en_kids": "🌟 Check out this cosmic event! Spacewalking astronauts Joshua Kutryk and Anil Menon unfurled the last of eight new solar arrays outside the International Space Station Thursday, working through an unexpected power snag to complete a five-year upgrade designed to keep the orbiting laboratory running through ... 🪐 What do you think about this awesome space journey? 'Cosmos' in ancient Greek actually means 'order'!",
     "id": 8
   }
 ]
