@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-    "window_start": "2026-11-23T11:09:00Z",
-    "rocket": "Ariane 64 Block 2",
-    "pad": "Ariane Launch Area 4",
-    "location": "Guiana Space Centre, French Guiana"
-  },
-  {
     "name_en": "Soyuz 2.1b | Progress MS-36 (97P)",
     "window_start": "2026-11-24T10:13:00Z",
     "rocket": "Soyuz 2.1b",
@@ -33,5 +26,12 @@
     "rocket": "Long March 2D",
     "pad": "Launch Complex 3 (LC-3/LA-1)",
     "location": "Xichang Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+    "window_start": "2026-11-27T00:00:00Z",
+    "rocket": "Electron",
+    "pad": "Unknown Pad",
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
   }
 ]
