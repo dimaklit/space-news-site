@@ -1,19 +1,5 @@
 [
   {
-    "name_en": "Soyuz 2.1b | Progress MS-36 (97P)",
-    "window_start": "2026-11-24T10:13:00Z",
-    "rocket": "Soyuz 2.1b",
-    "pad": "31/6",
-    "location": "Baikonur Cosmodrome, Republic of Kazakhstan"
-  },
-  {
-    "name_en": "Falcon 9 Block 5 | USSF-266",
-    "window_start": "2026-11-24T15:55:00Z",
-    "rocket": "Falcon 9 Block 5",
-    "pad": "Space Launch Complex 4E",
-    "location": "Vandenberg SFB, CA, USA"
-  },
-  {
     "name_en": "Long March 2F/G | Shenzhou 24",
     "window_start": "2026-11-25T00:08:00Z",
     "rocket": "Long March 2F/G",
@@ -33,5 +19,19 @@
     "rocket": "Electron",
     "pad": "Unknown Pad",
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand"
+  },
+  {
+    "name_en": "Long March 6A | Unknown Payload",
+    "window_start": "2026-11-27T12:53:00Z",
+    "rocket": "Long March 6A",
+    "pad": "Launch Complex 9A",
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
+  },
+  {
+    "name_en": "Kinetica 1 | Unknown Payload",
+    "window_start": "2026-11-29T01:00:00Z",
+    "rocket": "Kinetica 1",
+    "pad": "South China Sea (launch location 3)",
+    "location": "Haiyang Oriental Spaceport"
   }
 ]
