@@ -1,12 +1,5 @@
 [
   {
-    "name_en": "Long March 2F/G | Shenzhou 24",
-    "window_start": "2026-11-25T00:08:00Z",
-    "rocket": "Long March 2F/G",
-    "pad": "Launch Area 91 (SLS-1 / 921)",
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China"
-  },
-  {
     "name_en": "Long March 2D | Unknown Payload",
     "window_start": "2026-11-26T09:30:00Z",
     "rocket": "Long March 2D",
@@ -33,5 +26,12 @@
     "rocket": "Kinetica 1",
     "pad": "South China Sea (launch location 3)",
     "location": "Haiyang Oriental Spaceport"
+  },
+  {
+    "name_en": "Long March 6C | Unknown Payload",
+    "window_start": "2026-11-29T03:46:00Z",
+    "rocket": "Long March 6C",
+    "pad": "Launch Complex 9A",
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China"
   }
 ]
